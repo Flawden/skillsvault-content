@@ -1,0 +1,38 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_V_BLOCKS_21_25_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "V",
+  "blocks": [
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "checks": {
+    "torque_rotation_separated": true,
+    "boundary_conditions_explicit": true,
+    "rotation_resistant_not_zero_rotation": true,
+    "product_system_response_separated": true,
+    "swivel_not_universal": true,
+    "temporary_working_swivel_separated": true,
+    "installation_twist_models_present": true,
+    "old_new_twist_transfer_present": true,
+    "test_to_field_transfer_guard": true,
+    "natural_experiment_authority_guard": true,
+    "new_universal_swivel_thresholds": false,
+    "iso_21669_current_verified_2026_08_31": true,
+    "iso_16841_current_verified_2026_08_31": true,
+    "iso_4309_published_current_verified_2026_08_31": true,
+    "iso_cd_4309_not_current_guard": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part VI / Blocks 26–30 — многослойный барабан как нелинейно меняющаяся система",
+  "sha256_lesson": "6B0F8F4574152B79A916BAE86F7303299C37E8721DDC6BAE4ECEB310325C4180",
+  "sha256_source_map": "27616DE79D1773E281CC928AEE5191774C8AFB1DF2D4D8CAD156C0CC56CAA1A4"
+}
