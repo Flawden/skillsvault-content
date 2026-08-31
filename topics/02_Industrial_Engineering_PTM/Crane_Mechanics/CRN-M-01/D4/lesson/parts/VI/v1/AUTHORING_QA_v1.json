@@ -30,7 +30,7 @@
     "iso_16625_current_verified_2026_08_31": true,
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
-    "red_team_completed": false,
+    "red_team_completed": true,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part VII / Blocks 31–35 — продвинутая механика цепей и цепного колеса",
@@ -42,5 +42,12 @@
     "status": "PASS_WITH_CORRECTIONS_APPLIED",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_NO_TEXT_CHANGE",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
   }
 }

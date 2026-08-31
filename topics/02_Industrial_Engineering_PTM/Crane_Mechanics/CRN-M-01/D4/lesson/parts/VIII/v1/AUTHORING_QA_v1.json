@@ -33,11 +33,11 @@
     "fnp_461_revision_2026_04_16_verified": true,
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
-    "red_team_completed": false,
+    "red_team_completed": true,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review",
-  "sha256_lesson": "BCB119A8E68D2605CF718F159FB5F4DFEECEBA806EAEBED15CDFDC43E41914C8",
+  "sha256_lesson": "C19A74DFEE4A4BA6BFF7F29B0AF67712ED8F54093DA5959448465026936B417D",
   "sha256_source_map": "2CC28018C84DAC5C138AD2A942A0BD51B49737B9878497E18F8050A362941D66",
   "technical_editorial": {
     "pass": "I",
@@ -45,5 +45,12 @@
     "status": "PASS_NO_TEXT_CHANGE",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
   }
 }

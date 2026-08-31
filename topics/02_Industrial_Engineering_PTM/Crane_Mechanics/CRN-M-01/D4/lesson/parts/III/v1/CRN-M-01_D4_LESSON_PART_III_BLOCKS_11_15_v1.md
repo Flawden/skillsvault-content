@@ -823,6 +823,25 @@ M4 — валидированная специализированная / ре�
 
 Это учебная классификация, не нормативная.
 
+И сразу Red-Team guard:
+
+```text
+M4
+≠
+REMAINING-LIFE PERMISSION
+```
+
+Даже достаточно глубокая и валидированная модель сама по себе не закрывает:
+
+- current state объекта;
+- реальную local history;
+- future duty scenario;
+- endpoint / criterion;
+- uncertainty;
+- formal authority.
+
+Эти слои разбираются в Part IV.
+
 Главный вопрос:
 
 > **когда переходить выше?**
@@ -1028,7 +1047,7 @@ MODEL FORM UNCERTAINTY
 | Совместим ли след с тяжёлым контактом? | M1 | нужно разделить локальные contact states |
 | Что сильнее влияет на результат? | M2 + sensitivity | есть нелинейное взаимодействие |
 | Как эволюционирует локальный fretting wear? | M3/M4 | только при validated model |
-| Сколько осталось циклов? | M4 | только source-bound validated life model |
+| Сколько осталось циклов? | M4 + evidence chain Part IV | validated life model + current state + future scenario + endpoint + uncertainty |
 
 Последняя строка особенно важна.
 

@@ -12,13 +12,13 @@ D3 ✅ FROZEN v1
 D4
 ├─ Architecture ✅
 ├─ G1–G8 ✅
-├─ SOURCE-GATE PROGRAM ✅ COMPLETE
-└─ Lesson ✅ AUTHORING COMPLETE — 45 / 45 blocks
+├─ SOURCE-GATE PROGRAM ✅
+└─ Lesson ✅ AUTHORING COMPLETE — 45/45
 
 D4 post-authoring pipeline
 ├─ Technical Editorial ✅ Pass I
-├─ Red Team ← NEXT
-├─ Reader Experience Pass
+├─ Red Team ✅ Pass I
+├─ Reader Experience Pass ← NEXT
 ├─ Practice
 ├─ Practice Reasoning
 ├─ Expected Result
@@ -31,32 +31,56 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Technical Editorial Pass I
+## Red Team Pass I
 
 Decision:
 
 `PASS WITH CORRECTIONS APPLIED`
 
-Corrections applied:
-- Miner `D=1` universal-threshold guard;
-- pretension source-boundary tightening;
-- D4 ladder cross-map;
-- Part IX model-count wording;
-- technical review / Technical Editorial terminology split;
-- handoff wording cleanup.
-
-## D4 Lesson completed structure
+Key adversarial guards:
 
 ```text
-Part I     Blocks 1–5    ✅
-Part II    Blocks 6–10   ✅
-Part III   Blocks 11–15  ✅
-Part IV    Blocks 16–20  ✅ EDITED
-Part V     Blocks 21–25  ✅
-Part VI    Blocks 26–30  ✅ EDITED
-Part VII   Blocks 31–35  ✅
-Part VIII  Blocks 36–40  ✅
-Part IX    Blocks 41–45  ✅ EDITED
+CURRENT
+≠
+AUTOMATIC LEGAL APPLICABILITY
+
+INSUFFICIENT DATA
+≠
+PERMISSION TO CONTINUE
+
+REACHED C2
+≠
+COMPATIBLE
+
+M4
+≠
+REMAINING-LIFE PERMISSION
+
+MINER EQUATION
+≠
+APPROVED ROPE-LIFE METHOD
+
+CAUSE NOT KNOWN
+≠
+NO ACTION REQUIRED
+
+AFTER REPLACEMENT
+≠
+CAUSED BY REPLACEMENT
+```
+
+## Corrected parts
+
+```text
+Part I     ✅ RT
+Part II    ✅ RT
+Part III   ✅ RT
+Part IV    ✅ RT
+Part V     ✅ RT
+Part VI    ✅ no text change
+Part VII   ✅ RT
+Part VIII  ✅ RT
+Part IX    ✅ RT
 ```
 
 ## После CRN-M-01

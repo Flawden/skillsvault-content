@@ -27,11 +27,11 @@
     "current_iso_2408_verified_2026_08_31": true,
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
-    "red_team_completed": false,
+    "red_team_completed": true,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part III / Blocks 11–15 — продвинутая механика изгиба, контакта и трибологии",
-  "sha256_lesson": "F1DDFE1ABFB83F5C5F458F259E8512F04795345A66F5B1A1423079D242AA6ECD",
+  "sha256_lesson": "51017AA8778254750117A277098EBBE5808BA0BE33C66108C86876090428ED30",
   "sha256_source_map": "3EE01322533759629C8C2C06A349AAFEBE2B79FE4A7BD9FBD04E66E4C0F4B393",
   "technical_editorial": {
     "pass": "I",
@@ -39,5 +39,12 @@
     "status": "PASS_NO_TEXT_CHANGE",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
   }
 }

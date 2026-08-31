@@ -27,11 +27,11 @@
     "gost_33172_current_verified_2026_08_31": true,
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
-    "red_team_completed": false,
+    "red_team_completed": true,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part VIII / Blocks 36–40 — специализированный контроль и неопределённость",
-  "sha256_lesson": "A41048244B3F36759A8E61F044B0EEDE126FF8BF486C91E408FD22EF7647AF09",
+  "sha256_lesson": "EC1E09F7BF3286533163186A7BB792573615A156539FABFE434745577963A506",
   "sha256_source_map": "5044325D76136944596C96350DFCD07E089C7DB79E62C123AFCCAF36880646DE",
   "technical_editorial": {
     "pass": "I",
@@ -39,5 +39,12 @@
     "status": "PASS_NO_TEXT_CHANGE",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
   }
 }

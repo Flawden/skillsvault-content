@@ -815,7 +815,7 @@ C0 — это начало.
 
 Поэтому C1 не равен system compatibility.
 
-## 9.3. C2 — системная совместимость
+## 9.3. C2 — системный compatibility review
 
 Теперь подключаем:
 
@@ -834,9 +834,26 @@ C0 — это начало.
 
 > способен ли этот продукт корректно работать в существующей системе с учётом критических взаимодействий?
 
-C2 — полноценный engineering compatibility review.
+C2 — полноценный engineering compatibility review по глубине рассмотрения.
 
-Но он всё ещё может содержать открытый source-bound расчёт.
+Но это **не verdict**.
+
+```text
+REACHED C2
+≠
+COMPATIBLE
+```
+
+После C2 результат всё ещё может быть:
+
+- `COMPATIBLE`;
+- `CONDITIONALLY COMPATIBLE`;
+- `NOT DEMONSTRATED`;
+- `INCOMPATIBILITY IDENTIFIED`.
+
+То есть `C0–C4` описывает архитектуру / глубину evidence и границу полномочий, а не автоматическую оценку «лучше / хуже».
+
+Кроме того, review всё ещё может содержать открытый source-bound расчёт.
 
 ## 9.4. C3 — источникно подтверждённый design check
 
@@ -928,6 +945,16 @@ NOT DEMONSTRATED
 ### NOT DEMONSTRATED
 
 Недостаточно данных для доказательства совместимости.
+
+И отдельно:
+
+```text
+NOT DEMONSTRATED
+≠
+PERMISSION TO INSTALL / CONTINUE
+```
+
+Это статус доказанности, а не эксплуатационное разрешение. Практическое disposition определяется применимой процедурой, документацией и уполномоченным решением.
 
 ### INCOMPATIBILITY IDENTIFIED
 

@@ -1,0 +1,24 @@
+{
+  "topic": "CRN-M-01",
+  "depth": "D4",
+  "stage": "RED_TEAM",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "findings_fixed": 12,
+    "corrected_parts": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VII",
+      "VIII",
+      "IX"
+    ]
+  },
+  "reader_experience_pass": "NEXT",
+  "next": "CRN-M-01 / D4 READER EXPERIENCE PASS / Pass I — narrative flow, cognitive load, motivation and comprehension without reducing technical depth"
+}

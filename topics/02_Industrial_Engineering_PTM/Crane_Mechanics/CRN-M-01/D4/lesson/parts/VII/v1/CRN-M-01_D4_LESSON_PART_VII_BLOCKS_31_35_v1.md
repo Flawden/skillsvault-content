@@ -99,6 +99,16 @@ DIMENSIONAL TOLERANCE
 
 Она участвует в кинематической паре.
 
+Но:
+
+```text
+FINE-TOLERANCE / CALIBRATED PRODUCT FAMILY
+≠
+SPECIFIC WHEEL COMPATIBILITY PROVED
+```
+
+Даже правильный тип цепи ещё нужно сопоставить с конкретным механизмом, колесом, документацией изготовителя и применимой процедурой замены.
+
 ---
 
 ## 31.2. Почему цепь для стропа не обязана подходить в таль
@@ -420,8 +430,13 @@ VISUAL / LOCAL CONDITION
 Выход:
 
 ```text
-STATE / SERVICEABILITY DECISION
+STATE EVIDENCE
+↓
+SERVICEABILITY / DISPOSITION
+по применимой процедуре и в пределах полномочий
 ```
+
+Здесь тоже нельзя перепутать техническое наблюдение с полномочием на redesign или формальное разрешение.
 
 ---
 
