@@ -1,0 +1,37 @@
+{
+  "freeze_id": "CRN-M-01-D2-FREEZE-v1",
+  "topic_id": "CRN-M-01",
+  "depth_level": "D2",
+  "status": "CONTENT_FROZEN",
+  "lesson_editorial": "PASS",
+  "red_team": "PASS",
+  "practice": "PASS",
+  "practice_reasoning": "PASS",
+  "expected_result": "PASS",
+  "verification_rubric": "PASS",
+  "final_alignment": "PASS",
+  "normative_source_gate": "PASS_WITH_EXPLICIT_SCOPE",
+  "measurement_source_gate": "PASS_WITH_SCOPE_GUARDS",
+  "d2_d3_boundary": "PASS",
+  "safety_authority_boundary": "PASS",
+  "canonical_vault_modified": false,
+  "canonical_integration_allowed_now": false,
+  "d3_authoring_allowed": true,
+  "core_sha256": {
+    "LESSON.md": "74ECE099EDC406B2812E646B30DF507820CAAF23DA627AAC32B276F38804D303",
+    "PRACTICE.md": "D5D5028C11F50224A434E80DA46ABCCF95675AF8605F8DB92D032EF947C97332",
+    "PRACTICE_REASONING.md": "A4634C0553035D7AFEAE4C0D6BCFF367E98DBC48AD9BDF787C31180A875DDA0A",
+    "EXPECTED_RESULT.md": "C109CE85F9CBE6B57330278BC9790E7B1E7E2D6A189324694940DD7AE8042616",
+    "VERIFICATION_RUBRIC.md": "3D5137E1E409D36F3C73772BE27509BD62281EA5D396AA482C362A0F9D6A293F",
+    "VERIFICATION_RUBRIC.json": "6D1BDD43ABA4282C27AF68F23E4C05AD041956BD4810F47B977AA76A713D6A0D",
+    "FINAL_ALIGNMENT.md": "FA0B15CE2244AA1968B3BCC32D978100245C904CA469399F9359CBFDFB7CDCA6",
+    "SOURCE_DEPENDENCIES.md": "6210E2F950D4313ECA9E70F26758C422210B0ED40848F1382B6A6167066AABC1"
+  },
+  "review_required": [
+    "RR-1",
+    "RR-2",
+    "RR-3",
+    "RR-4",
+    "RR-5"
+  ]
+}

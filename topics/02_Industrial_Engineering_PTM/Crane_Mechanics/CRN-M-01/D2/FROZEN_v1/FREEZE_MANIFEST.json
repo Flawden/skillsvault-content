@@ -1,0 +1,29 @@
+{
+  "freeze_id": "CRN-M-01-D2-FREEZE-v1",
+  "topic_id": "CRN-M-01",
+  "topic_title": "Канаты и цепи",
+  "depth_level": "D2",
+  "status": "CONTENT_FROZEN",
+  "canonical_vault_modified": false,
+  "schema_integration_blocked": true,
+  "verification_ledger_integration_blocked": true,
+  "next_content_depth": "D3",
+  "frozen_core": [
+    "LESSON.md",
+    "PRACTICE.md",
+    "PRACTICE_REASONING.md",
+    "EXPECTED_RESULT.md",
+    "VERIFICATION_RUBRIC.md",
+    "VERIFICATION_RUBRIC.json",
+    "FINAL_ALIGNMENT.md",
+    "SOURCE_DEPENDENCIES.md"
+  ],
+  "supporting_sources": [
+    "sources/MEASUREMENT_SOURCE_METHOD_GATE.md",
+    "sources/NORMATIVE_SOURCE_GATE.md"
+  ],
+  "integration_requests": [
+    "integration/SCHEMA_CHANGE_REQUEST_D1-D4.md",
+    "integration/SCHEMA_CHANGE_REQUEST_VERIFICATION.md"
+  ]
+}

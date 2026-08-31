@@ -1,0 +1,159 @@
+{
+  "rubric_id": "CRN-M-01-D2-VERIFICATION-v1",
+  "topic_id": "CRN-M-01",
+  "depth_level": "D2",
+  "score_scale": {
+    "0": "not_demonstrated_or_wrong",
+    "1": "partial",
+    "2": "d2_pass",
+    "3": "strong_d2"
+  },
+  "families": {
+    "A": {
+      "name": "identification_and_compatibility",
+      "criteria": [
+        "A1",
+        "A2",
+        "A3"
+      ]
+    },
+    "B": {
+      "name": "inspection_architecture",
+      "criteria": [
+        "B1",
+        "B2",
+        "B3"
+      ]
+    },
+    "C": {
+      "name": "measurement_and_data_quality",
+      "criteria": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    },
+    "D": {
+      "name": "defect_description",
+      "criteria": [
+        "D1",
+        "D2"
+      ]
+    },
+    "E": {
+      "name": "causal_reasoning",
+      "criteria": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "F": {
+      "name": "normative_applicability",
+      "criteria": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    "G": {
+      "name": "uncertainty_discipline",
+      "criteria": [
+        "G1",
+        "G2",
+        "G3"
+      ]
+    },
+    "H": {
+      "name": "documentation_and_handoff",
+      "criteria": [
+        "H1",
+        "H2",
+        "H3"
+      ]
+    },
+    "I": {
+      "name": "competence_boundary",
+      "criteria": [
+        "I1",
+        "I2"
+      ]
+    }
+  },
+  "mandatory_criteria_for_v3_v4": [
+    "A1",
+    "A3",
+    "B2",
+    "C2",
+    "C3",
+    "D1",
+    "E1",
+    "E3",
+    "F1",
+    "F2",
+    "F3",
+    "G1",
+    "G2",
+    "G3",
+    "H1",
+    "H3",
+    "I1"
+  ],
+  "critical_fails": [
+    "CF-01",
+    "CF-02",
+    "CF-03",
+    "CF-04",
+    "CF-05",
+    "CF-06",
+    "CF-07",
+    "CF-08",
+    "CF-09",
+    "CF-10",
+    "CF-11",
+    "CF-12",
+    "CF-13",
+    "CF-14",
+    "CF-15"
+  ],
+  "verification_rules": {
+    "V2": {
+      "requires_practice_cases": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "requires_final_case": true,
+      "requires_required_calculations": true,
+      "requires_final_handoff": true,
+      "independent_quality_review_required": false
+    },
+    "V3": {
+      "verifier_type": "AI",
+      "no_critical_fails": true,
+      "mandatory_criteria_min": 2,
+      "family_average_min": 2.0,
+      "calculations_verified": true,
+      "final_case_full_cycle": true
+    },
+    "V4": {
+      "verifier_type": "HUMAN_OR_EXPERT",
+      "no_critical_fails": true,
+      "mandatory_criteria_min": 2,
+      "family_average_min": 2.0,
+      "same_d2_threshold_as_v3": true
+    }
+  },
+  "allowed_review_statuses": [
+    "PASS",
+    "FAIL",
+    "REVIEW_INCONCLUSIVE"
+  ],
+  "canonical_vault_modified": false
+}
