@@ -1,0 +1,10 @@
+{
+  "bundle_id": "SkillsVault-CONTENT-ROADMAP-READER-EXPERIENCE-UPDATE-v1",
+  "date": "2026-08-31",
+  "status": "PASS",
+  "reader_experience_pass_required": true,
+  "position": "AFTER_RED_TEAM_BEFORE_PRACTICE",
+  "frozen_d3_modified": false,
+  "next": "CRN-M-01_D4_G3_ADVANCED_MECHANICS",
+  "roadmap_sha256": "3457A082ECA37587A1ADFFF836DDB45E1A1F05652DB18222B54AADD36E553029"
+}

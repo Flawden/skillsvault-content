@@ -1,0 +1,32 @@
+{
+  "bundle_id": "SkillsVault-CRN-M-01-D3-CALIBRATION-CHECKPOINT-v1",
+  "date": "2026-08-31",
+  "current_state": {
+    "CRN-M-01_D1": "FROZEN",
+    "CRN-M-01_D2": "FROZEN",
+    "CRN-M-01_D3": "FROZEN",
+    "CRN-M-01_D4": "NOT_STARTED"
+  },
+  "checkpoint_result": "PASS",
+  "standardized_system_elements": [
+    "D_R_V_model",
+    "evidence_semantics",
+    "learning_philosophy",
+    "freeze_protocol",
+    "ru_first"
+  ],
+  "mandatory_per_depth": [
+    "competency_contract",
+    "depth_boundary",
+    "source_audit",
+    "lesson",
+    "practice",
+    "expected_result",
+    "verification_rubric",
+    "alignment",
+    "freeze_gate"
+  ],
+  "next": "CRN-M-01_D4_ARCHITECTURE",
+  "roadmap_sha256": "0CF3566D2FC266D8B2C5793F1669DA745FB90CB26DAF29A1D1C40F0F5945DA56",
+  "checkpoint_sha256": "2815F87A924A6AAF9D1E5A73FC261C7949C57D663420B23626A30F422ABA1711"
+}

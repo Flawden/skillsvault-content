@@ -1,0 +1,23 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Local release packages
+*.zip
+*.7z
+*.rar
+
+# Python
+__pycache__/
+*.pyc

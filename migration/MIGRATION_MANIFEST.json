@@ -1,0 +1,31 @@
+{
+  "migration_id": "SkillsVault-GitHub-Migration-v1",
+  "date": "2026-08-31",
+  "repo_suggested_name": "skillsvault-content",
+  "mode": "PUBLIC_READABLE_CANONICAL_CONTENT_REPOSITORY",
+  "included": {
+    "D1": "authoritative freeze bundle v1 extracted",
+    "D2": "authoritative freeze bundle v1 extracted",
+    "D3": "authoritative freeze bundle v1 copied",
+    "D4": "architecture + gates G1–G7",
+    "system": [
+      "roadmaps",
+      "D/R/V verification model",
+      "Reader Experience Pass",
+      "D3 calibration checkpoint",
+      "schema change requests"
+    ]
+  },
+  "not_included_as_raw_sources": [
+    "paid standards",
+    "copyrighted source PDFs",
+    "internal company documents",
+    "secrets/tokens"
+  ],
+  "next_after_push": "D4-G8",
+  "recommended_freeze_tags": [
+    "crn-m-01-d1-v1",
+    "crn-m-01-d2-v1",
+    "crn-m-01-d3-v1"
+  ]
+}
