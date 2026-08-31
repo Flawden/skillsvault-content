@@ -1,0 +1,44 @@
+{
+  "base_registry_next_source_number": 556,
+  "target_registry_next_source_number": 557,
+  "semantic_operations": [
+    {
+      "op": "add_topic_to_source",
+      "source_id": "SRC-000393",
+      "topic_id": "CRN-M-01",
+      "notes": "Insert once; keep topics unique."
+    },
+    {
+      "op": "append_source",
+      "source": {
+        "id": "SRC-000556",
+        "title": "ISO 7592:1983 — Calibrated round steel link lifting chains — Guidelines to proper use and maintenance",
+        "organization": "ISO",
+        "type": "standard",
+        "language": "EN",
+        "level": "deep",
+        "cost": "paid",
+        "access": "online",
+        "storage_policy": "reference_only",
+        "url": "https://www.iso.org/standard/14381.html",
+        "version": "Edition 1, 1983-10; confirmed 2021; systematic review cycle active in 2026",
+        "verified_at": "2026-08-31",
+        "status": "verified",
+        "topics": [
+          "CRN-M-01"
+        ]
+      }
+    },
+    {
+      "op": "set_next_source_number",
+      "value": 557
+    }
+  ],
+  "do_not_apply_without_regeneration": [
+    "17_Learning_Library/00_INDEX/COVERAGE.json",
+    "17_Learning_Library/00_INDEX/SOURCE_COVERAGE_L2D.json",
+    "17_Learning_Library/00_INDEX/SOURCE_COVERAGE_L2D.csv",
+    "topic AUTO-LEARNING source block",
+    "lesson source_ids/source_roles"
+  ]
+}

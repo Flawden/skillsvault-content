@@ -1,0 +1,23 @@
+{
+  "bundle_id": "CRN-M-01-D1-FREEZE-v1",
+  "topic_id": "CRN-M-01",
+  "depth_level": "D1",
+  "status": "FROZEN_CONTENT_AWAITING_INTEGRATION",
+  "base_vault": "Topchiy_Skills_Vault_v0.51 (2).zip",
+  "base_sha256": "711DCB4D3B9742A91C1CEE69EE3366295025ADA9B466DE29CFFBE0595FCC0512",
+  "canonical_vault_modified": false,
+  "schema_change_request": "SCR-CONTENT-DEPTH-001",
+  "source_actions": [
+    "SRC-000393 add CRN-M-01",
+    "create SRC-000556 ISO 7592:1983"
+  ],
+  "frozen_artifacts": [
+    "frozen/CRN-M-01/D1/LESSON.md",
+    "frozen/CRN-M-01/D1/PRACTICE.md",
+    "frozen/CRN-M-01/D1/PRACTICE_REASONING.md",
+    "frozen/CRN-M-01/D1/EXPECTED_RESULT.md",
+    "frozen/CRN-M-01/D1/FINAL_ALIGNMENT.md",
+    "frozen/CRN-M-01/D1/SOURCE_GATE.md"
+  ],
+  "members_hashed": 15
+}
