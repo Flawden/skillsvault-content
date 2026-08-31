@@ -1,0 +1,19 @@
+{
+  "bundle_id": "CRN-M-01-D3-FREEZE-BUNDLE-v1",
+  "result": "PASS",
+  "freeze_decision": "CONTENT_FROZEN",
+  "lesson_gate": "PASS",
+  "practice_gate": "PASS",
+  "reasoning_gate": "PASS",
+  "expected_result_gate": "PASS",
+  "verification_gate": "PASS",
+  "alignment_gate": "PASS",
+  "source_freshness_gate": "PASS",
+  "artifact_integrity_gate": "PASS",
+  "d3_dependency_zip_count": 19,
+  "all_dependency_zip_tests_pass": true,
+  "all_sha_sidecars_match": true,
+  "review_required_blocking": false,
+  "canonical_vault_modified": false,
+  "next": "CRN-M-01_D4_OR_CALIBRATION_CHECKPOINT"
+}

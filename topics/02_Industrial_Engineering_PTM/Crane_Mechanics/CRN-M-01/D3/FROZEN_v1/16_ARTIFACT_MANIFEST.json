@@ -1,0 +1,263 @@
+{
+  "bundle_id": "CRN-M-01-D3-FREEZE-BUNDLE-v1",
+  "freeze_date": "2026-08-31",
+  "status": "CONTENT_FROZEN",
+  "d3_dependency_artifacts": [
+    {
+      "artifact": "CRN-M-01_D3_FOUNDATION_v1.zip",
+      "exists": true,
+      "sha256": "2002AA16210D7575DD78984E5C9876A1949BFF9D3117521E977ED46DA10E3CE2",
+      "zip_test": "PASS",
+      "members": 7,
+      "sidecar_sha256": "2002AA16210D7575DD78984E5C9876A1949BFF9D3117521E977ED46DA10E3CE2",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_I_v1.zip",
+      "exists": true,
+      "sha256": "FB3969AFFDD3EC5B9499342BF4C11918FD1304769437C714CC75AA258FF55A98",
+      "zip_test": "PASS",
+      "members": 4,
+      "sidecar_sha256": "FB3969AFFDD3EC5B9499342BF4C11918FD1304769437C714CC75AA258FF55A98",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_II_BENDING_Dd_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "D1C1545920CC085EC8BEBAAE6CBF10BB56524ECAF037922207CA70DBC9FF579C",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "D1C1545920CC085EC8BEBAAE6CBF10BB56524ECAF037922207CA70DBC9FF579C",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_II_v1.zip",
+      "exists": true,
+      "sha256": "EC4C0C6C34224FAE4ABBD3482CE1DBDFA5AD168E75B022A01808CD26A9B9F506",
+      "zip_test": "PASS",
+      "members": 4,
+      "sidecar_sha256": "EC4C0C6C34224FAE4ABBD3482CE1DBDFA5AD168E75B022A01808CD26A9B9F506",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_III_CONTACT_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "01217B0A663AA5EC4A9429CF40C98255A0BF86FDF748ADB1BF7C9068B7125694",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "01217B0A663AA5EC4A9429CF40C98255A0BF86FDF748ADB1BF7C9068B7125694",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_III_v1.zip",
+      "exists": true,
+      "sha256": "65B2F5AD36F9C3E8E9EC835E4701094185FD722542C4D00680ED093F74C0011D",
+      "zip_test": "PASS",
+      "members": 4,
+      "sidecar_sha256": "65B2F5AD36F9C3E8E9EC835E4701094185FD722542C4D00680ED093F74C0011D",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_IV_FATIGUE_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "EFF6F6BC4A9669DCEA0437D5250F83BF7263E4512BC9F531F76C7544D95AC95E",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "EFF6F6BC4A9669DCEA0437D5250F83BF7263E4512BC9F531F76C7544D95AC95E",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_IV_v1.zip",
+      "exists": true,
+      "sha256": "3859D968F4F74CC3F39B2744A4BE4EC7C87404474C47118D3A10005E0454267B",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "3859D968F4F74CC3F39B2744A4BE4EC7C87404474C47118D3A10005E0454267B",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_V_TORSION_ROTATIONAL_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "10086035485E5FCEE1991E62897751FF81632AA4E3CDA33F3A3F6C90725CB63A",
+      "zip_test": "PASS",
+      "members": 6,
+      "sidecar_sha256": "10086035485E5FCEE1991E62897751FF81632AA4E3CDA33F3A3F6C90725CB63A",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_V_v1.zip",
+      "exists": true,
+      "sha256": "3E099CF684F5714462CCB474D00C5B587901096029CA8B3CB71E09B0C94D11D0",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "3E099CF684F5714462CCB474D00C5B587901096029CA8B3CB71E09B0C94D11D0",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_VI_MULTILAYER_DRUM_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "01C31DE11C2F2460002D9776098EB5FDFA2696DC48517BA37A1928611EDF394D",
+      "zip_test": "PASS",
+      "members": 6,
+      "sidecar_sha256": "01C31DE11C2F2460002D9776098EB5FDFA2696DC48517BA37A1928611EDF394D",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_VI_v1.zip",
+      "exists": true,
+      "sha256": "92C660B29668D98D0DF5B1BBBD5B1A578B5274F341E43544ECCCD36B7346F0C1",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "92C660B29668D98D0DF5B1BBBD5B1A578B5274F341E43544ECCCD36B7346F0C1",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_VII_CHAIN_MECHANICS_SOURCE_METHOD_GATE_v1.zip",
+      "exists": true,
+      "sha256": "4FC7D37DDD286F429B0C69E4420389AA660E02E83AF2F92CF8A98807E84CF594",
+      "zip_test": "PASS",
+      "members": 6,
+      "sidecar_sha256": "4FC7D37DDD286F429B0C69E4420389AA660E02E83AF2F92CF8A98807E84CF594",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_VII_v1.zip",
+      "exists": true,
+      "sha256": "81F4B3C0B7EE08C92090493B8C9261386126F6F14F1089BF4225D0D980236128",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "81F4B3C0B7EE08C92090493B8C9261386126F6F14F1089BF4225D0D980236128",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PART_VIII_v1.zip",
+      "exists": true,
+      "sha256": "8F53F5C651A08E0D1517A42F998B409EDD40CEF21A687D14676F37332D35D104",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "8F53F5C651A08E0D1517A42F998B409EDD40CEF21A687D14676F37332D35D104",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_FULL_EDITORIAL_REVIEW_v1.zip",
+      "exists": true,
+      "sha256": "0ACFA9B7E0BEE62E88CF7D7B648A5BA4BBCE2A6B755D0E4614EEC05366E1193B",
+      "zip_test": "PASS",
+      "members": 6,
+      "sidecar_sha256": "0ACFA9B7E0BEE62E88CF7D7B648A5BA4BBCE2A6B755D0E4614EEC05366E1193B",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PRACTICE_DESIGN_v1.zip",
+      "exists": true,
+      "sha256": "2013B5A6B6CA603E65CD199E6F0B0C8A73CF51964631DA276E10D8DA5BA61E0D",
+      "zip_test": "PASS",
+      "members": 6,
+      "sidecar_sha256": "2013B5A6B6CA603E65CD199E6F0B0C8A73CF51964631DA276E10D8DA5BA61E0D",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_PRACTICE_REASONING_v1.zip",
+      "exists": true,
+      "sha256": "006958D6D69438DE699ED3AD18EB39CE29389B14F2BD34544BF1B9823E85600D",
+      "zip_test": "PASS",
+      "members": 5,
+      "sidecar_sha256": "006958D6D69438DE699ED3AD18EB39CE29389B14F2BD34544BF1B9823E85600D",
+      "sidecar_match": true
+    },
+    {
+      "artifact": "CRN-M-01_D3_EXPECTED_RESULT_VERIFICATION_v1.zip",
+      "exists": true,
+      "sha256": "029C17241B5A955D32F2D0AE89B8971FED429FE5D54CDE69C6FF3CEF18D73032",
+      "zip_test": "PASS",
+      "members": 8,
+      "sidecar_sha256": "029C17241B5A955D32F2D0AE89B8971FED429FE5D54CDE69C6FF3CEF18D73032",
+      "sidecar_match": true
+    }
+  ],
+  "prerequisite_freezes": [
+    {
+      "artifact": "CRN-M-01_D1_FREEZE_BUNDLE_v1.zip",
+      "exists": true,
+      "sha256": "E8A3E505C2859F6C16B0706D3474782E80958AF5B6BCDCA4C9D488675E9C1377"
+    },
+    {
+      "artifact": "CRN-M-01_D2_FREEZE_BUNDLE_v1.zip",
+      "exists": true,
+      "sha256": "83D0DC5BE846677571462D8DBAC6CC3D439139355AC51E1D362EF254F8B851B6"
+    },
+    {
+      "artifact": "CRN-M-01_D1-D2_FROZEN_CHECKPOINT_v1.zip",
+      "exists": true,
+      "sha256": "4BEC39E745F78C92F986CF6F2FB602C87496D5F8FC32457BEEE03A5EFF79D1C8"
+    }
+  ],
+  "freeze_files": [
+    {
+      "file": "01_CRN-M-01_D3_LESSON_FROZEN_v1.md",
+      "sha256": "CBFB5AE3EF08CA0DEBD54577AA18ECA766E401970FBC2F6E85086A5D50452C8B"
+    },
+    {
+      "file": "02_CRN-M-01_D3_PRACTICE_A-H_FROZEN_v1.md",
+      "sha256": "35DE24C3B93B6D3C08EFDF2C4F576D1C9AAB5E96B5DEA2390A5FD4C7AF02BFAD"
+    },
+    {
+      "file": "03_CRN-M-01_D3_PRACTICE_REASONING_A-H_FROZEN_v1.md",
+      "sha256": "EF2FBEDDC40F2B482E1054905625C96971FF15DFDA4EFD2CA1C88B3693039AAF"
+    },
+    {
+      "file": "04_CRN-M-01_D3_EXPECTED_RESULT_FROZEN_v1.md",
+      "sha256": "3F7E2B5A1F9A67AFC9F07532480A6E3562C99185A1C41B77EB90B808B495FF31"
+    },
+    {
+      "file": "05_CRN-M-01_D3_VERIFICATION_RUBRIC_FROZEN_v1.md",
+      "sha256": "314C7E05C949D33821FEF28E1D9EA33F77A48FEFFDCB7E106583AE9F0469CD77"
+    },
+    {
+      "file": "06_CRN-M-01_D3_VERIFICATION_EVIDENCE_MODEL_v1.md",
+      "sha256": "7CE9BA72E649141AE67C39AF50CA4C6C0A98113258CAC5A2F99662F85874E99A"
+    },
+    {
+      "file": "07_CRN-M-01_D3_ALIGNMENT_MATRIX_v1.md",
+      "sha256": "9981A4BBE871A77FB186D4759DADEC7F234E4B6F033B3E7EB01D7C84C440C81D"
+    },
+    {
+      "file": "08_VERIFICATION_RECORD_TEMPLATE.md",
+      "sha256": "10B5698123D04A0AD86E4C21D1F8E2C1B539BB941962F15FF86E2470CBC44291"
+    },
+    {
+      "file": "09_SOURCE_DEPENDENCIES_AGGREGATE_RU.md",
+      "sha256": "45DF2C505B959D868D46A2FD4F75454DA3FBFE8C71715A6E702B4CDF8A37D262"
+    },
+    {
+      "file": "10_PRACTICE_ALIGNMENT_MATRIX.md",
+      "sha256": "73C31C02E3A14C1A760035536E97F4ABC4E0BD7485EFAA24CA6F80F884844FEA"
+    },
+    {
+      "file": "11_REASONING_COVERAGE_MATRIX.md",
+      "sha256": "CDA5C7533CA7B647676679B6FA79C501754FC0DB8CDE350F35C63B4E50F3AE94"
+    },
+    {
+      "file": "12_SOURCE_FRESHNESS_CHECK_2026-08-31.md",
+      "sha256": "95551EA5B3B6E40BC15162B420896BE5890D32B47BDBE1FAC9DC3C6C9A3913AC"
+    },
+    {
+      "file": "13_REVIEW_REQUIRED.md",
+      "sha256": "9AFE1BB4EB20CE3C201356703F43D2E9A5E4EFAB711261CC8D0B6592258C830A"
+    },
+    {
+      "file": "14_CRN-M-01_D3_FINAL_ALIGNMENT_FREEZE_GATE_v1.md",
+      "sha256": "461A72829D02A13281C0ED93725A3180AFB6BBF29A775BEF3794B126CB4ADE3B"
+    },
+    {
+      "file": "15_FREEZE_STATUS.json",
+      "sha256": "77F85BB21115C4FF2D2C91A8FC95ABCC3E880E50F79E89906BAEB1A0F3C27256"
+    },
+    {
+      "file": "17_QA_REPORT.json",
+      "sha256": "AB5B0164E22CDDD09A2AC88B2FF1124889A5847A3F82E811525B7CBBA04874B0"
+    }
+  ],
+  "review_required_blocking": false,
+  "canonical_vault_modified": false
+}

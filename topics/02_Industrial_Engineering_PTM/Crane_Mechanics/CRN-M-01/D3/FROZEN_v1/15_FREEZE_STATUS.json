@@ -1,0 +1,22 @@
+{
+  "topic_id": "CRN-M-01",
+  "topic_name_ru": "Канаты и цепи",
+  "depth": "D3",
+  "status": "CONTENT_FROZEN",
+  "freeze_version": "v1",
+  "freeze_date": "2026-08-31",
+  "canonical_vault_modified": false,
+  "prerequisites": {
+    "D1": "FROZEN",
+    "D2": "FROZEN"
+  },
+  "lesson_blocks": 42,
+  "practice_cases": 8,
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "source_freshness": "PASS",
+  "artifact_integrity": "PASS",
+  "review_required_blocking": false,
+  "next_content_depth": "D4"
+}
