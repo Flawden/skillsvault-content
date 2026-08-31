@@ -16,8 +16,8 @@ D4
 └─ Lesson ✅ AUTHORING COMPLETE — 45 / 45 blocks
 
 D4 post-authoring pipeline
-├─ Technical Editorial ← NEXT
-├─ Red Team
+├─ Technical Editorial ✅ Pass I
+├─ Red Team ← NEXT
 ├─ Reader Experience Pass
 ├─ Practice
 ├─ Practice Reasoning
@@ -31,18 +31,32 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
+## Technical Editorial Pass I
+
+Decision:
+
+`PASS WITH CORRECTIONS APPLIED`
+
+Corrections applied:
+- Miner `D=1` universal-threshold guard;
+- pretension source-boundary tightening;
+- D4 ladder cross-map;
+- Part IX model-count wording;
+- technical review / Technical Editorial terminology split;
+- handoff wording cleanup.
+
 ## D4 Lesson completed structure
 
 ```text
-Part I     Blocks 1–5    ✅ Expert source / method architecture
-Part II    Blocks 6–10   ✅ Rope construction and system compatibility
-Part III   Blocks 11–15  ✅ Bending / contact / tribology
-Part IV    Blocks 16–20  ✅ Fatigue / spectrum / life-model critique
-Part V     Blocks 21–25  ✅ Rotational properties / tests / installation
-Part VI    Blocks 26–30  ✅ Multilayer drum / evolving package
-Part VII   Blocks 31–35  ✅ Advanced chain / chain-wheel pair
-Part VIII  Blocks 36–40  ✅ Specialized inspection / uncertainty
-Part IX    Blocks 41–45  ✅ Expert synthesis / technical review
+Part I     Blocks 1–5    ✅
+Part II    Blocks 6–10   ✅
+Part III   Blocks 11–15  ✅
+Part IV    Blocks 16–20  ✅ EDITED
+Part V     Blocks 21–25  ✅
+Part VI    Blocks 26–30  ✅ EDITED
+Part VII   Blocks 31–35  ✅
+Part VIII  Blocks 36–40  ✅
+Part IX    Blocks 41–45  ✅ EDITED
 ```
 
 ## После CRN-M-01

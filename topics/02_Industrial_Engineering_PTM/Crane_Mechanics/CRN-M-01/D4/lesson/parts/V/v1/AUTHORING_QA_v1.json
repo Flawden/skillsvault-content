@@ -28,11 +28,18 @@
     "iso_4309_published_current_verified_2026_08_31": true,
     "iso_cd_4309_not_current_guard": true,
     "canonical_frozen_d1_d2_d3_modified": false,
-    "technical_editorial_completed": false,
+    "technical_editorial_completed": true,
     "red_team_completed": false,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part VI / Blocks 26–30 — многослойный барабан как нелинейно меняющаяся система",
   "sha256_lesson": "6B0F8F4574152B79A916BAE86F7303299C37E8721DDC6BAE4ECEB310325C4180",
-  "sha256_source_map": "27616DE79D1773E281CC928AEE5191774C8AFB1DF2D4D8CAD156C0CC56CAA1A4"
+  "sha256_source_map": "27616DE79D1773E281CC928AEE5191774C8AFB1DF2D4D8CAD156C0CC56CAA1A4",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_NO_TEXT_CHANGE",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  }
 }

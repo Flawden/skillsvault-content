@@ -24,10 +24,17 @@
     "insufficient_data_valid_result": true,
     "canonical_frozen_d1_d2_d3_modified": false,
     "formal_reader_experience_pass_completed": false,
-    "technical_editorial_completed": false,
+    "technical_editorial_completed": true,
     "red_team_completed": false
   },
   "next": "D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система",
   "sha256_lesson": "6593D20EFA17A78BA5994453AB5246029475742E447D76A12B8167B54560A9DD",
-  "sha256_source_map": "80FEA73018A6BC14F0B0EB422D589D53871F4D502E7F4600FFB78BF36001066C"
+  "sha256_source_map": "80FEA73018A6BC14F0B0EB422D589D53871F4D502E7F4600FFB78BF36001066C",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_NO_TEXT_CHANGE",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  }
 }

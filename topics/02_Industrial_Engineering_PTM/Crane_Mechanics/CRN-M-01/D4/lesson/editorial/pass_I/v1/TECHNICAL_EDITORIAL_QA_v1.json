@@ -1,0 +1,77 @@
+{
+  "artifact": "CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-08-31",
+  "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "parts": 9,
+    "blocks": 45,
+    "parts_with_text_corrections": [
+      "IV",
+      "VI",
+      "IX"
+    ],
+    "parts_without_text_corrections": [
+      "I",
+      "II",
+      "III",
+      "V",
+      "VII",
+      "VIII"
+    ]
+  },
+  "findings": [
+    {
+      "id": "TE-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "part": "IV",
+      "topic": "Miner D=1 threshold guard"
+    },
+    {
+      "id": "TE-02",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "VI",
+      "topic": "pretension source-boundary"
+    },
+    {
+      "id": "TE-03",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "IX",
+      "topic": "cross-ladder coherence"
+    },
+    {
+      "id": "TE-04",
+      "severity": "LOW",
+      "status": "FIXED",
+      "part": "IX",
+      "topic": "model-count wording"
+    },
+    {
+      "id": "TE-05",
+      "severity": "LOW",
+      "status": "FIXED",
+      "part": "IX",
+      "topic": "technical review vs Technical Editorial terminology"
+    },
+    {
+      "id": "TE-06",
+      "severity": "LOW",
+      "status": "FIXED",
+      "part": "IX",
+      "topic": "handoff wording"
+    }
+  ],
+  "guards": {
+    "frozen_d1_d2_d3_modified": false,
+    "d4_gates_modified": false,
+    "new_normative_thresholds": false,
+    "closed_tables_reconstructed": false,
+    "oem_thresholds_generalized": false,
+    "reader_experience_pass_completed": false,
+    "red_team_completed": false
+  },
+  "next": "CRN-M-01 / D4 RED TEAM / Pass I — adversarial challenge of claims, models, failure modes and authority boundaries"
+}

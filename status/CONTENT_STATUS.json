@@ -41,8 +41,8 @@
         "latest": "Part IX / Blocks 41–45 — AUTHORING_COMPLETE_v1"
       },
       "pipeline": {
-        "technical_editorial": "NEXT",
-        "red_team": "WAITING",
+        "technical_editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "WAITING",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
@@ -54,7 +54,7 @@
       }
     }
   },
-  "next": "CRN-M-01 / D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review",
+  "next": "CRN-M-01 / D4 RED TEAM / Pass I — adversarial challenge of claims, models, failure modes and authority boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -63,8 +63,8 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/AUTHORING_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/D4_LESSON_AUTHORING_COMPLETION_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/EDITORIAL_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "Read all D4 lesson Parts I–IX",
     "Continue from status.next"
   ]

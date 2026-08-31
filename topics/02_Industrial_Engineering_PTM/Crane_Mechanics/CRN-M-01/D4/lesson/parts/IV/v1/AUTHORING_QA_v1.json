@@ -28,11 +28,18 @@
     "iso_12482_2014_published_status_verified_2026_08_31": true,
     "iso_cd_12482_not_current_guard": true,
     "canonical_frozen_d1_d2_d3_modified": false,
-    "technical_editorial_completed": false,
+    "technical_editorial_completed": true,
     "red_team_completed": false,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 LESSON / Part V / Blocks 21–25 — вращательные свойства, испытания и монтаж",
-  "sha256_lesson": "615B7D8A5D733C78796DF5AC57040E30FD04AA54D8DABC68D420C842F3FD9660",
-  "sha256_source_map": "ED4A4C3650ADEB89B47F3570C73609F1BE966410F43ABA2BEE83E741B848A4C7"
+  "sha256_lesson": "86C1952F805B5673738BDE9AAF24CD4C425300B8314162AD128154DBAC848B40",
+  "sha256_source_map": "ED4A4C3650ADEB89B47F3570C73609F1BE966410F43ABA2BEE83E741B848A4C7",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  }
 }

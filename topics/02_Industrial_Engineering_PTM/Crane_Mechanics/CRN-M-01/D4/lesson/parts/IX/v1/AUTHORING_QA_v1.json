@@ -26,11 +26,18 @@
     "closed_tables_reconstructed": false,
     "new_oem_thresholds": false,
     "canonical_frozen_d1_d2_d3_modified": false,
-    "technical_editorial_completed": false,
+    "technical_editorial_completed": true,
     "red_team_completed": false,
     "formal_reader_experience_pass_completed": false
   },
   "next": "D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review",
-  "sha256_lesson": "51F6B71D1A4BF0504F59985E5F694AAE3FBAA81B8E32B71A09150076613D86B9",
-  "sha256_source_map": "44E127E10FBCDE7319758F352CA281719922960B92FFC30C729FA05E758F6C6E"
+  "sha256_lesson": "B4400AC33BCDBE5E49EB60726CD0A97B73BCFF25A2718DD8230CA0DEE7F788FE",
+  "sha256_source_map": "44E127E10FBCDE7319758F352CA281719922960B92FFC30C729FA05E758F6C6E",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  }
 }
