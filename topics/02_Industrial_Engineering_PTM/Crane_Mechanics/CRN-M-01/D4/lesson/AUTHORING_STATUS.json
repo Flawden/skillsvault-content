@@ -188,11 +188,11 @@
     },
     {
       "stage": "EXPECTED_RESULT",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "VERIFICATION_RUBRIC",
-      "status": "WAITING"
+      "status": "NEXT"
     },
     {
       "stage": "FINAL_ALIGNMENT",
@@ -207,5 +207,5 @@
       "status": "WAITING"
     }
   ],
-  "next": "CRN-M-01 / D4 EXPECTED RESULT / v1 — observable expert behaviors, evidence outputs and transfer criteria"
+  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements"
 }

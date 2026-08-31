@@ -21,8 +21,8 @@ D4 post-authoring pipeline
 ├─ Reader Experience Pass ✅ Pass I
 ├─ Practice ✅ v1 — Cases A–H
 ├─ Practice Reasoning ✅ v1
-├─ Expected Result ← NEXT
-├─ Verification Rubric
+├─ Expected Result ✅ v1 — ER-01…ER-12
+├─ Verification Rubric ← NEXT
 ├─ Final Alignment
 ├─ Source Freshness
 └─ D4 Freeze
@@ -31,31 +31,28 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Practice Reasoning v1
+## Expected Result v1
 
-Reasoning is not a single answer key.
-
-Each case documents:
-- strong decision-question framing;
-- competing models;
-- differentiating evidence;
-- sensitivity / uncertainty;
-- valid bounded outputs;
-- common D4 failure modes;
-- what would change the conclusion.
-
-Cross-case failure taxonomy:
+D4 is observable through 12 dimensions:
 
 ```text
-Premature closure
-Source flattening
-Model worship
-Data laundering
-Signal laundering
-Precision laundering
-Authority creep
-Safety delay
+ER-01 Decision question
+ER-02 Evidence status
+ER-03 Competing models
+ER-04 Source-by-claim selection
+ER-05 Minimum sufficient method
+ER-06 Differentiating evidence
+ER-07 Sensitivity / uncertainty
+ER-08 Bounded conclusion
+ER-09 Knowledge status != permission
+ER-10 Authority boundary
+ER-11 Audit trail
+ER-12 Transfer to unseen problem
 ```
+
+Known-case success alone is insufficient.
+
+Verification must include an unseen transfer case.
 
 ## После CRN-M-01
 

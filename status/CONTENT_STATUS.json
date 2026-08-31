@@ -46,15 +46,15 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "verification_rubric": "WAITING",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT",
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
       }
     }
   },
-  "next": "CRN-M-01 / D4 EXPECTED RESULT / v1 — observable expert behaviors, evidence outputs and transfer criteria",
+  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -63,9 +63,9 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice/PRACTICE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice_reasoning/PRACTICE_REASONING_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice_reasoning/v1/CRN-M-01_D4_PRACTICE_REASONING_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/EXPECTED_RESULT_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/v1/CRN-M-01_D4_EXPECTED_RESULT_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
     "Continue from status.next"
   ]
 }

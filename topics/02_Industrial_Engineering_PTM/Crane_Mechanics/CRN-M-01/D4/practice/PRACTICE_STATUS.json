@@ -17,6 +17,7 @@
   ],
   "answer_key_embedded": false,
   "practice_reasoning": "COMPLETE",
-  "next": "CRN-M-01 / D4 EXPECTED RESULT / v1 — observable expert behaviors, evidence outputs and transfer criteria",
-  "expected_result": "NEXT"
+  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

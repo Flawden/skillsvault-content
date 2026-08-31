@@ -1,0 +1,42 @@
+{
+  "artifact": "CRN-M-01_D4_EXPECTED_RESULT_v1",
+  "date": "2026-08-31",
+  "stage": "EXPECTED_RESULT",
+  "status": "COMPLETE",
+  "baseline_commit": "93bebb2f16a63d9f7247f427bfcba4680cab4ab6",
+  "expected_dimensions": [
+    "ER-01",
+    "ER-02",
+    "ER-03",
+    "ER-04",
+    "ER-05",
+    "ER-06",
+    "ER-07",
+    "ER-08",
+    "ER-09",
+    "ER-10",
+    "ER-11",
+    "ER-12"
+  ],
+  "checks": {
+    "observable_behaviors": true,
+    "evidence_outputs_defined": true,
+    "transfer_required": true,
+    "known_case_performance_not_sufficient": true,
+    "insufficient_data_can_be_success": true,
+    "bounded_conclusion_required": true,
+    "authority_boundary_required": true,
+    "safety_boundary_required": true,
+    "audit_trail_required": true,
+    "d3_d4_jump_explicit": true,
+    "verification_rubric_ready": true,
+    "new_normative_thresholds": false,
+    "lesson_modified": false,
+    "practice_modified": false,
+    "practice_reasoning_modified": false,
+    "frozen_d1_d2_d3_modified": false
+  },
+  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements",
+  "sha256_expected_result": "08F038075F69D34BF20ADD333CEDADC270FD6DA7B18B4F6908C766A9150A5A6F",
+  "sha256_alignment": "EF79BB0C6A5D6BB63A34D6571FFBC30865373918187A1B1942C3DA4E13B333B4"
+}
