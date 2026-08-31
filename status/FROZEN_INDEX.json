@@ -1,0 +1,241 @@
+{
+  "policy": "Files under FROZEN_vN are immutable. Any content change requires a new FROZEN_v(N+1) directory.",
+  "entries": [
+    {
+      "topic_id": "CRN-M-01",
+      "depth": "D1",
+      "version": "v1",
+      "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1",
+      "files": [
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/FREEZE_MANIFEST.json",
+          "sha256": "802B9E5B54BA7CCA38E004C5F715856F5C3E1492AF5548C084741F9027F412E1"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/README.md",
+          "sha256": "7040652556330BCC42C83C3F083E9CE54C98E7B62F968D40BA55977BEEB30273"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/REVIEW_REQUIRED.md",
+          "sha256": "469F12AB0C470F023E74893C113590827C90F1D912E9B4ACCC80599BCEA96895"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/files.sha256",
+          "sha256": "5BDA92C0C89DB661B14A77707CCE347EEF721E7B51BC5AADD5DABE9ED949503E"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/EXPECTED_RESULT.md",
+          "sha256": "370E7C74411DA73E778096336DBA926E39B4A2FA536CDAD5B10757B59E6BB668"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/FINAL_ALIGNMENT.md",
+          "sha256": "8CC85C83FD392904E6C784DFD3D6B12F74AA5E3136BA40C5CD7F09300722E33B"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/LESSON.md",
+          "sha256": "894962CFCDA32E8A77ED762EEB128C93C246B46A0922F3B564D993D380D88588"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/PRACTICE.md",
+          "sha256": "DEFD413A075E73E8DB88CD251442600908DC1D1731EE4A9D9D512C7D782EA391"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/PRACTICE_REASONING.md",
+          "sha256": "A4A9B11FFEB477D3026E1DA74ED5BEA0293906F08E994896D153DADDCB0EF7E6"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/frozen/CRN-M-01/D1/SOURCE_GATE.md",
+          "sha256": "C1E6896B62D6BB6FDA7092FF4EA4B8D7F7D5F67CCE2D9E62F06911283F02EAF5"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/integration/SCHEMA_CHANGE_REQUEST_D1-D4.md",
+          "sha256": "A9B80DEC55B9D14941D17E277840A645166E1C6BF0A0EC08E861DD4C643E3320"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/integration/SOURCE_INTEGRATION_PLAN.md",
+          "sha256": "2F493803AFF221ABBC1EBA2913EC436BE35DDAFC6200B619E33A26DE311C0DC0"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/qa/QA_REPORT.md",
+          "sha256": "A6C8D8F7B052D2AE750F5B90D6A842DFCA55197A8B4E3ECAAE73BE503F1E21B4"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/sources/SOURCE_REGISTRY_PATCH.json",
+          "sha256": "63269BCF11D63F4A85D2E3CD14E160FE3F8B8254EEA5D10F04B86AFEEAA1B9B3"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/sources/SRC-000393_PATCH.md",
+          "sha256": "1248CA60F3E5DA0F4622E04A2A177CF16B5C5577618875C218FCB032D52F5F39"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1/sources/SRC-000556.md",
+          "sha256": "46A1680FA295F9CC11FBBCC1927EAC6161920EA66650C4D8D4D683C8AEE481FA"
+        }
+      ]
+    },
+    {
+      "topic_id": "CRN-M-01",
+      "depth": "D2",
+      "version": "v1",
+      "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1",
+      "files": [
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/FREEZE_MANIFEST.json",
+          "sha256": "826E0CAB67FA2C696BAD38C50E9AD1EB07EFA026A3E86E40C5C06861F9736C22"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/README.md",
+          "sha256": "894F7BCCA25486E8EA8E67BE7B63C15F1F8A758C70EF8D03D991E46525699C3F"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/REVIEW_REQUIRED.md",
+          "sha256": "520AA4B025327EF24A9AC5AFFB2C7538D2B4ECBFE10FC5B87C06BC9E3C4BFE61"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/files.sha256",
+          "sha256": "495A87BCB1FF96D26BBB0F73ADBC8F49518A023BD0B65AEF24AE559C7A280AB6"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/EXPECTED_RESULT.md",
+          "sha256": "C109CE85F9CBE6B57330278BC9790E7B1E7E2D6A189324694940DD7AE8042616"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/FINAL_ALIGNMENT.md",
+          "sha256": "FA0B15CE2244AA1968B3BCC32D978100245C904CA469399F9359CBFDFB7CDCA6"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/LESSON.md",
+          "sha256": "74ECE099EDC406B2812E646B30DF507820CAAF23DA627AAC32B276F38804D303"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/PRACTICE.md",
+          "sha256": "D5D5028C11F50224A434E80DA46ABCCF95675AF8605F8DB92D032EF947C97332"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/PRACTICE_REASONING.md",
+          "sha256": "A4634C0553035D7AFEAE4C0D6BCFF367E98DBC48AD9BDF787C31180A875DDA0A"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/SOURCE_DEPENDENCIES.md",
+          "sha256": "6210E2F950D4313ECA9E70F26758C422210B0ED40848F1382B6A6167066AABC1"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/VERIFICATION_RUBRIC.json",
+          "sha256": "6D1BDD43ABA4282C27AF68F23E4C05AD041956BD4810F47B977AA76A713D6A0D"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/frozen/CRN-M-01/D2/VERIFICATION_RUBRIC.md",
+          "sha256": "3D5137E1E409D36F3C73772BE27509BD62281EA5D396AA482C362A0F9D6A293F"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/integration/COMPETENCY_VERIFICATION_MODEL.md",
+          "sha256": "E3C2A1B4D4B9063B52AF469CFD09E569C078B2E593EB7FB3CD5E7EDC8E51C986"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/integration/SCHEMA_CHANGE_REQUEST_D1-D4.md",
+          "sha256": "A9B80DEC55B9D14941D17E277840A645166E1C6BF0A0EC08E861DD4C643E3320"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/integration/SCHEMA_CHANGE_REQUEST_VERIFICATION.md",
+          "sha256": "A5E021E40DA83FF1C1267AEA5B16BEF1032EEB434B76F5EE9AD39F8B8B8EFF70"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/qa/FULL_EDITORIAL_REDTEAM_REVIEW.md",
+          "sha256": "578531A417CFE07CAB1769ECC25327097260297FA38E715D3D5A6E15B4E20982"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/qa/QA_REPORT.json",
+          "sha256": "C578B373DBB8BF634D75A409A5E0229FF1415A7F683116F1028E39748D4253C6"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/sources/MEASUREMENT_SOURCE_METHOD_GATE.md",
+          "sha256": "3C0474AF826CCEAD35566949C76DF4EACB7BA4DC17D89AAF4FD580D0D66DA64E"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1/sources/NORMATIVE_SOURCE_GATE.md",
+          "sha256": "A7534E40D59F06E4B6307F6BDD8CEC022428CE4D6895ED82357ABE70D4973CEC"
+        }
+      ]
+    },
+    {
+      "topic_id": "CRN-M-01",
+      "depth": "D3",
+      "version": "v1",
+      "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1",
+      "files": [
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/01_CRN-M-01_D3_LESSON_FROZEN_v1.md",
+          "sha256": "CBFB5AE3EF08CA0DEBD54577AA18ECA766E401970FBC2F6E85086A5D50452C8B"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/02_CRN-M-01_D3_PRACTICE_A-H_FROZEN_v1.md",
+          "sha256": "35DE24C3B93B6D3C08EFDF2C4F576D1C9AAB5E96B5DEA2390A5FD4C7AF02BFAD"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/03_CRN-M-01_D3_PRACTICE_REASONING_A-H_FROZEN_v1.md",
+          "sha256": "EF2FBEDDC40F2B482E1054905625C96971FF15DFDA4EFD2CA1C88B3693039AAF"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/04_CRN-M-01_D3_EXPECTED_RESULT_FROZEN_v1.md",
+          "sha256": "3F7E2B5A1F9A67AFC9F07532480A6E3562C99185A1C41B77EB90B808B495FF31"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/05_CRN-M-01_D3_VERIFICATION_RUBRIC_FROZEN_v1.md",
+          "sha256": "314C7E05C949D33821FEF28E1D9EA33F77A48FEFFDCB7E106583AE9F0469CD77"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/06_CRN-M-01_D3_VERIFICATION_EVIDENCE_MODEL_v1.md",
+          "sha256": "7CE9BA72E649141AE67C39AF50CA4C6C0A98113258CAC5A2F99662F85874E99A"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/07_CRN-M-01_D3_ALIGNMENT_MATRIX_v1.md",
+          "sha256": "9981A4BBE871A77FB186D4759DADEC7F234E4B6F033B3E7EB01D7C84C440C81D"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/08_VERIFICATION_RECORD_TEMPLATE.md",
+          "sha256": "10B5698123D04A0AD86E4C21D1F8E2C1B539BB941962F15FF86E2470CBC44291"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/09_SOURCE_DEPENDENCIES_AGGREGATE_RU.md",
+          "sha256": "45DF2C505B959D868D46A2FD4F75454DA3FBFE8C71715A6E702B4CDF8A37D262"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/10_PRACTICE_ALIGNMENT_MATRIX.md",
+          "sha256": "73C31C02E3A14C1A760035536E97F4ABC4E0BD7485EFAA24CA6F80F884844FEA"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/11_REASONING_COVERAGE_MATRIX.md",
+          "sha256": "CDA5C7533CA7B647676679B6FA79C501754FC0DB8CDE350F35C63B4E50F3AE94"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/12_SOURCE_FRESHNESS_CHECK_2026-08-31.md",
+          "sha256": "95551EA5B3B6E40BC15162B420896BE5890D32B47BDBE1FAC9DC3C6C9A3913AC"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/13_REVIEW_REQUIRED.md",
+          "sha256": "9AFE1BB4EB20CE3C201356703F43D2E9A5E4EFAB711261CC8D0B6592258C830A"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/14_CRN-M-01_D3_FINAL_ALIGNMENT_FREEZE_GATE_v1.md",
+          "sha256": "461A72829D02A13281C0ED93725A3180AFB6BBF29A775BEF3794B126CB4ADE3B"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/15_FREEZE_STATUS.json",
+          "sha256": "77F85BB21115C4FF2D2C91A8FC95ABCC3E880E50F79E89906BAEB1A0F3C27256"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/16_ARTIFACT_MANIFEST.json",
+          "sha256": "E82844FD73964CC467E911523CAFBB1F308E8FAA0AF35838D77FFEBCA908F193"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/17_QA_REPORT.json",
+          "sha256": "AB5B0164E22CDDD09A2AC88B2FF1124889A5847A3F82E811525B7CBBA04874B0"
+        },
+        {
+          "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1/files.sha256",
+          "sha256": "0E6B4CC743B53E17B0D50FDB2B8346641DDE65ACBAF46E5041A32086D694DFDF"
+        }
+      ]
+    }
+  ]
+}

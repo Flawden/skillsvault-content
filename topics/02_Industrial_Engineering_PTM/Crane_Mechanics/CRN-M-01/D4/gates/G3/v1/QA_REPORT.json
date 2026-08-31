@@ -1,0 +1,28 @@
+{
+  "bundle_id": "CRN-M-01-D4-G3-ADVANCED-MECHANICS-v1",
+  "date": "2026-08-31",
+  "status": "PASS_WITH_MODEL_VALIDITY_LIFE_PREDICTION_LAB_TRANSFER_GUARDS",
+  "model_hierarchy": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "model_hierarchy_is_normative": false,
+  "new_core_skill": "MODEL_SELECTION_AND_CRITIQUE",
+  "wear_fatigue_coupling": true,
+  "sensitivity_required": true,
+  "model_form_uncertainty": true,
+  "remaining_life_source_bound": true,
+  "research_numbers_universalized": false,
+  "reader_experience_roadmap_updated": true,
+  "canonical_vault_modified": false,
+  "d4_lesson_unlocked": false,
+  "next": "D4_G4_ROTATIONAL_PROPERTIES",
+  "gate_sha256": "AC38CBB0FFA4C1D19888408DE53BE80562B82BB7828623AECD215102BC25DA6A",
+  "method_card_sha256": "33788B2A3CCA7B37790695869B77C85B48506CD62A90AE9F8774E18ABB5B042F",
+  "reader_notes_sha256": "F1F9A2EE5F534448E2BEB1DFFB8C8FDA0CA52CEE8BC3C7A099E71CA857931D12",
+  "source_notes_sha256": "E6D6E57D0C4AAD1F981E7E33AC344EE95F2736E07F9C0672D0135C23D1D3B73E",
+  "audit_sha256": "42900E12668F5887E0EFA04FA267A04EFF7000A391CDAF14AB396A1A5C77924D"
+}

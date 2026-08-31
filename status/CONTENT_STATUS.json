@@ -1,0 +1,49 @@
+{
+  "project": "SkillsVault Content",
+  "snapshot_date": "2026-08-31",
+  "canonical_branch": "main",
+  "active_topic": "CRN-M-01",
+  "active_topic_name_ru": "Канаты и цепи",
+  "topic_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01",
+  "depths": {
+    "D1": {
+      "status": "FROZEN",
+      "version": "v1"
+    },
+    "D2": {
+      "status": "FROZEN",
+      "version": "v1"
+    },
+    "D3": {
+      "status": "FROZEN",
+      "version": "v1"
+    },
+    "D4": {
+      "status": "ACTIVE",
+      "architecture": "COMPLETE",
+      "gates": {
+        "G1": "COMPLETE",
+        "G2": "COMPLETE",
+        "G3": "COMPLETE",
+        "G4": "COMPLETE",
+        "G5": "COMPLETE",
+        "G6": "COMPLETE",
+        "G7": "COMPLETE",
+        "G8": "NEXT"
+      },
+      "lesson": "BLOCKED_UNTIL_G8"
+    }
+  },
+  "next": "CRN-M-01 / D4-G8 — режим работы, спектр нагрузок, расчётный период и инспекционный контекст",
+  "reader_experience_pass": {
+    "required": true,
+    "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
+  },
+  "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
+  "new_chat_entrypoint": [
+    "Read status/CONTENT_STATUS.json",
+    "Read ROADMAP.md",
+    "Read the active topic D4 gate folders",
+    "Continue from status.next"
+  ]
+}
