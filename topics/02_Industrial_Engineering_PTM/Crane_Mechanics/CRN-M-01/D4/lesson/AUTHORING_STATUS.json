@@ -1,9 +1,11 @@
 {
   "topic": "CRN-M-01",
   "depth": "D4",
-  "lesson_status": "AUTHORING_ACTIVE",
+  "lesson_status": "AUTHORING_COMPLETE",
   "parts_total": 9,
+  "parts_completed": 9,
   "blocks_total": 45,
+  "blocks_completed": 45,
   "completed_parts": [
     "I",
     "II",
@@ -12,7 +14,8 @@
     "V",
     "VI",
     "VII",
-    "VIII"
+    "VIII",
+    "IX"
   ],
   "completed_blocks": [
     1,
@@ -54,7 +57,12 @@
     37,
     38,
     39,
-    40
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
   ],
   "parts": {
     "I": {
@@ -147,7 +155,7 @@
     },
     "IX": {
       "title": "Экспертный синтез и техническое review",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         41,
         42,
@@ -158,16 +166,46 @@
     }
   },
   "post_authoring_pipeline": [
-    "TECHNICAL_EDITORIAL",
-    "RED_TEAM",
-    "READER_EXPERIENCE_PASS",
-    "PRACTICE",
-    "PRACTICE_REASONING",
-    "EXPECTED_RESULT",
-    "VERIFICATION_RUBRIC",
-    "FINAL_ALIGNMENT",
-    "SOURCE_FRESHNESS",
-    "D4_FREEZE"
+    {
+      "stage": "TECHNICAL_EDITORIAL",
+      "status": "NEXT"
+    },
+    {
+      "stage": "RED_TEAM",
+      "status": "WAITING"
+    },
+    {
+      "stage": "READER_EXPERIENCE_PASS",
+      "status": "WAITING"
+    },
+    {
+      "stage": "PRACTICE",
+      "status": "WAITING"
+    },
+    {
+      "stage": "PRACTICE_REASONING",
+      "status": "WAITING"
+    },
+    {
+      "stage": "EXPECTED_RESULT",
+      "status": "WAITING"
+    },
+    {
+      "stage": "VERIFICATION_RUBRIC",
+      "status": "WAITING"
+    },
+    {
+      "stage": "FINAL_ALIGNMENT",
+      "status": "WAITING"
+    },
+    {
+      "stage": "SOURCE_FRESHNESS",
+      "status": "WAITING"
+    },
+    {
+      "stage": "D4_FREEZE",
+      "status": "WAITING"
+    }
   ],
-  "next": "D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review"
+  "next": "D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review"
 }

@@ -12,31 +12,37 @@ D3 ✅ FROZEN v1
 D4
 ├─ Architecture ✅
 ├─ G1–G8 ✅
-└─ SOURCE-GATE PROGRAM ✅ COMPLETE
+├─ SOURCE-GATE PROGRAM ✅ COMPLETE
+└─ Lesson ✅ AUTHORING COMPLETE — 45 / 45 blocks
 
-D4 Lesson — 9 частей / 45 блоков
-├─ Part I    / Blocks 1–5   ✅ AUTHORING v1
-├─ Part II   / Blocks 6–10  ✅ AUTHORING v1
-├─ Part III  / Blocks 11–15 ✅ AUTHORING v1
-├─ Part IV   / Blocks 16–20 ✅ AUTHORING v1
-├─ Part V    / Blocks 21–25 ✅ AUTHORING v1
-├─ Part VI   / Blocks 26–30 ✅ AUTHORING v1
-├─ Part VII  / Blocks 31–35 ✅ AUTHORING v1
-├─ Part VIII / Blocks 36–40 ✅ AUTHORING v1
-└─ Part IX   / Blocks 41–45 ← NEXT
+D4 post-authoring pipeline
+├─ Technical Editorial ← NEXT
+├─ Red Team
+├─ Reader Experience Pass
+├─ Practice
+├─ Practice Reasoning
+├─ Expected Result
+├─ Verification Rubric
+├─ Final Alignment
+├─ Source Freshness
+└─ D4 Freeze
 
-После полного Lesson:
-Technical Editorial
-→ Red Team
-→ Reader Experience Pass
-→ Practice
-→ Practice Reasoning
-→ Expected Result
-→ Verification Rubric
-→ Final Alignment
-→ Source Freshness
-→ D4 Freeze
-→ CRN-M-01 Full Topic Freeze
+Then:
+CRN-M-01 Full Topic Freeze
+```
+
+## D4 Lesson completed structure
+
+```text
+Part I     Blocks 1–5    ✅ Expert source / method architecture
+Part II    Blocks 6–10   ✅ Rope construction and system compatibility
+Part III   Blocks 11–15  ✅ Bending / contact / tribology
+Part IV    Blocks 16–20  ✅ Fatigue / spectrum / life-model critique
+Part V     Blocks 21–25  ✅ Rotational properties / tests / installation
+Part VI    Blocks 26–30  ✅ Multilayer drum / evolving package
+Part VII   Blocks 31–35  ✅ Advanced chain / chain-wheel pair
+Part VIII  Blocks 36–40  ✅ Specialized inspection / uncertainty
+Part IX    Blocks 41–45  ✅ Expert synthesis / technical review
 ```
 
 ## После CRN-M-01

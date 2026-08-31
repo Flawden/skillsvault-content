@@ -1,0 +1,36 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_IX_BLOCKS_41_45_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE_45_OF_45",
+  "part": "IX",
+  "blocks": [
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "checks": {
+    "matches_architecture_41_45": true,
+    "multi_method_case_present": true,
+    "sensitivity_scenarios_present": true,
+    "evidence_matrix_present": true,
+    "conflicting_evidence_not_voted": true,
+    "technical_review_structure_present": true,
+    "authority_boundary_present": true,
+    "stop_rules_present": true,
+    "handoff_present": true,
+    "whole_d4_capability_jump_recap": true,
+    "new_normative_numbers": false,
+    "closed_tables_reconstructed": false,
+    "new_oem_thresholds": false,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review",
+  "sha256_lesson": "51F6B71D1A4BF0504F59985E5F694AAE3FBAA81B8E32B71A09150076613D86B9",
+  "sha256_source_map": "44E127E10FBCDE7319758F352CA281719922960B92FFC30C729FA05E758F6C6E"
+}

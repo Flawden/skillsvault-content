@@ -32,18 +32,29 @@
         "G8": "COMPLETE"
       },
       "source_gate_program": "COMPLETE",
-      "lesson": "AUTHORING_ACTIVE",
+      "lesson": "AUTHORING_COMPLETE",
       "lesson_progress": {
-        "parts_completed": 8,
+        "parts_completed": 9,
         "parts_total": 9,
-        "blocks_completed": 40,
+        "blocks_completed": 45,
         "blocks_total": 45,
-        "latest": "Part VIII / Blocks 36–40 — AUTHORING_COMPLETE_v1",
-        "next": "Part IX / Blocks 41–45"
+        "latest": "Part IX / Blocks 41–45 — AUTHORING_COMPLETE_v1"
+      },
+      "pipeline": {
+        "technical_editorial": "NEXT",
+        "red_team": "WAITING",
+        "reader_experience_pass": "WAITING",
+        "practice": "WAITING",
+        "practice_reasoning": "WAITING",
+        "expected_result": "WAITING",
+        "verification_rubric": "WAITING",
+        "final_alignment": "WAITING",
+        "source_freshness": "WAITING",
+        "freeze": "WAITING"
       }
     }
   },
-  "next": "CRN-M-01 / D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review",
+  "next": "CRN-M-01 / D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -53,7 +64,8 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/AUTHORING_STATUS.json",
-    "Read completed D4 lesson Parts I–VIII",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/D4_LESSON_AUTHORING_COMPLETION_v1.md",
+    "Read all D4 lesson Parts I–IX",
     "Continue from status.next"
   ]
 }
