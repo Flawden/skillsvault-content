@@ -45,8 +45,8 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT",
-        "expected_result": "WAITING",
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT",
         "verification_rubric": "WAITING",
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
@@ -54,7 +54,7 @@
       }
     }
   },
-  "next": "CRN-M-01 / D4 PRACTICE REASONING / v1 — expert reasoning paths, discriminating evidence and common failure modes without turning into a single answer key",
+  "next": "CRN-M-01 / D4 EXPECTED RESULT / v1 — observable expert behaviors, evidence outputs and transfer criteria",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -64,8 +64,8 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice/PRACTICE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice/v1/CRN-M-01_D4_PRACTICE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice_reasoning/PRACTICE_REASONING_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/practice_reasoning/v1/CRN-M-01_D4_PRACTICE_REASONING_v1.md",
     "Continue from status.next"
   ]
 }

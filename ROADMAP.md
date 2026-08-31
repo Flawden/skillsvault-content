@@ -20,8 +20,8 @@ D4 post-authoring pipeline
 ├─ Red Team ✅ Pass I
 ├─ Reader Experience Pass ✅ Pass I
 ├─ Practice ✅ v1 — Cases A–H
-├─ Practice Reasoning ← NEXT
-├─ Expected Result
+├─ Practice Reasoning ✅ v1
+├─ Expected Result ← NEXT
 ├─ Verification Rubric
 ├─ Final Alignment
 ├─ Source Freshness
@@ -31,22 +31,31 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## D4 Practice v1
+## Practice Reasoning v1
 
-Eight integrated expert cases:
+Reasoning is not a single answer key.
+
+Each case documents:
+- strong decision-question framing;
+- competing models;
+- differentiating evidence;
+- sensitivity / uncertainty;
+- valid bounded outputs;
+- common D4 failure modes;
+- what would change the conclusion.
+
+Cross-case failure taxonomy:
 
 ```text
-A — Source architecture / applicability
-B — Rope replacement compatibility
-C — Local mechanics / multilayer / tribology
-D — Fatigue / spectrum / remaining-life critique
-E — Rotational properties / installation / causality
-F — Chain–wheel compatibility
-G — Specialized inspection / uncertainty
-H — Full D4 capstone technical review
+Premature closure
+Source flattening
+Model worship
+Data laundering
+Signal laundering
+Precision laundering
+Authority creep
+Safety delay
 ```
-
-Practice contains no worked answer key.
 
 ## После CRN-M-01
 
