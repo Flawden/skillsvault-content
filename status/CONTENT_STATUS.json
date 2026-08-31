@@ -34,16 +34,16 @@
       "source_gate_program": "COMPLETE",
       "lesson": "AUTHORING_ACTIVE",
       "lesson_progress": {
-        "parts_completed": 7,
+        "parts_completed": 8,
         "parts_total": 9,
-        "blocks_completed": 35,
+        "blocks_completed": 40,
         "blocks_total": 45,
-        "latest": "Part VII / Blocks 31–35 — AUTHORING_COMPLETE_v1",
-        "next": "Part VIII / Blocks 36–40"
+        "latest": "Part VIII / Blocks 36–40 — AUTHORING_COMPLETE_v1",
+        "next": "Part IX / Blocks 41–45"
       }
     }
   },
-  "next": "CRN-M-01 / D4 LESSON / Part VIII / Blocks 36–40 — специализированный контроль и неопределённость",
+  "next": "CRN-M-01 / D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -53,7 +53,7 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/AUTHORING_STATUS.json",
-    "Read completed D4 lesson Parts I–VII",
+    "Read completed D4 lesson Parts I–VIII",
     "Continue from status.next"
   ]
 }

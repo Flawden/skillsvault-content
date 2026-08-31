@@ -11,7 +11,8 @@
     "IV",
     "V",
     "VI",
-    "VII"
+    "VII",
+    "VIII"
   ],
   "completed_blocks": [
     1,
@@ -48,7 +49,12 @@
     32,
     33,
     34,
-    35
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
   ],
   "parts": {
     "I": {
@@ -130,7 +136,7 @@
     },
     "VIII": {
       "title": "Специализированный контроль и неопределённость",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         36,
         37,
@@ -141,7 +147,7 @@
     },
     "IX": {
       "title": "Экспертный синтез и техническое review",
-      "status": "WAITING",
+      "status": "NEXT",
       "blocks": [
         41,
         42,
@@ -163,5 +169,5 @@
     "SOURCE_FRESHNESS",
     "D4_FREEZE"
   ],
-  "next": "D4 LESSON / Part VIII / Blocks 36–40 — специализированный контроль и неопределённость"
+  "next": "D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review"
 }

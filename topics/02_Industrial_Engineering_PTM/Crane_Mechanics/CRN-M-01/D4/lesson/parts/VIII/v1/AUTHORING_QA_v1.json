@@ -1,0 +1,42 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_VIII_BLOCKS_36_40_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "VIII",
+  "blocks": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "checks": {
+    "signal_defect_criterion_cause_separated": true,
+    "lf_lma_separated": true,
+    "baseline_threshold_separated": true,
+    "trend_guard": true,
+    "measurement_conditions_present": true,
+    "evidence_fusion_present": true,
+    "method_results_not_averaged": true,
+    "mt_pt_scope_present": true,
+    "acceptance_boundary_present": true,
+    "qualification_boundary_present": true,
+    "ai_ml_external_validation_guard": true,
+    "nde_e0_e5_marked_non_normative": true,
+    "new_universal_mrt_thresholds": false,
+    "iso_4309_current_verified_2026_08_31": true,
+    "gost_iso_9934_1_current_verified_2026_08_31": true,
+    "iso_3452_1_status_verified_2026_08_31": true,
+    "iso_9712_current_verified_2026_08_31": true,
+    "gost_r_iso_9712_current_verified_2026_08_31": true,
+    "fnp_461_revision_2026_04_16_verified": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part IX / Blocks 41–45 — экспертный синтез и техническое review",
+  "sha256_lesson": "BCB119A8E68D2605CF718F159FB5F4DFEECEBA806EAEBED15CDFDC43E41914C8",
+  "sha256_source_map": "2CC28018C84DAC5C138AD2A942A0BD51B49737B9878497E18F8050A362941D66"
+}
