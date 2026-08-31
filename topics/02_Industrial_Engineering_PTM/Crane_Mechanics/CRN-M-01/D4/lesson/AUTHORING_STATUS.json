@@ -6,7 +6,8 @@
   "blocks_total": 45,
   "completed_parts": [
     "I",
-    "II"
+    "II",
+    "III"
   ],
   "completed_blocks": [
     1,
@@ -18,7 +19,12 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
   ],
   "parts": {
     "I": {
@@ -45,7 +51,7 @@
     },
     "III": {
       "title": "Продвинутая механика изгиба, контакта и трибологии",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         11,
         12,
@@ -56,7 +62,7 @@
     },
     "IV": {
       "title": "Усталость, спектр работы и критика ресурсных моделей",
-      "status": "WAITING",
+      "status": "NEXT",
       "blocks": [
         16,
         17,
@@ -133,5 +139,5 @@
     "SOURCE_FRESHNESS",
     "D4_FREEZE"
   ],
-  "next": "D4 LESSON / Part III / Blocks 11–15 — продвинутая механика изгиба, контакта и трибологии"
+  "next": "D4 LESSON / Part IV / Blocks 16–20 — усталость, спектр работы и критика ресурсных моделей"
 }

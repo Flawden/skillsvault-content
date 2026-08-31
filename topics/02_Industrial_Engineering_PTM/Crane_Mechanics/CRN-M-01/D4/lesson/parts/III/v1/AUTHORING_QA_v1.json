@@ -1,0 +1,40 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_III_BLOCKS_11_15_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "III",
+  "blocks": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "checks": {
+    "matches_g3_scope": true,
+    "d_over_d_not_life_formula": true,
+    "contact_pressure_guard": true,
+    "fretting_causal_chain_present": true,
+    "tribology_not_single_mode": true,
+    "evolving_damage_present": true,
+    "M0_M4_marked_non_normative": true,
+    "sensitivity_present": true,
+    "validation_ladder_present": true,
+    "model_discrepancy_present": true,
+    "life_prediction_deferred_to_part_iv": true,
+    "new_universal_numeric_thresholds": false,
+    "iso_16625_current_verified_2026_08_31": true,
+    "iso_4309_current_and_cd_status_verified_2026_08_31": true,
+    "ridge_2026_verified": true,
+    "kamarudin_2026_verified": true,
+    "dyson_2026_verified": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part IV / Blocks 16–20 — усталость, спектр работы и критика ресурсных моделей",
+  "sha256_lesson": "E887906CC16F39B62256B3A334DCC65F5AA9DB42DBB71D92589979BF70DF26D1",
+  "sha256_source_map": "E6DF4EF416A508DEA0425784363B213CFEDBA2F8E9DC2152FF9041291D4042DB"
+}
