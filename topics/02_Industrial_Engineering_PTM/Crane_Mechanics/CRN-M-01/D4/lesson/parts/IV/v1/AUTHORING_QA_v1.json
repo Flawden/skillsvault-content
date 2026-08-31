@@ -1,0 +1,38 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_IV_BLOCKS_16_20_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "IV",
+  "blocks": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "checks": {
+    "crane_cycle_not_rope_cycle": true,
+    "average_not_spectrum": true,
+    "spectrum_not_local_history": true,
+    "sn_curve_domain_guard": true,
+    "miner_assumptions_explicit": true,
+    "sequence_effect_present": true,
+    "ogata_2026_used_as_bounded_research": true,
+    "remaining_life_future_scenario_explicit": true,
+    "current_state_required": true,
+    "design_working_period_not_rope_life": true,
+    "operational_authority_boundary_preserved": true,
+    "new_closed_coefficients_introduced": false,
+    "iso_4301_1_current_verified_2026_08_31": true,
+    "iso_12482_2014_published_status_verified_2026_08_31": true,
+    "iso_cd_12482_not_current_guard": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part V / Blocks 21–25 — вращательные свойства, испытания и монтаж",
+  "sha256_lesson": "615B7D8A5D733C78796DF5AC57040E30FD04AA54D8DABC68D420C842F3FD9660",
+  "sha256_source_map": "ED4A4C3650ADEB89B47F3570C73609F1BE966410F43ABA2BEE83E741B848A4C7"
+}

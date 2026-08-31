@@ -18,8 +18,8 @@ D4 Lesson — 9 частей / 45 блоков
 ├─ Part I    / Blocks 1–5   ✅ AUTHORING v1
 ├─ Part II   / Blocks 6–10  ✅ AUTHORING v1
 ├─ Part III  / Blocks 11–15 ✅ AUTHORING v1
-├─ Part IV   / Blocks 16–20 ← NEXT
-├─ Part V    / Blocks 21–25
+├─ Part IV   / Blocks 16–20 ✅ AUTHORING v1
+├─ Part V    / Blocks 21–25 ← NEXT
 ├─ Part VI   / Blocks 26–30
 ├─ Part VII  / Blocks 31–35
 ├─ Part VIII / Blocks 36–40

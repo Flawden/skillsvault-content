@@ -34,16 +34,16 @@
       "source_gate_program": "COMPLETE",
       "lesson": "AUTHORING_ACTIVE",
       "lesson_progress": {
-        "parts_completed": 3,
+        "parts_completed": 4,
         "parts_total": 9,
-        "blocks_completed": 15,
+        "blocks_completed": 20,
         "blocks_total": 45,
-        "latest": "Part III / Blocks 11–15 — AUTHORING_COMPLETE_v1",
-        "next": "Part IV / Blocks 16–20"
+        "latest": "Part IV / Blocks 16–20 — AUTHORING_COMPLETE_v1",
+        "next": "Part V / Blocks 21–25"
       }
     }
   },
-  "next": "CRN-M-01 / D4 LESSON / Part IV / Blocks 16–20 — усталость, спектр работы и критика ресурсных моделей",
+  "next": "CRN-M-01 / D4 LESSON / Part V / Blocks 21–25 — вращательные свойства, испытания и монтаж",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -53,7 +53,7 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/AUTHORING_STATUS.json",
-    "Read completed D4 lesson Parts I–III",
+    "Read completed D4 lesson Parts I–IV",
     "Continue from status.next"
   ]
 }

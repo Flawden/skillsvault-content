@@ -7,7 +7,8 @@
   "completed_parts": [
     "I",
     "II",
-    "III"
+    "III",
+    "IV"
   ],
   "completed_blocks": [
     1,
@@ -24,7 +25,12 @@
     12,
     13,
     14,
-    15
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
   ],
   "parts": {
     "I": {
@@ -62,7 +68,7 @@
     },
     "IV": {
       "title": "Усталость, спектр работы и критика ресурсных моделей",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         16,
         17,
@@ -73,7 +79,7 @@
     },
     "V": {
       "title": "Вращательные свойства, испытания и монтаж",
-      "status": "WAITING",
+      "status": "NEXT",
       "blocks": [
         21,
         22,
@@ -139,5 +145,5 @@
     "SOURCE_FRESHNESS",
     "D4_FREEZE"
   ],
-  "next": "D4 LESSON / Part IV / Blocks 16–20 — усталость, спектр работы и критика ресурсных моделей"
+  "next": "D4 LESSON / Part V / Blocks 21–25 — вращательные свойства, испытания и монтаж"
 }
