@@ -180,11 +180,11 @@
     },
     {
       "stage": "PRACTICE",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "PRACTICE_REASONING",
-      "status": "WAITING"
+      "status": "NEXT"
     },
     {
       "stage": "EXPECTED_RESULT",
@@ -207,5 +207,5 @@
       "status": "WAITING"
     }
   ],
-  "next": "CRN-M-01 / D4 PRACTICE / v1 — expert integrated cases for source, compatibility, mechanics, uncertainty and bounded decisions"
+  "next": "CRN-M-01 / D4 PRACTICE REASONING / v1 — expert reasoning paths, discriminating evidence and common failure modes without turning into a single answer key"
 }

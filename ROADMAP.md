@@ -19,8 +19,8 @@ D4 post-authoring pipeline
 ├─ Technical Editorial ✅ Pass I
 ├─ Red Team ✅ Pass I
 ├─ Reader Experience Pass ✅ Pass I
-├─ Practice ← NEXT
-├─ Practice Reasoning
+├─ Practice ✅ v1 — Cases A–H
+├─ Practice Reasoning ← NEXT
 ├─ Expected Result
 ├─ Verification Rubric
 ├─ Final Alignment
@@ -31,33 +31,22 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Reader Experience Pass I
+## D4 Practice v1
 
-Decision:
-
-`PASS WITH READER-LAYER IMPROVEMENTS APPLIED`
-
-Applied to all 9 Parts:
-- reader navigator;
-- main causal thread;
-- explicit capability target;
-- retrieval checkpoint.
-
-Technical depth and source boundaries were not reduced.
-
-## D4 learning flow
+Eight integrated expert cases:
 
 ```text
-Part I     SOURCE / METHOD
-Part II    COMPATIBILITY
-Part III   LOCAL MECHANICS
-Part IV    DAMAGE HISTORY / LIFE
-Part V     ROTATION / INSTALLATION
-Part VI    MULTILAYER PACKAGE
-Part VII   CHAIN–WHEEL
-Part VIII  SPECIALIZED INSPECTION
-Part IX    SYNTHESIS / REVIEW / HANDOFF
+A — Source architecture / applicability
+B — Rope replacement compatibility
+C — Local mechanics / multilayer / tribology
+D — Fatigue / spectrum / remaining-life critique
+E — Rotational properties / installation / causality
+F — Chain–wheel compatibility
+G — Specialized inspection / uncertainty
+H — Full D4 capstone technical review
 ```
+
+Practice contains no worked answer key.
 
 ## После CRN-M-01
 

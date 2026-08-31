@@ -1,0 +1,37 @@
+{
+  "artifact": "CRN-M-01_D4_PRACTICE_v1",
+  "date": "2026-08-31",
+  "stage": "PRACTICE",
+  "status": "COMPLETE",
+  "baseline_commit": "561ce70479b8292dc95db6dcb1b1b749fd6b6058",
+  "cases": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "checks": {
+    "case_count_8": true,
+    "integrated_not_recall_quiz": true,
+    "missing_data_used_intentionally": true,
+    "multiple_competing_models_required": true,
+    "bounded_outputs_required": true,
+    "insufficient_data_valid": true,
+    "no_answer_key_embedded": true,
+    "authority_boundary_required": true,
+    "safety_action_independent_of_root_cause": true,
+    "d4_parts_i_ix_covered": true,
+    "final_capstone_present": true,
+    "practice_reasoning_separate": true,
+    "new_normative_thresholds": false,
+    "frozen_d1_d2_d3_modified": false,
+    "d4_lesson_modified": false
+  },
+  "next": "CRN-M-01 / D4 PRACTICE REASONING / v1 — expert reasoning paths, discriminating evidence and common failure modes without turning into a single answer key",
+  "sha256_practice": "3FFB4BC0D1A86C3E37113C7407632CE84E0EB0A6136F9DAE9D7D96BA638490F1",
+  "sha256_alignment": "449D3AFB040DAD2B9F5BB2B8724EBDDF1D644660907EE4D69E45AF759FFE57B5"
+}

@@ -1,0 +1,21 @@
+{
+  "topic": "CRN-M-01",
+  "depth": "D4",
+  "stage": "PRACTICE",
+  "version": "v1",
+  "status": "COMPLETE",
+  "cases": 8,
+  "case_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "answer_key_embedded": false,
+  "practice_reasoning": "NEXT",
+  "next": "CRN-M-01 / D4 PRACTICE REASONING / v1 — expert reasoning paths, discriminating evidence and common failure modes without turning into a single answer key"
+}
