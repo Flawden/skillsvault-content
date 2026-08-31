@@ -1,0 +1,26 @@
+{
+  "artifact": "CRN-M-01_D4_SOURCE_FRESHNESS_v1",
+  "date": "2026-08-31",
+  "stage": "SOURCE_FRESHNESS",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+  "baseline_commit": "e2e41e6854b20e9dea3ac19e7c1714b58dd11797",
+  "checks": {
+    "external_inventory_complete_for_d4_claim_set": true,
+    "current_status_rechecked": true,
+    "draft_vs_published_separated": true,
+    "replacements_checked": true,
+    "numeric_denominators_checked": true,
+    "research_domains_checked": true,
+    "oem_rules_not_universalized": true,
+    "stale_sources_requiring_removal": false,
+    "lesson_corrections_required": false,
+    "practice_corrections_required": false,
+    "verification_corrections_required": false,
+    "freeze_candidate_ready": true,
+    "frozen_d1_d2_d3_modified": false
+  },
+  "next": "CRN-M-01 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
+  "sha256_report": "97939D3CB01846ABB777BDD393F7C35773E12DD1B8D4258317BE4EF6D384E93B",
+  "sha256_inventory": "278ACFB4F9770BB70BB42B1A9FBBEFD241005C0131E43C888CB70B2E713F4417"
+}

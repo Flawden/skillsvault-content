@@ -8,6 +8,7 @@
   "levels": 5,
   "blocking_failures": 6,
   "final_alignment": "COMPLETE",
-  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation",
-  "source_freshness": "NEXT"
+  "next": "CRN-M-01 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
+  "source_freshness": "COMPLETE",
+  "d4_freeze": "NEXT"
 }

@@ -49,12 +49,19 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT",
-        "freeze": "WAITING"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "decision": "PASS_WITH_WATCHLIST",
+        "sources_checked": 31,
+        "watchlist_count": 7,
+        "freeze_candidate_ready": true
       }
     }
   },
-  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation",
+  "next": "CRN-M-01 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -63,9 +70,9 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/FINAL_ALIGNMENT_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/v1/CRN-M-01_D4_FINAL_ALIGNMENT_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/source_freshness/SOURCE_FRESHNESS_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/source_freshness/v1/CRN-M-01_D4_SOURCE_FRESHNESS_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/source_freshness/v1/SOURCE_INVENTORY_v1.json",
     "Continue from status.next"
   ]
 }
