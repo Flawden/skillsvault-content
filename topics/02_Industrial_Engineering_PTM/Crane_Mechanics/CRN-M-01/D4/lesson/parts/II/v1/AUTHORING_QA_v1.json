@@ -1,0 +1,36 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_II_BLOCKS_6_10_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "II",
+  "blocks": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "checks": {
+    "matches_g2_scope": true,
+    "system_selection_not_product_ranking": true,
+    "same_diameter_trap_explicit": true,
+    "breaking_force_scope_bounded": true,
+    "compatibility_vector_present": true,
+    "tradeoffs_present": true,
+    "C0_C4_marked_non_normative": true,
+    "not_demonstrated_distinguished_from_incompatible": true,
+    "design_check_design_boundary_preserved": true,
+    "new_closed_coefficients_introduced": false,
+    "current_iso_16625_verified_2026_08_31": true,
+    "current_gost_33710_verified_2026_08_31": true,
+    "current_iso_2408_verified_2026_08_31": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part III / Blocks 11–15 — продвинутая механика изгиба, контакта и трибологии",
+  "sha256_lesson": "F1DDFE1ABFB83F5C5F458F259E8512F04795345A66F5B1A1423079D242AA6ECD",
+  "sha256_source_map": "3EE01322533759629C8C2C06A349AAFEBE2B79FE4A7BD9FBD04E66E4C0F4B393"
+}

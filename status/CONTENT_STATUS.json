@@ -34,16 +34,16 @@
       "source_gate_program": "COMPLETE",
       "lesson": "AUTHORING_ACTIVE",
       "lesson_progress": {
-        "parts_completed": 1,
+        "parts_completed": 2,
         "parts_total": 9,
-        "blocks_completed": 5,
+        "blocks_completed": 10,
         "blocks_total": 45,
-        "latest": "Part I / Blocks 1–5 — AUTHORING_COMPLETE_v1",
-        "next": "Part II / Blocks 6–10"
+        "latest": "Part II / Blocks 6–10 — AUTHORING_COMPLETE_v1",
+        "next": "Part III / Blocks 11–15"
       }
     }
   },
-  "next": "CRN-M-01 / D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система",
+  "next": "CRN-M-01 / D4 LESSON / Part III / Blocks 11–15 — продвинутая механика изгиба, контакта и трибологии",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -53,7 +53,7 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/AUTHORING_STATUS.json",
-    "Read the latest completed lesson part",
+    "Read Part I and Part II",
     "Continue from status.next"
   ]
 }

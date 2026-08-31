@@ -5,14 +5,20 @@
   "parts_total": 9,
   "blocks_total": 45,
   "completed_parts": [
-    "I"
+    "I",
+    "II"
   ],
   "completed_blocks": [
     1,
     2,
     3,
     4,
-    5
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
   ],
   "parts": {
     "I": {
@@ -28,7 +34,7 @@
     },
     "II": {
       "title": "Конструкция и выбор каната как инженерная система",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         6,
         7,
@@ -39,7 +45,7 @@
     },
     "III": {
       "title": "Продвинутая механика изгиба, контакта и трибологии",
-      "status": "WAITING",
+      "status": "NEXT",
       "blocks": [
         11,
         12,
@@ -127,5 +133,5 @@
     "SOURCE_FRESHNESS",
     "D4_FREEZE"
   ],
-  "next": "D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система"
+  "next": "D4 LESSON / Part III / Blocks 11–15 — продвинутая механика изгиба, контакта и трибологии"
 }
