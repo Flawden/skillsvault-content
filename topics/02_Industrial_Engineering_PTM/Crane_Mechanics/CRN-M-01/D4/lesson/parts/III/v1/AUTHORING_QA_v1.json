@@ -32,10 +32,10 @@
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
     "red_team_completed": true,
-    "formal_reader_experience_pass_completed": false
+    "formal_reader_experience_pass_completed": true
   },
   "next": "D4 LESSON / Part IV / Blocks 16–20 — усталость, спектр работы и критика ресурсных моделей",
-  "sha256_lesson": "98761BB7412064F4DFBBDA2C8995B7C5DE5D5079C4AC42B3879F83A9C14D613C",
+  "sha256_lesson": "BA48036C019495450C906FE749A6B5D003EB9C38D285AAB3F5E0252270E09210",
   "sha256_source_map": "E6DF4EF416A508DEA0425784363B213CFEDBA2F8E9DC2152FF9041291D4042DB",
   "technical_editorial": {
     "pass": "I",
@@ -50,5 +50,13 @@
     "status": "PASS_WITH_CORRECTIONS_APPLIED",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
     "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_NAVIGATION_AND_COMPREHENSION_LAYER",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "technical_depth_reduced": false
   }
 }

@@ -1,0 +1,14 @@
+{
+  "topic": "CRN-M-01",
+  "depth": "D4",
+  "stage": "READER_EXPERIENCE_PASS",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "technical_depth_reduced": false
+  },
+  "practice": "NEXT",
+  "next": "CRN-M-01 / D4 PRACTICE / v1 — expert integrated cases for source, compatibility, mechanics, uncertainty and bounded decisions"
+}

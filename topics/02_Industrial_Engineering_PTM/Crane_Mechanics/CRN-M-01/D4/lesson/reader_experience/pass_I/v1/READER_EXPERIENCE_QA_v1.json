@@ -1,0 +1,27 @@
+{
+  "artifact": "CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-08-31",
+  "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+  "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+  "scope": {
+    "parts": 9,
+    "blocks": 45
+  },
+  "improvements": [
+    "RX-01 whole-D4 progression map",
+    "RX-02 cognitive-load navigator",
+    "RX-03 causal-thread framing for guard-dense parts",
+    "RX-04 explicit capability targets",
+    "RX-05 retrieval checkpoints",
+    "RX-06 terminology friction guard",
+    "RX-07 final synthesis framing"
+  ],
+  "guards": {
+    "technical_depth_reduced": false,
+    "normative_claims_changed": false,
+    "d4_gates_modified": false,
+    "frozen_d1_d2_d3_modified": false,
+    "practice_completed": false
+  },
+  "next": "CRN-M-01 / D4 PRACTICE / v1 — expert integrated cases for source, compatibility, mechanics, uncertainty and bounded decisions"
+}

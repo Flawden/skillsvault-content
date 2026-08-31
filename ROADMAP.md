@@ -18,8 +18,8 @@ D4
 D4 post-authoring pipeline
 ├─ Technical Editorial ✅ Pass I
 ├─ Red Team ✅ Pass I
-├─ Reader Experience Pass ← NEXT
-├─ Practice
+├─ Reader Experience Pass ✅ Pass I
+├─ Practice ← NEXT
 ├─ Practice Reasoning
 ├─ Expected Result
 ├─ Verification Rubric
@@ -31,56 +31,32 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Red Team Pass I
+## Reader Experience Pass I
 
 Decision:
 
-`PASS WITH CORRECTIONS APPLIED`
+`PASS WITH READER-LAYER IMPROVEMENTS APPLIED`
 
-Key adversarial guards:
+Applied to all 9 Parts:
+- reader navigator;
+- main causal thread;
+- explicit capability target;
+- retrieval checkpoint.
 
-```text
-CURRENT
-≠
-AUTOMATIC LEGAL APPLICABILITY
+Technical depth and source boundaries were not reduced.
 
-INSUFFICIENT DATA
-≠
-PERMISSION TO CONTINUE
-
-REACHED C2
-≠
-COMPATIBLE
-
-M4
-≠
-REMAINING-LIFE PERMISSION
-
-MINER EQUATION
-≠
-APPROVED ROPE-LIFE METHOD
-
-CAUSE NOT KNOWN
-≠
-NO ACTION REQUIRED
-
-AFTER REPLACEMENT
-≠
-CAUSED BY REPLACEMENT
-```
-
-## Corrected parts
+## D4 learning flow
 
 ```text
-Part I     ✅ RT
-Part II    ✅ RT
-Part III   ✅ RT
-Part IV    ✅ RT
-Part V     ✅ RT
-Part VI    ✅ no text change
-Part VII   ✅ RT
-Part VIII  ✅ RT
-Part IX    ✅ RT
+Part I     SOURCE / METHOD
+Part II    COMPATIBILITY
+Part III   LOCAL MECHANICS
+Part IV    DAMAGE HISTORY / LIFE
+Part V     ROTATION / INSTALLATION
+Part VI    MULTILAYER PACKAGE
+Part VII   CHAIN–WHEEL
+Part VIII  SPECIALIZED INSPECTION
+Part IX    SYNTHESIS / REVIEW / HANDOFF
 ```
 
 ## После CRN-M-01

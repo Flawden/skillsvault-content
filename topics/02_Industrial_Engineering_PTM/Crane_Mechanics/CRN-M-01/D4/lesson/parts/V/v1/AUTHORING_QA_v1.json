@@ -30,10 +30,10 @@
     "canonical_frozen_d1_d2_d3_modified": false,
     "technical_editorial_completed": true,
     "red_team_completed": true,
-    "formal_reader_experience_pass_completed": false
+    "formal_reader_experience_pass_completed": true
   },
   "next": "D4 LESSON / Part VI / Blocks 26–30 — многослойный барабан как нелинейно меняющаяся система",
-  "sha256_lesson": "033CD3062F9BF7E4AC612810295703EF0BFD3D3B90C62FF40557D8D77BC7C798",
+  "sha256_lesson": "49D1398C06C3F126537A38863408ED074FCD2079A52C8F10502B9E648581861F",
   "sha256_source_map": "27616DE79D1773E281CC928AEE5191774C8AFB1DF2D4D8CAD156C0CC56CAA1A4",
   "technical_editorial": {
     "pass": "I",
@@ -48,5 +48,13 @@
     "status": "PASS_WITH_CORRECTIONS_APPLIED",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
     "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_NAVIGATION_AND_COMPREHENSION_LAYER",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "technical_depth_reduced": false
   }
 }

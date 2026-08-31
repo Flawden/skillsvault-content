@@ -23,12 +23,12 @@
     "authority_boundary_preserved": true,
     "insufficient_data_valid_result": true,
     "canonical_frozen_d1_d2_d3_modified": false,
-    "formal_reader_experience_pass_completed": false,
+    "formal_reader_experience_pass_completed": true,
     "technical_editorial_completed": true,
     "red_team_completed": true
   },
   "next": "D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система",
-  "sha256_lesson": "E5F24EBB719F5B31B6D529A9B13634B8A853D007D4AADEDFBD8EDD7D00A1E4F6",
+  "sha256_lesson": "75C7C888468A582A12AD77C1EA2350414606BC6ED54289DA7DAD6A8EA4FB59B9",
   "sha256_source_map": "80FEA73018A6BC14F0B0EB422D589D53871F4D502E7F4600FFB78BF36001066C",
   "technical_editorial": {
     "pass": "I",
@@ -43,5 +43,13 @@
     "status": "PASS_WITH_CORRECTIONS_APPLIED",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
     "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_NAVIGATION_AND_COMPREHENSION_LAYER",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "technical_depth_reduced": false
   }
 }
