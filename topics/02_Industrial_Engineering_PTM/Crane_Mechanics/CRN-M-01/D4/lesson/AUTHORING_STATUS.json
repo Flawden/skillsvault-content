@@ -10,7 +10,8 @@
     "III",
     "IV",
     "V",
-    "VI"
+    "VI",
+    "VII"
   ],
   "completed_blocks": [
     1,
@@ -42,7 +43,12 @@
     27,
     28,
     29,
-    30
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
   ],
   "parts": {
     "I": {
@@ -113,7 +119,7 @@
     },
     "VII": {
       "title": "Продвинутая механика цепей и цепного колеса",
-      "status": "NEXT",
+      "status": "AUTHORING_COMPLETE_v1",
       "blocks": [
         31,
         32,
@@ -124,7 +130,7 @@
     },
     "VIII": {
       "title": "Специализированный контроль и неопределённость",
-      "status": "WAITING",
+      "status": "NEXT",
       "blocks": [
         36,
         37,
@@ -157,5 +163,5 @@
     "SOURCE_FRESHNESS",
     "D4_FREEZE"
   ],
-  "next": "D4 LESSON / Part VII / Blocks 31–35 — продвинутая механика цепей и цепного колеса"
+  "next": "D4 LESSON / Part VIII / Blocks 36–40 — специализированный контроль и неопределённость"
 }

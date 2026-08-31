@@ -1,0 +1,36 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_VII_BLOCKS_31_35_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "VII",
+  "blocks": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "checks": {
+    "lifting_chain_hoist_chain_separated": true,
+    "grade_not_compatibility": true,
+    "pitch_not_full_compatibility": true,
+    "chain_wheel_pair_present": true,
+    "worn_wheel_new_chain_guard": true,
+    "elongation_measurement_method_guard": true,
+    "inspection_compatibility_design_separated": true,
+    "new_universal_discard_percentages": false,
+    "iso_3077_current_verified_2026_08_31": true,
+    "iso_7592_current_verified_2026_08_31": true,
+    "gost_30188_current_verified_2026_08_31": true,
+    "gost_en_818_7_current_verified_2026_08_31": true,
+    "gost_33172_current_verified_2026_08_31": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part VIII / Blocks 36–40 — специализированный контроль и неопределённость",
+  "sha256_lesson": "A41048244B3F36759A8E61F044B0EEDE126FF8BF486C91E408FD22EF7647AF09",
+  "sha256_source_map": "5044325D76136944596C96350DFCD07E089C7DB79E62C123AFCCAF36880646DE"
+}
