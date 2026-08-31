@@ -47,14 +47,14 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT",
-        "final_alignment": "WAITING",
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
       }
     }
   },
-  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements",
+  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -63,9 +63,9 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/EXPECTED_RESULT_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/v1/CRN-M-01_D4_EXPECTED_RESULT_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/v1/CRN-M-01_D4_VERIFICATION_RUBRIC_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
     "Continue from status.next"
   ]
 }

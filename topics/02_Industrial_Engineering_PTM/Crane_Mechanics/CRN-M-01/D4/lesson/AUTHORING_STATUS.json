@@ -192,11 +192,11 @@
     },
     {
       "stage": "VERIFICATION_RUBRIC",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "FINAL_ALIGNMENT",
-      "status": "WAITING"
+      "status": "NEXT"
     },
     {
       "stage": "SOURCE_FRESHNESS",
@@ -207,5 +207,5 @@
       "status": "WAITING"
     }
   ],
-  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements"
+  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure"
 }

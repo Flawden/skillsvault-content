@@ -22,8 +22,8 @@ D4 post-authoring pipeline
 ├─ Practice ✅ v1 — Cases A–H
 ├─ Practice Reasoning ✅ v1
 ├─ Expected Result ✅ v1 — ER-01…ER-12
-├─ Verification Rubric ← NEXT
-├─ Final Alignment
+├─ Verification Rubric ✅ v1
+├─ Final Alignment ← NEXT
 ├─ Source Freshness
 └─ D4 Freeze
 
@@ -31,28 +31,37 @@ Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Expected Result v1
+## Verification Rubric v1
 
-D4 is observable through 12 dimensions:
+Architecture:
 
 ```text
-ER-01 Decision question
-ER-02 Evidence status
-ER-03 Competing models
-ER-04 Source-by-claim selection
-ER-05 Minimum sufficient method
-ER-06 Differentiating evidence
-ER-07 Sensitivity / uncertainty
-ER-08 Bounded conclusion
-ER-09 Knowledge status != permission
-ER-10 Authority boundary
-ER-11 Audit trail
-ER-12 Transfer to unseen problem
+KNOWN CASE
+↓
+UNSEEN TRANSFER CASE
+↓
+ADVERSARIAL CHALLENGE
 ```
 
-Known-case success alone is insufficient.
+Scoring:
+- 12 ER dimensions;
+- 0–4 each;
+- max 48.
 
-Verification must include an unseen transfer case.
+Blocking failures:
+- invented critical input;
+- safety delay;
+- authority creep;
+- false applicability;
+- unsupported precision;
+- signal-to-cause shortcut.
+
+`D4 VERIFIED` requires:
+- no blocking failure;
+- unseen transfer completed;
+- ER-12 >= 3;
+- mandatory D4 core >= 3;
+- sufficient total score.
 
 ## После CRN-M-01
 

@@ -1,0 +1,33 @@
+{
+  "artifact": "CRN-M-01_D4_VERIFICATION_RUBRIC_v1",
+  "date": "2026-08-31",
+  "stage": "VERIFICATION_RUBRIC",
+  "status": "COMPLETE",
+  "baseline_commit": "4af202c5b071deea65a5c64b6d5bb7f3b2c81cde",
+  "dimensions": 12,
+  "levels": 5,
+  "blocking_failures": 6,
+  "checks": {
+    "er_01_12_scored": true,
+    "scale_0_4": true,
+    "blocking_failures_non_compensable": true,
+    "mandatory_minimums": true,
+    "known_case_required": true,
+    "unseen_transfer_required": true,
+    "challenge_required": true,
+    "transfer_case_not_duplicate": true,
+    "scoring_sheet_present": true,
+    "blocking_failure_sheet_present": true,
+    "final_decision_states_defined": true,
+    "authority_scope_guard": true,
+    "final_alignment_ready": true,
+    "new_normative_thresholds": false,
+    "lesson_modified": false,
+    "practice_modified": false,
+    "expected_result_modified": false,
+    "frozen_d1_d2_d3_modified": false
+  },
+  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
+  "sha256_rubric": "99D31F722C9A6F2F84C73602F585A98125FC02D115605606B426D25F856E0C10",
+  "sha256_alignment": "D2A093D8A007D1C40A8000FEB01C93BE6127DEA1D55DDB5CD195E1C9FEF99373"
+}

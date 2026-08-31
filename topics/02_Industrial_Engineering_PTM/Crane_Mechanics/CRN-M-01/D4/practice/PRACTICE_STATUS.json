@@ -17,7 +17,8 @@
   ],
   "answer_key_embedded": false,
   "practice_reasoning": "COMPLETE",
-  "next": "CRN-M-01 / D4 VERIFICATION RUBRIC / v1 — scoring levels, blocking failures, transfer test and evidence requirements",
+  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }
