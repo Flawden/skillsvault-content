@@ -6,6 +6,7 @@
   "status": "COMPLETE",
   "dimensions": 12,
   "verification_rubric": "COMPLETE",
-  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
-  "final_alignment": "NEXT"
+  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

@@ -1,0 +1,33 @@
+{
+  "artifact": "CRN-M-01_D4_FINAL_ALIGNMENT_v1",
+  "date": "2026-08-31",
+  "stage": "FINAL_ALIGNMENT",
+  "status": "COMPLETE",
+  "baseline_commit": "f1531a4fe2704a98b67fcdf6a1f95a61fe31a129",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "checks": {
+    "lesson_45_of_45_traced": true,
+    "practice_8_of_8_aligned": true,
+    "reasoning_8_of_8_aligned": true,
+    "expected_12_of_12_traced": true,
+    "rubric_12_of_12_traced": true,
+    "blocking_failures_6_of_6_have_prior_origin": true,
+    "unseen_transfer_preserved": true,
+    "orphan_lesson_blocks": false,
+    "orphan_practice_requirements": false,
+    "orphan_expected_dimensions": false,
+    "surprise_blocking_failures": false,
+    "content_corrections_required": false,
+    "source_freshness_ready": true,
+    "new_normative_thresholds": false,
+    "lesson_modified": false,
+    "practice_modified": false,
+    "reasoning_modified": false,
+    "expected_result_modified": false,
+    "verification_rubric_modified": false,
+    "frozen_d1_d2_d3_modified": false
+  },
+  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation",
+  "sha256_report": "AD61E50EA463BDACC5D7F02341DFBD6562C498B674A6B7E95EECED65045D7189",
+  "sha256_traceability_matrix": "C89329CAA6C99A638DF4EA1942C1FFB3D2E0286911E48F0FD346783C13A7581E"
+}

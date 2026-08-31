@@ -48,13 +48,13 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "WAITING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "WAITING"
       }
     }
   },
-  "next": "CRN-M-01 / D4 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
+  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -63,9 +63,9 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/v1/CRN-M-01_D4_VERIFICATION_RUBRIC_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/FINAL_ALIGNMENT_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/v1/CRN-M-01_D4_FINAL_ALIGNMENT_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
     "Continue from status.next"
   ]
 }

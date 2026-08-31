@@ -23,45 +23,44 @@ D4 post-authoring pipeline
 ├─ Practice Reasoning ✅ v1
 ├─ Expected Result ✅ v1 — ER-01…ER-12
 ├─ Verification Rubric ✅ v1
-├─ Final Alignment ← NEXT
-├─ Source Freshness
+├─ Final Alignment ✅ v1
+├─ Source Freshness ← NEXT
 └─ D4 Freeze
 
 Then:
 CRN-M-01 Full Topic Freeze
 ```
 
-## Verification Rubric v1
+## Final Alignment v1
 
-Architecture:
+Decision:
+
+`PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`
+
+Results:
 
 ```text
-KNOWN CASE
-↓
-UNSEEN TRANSFER CASE
-↓
-ADVERSARIAL CHALLENGE
+Lesson blocks traced:          45 / 45
+Practice cases aligned:         8 / 8
+Expected dimensions traced:    12 / 12
+Rubric dimensions traced:      12 / 12
+Blocking failures with origin:  6 / 6
+
+Orphan Lesson blocks:           0
+Orphan Expected dimensions:     0
+Surprise blocking failures:     0
 ```
 
-Scoring:
-- 12 ER dimensions;
-- 0–4 each;
-- max 48.
+ER-12 transfer remains unseen by design.
 
-Blocking failures:
-- invented critical input;
-- safety delay;
-- authority creep;
-- false applicability;
-- unsupported precision;
-- signal-to-cause shortcut.
+No content corrections were required.
 
-`D4 VERIFIED` requires:
-- no blocking failure;
-- unseen transfer completed;
-- ER-12 >= 3;
-- mandatory D4 core >= 3;
-- sufficient total score.
+## Next
+
+`D4 SOURCE FRESHNESS / v1`
+
+After freshness:
+`D4 Freeze`
 
 ## После CRN-M-01
 
