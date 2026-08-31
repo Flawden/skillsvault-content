@@ -1,14 +1,17 @@
-name: content-integrity
+﻿name: content-integrity
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 jobs:
   integrity:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 2
 
@@ -20,10 +23,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
           bad="$(git diff --name-status "${{ github.event.before }}" "${{ github.sha }}" \
             | awk '$1 ~ /^[MD]/ && $2 ~ /\/FROZEN_v[0-9]+\// {print}')"
+
           if [ -n "$bad" ]; then
-            echo "Frozen content was modified/deleted. Create a new FROZEN_vN instead:"
+            echo "Frozen content was modified/deleted."
+            echo "Create a new FROZEN_vN instead:"
             echo "$bad"
             exit 1
           fi
