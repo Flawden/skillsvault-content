@@ -5,3 +5,4 @@
 *.yaml text eol=lf
 *.py text eol=lf
 *.ps1 text eol=crlf
+*.sha256 text eol=lf
