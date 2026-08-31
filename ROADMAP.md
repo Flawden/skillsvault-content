@@ -18,11 +18,15 @@ D4
 ├─ G5 ✅
 ├─ G6 ✅
 ├─ G7 ✅
-└─ G8 ← NEXT
+└─ G8 ✅
 
-После G8:
-D4 Lesson (45 блоков)
-→ Technical Editorial
+D4 SOURCE-GATE PROGRAM ✅ COMPLETE
+
+D4 Lesson — 45 блоков
+└─ Part I / Blocks 1–5 ← NEXT
+
+После Lesson:
+Technical Editorial
 → Red Team
 → Reader Experience Pass
 → Practice
@@ -35,7 +39,7 @@ D4 Lesson (45 блоков)
 → CRN-M-01 Full Topic Freeze
 ```
 
-## Дальше
+## После CRN-M-01
 
 ```text
 CRN-M-02 — Барабаны, блоки, полиспасты
@@ -65,10 +69,11 @@ Golden Set
 ZERO → LEGEND
 ```
 
-## GitHub как источник истины
+## GitHub
 
-- `main` — текущее принятое состояние контента.
-- `FROZEN_vN` — неизменяемые каталоги.
-- теги `crn-m-01-d1-v1`, `crn-m-01-d2-v1`, `crn-m-01-d3-v1` — контрольные точки.
-- новые рискованные изменения можно вести в `work/...` и после gate вливать в `main`.
-- новый чат начинает работу с `status/CONTENT_STATUS.json`.
+`main` — принятое состояние контента.
+
+`FROZEN_vN` — неизменяемые версии.
+
+Новый чат начинает с:
+`status/CONTENT_STATUS.json`.
