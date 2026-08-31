@@ -1,0 +1,33 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_I_BLOCKS_1_5_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "I",
+  "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "checks": {
+    "matches_architecture_blocks_1_5": true,
+    "d3_to_d4_capability_jump_explicit": true,
+    "reader_experience_puzzle_entry": true,
+    "single_narrative_arc": true,
+    "new_normative_numbers_introduced": false,
+    "closed_tables_reconstructed": false,
+    "oem_claims_universalized": false,
+    "research_claims_treated_as_normative": false,
+    "authority_boundary_preserved": true,
+    "insufficient_data_valid_result": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "formal_reader_experience_pass_completed": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false
+  },
+  "next": "D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система",
+  "sha256_lesson": "6593D20EFA17A78BA5994453AB5246029475742E447D76A12B8167B54560A9DD",
+  "sha256_source_map": "80FEA73018A6BC14F0B0EB422D589D53871F4D502E7F4600FFB78BF36001066C"
+}

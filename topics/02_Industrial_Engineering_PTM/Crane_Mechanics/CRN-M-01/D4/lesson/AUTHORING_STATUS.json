@@ -1,0 +1,131 @@
+{
+  "topic": "CRN-M-01",
+  "depth": "D4",
+  "lesson_status": "AUTHORING_ACTIVE",
+  "parts_total": 9,
+  "blocks_total": 45,
+  "completed_parts": [
+    "I"
+  ],
+  "completed_blocks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "parts": {
+    "I": {
+      "title": "Экспертная архитектура источников и методов",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "II": {
+      "title": "Конструкция и выбор каната как инженерная система",
+      "status": "NEXT",
+      "blocks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "III": {
+      "title": "Продвинутая механика изгиба, контакта и трибологии",
+      "status": "WAITING",
+      "blocks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "IV": {
+      "title": "Усталость, спектр работы и критика ресурсных моделей",
+      "status": "WAITING",
+      "blocks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "V": {
+      "title": "Вращательные свойства, испытания и монтаж",
+      "status": "WAITING",
+      "blocks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    "VI": {
+      "title": "Многослойный барабан как нелинейно меняющаяся система",
+      "status": "WAITING",
+      "blocks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "VII": {
+      "title": "Продвинутая механика цепей и цепного колеса",
+      "status": "WAITING",
+      "blocks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    "VIII": {
+      "title": "Специализированный контроль и неопределённость",
+      "status": "WAITING",
+      "blocks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "IX": {
+      "title": "Экспертный синтез и техническое review",
+      "status": "WAITING",
+      "blocks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  },
+  "post_authoring_pipeline": [
+    "TECHNICAL_EDITORIAL",
+    "RED_TEAM",
+    "READER_EXPERIENCE_PASS",
+    "PRACTICE",
+    "PRACTICE_REASONING",
+    "EXPECTED_RESULT",
+    "VERIFICATION_RUBRIC",
+    "FINAL_ALIGNMENT",
+    "SOURCE_FRESHNESS",
+    "D4_FREEZE"
+  ],
+  "next": "D4 LESSON / Part II / Blocks 6–10 — конструкция и выбор каната как инженерная система"
+}

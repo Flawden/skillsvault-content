@@ -22,10 +22,18 @@ D4
 
 D4 SOURCE-GATE PROGRAM ✅ COMPLETE
 
-D4 Lesson — 45 блоков
-└─ Part I / Blocks 1–5 ← NEXT
+D4 Lesson — 9 частей / 45 блоков
+├─ Part I    / Blocks 1–5   ✅ AUTHORING v1
+├─ Part II   / Blocks 6–10  ← NEXT
+├─ Part III  / Blocks 11–15
+├─ Part IV   / Blocks 16–20
+├─ Part V    / Blocks 21–25
+├─ Part VI   / Blocks 26–30
+├─ Part VII  / Blocks 31–35
+├─ Part VIII / Blocks 36–40
+└─ Part IX   / Blocks 41–45
 
-После Lesson:
+После полного Lesson:
 Technical Editorial
 → Red Team
 → Reader Experience Pass
