@@ -20,8 +20,8 @@ D4 Lesson — 9 частей / 45 блоков
 ├─ Part III  / Blocks 11–15 ✅ AUTHORING v1
 ├─ Part IV   / Blocks 16–20 ✅ AUTHORING v1
 ├─ Part V    / Blocks 21–25 ✅ AUTHORING v1
-├─ Part VI   / Blocks 26–30 ← NEXT
-├─ Part VII  / Blocks 31–35
+├─ Part VI   / Blocks 26–30 ✅ AUTHORING v1
+├─ Part VII  / Blocks 31–35 ← NEXT
 ├─ Part VIII / Blocks 36–40
 └─ Part IX   / Blocks 41–45
 
@@ -68,9 +68,3 @@ Golden Set
 ↓
 ZERO → LEGEND
 ```
-
-## GitHub
-
-`main` — принятое состояние контента.
-`FROZEN_vN` — неизменяемые версии.
-Новый чат начинает с `status/CONTENT_STATUS.json`.

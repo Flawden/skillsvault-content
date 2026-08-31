@@ -1,0 +1,39 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_VI_BLOCKS_26_30_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "VI",
+  "blocks": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "checks": {
+    "package_state_present": true,
+    "lower_layer_not_rigid": true,
+    "crossover_not_unique_root_cause": true,
+    "cut_in_system_mechanism": true,
+    "radial_stability_separated_from_axial_strength": true,
+    "diameter_under_load_present": true,
+    "pretension_denominator_guard": true,
+    "no_record_not_bad_installation_proof": true,
+    "m1_m2_m3_escalation": true,
+    "drum_rope_coupling_present": true,
+    "design_authority_guard": true,
+    "new_universal_pretension_values": false,
+    "new_friction_coefficients": false,
+    "iso_4309_current_verified_2026_08_31": true,
+    "iso_cd_4309_not_current_guard": true,
+    "iso_16625_current_verified_2026_08_31": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": false,
+    "red_team_completed": false,
+    "formal_reader_experience_pass_completed": false
+  },
+  "next": "D4 LESSON / Part VII / Blocks 31–35 — продвинутая механика цепей и цепного колеса",
+  "sha256_lesson": "0E6BF2B247FAE76F559ACE308CC51FBC103390A04F2F6EB8A0A224BF461DCA72",
+  "sha256_source_map": "AB3720C92E3DABD1C85B968A4926263050E33FF15CE3CC57031440C17167D69C"
+}
