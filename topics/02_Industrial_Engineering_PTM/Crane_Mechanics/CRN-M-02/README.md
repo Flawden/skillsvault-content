@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — EXPECTED RESULT COMPLETE v1`.
+`D1 — VERIFICATION RUBRIC COMPLETE v1`.
 
 The beginner lesson now establishes:
 
@@ -40,6 +40,8 @@ Reader Experience Pass I then improved the learning spine, terminology onboardin
 
 Practice v1 contains eight reusable cases. Practice Reasoning v1 supplies bounded reasoning paths, multiple-valid-path handling, force-map checks, stop/escalation decisions and a common-failure taxonomy without modifying the exercise set.
 
-Expected Result v1 now translates that reviewed D1 contract into 10 observable competencies, a minimum evidence package and an unseen-case transfer requirement. A correct stop/escalation remains a valid outcome when a simple scalar model is not demonstrated.
+Expected Result v1 translates the reviewed D1 contract into 10 observable competencies, a minimum evidence package and an unseen-case transfer requirement. A correct stop/escalation remains a valid outcome when a simple scalar model is not demonstrated.
 
-Next: `D1 VERIFICATION RUBRIC / v1`.
+Verification Rubric v1 now scores ER-01…ER-10 on a 0–4 scale, requires known + unseen + challenge evidence, and defines six non-compensable blocking failures. High total score cannot compensate for force-map/model-status/authority failures.
+
+Next: `D1 FINAL ALIGNMENT / v1`.

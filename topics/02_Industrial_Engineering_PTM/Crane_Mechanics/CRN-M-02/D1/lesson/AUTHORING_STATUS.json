@@ -21,7 +21,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
+  "next": "CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -49,5 +49,6 @@
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }

@@ -5,9 +5,10 @@
   "version": "v1",
   "status": "COMPLETE",
   "dimensions": 10,
-  "verification_rubric": "NEXT",
+  "verification_rubric": "COMPLETE",
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
   "transfer_required": true,
-  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package"
+  "next": "CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
+  "final_alignment": "NEXT"
 }

@@ -29,7 +29,8 @@
 - D1 Practice — COMPLETE v1
 - D1 Practice Reasoning — COMPLETE v1
 - D1 Expected Result — COMPLETE v1
-- D1 Verification Rubric — NEXT
+- D1 Verification Rubric — COMPLETE v1
+- D1 Final Alignment — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

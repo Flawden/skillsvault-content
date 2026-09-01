@@ -17,28 +17,25 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Practice ✅ v1
 ├─ D1 Practice Reasoning ✅ v1
 ├─ D1 Expected Result ✅ v1
-└─ D1 Verification Rubric ← NEXT
+├─ D1 Verification Rubric ✅ v1
+└─ D1 Final Alignment ← NEXT
 ```
 
-## CRN-M-02 D1 Expected Result v1
+## CRN-M-02 D1 Verification Rubric v1
 
-The reviewed lesson, Practice A–H and Practice Reasoning are now translated into 10 observable competencies.
+The D1 Expected Result is now operationalized as a verification contract.
 
-### Result contract
+### Verification contract
 
-A D1 learner must be able to:
+- ER-01…ER-10 are scored on 0–4 levels;
+- one known Practice case is required;
+- one unseen transfer case is required;
+- one challenge/delta is required;
+- six blocking failures are non-compensable;
+- a correct `NOT YET DEMONSTRATED / ESCALATE BEYOND D1` can be a successful result;
+- numeric design claims and field authority remain locked.
 
-- choose the moving assembly before counting anything;
-- identify rope endpoints and attachment motion status;
-- trace the rope path end-to-end;
-- build a separate force-transfer map, including moving dead ends;
-- prove a simple `n` model or issue `NOT YET DEMONSTRATED / ESCALATE BEYOND D1`;
-- use ideal force and kinematic relations only after the model check;
-- preserve the source/claim lock for numeric equipment criteria;
-- separate diagram comprehension from field conformance and authority;
-- transfer the workflow to an unseen scheme.
-
-Known Practice A–H performance alone is not sufficient for verification.
+A learner cannot pass by accumulating points while failing force-map, model-status, transfer or authority boundaries.
 
 ## Source anchors
 
@@ -50,9 +47,9 @@ Known Practice A–H performance alone is not sufficient for verification.
 
 ## Next
 
-`CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package`
+`CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure`
 
-Build a rubric around ER-01…ER-10, including explicit non-compensable failure candidates and at least one unseen transfer case.
+Audit the full D1 chain for bidirectional traceability, orphan content, orphan assessment dimensions and guard consistency before Source Freshness.
 
 ## D1 production sequence
 
@@ -66,8 +63,8 @@ Reader Experience Pass ✅
 Practice ✅
 Practice Reasoning ✅
 Expected Result ✅
-Verification Rubric ← NEXT
-Final Alignment
+Verification Rubric ✅
+Final Alignment ← NEXT
 Source Freshness
 D1 Freeze
 ```
@@ -109,4 +106,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Expected Result does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Verification Rubric does not alter it because CRN-M-02 content is not frozen yet.
