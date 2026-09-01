@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — LESSON AUTHORING COMPLETE v1`.
+`D1 — TECHNICAL EDITORIAL PASS I COMPLETE v1`.
 
 The beginner lesson now establishes:
 
@@ -32,4 +32,6 @@ The beginner lesson now establishes:
 - groove/flange/entry-angle vocabulary without unsourced numeric limits;
 - passport/OEM escalation boundary for real equipment.
 
-Next: `D1 TECHNICAL EDITORIAL / PASS I / v1`.
+Editorial Pass I corrected the scalar force/kinematic scope guards, the `W` model boundary and fixed-sheave wording without unlocking numeric design claims.
+
+Next: `D1 RED TEAM / PASS I / v1`.

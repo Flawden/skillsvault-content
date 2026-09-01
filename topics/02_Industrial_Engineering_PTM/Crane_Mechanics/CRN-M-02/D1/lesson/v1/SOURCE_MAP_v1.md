@@ -92,12 +92,17 @@ s_rope = n · s_load
 v_load = v_rope / n
 ```
 
+The scalar force form is restricted to simple reeving where the counted supporting rope parts act along the support direction. For a non-parallel/angled arrangement the general boundary is the sum of the relevant force components, e.g. `Σ(T_i)_vertical = W`; with equal `T`, `Σ(T · cos θ_i) = W`. This is included only as a misuse guard, not as an equipment calculation method.
+
 Conditions are stated explicitly in the lesson:
 
 - simple reeving;
 - equal branch tension;
+- counted support parts are aligned with the modeled support direction for the scalar `nT = W` shortcut;
+- no separate unmodeled rope-end force acts on the moving assembly;
 - frictionless / lossless idealization;
 - supporting branches change length consistently with moving-block displacement;
+- fixed-end/simple rope-length constraint for `s_rope = n · s_load`;
 - quasi-static reasoning for the force relation.
 
 These relations explain the mental model. They do not constitute equipment-specific force, power, capacity, efficiency or design calculations.

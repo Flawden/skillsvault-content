@@ -34,7 +34,10 @@
     "primary_algorithm": "identify moving assembly -> trace complete rope path -> count supporting parts -> apply ideal model -> escalate real decision to applicable documents",
     "fixed_sheave_does_not_automatically_increase_mechanical_advantage": true,
     "visible_rope_segments_are_not_blindly_counted": true,
-    "model_boundary_for_W_is_explicit": true
+    "model_boundary_for_W_is_explicit": true,
+    "supporting_part_count_scope_explicit": true,
+    "angled_branch_component_guard_explicit": true,
+    "rope_length_constraint_scope_explicit": true
   },
   "sources": {
     "ISO_4306_1_2026": "terminology boundary",
@@ -45,5 +48,16 @@
     "idealized_first_principles_mechanics": "educational derivation only"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit mechanics, wording, source authority and claim-lock compliance before red team"
+  "next": "CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit mechanics, wording, source authority and claim-lock compliance before red team",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "cf8ffd365e9f0b5b460f69ca2b7c47ff504bba5b",
+    "corrections": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04"
+    ]
+  }
 }

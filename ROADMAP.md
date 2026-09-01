@@ -11,37 +11,20 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Scope ✅ LOCKED v1
 ├─ D1 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D1 Lesson Authoring ✅ v1
-└─ D1 Technical Editorial / Pass I ← NEXT
+├─ D1 Technical Editorial / Pass I ✅ v1
+└─ D1 Red Team / Pass I ← NEXT
 ```
 
-## CRN-M-02 D1 Lesson Authoring v1
+## CRN-M-02 D1 Technical Editorial Pass I v1
 
-The first beginner lesson is complete against the locked D1 scope/source gate.
+Technical Editorial Pass I is complete with four corrections applied.
 
-### Core learner algorithm
+### Corrections now locked into Lesson v1
 
-```text
-identify moving assembly
-→ trace the complete rope path
-→ count only supporting rope parts
-→ apply the idealized ratio model
-→ separate ideal mechanics from real equipment authority
-```
-
-The lesson covers drum, sheave/block, fixed vs moving blocks, reeving, supporting-parts counting, ideal mechanical advantage, ideal speed/distance reciprocity, single/multilayer winding recognition and documentation boundaries.
-
-### Idealized formula boundary
-
-Allowed and explicitly labelled as idealized:
-
-```text
-nT = W
-T_ideal = W / n
-s_rope = n · s_load
-v_load = v_rope / n
-```
-
-These are teaching models, not equipment-specific force/drive calculations.
+- `nT = W` is restricted to the simple aligned-support D1 model; angled/compound cases require force components / a force diagram.
+- `W` consistently means the vertical weight load of the entire selected moving assembly included in the model.
+- a fixed sheave is not treated as a universal “direction-only” statement for all complex reeving; it simply does not create mechanical advantage by its count alone.
+- `s_rope = n · s_load` / `v_load = v_rope / n` are restricted to the simple rope-length constraint used by the D1 model.
 
 ### Claim lock preserved
 
@@ -65,9 +48,9 @@ Still blocked until exact applicable source text / equipment documentation is av
 
 ## Next
 
-`CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1`
+`CRN-M-02 / D1 RED TEAM / PASS I / v1`
 
-Audit the authored lesson for mechanical correctness, wording, model boundaries, source authority and claim-lock compliance before Red Team.
+Adversarially challenge diagram interpretation, hidden endpoint cases, ideal-model misuse, source boundaries and field-authority traps.
 
 ## D1 production sequence
 
@@ -75,8 +58,8 @@ Audit the authored lesson for mechanical correctness, wording, model boundaries,
 Scope ✅
 Source Gate ✅
 Lesson Authoring ✅
-Technical Editorial ← NEXT
-Red Team
+Technical Editorial ✅
+Red Team ← NEXT
 Reader Experience Pass
 Practice
 Practice Reasoning
@@ -124,4 +107,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 authoring does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 editorial does not alter it because CRN-M-02 content is not frozen yet.

@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "AUTHORING_COMPLETE",
+      "status": "EDITORIAL_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -28,8 +28,8 @@
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
-        "editorial": "NEXT",
-        "red_team": "WAITING",
+        "editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "WAITING",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
@@ -47,6 +47,20 @@
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/AUTHORING_QA_v1.json",
         "idealized_mechanics_only": true,
         "numeric_design_claim_lock_preserved": true
+      },
+      "technical_editorial": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/editorial/pass_I/v1/CRN-M-02_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json",
+        "corrections": [
+          "TE-01",
+          "TE-02",
+          "TE-03",
+          "TE-04"
+        ]
       }
     },
     "D2": {
@@ -59,7 +73,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit mechanics, wording, source authority and claim-lock compliance before red team",
+  "next": "CRN-M-02 / D1 RED TEAM / PASS I / v1 — adversarial challenge of reeving interpretation, ideal-model misuse, source boundaries and field-authority traps",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -82,6 +96,7 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/SOURCE_GATE_v1.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/CRN-M-02_D1_LESSON_v1.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/AUTHORING_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/EDITORIAL_STATUS.json",
     "Continue from status.next"
   ]
 }
