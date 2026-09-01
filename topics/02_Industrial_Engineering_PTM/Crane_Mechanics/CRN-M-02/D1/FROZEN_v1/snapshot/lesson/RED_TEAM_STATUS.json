@@ -1,0 +1,24 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "RED_TEAM",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c774cea0b16d600b72fe482676cf95dbc9068d2f",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/red_team/pass_I/v1/CRN-M-02_D1_RED_TEAM_PASS_I_v1.md",
+    "findings_fixed": 5,
+    "corrected_artifacts": [
+      "lesson/v1/CRN-M-02_D1_LESSON_v1.md",
+      "lesson/v1/SOURCE_MAP_v1.md"
+    ]
+  },
+  "reader_experience_pass": "COMPLETE",
+  "practice": "COMPLETE",
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
+}

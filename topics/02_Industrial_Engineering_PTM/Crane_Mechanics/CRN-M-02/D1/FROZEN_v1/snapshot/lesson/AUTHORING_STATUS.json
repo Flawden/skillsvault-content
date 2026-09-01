@@ -1,0 +1,56 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-02_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "ideal_vs_real_boundary_explicit": true,
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "next": "CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1"
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1"
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "c646ca27426c436632d9c8ead9eb17b34cda3c8f",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06"
+    ]
+  },
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
+}

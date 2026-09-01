@@ -1,0 +1,13 @@
+{
+  "topic_id": "CRN-M-02",
+  "topic_name_ru": "Барабаны, блоки, полиспасты",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "d1_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "numeric_design_claims": "LOCKED_PENDING_EXACT_SOURCE",
+  "baseline_commit": "bcfcc21af511a04dd5a1f9b6002735a1f363cacc",
+  "next": "CRN-M-02 / D1 LESSON AUTHORING / v1 — build the beginner mental model for drums, sheaves and reeving under the locked source/claim boundaries"
+}

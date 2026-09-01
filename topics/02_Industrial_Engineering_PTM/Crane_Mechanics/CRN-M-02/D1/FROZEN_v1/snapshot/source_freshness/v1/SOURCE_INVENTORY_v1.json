@@ -1,0 +1,111 @@
+{
+  "artifact": "CRN-M-02_D1_SOURCE_INVENTORY_v1",
+  "checked_on": "2026-09-02",
+  "baseline_commit": "4cdad7297ce7c5ae15fb2f0498243db51cd17fe8",
+  "decision": "PASS_WITH_WATCHLIST",
+  "counts": {
+    "primary_anchors": 5,
+    "development_companion_records": 1,
+    "current_published_or_regulatory": 4,
+    "equipment_specific_authority_boundaries": 1,
+    "watchlist_records": 2,
+    "stale_requiring_removal": 0,
+    "draft_misused_as_current": 0,
+    "withdrawn_used_as_current": 0,
+    "numeric_boundary_leaks": 0,
+    "equipment_authority_leaks": 0
+  },
+  "watchlist": [
+    "ISO-4309-2017",
+    "ISO-CD-4309-ED6"
+  ],
+  "sources": [
+    {
+      "id": "ISO-4306-1-2026",
+      "type": "international_standard",
+      "title": "Cranes — Vocabulary — Part 1: General",
+      "status": "PUBLISHED",
+      "edition": 5,
+      "date": "2026-07",
+      "freshness": "CURRENT",
+      "replacement": "replaces withdrawn ISO 4306-1:2007",
+      "watch": false,
+      "role": "terminology/component-role anchor",
+      "url": "https://www.iso.org/standard/78820.html"
+    },
+    {
+      "id": "ISO-16625-2025",
+      "type": "international_standard",
+      "title": "Cranes and hoists — Selection of wire ropes, drums and sheaves",
+      "status": "PUBLISHED",
+      "edition": 2,
+      "date": "2025-02",
+      "freshness": "CURRENT",
+      "replacement": "replaces withdrawn ISO 16625:2013",
+      "watch": false,
+      "role": "primary engineering/system-geometry boundary",
+      "url": "https://www.iso.org/standard/77889.html"
+    },
+    {
+      "id": "RU-FNP-461",
+      "type": "russian_regulation",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "edition": "Приказ 461 + amendments",
+      "date": "valid through 2032-09-01",
+      "freshness": "CURRENT",
+      "replacement": null,
+      "watch": false,
+      "role": "Russian regulatory/operational boundary",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_373321/"
+    },
+    {
+      "id": "ISO-4309-2017",
+      "type": "international_standard",
+      "title": "Cranes — Wire ropes — Care and maintenance, inspection and discard",
+      "status": "PUBLISHED_TO_BE_REVISED",
+      "edition": 5,
+      "date": "2017-11",
+      "freshness": "CURRENT_PUBLISHED",
+      "replacement": "future Edition 6 under development; not yet published",
+      "watch": true,
+      "role": "supporting rope-system/inspection interface",
+      "url": "https://www.iso.org/standard/66759.html"
+    },
+    {
+      "id": "ISO-CD-4309-ED6",
+      "type": "draft_standard",
+      "title": "Cranes — Wire ropes — Care and maintenance, inspection and discard",
+      "status": "UNDER_DEVELOPMENT_CD",
+      "edition": 6,
+      "date": "2026; stage 30.20",
+      "freshness": "DRAFT_ONLY",
+      "replacement": "intended future replacement of ISO 4309:2017",
+      "watch": true,
+      "role": "freshness watch only; never treated as current requirement",
+      "url": "https://www.iso.org/standard/90256.html"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-PS",
+      "type": "equipment_documentation_boundary",
+      "title": "Passport / OEM manual for actual lifting appliance",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "edition": null,
+      "date": "equipment-specific",
+      "freshness": "MUST_MATCH_ACTUAL_EQUIPMENT",
+      "replacement": null,
+      "watch": false,
+      "role": "actual reeving/dimensions/limits/field-authority source",
+      "public": false
+    }
+  ],
+  "locked_claim_classes": [
+    "numeric_design_limits",
+    "numeric_acceptance_limits",
+    "equipment_specific_reeving",
+    "equipment_specific_dimensions",
+    "repair_or_redesign_instructions"
+  ],
+  "content_corrections_required": false,
+  "freeze_candidate_ready": true
+}

@@ -16,11 +16,14 @@
   },
   "red_team": "COMPLETE",
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze",
+  "next": "CRN-M-02 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied drum, sheave and reeving mechanics while preserving D1 claim and field-authority boundaries",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT"
+  "source_freshness": "COMPLETE",
+  "freeze": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1"
 }

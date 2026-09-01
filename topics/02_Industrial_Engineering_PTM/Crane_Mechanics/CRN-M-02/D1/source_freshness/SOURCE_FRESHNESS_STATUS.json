@@ -13,6 +13,9 @@
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
   "freeze_candidate_ready": true,
-  "freeze": "NEXT",
-  "next": "CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract"
+  "freeze": "COMPLETE",
+  "next": "CRN-M-02 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied drum, sheave and reeving mechanics while preserving D1 claim and field-authority boundaries",
+  "source_freshness": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1"
 }

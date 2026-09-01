@@ -1,0 +1,92 @@
+{
+  "artifact": "CRN-M-02_D1_LESSON_v1",
+  "date": "2026-09-02",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "coverage": {
+    "drum_role_and_basic_anatomy": true,
+    "sheave_block_role": true,
+    "fixed_vs_moving_block": true,
+    "rope_path_tracing_algorithm": true,
+    "supporting_rope_parts_counting": true,
+    "ideal_mechanical_advantage": true,
+    "ideal_speed_distance_reciprocity": true,
+    "single_vs_multilayer_recognition": true,
+    "groove_flange_entry_exit_angle_vocabulary": true,
+    "passport_oem_authority_boundary": true
+  },
+  "claim_guards": {
+    "all_mechanical_advantage_formulas_labelled_idealized": true,
+    "numeric_D_d_limits_introduced": false,
+    "numeric_groove_limits_introduced": false,
+    "numeric_fleet_angle_limits_introduced": false,
+    "drum_strength_design_introduced": false,
+    "detailed_efficiency_model_introduced": false,
+    "discard_limits_introduced": false,
+    "equipment_specific_reeving_asserted": false,
+    "modification_permission_implied": false,
+    "paid_normative_tables_reconstructed": false
+  },
+  "reader_model": {
+    "primary_algorithm": "identify moving assembly -> trace complete rope path -> count supporting parts -> apply ideal model -> escalate real decision to applicable documents",
+    "fixed_sheave_does_not_automatically_increase_mechanical_advantage": true,
+    "visible_rope_segments_are_not_blindly_counted": true,
+    "model_boundary_for_W_is_explicit": true,
+    "supporting_part_count_scope_explicit": true,
+    "angled_branch_component_guard_explicit": true,
+    "rope_length_constraint_scope_explicit": true,
+    "rope_end_attachment_guard_explicit": true,
+    "multi_body_compound_reeving_escalation_explicit": true,
+    "fixed_block_frame_of_reference_explicit": true,
+    "diagram_comprehension_not_field_conformance": true
+  },
+  "sources": {
+    "ISO_4306_1_2026": "terminology boundary",
+    "ISO_16625_2025": "rope-drive/drum/sheave geometry compatibility boundary",
+    "ISO_4309_2017": "multilayer/crossover inspection-context interface; revision watchlist",
+    "FNP_461_2026_revision": "Russian regulatory/operational boundary",
+    "passport_OEM": "equipment-specific authority",
+    "idealized_first_principles_mechanics": "educational derivation only"
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "cf8ffd365e9f0b5b460f69ca2b7c47ff504bba5b",
+    "corrections": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c774cea0b16d600b72fe482676cf95dbc9068d2f",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05"
+    ]
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "baseline_commit": "c646ca27426c436632d9c8ead9eb17b34cda3c8f",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06"
+    ]
+  }
+}

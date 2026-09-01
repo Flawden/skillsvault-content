@@ -1,0 +1,32 @@
+{
+  "artifact": "CRN-M-02_D1_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-02",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "c646ca27426c436632d9c8ead9eb17b34cda3c8f",
+  "findings": [
+    "RX-01",
+    "RX-02",
+    "RX-03",
+    "RX-04",
+    "RX-05",
+    "RX-06"
+  ],
+  "reader_checks": {
+    "early_learning_map_added": true,
+    "jargon_onboarded_before_reuse": true,
+    "worked_example_added": true,
+    "algorithm_steps_chunked": true,
+    "complexity_stop_signals_explicit": true,
+    "heading_count_consistent": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "numeric_design_claims_introduced": false,
+    "field_authority_boundary_preserved": true,
+    "source_authority_changed": false,
+    "frozen_index_changed": false
+  },
+  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards"
+}

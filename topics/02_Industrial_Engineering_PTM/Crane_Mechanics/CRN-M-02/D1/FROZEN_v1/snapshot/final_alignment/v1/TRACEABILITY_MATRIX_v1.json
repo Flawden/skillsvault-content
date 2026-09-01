@@ -1,0 +1,285 @@
+{
+  "artifact": "CRN-M-02_D1_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "57dd5fed54076bc50019719f38edc2602444d879",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_primary_sections": 12,
+    "lesson_primary_sections_traced": 12,
+    "practice_cases": 8,
+    "practice_cases_traced": 8,
+    "reasoning_cases": 8,
+    "reasoning_cases_traced": 8,
+    "expected_dimensions": 10,
+    "expected_dimensions_traced": 10,
+    "rubric_dimensions": 10,
+    "rubric_dimensions_traced": 10,
+    "blocking_failures": 6,
+    "blocking_failures_with_prior_origin": 6,
+    "orphan_lesson_sections": 0,
+    "orphan_practice_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0
+  },
+  "er_traceability": [
+    {
+      "id": "ER-01",
+      "competence": "Moving assembly / analysis boundary",
+      "lesson": "§1; §4 Step 1; §9; §12",
+      "practice": "A–H (explicitly A,C,E,F)",
+      "reasoning": "A–H architecture; A,C,E,F",
+      "verification": "Rubric ER-01; U1 + C1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-02",
+      "competence": "Endpoints / attachment status",
+      "lesson": "§4 Step 2; §9 Trap 5; §12",
+      "practice": "A,C,E,F,H",
+      "reasoning": "A,C,E,F,H; P4",
+      "verification": "Rubric ER-02; U1 + C1; BF-02 guard",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-03",
+      "competence": "Rope-path tracing",
+      "lesson": "§4 Step 3; §12",
+      "practice": "A–C,E,F,H",
+      "reasoning": "A–C,E,F,H; P3",
+      "verification": "Rubric ER-03; U1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-04",
+      "competence": "Force-transfer map including moving dead end",
+      "lesson": "§4 Step 4; §9 Traps 2,5; §12",
+      "practice": "B,C,E,F,H",
+      "reasoning": "B,C,E,F,H; P3,P4",
+      "verification": "Rubric ER-04; U1 + C1; BF-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-05",
+      "competence": "Simple-model decision / bounded stop or escalation",
+      "lesson": "§4 Step 5 + Stop signals; §9 Trap 6; §12",
+      "practice": "A,C,E,F,H",
+      "reasoning": "A,C,E,F,H; P5,P6",
+      "verification": "Rubric ER-05; U1 + C1; BF-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-06",
+      "competence": "Ideal force model only after applicability",
+      "lesson": "§5; §7; §9; §12",
+      "practice": "C,D",
+      "reasoning": "C,D; P1,P5,P7",
+      "verification": "Rubric ER-06; C1 when supported; BF-03/BF-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-07",
+      "competence": "Ideal travel/speed reciprocity",
+      "lesson": "§6; §7; §12",
+      "practice": "D,G",
+      "reasoning": "D,G; P7",
+      "verification": "Rubric ER-07; C1 when applicable",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-08",
+      "competence": "Components + geometry questions + numeric claim limit",
+      "lesson": "§§2–3; §8; §10; §11; §12",
+      "practice": "A + cross-case claim-lock contract",
+      "reasoning": "A + general guard; P7/P8 boundary context",
+      "verification": "Rubric ER-08; U1 equipment-context prompts; BF-05",
+      "status": "PASS — Lesson-transfer + unseen verification by design"
+    },
+    {
+      "id": "ER-09",
+      "competence": "Diagram comprehension != field conformance/authority",
+      "lesson": "§7; §9 Trap 7; §10; §11; §12",
+      "practice": "C,D,G,H",
+      "reasoning": "C,D,G,H; P7,P8",
+      "verification": "Rubric ER-09; U1 + optional C2; BF-06",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-10",
+      "competence": "Transfer on unseen scheme",
+      "lesson": "§4 full algorithm; §9 guards; §12 synthesis",
+      "practice": "A–H provide primitives but cannot close transfer",
+      "reasoning": "Cross-case patterns P1–P8",
+      "verification": "Rubric ER-10; U1 + C1 required",
+      "status": "PASS — verification-only by design"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "primary": "system boundary / block-count trap / missing data / model status",
+      "lesson": "§§1–4,9",
+      "expected": "ER-01,ER-02,ER-03,ER-05,ER-08",
+      "reasoning": "A",
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "primary": "fixed sheave does not create automatic advantage",
+      "lesson": "§3; §4; §9",
+      "expected": "ER-01,ER-03,ER-04,ER-05",
+      "reasoning": "B",
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "primary": "full rope-path → force-map → supported simple model → ideal force",
+      "lesson": "§§4–5,7",
+      "expected": "ER-01…ER-06,ER-09",
+      "reasoning": "C",
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "primary": "confirmed n=4 ideal force + kinematics + ideal/real boundary",
+      "lesson": "§§5–7",
+      "expected": "ER-06,ER-07,ER-09",
+      "reasoning": "D",
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "primary": "moving dead-end force-transfer trap",
+      "lesson": "§4; §9",
+      "expected": "ER-02,ER-03,ER-04,ER-05",
+      "reasoning": "E",
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "primary": "multi-body/equalizing stop condition",
+      "lesson": "§4 Stop signals; §9",
+      "expected": "ER-01…ER-05",
+      "reasoning": "F",
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "primary": "ideal reciprocity + measured-vs-ideal boundary",
+      "lesson": "§§6–7",
+      "expected": "ER-07,ER-09",
+      "reasoning": "G",
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "primary": "diagram comprehension vs field conformance/authority",
+      "lesson": "§§9–10",
+      "expected": "ER-01…ER-05,ER-09",
+      "reasoning": "H",
+      "status": "PASS"
+    }
+  ],
+  "blocking_failure_traceability": [
+    {
+      "id": "BF-01",
+      "failure": "Block-count shortcut",
+      "lesson": "§1; §4 sequencing; §9 Trap 1",
+      "practice": "A,B",
+      "reasoning": "P2; A,B",
+      "expected": "ER-03/ER-05 guard",
+      "verification": "Rubric BF-01",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-02",
+      "failure": "Dead-end deletion",
+      "lesson": "§4 Steps 2,4; §9 Trap 5",
+      "practice": "E",
+      "reasoning": "P4; E",
+      "expected": "ER-02,ER-04",
+      "verification": "Rubric BF-02",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-03",
+      "failure": "Formula-first",
+      "lesson": "§4 order; §5 preconditions; §9",
+      "practice": "A,C",
+      "reasoning": "P1; A,C",
+      "expected": "ER-05,ER-06",
+      "verification": "Rubric BF-03",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-04",
+      "failure": "Scalar-model overreach",
+      "lesson": "§4 Step 5 + Stop signals; §9 Trap 6",
+      "practice": "E,F",
+      "reasoning": "P5,P6; E,F",
+      "expected": "ER-05,ER-06",
+      "verification": "Rubric BF-04",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-05",
+      "failure": "Invented numeric authority",
+      "lesson": "§2; §8; §10; D1 claim boundary",
+      "practice": "A–H global claim lock",
+      "reasoning": "General D1 guard; G/H boundaries",
+      "expected": "ER-08",
+      "verification": "Rubric BF-05",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-06",
+      "failure": "Comprehension-to-authority leap",
+      "lesson": "§9 Trap 7; §10",
+      "practice": "H",
+      "reasoning": "P8; H",
+      "expected": "ER-09",
+      "verification": "Rubric BF-06 / C2",
+      "status": "PASS"
+    }
+  ],
+  "guard_consistency": {
+    "rope_path_before_force_map": "PASS",
+    "force_map_before_scalar_n": "PASS",
+    "moving_dead_end_preserved": "PASS",
+    "complex_scheme_stop_escalation_preserved": "PASS",
+    "ideal_model_not_real_equipment_claim": "PASS",
+    "numeric_design_claim_lock_preserved": "PASS",
+    "field_authority_boundary_preserved": "PASS",
+    "unseen_transfer_required": "PASS",
+    "blocking_failures_non_compensable": "PASS"
+  },
+  "review_notes": [
+    {
+      "id": "ALIGN-01",
+      "issue": "ER-08 has less dedicated Practice coverage than reeving-analysis dimensions",
+      "decision": "NOT_A_GAP",
+      "rationale": "Component/geometry recognition is taught directly in Lesson §§2–3/8/10 and is intentionally checked again through Lesson-transfer plus U1 equipment-context prompts; Practice A–H remains diagram-reading focused."
+    },
+    {
+      "id": "ALIGN-02",
+      "issue": "ER-10 has no familiar Practice case capable of closing the dimension",
+      "decision": "INTENTIONAL_TRANSFER_DESIGN",
+      "rationale": "Transfer cannot be demonstrated by reusing A–H; U1 + C1 are required by the rubric."
+    },
+    {
+      "id": "ALIGN-03",
+      "issue": "Lesson §11 mini-check and §12 mental map do not have standalone downstream exercises",
+      "decision": "NOT_A_GAP",
+      "rationale": "They are formative/consolidation layers containing no unique competence; their content maps into ER-01…ER-10 and A–H/U1."
+    },
+    {
+      "id": "ALIGN-04",
+      "issue": "Rubric numeric score thresholds could be confused with engineering limits",
+      "decision": "INTERNAL_ASSESSMENT_ONLY_BOUNDARY",
+      "rationale": "Rubric explicitly identifies them as pedagogical policy values; no equipment acceptance threshold is introduced."
+    }
+  ],
+  "content_corrections_required": false,
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze"
+}

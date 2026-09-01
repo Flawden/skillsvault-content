@@ -1,0 +1,52 @@
+{
+  "artifact": "CRN-M-02_D1_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "c774cea0b16d600b72fe482676cf95dbc9068d2f",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "findings": 5,
+    "corrections_applied": 5
+  },
+  "findings": [
+    {
+      "id": "RT-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "moving dead-end attachment / endpoint force"
+    },
+    {
+      "id": "RT-02",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "fixed-block frame of reference"
+    },
+    {
+      "id": "RT-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "compound / multi-body reeving escalation"
+    },
+    {
+      "id": "RT-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "force-transfer map before supporting-part count"
+    },
+    {
+      "id": "RT-05",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "diagram comprehension vs field conformance authority"
+    }
+  ],
+  "guards": {
+    "frozen_content_modified": false,
+    "numeric_design_limits_added": false,
+    "equipment_specific_reeving_asserted": false,
+    "closed_normative_tables_reconstructed": false,
+    "claim_lock_preserved": true,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and diagram-reading clarity without weakening technical guards"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact": "CRN-M-02_D1_PRACTICE_REASONING_v1",
+  "date": "2026-09-02",
+  "stage": "PRACTICE_REASONING",
+  "status": "COMPLETE",
+  "baseline_commit": "a45941d178c2a8307ee51bf82353a0753c187f08",
+  "cases": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "checks": {
+    "not_single_answer_key": true,
+    "multiple_valid_paths_explicit": true,
+    "rope_path_before_force_map": true,
+    "force_map_before_n": true,
+    "moving_dead_end_explicit": true,
+    "simple_model_stop_conditions": true,
+    "ideal_force_kinematics_bounded": true,
+    "field_authority_boundary": true,
+    "common_failure_taxonomy": true,
+    "numeric_design_claim_lock_preserved": true,
+    "new_normative_thresholds": false,
+    "practice_file_modified": false,
+    "frozen_index_modified": false,
+    "expected_result_ready": true
+  },
+  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric"
+}

@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — SOURCE FRESHNESS COMPLETE / FREEZE CANDIDATE READY v1`.
+`D1 — CONTENT FROZEN v1`, tag `crn-m-02-d1-v1`.
 
 The beginner lesson now establishes:
 
@@ -48,4 +48,6 @@ Final Alignment v1 traced Lesson §§1–12, Practice/Reasoning A–H, ER-01…E
 
 Source Freshness v1 revalidated ISO 4306-1:2026, ISO 16625:2025, ФНП №461 (ред. 16.04.2026), ISO 4309:2017 and the Edition 6 draft watchlist. No content correction is required; numeric/OEM claim locks remain intact.
 
-Next: `D1 FREEZE / v1`.
+D1 Freeze v1 snapshots all 52 accepted D1 artifacts and locks them in the canonical frozen index.
+
+Next: `D2 CONTENT KICKOFF / v1`.

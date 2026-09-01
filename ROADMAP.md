@@ -20,7 +20,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Verification Rubric ✅ v1
 ├─ D1 Final Alignment ✅ v1
 ├─ D1 Source Freshness ✅ PASS WITH WATCHLIST v1
-└─ D1 Freeze ← NEXT
+├─ D1 Freeze ✅ FROZEN v1 / tag crn-m-02-d1-v1
+└─ D2 Content Kickoff ← NEXT
 ```
 
 ## CRN-M-02 D1 Final Alignment v1
@@ -67,9 +68,9 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract
+CRN-M-02 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied drum, sheave and reeving mechanics while preserving D1 claim and field-authority boundaries
 
-Create the immutable D1 package, frozen index entry and tag contract from the freshness-cleared D1 tree.
+D1 is immutable. Start D2 by defining its own scope/source gate; do not mechanically inherit D1 technical or numeric assumptions.
 
 ## D1 production sequence
 
@@ -86,14 +87,15 @@ Expected Result ✅
 Verification Rubric ✅
 Final Alignment ✅
 Source Freshness ✅
-D1 Freeze ← NEXT
+D1 Freeze ✅
+D2 Content Kickoff ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D1
+CRN-M-02 ← ACTIVE / D2 NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
@@ -126,4 +128,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 remains unfrozen until the next D1 Freeze patch.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 is frozen as v1 under tag `crn-m-02-d1-v1`.

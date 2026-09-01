@@ -1,0 +1,23 @@
+{
+  "freeze_id": "CRN-M-02-D1-FREEZE-v1",
+  "result": "PASS",
+  "baseline_commit": "4b7d3fb6d6249fdad8716e7c0f45438780ca5f88",
+  "snapshot_members_expected": 52,
+  "snapshot_members_actual": 52,
+  "snapshot_hash_matches": 52,
+  "snapshot_hash_mismatches": 0,
+  "lesson_sections_traced": 12,
+  "practice_cases_traced": 8,
+  "reasoning_cases_traced": 8,
+  "expected_dimensions_traced": 10,
+  "rubric_dimensions_traced": 10,
+  "blocking_failures_with_prior_origin": 6,
+  "orphan_count": 0,
+  "source_freshness": "PASS_WITH_WATCHLIST",
+  "source_watchlist_count": 2,
+  "content_corrections_required": false,
+  "numeric_design_claim_lock_preserved": true,
+  "field_authority_guard_preserved": true,
+  "freeze_candidate_ready_before_freeze": true,
+  "tag_contract": "crn-m-02-d1-v1"
+}

@@ -1,0 +1,20 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "VERIFICATION_RUBRIC",
+  "version": "v1",
+  "status": "COMPLETE",
+  "dimensions": 10,
+  "levels": 5,
+  "blocking_failures": 6,
+  "known_case_required": true,
+  "unseen_transfer_required": true,
+  "challenge_required": true,
+  "blocking_failures_non_compensable": true,
+  "numeric_design_claim_lock_preserved": true,
+  "field_authority_guard_preserved": true,
+  "final_alignment": "COMPLETE",
+  "next": "CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
+}
