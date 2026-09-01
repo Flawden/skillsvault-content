@@ -1,0 +1,25 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-01",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-02_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "ideal_vs_real_boundary_explicit": true,
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "next": "CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit mechanics, wording, source authority and claim-lock compliance before red team"
+}

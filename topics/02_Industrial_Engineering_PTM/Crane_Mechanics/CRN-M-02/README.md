@@ -18,6 +18,18 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — SOURCE GATE COMPLETE / PASS WITH CLAIM LIMITS v1`.
+`D1 — LESSON AUTHORING COMPLETE v1`.
 
-Next: D1 Lesson Authoring v1.
+The beginner lesson now establishes:
+
+- drum / sheave / block roles;
+- fixed vs moving block distinction;
+- rope-path tracing before ratio calculation;
+- supporting-rope-parts counting;
+- idealized `nT = W` mechanical-advantage model;
+- idealized distance/speed reciprocity;
+- single/multilayer winding recognition;
+- groove/flange/entry-angle vocabulary without unsourced numeric limits;
+- passport/OEM escalation boundary for real equipment.
+
+Next: `D1 TECHNICAL EDITORIAL / PASS I / v1`.

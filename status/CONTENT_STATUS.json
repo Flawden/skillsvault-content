@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "SOURCE_GATE_COMPLETE",
+      "status": "AUTHORING_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -27,8 +27,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "NEXT",
-        "editorial": "WAITING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "WAITING",
         "reader_experience_pass": "WAITING",
         "practice": "WAITING",
@@ -38,6 +38,15 @@
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
+      },
+      "lesson_authoring": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/CRN-M-02_D1_LESSON_v1.md",
+        "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/SOURCE_MAP_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/AUTHORING_QA_v1.json",
+        "idealized_mechanics_only": true,
+        "numeric_design_claim_lock_preserved": true
       }
     },
     "D2": {
@@ -50,7 +59,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 LESSON AUTHORING / v1 — build the beginner mental model for drums, sheaves and reeving under the locked source/claim boundaries",
+  "next": "CRN-M-02 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit mechanics, wording, source authority and claim-lock compliance before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -71,6 +80,8 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/README.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/D1_SCOPE_v1.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/SOURCE_GATE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/CRN-M-02_D1_LESSON_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/AUTHORING_STATUS.json",
     "Continue from status.next"
   ]
 }
