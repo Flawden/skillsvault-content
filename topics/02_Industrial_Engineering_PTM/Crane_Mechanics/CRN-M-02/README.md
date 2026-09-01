@@ -50,4 +50,12 @@ Source Freshness v1 revalidated ISO 4306-1:2026, ISO 16625:2025, ФНП №461 (
 
 D1 Freeze v1 snapshots all 52 accepted D1 artifacts and locks them in the canonical frozen index.
 
-Next: `D2 CONTENT KICKOFF / v1`.
+## D2 kickoff
+
+`D2 — ACTIVE / CONTENT KICKOFF COMPLETE v1`.
+
+D2 moves from the beginner ideal model into applied rope-drive mechanics: geometry state, spooling behaviour, non-ideal force-path reasoning and inspection/escalation boundaries. D1 remains immutable and is a prerequisite, not a numeric/design authority.
+
+D2 Source Gate = `PASS WITH CLAIM LIMITS`. Exact D/d values, groove dimensions, fleet-angle limits, efficiency factors, allowable stresses/pressures, discard limits and equipment-specific corrective actions remain locked to the exact applicable standard or passport/OEM documentation.
+
+Next: `D2 LESSON AUTHORING / v1`.

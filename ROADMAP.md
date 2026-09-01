@@ -21,8 +21,41 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Final Alignment ✅ v1
 ├─ D1 Source Freshness ✅ PASS WITH WATCHLIST v1
 ├─ D1 Freeze ✅ FROZEN v1 / tag crn-m-02-d1-v1
-└─ D2 Content Kickoff ← NEXT
+├─ D2 Content Kickoff ✅ v1
+├─ D2 Scope ✅ LOCKED v1
+├─ D2 Source Gate ✅ PASS WITH CLAIM LIMITS v1
+└─ D2 Lesson Authoring ← NEXT
 ```
+
+
+## CRN-M-02 D2 Content Kickoff v1
+
+D2 reuses the frozen D1 mental model as a prerequisite, not as permission to copy D1 simplifications into applied mechanics.
+
+### D2 scope
+
+- applied drum/sheave/reeving mechanics;
+- rope-drive geometry as a system variable;
+- qualitative fleet/deflection-angle effects without unsourced limits;
+- single-layer and multilayer spooling states, layer transitions and crossover zones;
+- qualitative tension inequality / reaction-load reasoning when the D1 equal-tension scalar model is insufficient;
+- component-condition clues that require inspection/OEM escalation rather than field redesign.
+
+### Source-gate decision
+
+`PASS WITH CLAIM LIMITS`.
+
+Current anchors checked for kickoff:
+
+1. `ISO 4306-1:2026` — vocabulary/components;
+2. `ISO 16625:2025` — primary rope/drum/sheave selection and geometry boundary;
+3. `ISO 4301-1:2016` — current cycle-based classification context;
+4. `ISO 4309:2017` — current published rope care/inspection/discard interface, including multilayer crossover deterioration;
+5. `ISO/CD 4309`, Edition 6 — development watch only, not current normative authority;
+6. `ФНП ПС №461`, ред. 16.04.2026 — Russian regulatory/operation boundary;
+7. actual passport/OEM documentation — mandatory for equipment-specific geometry, reeving, limits and interventions.
+
+Numeric design/acceptance values remain locked unless the exact applicable source text or equipment documentation is available.
 
 ## CRN-M-02 D1 Final Alignment v1
 
@@ -68,7 +101,7 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied drum, sheave and reeving mechanics while preserving D1 claim and field-authority boundaries
+CRN-M-02 / D2 LESSON AUTHORING / v1 — build applied drum, sheave and reeving mechanics around geometry, spooling state and non-ideal load-path reasoning under locked numeric/OEM boundaries
 
 D1 is immutable. Start D2 by defining its own scope/source gate; do not mechanically inherit D1 technical or numeric assumptions.
 

@@ -1,0 +1,16 @@
+{
+  "topic_id": "CRN-M-02",
+  "topic_name_ru": "Барабаны, блоки, полиспасты",
+  "depth": "D2",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "prerequisite_d1": "FROZEN_v1",
+  "prerequisite_tag": "crn-m-02-d1-v1",
+  "d2_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "numeric_design_claims": "LOCKED_PENDING_EXACT_SOURCE",
+  "baseline_commit": "fd58503a20a055c98c110694e4fcd3a7d935cd8d",
+  "next": "CRN-M-02 / D2 LESSON AUTHORING / v1 — build applied drum, sheave and reeving mechanics around geometry, spooling state and non-ideal load-path reasoning under locked numeric/OEM boundaries"
+}

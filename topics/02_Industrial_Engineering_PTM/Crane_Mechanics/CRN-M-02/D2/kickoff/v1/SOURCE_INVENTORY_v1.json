@@ -1,0 +1,89 @@
+{
+  "topic_id": "CRN-M-02",
+  "depth": "D2",
+  "version": "v1",
+  "verified_on": "2026-09-02",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisite": {
+    "depth": "D1",
+    "status": "FROZEN",
+    "version": "v1",
+    "tag": "crn-m-02-d1-v1"
+  },
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "TERMINOLOGY_COMPONENTS",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-16625-2025",
+      "title": "ISO 16625:2025 — Cranes and hoists — Selection of wire ropes, drums and sheaves",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "PRIMARY_ENGINEERING_GEOMETRY_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/77889.html",
+      "full_text_available_in_repo": false,
+      "supersedes": "ISO 16625:2013"
+    },
+    {
+      "id": "EXT-ISO-4301-1-2016",
+      "title": "ISO 4301-1:2016 — Cranes — Classification — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "DUTY_CLASSIFICATION_CONTEXT",
+      "public_url": "https://www.iso.org/standard/63070.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4309-2017",
+      "title": "ISO 4309:2017 — Cranes — Wire ropes — Care and maintenance, inspection and discard",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_REVISION_UNDER_DEVELOPMENT",
+      "role": "ROPE_DRUM_SHEAVE_CONDITION_INTERFACE",
+      "public_url": "https://www.iso.org/standard/66759.html",
+      "watchlist": true,
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-CD-4309-ED6",
+      "title": "ISO/CD 4309 — Edition 6",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/90256.html",
+      "watchlist": true,
+      "normative_for_d2": false
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-PS",
+      "title": "Passport / OEM manual for actual lifting appliance",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "EQUIPMENT_SPECIFIC_AUTHORITY",
+      "public": false
+    }
+  ],
+  "locked_claim_classes": [
+    "numeric_design_limits",
+    "numeric_acceptance_limits",
+    "numeric_efficiency_or_loss_coefficients",
+    "equipment_specific_reeving",
+    "equipment_specific_dimensions",
+    "repair_redesign_or_field_change_instructions"
+  ],
+  "lesson_authoring_unlocked": true
+}

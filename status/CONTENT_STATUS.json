@@ -193,7 +193,38 @@
       }
     },
     "D2": {
-      "status": "NEXT"
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-02",
+        "lesson_authoring_unlocked": true,
+        "numeric_design_limits_unlocked": false,
+        "equipment_specific_claims_require_oem_or_passport": true,
+        "d1_frozen_prerequisite_tag": "crn-m-02-d1-v1"
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "NEXT",
+        "editorial": "WAITING",
+        "red_team": "WAITING",
+        "reader_experience_pass": "WAITING",
+        "practice": "WAITING",
+        "practice_reasoning": "WAITING",
+        "expected_result": "WAITING",
+        "verification_rubric": "WAITING",
+        "final_alignment": "WAITING",
+        "source_freshness": "WAITING",
+        "freeze": "WAITING"
+      }
     },
     "D3": {
       "status": "WAITING"
@@ -202,7 +233,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied drum, sheave and reeving mechanics while preserving D1 claim and field-authority boundaries",
+  "next": "CRN-M-02 / D2 LESSON AUTHORING / v1 — build applied drum, sheave and reeving mechanics around geometry, spooling state and non-ideal load-path reasoning under locked numeric/OEM boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -221,17 +252,10 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/README.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/D1_SCOPE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/SOURCE_GATE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/CRN-M-02_D1_LESSON_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/AUTHORING_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/EDITORIAL_STATUS.json",
-    "Continue from status.next",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/READER_EXPERIENCE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/practice/PRACTICE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/practice_reasoning/PRACTICE_REASONING_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/expected_result/EXPECTED_RESULT_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/FREEZE_STATUS.json"
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/FREEZE_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/kickoff/v1/D2_SCOPE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/KICKOFF_STATUS.json",
+    "Continue from status.next"
   ]
 }
