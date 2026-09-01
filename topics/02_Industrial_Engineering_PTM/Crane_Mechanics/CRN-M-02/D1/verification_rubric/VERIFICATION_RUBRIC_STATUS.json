@@ -13,6 +13,7 @@
   "blocking_failures_non_compensable": true,
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "final_alignment": "NEXT",
-  "next": "CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure"
+  "final_alignment": "COMPLETE",
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze",
+  "source_freshness": "NEXT"
 }

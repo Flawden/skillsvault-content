@@ -13,9 +13,10 @@
     ]
   },
   "practice": "COMPLETE",
-  "next": "CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
-  "final_alignment": "NEXT"
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

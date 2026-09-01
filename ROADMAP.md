@@ -18,24 +18,28 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Practice Reasoning ✅ v1
 ├─ D1 Expected Result ✅ v1
 ├─ D1 Verification Rubric ✅ v1
-└─ D1 Final Alignment ← NEXT
+├─ D1 Final Alignment ✅ v1
+└─ D1 Source Freshness ← NEXT
 ```
 
-## CRN-M-02 D1 Verification Rubric v1
+## CRN-M-02 D1 Final Alignment v1
 
-The D1 Expected Result is now operationalized as a verification contract.
+The full D1 chain is now traced bidirectionally.
 
-### Verification contract
+### Alignment result
 
-- ER-01…ER-10 are scored on 0–4 levels;
-- one known Practice case is required;
-- one unseen transfer case is required;
-- one challenge/delta is required;
-- six blocking failures are non-compensable;
-- a correct `NOT YET DEMONSTRATED / ESCALATE BEYOND D1` can be a successful result;
-- numeric design claims and field authority remain locked.
+- Lesson primary sections: 12/12 traced;
+- Practice cases: 8/8 aligned;
+- Practice Reasoning cases: 8/8 aligned;
+- Expected Result: ER-01…ER-10 all traced;
+- Verification Rubric: 10/10 dimensions traced;
+- Blocking Failures: 6/6 have prior lesson/practice/reasoning origin;
+- orphan lesson/practice/ER/rubric items: 0;
+- surprise blocking failures: 0;
+- guard contradictions: 0;
+- content corrections required: NO.
 
-A learner cannot pass by accumulating points while failing force-map, model-status, transfer or authority boundaries.
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 
 ## Source anchors
 
@@ -47,9 +51,9 @@ A learner cannot pass by accumulating points while failing force-map, model-stat
 
 ## Next
 
-`CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure`
+CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze
 
-Audit the full D1 chain for bidirectional traceability, orphan content, orphan assessment dimensions and guard consistency before Source Freshness.
+Revalidate the external source anchors and watchlist before immutable D1 freeze. Final Alignment found no content gap that requires correction first.
 
 ## D1 production sequence
 
@@ -64,8 +68,8 @@ Practice ✅
 Practice Reasoning ✅
 Expected Result ✅
 Verification Rubric ✅
-Final Alignment ← NEXT
-Source Freshness
+Final Alignment ✅
+Source Freshness ← NEXT
 D1 Freeze
 ```
 

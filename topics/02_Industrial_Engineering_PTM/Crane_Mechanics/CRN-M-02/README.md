@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — VERIFICATION RUBRIC COMPLETE v1`.
+`D1 — FINAL ALIGNMENT COMPLETE v1`.
 
 The beginner lesson now establishes:
 
@@ -44,4 +44,6 @@ Expected Result v1 translates the reviewed D1 contract into 10 observable compet
 
 Verification Rubric v1 now scores ER-01…ER-10 on a 0–4 scale, requires known + unseen + challenge evidence, and defines six non-compensable blocking failures. High total score cannot compensate for force-map/model-status/authority failures.
 
-Next: `D1 FINAL ALIGNMENT / v1`.
+Final Alignment v1 traced Lesson §§1–12, Practice/Reasoning A–H, ER-01…ER-10 and all six blocking failures end-to-end. No orphan competence, surprise blocking rule or guard contradiction was found; no content correction is required before freshness.
+
+Next: `D1 SOURCE FRESHNESS / v1`.

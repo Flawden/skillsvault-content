@@ -1,0 +1,27 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "FINAL_ALIGNMENT",
+  "version": "v1",
+  "status": "COMPLETE",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "baseline_commit": "57dd5fed54076bc50019719f38edc2602444d879",
+  "lesson_sections_traced": "12/12",
+  "practice_cases_traced": "8/8",
+  "reasoning_cases_traced": "8/8",
+  "expected_dimensions_traced": "10/10",
+  "rubric_dimensions_traced": "10/10",
+  "blocking_failures_prior_origin": "6/6",
+  "orphan_counts": {
+    "lesson_sections": 0,
+    "practice_cases": 0,
+    "reasoning_cases": 0,
+    "expected_dimensions": 0,
+    "rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0
+  },
+  "content_corrections_required": false,
+  "source_freshness": "NEXT",
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze"
+}

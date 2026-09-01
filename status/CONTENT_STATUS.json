@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "VERIFICATION_RUBRIC_COMPLETE",
+      "status": "FINAL_ALIGNMENT_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -35,8 +35,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "WAITING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "WAITING"
       },
       "lesson_authoring": {
@@ -145,6 +145,25 @@
         "blocking_failures_non_compensable": true,
         "numeric_design_claim_lock_preserved": true,
         "field_authority_guard_preserved": true
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/final_alignment/v1/CRN-M-02_D1_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "lesson_sections_traced": 12,
+        "practice_cases_traced": 8,
+        "reasoning_cases_traced": 8,
+        "expected_dimensions_traced": 10,
+        "rubric_dimensions_traced": 10,
+        "blocking_failures_with_prior_origin": 6,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "numeric_design_claim_lock_preserved": true,
+        "field_authority_guard_preserved": true
       }
     },
     "D2": {
@@ -157,7 +176,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability and gap closure",
+  "next": "CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
