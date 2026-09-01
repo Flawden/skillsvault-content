@@ -21,7 +21,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and diagram-reading clarity without weakening technical guards",
+  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -31,5 +31,19 @@
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "version": "v1"
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "c646ca27426c436632d9c8ead9eb17b34cda3c8f",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06"
+    ]
   }
 }

@@ -126,3 +126,10 @@ Not introduced in Lesson v1:
 - `fixed block` is interpreted relative to the selected hoisting/moving assembly, not necessarily as immobile relative to the building.
 - multi-body, equalizing/compensating or otherwise compound reeving is outside the simple D1 `n` shortcut unless a separate force/kinematic model justifies it.
 - understanding a reeving diagram does not prove field conformance; actual conformance requires the approved equipment documentation.
+
+
+## Reader Experience Pass I
+
+Reader Experience Pass I changes presentation only: learning sequence, terminology onboarding, checklist chunking, one simple worked example and stop-signal visibility.
+
+No source authority is upgraded or replaced. All Source Gate / Red-Team claim locks remain unchanged.

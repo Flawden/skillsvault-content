@@ -13,32 +13,26 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Lesson Authoring ✅ v1
 ├─ D1 Technical Editorial / Pass I ✅ v1
 ├─ D1 Red Team / Pass I ✅ v1
-└─ D1 Reader Experience / Pass I ← NEXT
+├─ D1 Reader Experience / Pass I ✅ v1
+└─ D1 Practice ← NEXT
 ```
 
-## CRN-M-02 D1 Red Team Pass I v1
+## CRN-M-02 D1 Reader Experience Pass I v1
 
-Red Team Pass I is complete with five adversarial corrections applied.
+Reader Experience Pass I is complete with six readability/cognitive-load corrections applied.
 
-### Corrections now locked into Lesson v1
+### Reader corrections now locked into Lesson v1
 
-- rope endpoints are mapped to their attachment point before `n`; a dead end attached to the moving assembly is a force-transfer point, not a zero-force endpoint;
-- “fixed block” is explicitly relative to the selected hoisting/moving assembly, not necessarily fixed to the building;
-- multi-body, equalizing/compensating and other compound reeving must not be forced into the simple D1 `n` shortcut;
-- Step 4 is now a force-transfer map, not a visual rope-segment count;
-- understanding a diagram is explicitly separated from proving actual field conformance.
+- added an early four-layer learning map: rope path → force map → simple model → field authority;
+- introduced `dead end` first as plain-language `закреплённый конец каната`;
+- added one end-to-end worked example before the formula derivation;
+- split endpoint and force-transfer logic into short checks instead of dense paragraphs;
+- added explicit D1 stop-signals for schemes that must not be forced into the simple `n` model;
+- corrected the heading from five to seven traps after Red-Team expansion.
 
-### Claim lock preserved
+### Technical guards preserved
 
-Still blocked until exact applicable source text / equipment documentation is available:
-
-- numeric drum/sheave diameter ratios;
-- groove radius / pitch / depth tolerances;
-- fleet-angle or deflection-angle numeric limits;
-- drum shell/flange stress or redesign calculations;
-- detailed efficiency factors presented as real-system results;
-- equipment-specific reeving, capacities and service limits;
-- field acceptance / discard / repair decisions beyond applicable documentation.
+Reader Experience changes do not unlock numeric geometry/design criteria and do not weaken the Red-Team boundary between diagram comprehension and actual field conformance.
 
 ## Source anchors
 
@@ -50,9 +44,9 @@ Still blocked until exact applicable source text / equipment documentation is av
 
 ## Next
 
-`CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1`
+`CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards`
 
-Improve narrative flow, cognitive load and diagram-reading clarity without weakening the Red-Team guards.
+Build formal exercises only after the lesson reading path and technical guards have both passed review.
 
 ## D1 production sequence
 
@@ -62,8 +56,8 @@ Source Gate ✅
 Lesson Authoring ✅
 Technical Editorial ✅
 Red Team ✅
-Reader Experience Pass ← NEXT
-Practice
+Reader Experience Pass ✅
+Practice ← NEXT
 Practice Reasoning
 Expected Result
 Verification Rubric
@@ -109,4 +103,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Red Team does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Reader Experience does not alter it because CRN-M-02 content is not frozen yet.

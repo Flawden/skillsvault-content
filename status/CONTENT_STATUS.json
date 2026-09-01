@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "RED_TEAM_COMPLETE",
+      "status": "READER_EXPERIENCE_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -30,8 +30,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "WAITING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "WAITING",
         "expected_result": "WAITING",
         "verification_rubric": "WAITING",
@@ -76,6 +76,22 @@
           "RT-04",
           "RT-05"
         ]
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/reader_experience/pass_I/v1/CRN-M-02_D1_READER_EXPERIENCE_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+        "findings": [
+          "RX-01",
+          "RX-02",
+          "RX-03",
+          "RX-04",
+          "RX-05",
+          "RX-06"
+        ]
       }
     },
     "D2": {
@@ -88,7 +104,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and diagram-reading clarity without weakening technical guards",
+  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -112,6 +128,7 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/v1/CRN-M-02_D1_LESSON_v1.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/AUTHORING_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/EDITORIAL_STATUS.json",
-    "Continue from status.next"
+    "Continue from status.next",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/READER_EXPERIENCE_STATUS.json"
   ]
 }

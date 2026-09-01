@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — RED TEAM PASS I COMPLETE v1`.
+`D1 — READER EXPERIENCE PASS I COMPLETE v1`.
 
 The beginner lesson now establishes:
 
@@ -36,4 +36,6 @@ Editorial Pass I corrected the scalar force/kinematic scope guards, the `W` mode
 
 Red Team Pass I then hardened five adversarial cases: moving dead-end attachments, fixed-block frame of reference, compound/multi-body reeving, force-transfer mapping before `n`, and the boundary between diagram comprehension and field conformance authority.
 
-Next: `D1 READER EXPERIENCE PASS / PASS I / v1`.
+Reader Experience Pass I then improved the learning spine, terminology onboarding, algorithm chunking and end-to-end diagram example without changing the Red-Team/source guards.
+
+Next: `D1 PRACTICE / v1`.
