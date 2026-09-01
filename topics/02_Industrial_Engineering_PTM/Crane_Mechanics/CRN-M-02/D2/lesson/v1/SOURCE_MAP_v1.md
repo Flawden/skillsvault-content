@@ -163,3 +163,9 @@ Lesson v1 does **not** introduce:
 - discard/acceptance limits;
 - redesign/repair/reeving-change instructions;
 - equipment-specific dimensions or corrective action.
+
+## Reader Experience Pass I
+
+Reader Experience Pass I changes presentation only: early working route, symbol/model-status onboarding, paired FBD reading card, `r_k`/`r_m` distinction card, spooling-state recognition sequence and failure-family grouping.
+
+No source authority is upgraded, replaced or broadened. Technical Editorial + Red-Team model guards, numeric claim locks and passport/OEM field-authority boundaries remain unchanged.

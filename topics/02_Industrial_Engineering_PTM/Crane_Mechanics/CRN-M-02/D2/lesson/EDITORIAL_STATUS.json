@@ -22,6 +22,7 @@
     "equipment_authority_boundary_preserved": true,
     "d1_frozen_immutable": true
   },
-  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards",
-  "red_team_pass_I": "COMPLETE"
+  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards",
+  "red_team_pass_I": "COMPLETE",
+  "reader_experience_pass_I": "COMPLETE"
 }

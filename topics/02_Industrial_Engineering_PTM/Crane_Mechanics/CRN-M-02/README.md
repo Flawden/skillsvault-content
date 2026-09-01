@@ -62,8 +62,10 @@ D2 Lesson Authoring v1 is complete. The applied lesson adds contact-node mapping
 
 Technical Editorial Pass I is complete with five corrections: explicit block free-body/action-reaction signs; `Ti` bookkeeping semantics; separation of circumferential drum speed from arbitrary rope-path speed; vector axis-moment wording with kinematic-radius/moment-arm separation; and source-specific fleet/lead/deflection terminology.
 
-Red Team Pass I is now complete with seven adversarial hardenings: rope continuity does not prove equal local `Ti`; free-body selection must precede arrows/equations; no-slip does not prove arbitrary helical `v=ωr`; visible layer radius does not automatically equal the moment arm; crossover/side contact is observation rather than verdict; familiar angle terminology cannot import an unmatched numeric limit; and quasi-static equilibrium is not dynamic-load authority.
+Red Team Pass I is complete with seven adversarial hardenings: rope continuity does not prove equal local `Ti`; free-body selection must precede arrows/equations; no-slip does not prove arbitrary helical `v=ωr`; visible layer radius does not automatically equal the moment arm; crossover/side contact is observation rather than verdict; familiar angle terminology cannot import an unmatched numeric limit; and quasi-static equilibrium is not dynamic-load authority.
 
 No numeric D/d, groove, angle, efficiency, strength, discard or equipment-specific intervention criteria were introduced.
 
-Next: `D2 READER EXPERIENCE PASS / PASS I / v1`.
+Reader Experience Pass I is now complete with eight presentation corrections: early working-route preview; compact symbol/model-status onboarding; paired block/rope FBD reading; explicit `r_k` versus `r_m` question framing; spooling state-first recognition; grouped failure families; and full visibility of all seven Red-Team invariants. Engineering conclusions and source/OEM boundaries are unchanged.
+
+Next: `D2 PRACTICE / v1`.

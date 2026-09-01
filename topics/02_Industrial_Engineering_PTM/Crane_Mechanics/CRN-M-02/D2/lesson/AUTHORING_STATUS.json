@@ -1,7 +1,7 @@
 {
   "topic": "CRN-M-02",
   "depth": "D2",
-  "lesson_status": "AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED",
+  "lesson_status": "AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED_READER_REFINED",
   "version": "v1",
   "date": "2026-09-02",
   "prerequisite": {
@@ -26,7 +26,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards",
+  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -53,6 +53,22 @@
       "RT-D2-05",
       "RT-D2-06",
       "RT-D2-07"
+    ]
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "be351d8cb33efea76f52fe21da58b629c181013d",
+    "findings": [
+      "RX-D2-01",
+      "RX-D2-02",
+      "RX-D2-03",
+      "RX-D2-04",
+      "RX-D2-05",
+      "RX-D2-06",
+      "RX-D2-07",
+      "RX-D2-08"
     ]
   }
 }

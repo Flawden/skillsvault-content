@@ -156,11 +156,26 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - numeric design/OEM claim locks remain intact;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+- RX-D2-01 HIGH — complete working route is previewed before the technical detail stack;
+- RX-D2-02 HIGH — compact `Ti` / FBD / `r_k` / `r_m` / spooling legend reduces symbol load;
+- RX-D2-03 HIGH — paired same-contact FBD card prevents action/reaction arrow carry-over;
+- RX-D2-04 HIGH — `r_k` and `r_m` are framed by different engineering questions;
+- RX-D2-05 MEDIUM — spooling state is identified before mechanism or verdict;
+- RX-D2-06 MEDIUM — model-status meanings are onboarded early;
+- RX-D2-07 MEDIUM — twelve failure examples are grouped into reader families;
+- RX-D2-08 LOW — all seven Red-Team invariants are now visible in the early trap block;
+- technical conclusions, numeric-design locks, source authority and OEM/field boundaries are unchanged;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards
+CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards
 
-D1 is immutable. Continue D2 reader-experience refinement without weakening Red-Team, numeric-design or equipment-authority guards.
+D1 is immutable. Continue D2 practice production under the reviewed Reader Experience, Red-Team, numeric-design and equipment-authority guards.
 
 ## D1 production sequence
 
@@ -182,14 +197,15 @@ D2 Content Kickoff ✅
 D2 Lesson Authoring ✅
 D2 Technical Editorial ✅
 D2 Red Team ✅
-D2 Reader Experience ← NEXT
+D2 Reader Experience ✅
+D2 Practice ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 READER EXPERIENCE NEXT
+CRN-M-02 ← ACTIVE / D2 PRACTICE NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

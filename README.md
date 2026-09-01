@@ -39,7 +39,8 @@
 - D2 Lesson Authoring — COMPLETE v1
 - D2 Technical Editorial Pass I — COMPLETE v1
 - D2 Red Team Pass I — COMPLETE v1
-- D2 Reader Experience Pass I — NEXT
+- D2 Reader Experience Pass I — COMPLETE v1
+- D2 Practice — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 
