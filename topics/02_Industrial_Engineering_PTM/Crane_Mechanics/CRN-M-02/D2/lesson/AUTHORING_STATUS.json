@@ -1,7 +1,7 @@
 {
   "topic": "CRN-M-02",
   "depth": "D2",
-  "lesson_status": "AUTHORING_COMPLETE",
+  "lesson_status": "AUTHORING_COMPLETE_EDITORIALLY_CORRECTED",
   "version": "v1",
   "date": "2026-09-02",
   "prerequisite": {
@@ -26,5 +26,18 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team"
+  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
+  "technical_editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": [
+      "TE-D2-01",
+      "TE-D2-02",
+      "TE-D2-03",
+      "TE-D2-04",
+      "TE-D2-05"
+    ]
+  }
 }

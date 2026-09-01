@@ -105,7 +105,8 @@ Educational first-principles mechanics used in Lesson v1:
 
 - a rope branch transmits tensile action along its local axis in the simplified flexible-rope model;
 - the resultant action of multiple branches at a node depends on both force magnitude and direction;
-- support reaction balances the modeled resultant under the stated equilibrium/quasi-static assumptions.
+- the free-body diagram must identify whether forces are being drawn **on the block** or **on the rope**; action/reaction directions are opposite;
+- in the block free-body diagram, `F_rope→block` is the vector sum of branch pulls and support reaction balances the complete modeled force set under the stated equilibrium/quasi-static assumptions.
 
 The lesson intentionally avoids a scalar sheave-reaction formula tied to a potentially ambiguous angle convention. Directional/vector reasoning is used instead.
 
@@ -113,33 +114,37 @@ This is **not** a normative capacity or bearing-life calculation.
 
 ## M2 — Drum kinematics
 
-Educational first-principles relation:
+First-principles rotation relation retained exactly for the circumferential surface component:
 
 ```text
-v_rope = ω · r_eff
+v_circ = ω · r_k
 ```
 
-Used only under the stated simple no-slip kinematic model to explain why changing effective winding radius changes the angular-speed / rope-speed relationship.
+The lesson uses `v_rope ≈ ω · r_k` only in a deliberately simplified near-circumferential, negligible-helical-component, no-slip model. It explicitly blocks using no-slip alone as proof of the scalar rope-speed relation for arbitrary helical/axial winding geometry.
 
 It is not an equipment speed limit or control-system claim.
 
 ## M3 — Drum moment model
 
-Educational first-principles relation for a single modeled tangential rope action:
+General educational first-principles axis-moment relation:
 
 ```text
-M_rope = T · r_eff
+M_axis = (r × F) · e_axis
 ```
 
-Used to show that effective lever arm matters to torque balance.
+For a simple tangential rope action this may reduce in magnitude to `|M_axis| = T · r_m`, where `r_m` is the effective moment arm. The lesson explicitly prevents automatic identification of the kinematic radius `r_k` with the torque arm in oblique/complex geometry.
 
 It is not a motor-sizing, gearbox-rating, capacity or drum-strength calculation.
 
-## M4 — Non-ideal dependency model
+## M4 — Non-ideal dependency / bookkeeping model
 
-Lesson may label branch tensions separately (`T1`, `T2`, ...), and state qualitatively that real friction, bending, contact, deformation and dynamics can invalidate blind equal-tension assumptions.
+Lesson may label branch tensions separately (`T1`, `T2`, ...), and state qualitatively that real friction, bending, contact, deformation and dynamics can invalidate blind equal-tension assumptions. The `Ti` labels are bookkeeping variables for local branch/node force mapping; they do **not** assert piecewise-constant tension or a physical discontinuity at an arbitrarily drawn segment boundary.
 
 No generic loss percentage, efficiency factor or capstan/friction coefficient is assigned.
+
+## M5 — Geometry terminology guard
+
+The lesson uses a generic qualitative phrase for entry/exit and lateral rope geometry. Terms such as `fleet angle`, `lead angle` and `deflection angle` are treated as source-defined terms, not as interchangeable labels with one universal reference line or limit.
 
 ## Claim-lock audit
 

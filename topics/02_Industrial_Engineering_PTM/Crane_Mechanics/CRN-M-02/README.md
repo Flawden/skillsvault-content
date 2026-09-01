@@ -58,8 +58,10 @@ D2 moves from the beginner ideal model into applied rope-drive mechanics: geomet
 
 D2 Source Gate = `PASS WITH CLAIM LIMITS`. Exact D/d values, groove dimensions, fleet-angle limits, efficiency factors, allowable stresses/pressures, discard limits and equipment-specific corrective actions remain locked to the exact applicable standard or passport/OEM documentation.
 
-D2 Lesson Authoring v1 is now complete. The applied lesson adds contact-node mapping, separate symbolic branch tensions, vector reaction reasoning, effective winding-radius kinematics/torque, spooling-state analysis and a strict observation → model → source/OEM decision ladder.
+D2 Lesson Authoring v1 is complete. The applied lesson adds contact-node mapping, separate symbolic branch tensions, vector reaction reasoning, drum kinematics/axis-moment reasoning, spooling-state analysis and a strict observation → model → source/OEM decision ladder.
 
-No numeric D/d, groove, fleet-angle, efficiency, strength, discard or equipment-specific intervention criteria were introduced.
+Technical Editorial Pass I is now complete with five corrections: explicit block free-body/action-reaction signs; `Ti` bookkeeping semantics; separation of circumferential drum speed from arbitrary rope-path speed; vector axis-moment wording with kinematic-radius/moment-arm separation; and source-specific fleet/lead/deflection terminology.
 
-Next: `D2 TECHNICAL EDITORIAL / PASS I / v1`.
+No numeric D/d, groove, angle, efficiency, strength, discard or equipment-specific intervention criteria were introduced.
+
+Next: `D2 RED TEAM / PASS I / v1`.

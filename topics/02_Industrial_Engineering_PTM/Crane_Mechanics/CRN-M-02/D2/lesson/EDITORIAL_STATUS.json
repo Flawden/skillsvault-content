@@ -1,0 +1,26 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass": "I",
+  "version": "v1",
+  "date": "2026-09-02",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "baseline_commit": "827bcec694d541aded942d449c9f5a782bef2ba1",
+  "report": "editorial/pass_I/v1/CRN-M-02_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+  "qa": "editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json",
+  "findings": [
+    "TE-D2-01",
+    "TE-D2-02",
+    "TE-D2-03",
+    "TE-D2-04",
+    "TE-D2-05"
+  ],
+  "guards": {
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_authority_boundary_preserved": true,
+    "d1_frozen_immutable": true
+  },
+  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps"
+}

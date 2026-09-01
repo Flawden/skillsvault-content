@@ -1,0 +1,58 @@
+{
+  "artifact": "CRN-M-02_D2_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "827bcec694d541aded942d449c9f5a782bef2ba1",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 5,
+    "corrections_applied": 5
+  },
+  "findings": [
+    {
+      "id": "TE-D2-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "block free-body / action-reaction vector sign convention"
+    },
+    {
+      "id": "TE-D2-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "T1/T2 bookkeeping does not imply discontinuity or piecewise constancy"
+    },
+    {
+      "id": "TE-D2-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "drum circumferential speed versus rope speed / helical geometry scope"
+    },
+    {
+      "id": "TE-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "axis torque vector relation / kinematic radius versus moment arm"
+    },
+    {
+      "id": "TE-D2-05",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "fleet/lead/deflection terminology boundary"
+    }
+  ],
+  "retained_source_claims": {
+    "ISO_4309_crossover_public_abstract": "PASS",
+    "ISO_4301_1_cycles_load_spectrum_average_displacements_public_abstract": "PASS"
+  },
+  "guards": {
+    "d1_frozen_content_modified": false,
+    "frozen_index_modified": false,
+    "numeric_design_limits_added": false,
+    "equipment_specific_corrective_action_asserted": false,
+    "closed_normative_tables_reconstructed": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps"
+}

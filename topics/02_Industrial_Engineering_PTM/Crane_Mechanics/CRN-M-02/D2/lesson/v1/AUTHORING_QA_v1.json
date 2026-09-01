@@ -2,7 +2,7 @@
   "artifact": "CRN-M-02_D2_LESSON_v1",
   "date": "2026-09-02",
   "stage": "AUTHORING",
-  "status": "PASS_AUTHORING_COMPLETE",
+  "status": "PASS_AUTHORING_COMPLETE_EDITORIALLY_CORRECTED",
   "scope_version": "v1",
   "source_gate_version": "v1",
   "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
@@ -44,13 +44,29 @@
   "model_guards": {
     "vector_direction_required_for_node_reaction": true,
     "T1_T2_not_blindly_equalized": true,
-    "drum_v_equals_omega_r_labelled_educational_model": true,
-    "drum_M_equals_T_r_labelled_educational_model": true,
     "no_slip_or_quasistatic_assumptions_explicit_where_needed": true,
     "crossover_context_not_converted_to_discard_rule": true,
     "visible_abnormality_not_converted_to_acceptance_decision": true,
-    "mechanical_understanding_not_field_authority": true
+    "mechanical_understanding_not_field_authority": true,
+    "Ti_labels_are_bookkeeping_not_piecewise_constancy": true,
+    "block_free_body_action_reaction_sign_convention_explicit": true,
+    "drum_circumferential_speed_vs_rope_speed_scope_explicit": true,
+    "helical_axial_geometry_blocks_blind_v_equals_omega_r": true,
+    "drum_axis_moment_uses_vector_relation": true,
+    "kinematic_radius_not_blindly_equal_to_moment_arm": true,
+    "fleet_lead_deflection_terms_not_treated_as_synonyms": true
   },
   "formal_practice_included": false,
-  "next": "CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team"
+  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": [
+      "TE-D2-01",
+      "TE-D2-02",
+      "TE-D2-03",
+      "TE-D2-04",
+      "TE-D2-05"
+    ]
+  }
 }

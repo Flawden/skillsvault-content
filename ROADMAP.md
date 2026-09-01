@@ -129,11 +129,24 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 4. `ISO 4309:2017` — wire-rope care/inspection/discard interface; sixth edition under development, freshness watchlist remains active.
 5. Passport / OEM manual — required for actual reeving, dimensions, limits and field decisions.
 
+## CRN-M-02 D2 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- TE-D2-01 CRITICAL — block free-body/action-reaction sign convention made explicit;
+- TE-D2-02 HIGH — `T1/T2/...` clarified as local bookkeeping, not piecewise-constant/discontinuous tension;
+- TE-D2-03 HIGH — drum `ωr` relation limited to circumferential speed and simple near-circumferential rope-speed model;
+- TE-D2-04 HIGH — axis torque corrected to vector moment with kinematic radius separated from moment arm;
+- TE-D2-05 MEDIUM — fleet/lead/deflection terminology made source-specific rather than slash-synonymous;
+- ISO 4309 crossover and ISO 4301-1 classification public claims rechecked and retained;
+- numeric design/OEM claim locks remain intact;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team
+CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps
 
-D1 is immutable. Continue D2 through technical review without unlocking numeric design or equipment-specific authority claims.
+D1 is immutable. Continue D2 adversarial review without unlocking numeric design or equipment-specific authority claims.
 
 ## D1 production sequence
 
@@ -153,14 +166,15 @@ Source Freshness ✅
 D1 Freeze ✅
 D2 Content Kickoff ✅
 D2 Lesson Authoring ✅
-D2 Technical Editorial ← NEXT
+D2 Technical Editorial ✅
+D2 Red Team ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 TECHNICAL EDITORIAL NEXT
+CRN-M-02 ← ACTIVE / D2 RED TEAM NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

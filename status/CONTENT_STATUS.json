@@ -214,8 +214,8 @@
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
-        "editorial": "NEXT",
-        "red_team": "WAITING",
+        "editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "WAITING",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
@@ -232,6 +232,24 @@
         "applied_mechanics_scope_complete": true,
         "numeric_design_claim_lock_preserved": true,
         "equipment_specific_claims_require_oem_or_passport": true
+      },
+      "technical_editorial": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/editorial/pass_I/v1/CRN-M-02_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json",
+        "corrections": [
+          "TE-D2-01",
+          "TE-D2-02",
+          "TE-D2-03",
+          "TE-D2-04",
+          "TE-D2-05"
+        ],
+        "numeric_design_claim_lock_preserved": true,
+        "equipment_specific_claims_require_oem_or_passport": true,
+        "d1_frozen_immutable": true
       }
     },
     "D3": {
@@ -241,7 +259,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team",
+  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
