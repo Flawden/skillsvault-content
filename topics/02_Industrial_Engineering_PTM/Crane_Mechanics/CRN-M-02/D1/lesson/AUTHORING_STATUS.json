@@ -21,7 +21,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -48,5 +48,6 @@
   },
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT"
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

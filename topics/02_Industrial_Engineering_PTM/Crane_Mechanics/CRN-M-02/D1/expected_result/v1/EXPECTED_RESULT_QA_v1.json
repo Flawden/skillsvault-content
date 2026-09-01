@@ -1,0 +1,51 @@
+{
+  "artifact": "CRN-M-02_D1_EXPECTED_RESULT_v1",
+  "date": "2026-09-02",
+  "stage": "EXPECTED_RESULT",
+  "status": "COMPLETE",
+  "baseline_commit": "f7e9e1d9a7766919c616e5f7421df44a60617e84",
+  "expected_dimensions": [
+    "ER-01",
+    "ER-02",
+    "ER-03",
+    "ER-04",
+    "ER-05",
+    "ER-06",
+    "ER-07",
+    "ER-08",
+    "ER-09",
+    "ER-10"
+  ],
+  "practice_cases": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "checks": {
+    "observable_behaviors": true,
+    "evidence_outputs_defined": true,
+    "transfer_required": true,
+    "known_case_performance_not_sufficient": true,
+    "stop_or_escalation_can_be_success": true,
+    "moving_dead_end_explicit": true,
+    "rope_path_force_map_separated": true,
+    "simple_model_must_be_demonstrated_before_formula": true,
+    "bounded_conclusion_required": true,
+    "field_authority_boundary_required": true,
+    "numeric_design_claim_lock_preserved": true,
+    "new_normative_thresholds": false,
+    "lesson_modified": false,
+    "practice_modified": false,
+    "practice_reasoning_modified": false,
+    "frozen_index_modified": false,
+    "verification_rubric_ready": true
+  },
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
+  "sha256_expected_result": "D973F454B267C5D80E20D6A91254BF05078AA4BEB062BC94DC21CB875931B248",
+  "sha256_alignment": "165CA0449C0E1EFCA5564B27A93A16A200650D7CEA8BD69417E78F88215F3557"
+}

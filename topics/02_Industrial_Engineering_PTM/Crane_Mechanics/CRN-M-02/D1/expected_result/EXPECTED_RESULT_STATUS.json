@@ -1,0 +1,13 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "EXPECTED_RESULT",
+  "version": "v1",
+  "status": "COMPLETE",
+  "dimensions": 10,
+  "verification_rubric": "NEXT",
+  "numeric_design_claim_lock_preserved": true,
+  "field_authority_guard_preserved": true,
+  "transfer_required": true,
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package"
+}

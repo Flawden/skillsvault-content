@@ -16,23 +16,29 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Reader Experience / Pass I ✅ v1
 ├─ D1 Practice ✅ v1
 ├─ D1 Practice Reasoning ✅ v1
-└─ D1 Expected Result ← NEXT
+├─ D1 Expected Result ✅ v1
+└─ D1 Verification Rubric ← NEXT
 ```
 
-## CRN-M-02 D1 Practice Reasoning v1
+## CRN-M-02 D1 Expected Result v1
 
-Worked reasoning for Practice A–H is complete as a separate artifact.
+The reviewed lesson, Practice A–H and Practice Reasoning are now translated into 10 observable competencies.
 
-### Reasoning contract
+### Result contract
 
-- Practice remains reusable and contains no embedded answer key;
-- reasoning evaluates the chain `moving assembly → endpoints → rope path → force map → simple-model check`;
-- moving dead-end attachments are included in force-transfer analysis;
-- compound/multi-body schemes may correctly end in `ESCALATE BEYOND D1`;
-- ideal force/travel/speed calculations are allowed only after model applicability is demonstrated;
-- diagram comprehension remains separate from field conformance and authority.
+A D1 learner must be able to:
 
-The reasoning artifact explicitly allows more than one bounded path where geometry/model evidence is insufficient for a unique scalar conclusion.
+- choose the moving assembly before counting anything;
+- identify rope endpoints and attachment motion status;
+- trace the rope path end-to-end;
+- build a separate force-transfer map, including moving dead ends;
+- prove a simple `n` model or issue `NOT YET DEMONSTRATED / ESCALATE BEYOND D1`;
+- use ideal force and kinematic relations only after the model check;
+- preserve the source/claim lock for numeric equipment criteria;
+- separate diagram comprehension from field conformance and authority;
+- transfer the workflow to an unseen scheme.
+
+Known Practice A–H performance alone is not sufficient for verification.
 
 ## Source anchors
 
@@ -44,9 +50,9 @@ The reasoning artifact explicitly allows more than one bounded path where geomet
 
 ## Next
 
-`CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric`
+`CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package`
 
-Translate the reviewed lesson + Practice + Practice Reasoning into observable beginner behaviors and required evidence outputs.
+Build a rubric around ER-01…ER-10, including explicit non-compensable failure candidates and at least one unseen transfer case.
 
 ## D1 production sequence
 
@@ -59,8 +65,8 @@ Red Team ✅
 Reader Experience Pass ✅
 Practice ✅
 Practice Reasoning ✅
-Expected Result ← NEXT
-Verification Rubric
+Expected Result ✅
+Verification Rubric ← NEXT
 Final Alignment
 Source Freshness
 D1 Freeze
@@ -103,4 +109,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Practice Reasoning does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Expected Result does not alter it because CRN-M-02 content is not frozen yet.

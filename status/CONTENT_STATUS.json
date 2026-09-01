@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "PRACTICE_REASONING_COMPLETE",
+      "status": "EXPECTED_RESULT_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -33,8 +33,8 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "verification_rubric": "WAITING",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT",
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
@@ -116,6 +116,19 @@
         "complex_scheme_stop_condition_explicit": true,
         "numeric_design_claim_lock_preserved": true,
         "field_authority_guard_preserved": true
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/expected_result/v1/CRN-M-02_D1_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "transfer_required": true,
+        "known_case_performance_not_sufficient": true,
+        "stop_or_escalation_can_be_success": true,
+        "numeric_design_claim_lock_preserved": true,
+        "field_authority_guard_preserved": true
       }
     },
     "D2": {
@@ -128,7 +141,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -155,6 +168,7 @@
     "Continue from status.next",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/READER_EXPERIENCE_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/practice/PRACTICE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/practice_reasoning/PRACTICE_REASONING_STATUS.json"
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/practice_reasoning/PRACTICE_REASONING_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/expected_result/EXPECTED_RESULT_STATUS.json"
   ]
 }

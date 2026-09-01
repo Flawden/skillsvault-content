@@ -15,7 +15,8 @@
   },
   "reader_experience_pass": "COMPLETE",
   "practice": "COMPLETE",
-  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT"
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

@@ -6,8 +6,9 @@
   "status": "COMPLETE",
   "cases": 8,
   "single_answer_key": false,
-  "expected_result": "NEXT",
+  "expected_result": "COMPLETE",
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric"
+  "next": "CRN-M-02 / D1 VERIFICATION RUBRIC / v1 — score observable behaviors, blocking failures, transfer case and required evidence package",
+  "verification_rubric": "NEXT"
 }
