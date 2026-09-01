@@ -1,0 +1,23 @@
+{
+  "tag": "crn-m-01-v1",
+  "type": "annotated",
+  "message": "CRN-M-01 FULL TOPIC FROZEN v1",
+  "target": "PATCH_APPLIED_COMMIT",
+  "required_branch": "main",
+  "requires_preexisting_tags": [
+    "crn-m-01-d1-v1",
+    "crn-m-01-d2-v1",
+    "crn-m-01-d3-v1",
+    "crn-m-01-d4-v1"
+  ],
+  "must_contain": [
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D1/FROZEN_v1",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D2/FROZEN_v1",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D3/FROZEN_v1",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/FROZEN_v1",
+    "status/FROZEN_INDEX.json"
+  ],
+  "immutability_rule": "Tag must never be moved. Any content change at any depth requires a new depth freeze where applicable and a new full-topic FROZEN_vN plus a new topic tag.",
+  "push_required": true
+}

@@ -1,0 +1,38 @@
+{
+  "freeze_id": "CRN-M-01-FULL-TOPIC-FREEZE-v1",
+  "topic_id": "CRN-M-01",
+  "topic_title_ru": "Канаты и цепи",
+  "scope": "D1-D4",
+  "version": "v1",
+  "freeze_date": "2026-09-01",
+  "decision": "TOPIC_CONTENT_FROZEN",
+  "source_baseline_commit": "729f3410d5251862974472022fbd4ec976772a40",
+  "canonical_branch": "main",
+  "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1",
+  "depth_freezes": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1",
+    "D4": "FROZEN_v1"
+  },
+  "frozen_index_members_by_depth": {
+    "D1": 16,
+    "D2": 19,
+    "D3": 18,
+    "D4": 162
+  },
+  "frozen_index_members_total": 215,
+  "cross_depth_hash_verification": "PASS",
+  "depth_tags": {
+    "D1": "crn-m-01-d1-v1",
+    "D2": "crn-m-01-d2-v1",
+    "D3": "crn-m-01-d3-v1",
+    "D4": "crn-m-01-d4-v1"
+  },
+  "topic_tag_contract": "crn-m-01-v1",
+  "source_freshness_boundary": "D4 PASS_WITH_WATCHLIST / non-blocking for v1",
+  "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
+  "integration_blocker_blocks_content_freeze": false,
+  "cq_b001_pilot_complete": false,
+  "next": "CRN-M-02 / CONTENT KICKOFF / v1 — Барабаны, блоки, полиспасты; define D1 scope/source gate and reuse the CRN-M-01 topic contract"
+}

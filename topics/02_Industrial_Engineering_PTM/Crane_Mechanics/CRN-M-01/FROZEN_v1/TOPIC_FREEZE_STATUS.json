@@ -1,0 +1,20 @@
+{
+  "topic_id": "CRN-M-01",
+  "topic_name_ru": "Канаты и цепи",
+  "status": "FULL_TOPIC_FROZEN",
+  "version": "v1",
+  "freeze_date": "2026-09-01",
+  "depths": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1",
+    "D4": "FROZEN_v1"
+  },
+  "artifact_integrity": "PASS",
+  "cross_depth_identity": "PASS",
+  "frozen_members_verified": 215,
+  "topic_tag": "crn-m-01-v1",
+  "review_required_blocking": false,
+  "cq_b001_status": "IN_PROGRESS",
+  "next": "CRN-M-02 / CONTENT KICKOFF / v1 — Барабаны, блоки, полиспасты; define D1 scope/source gate and reuse the CRN-M-01 topic contract"
+}

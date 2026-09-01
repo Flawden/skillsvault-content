@@ -1,6 +1,6 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-08-31",
+  "snapshot_date": "2026-09-01",
   "canonical_branch": "main",
   "active_topic": "CRN-M-01",
   "active_topic_name_ru": "Канаты и цепи",
@@ -71,7 +71,7 @@
       }
     }
   },
-  "next": "CRN-M-01 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and pilot handoff",
+  "next": "CRN-M-02 / CONTENT KICKOFF / v1 — Барабаны, блоки, полиспасты; define D1 scope/source gate and reuse the CRN-M-01 topic contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -80,9 +80,29 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/FROZEN_v1/FREEZE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/FROZEN_v1/FREEZE_MANIFEST.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/FROZEN_v1/TAG_CONTRACT.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/TOPIC_FREEZE_MANIFEST.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/PILOT_HANDOFF.md",
     "Continue from status.next"
-  ]
+  ],
+  "topic_freeze": {
+    "status": "FULL_TOPIC_FROZEN",
+    "version": "v1",
+    "freeze_date": "2026-09-01",
+    "baseline_commit": "729f3410d5251862974472022fbd4ec976772a40",
+    "tag": "crn-m-01-v1",
+    "depths": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "covered_frozen_files": 215,
+    "immutable": true
+  },
+  "topic_status": "FULL_TOPIC_FROZEN",
+  "next_topic": {
+    "id": "CRN-M-02",
+    "name_ru": "Барабаны, блоки, полиспасты"
+  }
 }
