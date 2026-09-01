@@ -1,0 +1,23 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "PRACTICE",
+  "version": "v1",
+  "status": "COMPLETE",
+  "cases": 8,
+  "case_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "answer_key_embedded": false,
+  "practice_reasoning": "NEXT",
+  "numeric_design_claim_lock_preserved": true,
+  "field_authority_guard_preserved": true,
+  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key"
+}

@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — READER EXPERIENCE PASS I COMPLETE v1`.
+`D1 — PRACTICE COMPLETE v1`.
 
 The beginner lesson now establishes:
 
@@ -38,4 +38,6 @@ Red Team Pass I then hardened five adversarial cases: moving dead-end attachment
 
 Reader Experience Pass I then improved the learning spine, terminology onboarding, algorithm chunking and end-to-end diagram example without changing the Red-Team/source guards.
 
-Next: `D1 PRACTICE / v1`.
+Practice v1 now contains eight reusable cases covering rope-path tracing, force mapping, fixed-sheave traps, moving dead ends, simple-model stop conditions, ideal force/kinematic relations and field-authority boundaries.
+
+Next: `D1 PRACTICE REASONING / v1`.

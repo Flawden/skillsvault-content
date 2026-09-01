@@ -21,7 +21,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards",
+  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -45,5 +45,7 @@
       "RX-05",
       "RX-06"
     ]
-  }
+  },
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }

@@ -1,0 +1,29 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "PRACTICE",
+  "version": "v1",
+  "status": "PASS",
+  "cases": 8,
+  "case_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "worked_answer_key_embedded": false,
+  "lesson_alignment": "PASS",
+  "red_team_guard_alignment": "PASS",
+  "reader_experience_alignment": "PASS",
+  "numeric_design_claim_lock_preserved": true,
+  "equipment_specific_authority_boundary_preserved": true,
+  "moving_dead_end_covered": true,
+  "complex_scheme_stop_condition_covered": true,
+  "ideal_force_and_kinematic_exercises_present": true,
+  "field_authority_case_present": true,
+  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key"
+}

@@ -14,25 +14,24 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Technical Editorial / Pass I ✅ v1
 ├─ D1 Red Team / Pass I ✅ v1
 ├─ D1 Reader Experience / Pass I ✅ v1
-└─ D1 Practice ← NEXT
+├─ D1 Practice ✅ v1
+└─ D1 Practice Reasoning ← NEXT
 ```
 
-## CRN-M-02 D1 Reader Experience Pass I v1
+## CRN-M-02 D1 Practice v1
 
-Reader Experience Pass I is complete with six readability/cognitive-load corrections applied.
+Practice A–H is complete. It tests the reviewed D1 reasoning spine rather than recall.
 
-### Reader corrections now locked into Lesson v1
+### Practice contract
 
-- added an early four-layer learning map: rope path → force map → simple model → field authority;
-- introduced `dead end` first as plain-language `закреплённый конец каната`;
-- added one end-to-end worked example before the formula derivation;
-- split endpoint and force-transfer logic into short checks instead of dense paragraphs;
-- added explicit D1 stop-signals for schemes that must not be forced into the simple `n` model;
-- corrected the heading from five to seven traps after Red-Team expansion.
+- trace rope path before formulas;
+- build a force-transfer map before assigning `n`;
+- handle moving dead-end attachments explicitly;
+- stop/escalate compound or multi-body schemes instead of forcing a simple model;
+- use only idealized force/travel/speed relations after the simple model is demonstrated;
+- preserve the boundary between diagram comprehension and real-equipment authority.
 
-### Technical guards preserved
-
-Reader Experience changes do not unlock numeric geometry/design criteria and do not weaken the Red-Team boundary between diagram comprehension and actual field conformance.
+Practice has no embedded worked answer key. Practice Reasoning is a separate stage so the cases remain reusable for verification.
 
 ## Source anchors
 
@@ -44,9 +43,9 @@ Reader Experience changes do not unlock numeric geometry/design criteria and do 
 
 ## Next
 
-`CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards`
+`CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key`
 
-Build formal exercises only after the lesson reading path and technical guards have both passed review.
+Build worked reasoning separately from the exercise set; preserve multiple valid reasoning paths where the evidence/model permits them.
 
 ## D1 production sequence
 
@@ -57,8 +56,8 @@ Lesson Authoring ✅
 Technical Editorial ✅
 Red Team ✅
 Reader Experience Pass ✅
-Practice ← NEXT
-Practice Reasoning
+Practice ✅
+Practice Reasoning ← NEXT
 Expected Result
 Verification Rubric
 Final Alignment
@@ -103,4 +102,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Reader Experience does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Practice does not alter it because CRN-M-02 content is not frozen yet.

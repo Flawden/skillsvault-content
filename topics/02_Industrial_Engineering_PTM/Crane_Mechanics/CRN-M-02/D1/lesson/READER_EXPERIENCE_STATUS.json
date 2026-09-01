@@ -12,6 +12,7 @@
       "lesson/v1/CRN-M-02_D1_LESSON_v1.md"
     ]
   },
-  "practice": "NEXT",
-  "next": "CRN-M-02 / D1 PRACTICE / v1 — build diagram-reading and ideal-model exercises under the locked reader, source and field-authority guards"
+  "practice": "COMPLETE",
+  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key",
+  "practice_reasoning": "NEXT"
 }
