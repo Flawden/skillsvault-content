@@ -1,6 +1,6 @@
 {
   "artifact": "CRN-M-02_D1_LESSON_v1",
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "stage": "AUTHORING",
   "status": "PASS_AUTHORING_COMPLETE",
   "scope_version": "v1",
@@ -37,7 +37,11 @@
     "model_boundary_for_W_is_explicit": true,
     "supporting_part_count_scope_explicit": true,
     "angled_branch_component_guard_explicit": true,
-    "rope_length_constraint_scope_explicit": true
+    "rope_length_constraint_scope_explicit": true,
+    "rope_end_attachment_guard_explicit": true,
+    "multi_body_compound_reeving_escalation_explicit": true,
+    "fixed_block_frame_of_reference_explicit": true,
+    "diagram_comprehension_not_field_conformance": true
   },
   "sources": {
     "ISO_4306_1_2026": "terminology boundary",
@@ -58,6 +62,18 @@
       "TE-02",
       "TE-03",
       "TE-04"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c774cea0b16d600b72fe482676cf95dbc9068d2f",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05"
     ]
   }
 }

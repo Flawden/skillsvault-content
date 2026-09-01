@@ -1,6 +1,6 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-09-01",
+  "snapshot_date": "2026-09-02",
   "canonical_branch": "main",
   "active_topic": "CRN-M-02",
   "active_topic_name_ru": "Барабаны, блоки, полиспасты",
@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "EDITORIAL_COMPLETE",
+      "status": "RED_TEAM_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -29,8 +29,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "WAITING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
         "expected_result": "WAITING",
@@ -61,6 +61,21 @@
           "TE-03",
           "TE-04"
         ]
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/red_team/pass_I/v1/CRN-M-02_D1_RED_TEAM_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
+        "findings": [
+          "RT-01",
+          "RT-02",
+          "RT-03",
+          "RT-04",
+          "RT-05"
+        ]
       }
     },
     "D2": {
@@ -73,7 +88,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D1 RED TEAM / PASS I / v1 — adversarial challenge of reeving interpretation, ideal-model misuse, source boundaries and field-authority traps",
+  "next": "CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and diagram-reading clarity without weakening technical guards",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

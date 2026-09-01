@@ -99,10 +99,10 @@ Conditions are stated explicitly in the lesson:
 - simple reeving;
 - equal branch tension;
 - counted support parts are aligned with the modeled support direction for the scalar `nT = W` shortcut;
-- no separate unmodeled rope-end force acts on the moving assembly;
+- every rope-end attachment that transmits tension to the selected moving assembly is explicitly identified;
 - frictionless / lossless idealization;
 - supporting branches change length consistently with moving-block displacement;
-- fixed-end/simple rope-length constraint for `s_rope = n · s_load`;
+- fixed-end/simple rope-length constraint for `s_rope = n · s_load`; a rope end attached to the moving assembly or a compound/multi-body arrangement requires a separate kinematic derivation;
 - quasi-static reasoning for the force relation.
 
 These relations explain the mental model. They do not constitute equipment-specific force, power, capacity, efficiency or design calculations.
@@ -119,3 +119,10 @@ Not introduced in Lesson v1:
 - discard limits;
 - redesign / repair instructions;
 - permission to modify actual reeving.
+
+## Red-Team model guards — Pass I
+
+- `dead end` is a path endpoint, not proof that the endpoint force is irrelevant; if attached to the moving assembly it is part of the force map.
+- `fixed block` is interpreted relative to the selected hoisting/moving assembly, not necessarily as immobile relative to the building.
+- multi-body, equalizing/compensating or otherwise compound reeving is outside the simple D1 `n` shortcut unless a separate force/kinematic model justifies it.
+- understanding a reeving diagram does not prove field conformance; actual conformance requires the approved equipment documentation.

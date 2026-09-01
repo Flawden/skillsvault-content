@@ -12,19 +12,21 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D1 Lesson Authoring ✅ v1
 ├─ D1 Technical Editorial / Pass I ✅ v1
-└─ D1 Red Team / Pass I ← NEXT
+├─ D1 Red Team / Pass I ✅ v1
+└─ D1 Reader Experience / Pass I ← NEXT
 ```
 
-## CRN-M-02 D1 Technical Editorial Pass I v1
+## CRN-M-02 D1 Red Team Pass I v1
 
-Technical Editorial Pass I is complete with four corrections applied.
+Red Team Pass I is complete with five adversarial corrections applied.
 
 ### Corrections now locked into Lesson v1
 
-- `nT = W` is restricted to the simple aligned-support D1 model; angled/compound cases require force components / a force diagram.
-- `W` consistently means the vertical weight load of the entire selected moving assembly included in the model.
-- a fixed sheave is not treated as a universal “direction-only” statement for all complex reeving; it simply does not create mechanical advantage by its count alone.
-- `s_rope = n · s_load` / `v_load = v_rope / n` are restricted to the simple rope-length constraint used by the D1 model.
+- rope endpoints are mapped to their attachment point before `n`; a dead end attached to the moving assembly is a force-transfer point, not a zero-force endpoint;
+- “fixed block” is explicitly relative to the selected hoisting/moving assembly, not necessarily fixed to the building;
+- multi-body, equalizing/compensating and other compound reeving must not be forced into the simple D1 `n` shortcut;
+- Step 4 is now a force-transfer map, not a visual rope-segment count;
+- understanding a diagram is explicitly separated from proving actual field conformance.
 
 ### Claim lock preserved
 
@@ -48,9 +50,9 @@ Still blocked until exact applicable source text / equipment documentation is av
 
 ## Next
 
-`CRN-M-02 / D1 RED TEAM / PASS I / v1`
+`CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1`
 
-Adversarially challenge diagram interpretation, hidden endpoint cases, ideal-model misuse, source boundaries and field-authority traps.
+Improve narrative flow, cognitive load and diagram-reading clarity without weakening the Red-Team guards.
 
 ## D1 production sequence
 
@@ -59,8 +61,8 @@ Scope ✅
 Source Gate ✅
 Lesson Authoring ✅
 Technical Editorial ✅
-Red Team ← NEXT
-Reader Experience Pass
+Red Team ✅
+Reader Experience Pass ← NEXT
 Practice
 Practice Reasoning
 Expected Result
@@ -107,4 +109,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 editorial does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Red Team does not alter it because CRN-M-02 content is not frozen yet.

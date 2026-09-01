@@ -3,7 +3,7 @@
   "depth": "D1",
   "lesson_status": "AUTHORING_COMPLETE",
   "version": "v1",
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "source_gate": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CLAIM_LIMITS",
@@ -21,8 +21,13 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D1 RED TEAM / PASS I / v1 — adversarial challenge of reeving interpretation, ideal-model misuse, source boundaries and field-authority traps",
+  "next": "CRN-M-02 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and diagram-reading clarity without weakening technical guards",
   "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1"
+  },
+  "red_team_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "version": "v1"
