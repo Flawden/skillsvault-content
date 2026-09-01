@@ -15,16 +15,16 @@
 
 ## Текущая точка
 
-`CRN-M-01 — Канаты и цепи` — **FULL TOPIC FROZEN v1**.
+`CRN-M-01 — Канаты и цепи` — **FULL TOPIC FROZEN v1**, tag `crn-m-01-v1`.
 
-- D1 — FROZEN v1
-- D2 — FROZEN v1
-- D3 — FROZEN v1
-- D4 — FROZEN v1
-- Topic aggregate — FROZEN v1
-- Topic tag — `crn-m-01-v1`
+Активный Topic: `CRN-M-02 — Барабаны, блоки, полиспасты`.
 
-Следующий Topic: `CRN-M-02 — Барабаны, блоки, полиспасты`.
+- Content Kickoff — COMPLETE v1
+- D1 Scope — LOCKED v1
+- D1 Source Gate — PASS WITH CLAIM LIMITS v1
+- D1 Lesson Authoring — NEXT
+
+CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 
 ## Правило frozen content
 

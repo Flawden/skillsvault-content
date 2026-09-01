@@ -2,107 +2,75 @@
   "project": "SkillsVault Content",
   "snapshot_date": "2026-09-01",
   "canonical_branch": "main",
-  "active_topic": "CRN-M-01",
-  "active_topic_name_ru": "Канаты и цепи",
-  "topic_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01",
+  "active_topic": "CRN-M-02",
+  "active_topic_name_ru": "Барабаны, блоки, полиспасты",
+  "topic_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02",
+  "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "FROZEN",
-      "version": "v1"
-    },
-    "D2": {
-      "status": "FROZEN",
-      "version": "v1"
-    },
-    "D3": {
-      "status": "FROZEN",
-      "version": "v1"
-    },
-    "D4": {
-      "status": "FROZEN",
-      "architecture": "COMPLETE",
-      "gates": {
-        "G1": "COMPLETE",
-        "G2": "COMPLETE",
-        "G3": "COMPLETE",
-        "G4": "COMPLETE",
-        "G5": "COMPLETE",
-        "G6": "COMPLETE",
-        "G7": "COMPLETE",
-        "G8": "COMPLETE"
-      },
-      "source_gate_program": "COMPLETE",
-      "lesson": "AUTHORING_COMPLETE",
-      "lesson_progress": {
-        "parts_completed": 9,
-        "parts_total": 9,
-        "blocks_completed": 45,
-        "blocks_total": 45,
-        "latest": "Part IX / Blocks 41–45 — AUTHORING_COMPLETE_v1"
-      },
-      "pipeline": {
-        "technical_editorial": "COMPLETE",
-        "red_team": "COMPLETE",
-        "reader_experience_pass": "COMPLETE",
-        "practice": "COMPLETE",
-        "practice_reasoning": "COMPLETE",
-        "expected_result": "COMPLETE",
-        "verification_rubric": "COMPLETE",
-        "final_alignment": "COMPLETE",
-        "source_freshness": "COMPLETE",
-        "freeze": "COMPLETE"
-      },
-      "source_freshness": {
-        "status": "COMPLETE",
-        "decision": "PASS_WITH_WATCHLIST",
-        "sources_checked": 31,
-        "watchlist_count": 7,
-        "freeze_candidate_ready": true
-      },
+      "status": "SOURCE_GATE_COMPLETE",
       "version": "v1",
-      "freeze": {
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
         "status": "COMPLETE",
         "version": "v1",
-        "freeze_date": "2026-08-31",
-        "baseline_commit": "ff66f0a6df289ba2013747c0b3388fb8d3b5b7b8",
-        "tag": "crn-m-01-d4-v1",
-        "snapshot_members": 153,
-        "immutable": true
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-01",
+        "lesson_authoring_unlocked": true,
+        "numeric_design_limits_unlocked": false,
+        "equipment_specific_claims_require_oem_or_passport": true
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "NEXT",
+        "editorial": "WAITING",
+        "red_team": "WAITING",
+        "reader_experience_pass": "WAITING",
+        "practice": "WAITING",
+        "practice_reasoning": "WAITING",
+        "expected_result": "WAITING",
+        "verification_rubric": "WAITING",
+        "final_alignment": "WAITING",
+        "source_freshness": "WAITING",
+        "freeze": "WAITING"
       }
+    },
+    "D2": {
+      "status": "WAITING"
+    },
+    "D3": {
+      "status": "WAITING"
+    },
+    "D4": {
+      "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / CONTENT KICKOFF / v1 — Барабаны, блоки, полиспасты; define D1 scope/source gate and reuse the CRN-M-01 topic contract",
+  "next": "CRN-M-02 / D1 LESSON AUTHORING / v1 — build the beginner mental model for drums, sheaves and reeving under the locked source/claim boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
   },
   "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
-  "new_chat_entrypoint": [
-    "Read status/CONTENT_STATUS.json",
-    "Read ROADMAP.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/TOPIC_FREEZE_MANIFEST.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/FROZEN_v1/PILOT_HANDOFF.md",
-    "Continue from status.next"
-  ],
-  "topic_freeze": {
+  "previous_topic": {
+    "id": "CRN-M-01",
+    "name_ru": "Канаты и цепи",
     "status": "FULL_TOPIC_FROZEN",
     "version": "v1",
-    "freeze_date": "2026-09-01",
-    "baseline_commit": "729f3410d5251862974472022fbd4ec976772a40",
     "tag": "crn-m-01-v1",
-    "depths": [
-      "D1",
-      "D2",
-      "D3",
-      "D4"
-    ],
     "covered_frozen_files": 215,
     "immutable": true
   },
-  "topic_status": "FULL_TOPIC_FROZEN",
-  "next_topic": {
-    "id": "CRN-M-02",
-    "name_ru": "Барабаны, блоки, полиспасты"
-  }
+  "new_chat_entrypoint": [
+    "Read status/CONTENT_STATUS.json",
+    "Read ROADMAP.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/README.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/D1_SCOPE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/kickoff/v1/SOURCE_GATE_v1.md",
+    "Continue from status.next"
+  ]
 }
