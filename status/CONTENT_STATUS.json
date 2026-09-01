@@ -215,8 +215,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "WAITING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
         "expected_result": "WAITING",
@@ -250,6 +250,26 @@
         "numeric_design_claim_lock_preserved": true,
         "equipment_specific_claims_require_oem_or_passport": true,
         "d1_frozen_immutable": true
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/red_team/pass_I/v1/CRN-M-02_D2_RED_TEAM_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
+        "findings": [
+          "RT-D2-01",
+          "RT-D2-02",
+          "RT-D2-03",
+          "RT-D2-04",
+          "RT-D2-05",
+          "RT-D2-06",
+          "RT-D2-07"
+        ],
+        "numeric_design_claim_lock_preserved": true,
+        "equipment_specific_claims_require_oem_or_passport": true,
+        "d1_frozen_immutable": true
       }
     },
     "D3": {
@@ -259,7 +279,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
+  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

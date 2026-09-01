@@ -110,6 +110,8 @@ Educational first-principles mechanics used in Lesson v1:
 
 The lesson intentionally avoids a scalar sheave-reaction formula tied to a potentially ambiguous angle convention. Directional/vector reasoning is used instead.
 
+Red-Team guard: free-body selection precedes arrow construction and equilibrium. A block FBD and a rope FBD use opposite contact-force directions. Quasi-static equilibrium is not promoted into a dynamic-load claim when acceleration is material.
+
 This is **not** a normative capacity or bearing-life calculation.
 
 ## M2 — Drum kinematics
@@ -120,7 +122,7 @@ First-principles rotation relation retained exactly for the circumferential surf
 v_circ = ω · r_k
 ```
 
-The lesson uses `v_rope ≈ ω · r_k` only in a deliberately simplified near-circumferential, negligible-helical-component, no-slip model. It explicitly blocks using no-slip alone as proof of the scalar rope-speed relation for arbitrary helical/axial winding geometry.
+The lesson uses `v_rope ≈ ω · r_k` only in a deliberately simplified near-circumferential, negligible-helical-component, no-slip model. It explicitly blocks using no-slip alone as proof of the scalar rope-speed relation for arbitrary helical/axial winding geometry. No-slip constrains local relative contact motion; it does not by itself replace the spatial rope tangent with the circumferential direction.
 
 It is not an equipment speed limit or control-system claim.
 
@@ -132,7 +134,7 @@ General educational first-principles axis-moment relation:
 M_axis = (r × F) · e_axis
 ```
 
-For a simple tangential rope action this may reduce in magnitude to `|M_axis| = T · r_m`, where `r_m` is the effective moment arm. The lesson explicitly prevents automatic identification of the kinematic radius `r_k` with the torque arm in oblique/complex geometry.
+For a simple tangential rope action this may reduce in magnitude to `|M_axis| = T · r_m`, where `r_m` is the effective moment arm derived from the force line of action relative to the axis. The lesson explicitly prevents automatic identification of the kinematic radius `r_k` or current layer radius with the torque arm in oblique/complex geometry.
 
 It is not a motor-sizing, gearbox-rating, capacity or drum-strength calculation.
 
@@ -140,11 +142,11 @@ It is not a motor-sizing, gearbox-rating, capacity or drum-strength calculation.
 
 Lesson may label branch tensions separately (`T1`, `T2`, ...), and state qualitatively that real friction, bending, contact, deformation and dynamics can invalidate blind equal-tension assumptions. The `Ti` labels are bookkeeping variables for local branch/node force mapping; they do **not** assert piecewise-constant tension or a physical discontinuity at an arbitrarily drawn segment boundary.
 
-No generic loss percentage, efficiency factor or capstan/friction coefficient is assigned.
+No generic loss percentage, efficiency factor or capstan/friction coefficient is assigned. Continuity of one physical rope is explicitly not accepted as standalone proof that all local `Ti` values are equal.
 
 ## M5 — Geometry terminology guard
 
-The lesson uses a generic qualitative phrase for entry/exit and lateral rope geometry. Terms such as `fleet angle`, `lead angle` and `deflection angle` are treated as source-defined terms, not as interchangeable labels with one universal reference line or limit.
+The lesson uses a generic qualitative phrase for entry/exit and lateral rope geometry. Terms such as `fleet angle`, `lead angle` and `deflection angle` are treated as source-defined terms, not as interchangeable labels with one universal reference line or limit. A numeric value carrying a familiar term cannot be transferred until document applicability, node type, angle definition and reference geometry match.
 
 ## Claim-lock audit
 

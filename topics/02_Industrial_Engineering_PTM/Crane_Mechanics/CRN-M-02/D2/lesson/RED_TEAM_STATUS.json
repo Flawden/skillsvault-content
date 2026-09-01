@@ -1,0 +1,19 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "stage": "RED_TEAM",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "5dfbe665755ec2ca2c635b8d3bded15e1c9b3e25",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/red_team/pass_I/v1/CRN-M-02_D2_RED_TEAM_PASS_I_v1.md",
+    "findings_fixed": 7,
+    "corrected_artifacts": [
+      "lesson/v1/CRN-M-02_D2_LESSON_v1.md",
+      "lesson/v1/SOURCE_MAP_v1.md"
+    ]
+  },
+  "reader_experience_pass": "NEXT",
+  "practice": "WAITING",
+  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards"
+}

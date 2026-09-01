@@ -142,11 +142,25 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - numeric design/OEM claim locks remain intact;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- RT-D2-01 CRITICAL — one physical rope no longer implies equal local `Ti` without an explicit model;
+- RT-D2-02 CRITICAL — body-first FBD discipline prevents block/rope action-reaction arrow mixing;
+- RT-D2-03 HIGH — no-slip cannot prove arbitrary helical/axial `v_rope = ωr`;
+- RT-D2-04 HIGH — visible layer radius cannot replace the axis moment arm without line-of-action proof;
+- RT-D2-05 HIGH — crossover/side-contact observation is not an automatic accept/discard/geometry verdict;
+- RT-D2-06 HIGH — numeric angle limits cannot transfer on terminology alone;
+- RT-D2-07 HIGH — quasi-static reaction reasoning cannot be presented as actual dynamic load during material acceleration;
+- numeric design/OEM claim locks remain intact;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps
+CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards
 
-D1 is immutable. Continue D2 adversarial review without unlocking numeric design or equipment-specific authority claims.
+D1 is immutable. Continue D2 reader-experience refinement without weakening Red-Team, numeric-design or equipment-authority guards.
 
 ## D1 production sequence
 
@@ -167,14 +181,15 @@ D1 Freeze ✅
 D2 Content Kickoff ✅
 D2 Lesson Authoring ✅
 D2 Technical Editorial ✅
-D2 Red Team ← NEXT
+D2 Red Team ✅
+D2 Reader Experience ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 RED TEAM NEXT
+CRN-M-02 ← ACTIVE / D2 READER EXPERIENCE NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

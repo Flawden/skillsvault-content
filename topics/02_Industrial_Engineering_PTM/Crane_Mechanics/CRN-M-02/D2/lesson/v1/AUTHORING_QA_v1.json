@@ -2,7 +2,7 @@
   "artifact": "CRN-M-02_D2_LESSON_v1",
   "date": "2026-09-02",
   "stage": "AUTHORING",
-  "status": "PASS_AUTHORING_COMPLETE_EDITORIALLY_CORRECTED",
+  "status": "PASS_AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED",
   "scope_version": "v1",
   "source_gate_version": "v1",
   "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
@@ -54,10 +54,17 @@
     "helical_axial_geometry_blocks_blind_v_equals_omega_r": true,
     "drum_axis_moment_uses_vector_relation": true,
     "kinematic_radius_not_blindly_equal_to_moment_arm": true,
-    "fleet_lead_deflection_terms_not_treated_as_synonyms": true
+    "fleet_lead_deflection_terms_not_treated_as_synonyms": true,
+    "rope_continuity_not_proof_of_equal_Ti": true,
+    "free_body_selected_before_force_arrows": true,
+    "quasistatic_balance_not_dynamic_load_authority": true,
+    "no_slip_not_universal_rope_speed_formula": true,
+    "moment_arm_requires_force_line_of_action": true,
+    "crossover_observation_not_field_verdict": true,
+    "angle_limit_transfer_requires_definition_and_reference_geometry_match": true
   },
   "formal_practice_included": false,
-  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
+  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -67,6 +74,19 @@
       "TE-D2-03",
       "TE-D2-04",
       "TE-D2-05"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": [
+      "RT-D2-01",
+      "RT-D2-02",
+      "RT-D2-03",
+      "RT-D2-04",
+      "RT-D2-05",
+      "RT-D2-06",
+      "RT-D2-07"
     ]
   }
 }

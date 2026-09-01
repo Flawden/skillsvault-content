@@ -1,7 +1,7 @@
 {
   "topic": "CRN-M-02",
   "depth": "D2",
-  "lesson_status": "AUTHORING_COMPLETE_EDITORIALLY_CORRECTED",
+  "lesson_status": "AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED",
   "version": "v1",
   "date": "2026-09-02",
   "prerequisite": {
@@ -26,7 +26,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D2 RED TEAM / PASS I / v1 — adversarially challenge segment-tension bookkeeping, vector/reaction signs, drum kinematic/torque simplifications, spooling geometry and source/field-authority traps",
+  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -38,6 +38,21 @@
       "TE-D2-03",
       "TE-D2-04",
       "TE-D2-05"
+    ]
+  },
+  "red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": [
+      "RT-D2-01",
+      "RT-D2-02",
+      "RT-D2-03",
+      "RT-D2-04",
+      "RT-D2-05",
+      "RT-D2-06",
+      "RT-D2-07"
     ]
   }
 }
