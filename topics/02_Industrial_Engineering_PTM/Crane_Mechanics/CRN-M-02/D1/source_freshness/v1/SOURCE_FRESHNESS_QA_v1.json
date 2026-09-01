@@ -1,0 +1,34 @@
+{
+  "artifact": "CRN-M-02_D1_SOURCE_FRESHNESS_v1",
+  "date": "2026-09-02",
+  "stage": "SOURCE_FRESHNESS",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+  "baseline_commit": "4cdad7297ce7c5ae15fb2f0498243db51cd17fe8",
+  "checks": {
+    "source_gate_inventory_revalidated": true,
+    "current_status_rechecked": true,
+    "draft_vs_published_separated": true,
+    "replacements_checked": true,
+    "fnp_current_amendment_checked": true,
+    "oem_equipment_boundary_preserved": true,
+    "numeric_design_claim_lock_preserved": true,
+    "field_authority_guard_preserved": true,
+    "stale_sources_requiring_removal": false,
+    "lesson_corrections_required": false,
+    "practice_corrections_required": false,
+    "reasoning_corrections_required": false,
+    "expected_result_corrections_required": false,
+    "verification_corrections_required": false,
+    "final_alignment_corrections_required": false,
+    "freeze_candidate_ready": true,
+    "frozen_index_modified": false
+  },
+  "watchlist": [
+    "ISO-4309-2017",
+    "ISO-CD-4309-ED6"
+  ],
+  "next": "CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "sha256_report": "458B280A44C0E92AE2B64BD0EE5C43E4F9D5EE6E80B98DD77226BF835397423B",
+  "sha256_inventory": "938643EA97C1BEE24A4D967CC9EEAF7A93ED7F0DA321BADCE92FEC800F4631B6"
+}

@@ -18,7 +18,7 @@ Technical statements, numeric criteria and source lists are CRN-M-02-specific.
 
 ## Current depth
 
-`D1 — FINAL ALIGNMENT COMPLETE v1`.
+`D1 — SOURCE FRESHNESS COMPLETE / FREEZE CANDIDATE READY v1`.
 
 The beginner lesson now establishes:
 
@@ -46,4 +46,6 @@ Verification Rubric v1 now scores ER-01…ER-10 on a 0–4 scale, requires known
 
 Final Alignment v1 traced Lesson §§1–12, Practice/Reasoning A–H, ER-01…ER-10 and all six blocking failures end-to-end. No orphan competence, surprise blocking rule or guard contradiction was found; no content correction is required before freshness.
 
-Next: `D1 SOURCE FRESHNESS / v1`.
+Source Freshness v1 revalidated ISO 4306-1:2026, ISO 16625:2025, ФНП №461 (ред. 16.04.2026), ISO 4309:2017 and the Edition 6 draft watchlist. No content correction is required; numeric/OEM claim locks remain intact.
+
+Next: `D1 FREEZE / v1`.

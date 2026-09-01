@@ -19,7 +19,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Expected Result ✅ v1
 ├─ D1 Verification Rubric ✅ v1
 ├─ D1 Final Alignment ✅ v1
-└─ D1 Source Freshness ← NEXT
+├─ D1 Source Freshness ✅ PASS WITH WATCHLIST v1
+└─ D1 Freeze ← NEXT
 ```
 
 ## CRN-M-02 D1 Final Alignment v1
@@ -41,6 +42,21 @@ The full D1 chain is now traced bidirectionally.
 
 Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 
+## CRN-M-02 D1 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
+
+- 5 primary source/equipment-authority anchors revalidated;
+- 1 active development companion checked;
+- ISO 4306-1:2026 remains current Published Edition 5;
+- ISO 16625:2025 remains current Published Edition 2; ISO 16625:2013 remains withdrawn;
+- ФНП ПС №461 remains current in the 16.04.2026 edition, valid through 01.09.2032;
+- ISO 4309:2017 remains the current published Edition 5 but is marked to be revised;
+- ISO/CD 4309 Edition 6 is under development at Committee Draft stage and remains watch-only;
+- numeric design/acceptance locks and passport/OEM field-authority boundary remain intact;
+- content corrections required: NO;
+- D1 Freeze candidate: READY.
+
 ## Source anchors
 
 1. `ISO 4306-1:2026` — current crane vocabulary/component terminology.
@@ -51,9 +67,9 @@ Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 
 ## Next
 
-CRN-M-02 / D1 SOURCE FRESHNESS / v1 — revalidate external source editions/status, replacement/watchlist, claim limits and equipment-authority boundaries before D1 freeze
+CRN-M-02 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract
 
-Revalidate the external source anchors and watchlist before immutable D1 freeze. Final Alignment found no content gap that requires correction first.
+Create the immutable D1 package, frozen index entry and tag contract from the freshness-cleared D1 tree.
 
 ## D1 production sequence
 
@@ -69,8 +85,8 @@ Practice Reasoning ✅
 Expected Result ✅
 Verification Rubric ✅
 Final Alignment ✅
-Source Freshness ← NEXT
-D1 Freeze
+Source Freshness ✅
+D1 Freeze ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -110,4 +126,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Verification Rubric does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 remains unfrozen until the next D1 Freeze patch.
