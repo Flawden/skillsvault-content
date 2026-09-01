@@ -1,0 +1,209 @@
+{
+  "artifact": "CRN-M-01_D4_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-08-31",
+  "baseline_commit": "f1531a4fe2704a98b67fcdf6a1f95a61fe31a129",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_blocks": 45,
+    "lesson_blocks_traced": 45,
+    "practice_cases": 8,
+    "expected_dimensions": 12,
+    "expected_dimensions_traced": 12,
+    "rubric_dimensions": 12,
+    "blocking_failures": 6,
+    "blocking_failures_with_prior_origin": 6,
+    "orphan_lesson_blocks": 0,
+    "orphan_practice_requirements": 0,
+    "orphan_expected_dimensions": 0,
+    "surprise_blocking_failures": 0
+  },
+  "er_traceability": [
+    {
+      "id": "ER-01",
+      "competence": "Decision question",
+      "lesson": "I:1; IX:41,44",
+      "practice": "A-H",
+      "reasoning": "All A-H",
+      "verification": "Rubric ER-01",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-02",
+      "competence": "Evidence status",
+      "lesson": "II:6-7; V:24; VI:29; VII:34; VIII:36-37",
+      "practice": "A-H",
+      "reasoning": "All A-H",
+      "verification": "Rubric ER-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-03",
+      "competence": "Competing models",
+      "lesson": "I:3; III:12-14; V:21-24; VI:26-28; VII:33; VIII:38; IX:41,43",
+      "practice": "C,E,G,H",
+      "reasoning": "C,E,G,H",
+      "verification": "Rubric ER-03",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-04",
+      "competence": "Source by claim type",
+      "lesson": "I:1-3; II:7; IV:17; V:23; VII:31; VIII:39",
+      "practice": "A,B,H",
+      "reasoning": "A,B,H",
+      "verification": "Rubric ER-04 + BF-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-05",
+      "competence": "Minimum sufficient method",
+      "lesson": "I:4; III:11-15; IV:16-20; V:25; VII:34; VIII:36",
+      "practice": "C,D,G,H",
+      "reasoning": "C,D,G,H",
+      "verification": "Rubric ER-05",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-06",
+      "competence": "Differentiating evidence",
+      "lesson": "III:13; VI:26-27; VII:32; VIII:38-40; IX:43",
+      "practice": "C-G,H",
+      "reasoning": "C-G,H",
+      "verification": "Rubric ER-06",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-07",
+      "competence": "Sensitivity / uncertainty",
+      "lesson": "III:14-15; IV:19-20; VI:29; VIII:37,40; IX:42",
+      "practice": "D,G,H",
+      "reasoning": "D,G,H",
+      "verification": "Rubric ER-07",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-08",
+      "competence": "Bounded conclusion",
+      "lesson": "II:9; IV:18-20; IX:43-45",
+      "practice": "A-H",
+      "reasoning": "All A-H",
+      "verification": "Rubric ER-08",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-09",
+      "competence": "Knowledge status != permission",
+      "lesson": "I:5 RT guard; II:9 RT guard; VIII:36-40; IX:45",
+      "practice": "A,B,G,H",
+      "reasoning": "A,B,G,H",
+      "verification": "Rubric ER-09 + BF-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-10",
+      "competence": "Authority boundary",
+      "lesson": "I:2,5; II:9-10; V:23; VI:30; VII:35; VIII:39-40; IX:44-45",
+      "practice": "A,B,E,F,G,H",
+      "reasoning": "A,B,E,F,G,H",
+      "verification": "Rubric ER-10 + BF-03",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-11",
+      "competence": "Audit trail",
+      "lesson": "I:5; IX:44",
+      "practice": "A,H",
+      "reasoning": "A,H",
+      "verification": "Rubric ER-11",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-12",
+      "competence": "Transfer",
+      "lesson": "IX:41-45 synthesis",
+      "practice": "H + architecture",
+      "reasoning": "Cross-case patterns",
+      "verification": "Rubric unseen case + challenge",
+      "status": "PASS — verification-only by design"
+    }
+  ],
+  "blocking_failure_traceability": [
+    {
+      "id": "BF-01",
+      "failure": "Invented Critical Input",
+      "lesson": "I:4-5; III:15; IV:20; IX:45",
+      "practice": "General Practice contract; C,D,H",
+      "reasoning": "DF-04 Data laundering",
+      "verification": "Rubric BF-01",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-02",
+      "failure": "Safety Delay",
+      "lesson": "I/II Red-Team guards; VIII:36-40; IX:45",
+      "practice": "G,H",
+      "reasoning": "Pattern 7 / G / H",
+      "verification": "Rubric BF-02",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-03",
+      "failure": "Authority Creep",
+      "lesson": "I:2,5; II:10; VI:30; VII:35; VIII:39; IX:44-45",
+      "practice": "A,B,E,F,G,H",
+      "reasoning": "DF-07 Authority creep",
+      "verification": "Rubric BF-03",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-04",
+      "failure": "False Applicability",
+      "lesson": "I:2 Red-Team guard",
+      "practice": "A,H",
+      "reasoning": "A",
+      "verification": "Rubric BF-04",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-05",
+      "failure": "Unsupported Precision",
+      "lesson": "III:15; IV:18-20; IX:45",
+      "practice": "D,H",
+      "reasoning": "DF-06 Precision laundering",
+      "verification": "Rubric BF-05",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-06",
+      "failure": "Signal-to-Cause Shortcut",
+      "lesson": "VIII:36-40; IX:43",
+      "practice": "G,H",
+      "reasoning": "DF-05 Signal laundering",
+      "verification": "Rubric BF-06",
+      "status": "PASS"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "ALIGN-01",
+      "issue": "Part VI has no standalone case",
+      "decision": "NOT_A_GAP"
+    },
+    {
+      "id": "ALIGN-02",
+      "issue": "ER-11 has fewer dedicated cases",
+      "decision": "ACCEPTABLE"
+    },
+    {
+      "id": "ALIGN-03",
+      "issue": "ER-12 has no familiar-case equivalent",
+      "decision": "INTENTIONAL_TRANSFER_DESIGN"
+    },
+    {
+      "id": "ALIGN-04",
+      "issue": "Rubric score thresholds could look normative",
+      "decision": "INTERNAL_SKILLSVAULT_ONLY_BOUNDARY"
+    }
+  ],
+  "next": "CRN-M-01 / D4 SOURCE FRESHNESS / v1 — external source status, edition, replacement, numeric-boundary and research-domain revalidation"
+}

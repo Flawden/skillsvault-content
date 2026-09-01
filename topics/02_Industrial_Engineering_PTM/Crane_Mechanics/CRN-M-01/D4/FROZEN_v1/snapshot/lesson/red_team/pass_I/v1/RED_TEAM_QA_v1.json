@@ -1,0 +1,105 @@
+{
+  "artifact": "CRN-M-01_D4_RED_TEAM_PASS_I_v1",
+  "date": "2026-08-31",
+  "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "parts": 9,
+    "blocks": 45,
+    "parts_with_text_corrections": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VII",
+      "VIII",
+      "IX"
+    ],
+    "parts_without_text_corrections": [
+      "VI"
+    ]
+  },
+  "findings": [
+    {
+      "id": "RT-01",
+      "severity": "HIGH",
+      "part": "I",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-02",
+      "severity": "CRITICAL",
+      "part": "I",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-03",
+      "severity": "HIGH",
+      "part": "II",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-04",
+      "severity": "CRITICAL",
+      "part": "II",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-05",
+      "severity": "HIGH",
+      "part": "III",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-06",
+      "severity": "HIGH",
+      "part": "IV",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-07",
+      "severity": "MEDIUM",
+      "part": "V",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-08",
+      "severity": "HIGH",
+      "part": "VII",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-09",
+      "severity": "CRITICAL",
+      "part": "VIII",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-10",
+      "severity": "CRITICAL",
+      "part": "VIII/IX",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-11",
+      "severity": "MEDIUM",
+      "part": "IX",
+      "status": "FIXED"
+    },
+    {
+      "id": "RT-12",
+      "severity": "MEDIUM",
+      "part": "IX",
+      "status": "FIXED"
+    }
+  ],
+  "guards": {
+    "frozen_d1_d2_d3_modified": false,
+    "d4_gates_modified": false,
+    "new_normative_thresholds": false,
+    "closed_tables_reconstructed": false,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-01 / D4 READER EXPERIENCE PASS / Pass I — narrative flow, cognitive load, motivation and comprehension without reducing technical depth"
+}

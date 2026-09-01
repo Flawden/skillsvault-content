@@ -1,0 +1,58 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_IX_BLOCKS_41_45_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE_45_OF_45",
+  "part": "IX",
+  "blocks": [
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "checks": {
+    "matches_architecture_41_45": true,
+    "multi_method_case_present": true,
+    "sensitivity_scenarios_present": true,
+    "evidence_matrix_present": true,
+    "conflicting_evidence_not_voted": true,
+    "technical_review_structure_present": true,
+    "authority_boundary_present": true,
+    "stop_rules_present": true,
+    "handoff_present": true,
+    "whole_d4_capability_jump_recap": true,
+    "new_normative_numbers": false,
+    "closed_tables_reconstructed": false,
+    "new_oem_thresholds": false,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": true,
+    "red_team_completed": true,
+    "formal_reader_experience_pass_completed": true
+  },
+  "next": "D4 TECHNICAL EDITORIAL / Pass I — whole-lesson technical coherence and source-boundary review",
+  "sha256_lesson": "80A53D3016579443A129EF9D8743B2D02D7A0858530AC65182E91C744BEAE34B",
+  "sha256_source_map": "44E127E10FBCDE7319758F352CA281719922960B92FFC30C729FA05E758F6C6E",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_NAVIGATION_AND_COMPREHENSION_LAYER",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "technical_depth_reduced": false
+  }
+}

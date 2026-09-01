@@ -1,0 +1,61 @@
+{
+  "artifact": "CRN-M-01_D4_LESSON_PART_VI_BLOCKS_26_30_v1",
+  "date": "2026-08-31",
+  "stage": "AUTHORING",
+  "status": "PASS_FOR_CONTINUED_AUTHORING",
+  "part": "VI",
+  "blocks": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "checks": {
+    "package_state_present": true,
+    "lower_layer_not_rigid": true,
+    "crossover_not_unique_root_cause": true,
+    "cut_in_system_mechanism": true,
+    "radial_stability_separated_from_axial_strength": true,
+    "diameter_under_load_present": true,
+    "pretension_denominator_guard": true,
+    "no_record_not_bad_installation_proof": true,
+    "m1_m2_m3_escalation": true,
+    "drum_rope_coupling_present": true,
+    "design_authority_guard": true,
+    "new_universal_pretension_values": false,
+    "new_friction_coefficients": false,
+    "iso_4309_current_verified_2026_08_31": true,
+    "iso_cd_4309_not_current_guard": true,
+    "iso_16625_current_verified_2026_08_31": true,
+    "canonical_frozen_d1_d2_d3_modified": false,
+    "technical_editorial_completed": true,
+    "red_team_completed": true,
+    "formal_reader_experience_pass_completed": true
+  },
+  "next": "D4 LESSON / Part VII / Blocks 31–35 — продвинутая механика цепей и цепного колеса",
+  "sha256_lesson": "5ED81804010EC732839287ECA37E9DE297C2E617039F76B935A728930F84D81A",
+  "sha256_source_map": "AB3720C92E3DABD1C85B968A4926263050E33FF15CE3CC57031440C17167D69C",
+  "technical_editorial": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/editorial/pass_I/v1/CRN-M-01_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "baseline_commit": "7d42ef2e760cf48113fe778be8ea8be332ff67f1"
+  },
+  "red_team": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_NO_TEXT_CHANGE",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/red_team/pass_I/v1/CRN-M-01_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "d12a3ba22cf9b6cfe6dfd0f633301d445dca7615"
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-08-31",
+    "status": "PASS_WITH_NAVIGATION_AND_COMPREHENSION_LAYER",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/lesson/reader_experience/pass_I/v1/CRN-M-01_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "39bb8b380082a6b6cf320ffdcb7e63034cb5489e",
+    "technical_depth_reduced": false
+  }
+}

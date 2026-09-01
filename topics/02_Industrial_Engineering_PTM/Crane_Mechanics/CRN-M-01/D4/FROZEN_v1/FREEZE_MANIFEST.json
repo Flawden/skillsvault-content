@@ -1,0 +1,40 @@
+{
+  "freeze_id": "CRN-M-01-D4-FREEZE-v1",
+  "topic_id": "CRN-M-01",
+  "topic_title_ru": "Канаты и цепи",
+  "depth": "D4",
+  "version": "v1",
+  "freeze_date": "2026-08-31",
+  "decision": "CONTENT_FROZEN",
+  "source_baseline_commit": "ff66f0a6df289ba2013747c0b3388fb8d3b5b7b8",
+  "canonical_branch": "main",
+  "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-01/D4/FROZEN_v1",
+  "snapshot_members": 153,
+  "snapshot_sha_match_all": true,
+  "prerequisite_freezes": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1"
+  },
+  "gates": {
+    "architecture": "PASS",
+    "G1_G8": "PASS",
+    "source_gate_program": "PASS",
+    "lesson_45_of_45": "PASS",
+    "technical_editorial": "PASS",
+    "red_team": "PASS",
+    "reader_experience": "PASS",
+    "practice_A_H": "PASS",
+    "practice_reasoning": "PASS",
+    "expected_result_12_of_12": "PASS",
+    "verification_rubric_12_of_12": "PASS",
+    "final_alignment": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+    "source_freshness": "PASS_WITH_WATCHLIST",
+    "artifact_integrity": "PASS"
+  },
+  "content_corrections_required_at_freeze": false,
+  "source_watchlist_blocking": false,
+  "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
+  "tag_contract": "crn-m-01-d4-v1",
+  "next": "CRN-M-01 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and pilot handoff"
+}

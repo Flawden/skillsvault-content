@@ -1,0 +1,24 @@
+{
+  "bundle_id": "CRN-M-01-D4-ARCHITECTURE-v1",
+  "date": "2026-08-31",
+  "status": "ARCHITECTURE_PASS",
+  "topic_id": "CRN-M-01",
+  "depth": "D4",
+  "parts": 9,
+  "blocks": 45,
+  "source_gates": 8,
+  "material_types": [
+    "CORE_LESSON",
+    "METHOD_CARD",
+    "REFERENCE"
+  ],
+  "d3_d4_boundary": "PASS",
+  "external_dependency_boundary": "PASS",
+  "authoring_unlocked": false,
+  "next": "D4_G1_CURRENT_BASELINE",
+  "canonical_vault_modified": false,
+  "architecture_sha256": "BBD03652ADC4AF21E2A4FFFFB5C3894D10BCF46400B7FEDA11AFBFBF4FF6CD8B",
+  "source_gate_program_sha256": "981E1048BDCF9559DE38D46B0C41E1F09E91C5876C6433BCFEB55B5C25BA61B9",
+  "boundary_sha256": "A8C98704E9EF972FBAC8CB8B01B882E43FB029918721B438A6DFFF67CFB40AB5",
+  "roadmap_sha256": "269B32C829D23B16D8CE1CCCA925D250E80F04A9BF71B23A32030BE150C30770"
+}

@@ -1,0 +1,37 @@
+{
+  "artifact": "CRN-M-01_D4_PRACTICE_REASONING_v1",
+  "date": "2026-08-31",
+  "stage": "PRACTICE_REASONING",
+  "status": "COMPLETE",
+  "baseline_commit": "f3e282aee501aaadc12eb129be7e510174ac90f9",
+  "cases": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "checks": {
+    "not_single_answer_key": true,
+    "multiple_valid_paths_explicit": true,
+    "decision_question_emphasized": true,
+    "fact_inference_assumption_unknown": true,
+    "competing_models": true,
+    "differentiating_evidence": true,
+    "sensitivity_uncertainty": true,
+    "bounded_conclusions": true,
+    "authority_safety_boundary": true,
+    "common_failure_taxonomy": true,
+    "case_h_capstone_reasoning": true,
+    "verification_ready": true,
+    "new_normative_thresholds": false,
+    "d4_lesson_modified": false,
+    "d4_practice_modified": false,
+    "frozen_d1_d2_d3_modified": false
+  },
+  "next": "CRN-M-01 / D4 EXPECTED RESULT / v1 — observable expert behaviors, evidence outputs and transfer criteria",
+  "sha256_reasoning": "CF8C22F874557945C541FC67336F5EC502C39521207F6B4B8F5CA7123746E209"
+}

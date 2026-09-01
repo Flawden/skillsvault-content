@@ -1,0 +1,22 @@
+{
+  "topic_id": "CRN-M-01",
+  "topic_name_ru": "Канаты и цепи",
+  "depth": "D4",
+  "status": "CONTENT_FROZEN",
+  "freeze_version": "v1",
+  "freeze_date": "2026-08-31",
+  "baseline_commit": "ff66f0a6df289ba2013747c0b3388fb8d3b5b7b8",
+  "snapshot_members": 153,
+  "lesson_blocks": 45,
+  "practice_cases": 8,
+  "expected_result_dimensions": 12,
+  "verification_dimensions": 12,
+  "source_freshness": "PASS_WITH_WATCHLIST",
+  "source_watchlist_count": 7,
+  "content_corrections_required": false,
+  "artifact_integrity": "PASS",
+  "review_required_blocking": false,
+  "canonical_vault_modified": false,
+  "tag": "crn-m-01-d4-v1",
+  "next": "CRN-M-01 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and pilot handoff"
+}

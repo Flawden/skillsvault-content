@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-08-31",
+  "gate": "D4-G1",
+  "status": "PASS_WITH_PARALLEL_FRAMEWORK_GUARD",
+  "sources": [
+    {
+      "id": "FNP-461-2026",
+      "designation": "Приказ Ростехнадзора №461",
+      "edition": "ред. 16.04.2026",
+      "status": "Действует с 08.06.2026 до 01.09.2032",
+      "role": "Российская эксплуатационная рамка"
+    },
+    {
+      "id": "ISO-4306-1-2026",
+      "designation": "ISO 4306-1:2026",
+      "status": "Published",
+      "edition": 5,
+      "role": "Текущая международная терминология кранов"
+    },
+    {
+      "id": "GOST-33709.1-2015",
+      "designation": "ГОСТ 33709.1-2015",
+      "status": "Действует",
+      "basis": "ISO 4306-1:2007, NEQ",
+      "role": "Российская терминология кранов"
+    },
+    {
+      "id": "ISO-17893-2004",
+      "designation": "ISO 17893:2004 + Amd 1:2010",
+      "status": "Published / Confirmed",
+      "role": "Терминология, обозначение, классификация стальных канатов"
+    },
+    {
+      "id": "GOST-EN-12385-2-2015",
+      "designation": "ГОСТ EN 12385-2-2015",
+      "status": "Действует",
+      "role": "Российская терминология/обозначения стальных канатов"
+    },
+    {
+      "id": "ISO-2408-2017",
+      "designation": "ISO 2408:2017",
+      "status": "Published / Confirmed",
+      "edition": 4,
+      "role": "Требования к стальным канатам как изделиям"
+    },
+    {
+      "id": "ISO-16625-2025",
+      "designation": "ISO 16625:2025",
+      "status": "Published",
+      "edition": 2,
+      "replaces": "ISO 16625:2013",
+      "role": "Международный выбор канатов, барабанов и блоков"
+    },
+    {
+      "id": "GOST-33710-2015",
+      "designation": "ГОСТ 33710-2015",
+      "status": "Действует",
+      "basis": "ISO 16625:2013 + ISO 4306-1:2007, NEQ",
+      "role": "Российский действующий стандарт выбора"
+    },
+    {
+      "id": "ISO-4309-2017",
+      "designation": "ISO 4309:2017",
+      "status": "Published",
+      "edition": 5,
+      "role": "Международная эксплуатация/осмотр/браковка"
+    },
+    {
+      "id": "ISO-CD-4309-E6",
+      "designation": "ISO/CD 4309",
+      "status": "Under development / Committee Draft",
+      "edition": 6,
+      "role": "Будущая редакция; не действующая"
+    },
+    {
+      "id": "GOST-33718-2015",
+      "designation": "ГОСТ 33718-2015",
+      "status": "Действует",
+      "basis": "ISO 4309:2010 + ISO 4306-1:2007, NEQ",
+      "role": "Российский действующий уход/контроль/браковка"
+    },
+    {
+      "id": "ISO-21669-2005",
+      "designation": "ISO 21669:2005",
+      "status": "Published / Confirmed",
+      "role": "Испытательный метод вращательных свойств"
+    }
+  ]
+}
