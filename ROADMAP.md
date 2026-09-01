@@ -24,9 +24,39 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Content Kickoff ✅ v1
 ├─ D2 Scope ✅ LOCKED v1
 ├─ D2 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-└─ D2 Lesson Authoring ← NEXT
+├─ D2 Lesson Authoring ✅ v1
+└─ D2 Technical Editorial / Pass I ← NEXT
 ```
 
+
+
+## CRN-M-02 D2 Lesson Authoring v1
+
+D2 Lesson v1 is complete under the locked `PASS WITH CLAIM LIMITS` source gate.
+
+### Applied learning spine
+
+```text
+rope path
+→ contact nodes
+→ T1/T2/T3... unless equality is justified
+→ force directions / reactions
+→ spooling + geometry state
+→ model status
+→ source/OEM boundary
+```
+
+### Core authored concepts
+
+- geometry affects node reactions through force direction, not only force magnitude;
+- equal branch tension is an explicit idealization/assumption in applied analysis, not a free default;
+- effective winding radius links drum angular motion to rope speed and torque arm in simple symbolic models;
+- multilayer spooling introduces a different contact state, including transition/crossover context;
+- side tracking/contact is an observation/escalation cue, not an invented numeric acceptance criterion;
+- duty/classification context matters to selection but does not unlock paid selection factors;
+- understanding load path does not authorize field rerouting, repair or redesign.
+
+No numeric design/acceptance values were introduced.
 
 ## CRN-M-02 D2 Content Kickoff v1
 
@@ -101,9 +131,9 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D2 LESSON AUTHORING / v1 — build applied drum, sheave and reeving mechanics around geometry, spooling state and non-ideal load-path reasoning under locked numeric/OEM boundaries
+CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team
 
-D1 is immutable. Start D2 by defining its own scope/source gate; do not mechanically inherit D1 technical or numeric assumptions.
+D1 is immutable. Continue D2 through technical review without unlocking numeric design or equipment-specific authority claims.
 
 ## D1 production sequence
 
@@ -121,14 +151,16 @@ Verification Rubric ✅
 Final Alignment ✅
 Source Freshness ✅
 D1 Freeze ✅
-D2 Content Kickoff ← NEXT
+D2 Content Kickoff ✅
+D2 Lesson Authoring ✅
+D2 Technical Editorial ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 NEXT
+CRN-M-02 ← ACTIVE / D2 TECHNICAL EDITORIAL NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

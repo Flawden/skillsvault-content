@@ -1,0 +1,56 @@
+{
+  "artifact": "CRN-M-02_D2_LESSON_v1",
+  "date": "2026-09-02",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisite": {
+    "depth": "D1",
+    "status": "FROZEN",
+    "tag": "crn-m-02-d1-v1"
+  },
+  "coverage": {
+    "geometry_as_system_variable": true,
+    "equal_tension_as_explicit_assumption": true,
+    "separate_segment_tensions_model": true,
+    "sheave_vector_reaction_reasoning": true,
+    "rope_entry_exit_and_side_geometry_qualitative": true,
+    "effective_winding_radius_kinematics": true,
+    "effective_winding_radius_torque_relation": true,
+    "single_vs_multilayer_contact_state": true,
+    "layer_transition_and_crossover_context": true,
+    "applied_rope_path_force_reaction_algorithm": true,
+    "same_load_different_reaction_reasoning": true,
+    "qualitative_nonideal_losses_without_coefficients": true,
+    "duty_classification_context": true,
+    "observation_vs_engineering_decision_boundary": true,
+    "passport_oem_escalation_boundary": true
+  },
+  "claim_guards": {
+    "numeric_D_d_limits_introduced": false,
+    "numeric_drum_sheave_diameters_introduced": false,
+    "numeric_groove_limits_introduced": false,
+    "numeric_fleet_angle_limits_introduced": false,
+    "numeric_efficiency_loss_coefficients_introduced": false,
+    "allowable_stress_contact_pressure_values_introduced": false,
+    "bearing_life_calculation_introduced": false,
+    "discard_limits_introduced": false,
+    "equipment_specific_reeving_asserted": false,
+    "field_modification_permission_implied": false,
+    "paid_normative_tables_reconstructed": false
+  },
+  "model_guards": {
+    "vector_direction_required_for_node_reaction": true,
+    "T1_T2_not_blindly_equalized": true,
+    "drum_v_equals_omega_r_labelled_educational_model": true,
+    "drum_M_equals_T_r_labelled_educational_model": true,
+    "no_slip_or_quasistatic_assumptions_explicit_where_needed": true,
+    "crossover_context_not_converted_to_discard_rule": true,
+    "visible_abnormality_not_converted_to_acceptance_decision": true,
+    "mechanical_understanding_not_field_authority": true
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team"
+}

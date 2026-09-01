@@ -1,0 +1,30 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "prerequisite": {
+    "D1": "FROZEN_v1",
+    "tag": "crn-m-02-d1-v1"
+  },
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-02_D2_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "applied_geometry_model_complete": true,
+    "spooling_state_model_complete": true,
+    "nonideal_load_path_boundary_explicit": true,
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "next": "CRN-M-02 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics, vector/reaction wording, geometry/spooling claims and source/authority boundaries before red team"
+}

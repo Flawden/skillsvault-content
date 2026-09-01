@@ -36,7 +36,8 @@
 - D2 Content Kickoff — COMPLETE v1
 - D2 Scope — LOCKED v1
 - D2 Source Gate — PASS WITH CLAIM LIMITS v1
-- D2 Lesson Authoring — NEXT
+- D2 Lesson Authoring — COMPLETE v1
+- D2 Technical Editorial Pass I — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 
