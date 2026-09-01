@@ -16,7 +16,8 @@
   },
   "red_team": "COMPLETE",
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key",
+  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric",
   "practice": "COMPLETE",
-  "practice_reasoning": "NEXT"
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "NEXT"
 }

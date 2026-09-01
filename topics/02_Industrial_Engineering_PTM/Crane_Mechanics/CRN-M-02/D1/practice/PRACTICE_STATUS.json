@@ -16,8 +16,9 @@
     "H"
   ],
   "answer_key_embedded": false,
-  "practice_reasoning": "NEXT",
+  "practice_reasoning": "COMPLETE",
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "next": "CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key"
+  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric",
+  "expected_result": "NEXT"
 }

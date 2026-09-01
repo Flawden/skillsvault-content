@@ -15,23 +15,24 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D1 Red Team / Pass I ✅ v1
 ├─ D1 Reader Experience / Pass I ✅ v1
 ├─ D1 Practice ✅ v1
-└─ D1 Practice Reasoning ← NEXT
+├─ D1 Practice Reasoning ✅ v1
+└─ D1 Expected Result ← NEXT
 ```
 
-## CRN-M-02 D1 Practice v1
+## CRN-M-02 D1 Practice Reasoning v1
 
-Practice A–H is complete. It tests the reviewed D1 reasoning spine rather than recall.
+Worked reasoning for Practice A–H is complete as a separate artifact.
 
-### Practice contract
+### Reasoning contract
 
-- trace rope path before formulas;
-- build a force-transfer map before assigning `n`;
-- handle moving dead-end attachments explicitly;
-- stop/escalate compound or multi-body schemes instead of forcing a simple model;
-- use only idealized force/travel/speed relations after the simple model is demonstrated;
-- preserve the boundary between diagram comprehension and real-equipment authority.
+- Practice remains reusable and contains no embedded answer key;
+- reasoning evaluates the chain `moving assembly → endpoints → rope path → force map → simple-model check`;
+- moving dead-end attachments are included in force-transfer analysis;
+- compound/multi-body schemes may correctly end in `ESCALATE BEYOND D1`;
+- ideal force/travel/speed calculations are allowed only after model applicability is demonstrated;
+- diagram comprehension remains separate from field conformance and authority.
 
-Practice has no embedded worked answer key. Practice Reasoning is a separate stage so the cases remain reusable for verification.
+The reasoning artifact explicitly allows more than one bounded path where geometry/model evidence is insufficient for a unique scalar conclusion.
 
 ## Source anchors
 
@@ -43,9 +44,9 @@ Practice has no embedded worked answer key. Practice Reasoning is a separate sta
 
 ## Next
 
-`CRN-M-02 / D1 PRACTICE REASONING / v1 — provide worked reasoning paths, force-map checks, model-stop decisions and common failure modes without turning Practice into a single answer key`
+`CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric`
 
-Build worked reasoning separately from the exercise set; preserve multiple valid reasoning paths where the evidence/model permits them.
+Translate the reviewed lesson + Practice + Practice Reasoning into observable beginner behaviors and required evidence outputs.
 
 ## D1 production sequence
 
@@ -57,8 +58,8 @@ Technical Editorial ✅
 Red Team ✅
 Reader Experience Pass ✅
 Practice ✅
-Practice Reasoning ← NEXT
-Expected Result
+Practice Reasoning ✅
+Expected Result ← NEXT
 Verification Rubric
 Final Alignment
 Source Freshness
@@ -102,4 +103,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Practice does not alter it because CRN-M-02 content is not frozen yet.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 Practice Reasoning does not alter it because CRN-M-02 content is not frozen yet.

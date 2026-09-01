@@ -1,0 +1,13 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D1",
+  "stage": "PRACTICE_REASONING",
+  "version": "v1",
+  "status": "COMPLETE",
+  "cases": 8,
+  "single_answer_key": false,
+  "expected_result": "NEXT",
+  "numeric_design_claim_lock_preserved": true,
+  "field_authority_guard_preserved": true,
+  "next": "CRN-M-02 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, required evidence outputs and transfer criteria before verification rubric"
+}
