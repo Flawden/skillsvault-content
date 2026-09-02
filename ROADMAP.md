@@ -46,8 +46,9 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Practice Reasoning ✅ v1
 ├─ D3 Expected Result ✅ v1
 ├─ D3 Verification Rubric ✅ v1
-└─ D3 Final Alignment ✅
-D3 Source Freshness ← NEXT
+├─ D3 Final Alignment ✅ v1
+├─ D3 Source Freshness ✅ PASS WITH WATCHLIST v1
+└─ D3 Freeze ← NEXT
 ```
 
 
@@ -412,6 +413,19 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 - D1 frozen prerequisite remains immutable;
 - D2 Freeze candidate: READY.
 
+## CRN-M-02 D3 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
+
+- 10 external/source-boundary anchors revalidated: 8 current published/regulatory records + 2 active draft companions;
+- ISO 8686-1:2012 remains the published Part 1 at review stage 90.60 and stays on watch;
+- ISO 4309:2017 and ISO 12482:2014 remain current published editions but are marked `to be revised`; their Edition 6 / Edition 2 Committee Drafts remain watch-only;
+- ISO 4306-1:2026, ISO 16625:2025, ISO 4301-1:2016 and ISO 9927-1:2013 remain usable within their bounded roles;
+- ФНП ПС №461 remains current in the 16.04.2026 edition and valid through 01.09.2032;
+- causal support/root-cause, source/method/data/authority, dynamics/proof, inspection/NDT, design-working-period/remaining-life and equipment/OEM boundaries were rechecked with no correction required;
+- D1/D2 frozen prerequisites and `FROZEN_INDEX` remain immutable;
+- D3 Freeze candidate: READY.
+
 ## CRN-M-02 D3 Final Alignment v1
 
 Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
@@ -434,9 +448,9 @@ Source Freshness candidate: `READY`.
 
 ## Next
 
-CRN-M-02 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-analysis claim limits and proof/design/remaining-life/equipment-authority boundaries before D3 freeze
+CRN-M-02 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract
 
-Revalidate current external/source-boundary status before D3 freeze; do not change D1/D2 frozen content.
+Create the immutable D3 freeze package, update the frozen index and publish the D3 version tag without changing frozen D1/D2 content.
 
 ## D1 production sequence
 
@@ -476,7 +490,8 @@ D3 Practice Reasoning ✅
 D3 Expected Result ✅
 D3 Verification Rubric ✅
 D3 Final Alignment ✅
-D3 Source Freshness ← NEXT
+D3 Source Freshness ✅
+D3 Freeze ← NEXT
 ```
 
 ## CQ-B001 pilot sequence

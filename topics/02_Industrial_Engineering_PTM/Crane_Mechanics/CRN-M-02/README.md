@@ -106,5 +106,8 @@ D3 Expected Result v1 is complete. It translates the causal-analysis contract in
 
 D3 Verification Rubric v1 is complete. It scores ER-D3-01…13 on a 0–4 scale (52 max), requires every dimension at >=3, makes all eleven BF non-compensable, and requires known-case evidence + unseen U1 + mandatory C1 evidence update. D3 VERIFIED = 39–45 only when all gates pass; ROBUST / TRANSFER = 46–52 with Level-4 evidence-matrix, distinguishing-data and integrated transfer/update performance. Score bands are pedagogical, not equipment criteria.
 
-D3 Final Alignment v1 is complete. Lesson §§1–33, Practice/Reasoning A–L, ER-D3-01…13, Rubric ER-D3-01…13 and BF-D3-01…11 are traced end-to-end. No orphan content, surprise blocking rule or guard contradiction was found. U1 + C1 intentionally close ER-D3-13 transfer/update; no content correction is required before freshness.
-Next: `D3 SOURCE FRESHNESS / v1`.
+D3 Final Alignment v1 is complete. Lesson §§1–33, Practice/Reasoning A–L, ER-D3-01…13, Rubric ER-D3-01…13 and BF-D3-01…11 are traced end-to-end. No orphan content, surprise blocking rule or guard contradiction was found. U1 + C1 intentionally close ER-D3-13 transfer/update.
+
+D3 Source Freshness v1 is complete. Ten external/source-boundary anchors were revalidated: eight current published/regulatory records plus two active development companions. ISO 8686-1:2012, ISO 4309:2017 / Edition 6 draft and ISO 12482:2014 / Edition 2 draft remain on a non-blocking watchlist. No D3 content correction is required; causal-support, proof/design, inspection/evidence-role, remaining-life and passport/OEM authority locks remain intact.
+
+Next: `D3 FREEZE / v1`.
