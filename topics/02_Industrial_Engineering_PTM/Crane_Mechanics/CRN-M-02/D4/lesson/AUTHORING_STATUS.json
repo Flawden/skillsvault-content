@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff",
+  "next": "CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -194,11 +194,11 @@
     },
     {
       "stage": "EXPECTED_RESULT",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "VERIFICATION_RUBRIC",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "FINAL_ALIGNMENT",
@@ -242,5 +242,12 @@
     "cases": 10,
     "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice_reasoning/v1/CRN-M-02_D4_PRACTICE_REASONING_v1.md",
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json"
+  },
+  "expected_result": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "dimensions": 14,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/CRN-M-02_D4_EXPECTED_RESULT_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/EXPECTED_RESULT_QA_v1.json"
   }
 }

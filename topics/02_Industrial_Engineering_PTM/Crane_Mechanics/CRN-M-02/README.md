@@ -136,4 +136,6 @@ D4 Practice v1 is complete with 10 cases A–J. It exercises question/claim deco
 
 D4 Practice Reasoning v1 is complete for cases A–J. It demonstrates multiple defensible expert paths, configuration/input provenance, method applicability, V&V separation, parent-child interface checks, common-mode error challenge, decision-sensitive uncertainty, value-of-information ordering, bounded conclusions and authority/safety handoff without creating a single deterministic answer key.
 
-Next: `CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`.
+D4 Expected Result v1 is complete with 14 observable dimensions. It converts question/claim decomposition, configuration and input provenance, source/method applicability, model-fidelity and parent/child interfaces, V&V/common-mode challenge, sensitivity/robustness, evidence roles, value-of-information, bounded stop rules and authority/audit handoff into assessable behaviors. Known A–J remains insufficient: Verification requires unseen transfer plus a mandatory adversarial evidence-status update. Twelve BF-D4 candidates are carried into the rubric; proof/life/NDT/equipment-authority locks remain closed.
+
+Next: `CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge`.

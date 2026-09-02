@@ -21,7 +21,8 @@
     ]
   },
   "practice": "COMPLETE",
-  "next": "CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff",
+  "next": "CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge",
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT"
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

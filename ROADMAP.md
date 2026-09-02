@@ -58,7 +58,8 @@ D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
-D4 Expected Result ← NEXT
+D4 Expected Result ✅ v1
+D4 Verification Rubric ← NEXT
 ```
 
 
@@ -585,7 +586,8 @@ D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
-D4 Expected Result ← NEXT
+D4 Expected Result ✅ v1
+D4 Verification Rubric ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -667,3 +669,18 @@ Status: `COMPLETE`.
 - D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`
+
+## CRN-M-02 D4 Expected Result v1
+
+Status: `COMPLETE`.
+
+- 14 observable ER-D4 dimensions convert the reviewed D4 method-governance contract into assessable expert behavior;
+- evidence must expose decision/claim decomposition, configuration, boundary-value problem, input provenance, source/method applicability, fidelity, V&V, common-mode challenge, uncertainty/robustness, evidence roles, value of information, bounded conclusion and authority/audit trail;
+- known Practice/Reasoning A–J performance is required but insufficient; Verification must include an unseen integrated case;
+- Verification must also deliver a meaningful adversarial evidence-status update after the learner's first conclusion and require affected layers to be rebuilt;
+- correct `STOP / REQUEST EVIDENCE`, `NOT DEMONSTRATED` and `METHOD NOT SHOWN APPLICABLE` remain successful bounded outcomes when proof chain is incomplete;
+- 12 candidate BF-D4 failures are carried forward for non-compensability decisions;
+- no actual proof, remaining-life, discard/NDT or equipment-specific authority is introduced;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge`

@@ -693,8 +693,8 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "verification_rubric": "PENDING",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
@@ -868,10 +868,27 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 14,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/CRN-M-02_D4_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "transfer_required": true,
+        "known_case_performance_not_sufficient": true,
+        "adversarial_evidence_status_update_required": true,
+        "candidate_blocking_failures": 12,
+        "stop_or_escalation_can_be_success": true,
+        "authority_handoff_required": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true
       }
     }
   },
-  "next": "CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff",
+  "next": "CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

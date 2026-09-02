@@ -40,7 +40,8 @@ Technical Editorial ✅
 → Reader Experience Pass ✅
 → Practice ✅
 → Practice Reasoning ✅
-→ Expected Result ← NEXT
+→ Expected Result ✅
+→ Verification Rubric ← NEXT
 → Expected Result
 → Verification Rubric
 → Final Alignment
@@ -79,6 +80,10 @@ D4 Practice v1 is complete with 10 integrated cases A–J. The cases force quest
 
 D4 Practice Reasoning v1 is complete for cases A–J with non-exclusive expert paths, discriminating evidence, V&V separation, common-mode error challenge, sensitivity/robustness review, value-of-information ordering, bounded conclusions and authority handoff. It preserves all source/proof/life/NDT/equipment-authority locks.
 
+## Expected Result result
+
+D4 Expected Result v1 is complete with 14 observable dimensions, 12 candidate blocking failures, unseen transfer and a mandatory adversarial evidence-status update. Correct bounded stop/escalation remains a successful outcome where the evidence chain is incomplete.
+
 ## Next
 
-`CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`
+`CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge`
