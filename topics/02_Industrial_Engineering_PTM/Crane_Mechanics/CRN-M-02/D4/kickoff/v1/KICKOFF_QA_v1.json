@@ -1,0 +1,36 @@
+{
+  "topic_id": "CRN-M-02",
+  "depth": "D4",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "date": "2026-09-02",
+  "decision": "PASS",
+  "baseline_commit": "2b5278096fabb228b0e82fbcf66d441587da396c",
+  "checks": {
+    "d1_prerequisite_frozen_tag": "PASS",
+    "d2_prerequisite_frozen_tag": "PASS",
+    "d3_prerequisite_frozen_tag": "PASS",
+    "d1_frozen_immutable": "PASS",
+    "d2_frozen_immutable": "PASS",
+    "d3_frozen_immutable": "PASS",
+    "frozen_index_unchanged": "PASS",
+    "d3_to_d4_boundary_explicit": "PASS",
+    "method_selection_scope_explicit": "PASS",
+    "method_applicability_gate_explicit": "PASS",
+    "verification_validation_separation_explicit": "PASS",
+    "sensitivity_uncertainty_error_classes_explicit": "PASS",
+    "proof_method_scope_mapping_guard": "PASS",
+    "paid_source_reconstruction_lock": "PASS",
+    "remaining_life_lock": "PASS",
+    "inspection_vs_proof_boundary": "PASS",
+    "equipment_authority_lock": "PASS",
+    "source_watchlist_non_normative": "PASS",
+    "lesson_authoring_unlocked": "PASS"
+  },
+  "source_inventory": {
+    "records": 13,
+    "watchlist": 5,
+    "development_companions": 2
+  },
+  "next": "CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks"
+}

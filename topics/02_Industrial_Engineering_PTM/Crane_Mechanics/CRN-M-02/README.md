@@ -112,4 +112,16 @@ D3 Source Freshness v1 is complete. Ten external/source-boundary anchors were re
 
 D3 Freeze v1 snapshots all 52 accepted D3 artifacts and locks them in the canonical frozen index under tag `crn-m-02-d3-v1`. D1 and D2 remain independently immutable.
 
-Next: `D4 CONTENT KICKOFF / v1` — expert/reference formal-method selection and model-validation scope/source gate.
+## D4 kickoff
+
+`D4 — ACTIVE / CONTENT KICKOFF COMPLETE v1`.
+
+D4 is the expert/reference method-governance depth. D1/D2/D3 remain immutable prerequisites. D4 moves from “which causal model is best supported?” to “which formal method is applicable, how is its adequacy checked, how sensitive/uncertain is the result, how do competing methods compare, and where does authority stop?”
+
+D4 Source Gate = `PASS WITH CLAIM LIMITS`. Current public metadata confirms the main method-boundary anchors: ISO 4306-1:2026, ISO 16625:2025, ISO 10972-1:2025, ISO 8686-1:2012, ISO 20332:2016, ISO 4301-1:2016, ISO 9927-1:2013, ISO 4309:2017, ISO 12482:2014 and ФНП ПС №461. ISO/CD 4309 Edition 6 and ISO/CD 12482 Edition 2 remain development-watch records only.
+
+The key D4 distinction is explicit: mechanism/layout/selection requirements are not automatically proof-of-competence methods; inspection/monitoring evidence is not automatically design proof; and a detailed numerical model is not automatically validated. Every method must expose scope, boundary conditions, inputs/provenance, verification, validation/cross-check evidence, sensitivity/uncertainty, competing-method behavior and authority handoff.
+
+Closed paid tables/coefficients, actual dynamic/load-combination values, actual component proof, numeric remaining-life, discard/acceptance criteria, specialist NDT interpretation and equipment modification/approval remain locked unless the exact applicable source, inputs and competent authority exist.
+
+Next: `D4 LESSON AUTHORING / v1` — expert/reference lesson on method selection, applicability, boundary/input validation, verification/validation, sensitivity/error, competing proof-model comparison and audit trail.

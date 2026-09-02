@@ -48,8 +48,11 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Verification Rubric ✅ v1
 ├─ D3 Final Alignment ✅ v1
 ├─ D3 Source Freshness ✅ PASS WITH WATCHLIST v1
-└─ D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
-D4 Content Kickoff ← NEXT
+├─ D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
+├─ D4 Content Kickoff ✅ v1
+├─ D4 Scope ✅ LOCKED v1
+├─ D4 Source Gate ✅ PASS WITH CLAIM LIMITS v1
+└─ D4 Lesson Authoring ← NEXT
 ```
 
 
@@ -463,11 +466,23 @@ Decision: `CONTENT FROZEN`.
 
 D3 must not be edited in place after this point. Any accepted D3 change requires a new review/freshness cycle and `FROZEN_v2`.
 
+## CRN-M-02 D4 Content Kickoff v1
+
+Status: `COMPLETE`.
+
+- D1/D2/D3 remain immutable prerequisites under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1`, `crn-m-02-d3-v1`;
+- D4 scope is locked around expert/reference method selection, applicability, boundary conditions, input provenance, verification/validation, sensitivity/uncertainty/error, competing-method comparison and audit trail;
+- Source Gate = `PASS WITH CLAIM LIMITS`;
+- current topic-specific anchors include ISO 16625:2025 and ISO 10972-1:2025, with ISO 8686-1:2012 and ISO 20332:2016 used to teach load/proof method boundaries rather than to invent closed inputs;
+- ISO 4309:2017 / Edition 6 draft and ISO 12482:2014 / Edition 2 draft stay on the watchlist;
+- inspection/monitoring/requirement/selection/proof roles are explicitly non-interchangeable;
+- a numerical/FE model is not treated as validated merely because it converges or is detailed;
+- paid normative tables/coefficients, actual component proof, remaining-life, discard/acceptance, NDT-specialist and equipment-authority claims remain locked unless exact method, inputs and authority exist;
+- D4 Lesson Authoring is unlocked.
+
 ## Next
 
-CRN-M-02 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries
-
-Define the D4 expert/reference boundary: formal method/model selection, applicability, validation, sensitivity/error and proof-model comparison without silently inheriting unsupported paid-method inputs or equipment authority.
+CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks
 
 ## D1 production sequence
 
@@ -509,14 +524,15 @@ D3 Verification Rubric ✅
 D3 Final Alignment ✅
 D3 Source Freshness ✅
 D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
-D4 Content Kickoff ← NEXT
+D4 Content Kickoff ✅
+D4 Lesson Authoring ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 CONTENT KICKOFF NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 KICKOFF COMPLETE / LESSON AUTHORING NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

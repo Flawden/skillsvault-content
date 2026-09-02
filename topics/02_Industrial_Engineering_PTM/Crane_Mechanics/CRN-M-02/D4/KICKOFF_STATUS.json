@@ -1,0 +1,36 @@
+{
+  "topic_id": "CRN-M-02",
+  "topic_name_ru": "Барабаны, блоки, полиспасты",
+  "depth": "D4",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d3-v1"
+    }
+  ],
+  "d4_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "method_selection_review": "UNLOCKED",
+  "validation_sensitivity_error_review": "UNLOCKED",
+  "source_bound_numeric_proof": "LOCKED_PENDING_EXACT_METHOD_INPUTS_AND_APPLICABILITY",
+  "remaining_life_verdict": "LOCKED",
+  "equipment_specific_claims": "OEM_PASSPORT_DESIGN_OR_EXPERT_AUTHORITY_REQUIRED",
+  "field_authority": "LOCKED",
+  "baseline_commit": "2b5278096fabb228b0e82fbcf66d441587da396c",
+  "next": "CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks"
+}

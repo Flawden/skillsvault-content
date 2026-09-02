@@ -1,0 +1,191 @@
+{
+  "topic_id": "CRN-M-02",
+  "depth": "D4",
+  "version": "v1",
+  "verified_on": "2026-09-02",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-02-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-02-d3-v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "TERMINOLOGY_COMPONENT_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-16625-2025",
+      "title": "ISO 16625:2025 — Cranes and hoists — Selection of wire ropes, drums and sheaves",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "PRIMARY_ROPE_DRIVE_PROOF_SELECTION_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/77889.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-10972-1-2025",
+      "title": "ISO 10972-1:2025 — Cranes — Requirements for mechanisms — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "MECHANISM_REQUIREMENT_VS_PROOF_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/85884.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-8686-1-2012",
+      "title": "ISO 8686-1:2012 — Cranes — Design principles for loads and load combinations — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_UNDER_REVIEW_STAGE_90_60",
+      "role": "LOAD_MODEL_AND_MODEL_FIDELITY_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59417.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-20332-2016",
+      "title": "ISO 20332:2016 — Cranes — Proof of competence of steel structures",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "LIMIT_STATE_PROOF_METHOD_AND_SCOPE_MAPPING_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/62663.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4301-1-2016",
+      "title": "ISO 4301-1:2016 — Cranes — Classification — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "DUTY_CLASSIFICATION_INPUT_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/63070.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-9927-1-2013",
+      "title": "ISO 9927-1:2013 — Cranes — Inspections — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "INSPECTION_METHOD_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/51102.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4309-2017",
+      "title": "ISO 4309:2017 — Cranes — Wire ropes — Care and maintenance, inspection and discard",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_TO_BE_REVISED_STAGE_90_92",
+      "role": "ROPE_CONDITION_DISCARD_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/66759.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-CD-4309-ED6",
+      "title": "ISO/CD 4309 — Edition 6",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/90256.html",
+      "watchlist": true,
+      "normative_for_d4": false
+    },
+    {
+      "id": "EXT-ISO-12482-2014",
+      "title": "ISO 12482:2014 — Cranes — Monitoring for crane design working period",
+      "authority": "ISO",
+      "status": "PUBLISHED_TO_BE_REVISED_STAGE_90_92",
+      "role": "DUTY_MONITORING_DESIGN_WORKING_PERIOD_CONTEXT",
+      "public_url": "https://www.iso.org/standard/57481.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-CD-12482-ED2",
+      "title": "ISO/CD 12482 — Edition 2",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/91046.html",
+      "watchlist": true,
+      "normative_for_d4": false
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_AUTHORITY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-PS",
+      "title": "Passport / OEM / actual equipment records",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "EQUIPMENT_INPUT_AND_AUTHORITY_SOURCE",
+      "public": false
+    }
+  ],
+  "source_counts": {
+    "total_records": 13,
+    "published_or_regulatory_records": 10,
+    "development_companion_records": 2,
+    "equipment_authority_records": 1,
+    "watchlist_records": 5
+  },
+  "method_scaffold": {
+    "status": "UNLOCKED_NON_NORMATIVE",
+    "normative_claim": false,
+    "required_steps": [
+      "question_output",
+      "method_candidates",
+      "applicability",
+      "boundary_conditions",
+      "inputs_provenance",
+      "implementation",
+      "verification_checks",
+      "validation_cross_check",
+      "sensitivity_uncertainty",
+      "competing_method_comparison",
+      "bounded_review",
+      "authority_handoff"
+    ]
+  },
+  "locked_claim_classes": [
+    "closed_paid_tables_coefficients_or_algorithms_not_legitimately_available",
+    "actual_proof_of_competence_from_public_metadata",
+    "actual_dynamic_factors_or_load_combinations_from_memory",
+    "actual_component_stress_fatigue_or_bearing_verdict_without_governing_method_and_inputs",
+    "actual_geometry_acceptance_limits_without_exact_applicable_source",
+    "numeric_remaining_life_or_life_extension_verdict",
+    "discard_acceptance_criteria_reconstructed_from_secondary_fragments",
+    "specialist_ndt_interpretation_without_qualification",
+    "repair_redesign_rerouting_or_modification_approval",
+    "equipment_specific_authority_without_oem_passport_designer_or_expert_basis"
+  ],
+  "lesson_authoring_unlocked": true,
+  "source_bound_numeric_proof_unlocked": false,
+  "generic_validation_sensitivity_examples_unlocked": true,
+  "equipment_specific_authority_locked": true
+}
