@@ -441,8 +441,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "WAITING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "WAITING",
         "verification_rubric": "WAITING",
         "final_alignment": "WAITING",
@@ -522,13 +522,29 @@
         "equipment_authority_boundary_preserved": true,
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 12,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/CRN-M-02_D3_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "competing_hypothesis_reasoning_required": true,
+        "observability_gate_required": true,
+        "bounded_conclusion_required": true,
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_authority_boundary_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
+  "next": "CRN-M-02 / D3 PRACTICE REASONING / v1 — provide worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

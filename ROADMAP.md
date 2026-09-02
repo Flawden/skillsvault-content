@@ -42,7 +42,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Technical Editorial / Pass I ✅ v1
 ├─ D3 Red Team / Pass I ✅ v1
 ├─ D3 Reader Experience / Pass I ✅ v1
-└─ D3 Practice ← NEXT
+├─ D3 Practice ✅ v1
+└─ D3 Practice Reasoning ← NEXT
 ```
 
 
@@ -51,6 +52,16 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 
 
 
+
+## CRN-M-02 D3 Practice v1
+
+Status: `COMPLETE`.
+
+- 12 cases A–L exercise competing hypotheses, falsifiable predictions, evidence-matrix discrimination, observability, `H_data`, snapshot/history separation, dynamic-state rebuilds, before/after confounders, qualitative sensitivity, question-specific evidence roles, formal-method authority boundaries and integrated bounded conclusions;
+- every case requires explicit model-status/unknown discipline rather than root-cause storytelling;
+- worked reasoning remains intentionally separate;
+- proof/design/remaining-life and field-authority guards remain locked;
+- D1/D2 frozen prerequisites remain immutable.
 
 ## CRN-M-02 D3 Reader Experience Pass I v1
 
@@ -364,9 +375,9 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract
+CRN-M-02 / D3 PRACTICE REASONING / v1 — worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions.
 
-Create the immutable D2 package, frozen index entry and tag contract from the freshness-cleared D2 tree.
+Keep Practice A–L unchanged as the assessment artifact; add worked reasoning separately.
 
 ## D1 production sequence
 
@@ -396,14 +407,20 @@ D2 Verification Rubric ✅
 D2 Final Alignment ✅
 D2 Source Freshness ✅
 D2 Freeze ✅ FROZEN v1 / tag crn-m-02-d2-v1
-D3 Content Kickoff ← NEXT
+D3 Content Kickoff ✅
+D3 Lesson Authoring ✅
+D3 Technical Editorial ✅
+D3 Red Team ✅
+D3 Reader Experience ✅
+D3 Practice ✅
+D3 Practice Reasoning ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 FREEZE NEXT
+CRN-M-02 ← ACTIVE / D3 PRACTICE REASONING NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
@@ -436,4 +453,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 is frozen as v1 under tag `crn-m-02-d1-v1`.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 and D2 are frozen as v1 under tags `crn-m-02-d1-v1` and `crn-m-02-d2-v1`.

@@ -1,0 +1,18 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D3",
+  "stage": "PRACTICE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "status": "COMPLETE",
+  "cases": 12,
+  "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/CRN-M-02_D3_PRACTICE_v1.md",
+  "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+  "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice/v1/PRACTICE_QA_v1.json",
+  "answer_key_embedded": false,
+  "proof_design_remaining_life_locks_preserved": true,
+  "equipment_specific_authority_locked": true,
+  "d1_frozen_immutable": true,
+  "d2_frozen_immutable": true,
+  "next": "CRN-M-02 / D3 PRACTICE REASONING / v1 — provide worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions without turning Practice into a single answer key"
+}

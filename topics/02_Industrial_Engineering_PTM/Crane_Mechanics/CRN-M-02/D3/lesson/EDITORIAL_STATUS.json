@@ -26,7 +26,9 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
+  "next": "CRN-M-02 / D3 PRACTICE REASONING / v1 — provide worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions without turning Practice into a single answer key",
   "red_team_pass_I": "COMPLETE",
-  "reader_experience_pass_I": "COMPLETE"
+  "reader_experience_pass_I": "COMPLETE",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }
