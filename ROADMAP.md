@@ -52,7 +52,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D4 Content Kickoff ✅ v1
 ├─ D4 Scope ✅ LOCKED v1
 ├─ D4 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-└─ D4 Lesson Authoring ← NEXT
+└─ D4 Lesson Authoring ✅
+D4 Technical Editorial ← NEXT
 ```
 
 
@@ -480,9 +481,26 @@ Status: `COMPLETE`.
 - paid normative tables/coefficients, actual component proof, remaining-life, discard/acceptance, NDT-specialist and equipment-authority claims remain locked unless exact method, inputs and authority exist;
 - D4 Lesson Authoring is unlocked.
 
+## CRN-M-02 D4 Lesson Authoring v1
+
+Status: `COMPLETE — 9 PARTS / 45 BLOCKS`.
+
+- Part I: question class, source role, method applicability and audit trail;
+- Part II: boundary-value problem, rope path, frames, states and requested output;
+- Part III: rigid-body/quasi-static/dynamic/elastostatic/advanced-model adequacy;
+- Part IV: ISO 16625-type rope-drive selection/proof boundary and exact-source input discipline;
+- Part V: global load path → reactions/torque → compliance → local contact → structural/numerical model;
+- Part VI: verification separated from validation/cross-check;
+- Part VII: input/model-form/measurement/geometry/numerical uncertainty and competing-method comparison;
+- Part VIII: classification, inspection, rope-condition and monitoring evidence kept separate from proof/remaining-life authority;
+- Part IX: technical review, stop rules and OEM/designer/expert/NDT authority handoff;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable;
+- closed coefficients/tables, actual proof, discard/acceptance, remaining-life and equipment modification authority remain locked.
+
+
 ## Next
 
-CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks
+CRN-M-02 / D4 TECHNICAL EDITORIAL / PASS I / v1 — audit all nine lesson parts for source/method-role drift, boundary-condition defects, false validation, hidden input invention, uncertainty errors and equipment-authority leakage before red team
 
 ## D1 production sequence
 
@@ -525,14 +543,15 @@ D3 Final Alignment ✅
 D3 Source Freshness ✅
 D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
 D4 Content Kickoff ✅
-D4 Lesson Authoring ← NEXT
+D4 Lesson Authoring ✅
+D4 Technical Editorial ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 KICKOFF COMPLETE / LESSON AUTHORING NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 LESSON AUTHORING COMPLETE / TECHNICAL EDITORIAL NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

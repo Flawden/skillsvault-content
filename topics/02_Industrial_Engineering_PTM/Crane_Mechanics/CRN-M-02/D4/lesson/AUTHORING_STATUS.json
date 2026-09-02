@@ -1,0 +1,166 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D4",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d3-v1"
+    }
+  ],
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "parts_total": 9,
+  "parts_completed": 9,
+  "blocks_total": 45,
+  "blocks_completed": 45,
+  "completed_parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "parts": {
+    "I": {
+      "title": "Method governance: question/source/method/audit trail",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "II": {
+      "title": "Boundary-value problem: system/path/frame/state/output",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "III": {
+      "title": "Load/model fidelity and adequacy",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "IV": {
+      "title": "Rope-drive selection/proof and exact-source boundary",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "V": {
+      "title": "Component model hierarchy and numerical-model discipline",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    "VI": {
+      "title": "Verification versus validation and independent checks",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "VII": {
+      "title": "Sensitivity, uncertainty, error budget and competing methods",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    "VIII": {
+      "title": "Duty/inspection/monitoring/life-context boundaries",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "IX": {
+      "title": "Expert synthesis, review, stop rules and authority handoff",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  },
+  "coverage": {
+    "question_class_before_method": true,
+    "boundary_value_problem_complete": true,
+    "model_fidelity_selection_complete": true,
+    "rope_drive_selection_proof_boundary_complete": true,
+    "component_model_hierarchy_complete": true,
+    "verification_validation_separation_complete": true,
+    "sensitivity_uncertainty_error_budget_complete": true,
+    "duty_inspection_monitoring_life_boundaries_complete": true,
+    "expert_review_stop_rules_authority_handoff_complete": true
+  },
+  "locks": {
+    "paid_source_reconstruction_preserved": true,
+    "actual_proof_without_exact_method_locked": true,
+    "remaining_life_verdict_locked": true,
+    "discard_acceptance_secondary_source_locked": true,
+    "specialist_ndt_locked": true,
+    "equipment_specific_authority_locked": true,
+    "field_modification_authority_locked": true
+  },
+  "next": "CRN-M-02 / D4 TECHNICAL EDITORIAL / PASS I / v1 — audit all nine lesson parts for source/method-role drift, boundary-condition defects, false validation, hidden input invention, uncertainty errors and equipment-authority leakage before red team"
+}

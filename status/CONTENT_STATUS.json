@@ -687,8 +687,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "NEXT",
-        "editorial": "PENDING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
@@ -717,10 +717,23 @@
         "equipment_specific_authority": true,
         "field_modification_authority": true
       },
-      "baseline_commit": "2b5278096fabb228b0e82fbcf66d441587da396c"
+      "baseline_commit": "2b5278096fabb228b0e82fbcf66d441587da396c",
+      "lesson_authoring": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "parts": 9,
+        "blocks": 45,
+        "status_file": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/AUTHORING_STATUS.json",
+        "completion": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/D4_LESSON_AUTHORING_COMPLETION_v1.md",
+        "method_role_separation_preserved": true,
+        "verification_validation_separated": true,
+        "source_bound_numeric_proof_lock_preserved": true,
+        "remaining_life_lock_preserved": true,
+        "equipment_authority_lock_preserved": true
+      }
     }
   },
-  "next": "CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks",
+  "next": "CRN-M-02 / D4 TECHNICAL EDITORIAL / PASS I / v1 — audit all nine lesson parts for source/method-role drift, boundary-condition defects, false validation, hidden input invention, uncertainty errors and equipment-authority leakage before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

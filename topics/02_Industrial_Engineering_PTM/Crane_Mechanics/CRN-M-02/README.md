@@ -124,4 +124,8 @@ The key D4 distinction is explicit: mechanism/layout/selection requirements are 
 
 Closed paid tables/coefficients, actual dynamic/load-combination values, actual component proof, numeric remaining-life, discard/acceptance criteria, specialist NDT interpretation and equipment modification/approval remain locked unless the exact applicable source, inputs and competent authority exist.
 
+D4 Lesson Authoring v1 is complete as nine modular parts / 45 blocks. It teaches question-class→method-class governance, explicit boundary-value problems, model-fidelity selection, rope-drive proof/selection boundaries, component-model hierarchy, verification versus validation, sensitivity/uncertainty/error budgets, duty/inspection/monitoring life-context guards and auditable expert handoff. No closed normative tables/coefficients, actual component proof, remaining-life verdict, specialist NDT interpretation or equipment authority were introduced.
+
+Next: `D4 TECHNICAL EDITORIAL / PASS I / v1` — whole-lesson audit for method/source-role drift, boundary/input defects, false validation and authority leakage.
+
 Next: `D4 LESSON AUTHORING / v1` — expert/reference lesson on method selection, applicability, boundary/input validation, verification/validation, sensitivity/error, competing proof-model comparison and audit trail.

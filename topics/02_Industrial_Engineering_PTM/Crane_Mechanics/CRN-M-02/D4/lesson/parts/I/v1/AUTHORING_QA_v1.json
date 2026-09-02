@@ -1,0 +1,39 @@
+{
+  "artifact": "CRN-M-02_D4_LESSON_PART_I_v1",
+  "date": "2026-09-02",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "part": "I",
+  "blocks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "block_count": 5,
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "coverage": {
+    "method_scope_explicit": true,
+    "applicability_explicit": true,
+    "input_provenance_or_boundary_explicit": true,
+    "verification_or_cross_check_explicit": true,
+    "uncertainty_or_stop_boundary_explicit": true,
+    "authority_boundary_explicit": true
+  },
+  "claim_guards": {
+    "paid_normative_tables_reconstructed": false,
+    "actual_dynamic_factor_or_load_combination_introduced": false,
+    "actual_rope_drive_geometry_limit_introduced": false,
+    "actual_component_proof_declared": false,
+    "actual_discard_acceptance_limit_introduced": false,
+    "numeric_remaining_life_introduced": false,
+    "specialist_ndt_interpretation_introduced": false,
+    "equipment_specific_modification_instruction_introduced": false,
+    "field_authority_implied": false,
+    "fea_convergence_treated_as_validation": false
+  },
+  "next": "D4 TECHNICAL EDITORIAL / PASS I / v1 after completion of all nine parts"
+}
