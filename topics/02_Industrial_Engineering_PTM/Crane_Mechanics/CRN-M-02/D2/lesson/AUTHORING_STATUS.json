@@ -26,7 +26,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D2 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability, gap closure and guard consistency before source freshness",
+  "next": "CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -75,5 +75,6 @@
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
-  "final_alignment": "NEXT"
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

@@ -32,7 +32,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Practice Reasoning ✅ v1
 ├─ D2 Expected Result ✅ v1
 ├─ D2 Verification Rubric ✅ v1
-└─ D2 Final Alignment ← NEXT
+└─ D2 Final Alignment ✅
+D2 Source Freshness ← NEXT
 ```
 
 
@@ -216,11 +217,29 @@ Status: `COMPLETE`.
 - no numeric design/acceptance threshold or equipment-specific authority is introduced;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- Lesson primary sections: 18/18 traced;
+- Practice cases: 11/11 aligned;
+- Practice Reasoning cases: 11/11 aligned;
+- Expected Result: ER-D2-01…12 all traced;
+- Verification Rubric: 12/12 dimensions traced;
+- Blocking Failures: 9/9 have prior lesson/practice/reasoning origin;
+- orphan lesson/practice/reasoning/ER/rubric items: 0;
+- surprise blocking failures: 0;
+- guard contradictions: 0;
+- content corrections required: NO;
+- D1 frozen prerequisite remains immutable.
+
+Source Freshness candidate: `READY`.
+
 ## Next
 
-CRN-M-02 / D2 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability, gap closure and guard consistency before source freshness
+CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze
 
-D1 is immutable. Continue D2 Verification Rubric under the locked Lesson, Editorial, Red-Team, Reader-Experience, Practice, Practice-Reasoning and Expected-Result guards.
+D1 is immutable. Continue D2 Source Freshness under the aligned Lesson, Practice, Reasoning, Expected-Result and Verification guards.
 
 ## D1 production sequence
 
@@ -247,14 +266,15 @@ D2 Practice ✅
 D2 Practice Reasoning ✅
 D2 Expected Result ✅
 D2 Verification Rubric ✅
-D2 Final Alignment ← NEXT
+D2 Final Alignment ✅
+D2 Source Freshness ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 FINAL ALIGNMENT NEXT
+CRN-M-02 ← ACTIVE / D2 SOURCE FRESHNESS NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
