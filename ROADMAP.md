@@ -45,7 +45,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Practice ✅ v1
 ├─ D3 Practice Reasoning ✅ v1
 ├─ D3 Expected Result ✅ v1
-└─ D3 Verification Rubric ← NEXT
+├─ D3 Verification Rubric ✅ v1
+└─ D3 Final Alignment ← NEXT
 ```
 
 
@@ -55,6 +56,19 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 
 
 
+
+## CRN-M-02 D3 Verification Rubric v1
+
+Status: `COMPLETE`.
+
+- ER-D3-01…13 are scored 0–4; max = 52;
+- every dimension must be >=3 for D3 VERIFIED;
+- 11 BF-D3 rules are non-compensable;
+- known A–L evidence is required but insufficient; unseen U1 and mandatory C1 evidence update are required;
+- D3 VERIFIED = 39–45 only with all gates complete; ROBUST / TRANSFER = 46–52 with ER-D3-06, 08 and 13 at Level 4 plus another transfer-strength dimension;
+- correct bounded uncertainty/stop/escalation remains a successful outcome;
+- score bands are pedagogical and do not unlock root-cause certification, proof/design, remaining-life, acceptance or field authority;
+- D1/D2 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 ## CRN-M-02 D3 Expected Result v1
 
@@ -399,9 +413,9 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D3 VERIFICATION RUBRIC / v1 — score observable causal-analysis behaviors, non-compensable blocking failures, unseen transfer and adversarial evidence-update challenge.
+CRN-M-02 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness
 
-Build the rubric from ER-D3-01…13, require known + unseen + challenge evidence, and keep all proof/design/remaining-life/equipment-authority locks intact.
+Trace Lesson/Practice/Reasoning/Expected/Rubric end-to-end before freshness; do not change D1/D2 frozen content.
 
 ## D1 production sequence
 
@@ -439,14 +453,15 @@ D3 Reader Experience ✅
 D3 Practice ✅
 D3 Practice Reasoning ✅
 D3 Expected Result ✅
-D3 Verification Rubric ← NEXT
+D3 Verification Rubric ✅
+D3 Final Alignment ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 VERIFICATION RUBRIC NEXT
+CRN-M-02 ← ACTIVE / D3 FINAL ALIGNMENT NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

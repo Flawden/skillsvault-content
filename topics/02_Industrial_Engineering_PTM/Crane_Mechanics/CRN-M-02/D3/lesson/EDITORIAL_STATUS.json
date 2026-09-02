@@ -26,11 +26,12 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 VERIFICATION RUBRIC / v1 — score observable causal-analysis behaviors, non-compensable blocking failures, unseen transfer and adversarial evidence-update challenge",
+  "next": "CRN-M-02 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
   "red_team_pass_I": "COMPLETE",
   "reader_experience_pass_I": "COMPLETE",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }
