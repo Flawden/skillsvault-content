@@ -126,6 +126,6 @@ Closed paid tables/coefficients, actual dynamic/load-combination values, actual 
 
 D4 Lesson Authoring v1 is complete as nine modular parts / 45 blocks. It teaches question-class→method-class governance, explicit boundary-value problems, model-fidelity selection, rope-drive proof/selection boundaries, component-model hierarchy, verification versus validation, sensitivity/uncertainty/error budgets, duty/inspection/monitoring life-context guards and auditable expert handoff. No closed normative tables/coefficients, actual component proof, remaining-life verdict, specialist NDT interpretation or equipment authority were introduced.
 
-Next: `D4 TECHNICAL EDITORIAL / PASS I / v1` — whole-lesson audit for method/source-role drift, boundary/input defects, false validation and authority leakage.
+D4 Technical Editorial Pass I is complete with seven findings/corrections. The audit separates model fidelity from validation status; public metadata from final method applicability; internal FEA review checklists from governing proof sufficiency; cross-check evidence from real-system validation; exact remaining-life method requirements from a generic stop-check; and engineering technical review from the SkillsVault Technical Editorial pipeline. A stale duplicate workflow line was removed. D1/D2/D3 frozen content remains immutable.
 
-Next: `D4 LESSON AUTHORING / v1` — expert/reference lesson on method selection, applicability, boundary/input validation, verification/validation, sensitivity/error, competing proof-model comparison and audit trail.
+Next: `D4 RED TEAM / PASS I / v1` — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review.

@@ -103,7 +103,7 @@ BACK-CHECK → resultant must reconcile with parent model
 
 # Блок 25. FEA для барабана/блока — это pipeline, а не картинка напряжений
 
-Минимальная цепочка:
+Для SkillsVault review используем **базовую внутреннюю цепочку** (не нормативный универсальный minimum и не доказательство достаточности конкретного proof method):
 
 1. verified geometry;
 2. material model + provenance;
@@ -119,6 +119,8 @@ BACK-CHECK → resultant must reconcile with parent model
 12. applicable proof criterion from exact source;
 13. uncertainty/limitations;
 14. authority review.
+
+Applicable source/OEM/designer method может требовать дополнительные checks, definitions, load cases, averaging/linearization rules или acceptance logic. Прохождение этой учебной цепочки не создаёт `FORMAL PROOF PASS` само по себе.
 
 ### FEA red flags
 

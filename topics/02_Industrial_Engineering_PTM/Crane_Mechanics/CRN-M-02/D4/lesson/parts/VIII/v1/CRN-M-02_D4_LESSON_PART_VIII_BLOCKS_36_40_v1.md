@@ -71,7 +71,7 @@ Causal model D3 «похоже на bending/contact degradation» не явля�
 - monitoring record может менять priors и inspection priority;
 - history completeness должна быть проверена;
 - missing cycles/load spectrum cannot be silently reconstructed;
-- remaining-life method требует полного applicable framework, history, inspection evidence и authority.
+- numeric remaining-life conclusion в SkillsVault остаётся locked, пока не определён exact applicable framework и не собран **требуемый именно этим методом** набор history/condition/inspection/other inputs вместе с competent review/authority.
 
 ### Forbidden shortcut
 
@@ -165,18 +165,17 @@ SkillsVault training can support first and reasoning steps, but not impersonate 
 
 ## Рабочий протокол VIII-E. Remaining-life evidence package
 
-Прежде чем вообще обсуждать numeric remaining-life, ожидай как минимум categories:
+Прежде чем вообще обсуждать numeric remaining-life, сначала получи **exact applicable method и его required-input list**. Как SkillsVault stop-check полезно затем проверить, не отсутствуют ли decision-driving categories вроде:
 
-- exact applicable method;
-- design basis;
+- design basis / configuration version;
 - load/duty history;
 - material/detail data;
-- current condition/inspection;
+- current condition/inspection, если она требуется методом/решением;
 - repairs/modifications history;
 - uncertainty treatment;
 - competent authority/reviewer.
 
-Это не утверждение состава конкретного стандарта; это D4 stop framework. Если critical categories absent, verdict locked.
+Это **не универсальный нормативный перечень** и не заменяет formal method. Конкретный метод может требовать иной состав/definitions. Если его critical inputs absent, verdict locked.
 
 ## Рабочий протокол VIII-F. Draft watch discipline
 

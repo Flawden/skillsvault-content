@@ -87,26 +87,31 @@ Conclusion: numerical convergence of Q demonstrated / not demonstrated
 
 Если criterion locked, convergence всё равно можно проверить, но нельзя объявить formal pass.
 
-# Блок 30. Validation/cross-check должен быть независимым по возможности
+# Блок 30. Validation evidence и cross-check evidence нельзя сливать в одно слово
 
-Сильные варианты:
+**Validation evidence** связывает model output с реальной системой / intended use в записанном domain. Примеры, если они действительно соответствуют нужному output и state:
 
 - measurement/test under controlled state;
-- OEM/reference benchmark;
-- independent analytical model;
-- alternative numerical implementation;
-- historical case with sufficiently matched conditions;
+- documented OEM/reference benchmark tied to a real/accepted reference configuration;
+- historical measured case with sufficiently matched conditions;
 - geometry/reaction measurement.
 
-Слабый вариант:
+**Cross-check / verification evidence** проверяет implementation, consistency или model-form behavior, но само по себе может не валидировать модель относительно реальности:
+
+- independent analytical model;
+- alternative numerical implementation;
+- limiting-case benchmark;
+- independently implemented equilibrium check.
+
+Слабый вариант для обоих классов:
 
 > Model B подтверждает Model A, потому что использует те же inputs, тот же code path и те же assumptions.
 
-Это не независимый cross-check.
+Это не независимый cross-check и тем более не validation.
 
-### Validation hierarchy is question-specific
+### Evidence strength is question-specific
 
-Test evidence может быть сильным для reaction, но слабым для fatigue history. Inspection evidence может быть сильным для observed condition, но не доказывать design proof. Нет универсального «самого сильного источника».
+Test evidence может быть сильным для reaction, но слабым для fatigue history. Inspection evidence может быть сильным для observed condition, но не доказывать design proof. Independent analytical agreement может сильно поддержать verification/model-form confidence и при этом почти ничего не сказать о fidelity к реальной системе. Нет универсального «самого сильного источника».
 
 ## Рабочий протокол VI-A. Verification plan до расчёта
 
@@ -148,7 +153,7 @@ V8 result extraction repeatability
 
 Validation evidence нужно привязывать к output/domain.
 
-| Evidence | Validates what | Does NOT validate |
+| Evidence | May support | Does NOT by itself establish |
 |---|---|---|
 | load-cell reaction | global reaction in tested state | fatigue criterion |
 | displacement survey | stiffness/deformation mode | material fatigue law |
@@ -156,7 +161,7 @@ Validation evidence нужно привязывать к output/domain.
 | full-scale test | tested state | every transient/duty history |
 | historical agreement | repeated operating envelope | future modified geometry |
 
-Это защищает от validation overreach.
+Это защищает от validation overreach. Для каждого row нужно отдельно записать, используется ли evidence как `VERIFICATION/CROSS-CHECK` или как `VALIDATION`, и почему.
 
 ## Рабочий протокол VI-D. Calibration is not validation
 

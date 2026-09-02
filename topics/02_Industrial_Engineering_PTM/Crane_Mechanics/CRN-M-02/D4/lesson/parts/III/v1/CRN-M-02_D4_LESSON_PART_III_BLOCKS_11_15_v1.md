@@ -17,9 +17,9 @@
 4. rigid-body dynamics;
 5. elastostatic/compliance model;
 6. nonlinear/contact/multibody/FE model;
-7. test-assisted or validated high-fidelity model.
+7. test-assisted / data-informed high-fidelity model, если такая связь с данными нужна для intended use.
 
-Каждая ступень добавляет новые inputs и новые failure modes.
+Каждая ступень добавляет новые inputs и новые failure modes. **Validation не является следующей ступенью fidelity:** это evidence-status конкретной модели относительно реальной системы и intended use. Простая модель может быть хорошо validated в своём domain, а очень сложная — вообще не validated.
 
 # Блок 12. Quasi-static — это допущение о времени, а не синоним «медленно выглядит»
 
@@ -62,7 +62,7 @@ Rigid-body idealization предполагает, что геометрия не
 
 `deformation present` не означает автоматически «нужна FEA». Сначала нужно доказать, какая deformation mode влияет на decision и можно ли её надёжно представить более простой моделью.
 
-# Блок 14. Advanced model обязан пройти verification и validation — «solver converged» недостаточно
+# Блок 14. Advanced model для decision use требует verification и достаточного validation evidence — «solver converged» недостаточно
 
 У high-fidelity model минимум пять новых рисков:
 
@@ -126,7 +126,7 @@ Does deformation materially change load path/output?
   no/uncertain ↓
 
 Are transients/inertia decision-driving?
-  yes → dynamic model with validated inputs
+  yes → dynamic model with traceable, sufficiently characterized inputs + validation plan/evidence for intended use
   no ↓
 
 Is local field/contact required?
@@ -190,10 +190,12 @@ M0 geometry
 → M1 rigid-body benchmark
 → M2 compliant/global model
 → M3 local submodel
-→ M4 high-fidelity validation model
+→ M4 high-fidelity / data-informed model
 ```
 
-Каждая модель должна объяснить, что она добавляет относительно предыдущей. Если M3 не меняет decision и M1 уже validated, сложность может быть unnecessary.
+`M0…M4` здесь — только ladder model form/fidelity. `VERIFIED` и `VALIDATED WITHIN DOMAIN` записываются **отдельно** и не становятся новым уровнем M.
+
+Каждая модель должна объяснить, что она добавляет относительно предыдущей. Если M3 не меняет decision и M1 уже validated для нужного intended use/domain, сложность может быть unnecessary.
 
 ### Failure modes Part III
 

@@ -114,7 +114,7 @@ ID | PARAMETER | VALUE/STATE | UNIT | SOURCE | VERSION | UNCERTAINTY | STATUS | 
 10. competent review / authority handoff
 ```
 
-Public abstract годится для шагов 1–2, но не для шагов 5–9, если там нужны закрытые details.
+Public metadata/abstract годится для discovery и **предварительного scope screening**. Он может подтвердить edition/status и подсказать method family, но не должен сам по себе превращаться в `METHOD APPLICABILITY CONFIRMED` для конкретного механизма. Финальная applicability может требовать полного scope, definitions/exclusions, configuration и иных method-specific условий. Для шагов 5–9 публичного abstract тем более недостаточно, если там нужны закрытые details.
 
 ## Рабочий протокол IV-B. Source-bound input classes
 

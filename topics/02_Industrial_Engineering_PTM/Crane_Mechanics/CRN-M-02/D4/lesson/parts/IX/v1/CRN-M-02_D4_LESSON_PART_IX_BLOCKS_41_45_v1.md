@@ -61,6 +61,8 @@ D4 не принимает этот jump.
 
 # Блок 43. Technical review должен быть восстанавливаемым другим инженером
 
+Здесь `technical review` — **инженерный review артефакта/метода**, а не pipeline-stage `D4 TECHNICAL EDITORIAL`, которым SkillsVault проверяет сам учебный материал. Эти два уровня нельзя смешивать.
+
 Рекомендуемая структура D4 review:
 
 1. **Question / decision**;
@@ -252,7 +254,7 @@ Reviewer не должен просто «проверить арифметик�
 
 Пример:
 
-> «Подтверждено, что observed steady reaction согласуется с current geometry model в пределах measurement uncertainty. Не подтвержден transient envelope и formal component proof. Требуется synchronized transient measurement + exact applicable proof method inputs. Equipment acceptance остаётся за competent designer/expert/authorized role.»
+> «Подтверждено, что observed steady reaction согласуется с current geometry model в пределах measurement uncertainty. Не подтвержден transient envelope и formal component proof. Требуется synchronized transient measurement + exact applicable proof method inputs. Equipment acceptance остаётся за applicable competent/authorized role, определённой для конкретной организации, оборудования и юрисдикции.»
 
 ## Рабочий протокол IX-E. Authority map
 

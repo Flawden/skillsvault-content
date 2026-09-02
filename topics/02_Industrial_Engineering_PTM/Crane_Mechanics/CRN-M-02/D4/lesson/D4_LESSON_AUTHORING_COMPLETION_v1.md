@@ -11,7 +11,8 @@
 - D3: FROZEN v1
 - D4 Scope: LOCKED v1
 - D4 Source Gate: PASS WITH CLAIM LIMITS v1
-- D4 Lesson Authoring: COMPLETE v1
+- D4 Lesson Authoring: COMPLETE
+- Technical Editorial Pass I: COMPLETE — PASS WITH CORRECTIONS APPLIED v1
 
 ## Lesson architecture
 
@@ -32,8 +33,8 @@ This is not D4 Freeze and not an equipment proof.
 Remaining pipeline:
 
 ```text
-Technical Editorial
-→ Red Team
+Technical Editorial ✅
+→ Red Team ← NEXT
 → Reader Experience Pass
 → Practice
 → Practice Reasoning
@@ -63,4 +64,4 @@ Primary questions:
 
 ## Next
 
-`CRN-M-02 / D4 TECHNICAL EDITORIAL / PASS I / v1`
+`CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge before reader-experience review`

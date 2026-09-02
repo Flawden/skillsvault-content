@@ -52,8 +52,9 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D4 Content Kickoff ✅ v1
 ├─ D4 Scope ✅ LOCKED v1
 ├─ D4 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-└─ D4 Lesson Authoring ✅
-D4 Technical Editorial ← NEXT
+├─ D4 Lesson Authoring ✅
+└─ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
+D4 Red Team ← NEXT
 ```
 
 
@@ -498,9 +499,23 @@ Status: `COMPLETE — 9 PARTS / 45 BLOCKS`.
 - closed coefficients/tables, actual proof, discard/acceptance, remaining-life and equipment modification authority remain locked.
 
 
+## CRN-M-02 D4 Technical Editorial Pass I v1
+
+Status: `COMPLETE — PASS WITH CORRECTIONS APPLIED`.
+
+- 9/9 parts and 45/45 blocks audited;
+- seven findings closed;
+- model fidelity is separated from validation status;
+- public metadata is limited to discovery/preliminary scope screening, not final applicability;
+- internal FEA checklist is explicitly non-normative/non-sufficient for formal proof;
+- cross-check evidence is separated from real-system validation evidence;
+- remaining-life required inputs are owned by the exact applicable method;
+- technical review terminology and equipment-authority wording are bounded;
+- D1/D2/D3 frozen artifacts and `FROZEN_INDEX` remain immutable.
+
 ## Next
 
-CRN-M-02 / D4 TECHNICAL EDITORIAL / PASS I / v1 — audit all nine lesson parts for source/method-role drift, boundary-condition defects, false validation, hidden input invention, uncertainty errors and equipment-authority leakage before red team
+CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review
 
 ## D1 production sequence
 
@@ -544,14 +559,15 @@ D3 Source Freshness ✅
 D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
 D4 Content Kickoff ✅
 D4 Lesson Authoring ✅
-D4 Technical Editorial ← NEXT
+D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
+D4 Red Team ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 LESSON AUTHORING COMPLETE / TECHNICAL EDITORIAL NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 TECHNICAL EDITORIAL COMPLETE / RED TEAM NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
