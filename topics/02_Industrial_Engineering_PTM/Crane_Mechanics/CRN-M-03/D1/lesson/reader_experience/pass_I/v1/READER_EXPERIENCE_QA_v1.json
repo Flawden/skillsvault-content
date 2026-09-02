@@ -1,0 +1,38 @@
+{
+  "artifact": "CRN-M-03_D1_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-03",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "fe104eaee90b2da72d71afeb0c90b89bc0ef68f1",
+  "findings": [
+    "RX-01",
+    "RX-02",
+    "RX-03",
+    "RX-04",
+    "RX-05",
+    "RX-06",
+    "RX-07"
+  ],
+  "reader_checks": {
+    "four_question_memory_card_added": true,
+    "worked_load_path_micro_case_added": true,
+    "holding_principle_router_added": true,
+    "source_router_added": true,
+    "evidence_status_promotions_grouped": true,
+    "stop_card_added": true,
+    "retrieval_checkpoint_added": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "technical_editorial_invariants_preserved": true,
+    "numeric_design_claims_introduced": false,
+    "inspection_acceptance_claims_introduced": false,
+    "holding_force_claims_introduced": false,
+    "field_authority_boundary_preserved": true,
+    "source_authority_changed": false,
+    "iso_17096_grab_scope_exclusion_preserved": true,
+    "frozen_index_changed": false
+  },
+  "next": "CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff"
+}

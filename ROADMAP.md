@@ -796,3 +796,20 @@ Decision: `FULL TOPIC FROZEN`.
 - `CQ-B001` remains in progress and continues through CRN-M-03…CRN-M-06.
 
 Next: `CRN-M-03 / CONTENT KICKOFF / v1 — Крюковые подвески и захваты; define D1 scope/source gate and reuse the CRN-M-02 topic contract`.
+
+
+## CRN-M-03 D1 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+- seven reader findings are fixed without lowering the D1 evidence standard;
+- a four-question working-memory card anchors object / force path / holding principle / claim status;
+- the load-path algorithm now has one immediate worked representation without acceptance verdict;
+- holding-principle and source-role routers reduce list memorization;
+- eight novice errors are grouped as evidence-status promotion traps;
+- STOP semantics are compressed into an epistemic/authority handoff card;
+- a seven-question retrieval checkpoint prepares the learner for formal Practice;
+- Red-Team guards, ISO 17096 grab/grab-bucket exclusion, numeric-design/inspection/holding-force locks and equipment-authority boundaries remain unchanged;
+- CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff`.

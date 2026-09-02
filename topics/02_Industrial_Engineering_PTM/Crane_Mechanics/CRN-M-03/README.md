@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 RED TEAM PASS I COMPLETE v1**.
+Status: **ACTIVE — D1 READER EXPERIENCE PASS I COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / RED TEAM PASS I COMPLETE v1`.
+`D1 — ACTIVE / READER EXPERIENCE PASS I COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -83,4 +83,10 @@ D1 still does not unlock:
 
 Source Gate remains `PASS WITH CLAIM LIMITS`.
 
-Next: `CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice`.
+## Reader Experience Pass I
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+Seven reader-layer corrections expose one retrievable beginner route: a four-question memory card, one worked load-path representation, a holding-principle router, a question-first source router, grouped evidence-status promotion traps, a compact STOP-card and a final retrieval checkpoint. No Technical Editorial / Red-Team guard or claim boundary is weakened.
+
+Next: `CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff`.

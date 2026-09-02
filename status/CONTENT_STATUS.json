@@ -1,6 +1,6 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-09-02",
+  "snapshot_date": "2026-09-03",
   "canonical_branch": "main",
   "active_topic": "CRN-M-03",
   "active_topic_name_ru": "Крюковые подвески и захваты",
@@ -34,8 +34,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "PENDING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
@@ -52,7 +52,7 @@
         "equipment_specific_capacity_and_compatibility": true,
         "return_to_service_or_operational_permission": true
       },
-      "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+      "baseline_commit": "fe104eaee90b2da72d71afeb0c90b89bc0ef68f1",
       "structural_contract_source": "crn-m-02-v1",
       "lesson": {
         "status": "AUTHORING_COMPLETE",
@@ -98,10 +98,23 @@
         "past_success_validation_guard": true,
         "exact_source_applicability_guard": true,
         "skillsvault_stop_authority_guard": true
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+        "baseline_commit": "fe104eaee90b2da72d71afeb0c90b89bc0ef68f1",
+        "findings": 7,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/reader_experience/pass_I/v1/CRN-M-03_D1_READER_EXPERIENCE_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+        "red_team_guards_preserved": true,
+        "source_scope_preserved": true,
+        "equipment_authority_lock_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice",
+  "next": "CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -127,6 +140,8 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/RED_TEAM_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/CRN-M-03_D1_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/red_team/pass_I/v1/CRN-M-03_D1_RED_TEAM_PASS_I_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/READER_EXPERIENCE_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/reader_experience/pass_I/v1/CRN-M-03_D1_READER_EXPERIENCE_PASS_I_v1.md",
     "Continue from status.next"
   ]
 }

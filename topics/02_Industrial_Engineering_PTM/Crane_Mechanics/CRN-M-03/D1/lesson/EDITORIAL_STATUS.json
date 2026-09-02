@@ -17,7 +17,8 @@
       "TE-07"
     ]
   },
-  "red_team": "NEXT",
-  "reader_experience_pass": "PENDING",
-  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience"
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff",
+  "practice": "NEXT"
 }
