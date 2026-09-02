@@ -1,0 +1,56 @@
+{
+  "freeze_id": "CRN-M-02-FULL-TOPIC-FREEZE-v1",
+  "topic_id": "CRN-M-02",
+  "topic_title_ru": "Барабаны, блоки, полиспасты",
+  "scope": "D1-D4",
+  "version": "v1",
+  "freeze_date": "2026-09-02",
+  "decision": "TOPIC_CONTENT_FROZEN",
+  "source_baseline_commit": "339395040df55a35d7b771e52fc86d8756ddc249",
+  "canonical_branch": "main",
+  "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/FROZEN_v1",
+  "depth_freezes": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1",
+    "D4": "FROZEN_v1"
+  },
+  "frozen_index_members_by_depth": {
+    "D1": 61,
+    "D2": 61,
+    "D3": 61,
+    "D4": 94
+  },
+  "frozen_index_members_total": 277,
+  "cross_depth_hash_verification": "PASS",
+  "depth_tags": {
+    "D1": "crn-m-02-d1-v1",
+    "D2": "crn-m-02-d2-v1",
+    "D3": "crn-m-02-d3-v1",
+    "D4": "crn-m-02-d4-v1"
+  },
+  "topic_tag_contract": "crn-m-02-v1",
+  "source_freshness_by_depth": {
+    "D1": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 2
+    },
+    "D2": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 2
+    },
+    "D3": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 5
+    },
+    "D4": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 5
+    }
+  },
+  "source_watch_records_total_by_depth_non_deduplicated": 14,
+  "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
+  "integration_blocker_blocks_content_freeze": false,
+  "cq_b001_pilot_complete": false,
+  "next": "CRN-M-03 / CONTENT KICKOFF / v1 — Крюковые подвески и захваты; define D1 scope/source gate and reuse the CRN-M-02 topic contract"
+}

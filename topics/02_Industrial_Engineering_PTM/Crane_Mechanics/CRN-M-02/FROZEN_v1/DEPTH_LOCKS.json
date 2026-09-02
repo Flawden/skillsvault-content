@@ -1,0 +1,57 @@
+{
+  "topic_id": "CRN-M-02",
+  "version": "v1",
+  "scope": "D1-D4",
+  "source_commit": "339395040df55a35d7b771e52fc86d8756ddc249",
+  "all_depths_frozen": true,
+  "depths": [
+    {
+      "depth": "D1",
+      "version": "v1",
+      "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1",
+      "frozen_index_members": 61,
+      "files_sha256_manifest": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/files.sha256",
+      "files_sha256_manifest_sha256": "43971DD332C4B6BC76444F220866BCC41615016510C1C6217354E9C447049027",
+      "required_tag": "crn-m-02-d1-v1",
+      "hash_verification": "PASS"
+    },
+    {
+      "depth": "D2",
+      "version": "v1",
+      "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1",
+      "frozen_index_members": 61,
+      "files_sha256_manifest": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/files.sha256",
+      "files_sha256_manifest_sha256": "D8720395D5B64CB46516E728028B1C9DE27990A2A28A185381EE2C7988EECCC9",
+      "required_tag": "crn-m-02-d2-v1",
+      "hash_verification": "PASS"
+    },
+    {
+      "depth": "D3",
+      "version": "v1",
+      "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/FROZEN_v1",
+      "frozen_index_members": 61,
+      "files_sha256_manifest": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/FROZEN_v1/files.sha256",
+      "files_sha256_manifest_sha256": "C21144258A184CFEAE86DF286718D34364A67075FFFAD9AF51D839EFCDD3FFF1",
+      "required_tag": "crn-m-02-d3-v1",
+      "hash_verification": "PASS"
+    },
+    {
+      "depth": "D4",
+      "version": "v1",
+      "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1",
+      "frozen_index_members": 94,
+      "files_sha256_manifest": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1/files.sha256",
+      "files_sha256_manifest_sha256": "7754D5C46B59FC1DC1DA36D7A968C86EDC7F7B225BF8959030C9AF1C8A03238F",
+      "required_tag": "crn-m-02-d4-v1",
+      "hash_verification": "PASS"
+    }
+  ],
+  "total_frozen_index_members": 277,
+  "required_depth_tags": [
+    "crn-m-02-d1-v1",
+    "crn-m-02-d2-v1",
+    "crn-m-02-d3-v1",
+    "crn-m-02-d4-v1"
+  ],
+  "decision": "PASS"
+}

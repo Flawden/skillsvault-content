@@ -1,0 +1,23 @@
+{
+  "qa_id": "CRN-M-02-FULL-TOPIC-FREEZE-QA-v1",
+  "result": "PASS",
+  "checks": {
+    "D1_frozen_v1": true,
+    "D2_frozen_v1": true,
+    "D3_frozen_v1": true,
+    "D4_frozen_v1": true,
+    "global_frozen_index_hashes_verified": true,
+    "frozen_members_verified": 277,
+    "depth_local_hash_manifests_present": true,
+    "depth_tag_contracts_resolved": true,
+    "topic_artifact_manifest_complete": true,
+    "topic_tag_contract_defined": true,
+    "blocking_review_items": 0,
+    "canonical_vault_modified": false
+  },
+  "notes": [
+    "D1-D4 source freshness gates remain PASS_WITH_WATCHLIST; watch records are non-blocking for this v1 topic freeze.",
+    "SCR-CONTENT-DEPTH-001 remains an integration blocker for the canonical Vault/app schema, not for content freezing.",
+    "CQ-B001 is not complete at CRN-M-02; the pilot sequence continues with CRN-M-03 through CRN-M-06."
+  ]
+}

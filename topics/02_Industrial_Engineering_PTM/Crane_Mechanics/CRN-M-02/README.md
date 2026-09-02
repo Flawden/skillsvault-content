@@ -1,6 +1,6 @@
 # CRN-M-02 — Барабаны, блоки, полиспасты
 
-Status: **ACTIVE**.
+Status: **FULL TOPIC FROZEN v1**.
 
 ## Pilot contract
 
@@ -146,4 +146,10 @@ D4 Source Freshness v1 is complete. Ten published/regulatory anchors and two dev
 
 D4 Freeze v1 snapshots all 85 accepted D4 artifacts into a 94-file immutable bundle and locks them in the canonical frozen index under tag `crn-m-02-d4-v1`. D1, D2 and D3 remain independently immutable.
 
-Next: `CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.
+## Full Topic Freeze v1
+
+CRN-M-02 is fully frozen across D1–D4. The aggregate topic contract locks 277 depth-frozen files through `ARTIFACT_MANIFEST.json` and `DEPTH_LOCKS.json`, and the immutable topic tag is `crn-m-02-v1`.
+
+No depth bundle is duplicated or rewritten by the topic freeze.
+
+Next: `CRN-M-03 / CONTENT KICKOFF / v1 — Крюковые подвески и захваты; define D1 scope/source gate and reuse the CRN-M-02 topic contract`.

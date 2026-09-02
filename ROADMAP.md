@@ -6,64 +6,10 @@
 CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-01-v1
 
-CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
-├─ Content Kickoff ✅ v1
-├─ D1 Scope ✅ LOCKED v1
-├─ D1 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-├─ D1 Lesson Authoring ✅ v1
-├─ D1 Technical Editorial / Pass I ✅ v1
-├─ D1 Red Team / Pass I ✅ v1
-├─ D1 Reader Experience / Pass I ✅ v1
-├─ D1 Practice ✅ v1
-├─ D1 Practice Reasoning ✅ v1
-├─ D1 Expected Result ✅ v1
-├─ D1 Verification Rubric ✅ v1
-├─ D1 Final Alignment ✅ v1
-├─ D1 Source Freshness ✅ PASS WITH WATCHLIST v1
-├─ D1 Freeze ✅ FROZEN v1 / tag crn-m-02-d1-v1
-├─ D2 Content Kickoff ✅ v1
-├─ D2 Scope ✅ LOCKED v1
-├─ D2 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-├─ D2 Lesson Authoring ✅ v1
-├─ D2 Technical Editorial / Pass I ✅ v1
-├─ D2 Red Team / Pass I ✅ v1
-├─ D2 Reader Experience / Pass I ✅ v1
-├─ D2 Practice ✅ v1
-├─ D2 Practice Reasoning ✅ v1
-├─ D2 Expected Result ✅ v1
-├─ D2 Verification Rubric ✅ v1
-├─ D2 Final Alignment ✅ v1
-├─ D2 Source Freshness ✅ PASS WITH WATCHLIST v1
-├─ D2 Freeze ✅ FROZEN v1 / tag crn-m-02-d2-v1
-├─ D3 Content Kickoff ✅ v1
-├─ D3 Scope ✅ LOCKED v1
-├─ D3 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-├─ D3 Lesson Authoring ✅ v1
-├─ D3 Technical Editorial / Pass I ✅ v1
-├─ D3 Red Team / Pass I ✅ v1
-├─ D3 Reader Experience / Pass I ✅ v1
-├─ D3 Practice ✅ v1
-├─ D3 Practice Reasoning ✅ v1
-├─ D3 Expected Result ✅ v1
-├─ D3 Verification Rubric ✅ v1
-├─ D3 Final Alignment ✅ v1
-├─ D3 Source Freshness ✅ PASS WITH WATCHLIST v1
-├─ D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
-├─ D4 Content Kickoff ✅ v1
-├─ D4 Scope ✅ LOCKED v1
-├─ D4 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-├─ D4 Lesson Authoring ✅
-└─ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
-D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
-D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
-D4 Practice ✅ v1
-D4 Practice Reasoning ✅ v1
-D4 Expected Result ✅ v1
-D4 Verification Rubric ✅ v1
-D4 Final Alignment ✅ v1
-D4 Source Freshness ✅ PASS WITH WATCHLIST v1
-D4 Freeze ✅ FROZEN v1 / tag crn-m-02-d4-v1
-CRN-M-02 FULL TOPIC FREEZE ← NEXT
+CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
+└─ tag: crn-m-02-v1
+
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / CONTENT KICKOFF NEXT
 ```
 
 
@@ -595,15 +541,16 @@ D4 Verification Rubric ✅ v1
 D4 Final Alignment ✅ v1
 D4 Source Freshness ✅ PASS WITH WATCHLIST v1
 D4 Freeze ✅ FROZEN v1 / tag crn-m-02-d4-v1
-CRN-M-02 FULL TOPIC FREEZE ← NEXT
+CRN-M-02 FULL TOPIC FREEZE ✅ v1 / tag crn-m-02-v1
+CRN-M-03 CONTENT KICKOFF ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 FINAL ALIGNMENT COMPLETE / SOURCE FRESHNESS NEXT
-CRN-M-03 — Крюковые подвески и захваты
+CRN-M-02 ✅ FULL TOPIC FROZEN v1
+CRN-M-03 ← ACTIVE / CONTENT KICKOFF NEXT — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
 CRN-M-06 — Колёса и подкрановые пути
@@ -635,7 +582,7 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2, D3 and D4 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1`, `crn-m-02-d3-v1` and `crn-m-02-d4-v1`.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2, D3 and D4 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1`, `crn-m-02-d3-v1` and `crn-m-02-d4-v1`. Full-topic aggregate tag: `crn-m-02-v1`.
 
 
 ## CRN-M-02 D4 Reader Experience Pass I v1
@@ -749,3 +696,21 @@ Decision: `CONTENT FROZEN`.
 D4 must not be edited in place after this point. Any accepted D4 change requires a new review/freshness cycle and `FROZEN_v2`.
 
 Next: `CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.
+
+## CRN-M-02 Full Topic Freeze v1
+
+Decision: `FULL TOPIC FROZEN`.
+
+- baseline: `339395040df55a35d7b771e52fc86d8756ddc249`;
+- D1/D2/D3/D4 are independently frozen as v1;
+- depth frozen-file counts: D1=61, D2=61, D3=61, D4=94;
+- 277 / 277 indexed depth members were re-hashed and matched;
+- topic aggregate bundle: 11 immutable contract files under `CRN-M-02/FROZEN_v1`;
+- topic-level `ARTIFACT_MANIFEST.json`, `DEPTH_LOCKS.json`, QA, handoff and review boundaries created;
+- canonical frozen-index TOPIC entry appended with exact hashes;
+- annotated immutable topic tag contract: `crn-m-02-v1`;
+- D1–D4 source freshness watchlists remain non-blocking for v1;
+- no D1–D4 frozen content was rewritten;
+- `CQ-B001` remains in progress and continues through CRN-M-03…CRN-M-06.
+
+Next: `CRN-M-03 / CONTENT KICKOFF / v1 — Крюковые подвески и захваты; define D1 scope/source gate and reuse the CRN-M-02 topic contract`.

@@ -17,67 +17,14 @@
 
 `CRN-M-01 — Канаты и цепи` — **FULL TOPIC FROZEN v1**, tag `crn-m-01-v1`.
 
-Активный Topic: `CRN-M-02 — Барабаны, блоки, полиспасты`.
+`CRN-M-02 — Барабаны, блоки, полиспасты` — **FULL TOPIC FROZEN v1**, tag `crn-m-02-v1`.
 
-- Content Kickoff — COMPLETE v1
-- D1 Scope — LOCKED v1
-- D1 Source Gate — PASS WITH CLAIM LIMITS v1
-- D1 Lesson Authoring — COMPLETE v1
-- D1 Technical Editorial Pass I — COMPLETE v1
-- D1 Red Team Pass I — COMPLETE v1
-- D1 Reader Experience Pass I — COMPLETE v1
-- D1 Practice — COMPLETE v1
-- D1 Practice Reasoning — COMPLETE v1
-- D1 Expected Result — COMPLETE v1
-- D1 Verification Rubric — COMPLETE v1
-- D1 Final Alignment — COMPLETE v1
-- D1 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D1 Freeze — FROZEN v1, tag `crn-m-02-d1-v1`
-- D2 Content Kickoff — COMPLETE v1
-- D2 Scope — LOCKED v1
-- D2 Source Gate — PASS WITH CLAIM LIMITS v1
-- D2 Lesson Authoring — COMPLETE v1
-- D2 Technical Editorial Pass I — COMPLETE v1
-- D2 Red Team Pass I — COMPLETE v1
-- D2 Reader Experience Pass I — COMPLETE v1
-- D2 Practice — COMPLETE v1
-- D2 Practice Reasoning — COMPLETE v1
-- D2 Expected Result — COMPLETE v1
-- D2 Verification Rubric — COMPLETE v1
-- D2 Final Alignment — COMPLETE v1
-- D2 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D2 Freeze — FROZEN v1, tag `crn-m-02-d2-v1`
-- D3 Content Kickoff — COMPLETE v1
-- D3 Scope — LOCKED v1
-- D3 Source Gate — PASS WITH CLAIM LIMITS v1
-- D3 Lesson Authoring — COMPLETE v1
-- D3 Technical Editorial Pass I — COMPLETE v1
-- D3 Red Team Pass I — COMPLETE v1
-- D3 Reader Experience Pass I — COMPLETE v1
-- D3 Practice — COMPLETE v1
-- D3 Practice Reasoning — COMPLETE v1
-- D3 Expected Result — COMPLETE v1
-- D3 Verification Rubric — COMPLETE v1
-- D3 Final Alignment — COMPLETE v1
-- D3 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D3 Freeze — FROZEN v1, tag `crn-m-02-d3-v1`
-- D4 Content Kickoff — COMPLETE v1
-- D4 Scope — LOCKED v1
-- D4 Source Gate — PASS WITH CLAIM LIMITS v1
-- D4 Lesson Authoring — COMPLETE v1
-- D4 Technical Editorial Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
-- D4 Red Team Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
-- D4 Reader Experience Pass I — COMPLETE / PASS WITH READER-LAYER IMPROVEMENTS APPLIED
-- D4 Practice — COMPLETE v1
-- D4 Practice Reasoning — COMPLETE v1
-- D4 Expected Result — COMPLETE v1
-- D4 Verification Rubric — COMPLETE v1
-- D4 Final Alignment — COMPLETE v1
-- D4 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D4 Freeze — FROZEN v1, tag `crn-m-02-d4-v1`
-- CRN-M-02 Full Topic Freeze — NEXT
+Активный Topic: `CRN-M-03 — Крюковые подвески и захваты`.
 
-CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
+- Content Kickoff — NEXT
+- D1 Scope / Source Gate — pending kickoff
+
+CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 
 ## Правило frozen content
 
