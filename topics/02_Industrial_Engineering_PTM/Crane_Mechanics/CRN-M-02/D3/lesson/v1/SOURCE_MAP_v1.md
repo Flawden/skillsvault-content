@@ -22,7 +22,11 @@ Public-domain engineering mechanics concepts used symbolically:
 - `ΣM_axis = I_axis·α` only for an explicitly scoped planar/fixed-axis rigid-body model;
 - cause/effect model construction;
 - qualitative directional-sensitivity reasoning; derivative notation only when a mathematical model and held variables are defined;
-- distinction between state variables, history variables, assumptions and unknowns.
+- distinction between state variables, history variables, assumptions and unknowns;
+- Red-Team discipline that bounded support is relative to the evaluated hypothesis set;
+- data-quality/artifact hypotheses must themselves be falsifiable;
+- negative evidence requires observability and applicability before model invalidation;
+- directional sensitivity is a model prediction, not causal identification.
 
 These are not crane-specific proof calculations and do not supply ISO/OEM coefficients.
 
@@ -53,7 +57,7 @@ Role: inspection-evidence boundary. The lesson distinguishes inspection evidence
 Public metadata: https://www.iso.org/standard/51102.html
 
 #### ISO 12482:2014
-Role: accumulated duty/monitoring/design-working-period context. The lesson may teach that operating history is evidence distinct from a snapshot; it may not calculate/certify remaining design life.
+Role: accumulated duty/monitoring/design-working-period context. The lesson may teach that operating history is evidence distinct from a snapshot; it may not calculate/certify remaining design life. Red Team additionally locks the distinction `source exists ≠ method applicable ≠ data sufficient ≠ authority granted`.
 Public metadata: https://www.iso.org/standard/57481.html
 
 #### ФНП ПС №461, current edition 16.04.2026
@@ -83,9 +87,9 @@ Required where causal discrimination or action depends on actual:
 
 | Lesson area | Source basis | Claim boundary |
 |---|---|---|
-| D3 causal spine; symptom vs cause; competing hypotheses including data-quality alternatives | generic analysis discipline + frozen D1/D2 | qualitative/analytical only |
+| D3 causal spine; symptom vs cause; competing hypotheses including data-quality alternatives | generic analysis discipline + frozen D1/D2 | qualitative/analytical only; supported model remains relative to evaluated hypothesis set |
 | force/dynamic state rebuild | generic mechanics + ISO 8686 method boundary | named body/frame/axis required; no ISO factors/load combinations |
-| present state vs accumulated history | ISO 4301-1 + ISO 12482 public context | no actual class or remaining-life result |
+| present state vs accumulated history | ISO 4301-1 + ISO 12482 public context | no actual class or remaining-life result; source title/context does not unlock formal method |
 | degradation localization/crossover as evidence | ISO 4309 public context + D2 frozen spooling model | no discard/acceptance criterion |
 | inspection evidence role | ISO 9927-1 context | no specialist inspection verdict invented |
 | rope-drive geometry/formal proof boundary | ISO 16625 context | no paid proof/selection criteria |

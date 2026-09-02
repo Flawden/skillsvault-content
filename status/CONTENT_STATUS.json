@@ -439,8 +439,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "WAITING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "WAITING",
         "practice_reasoning": "WAITING",
         "expected_result": "WAITING",
@@ -478,13 +478,35 @@
           "TE-D3-06",
           "TE-D3-07"
         ]
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/red_team/pass_I/v1/CRN-M-02_D3_RED_TEAM_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
+        "findings": [
+          "RT-D3-01",
+          "RT-D3-02",
+          "RT-D3-03",
+          "RT-D3-04",
+          "RT-D3-05",
+          "RT-D3-06",
+          "RT-D3-07",
+          "RT-D3-08"
+        ],
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_authority_boundary_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 RED TEAM / PASS I / v1 — adversarially challenge causal overclaim, observability/negative-evidence traps, Newton-Euler scope, sensitivity notation, historical before/after inference and proof/design/remaining-life authority boundaries",
+  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

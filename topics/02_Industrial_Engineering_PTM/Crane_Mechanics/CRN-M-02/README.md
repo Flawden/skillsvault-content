@@ -94,4 +94,6 @@ D3 Lesson Authoring v1 is complete. The lesson introduces a causal case-file met
 
 D3 Technical Editorial Pass I is complete with seven corrections: causal support is explicitly bounded rather than root-cause certification; Newton–Euler notation is body/frame/axis scoped; negative evidence requires detectability; qualitative sensitivity is separated from unsupported derivative notation; data-quality artifacts can compete with physical mechanisms; before/after history is not automatically a natural experiment; and the causal scaffold is not a regression model.
 
-Next: `D3 RED TEAM / PASS I / v1`.
+D3 Red Team Pass I is complete with eight adversarial hardenings: best-supported current model is not closed-world/root-cause proof; non-detection or one mismatch does not falsify a model without observability/applicability; `H_data` must itself be falsifiable; unmeasured acceleration is not zero; directional sensitivity is not causal identification; before/after maintenance is treated as a change bundle rather than a single-cause experiment; evidence sources remain question-specific by role; and source existence does not unlock formal proof, remaining-life, acceptance or field authority.
+
+Next: `D3 READER EXPERIENCE PASS / PASS I / v1`.

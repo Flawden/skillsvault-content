@@ -73,10 +73,18 @@
     "newton_euler_scope_explicit": true,
     "qualitative_sensitivity_not_fake_derivative": true,
     "before_after_not_automatic_experiment": true,
-    "causal_scaffold_not_regression_model": true
+    "causal_scaffold_not_regression_model": true,
+    "supported_model_relative_to_hypothesis_set": true,
+    "h_data_must_be_falsifiable": true,
+    "model_invalidation_requires_applicability_and_observability": true,
+    "not_measured_not_zero": true,
+    "directional_prediction_not_causal_identification": true,
+    "before_after_change_bundle_explicit": true,
+    "evidence_hierarchy_question_specific": true,
+    "source_existence_not_formal_method_or_authority": true
   },
   "formal_practice_included": false,
-  "next": "CRN-M-02 / D3 RED TEAM / PASS I / v1 — adversarially challenge causal overclaim, observability/negative-evidence traps, Newton-Euler scope, sensitivity notation, historical before/after inference and proof/design/remaining-life authority boundaries",
+  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
   "technical_editorial_pass_I": "COMPLETE",
   "technical_editorial_findings": [
     "TE-D3-01",
@@ -86,5 +94,16 @@
     "TE-D3-05",
     "TE-D3-06",
     "TE-D3-07"
+  ],
+  "red_team_pass_I": "COMPLETE",
+  "red_team_findings": [
+    "RT-D3-01",
+    "RT-D3-02",
+    "RT-D3-03",
+    "RT-D3-04",
+    "RT-D3-05",
+    "RT-D3-06",
+    "RT-D3-07",
+    "RT-D3-08"
   ]
 }

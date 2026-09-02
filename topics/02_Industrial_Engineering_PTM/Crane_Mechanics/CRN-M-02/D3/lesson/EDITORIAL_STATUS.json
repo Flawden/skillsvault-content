@@ -26,5 +26,6 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 RED TEAM / PASS I / v1 — adversarially challenge causal overclaim, observability/negative-evidence traps, Newton-Euler scope, sensitivity notation, historical before/after inference and proof/design/remaining-life authority boundaries"
+  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
+  "red_team_pass_I": "COMPLETE"
 }

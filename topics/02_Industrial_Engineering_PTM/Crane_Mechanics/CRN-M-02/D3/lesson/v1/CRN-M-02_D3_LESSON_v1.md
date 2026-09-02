@@ -232,7 +232,22 @@ H0 / H_data — observation / mapping / measurement artifact
 
 `H0 / H_data` не обязан присутствовать в каждом кейсе, но его нужно рассмотреть, если надёжность наблюдения или привязки сама способна породить видимую сигнатуру.
 
-D3 не утверждает, что все модели равновероятны. Он не позволяет **удалить альтернативу только потому, что первая история звучит красиво**.
+Red-Team guard: `H0 / H_data` — такая же гипотеза, как физические H1/H2/H3. Её нельзя использовать как мусорную корзину для неудобного evidence. Если аналитик говорит «датчик/журнал/привязка ошибочны», он обязан назвать, **какой наблюдаемый признак должен подтвердить именно data-artifact mechanism и что могло бы его опровергнуть**.
+
+D3 не утверждает, что все модели равновероятны. Он не позволяет **удалить альтернативу только потому, что первая история звучит красиво**. И даже лучшая из рассмотренных моделей остаётся условной относительно текущего hypothesis set:
+
+```text
+BEST SUPPORTED AMONG CURRENT MODELS
+≠
+ALL PLAUSIBLE MECHANISMS HAVE BEEN EXHAUSTED
+```
+
+Перед статусом `SUPPORTED CAUSAL MODEL — BOUNDED` проверь:
+
+- какие разумные механизмы были рассмотрены;
+- какие осознанно не исследованы;
+- может ли неизвестный механизм дать ту же сигнатуру;
+- не стал ли текущий набор гипотез искусственно «закрытым миром».
 
 ---
 
@@ -429,6 +444,18 @@ D3 использует её только чтобы напомнить:
 
 Точные инерционные параметры, фактические динамические нагрузки, standard factors и расчётные комбинации требуют реальных данных и применимого метода.
 
+Red-Team guard: неизвестная кинематика **не равна нулевой кинематике**. Нельзя ставить `a_G = 0` или `α = 0` только потому, что ускорение не измерено. В D3 это должно остаться `UNKNOWN`, либо быть обосновано режимом/данными. Аналогично нельзя менять свободное тело, state или time window и сохранять старые инерционные члены без перестроения модели.
+
+```text
+NOT MEASURED
+≠
+ZERO
+
+SAME MACHINE
+≠
+SAME FREE BODY / SAME STATE MODEL
+```
+
 ---
 
 # 10. Переходный процесс может менять load path
@@ -594,6 +621,20 @@ sign(∂Y/∂x)
 
 допустима только если уже определена математическая модель, переменная `Y`, удерживаемые переменные и условия, при которых такая производная вообще имеет смысл. Иначе символ `∂` создаёт ложную видимость количественной модели там, где есть только качественное предсказание.
 
+Red-Team guard: даже корректная directional prediction
+
+```text
+x ↑ → predicted Y ↑
+```
+
+не доказывает, что наблюдаемая связь `x ↔ Y` идентифицирует causal effect `x → Y`. `x` может быть proxy, mediator, downstream response или двигаться вместе с confounder. Поэтому sensitivity prediction используется для различения моделей, а не как самостоятельное доказательство причинности.
+
+```text
+PREDICTED DIRECTION
+≠
+IDENTIFIED CAUSAL EFFECT
+```
+
 ---
 
 # 15. Неизвестные — часть результата, а не стыд
@@ -681,6 +722,14 @@ ISO 12482 используется как monitoring/design-working-period conte
 
 D3 должен знать, **когда его собственная модель заканчивается**.
 
+Red-Team guard: `evidence hierarchy` — это не универсальный рейтинг «этот документ всегда сильнее того». Разные источники отвечают на разные вопросы. OEM-документ может определять допустимую конфигурацию, но не заменяет измерение текущего состояния; inspection record может хорошо фиксировать наблюдение, но не создаёт design proof; monitoring history не становится remaining-life certification. Сначала назови вопрос, потом выбери evidence по его роли.
+
+```text
+MORE AUTHORITATIVE SOURCE
+≠
+EVIDENCE FOR EVERY QUESTION
+```
+
 ---
 
 # 17. Отрицательное evidence: что НЕ произошло
@@ -709,6 +758,28 @@ H2 предсказывает изменение реакции при изме�
 ```
 
 Нельзя собирать только факты «за» любимую версию.
+
+Перед тем как записать `MODEL INVALIDATED BY EVIDENCE`, пройди Red-Team gate:
+
+```text
+1. prediction действительно относится к этому state/time window?
+2. признак должен был быть наблюдаем выбранным методом?
+3. покрытие/чувствительность достаточны?
+4. mapping/reference point надёжен?
+5. не нарушено ли ключевое assumption модели?
+```
+
+Если хотя бы один пункт неизвестен, результат может быть `UNKNOWN` или `MODEL NEEDS REBUILD`, а не автоматическое опровержение. Один красивый mismatch не сильнее качества данных и области применимости модели.
+
+```text
+NON-DETECTION
+≠
+FALSIFICATION
+
+ONE MISMATCH
+≠
+MODEL INVALIDATED
+```
 
 ---
 
@@ -787,6 +858,27 @@ BEFORE
 > D3 анализирует уже документированное изменение; он не предлагает выполнить изменение на действующем оборудовании «ради эксперимента».
 
 Если после события сигнатура исчезла, это может усиливать причинную модель, но всё равно нужно проверить concurrent changes, observability и альтернативные объяснения.
+
+Red-Team guard: maintenance/event часто меняет **пакет переменных**, а не одну причину. Поэтому before/after case должен иметь `CHANGE BUNDLE REGISTER`:
+
+```text
+WHAT CHANGED
+- component / geometry
+- adjustment / alignment
+- lubrication / cleanliness
+- control / speed / duty
+- measurement / inspection method
+- rope identity / mapping
+- other concurrent work
+```
+
+Если одновременно изменились несколько пунктов, улучшение после вмешательства поддерживает пакет изменений, но не идентифицирует автоматически один causal mechanism.
+
+```text
+AFTER MAINTENANCE BETTER
+≠
+ONE ROOT CAUSE PROVEN
+```
 
 ---
 
@@ -885,6 +977,8 @@ applicable inspection criteria and OEM/passport requirements remain mandatory.
 ## `SUPPORTED CAUSAL MODEL — BOUNDED`
 
 Evidence различает **рассмотренные** альтернативы достаточно для ограниченного аналитического вывода в заявленном evidence set. Этот статус **не означает**, что установлена формальная `root cause`, исключены все мыслимые механизмы или получено design/field/remaining-life authority. Если существенные альтернативы ещё не исследованы, использовать этот статус рано.
+
+Для этого статуса обязательно назвать `HYPOTHESIS-SPACE LIMIT` — какие классы механизмов реально рассмотрены и какие остаются вне анализа. `SUPPORTED` всегда читается как «лучше поддержан среди текущего набора при текущих данных», а не как closed-world proof.
 
 ## `PLAUSIBLE — DISTINGUISHING DATA REQUIRED`
 
@@ -1161,6 +1255,29 @@ P. D3 → D4 HANDOFF, IF REQUIRED
 
 Если не можешь заполнить `L`, скорее всего ты молча спрятал неизвестные в assumptions.
 
+## Red-Team authority gate before any actionable conclusion
+
+Наличие подходящего по названию стандарта или OEM-документа **ещё не означает**, что D3 получил право выполнить formal proof, remaining-life calculation, acceptance verdict или изменение оборудования. Для перехода нужны одновременно применимость документа, точный метод/критерий, необходимые данные и требуемая компетенция/полномочие.
+
+```text
+SOURCE EXISTS
+≠
+METHOD APPLICABLE
+≠
+DATA SUFFICIENT
+≠
+AUTHORITY GRANTED
+```
+
+Особенно запрещён shortcut:
+
+```text
+ISO 12482 mentions monitoring / design working period
+→ therefore D3 can calculate remaining life
+```
+
+Нет. D3 может распознать, **что такой formal boundary существует**, и передать задачу дальше.
+
 ---
 
 # 32. Типовые ошибки D3
@@ -1213,6 +1330,26 @@ P. D3 → D4 HANDOFF, IF REQUIRED
 
 Лечение: analysis authority ≠ field authority.
 
+## Ошибка 13 — `H_data` используется как универсальное объяснение неудобного evidence
+
+Лечение: data-artifact hypothesis должна иметь собственные predictions, discriminating data и falsification route.
+
+## Ошибка 14 — неизвестное ускорение молча принимается равным нулю
+
+Лечение: `not measured ≠ zero`; unknown kinematics остаются в unknown register или требуют данных.
+
+## Ошибка 15 — directional sensitivity выдаётся за идентифицированный causal effect
+
+Лечение: prediction ≠ causal identification; проверять confounders, mediators и альтернативы.
+
+## Ошибка 16 — любой mismatch автоматически «убивает» модель
+
+Лечение: сначала проверить applicability, detectability, mapping и assumptions.
+
+## Ошибка 17 — наличие стандарта автоматически превращается в право выполнить его formal method
+
+Лечение: source existence ≠ method applicability ≠ sufficient data ≠ authority.
+
 ---
 
 # 33. Финальная mental model D3
@@ -1259,6 +1396,38 @@ A VALID MODEL
 ANALYSIS
 is not
 FIELD AUTHORITY
+```
+
+Red-Team invariants:
+
+```text
+BEST SUPPORTED MODEL
+≠
+FORMAL ROOT CAUSE
+
+H_data
+≠
+TRASH BIN FOR BAD EVIDENCE
+
+NON-DETECTION
+≠
+FALSIFICATION WITHOUT OBSERVABILITY
+
+NOT MEASURED
+≠
+ZERO
+
+PREDICTED DIRECTION
+≠
+IDENTIFIED CAUSAL EFFECT
+
+BEFORE / AFTER IMPROVEMENT
+≠
+SINGLE CAUSE PROVEN
+
+SOURCE EXISTS
+≠
+FORMAL METHOD / REMAINING-LIFE / FIELD AUTHORITY
 ```
 
 Это и есть продвинутая инженерная дисциплина D3.

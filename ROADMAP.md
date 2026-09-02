@@ -40,12 +40,22 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D3 Lesson Authoring ✅ v1
 ├─ D3 Technical Editorial / Pass I ✅ v1
-└─ D3 Red Team / Pass I ← NEXT
+├─ D3 Red Team / Pass I ✅ v1
+└─ D3 Reader Experience / Pass I ← NEXT
 ```
 
 
 
 
+
+
+## CRN-M-02 D3 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Eight adversarial hardenings close the remaining D3 misuse routes: bounded support stays relative to the evaluated hypothesis set; non-detection/single mismatch cannot falsify a model without applicability and observability; `H_data` must itself be falsifiable; unmeasured kinematics are not zero; directional sensitivity is not causal identification; maintenance before/after evidence is treated as a change bundle rather than one-cause proof; evidence hierarchy is question-specific rather than a universal source ranking; and source existence does not unlock formal proof, remaining-life, acceptance or field authority.
+
+No proof/design/remaining-life, acceptance/discard or field-authority lock was weakened.
 
 ## CRN-M-02 D3 Technical Editorial Pass I v1
 

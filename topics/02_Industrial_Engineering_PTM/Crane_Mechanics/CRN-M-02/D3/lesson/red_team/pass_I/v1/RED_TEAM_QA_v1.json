@@ -1,0 +1,74 @@
+{
+  "artifact": "CRN-M-02_D3_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "80a217f0f987956d778ca9c4fd279247dd996d7f",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "findings": 8,
+    "corrections_applied": 8
+  },
+  "findings": [
+    {
+      "id": "RT-D3-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "bounded support vs closed-world/root-cause claim"
+    },
+    {
+      "id": "RT-D3-02",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "non-detection / mismatch vs falsification without observability/applicability"
+    },
+    {
+      "id": "RT-D3-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "H_data as unfalsifiable evidence trash bin"
+    },
+    {
+      "id": "RT-D3-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "unknown kinematics vs assumed zero / stale state model"
+    },
+    {
+      "id": "RT-D3-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "directional sensitivity vs causal identification"
+    },
+    {
+      "id": "RT-D3-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "before/after intervention bundle vs single-cause attribution"
+    },
+    {
+      "id": "RT-D3-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "evidence hierarchy role mismatch"
+    },
+    {
+      "id": "RT-D3-08",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "source existence vs formal method / remaining-life / field authority"
+    }
+  ],
+  "guards": {
+    "d1_frozen_modified": false,
+    "d2_frozen_modified": false,
+    "frozen_index_modified": false,
+    "proof_design_values_added": false,
+    "remaining_life_values_added": false,
+    "acceptance_criteria_added": false,
+    "equipment_specific_authority_added": false,
+    "closed_normative_tables_reconstructed": false,
+    "claim_lock_preserved": true,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards"
+}
