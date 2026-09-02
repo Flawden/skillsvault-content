@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
+  "next": "CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -186,11 +186,11 @@
     },
     {
       "stage": "PRACTICE",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "PRACTICE_REASONING",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "EXPECTED_RESULT",
@@ -228,5 +228,12 @@
     "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1.md",
     "findings": 9
+  },
+  "practice": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "cases": 10,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/CRN-M-02_D4_PRACTICE_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/PRACTICE_QA_v1.json"
   }
 }

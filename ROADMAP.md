@@ -56,7 +56,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 └─ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
-D4 Practice ← NEXT
+D4 Practice ✅ v1
+D4 Practice Reasoning ← NEXT
 ```
 
 
@@ -581,7 +582,8 @@ D4 Lesson Authoring ✅
 D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
-D4 Practice ← NEXT
+D4 Practice ✅ v1
+D4 Practice Reasoning ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -637,4 +639,17 @@ Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
 - Part IX is capstone synthesis and now routes to Practice;
 - no normative claim, Red-Team guard, frozen D1/D2/D3 artifact or equipment-authority boundary was weakened.
 
-Next: `D4 PRACTICE / v1` — expert integrated transfer cases across method selection, boundary/input provenance, V&V, uncertainty/robustness and bounded handoff.
+Next: `CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`
+
+
+## CRN-M-02 D4 Practice v1
+
+Status: `COMPLETE`.
+
+- 10 integrated cases A–J exercise question/method selection, configuration and input provenance, exact-source applicability, model fidelity, parent–child interfaces, V&V, common-mode error, sensitivity/robustness, evidence-role separation and authority handoff;
+- Case J is the full D4 transfer case;
+- worked reasoning is intentionally separate;
+- proof/remaining-life/discard/NDT/equipment-authority locks remain unchanged;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`

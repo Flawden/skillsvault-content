@@ -21,6 +21,7 @@
     ]
   },
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
-  "practice": "NEXT"
+  "next": "CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }

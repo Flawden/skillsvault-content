@@ -691,8 +691,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "PENDING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -830,10 +830,28 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/CRN-M-02_D4_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "method_selection_required": true,
+        "configuration_input_provenance_required": true,
+        "verification_crosscheck_validation_separated": true,
+        "sensitivity_robustness_required": true,
+        "competing_methods_required": true,
+        "authority_handoff_required": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true
       }
     }
   },
-  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
+  "next": "CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

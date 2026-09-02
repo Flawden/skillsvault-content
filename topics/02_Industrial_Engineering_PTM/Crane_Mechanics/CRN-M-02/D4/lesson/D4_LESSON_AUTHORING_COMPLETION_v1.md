@@ -38,8 +38,8 @@ Remaining pipeline:
 Technical Editorial ✅
 → Red Team ✅
 → Reader Experience Pass ✅
-→ Practice ← NEXT
-→ Practice Reasoning
+→ Practice ✅
+→ Practice Reasoning ← NEXT
 → Expected Result
 → Verification Rubric
 → Final Alignment
@@ -70,6 +70,10 @@ All nine Parts now expose a compact reader navigator, an explicit capability tar
 
 No Technical Editorial or Red-Team guard is weakened.
 
+## Practice result
+
+D4 Practice v1 is complete with 10 integrated cases A–J. The cases force question/claim decomposition, configuration and input provenance, method applicability, smallest-adequate-model selection, exact-source stop rules, parent–child model interfaces, V&V separation, common-mode error checks, sensitivity/robustness review, competing-method harmonization, evidence-role boundaries and explicit authority handoff. Case J is the full transfer capstone. Worked reasoning remains separate.
+
 ## Next
 
-`CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff`
+`CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`

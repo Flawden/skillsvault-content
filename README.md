@@ -68,7 +68,8 @@
 - D4 Technical Editorial Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
 - D4 Red Team Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
 - D4 Reader Experience Pass I — COMPLETE / PASS WITH READER-LAYER IMPROVEMENTS APPLIED
-- D4 Practice — NEXT
+- D4 Practice — COMPLETE v1
+- D4 Practice Reasoning — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 
