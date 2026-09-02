@@ -61,7 +61,8 @@ D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
 D4 Final Alignment ✅ v1
-D4 Source Freshness ← NEXT
+D4 Source Freshness ✅ PASS WITH WATCHLIST v1
+D4 Freeze ← NEXT
 ```
 
 
@@ -591,7 +592,8 @@ D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
 D4 Final Alignment ✅ v1
-D4 Source Freshness ← NEXT
+D4 Source Freshness ✅ PASS WITH WATCHLIST v1
+D4 Freeze ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -717,3 +719,12 @@ Status: `COMPLETE / PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 - D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze`
+
+
+## CRN-M-02 D4 Source Freshness v1
+
+Status: `COMPLETE / PASS WITH WATCHLIST`.
+
+Ten published/regulatory anchors plus two development companions were revalidated on 2026-09-02. The five-item watchlist remains ISO 8686-1:2012; ISO 4309:2017 + ISO/CD 4309 Edition 6; ISO 12482:2014 + ISO/CD 12482 Edition 2. No D4 content correction is required. Method-role, V&V, common-mode, robustness-envelope, remaining-life and equipment-authority guards remain intact.
+
+Next: `CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract`.

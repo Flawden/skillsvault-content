@@ -696,8 +696,8 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT",
-        "freeze": "PENDING"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
       },
       "method_contract": {
         "question_class_before_method": true,
@@ -929,10 +929,34 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
-      }
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_WATCHLIST",
+        "checked_on": "2026-09-02",
+        "published_regulatory_anchors_checked": 10,
+        "development_companion_records_checked": 2,
+        "watchlist_count": 5,
+        "content_corrections_required": false,
+        "freeze_candidate_ready": true,
+        "method_role_separation_preserved": true,
+        "verification_validation_guard_preserved": true,
+        "common_mode_independence_guard_preserved": true,
+        "robustness_envelope_provenance_preserved": true,
+        "remaining_life_guard_preserved": true,
+        "equipment_authority_guard_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/source_freshness/v1/CRN-M-02_D4_SOURCE_FRESHNESS_v1.md",
+        "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
+      },
+      "freeze": "NEXT"
     }
   },
-  "next": "CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze",
+  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

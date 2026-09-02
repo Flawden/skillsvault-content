@@ -142,4 +142,6 @@ D4 Verification Rubric v1 is complete: 14 dimensions are scored 0–4, all must 
 
 D4 Final Alignment v1 is complete: 9/9 Parts, 45/45 Lesson blocks, 10/10 Practice and Reasoning cases, 14/14 Expected Result dimensions, 14/14 Rubric dimensions and 12/12 non-compensable Blocking Failures have complete prior/downstream traceability. Orphan competence = 0, surprise BF = 0, guard contradictions = 0. Known capstone J remains pattern-only for ER-D4-14; unseen U1 plus mandatory C1 close transfer/adaptive-update competence. No source/method/proof/remaining-life/NDT/equipment-authority boundary was relaxed.
 
-Next: `CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze`.
+D4 Source Freshness v1 is complete. Ten published/regulatory anchors and two development companions were revalidated on 2026-09-02; five non-blocking watch records remain active. No content correction is required. Method-role, V&V/common-mode, robustness-envelope, remaining-life and equipment-authority boundaries remain intact.
+
+Next: `CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract`.

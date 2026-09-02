@@ -35,6 +35,7 @@
   "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
   "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
   "final_alignment": "COMPLETE",
-  "next": "CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze",
-  "source_freshness": "NEXT"
+  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
 }

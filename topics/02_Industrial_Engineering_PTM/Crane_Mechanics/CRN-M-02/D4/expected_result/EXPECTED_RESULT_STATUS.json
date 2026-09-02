@@ -26,7 +26,8 @@
   "d2_frozen_immutable": true,
   "d3_frozen_immutable": true,
   "verification_rubric": "COMPLETE",
-  "next": "CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze",
+  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT"
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
 }
