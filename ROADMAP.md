@@ -25,7 +25,13 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Scope ✅ LOCKED v1
 ├─ D2 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D2 Lesson Authoring ✅ v1
-└─ D2 Technical Editorial / Pass I ← NEXT
+├─ D2 Technical Editorial / Pass I ✅ v1
+├─ D2 Red Team / Pass I ✅ v1
+├─ D2 Reader Experience / Pass I ✅ v1
+├─ D2 Practice ✅ v1
+├─ D2 Practice Reasoning ✅ v1
+├─ D2 Expected Result ✅ v1
+└─ D2 Verification Rubric ← NEXT
 ```
 
 
@@ -195,11 +201,25 @@ Status: `COMPLETE`.
 - numeric design/OEM claim locks remain intact;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Expected Result v1
+
+Status: `COMPLETE`.
+
+- 12 observable dimensions ER-D2-01…ER-D2-12 translate the reviewed D2 contract into assessable behavior;
+- required evidence covers system/mode, rope path, contact nodes, local `Ti`, named FBD, geometry/spooling state, model status and bounded conclusion;
+- `r_k` kinematics and `r_m` moment reasoning remain separate competencies with explicit applicability checks;
+- correct `SOURCE / OEM REQUIRED` or `NOT YET DEMONSTRATED` can be successful outcomes;
+- known Practice A–K performance is insufficient: Verification must include an unseen applied case;
+- Verification must also include a meaningful delta/challenge and require rebuilding stale parts of the model;
+- nine candidate blocking failures are carried forward for severity/non-compensability decisions;
+- no numeric design/acceptance threshold or equipment-specific authority is introduced;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric
+CRN-M-02 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, non-compensable blocking failures, unseen transfer and challenge evidence
 
-D1 is immutable. Continue D2 Expected Result under the locked Lesson, Editorial, Red-Team, Reader-Experience, Practice and Practice-Reasoning guards.
+D1 is immutable. Continue D2 Verification Rubric under the locked Lesson, Editorial, Red-Team, Reader-Experience, Practice, Practice-Reasoning and Expected-Result guards.
 
 ## D1 production sequence
 
@@ -224,14 +244,15 @@ D2 Red Team ✅
 D2 Reader Experience ✅
 D2 Practice ✅
 D2 Practice Reasoning ✅
-D2 Expected Result ← NEXT
+D2 Expected Result ✅
+D2 Verification Rubric ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 EXPECTED RESULT NEXT
+CRN-M-02 ← ACTIVE / D2 VERIFICATION RUBRIC NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

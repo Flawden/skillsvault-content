@@ -22,10 +22,11 @@
     "equipment_authority_boundary_preserved": true,
     "d1_frozen_immutable": true
   },
-  "next": "CRN-M-02 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, non-compensable blocking failures, unseen transfer and challenge evidence",
   "red_team_pass_I": "COMPLETE",
   "reader_experience_pass_I": "COMPLETE",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT"
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

@@ -72,4 +72,6 @@ D2 Practice v1 is complete with 11 cases A–K. It exercises local tension bookk
 
 D2 Practice Reasoning v1 is complete. It provides bounded worked paths for all A–K cases, rebuilds FBDs after body/geometry changes, separates local `Ti`, `r_k` and `r_m`, makes spooling state precede verdict, and requires an explicit model-status/source boundary instead of a formula-first answer. The Practice artifact itself remains unchanged and no single mechanical answer key is introduced.
 
-Next: `D2 EXPECTED RESULT / v1`.
+D2 Expected Result v1 is complete. It translates the applied lesson/practice contract into 12 observable competencies: system/path/contact reconstruction, local `Ti`, body-first FBD, vector reaction logic, `r_k` kinematics, `r_m` moment reasoning, spooling-state recognition, delta rebuilds, dynamic boundaries, source/reference-geometry discipline, duty/authority boundaries and integrated unseen transfer. Known A–K performance alone is insufficient; Verification must include an unseen case and a meaningful challenge/delta. A correct stop/escalation remains a successful D2 outcome when the model or authority is not demonstrated.
+
+Next: `D2 VERIFICATION RUBRIC / v1`.
