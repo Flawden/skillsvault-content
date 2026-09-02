@@ -440,8 +440,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "WAITING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "WAITING",
         "expected_result": "WAITING",
         "verification_rubric": "WAITING",
@@ -500,13 +500,35 @@
         "equipment_authority_boundary_preserved": true,
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/reader_experience/pass_I/v1/CRN-M-02_D3_READER_EXPERIENCE_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+        "findings": [
+          "RX-D3-01",
+          "RX-D3-02",
+          "RX-D3-03",
+          "RX-D3-04",
+          "RX-D3-05",
+          "RX-D3-06",
+          "RX-D3-07",
+          "RX-D3-08"
+        ],
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_authority_boundary_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
+  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

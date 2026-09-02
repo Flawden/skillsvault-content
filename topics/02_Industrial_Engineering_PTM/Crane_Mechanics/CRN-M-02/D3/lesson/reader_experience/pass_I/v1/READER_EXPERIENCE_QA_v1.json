@@ -1,0 +1,26 @@
+{
+  "artifact": "CRN-M-02_D3_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-02",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "180a23ce68ee136e9d66385b92a33215f3d17fa5",
+  "findings_fixed": 8,
+  "findings": [
+    "RX-D3-01",
+    "RX-D3-02",
+    "RX-D3-03",
+    "RX-D3-04",
+    "RX-D3-05",
+    "RX-D3-06",
+    "RX-D3-07",
+    "RX-D3-08"
+  ],
+  "technical_guards_preserved": true,
+  "source_authority_unchanged": true,
+  "proof_design_remaining_life_locks_preserved": true,
+  "equipment_authority_boundary_preserved": true,
+  "d1_frozen_immutable": true,
+  "d2_frozen_immutable": true,
+  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards"
+}

@@ -113,3 +113,10 @@ The lesson does **not** introduce:
 ## Source-map result
 
 `PASS — D3 lesson claims remain inside the locked Source Gate.`
+
+
+## Reader Experience Pass I
+
+Reader Experience Pass I changes presentation only: an early D3 causal route and pocket legend, compact case-file and hypothesis cards, operational evidence-matrix reading, an observability gate for negative evidence, an evidence-role map and grouped error families.
+
+No source authority is upgraded, replaced or broadened. Technical Editorial + Red-Team causal/observability/model-scope guards, proof/design/remaining-life claim locks and equipment/OEM/specialist boundaries remain unchanged.

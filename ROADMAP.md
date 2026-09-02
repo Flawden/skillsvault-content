@@ -41,13 +41,24 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Lesson Authoring ✅ v1
 ├─ D3 Technical Editorial / Pass I ✅ v1
 ├─ D3 Red Team / Pass I ✅ v1
-└─ D3 Reader Experience / Pass I ← NEXT
+├─ D3 Reader Experience / Pass I ✅ v1
+└─ D3 Practice ← NEXT
 ```
 
 
 
 
 
+
+
+
+## CRN-M-02 D3 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+Eight reader-level refinements expose one executable D3 causal workflow without weakening the reviewed mechanics: early case-file/status onboarding, a uniform hypothesis card, operational evidence-matrix reading, an explicit observability gate, question-first evidence-role mapping and grouped failure families.
+
+Technical Editorial + Red-Team causal/observability/model-scope guards and all proof/design/remaining-life/equipment-authority locks remain unchanged.
 
 ## CRN-M-02 D3 Red Team Pass I v1
 

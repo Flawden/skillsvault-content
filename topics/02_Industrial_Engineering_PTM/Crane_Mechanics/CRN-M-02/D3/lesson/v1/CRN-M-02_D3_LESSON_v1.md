@@ -28,6 +28,56 @@ D3 делает следующий переход:
 и какие данные способны их различить?»
 ```
 
+### Карта D3 за 60 секунд
+
+Не пытайся запомнить все 33 раздела до первого анализа. Держи один рабочий маршрут:
+
+```text
+SEE
+что реально наблюдается?
+  ↓
+EXPLAIN
+какие H1 / H2 / H3 могли это породить?
+  ↓
+PREDICT
+что ещё должна давать каждая гипотеза?
+  ↓
+TEST
+какой следующий datum сильнее всего разделит конкурентов?
+  ↓
+UPDATE
+что усилилось, ослабло, осталось UNKNOWN?
+  ↓
+BOUND
+какой вывод уже доказуем и где начинается source/OEM/specialist boundary?
+```
+
+Карманная легенда:
+
+- `OBSERVED` — факт/сигнатура, а не объяснение;
+- `H1/H2/H3` — конкурирующие причинные модели;
+- `PREDICTION` — что должно наблюдаться, если модель верна;
+- `DISCRIMINATING DATA` — datum, который разделяет конкурентов;
+- `UNKNOWN` — явно неразрешённая часть модели;
+- `MODEL STATUS` — насколько далеко evidence уже позволяет зайти;
+- `BOUNDARY` — место, где D3 обязан остановиться и передать задачу дальше.
+
+Ранний статус-map:
+
+```text
+NOT YET DEMONSTRATED
+→ PLAUSIBLE — DISTINGUISHING DATA REQUIRED
+→ SUPPORTED CAUSAL MODEL — BOUNDED
+
+параллельно может оставаться:
+ALTERNATIVE NOT EXCLUDED
+
+если следующий шаг требует formal method / equipment authority:
+SOURCE / OEM / SPECIALIST REQUIRED
+```
+
+Полные условия этих статусов даны в §24. Эта карта нужна только чтобы понимать, что означают слова раньше по ходу урока.
+
 ### К концу урока ты должен уметь
 
 1. отделять наблюдаемый симптом от его причины;
@@ -93,6 +143,23 @@ D3 не открывает из воздуха:
 Главное правило:
 
 > **правдоподобие не равно доказанности.**
+
+### Мини-карточка D3 case file
+
+Перед длинным анализом заполни хотя бы эти шесть строк:
+
+```text
+OBSERVED:
+SYSTEM / MODE / TIME:
+H1:
+H2:
+WHAT WOULD DIFFER IF H1 vs H2?
+CURRENT STATUS / UNKNOWN / NEXT DATA:
+```
+
+Если строка `WHAT WOULD DIFFER...` пустая, гипотезы пока не различимы. Если строка `UNKNOWN` пустая в сложном кейсе, проверь, не спрятал ли ты неизвестные в assumptions.
+
+Развёрнутый worksheet появится в §31.
 
 ---
 
@@ -234,7 +301,25 @@ H0 / H_data — observation / mapping / measurement artifact
 
 Red-Team guard: `H0 / H_data` — такая же гипотеза, как физические H1/H2/H3. Её нельзя использовать как мусорную корзину для неудобного evidence. Если аналитик говорит «датчик/журнал/привязка ошибочны», он обязан назвать, **какой наблюдаемый признак должен подтвердить именно data-artifact mechanism и что могло бы его опровергнуть**.
 
-D3 не утверждает, что все модели равновероятны. Он не позволяет **удалить альтернативу только потому, что первая история звучит красиво**. И даже лучшая из рассмотренных моделей остаётся условной относительно текущего hypothesis set:
+D3 не утверждает, что все модели равновероятны. Он не позволяет **удалить альтернативу только потому, что первая история звучит красиво**.
+
+### Шаблон одной гипотезы
+
+Чтобы H1/H2/H3 были сопоставимы, записывай каждую одной и той же карточкой:
+
+```text
+HYPOTHESIS:
+MECHANISM:
+PREDICTS:
+WOULD BE UNEXPECTED:
+DISTINGUISHING DATA:
+ASSUMPTIONS / UNKNOWN:
+WHAT WOULD CHANGE MY MIND:
+```
+
+Это не бюрократия. Одинаковый шаблон не даёт любимой гипотезе получить подробное объяснение, а конкурентам — по одной слабой строчке.
+
+Даже лучшая из рассмотренных моделей остаётся условной относительно текущего hypothesis set:
 
 ```text
 BEST SUPPORTED AMONG CURRENT MODELS
@@ -350,6 +435,19 @@ EVIDENCE                 H1             H2             H3
 - `UNKNOWN`.
 
 После каждого нового факта матрица обновляется.
+
+Читай её по одному datum за раз:
+
+```text
+NEW DATUM
+→ для H1: EXPECTED / COMPATIBLE / UNEXPECTED / UNKNOWN
+→ для H2: EXPECTED / COMPATIBLE / UNEXPECTED / UNKNOWN
+→ для H3: EXPECTED / COMPATIBLE / UNEXPECTED / UNKNOWN
+→ изменился ли model status?
+→ какой следующий datum теперь самый различающий?
+```
+
+Не суммируй клетки как баллы и не выбирай победителя по количеству `EXPECTED`. Матрица помогает видеть структуру evidence, а не выдаёт вероятность.
 
 D3 не превращает такую таблицу в статистическую вероятность без соответствующей модели и данных.
 
@@ -678,6 +776,22 @@ UNKNOWN
 
 # 16. Evidence hierarchy: разные документы отвечают на разные вопросы
 
+Название `hierarchy` здесь не означает лестницу «верхний источник всегда сильнее нижнего». Удобнее читать этот раздел как **role map**:
+
+```text
+QUESTION ABOUT OBSERVED CONDITION
+→ inspection / observation evidence
+
+QUESTION ABOUT DUTY OVER TIME
+→ monitoring / history evidence
+
+QUESTION ABOUT APPROVED CONFIGURATION / LIMIT / METHOD
+→ design / OEM / passport evidence
+
+QUESTION REQUIRES SPECIALIST METHOD OR COMPETENCE
+→ specialist evidence
+```
+
 Полезно разделять evidence по роли.
 
 ## Observation / inspection evidence
@@ -733,6 +847,27 @@ EVIDENCE FOR EVERY QUESTION
 ---
 
 # 17. Отрицательное evidence: что НЕ произошло
+
+Перед использованием отсутствия признака пройди короткий reader-gate:
+
+```text
+EXPECTED?
+признак действительно обязателен для этой модели?
+  ↓
+APPLICABLE?
+тот же state / mode / time window?
+  ↓
+OBSERVABLE?
+метод мог этот признак увидеть?
+  ↓
+COVERED?
+достаточны coverage / sensitivity / mapping?
+  ↓
+ТОЛЬКО ПОТОМ
+non-detection может стать negative evidence
+```
+
+Если цепочка рвётся, ставь `UNKNOWN`, а не «модель опровергнута».
 
 Очень полезный D3-навык — замечать отсутствие ожидаемого признака.
 
@@ -1282,6 +1417,10 @@ ISO 12482 mentions monitoring / design working period
 
 # 32. Типовые ошибки D3
 
+Не пытайся помнить 17 ошибок как плоский список. Они собираются в четыре семейства.
+
+### Семейство A — causal overclaim и конкурирующие модели
+
 ## Ошибка 1 — первая правдоподобная причина становится root cause
 
 Лечение: минимум две competing hypotheses.
@@ -1298,6 +1437,8 @@ ISO 12482 mentions monitoring / design working period
 
 Лечение: present-state и accumulated-history evidence вести отдельно.
 
+### Семейство B — state / dynamics / model-scope
+
 ## Ошибка 5 — старая FBD переносится в новый dynamic state
 
 Лечение: rebuild body/state/time model.
@@ -1313,6 +1454,8 @@ ISO 12482 mentions monitoring / design working period
 ## Ошибка 8 — monitoring context превращается в remaining-life number
 
 Лечение: history evidence ≠ life certification.
+
+### Семейство C — history / data quality / observability
 
 ## Ошибка 9 — после maintenance стало лучше, значит причина доказана
 
@@ -1345,6 +1488,8 @@ ISO 12482 mentions monitoring / design working period
 ## Ошибка 16 — любой mismatch автоматически «убивает» модель
 
 Лечение: сначала проверить applicability, detectability, mapping и assumptions.
+
+### Семейство D — authority / formal-method boundary
 
 ## Ошибка 17 — наличие стандарта автоматически превращается в право выполнить его formal method
 

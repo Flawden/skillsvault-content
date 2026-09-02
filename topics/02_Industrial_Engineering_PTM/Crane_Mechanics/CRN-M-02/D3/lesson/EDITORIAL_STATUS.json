@@ -26,6 +26,7 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
-  "red_team_pass_I": "COMPLETE"
+  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
+  "red_team_pass_I": "COMPLETE",
+  "reader_experience_pass_I": "COMPLETE"
 }

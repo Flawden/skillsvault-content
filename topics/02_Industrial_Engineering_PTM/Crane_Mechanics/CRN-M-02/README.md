@@ -96,4 +96,6 @@ D3 Technical Editorial Pass I is complete with seven corrections: causal support
 
 D3 Red Team Pass I is complete with eight adversarial hardenings: best-supported current model is not closed-world/root-cause proof; non-detection or one mismatch does not falsify a model without observability/applicability; `H_data` must itself be falsifiable; unmeasured acceleration is not zero; directional sensitivity is not causal identification; before/after maintenance is treated as a change bundle rather than a single-cause experiment; evidence sources remain question-specific by role; and source existence does not unlock formal proof, remaining-life, acceptance or field authority.
 
-Next: `D3 READER EXPERIENCE PASS / PASS I / v1`.
+D3 Reader Experience Pass I is complete. The 33-section advanced-analysis lesson now exposes one compact causal case route, early model-status/terminology onboarding, a uniform hypothesis card, operational evidence-matrix and observability gates, question-first evidence roles and grouped failure families without weakening causal, source, proof/design, remaining-life or field-authority guards.
+
+Next: `D3 PRACTICE / v1`.

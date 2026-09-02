@@ -2,7 +2,7 @@
   "artifact": "CRN-M-02_D3_LESSON_v1",
   "date": "2026-09-02",
   "stage": "AUTHORING",
-  "status": "PASS_AUTHORING_COMPLETE",
+  "status": "PASS_AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED_READER_REFINED",
   "scope_version": "v1",
   "source_gate_version": "v1",
   "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
@@ -84,7 +84,7 @@
     "source_existence_not_formal_method_or_authority": true
   },
   "formal_practice_included": false,
-  "next": "CRN-M-02 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve causal-analysis flow, hypothesis/evidence readability and model-status clarity without weakening Red-Team, source or proof/design/remaining-life authority guards",
+  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
   "technical_editorial_pass_I": "COMPLETE",
   "technical_editorial_findings": [
     "TE-D3-01",
@@ -105,5 +105,19 @@
     "RT-D3-06",
     "RT-D3-07",
     "RT-D3-08"
-  ]
+  ],
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": [
+      "RX-D3-01",
+      "RX-D3-02",
+      "RX-D3-03",
+      "RX-D3-04",
+      "RX-D3-05",
+      "RX-D3-06",
+      "RX-D3-07",
+      "RX-D3-08"
+    ]
+  }
 }
