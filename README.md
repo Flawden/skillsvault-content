@@ -55,7 +55,8 @@
 - D3 Red Team Pass I — COMPLETE v1
 - D3 Reader Experience Pass I — COMPLETE v1
 - D3 Practice — COMPLETE v1
-- D3 Practice Reasoning — NEXT
+- D3 Practice Reasoning — COMPLETE v1
+- D3 Expected Result — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

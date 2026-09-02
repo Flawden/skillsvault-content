@@ -43,7 +43,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Red Team / Pass I ✅ v1
 ├─ D3 Reader Experience / Pass I ✅ v1
 ├─ D3 Practice ✅ v1
-└─ D3 Practice Reasoning ← NEXT
+├─ D3 Practice Reasoning ✅ v1
+└─ D3 Expected Result ← NEXT
 ```
 
 
@@ -52,6 +53,15 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 
 
 
+
+
+## CRN-M-02 D3 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+Worked reasoning paths are complete for all 12 cases A–L. They preserve multiple valid causal-analysis paths while requiring explicit competing hypotheses, falsifiable predictions, distinguishing evidence, observability gates, `H_data` discipline, snapshot/history separation, dynamic-state rebuilds, confounder handling, question-specific evidence roles, model-status updates, unknown registers and bounded conclusions.
+
+The Practice artifact remains unchanged; no formal root-cause, proof/design, remaining-life, acceptance/discard or field-authority conclusion is introduced. D1/D2 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 ## CRN-M-02 D3 Practice v1
 

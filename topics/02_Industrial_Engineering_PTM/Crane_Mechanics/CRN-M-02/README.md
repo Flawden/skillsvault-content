@@ -98,6 +98,8 @@ D3 Red Team Pass I is complete with eight adversarial hardenings: best-supported
 
 D3 Reader Experience Pass I is complete. The 33-section advanced-analysis lesson now exposes one compact causal case route, early model-status/terminology onboarding, a uniform hypothesis card, operational evidence-matrix and observability gates, question-first evidence roles and grouped failure families without weakening causal, source, proof/design, remaining-life or field-authority guards.
 
-D3 Practice v1 is complete. It adds 12 cases A–L covering competing causal models, falsifiable predictions, evidence matrices, observability, `H_data`, snapshot/history, dynamic-state rebuilds, before/after confounders, sensitivity, evidence-role selection, source/method/authority boundaries and an integrated causal case file. Worked reasoning remains separate by design.
+D3 Practice v1 is complete. It adds 12 cases A–L covering competing causal models, falsifiable predictions, evidence matrices, observability, `H_data`, snapshot/history, dynamic-state rebuilds, before/after confounders, sensitivity, evidence-role selection, source/method/authority boundaries and an integrated causal case file.
 
-Next: `D3 PRACTICE REASONING / v1`.
+D3 Practice Reasoning v1 is complete. It provides worked but non-exclusive reasoning paths for A–L, requires predictions and genuinely distinguishing evidence, treats non-detection through an observability gate, keeps `H_data` falsifiable, separates current state from accumulated history, rebuilds dynamic models without `not measured = zero`, and ends with model status + unknown register + bounded conclusion rather than formal root-cause storytelling. Practice itself remains unchanged.
+
+Next: `D3 EXPECTED RESULT / v1`.

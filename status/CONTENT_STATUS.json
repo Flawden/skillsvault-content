@@ -442,8 +442,8 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT",
-        "expected_result": "WAITING",
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT",
         "verification_rubric": "WAITING",
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
@@ -538,13 +538,30 @@
         "equipment_authority_boundary_preserved": true,
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true
+      },
+      "practice_reasoning": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 12,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice_reasoning/v1/CRN-M-02_D3_PRACTICE_REASONING_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+        "single_answer_key": false,
+        "multiple_valid_paths_explicit": true,
+        "competing_hypothesis_reasoning_required": true,
+        "observability_gate_required": true,
+        "evidence_matrix_update_required": true,
+        "bounded_conclusion_required": true,
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_authority_boundary_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 PRACTICE REASONING / v1 — provide worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions without turning Practice into a single answer key",
+  "next": "CRN-M-02 / D3 EXPECTED RESULT / v1 — define observable causal-analysis behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

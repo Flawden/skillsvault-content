@@ -14,5 +14,6 @@
   "equipment_specific_authority_locked": true,
   "d1_frozen_immutable": true,
   "d2_frozen_immutable": true,
-  "next": "CRN-M-02 / D3 PRACTICE REASONING / v1 — provide worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions without turning Practice into a single answer key"
+  "next": "CRN-M-02 / D3 EXPECTED RESULT / v1 — define observable causal-analysis behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
+  "practice_reasoning": "COMPLETE"
 }
