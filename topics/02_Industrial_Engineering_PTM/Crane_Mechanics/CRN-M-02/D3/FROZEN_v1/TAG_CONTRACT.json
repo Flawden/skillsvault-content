@@ -1,0 +1,13 @@
+{
+  "tag": "crn-m-02-d3-v1",
+  "type": "annotated",
+  "message": "CRN-M-02 D3 FROZEN v1",
+  "target": "PATCH_APPLIED_COMMIT",
+  "required_branch": "main",
+  "must_contain": [
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/FROZEN_v1",
+    "status/FROZEN_INDEX.json"
+  ],
+  "immutability_rule": "Tag must never be moved. Any D3 content change requires FROZEN_v2 and a new tag.",
+  "push_required": true
+}

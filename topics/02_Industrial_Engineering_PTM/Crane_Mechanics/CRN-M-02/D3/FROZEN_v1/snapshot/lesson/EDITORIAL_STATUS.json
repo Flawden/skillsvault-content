@@ -1,0 +1,39 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D3",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass": "I",
+  "version": "v1",
+  "date": "2026-09-02",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "baseline_commit": "ca91576aecd14267688fbdb24ab63baa71a02a50",
+  "report": "editorial/pass_I/v1/CRN-M-02_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+  "qa": "editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json",
+  "findings": [
+    "TE-D3-01",
+    "TE-D3-02",
+    "TE-D3-03",
+    "TE-D3-04",
+    "TE-D3-05",
+    "TE-D3-06",
+    "TE-D3-07"
+  ],
+  "guards": {
+    "d1_frozen_immutable": true,
+    "d2_frozen_immutable": true,
+    "frozen_index_unchanged": true,
+    "proof_design_remaining_life_locks_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "next": "CRN-M-02 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract",
+  "red_team_pass_I": "COMPLETE",
+  "reader_experience_pass_I": "COMPLETE",
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
+}

@@ -110,4 +110,6 @@ D3 Final Alignment v1 is complete. Lesson §§1–33, Practice/Reasoning A–L, 
 
 D3 Source Freshness v1 is complete. Ten external/source-boundary anchors were revalidated: eight current published/regulatory records plus two active development companions. ISO 8686-1:2012, ISO 4309:2017 / Edition 6 draft and ISO 12482:2014 / Edition 2 draft remain on a non-blocking watchlist. No D3 content correction is required; causal-support, proof/design, inspection/evidence-role, remaining-life and passport/OEM authority locks remain intact.
 
-Next: `D3 FREEZE / v1`.
+D3 Freeze v1 snapshots all 52 accepted D3 artifacts and locks them in the canonical frozen index under tag `crn-m-02-d3-v1`. D1 and D2 remain independently immutable.
+
+Next: `D4 CONTENT KICKOFF / v1` — expert/reference formal-method selection and model-validation scope/source gate.

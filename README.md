@@ -60,7 +60,8 @@
 - D3 Verification Rubric — COMPLETE v1
 - D3 Final Alignment — COMPLETE v1
 - D3 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D3 Freeze — NEXT
+- D3 Freeze — FROZEN v1, tag `crn-m-02-d3-v1`
+- D4 Content Kickoff — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

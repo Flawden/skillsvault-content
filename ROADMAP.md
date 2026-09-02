@@ -48,7 +48,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Verification Rubric ✅ v1
 ├─ D3 Final Alignment ✅ v1
 ├─ D3 Source Freshness ✅ PASS WITH WATCHLIST v1
-└─ D3 Freeze ← NEXT
+└─ D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
+D4 Content Kickoff ← NEXT
 ```
 
 
@@ -446,11 +447,27 @@ Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 
 Source Freshness candidate: `READY`.
 
+## CRN-M-02 D3 Freeze v1
+
+Decision: `CONTENT FROZEN`.
+
+- baseline: `3fae8b5266e56b26318a20f3590209a3f51ba795`;
+- immutable snapshot: 52/52 accepted D3 artifacts SHA-matched;
+- freeze bundle: 61 files;
+- canonical frozen-index entry appended with exact hashes;
+- immutable annotated tag contract: `crn-m-02-d3-v1`;
+- Lesson 33/33, Practice/Reasoning 12/12, Expected Result/Rubric 13/13 and BF 11/11 alignment remain accepted;
+- Source Freshness remains `PASS WITH WATCHLIST` with five non-blocking watch records;
+- causal-support/root-cause, proof/design, remaining-life, inspection/evidence-role and equipment/OEM authority guards remain locked;
+- D1/D2 frozen packages remain byte-immutable.
+
+D3 must not be edited in place after this point. Any accepted D3 change requires a new review/freshness cycle and `FROZEN_v2`.
+
 ## Next
 
-CRN-M-02 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract
+CRN-M-02 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries
 
-Create the immutable D3 freeze package, update the frozen index and publish the D3 version tag without changing frozen D1/D2 content.
+Define the D4 expert/reference boundary: formal method/model selection, applicability, validation, sensitivity/error and proof-model comparison without silently inheriting unsupported paid-method inputs or equipment authority.
 
 ## D1 production sequence
 
@@ -491,14 +508,15 @@ D3 Expected Result ✅
 D3 Verification Rubric ✅
 D3 Final Alignment ✅
 D3 Source Freshness ✅
-D3 Freeze ← NEXT
+D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
+D4 Content Kickoff ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 SOURCE FRESHNESS NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 CONTENT KICKOFF NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
@@ -531,4 +549,4 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1 and D2 are frozen as v1 under tags `crn-m-02-d1-v1` and `crn-m-02-d2-v1`.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2 and D3 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1` and `crn-m-02-d3-v1`.

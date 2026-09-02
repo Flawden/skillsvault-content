@@ -1,0 +1,123 @@
+{
+  "artifact": "CRN-M-02_D3_LESSON_v1",
+  "date": "2026-09-02",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE_EDITORIALLY_CORRECTED_RED_TEAM_HARDENED_READER_REFINED",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "tag": "crn-m-02-d2-v1"
+    }
+  ],
+  "coverage": {
+    "symptom_vs_cause_explicit": true,
+    "causal_map_complete": true,
+    "competing_hypotheses_required": true,
+    "predicted_signatures_required": true,
+    "discriminating_evidence_required": true,
+    "negative_evidence_and_falsification_explicit": true,
+    "confounders_explicit": true,
+    "dynamic_fbd_rebuild_explicit": true,
+    "generic_newton_euler_symbolic_only": true,
+    "snapshot_vs_accumulated_history_explicit": true,
+    "degradation_network_qualitative": true,
+    "crossover_causal_example_bounded": true,
+    "qualitative_sensitivity_explicit": true,
+    "unknown_register_explicit": true,
+    "evidence_hierarchy_explicit": true,
+    "natural_experiment_history_boundary_explicit": true,
+    "evidence_plan_explicit": true,
+    "bounded_conclusion_format_explicit": true,
+    "model_status_vocabulary_complete": true,
+    "d3_d4_handoff_explicit": true,
+    "universal_d3_worksheet_complete": true
+  },
+  "claim_guards": {
+    "iso_8686_dynamic_factors_introduced": false,
+    "iso_8686_load_combinations_introduced": false,
+    "proof_of_competence_factors_introduced": false,
+    "numeric_D_d_or_geometry_limits_introduced": false,
+    "numeric_fatigue_life_introduced": false,
+    "numeric_remaining_life_introduced": false,
+    "actual_design_working_period_conclusion_introduced": false,
+    "numeric_stress_contact_bearing_limits_introduced": false,
+    "discard_acceptance_limits_introduced": false,
+    "specialist_ndt_interpretation_introduced": false,
+    "equipment_specific_modification_instruction_introduced": false,
+    "field_authority_implied": false,
+    "paid_normative_tables_reconstructed": false
+  },
+  "model_guards": {
+    "plausible_not_proven": true,
+    "correlation_not_automatically_causation": true,
+    "multiple_hypotheses_for_nontrivial_case": true,
+    "distinguishing_data_preferred_over_confirmation_only": true,
+    "fbd_rebuilt_on_state_change": true,
+    "generic_mechanics_not_normative_crane_factor": true,
+    "unknowns_visible": true,
+    "negative_evidence_used": true,
+    "history_not_replaced_by_snapshot": true,
+    "causal_analysis_not_field_authority": true,
+    "supported_model_not_formal_root_cause": true,
+    "negative_evidence_requires_observability": true,
+    "data_quality_hypothesis_considered": true,
+    "newton_euler_scope_explicit": true,
+    "qualitative_sensitivity_not_fake_derivative": true,
+    "before_after_not_automatic_experiment": true,
+    "causal_scaffold_not_regression_model": true,
+    "supported_model_relative_to_hypothesis_set": true,
+    "h_data_must_be_falsifiable": true,
+    "model_invalidation_requires_applicability_and_observability": true,
+    "not_measured_not_zero": true,
+    "directional_prediction_not_causal_identification": true,
+    "before_after_change_bundle_explicit": true,
+    "evidence_hierarchy_question_specific": true,
+    "source_existence_not_formal_method_or_authority": true
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-02 / D3 PRACTICE / v1 — build competing-hypothesis, evidence-discrimination, dynamic/history and bounded-conclusion exercises under locked proof/design/remaining-life authority guards",
+  "technical_editorial_pass_I": "COMPLETE",
+  "technical_editorial_findings": [
+    "TE-D3-01",
+    "TE-D3-02",
+    "TE-D3-03",
+    "TE-D3-04",
+    "TE-D3-05",
+    "TE-D3-06",
+    "TE-D3-07"
+  ],
+  "red_team_pass_I": "COMPLETE",
+  "red_team_findings": [
+    "RT-D3-01",
+    "RT-D3-02",
+    "RT-D3-03",
+    "RT-D3-04",
+    "RT-D3-05",
+    "RT-D3-06",
+    "RT-D3-07",
+    "RT-D3-08"
+  ],
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": [
+      "RX-D3-01",
+      "RX-D3-02",
+      "RX-D3-03",
+      "RX-D3-04",
+      "RX-D3-05",
+      "RX-D3-06",
+      "RX-D3-07",
+      "RX-D3-08"
+    ]
+  }
+}

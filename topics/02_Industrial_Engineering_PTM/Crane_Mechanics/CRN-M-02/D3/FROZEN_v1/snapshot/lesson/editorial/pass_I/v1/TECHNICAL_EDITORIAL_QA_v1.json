@@ -1,0 +1,66 @@
+{
+  "artifact": "CRN-M-02_D3_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "ca91576aecd14267688fbdb24ab63baa71a02a50",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 7,
+    "corrections_applied": 7
+  },
+  "findings": [
+    {
+      "id": "TE-D3-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "bounded causal support is not formal root-cause certification"
+    },
+    {
+      "id": "TE-D3-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "Newton-Euler body/frame/axis scope"
+    },
+    {
+      "id": "TE-D3-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "negative evidence requires observability/detectability"
+    },
+    {
+      "id": "TE-D3-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "qualitative sensitivity versus derivative notation"
+    },
+    {
+      "id": "TE-D3-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "data/mapping artifact as candidate explanation"
+    },
+    {
+      "id": "TE-D3-06",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "historical before/after versus natural experiment wording"
+    },
+    {
+      "id": "TE-D3-07",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "causal scaffold versus regression/independent-effect model"
+    }
+  ],
+  "guards": {
+    "d1_frozen_modified": false,
+    "d2_frozen_modified": false,
+    "frozen_index_modified": false,
+    "proof_design_remaining_life_values_added": false,
+    "acceptance_discard_limits_added": false,
+    "equipment_specific_action_asserted": false,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-02 / D3 RED TEAM / PASS I / v1 — adversarially challenge causal overclaim, observability/negative-evidence traps, Newton-Euler scope, sensitivity notation, historical before/after inference and proof/design/remaining-life authority boundaries"
+}
