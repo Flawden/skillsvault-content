@@ -1,0 +1,79 @@
+{
+  "artifact": "CRN-M-03_D1_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "findings": 9,
+    "corrections_applied": 9
+  },
+  "findings": [
+    {
+      "id": "RT-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "visual symmetry vs equal load sharing"
+    },
+    {
+      "id": "RT-02",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "closed latch + seating vs compatibility/acceptance"
+    },
+    {
+      "id": "RT-03",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "light load/history vs tip-side-eccentric authority"
+    },
+    {
+      "id": "RT-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "visible conditions vs complete holding verification"
+    },
+    {
+      "id": "RT-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "appearance/marking vs interchangeability"
+    },
+    {
+      "id": "RT-06",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "crane number vs full-system compatibility"
+    },
+    {
+      "id": "RT-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "historical success vs current validation"
+    },
+    {
+      "id": "RT-08",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "category match vs exact source applicability"
+    },
+    {
+      "id": "RT-09",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "SkillsVault STOP vs equipment-operation authority"
+    }
+  ],
+  "guards": {
+    "frozen_content_modified": false,
+    "numeric_design_limits_added": false,
+    "inspection_acceptance_limits_added": false,
+    "holding_force_calculations_added": false,
+    "equipment_specific_capacity_asserted": false,
+    "iso_17096_extended_to_grabs": false,
+    "repair_ndt_return_to_service_unlocked": false,
+    "claim_lock_preserved": true,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice"
+}

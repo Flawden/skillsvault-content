@@ -54,7 +54,16 @@
     "educational_seating_not_field_acceptance": true,
     "attachment_weight_not_generic_capacity_subtraction": true,
     "holding_dependency_examples_not_inspection_checklist": true,
-    "abnormal_condition_not_failure_diagnosis": true
+    "abnormal_condition_not_failure_diagnosis": true,
+    "visual_symmetry_not_equal_load_share": true,
+    "closed_latch_and_seating_not_compatibility_acceptance": true,
+    "low_load_or_history_not_tip_side_authority": true,
+    "visible_holding_conditions_not_complete_validation": true,
+    "same_marking_not_interchangeability": true,
+    "crane_number_not_full_system_compatibility": true,
+    "past_success_not_current_validation": true,
+    "category_match_not_exact_source_applicability": true,
+    "skillsvault_stop_not_equipment_operation_command": true
   },
   "sources": {
     "ISO_4306_1_2026": "crane vocabulary/component boundary",
@@ -66,7 +75,7 @@
     "educational_first_principles_mechanics": "qualitative load-path/holding-principle reasoning only"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience",
+  "next": "CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -79,6 +88,22 @@
       "TE-05",
       "TE-06",
       "TE-07"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05",
+      "RT-06",
+      "RT-07",
+      "RT-08",
+      "RT-09"
     ]
   }
 }

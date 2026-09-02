@@ -33,8 +33,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "PENDING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
@@ -52,7 +52,7 @@
         "equipment_specific_capacity_and_compatibility": true,
         "return_to_service_or_operational_permission": true
       },
-      "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+      "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
       "structural_contract_source": "crn-m-02-v1",
       "lesson": {
         "status": "AUTHORING_COMPLETE",
@@ -80,10 +80,28 @@
         "attachment_mass_capacity_arithmetic_guard": true,
         "holding_dependencies_not_inspection_checklist": true,
         "failure_diagnosis_guard": true
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+        "findings": 9,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/red_team/pass_I/v1/CRN-M-03_D1_RED_TEAM_PASS_I_v1.md",
+        "visual_symmetry_equal_share_guard": true,
+        "latch_seating_acceptance_guard": true,
+        "low_load_history_authority_guard": true,
+        "visible_holding_completeness_guard": true,
+        "interchangeability_guard": true,
+        "full_system_capacity_guard": true,
+        "past_success_validation_guard": true,
+        "exact_source_applicability_guard": true,
+        "skillsvault_stop_authority_guard": true
       }
     }
   },
-  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience",
+  "next": "CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -106,8 +124,9 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/AUTHORING_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/EDITORIAL_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/RED_TEAM_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/CRN-M-03_D1_LESSON_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/editorial/pass_I/v1/CRN-M-03_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/red_team/pass_I/v1/CRN-M-03_D1_RED_TEAM_PASS_I_v1.md",
     "Continue from status.next"
   ]
 }

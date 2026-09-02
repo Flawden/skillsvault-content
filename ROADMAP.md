@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 RED TEAM PASS I NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 READER EXPERIENCE PASS I NEXT
 ```
 
 
@@ -21,6 +21,25 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- nine findings corrected;
+- branch symmetry cannot be promoted to equal load sharing;
+- latch closure + visually reassuring seating cannot become compatibility/acceptance;
+- low load and historical survival cannot legalize an unverified tip/side/eccentric force path;
+- visible clamp/magnet/vacuum condition checks cannot become complete holding validation;
+- visual similarity / one matching marking cannot establish interchangeability;
+- a crane capacity number cannot establish whole-system compatibility;
+- prior successful lifting cannot become current validation/acceptance;
+- source-category match cannot become exact construction/configuration applicability;
+- SkillsVault `STOP` is an evidence/authority handoff, not an equipment-operation command;
+- all numeric design/proof, inspection/discard, holding-force, repair/NDT, load-test and equipment-authority locks remain unchanged;
+- CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice`.
 
 ## CRN-M-03 D1 Technical Editorial Pass I v1
 
@@ -37,7 +56,7 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - numeric design/proof, inspection/discard, holding-force, repair/NDT and equipment-authority locks remain unchanged;
 - CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
 
-Next: `CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience`.
+Next: `CRN-M-03 / D1 RED TEAM / PASS I / v1` — completed; see Red Team section above.
 
 ## CRN-M-03 D1 Lesson Authoring v1
 

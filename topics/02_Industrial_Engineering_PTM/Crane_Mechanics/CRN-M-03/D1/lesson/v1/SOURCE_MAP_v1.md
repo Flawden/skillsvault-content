@@ -156,3 +156,19 @@ Technical Editorial Pass I preserves the Source Gate and adds seven wording/mode
 - an abnormal visible condition is not by itself a diagnosed failure or discard verdict.
 
 No source authority, numeric limit, inspection criterion or equipment permission is upgraded by this editorial pass.
+
+## Red Team Pass I — adversarial guards
+
+Red Team Pass I does not add a new source or expand any source scope. It hardens nine misuse routes:
+
+- visual symmetry does not prove equal load sharing across hook-suspension branches;
+- closed latch + visually deep seating does not prove compatibility or acceptance;
+- low load or prior successful use does not authorize tip/side/eccentric loading;
+- visible condition checks are not proof that every critical holding state was checked;
+- similar appearance or one matching nominal marking does not establish interchangeability;
+- load below a visible crane-capacity number does not establish full-system compatibility;
+- prior successful lifting is historical evidence, not validation/acceptance of the current state;
+- category/name match does not prove exact source applicability to a device construction/configuration;
+- SkillsVault `STOP` ends unsupported inference and hands off to the applicable safety/OEM/authority process; it is not itself equipment-operation authority.
+
+All numeric design/proof, inspection/discard, holding-force, repair/NDT, test/acceptance and operation-permission locks remain unchanged.

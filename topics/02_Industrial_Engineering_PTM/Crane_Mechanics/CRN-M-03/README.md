@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 TECHNICAL EDITORIAL PASS I COMPLETE v1**.
+Status: **ACTIVE — D1 RED TEAM PASS I COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / TECHNICAL EDITORIAL PASS I COMPLETE v1`.
+`D1 — ACTIVE / RED TEAM PASS I COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -51,6 +51,23 @@ Seven corrections harden the beginner model without unlocking D2/inspection auth
 - clamp/magnet/vacuum dependency examples are not inspection checklists;
 - abnormal-condition recognition is not failure diagnosis.
 
+
+## Red Team Pass I
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Nine adversarial hardenings block plausible-looking evidence from being promoted into technical authority:
+
+- visual symmetry does not prove equal branch load sharing;
+- closed latch + good-looking seating does not prove compatibility/acceptance;
+- low load or historical survival does not authorize tip/side/eccentric use;
+- visible normal conditions do not prove every critical holding state was verified;
+- similar appearance or one matching nominal marking does not establish interchangeability;
+- a load below a crane-capacity number does not establish whole-system compatibility;
+- past successful lifting is not current validation/acceptance;
+- category match is not exact source applicability;
+- SkillsVault `STOP` ends unsupported inference and hands off to the applicable authority process; it is not equipment-operation authority.
+
 ## Locked claims preserved
 
 D1 still does not unlock:
@@ -66,4 +83,4 @@ D1 still does not unlock:
 
 Source Gate remains `PASS WITH CLAIM LIMITS`.
 
-Next: `CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience`.
+Next: `CRN-M-03 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve beginner flow, cognitive load and retrieval without weakening Red-Team load-path/source/holding/acceptance/authority guards before practice`.
