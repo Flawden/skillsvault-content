@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 READER EXPERIENCE PASS I NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 PRACTICE COMPLETE v1
 ```
 
 
@@ -21,6 +21,22 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Practice v1
+
+Status: `COMPLETE`.
+
+- ten transfer cases A–J added with no worked answer key;
+- system boundary / hook-suspension / detachable-attachment separation is exercised explicitly;
+- branch/merge load paths are required; visual symmetry cannot become equal load sharing;
+- latch/seating, low-load/history, visible-state, interchangeability and whole-system capacity shortcuts are challenged;
+- holding principles are classified causally without unlocking holding-force calculations;
+- source-role selection and exact-applicability discipline are exercised, including the ISO 17096 grab/grab-bucket exclusion;
+- bounded `STOP / REQUEST EVIDENCE` is a successful D1 behavior where evidence is incomplete;
+- SkillsVault STOP remains separate from equipment-operation authority;
+- CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key`.
 
 ## CRN-M-03 D1 Red Team Pass I v1
 

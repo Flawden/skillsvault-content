@@ -35,8 +35,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "PENDING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -111,10 +111,39 @@
         "red_team_guards_preserved": true,
         "source_scope_preserved": true,
         "equipment_authority_lock_preserved": true
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "8eb8a26613555901e808b431e0d21e568b78ddfa",
+        "cases": 10,
+        "case_ids": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice/v1/CRN-M-03_D1_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "system_boundary_required": true,
+        "branch_merge_load_path_required": true,
+        "holding_principle_required": true,
+        "source_scope_required": true,
+        "bounded_stop_required": true,
+        "numeric_design_and_acceptance_locks_preserved": true,
+        "equipment_authority_lock_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff",
+  "next": "CRN-M-03 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -142,6 +171,13 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/red_team/pass_I/v1/CRN-M-03_D1_RED_TEAM_PASS_I_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/READER_EXPERIENCE_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/reader_experience/pass_I/v1/CRN-M-03_D1_READER_EXPERIENCE_PASS_I_v1.md",
+    "Continue from status.next"
+  ],
+  "recommended_start_files": [
+    "status/CONTENT_STATUS.json",
+    "ROADMAP.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice/PRACTICE_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice/v1/CRN-M-03_D1_PRACTICE_v1.md",
     "Continue from status.next"
   ]
 }

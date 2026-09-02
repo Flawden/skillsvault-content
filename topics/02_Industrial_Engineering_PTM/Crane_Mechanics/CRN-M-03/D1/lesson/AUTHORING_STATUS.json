@@ -71,12 +71,12 @@
       "RX-07"
     ]
   },
-  "practice": "NEXT",
-  "practice_reasoning": "PENDING",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff"
+  "next": "CRN-M-03 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key"
 }

@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 READER EXPERIENCE PASS I COMPLETE v1**.
+Status: **ACTIVE — D1 PRACTICE COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / READER EXPERIENCE PASS I COMPLETE v1`.
+`D1 — ACTIVE / PRACTICE COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -89,4 +89,10 @@ Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 
 Seven reader-layer corrections expose one retrievable beginner route: a four-question memory card, one worked load-path representation, a holding-principle router, a question-first source router, grouped evidence-status promotion traps, a compact STOP-card and a final retrieval checkpoint. No Technical Editorial / Red-Team guard or claim boundary is weakened.
 
-Next: `CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff`.
+## Practice v1
+
+Status: `COMPLETE`.
+
+Ten transfer cases A–J exercise system-boundary selection, branch/merge load-path mapping, latch/seating evidence discipline, holding-principle classification, device-state unknowns, interchangeability, exact source scope, whole-system/self-weight reasoning, past-success traps and one integrated D1 capstone. Practice embeds no answer key and introduces no numeric design/inspection/holding-force or equipment-authority claim.
+
+Next: `CRN-M-03 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key`.
