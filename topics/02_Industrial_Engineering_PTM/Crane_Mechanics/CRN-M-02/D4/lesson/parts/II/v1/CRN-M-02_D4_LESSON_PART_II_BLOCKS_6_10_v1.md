@@ -63,6 +63,18 @@ D4 запрещает фразу «использовал схему из ста
 | support location | … | drawing / CAD | … | … |
 | layer/crossover state | … | observation | … | … |
 
+### Red-Team guard: observed configuration ≠ approved configuration
+
+Field trace может очень хорошо отвечать на вопрос **«как проложено сейчас?»**, но сам по себе не отвечает на вопросы **«так ли должно быть?»**, **«кем это изменение разрешено?»** и **«соответствует ли это design/OEM/passport basis?»**.
+
+```text
+OBSERVED / AS-FOUND CONFIGURATION
+≠
+APPROVED / DESIGN-CONFORMING CONFIGURATION
+```
+
+Если field trace и authoritative drawing/passport расходятся, нельзя тихо выбрать удобную версию. Фиксируй `CONFIGURATION DISCREPANCY`, используй as-found geometry только в clearly bounded analysis и отдельно эскалируй conformity/authority question.
+
 # Блок 8. Frame и sign convention — часть физики, а не оформление
 
 Ошибки D4 часто рождаются не в сложном solver, а в смешении систем координат.

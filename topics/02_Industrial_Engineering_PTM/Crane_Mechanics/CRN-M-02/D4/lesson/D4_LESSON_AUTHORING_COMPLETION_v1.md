@@ -13,6 +13,7 @@
 - D4 Source Gate: PASS WITH CLAIM LIMITS v1
 - D4 Lesson Authoring: COMPLETE
 - Technical Editorial Pass I: COMPLETE — PASS WITH CORRECTIONS APPLIED v1
+- Red Team Pass I: COMPLETE — PASS WITH CORRECTIONS APPLIED v1
 
 ## Lesson architecture
 
@@ -34,8 +35,8 @@ Remaining pipeline:
 
 ```text
 Technical Editorial ✅
-→ Red Team ← NEXT
-→ Reader Experience Pass
+→ Red Team ✅
+→ Reader Experience Pass ← NEXT
 → Practice
 → Practice Reasoning
 → Expected Result
@@ -45,9 +46,9 @@ Technical Editorial ✅
 → D4 Freeze
 ```
 
-## Editorial entry point
+## Red-Team result
 
-Read Parts I–IX as one lesson and try to break the method contract.
+All nine Parts survived adversarial misuse review after 10 corrections. The main hardenings prevent evidence/status promotion: observed→approved, plausible→applicable, parent-model→child validation, model agreement→validation, chosen-envelope→global robustness, no finding→no defect and analysis stop→operational permission.
 
 Primary questions:
 
@@ -64,4 +65,4 @@ Primary questions:
 
 ## Next
 
-`CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge before reader-experience review`
+`CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice`

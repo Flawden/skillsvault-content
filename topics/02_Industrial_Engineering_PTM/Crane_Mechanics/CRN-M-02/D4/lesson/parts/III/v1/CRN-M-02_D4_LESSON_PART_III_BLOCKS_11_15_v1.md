@@ -153,6 +153,14 @@ Quasi-static adequacy можно исследовать через characteristi
 
 D4 не превращает эту идею в universal criterion. Она служит **методом постановки вопроса**.
 
+```text
+QUASI-STATIC PLAUSIBLE FOR A CHOSEN OUTPUT
+≠
+GOVERNING LOAD / PROOF METHOD SATISFIED
+```
+
+Даже хороший time-scale argument не разрешает удалить load cases, dynamic effects, combinations или factors, которые требует exact applicable source. Он обосновывает model-form choice только в той степени, в какой это совместимо с governing method и intended use.
+
 ## Рабочий протокол III-C. Compliance relevance test
 
 Спроси: если stiffness увеличить в 10 раз, изменится ли decision-driving output существенно?

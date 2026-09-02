@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review",
+  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -178,11 +178,11 @@
     },
     {
       "stage": "RED_TEAM",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "READER_EXPERIENCE_PASS",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "PRACTICE",
@@ -212,5 +212,13 @@
       "stage": "D4_FREEZE",
       "status": "PENDING"
     }
-  ]
+  ],
+  "red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "ea6eb5a1caaf1b24223bbb51adc26e0f1f52efd0",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/red_team/pass_I/v1/CRN-M-02_D4_RED_TEAM_PASS_I_v1.md",
+    "findings": 10
+  }
 }

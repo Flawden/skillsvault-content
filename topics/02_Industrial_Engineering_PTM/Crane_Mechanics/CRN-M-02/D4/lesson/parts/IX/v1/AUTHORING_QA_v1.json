@@ -37,7 +37,8 @@
   },
   "next": "D4 TECHNICAL EDITORIAL / PASS I / v1 after completion of all nine parts",
   "checks": {
-    "technical_editorial_completed": true
+    "technical_editorial_completed": true,
+    "red_team_completed": true
   },
   "technical_editorial": {
     "pass": "I",
@@ -49,6 +50,17 @@
       "TE-D4-06"
     ]
   },
-  "sha256_lesson": "4B5E0E4961E97053E0018783142720E0F47A7F615E35E1891E49C12D17B050C5",
-  "sha256_source_map": "9A3831D650343626191C726F91B8B4BA8E743ED067C3333F0EE5E07D242FAE16"
+  "sha256_lesson": "C84F8ADAAB926E62F8D54413B7308A2E82427A47CC95B039DFD18AC8E257AF14",
+  "sha256_source_map": "9A3831D650343626191C726F91B8B4BA8E743ED067C3333F0EE5E07D242FAE16",
+  "red_team": {
+    "pass": "I",
+    "date": "2026-09-02",
+    "status": "PASS_WITH_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/red_team/pass_I/v1/CRN-M-02_D4_RED_TEAM_PASS_I_v1.md",
+    "baseline_commit": "ea6eb5a1caaf1b24223bbb51adc26e0f1f52efd0",
+    "findings": [
+      "RT-D4-09",
+      "RT-D4-10"
+    ]
+  }
 }

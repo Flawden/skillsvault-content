@@ -54,7 +54,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D4 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D4 Lesson Authoring ✅
 └─ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
-D4 Red Team ← NEXT
+D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
+D4 Reader Experience ← NEXT
 ```
 
 
@@ -513,9 +514,26 @@ Status: `COMPLETE — PASS WITH CORRECTIONS APPLIED`.
 - technical review terminology and equipment-authority wording are bounded;
 - D1/D2/D3 frozen artifacts and `FROZEN_INDEX` remain immutable.
 
+## CRN-M-02 D4 Red Team Pass I v1
+
+Status: `COMPLETE — PASS WITH CORRECTIONS APPLIED`.
+
+- 9/9 parts and 45/45 blocks adversarially challenged;
+- ten findings closed across Parts I–IX;
+- UNKNOWN/PARTIAL applicability cannot become proof/decision permission;
+- as-found configuration cannot become approved/design-conforming configuration;
+- simplified-model plausibility cannot override governing source requirements;
+- parent-model status does not automatically validate child interfaces/submodels;
+- agreement of two models does not exclude common-mode input/interpretation error;
+- robustness claims require scenario-envelope provenance and coverage;
+- negative inspection evidence is bounded by observability/capability;
+- analysis/proof stop is separated from operational permission and required safety action;
+- technical recommendation is separated from authorized equipment decision;
+- D1/D2/D3 frozen artifacts, `FROZEN_INDEX` and D4 kickoff/source gate remain immutable.
+
 ## Next
 
-CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review
+CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice
 
 ## D1 production sequence
 
@@ -560,14 +578,15 @@ D3 Freeze ✅ FROZEN v1 / tag crn-m-02-d3-v1
 D4 Content Kickoff ✅
 D4 Lesson Authoring ✅
 D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
-D4 Red Team ← NEXT
+D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
+D4 Reader Experience ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 TECHNICAL EDITORIAL COMPLETE / RED TEAM NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 RED TEAM COMPLETE / READER EXPERIENCE NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

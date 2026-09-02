@@ -145,6 +145,16 @@ SECONDARY VALUE FOUND
 
 Пока primary confirmation нет, secondary value может использоваться только как search clue, не как proof input.
 
+Но и `primary confirmation` нельзя понимать как «я нашёл такое же число в стандарте». Для proof input должны совпасть как минимум definition, edition, object/configuration, units, conditional logic и место этого значения в exact method.
+
+```text
+PRIMARY VALUE LOCATED
+≠
+CURRENT CASE INPUT APPLICABLE
+```
+
+Это защищает от особенно коварной ошибки: правильное число из правильного документа, применённое **не к той ветке метода**.
+
 ## Рабочий протокол IV-D. Proof claim ladder
 
 Различай states:

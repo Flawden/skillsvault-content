@@ -17,7 +17,7 @@
       "TE-D4-07"
     ]
   },
-  "red_team": "NEXT",
-  "reader_experience_pass": "PENDING",
-  "next": "CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review"
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "NEXT",
+  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice"
 }

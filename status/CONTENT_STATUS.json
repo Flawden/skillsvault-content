@@ -689,8 +689,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "PENDING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
@@ -758,10 +758,54 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "baseline_commit": "ea6eb5a1caaf1b24223bbb51adc26e0f1f52efd0",
+        "findings": [
+          "RT-D4-01",
+          "RT-D4-02",
+          "RT-D4-03",
+          "RT-D4-04",
+          "RT-D4-05",
+          "RT-D4-06",
+          "RT-D4-07",
+          "RT-D4-08",
+          "RT-D4-09",
+          "RT-D4-10"
+        ],
+        "parts_audited": 9,
+        "blocks_audited": 45,
+        "parts_with_text_corrections": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "IX"
+        ],
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/red_team/pass_I/v1/CRN-M-02_D4_RED_TEAM_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
+        "observed_approved_separated": true,
+        "plausible_applicable_separated": true,
+        "common_mode_crosscheck_guard": true,
+        "robustness_envelope_provenance_required": true,
+        "no_finding_no_defect_guard": true,
+        "analysis_stop_operation_permission_separated": true,
+        "equipment_authority_lock_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true
       }
     }
   },
-  "next": "CRN-M-02 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, validation claims, hidden-input assumptions, robustness and authority boundaries before reader-experience review",
+  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

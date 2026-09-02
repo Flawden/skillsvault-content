@@ -39,6 +39,18 @@ Inspection может дать:
 
 Обратно тоже верно: расчётный proof не отменяет фактический defect.
 
+Red-Team guard для condition channel:
+
+```text
+NO DEFECT OBSERVED
+≠
+DEFECT ABSENT
+≠
+CONDITION ACCEPTABLE
+```
+
+Сила отрицательного inspection result зависит от scope, access/coverage, method capability, procedure, surface/state, measurement uncertainty и competence. Невидимая/неохваченная зона не превращается в доказанно здоровую только потому, что report не содержит finding.
+
 ### Two-channel rule
 
 ```text

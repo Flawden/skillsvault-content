@@ -77,6 +77,18 @@ AUTHORITY OF RESULT:
 APPLICABLE / NOT APPLICABLE / PARTIAL / UNKNOWN:
 ```
 
+### Red-Team guard: UNKNOWN/PARTIAL не являются «почти применимо»
+
+```text
+APPLICABILITY UNKNOWN / PARTIAL
+≠
+PERMISSION TO USE THE METHOD AS FORMAL PROOF
+≠
+PERMISSION TO MAKE THE EQUIPMENT DECISION
+```
+
+`UNKNOWN` и `PARTIAL` — самостоятельные инженерные statuses. Их нельзя повышать до `APPLICABLE` потому, что результат модели выглядит разумно, source familiar или дедлайн близко. Следующий шаг — закрыть недостающий scope/condition/edition/configuration evidence либо ослабить conclusion.
+
 # Блок 3. Requirement, selection, proof, inspection и monitoring нельзя смешивать в один «стандарт говорит»
 
 В D4 полезно маркировать роль каждого документа.

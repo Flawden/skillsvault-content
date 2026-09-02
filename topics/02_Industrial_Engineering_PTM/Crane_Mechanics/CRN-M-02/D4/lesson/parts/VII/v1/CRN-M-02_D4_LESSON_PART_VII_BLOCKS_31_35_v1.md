@@ -81,10 +81,21 @@ M=T r
 DECISION-DRIVING OUTPUT:
 DOMINANT INPUTS:
 PLAUSIBLE ENVELOPE:
+ENVELOPE PROVENANCE / COVERAGE:
 METHOD-FORM ALTERNATIVES:
 DOES CONCLUSION CHANGE?:
 ROBUST / FRAGILE / NOT DEMONSTRATED:
 ```
+
+### Red-Team guard: robustness is conditional on the envelope
+
+```text
+ROBUST ACROSS CHOSEN SCENARIOS
+≠
+ROBUST TO REAL-WORLD UNKNOWN UNMODELED STATES
+```
+
+Scenario envelope должен иметь provenance: source limits, measured range, credible configuration states, uncertainty evidence или explicitly bounded engineering judgment. Если decision-driving state мог быть пропущен, честный status — `ROBUSTNESS NOT DEMONSTRATED OUTSIDE TESTED ENVELOPE`, а не просто `ROBUST`.
 
 # Блок 35. Competing methods нельзя усреднять, если они отвечают на разные вопросы
 

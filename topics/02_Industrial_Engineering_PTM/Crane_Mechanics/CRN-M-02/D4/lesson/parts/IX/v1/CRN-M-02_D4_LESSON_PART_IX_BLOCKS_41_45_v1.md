@@ -115,6 +115,18 @@ D4 не принимает этот jump.
 
 Если применимое правило/процедура требует немедленного безопасного действия, не нужно ждать завершения красивой causal story или D4 model review. SkillsVault не заменяет обязательные safety procedures.
 
+```text
+ANALYSIS / PROOF STOPPED
+≠
+OPERATION PERMITTED UNTIL ANALYSIS FINISHES
+
+CAUSE UNKNOWN
+≠
+APPLICABLE SAFETY ACTION MAY BE DELAYED
+```
+
+Stop rule определяет статус **анализа**. Operational status определяется отдельно применимыми процедурами, responsible authority и фактическим состоянием оборудования. Неопределённость не создаёт разрешение.
+
 # Блок 45. Финальный D4 worksheet
 
 ```text
@@ -135,7 +147,8 @@ D4 не принимает этот jump.
 15. COMPETING-METHOD DIFFERENCES
 16. BOUNDED CONCLUSION
 17. STOP CONDITIONS
-18. AUTHORITY HANDOFF
+18. AUTHORITY HANDOFF / DECISION OWNER
+19. DECISION STATUS / BASIS / DATE
 ```
 
 ### Финальный тест
@@ -254,7 +267,7 @@ Reviewer не должен просто «проверить арифметик�
 
 Пример:
 
-> «Подтверждено, что observed steady reaction согласуется с current geometry model в пределах measurement uncertainty. Не подтвержден transient envelope и formal component proof. Требуется synchronized transient measurement + exact applicable proof method inputs. Equipment acceptance остаётся за applicable competent/authorized role, определённой для конкретной организации, оборудования и юрисдикции.»
+> «Подтверждено, что observed steady reaction согласуется с current geometry model в пределах measurement uncertainty. Не подтвержден transient envelope и formal component proof. Требуется synchronized transient measurement + exact applicable proof method inputs. Equipment acceptance остаётся за applicable competent/authorized role, определённой для конкретной организации, оборудования и юрисдикции. До явного decision record этот technical recommendation не является разрешением на эксплуатацию, ремонт, изменение или продление работы.»
 
 ## Рабочий протокол IX-E. Authority map
 

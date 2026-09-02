@@ -157,7 +157,15 @@ uncertainty
 version
 ```
 
-Без этого model chain нельзя audit.
+Без этого model chain нельзя audit. И ещё один Red-Team guard:
+
+```text
+PARENT MODEL VALIDATED / VERIFIED
+≠
+CHILD SUBMODEL VALIDATED AUTOMATICALLY
+```
+
+При передаче через interface нужно проверить, покрывает ли parent evidence именно передаваемую quantity/domain, не потеряны ли peaks/time ordering/correlation и не создал ли child новую physics/boundary, которой parent validation вообще не касалась. Uncertainty и limitations должны **переходить через interface**, а не исчезать на границе файлов.
 
 ## Рабочий протокол V-B. Sheave reaction benchmark family
 

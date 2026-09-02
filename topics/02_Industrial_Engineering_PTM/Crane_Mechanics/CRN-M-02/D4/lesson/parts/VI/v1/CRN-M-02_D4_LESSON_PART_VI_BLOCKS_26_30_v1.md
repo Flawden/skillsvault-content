@@ -109,6 +109,22 @@ Conclusion: numerical convergence of Q demonstrated / not demonstrated
 
 Это не независимый cross-check и тем более не validation.
 
+Даже разные программы и разные инженеры могут иметь **common-mode failure**, если оба получили один неверный rope path, один и тот же ошибочный passport input, одинаково неверно поняли criterion или сверяются с одной ошибочной таблицей. Поэтому independence нужно раскладывать по dimensions:
+
+```text
+IMPLEMENTATION INDEPENDENT?
+INPUT PROVENANCE INDEPENDENT?
+MODEL FORM INDEPENDENT?
+DATA / MEASUREMENT INDEPENDENT?
+CRITERION INTERPRETATION INDEPENDENT?
+```
+
+```text
+TWO MODELS AGREE
+≠
+COMMON INPUT / COMMON INTERPRETATION ERROR EXCLUDED
+```
+
 ### Evidence strength is question-specific
 
 Test evidence может быть сильным для reaction, но слабым для fatigue history. Inspection evidence может быть сильным для observed condition, но не доказывать design proof. Independent analytical agreement может сильно поддержать verification/model-form confidence и при этом почти ничего не сказать о fidelity к реальной системе. Нет универсального «самого сильного источника».
