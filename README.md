@@ -51,7 +51,8 @@
 - D3 Scope — LOCKED v1
 - D3 Source Gate — PASS WITH CLAIM LIMITS v1
 - D3 Lesson Authoring — COMPLETE v1
-- D3 Technical Editorial Pass I — NEXT
+- D3 Technical Editorial Pass I — COMPLETE v1
+- D3 Red Team Pass I — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

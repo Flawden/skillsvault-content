@@ -33,5 +33,7 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal-model logic, dynamics wording, hypothesis discrimination, degradation/history claims and proof/design/remaining-life authority boundaries before red team"
+  "next": "CRN-M-02 / D3 RED TEAM / PASS I / v1 — adversarially challenge causal overclaim, observability/negative-evidence traps, Newton-Euler scope, sensitivity notation, historical before/after inference and proof/design/remaining-life authority boundaries",
+  "editorial_pass_I": "COMPLETE",
+  "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED"
 }

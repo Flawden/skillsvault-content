@@ -92,4 +92,6 @@ D3 Source Gate = `PASS WITH CLAIM LIMITS`. Public source metadata and generic me
 
 D3 Lesson Authoring v1 is complete. The lesson introduces a causal case-file method: observed signature → competing mechanisms → predicted signatures → distinguishing evidence → model update → bounded conclusion. It adds dynamic-state rebuilds, present-state versus duty/history separation, sensitivity/unknown/confounder discipline and an explicit D3→D4 handoff without unlocking proof, remaining-life or field-authority claims.
 
-Next: `D3 TECHNICAL EDITORIAL / PASS I / v1`.
+D3 Technical Editorial Pass I is complete with seven corrections: causal support is explicitly bounded rather than root-cause certification; Newton–Euler notation is body/frame/axis scoped; negative evidence requires detectability; qualitative sensitivity is separated from unsupported derivative notation; data-quality artifacts can compete with physical mechanisms; before/after history is not automatically a natural experiment; and the causal scaffold is not a regression model.
+
+Next: `D3 RED TEAM / PASS I / v1`.

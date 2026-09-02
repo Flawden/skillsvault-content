@@ -39,12 +39,21 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Scope ✅ LOCKED v1
 ├─ D3 Source Gate ✅ PASS WITH CLAIM LIMITS v1
 ├─ D3 Lesson Authoring ✅ v1
-└─ D3 Technical Editorial / Pass I ← NEXT
+├─ D3 Technical Editorial / Pass I ✅ v1
+└─ D3 Red Team / Pass I ← NEXT
 ```
 
 
 
 
+
+## CRN-M-02 D3 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Seven corrections tighten D3 without changing its scope: bounded causal support is not formal root-cause certification; Newton–Euler equations now require named body/frame/axis assumptions; negative evidence requires detectability; qualitative sensitivity no longer borrows derivative notation without a mathematical model; data/mapping artifact is an explicit candidate when relevant; historical before/after evidence is not automatically a natural experiment; and the causal `f(...)` scaffold is not a regression/independent-effect model.
+
+No proof/design/remaining-life, acceptance/discard or field-authority lock was weakened.
 
 ## CRN-M-02 D3 Lesson Authoring v1
 

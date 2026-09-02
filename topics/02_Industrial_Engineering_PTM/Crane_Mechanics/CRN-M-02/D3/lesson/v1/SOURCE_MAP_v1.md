@@ -18,10 +18,10 @@ Used for rope-path discipline, force-transfer logic, local `Ti`, free-body owner
 Public-domain engineering mechanics concepts used symbolically:
 
 - vector force balance;
-- `ΣF = m·a`;
-- `ΣM = I·α` about a defined axis for a defined rigid-body model;
+- `ΣF_ext = m·a_G` for a named body in an inertial frame;
+- `ΣM_axis = I_axis·α` only for an explicitly scoped planar/fixed-axis rigid-body model;
 - cause/effect model construction;
-- qualitative sensitivity and sign reasoning;
+- qualitative directional-sensitivity reasoning; derivative notation only when a mathematical model and held variables are defined;
 - distinction between state variables, history variables, assumptions and unknowns.
 
 These are not crane-specific proof calculations and do not supply ISO/OEM coefficients.
@@ -83,8 +83,8 @@ Required where causal discrimination or action depends on actual:
 
 | Lesson area | Source basis | Claim boundary |
 |---|---|---|
-| D3 causal spine; symptom vs cause; competing hypotheses | generic analysis discipline + frozen D1/D2 | qualitative/analytical only |
-| force/dynamic state rebuild | generic mechanics + ISO 8686 method boundary | no ISO factors/load combinations |
+| D3 causal spine; symptom vs cause; competing hypotheses including data-quality alternatives | generic analysis discipline + frozen D1/D2 | qualitative/analytical only |
+| force/dynamic state rebuild | generic mechanics + ISO 8686 method boundary | named body/frame/axis required; no ISO factors/load combinations |
 | present state vs accumulated history | ISO 4301-1 + ISO 12482 public context | no actual class or remaining-life result |
 | degradation localization/crossover as evidence | ISO 4309 public context + D2 frozen spooling model | no discard/acceptance criterion |
 | inspection evidence role | ISO 9927-1 context | no specialist inspection verdict invented |
