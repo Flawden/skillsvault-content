@@ -193,7 +193,7 @@
       }
     },
     "D2": {
-      "status": "ACTIVE",
+      "status": "VERIFICATION_RUBRIC_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -220,8 +220,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT",
-        "final_alignment": "WAITING",
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
       },
@@ -340,6 +340,25 @@
         "numeric_design_claim_lock_preserved": true,
         "equipment_specific_authority_locked": true,
         "d1_frozen_immutable": true
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 12,
+        "levels": 5,
+        "blocking_failures": 9,
+        "max_score": 48,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/v1/CRN-M-02_D2_VERIFICATION_RUBRIC_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+        "known_case_required": true,
+        "unseen_transfer_required": true,
+        "challenge_delta_required": true,
+        "all_dimensions_minimum_3_for_verified": true,
+        "blocking_failures_non_compensable": true,
+        "numeric_design_claim_lock_preserved": true,
+        "equipment_specific_authority_locked": true,
+        "d1_frozen_immutable": true
       }
     },
     "D3": {
@@ -349,7 +368,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, non-compensable blocking failures, unseen transfer and challenge evidence",
+  "next": "CRN-M-02 / D2 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability, gap closure and guard consistency before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -378,6 +397,7 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/reader_experience/pass_I/v1/CRN-M-02_D2_READER_EXPERIENCE_PASS_I_v1.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/PRACTICE_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/CRN-M-02_D2_PRACTICE_v1.md",
-    "Continue from status.next"
+    "Continue from status.next",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/VERIFICATION_RUBRIC_STATUS.json"
   ]
 }

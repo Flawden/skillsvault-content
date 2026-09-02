@@ -31,7 +31,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Practice ✅ v1
 ├─ D2 Practice Reasoning ✅ v1
 ├─ D2 Expected Result ✅ v1
-└─ D2 Verification Rubric ← NEXT
+├─ D2 Verification Rubric ✅ v1
+└─ D2 Final Alignment ← NEXT
 ```
 
 
@@ -217,7 +218,7 @@ Status: `COMPLETE`.
 
 ## Next
 
-CRN-M-02 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, non-compensable blocking failures, unseen transfer and challenge evidence
+CRN-M-02 / D2 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability, gap closure and guard consistency before source freshness
 
 D1 is immutable. Continue D2 Verification Rubric under the locked Lesson, Editorial, Red-Team, Reader-Experience, Practice, Practice-Reasoning and Expected-Result guards.
 
@@ -245,14 +246,15 @@ D2 Reader Experience ✅
 D2 Practice ✅
 D2 Practice Reasoning ✅
 D2 Expected Result ✅
-D2 Verification Rubric ← NEXT
+D2 Verification Rubric ✅
+D2 Final Alignment ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 VERIFICATION RUBRIC NEXT
+CRN-M-02 ← ACTIVE / D2 FINAL ALIGNMENT NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

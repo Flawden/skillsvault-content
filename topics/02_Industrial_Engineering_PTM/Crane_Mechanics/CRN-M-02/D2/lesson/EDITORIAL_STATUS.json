@@ -22,11 +22,12 @@
     "equipment_authority_boundary_preserved": true,
     "d1_frozen_immutable": true
   },
-  "next": "CRN-M-02 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, non-compensable blocking failures, unseen transfer and challenge evidence",
+  "next": "CRN-M-02 / D2 FINAL ALIGNMENT / v1 — lesson-practice-reasoning-expected-rubric traceability, gap closure and guard consistency before source freshness",
   "red_team_pass_I": "COMPLETE",
   "reader_experience_pass_I": "COMPLETE",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }

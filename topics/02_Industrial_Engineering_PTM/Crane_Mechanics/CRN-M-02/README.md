@@ -74,4 +74,6 @@ D2 Practice Reasoning v1 is complete. It provides bounded worked paths for all A
 
 D2 Expected Result v1 is complete. It translates the applied lesson/practice contract into 12 observable competencies: system/path/contact reconstruction, local `Ti`, body-first FBD, vector reaction logic, `r_k` kinematics, `r_m` moment reasoning, spooling-state recognition, delta rebuilds, dynamic boundaries, source/reference-geometry discipline, duty/authority boundaries and integrated unseen transfer. Known A–K performance alone is insufficient; Verification must include an unseen case and a meaningful challenge/delta. A correct stop/escalation remains a successful D2 outcome when the model or authority is not demonstrated.
 
-Next: `D2 VERIFICATION RUBRIC / v1`.
+Verification Rubric v1 is complete. It scores ER-D2-01…12 on a 0–4 scale, requires all twelve dimensions at >=3 for D2 VERIFIED, includes unseen U1 + mandatory challenge C1, and makes nine Expected-Result blocking failures non-compensable. A high total score cannot hide unsafe local-T, FBD, kinematic/moment, source or field-authority errors.
+
+Next: `D2 FINAL ALIGNMENT / v1`.
