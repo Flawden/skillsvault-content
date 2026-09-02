@@ -44,7 +44,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Reader Experience / Pass I ✅ v1
 ├─ D3 Practice ✅ v1
 ├─ D3 Practice Reasoning ✅ v1
-└─ D3 Expected Result ← NEXT
+├─ D3 Expected Result ✅ v1
+└─ D3 Verification Rubric ← NEXT
 ```
 
 
@@ -54,6 +55,19 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 
 
 
+
+## CRN-M-02 D3 Expected Result v1
+
+Status: `COMPLETE`.
+
+- 13 observable dimensions ER-D3-01…ER-D3-13 translate the reviewed D3 causal-analysis contract into assessable behavior;
+- required evidence includes neutral observation, case boundary, causal map, competing hypotheses, falsifiable predictions, evidence matrix, observability, distinguishing data, history/confounders, dynamic rebuild, unknown/model-status discipline and source/method/authority separation;
+- known Practice/Reasoning A–L performance is insufficient: Verification must include an unseen causal case;
+- Verification must also supply a meaningful adversarial evidence update after the first conclusion and require matrix/status/conclusion rebuild;
+- `PLAUSIBLE — DISTINGUISHING DATA REQUIRED`, `SOURCE / OEM / SPECIALIST REQUIRED` and `NOT YET DEMONSTRATED` remain valid successful bounded outcomes;
+- 11 candidate blocking failures are carried forward for severity/non-compensability decisions;
+- no formal root-cause certification, numeric proof/design/remaining-life output, acceptance/discard threshold or equipment-specific authority is introduced;
+- D1/D2 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 ## CRN-M-02 D3 Practice Reasoning v1
 
@@ -385,9 +399,9 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 
 ## Next
 
-CRN-M-02 / D3 PRACTICE REASONING / v1 — worked competing-hypothesis paths, observability checks, evidence-matrix updates and bounded conclusions.
+CRN-M-02 / D3 VERIFICATION RUBRIC / v1 — score observable causal-analysis behaviors, non-compensable blocking failures, unseen transfer and adversarial evidence-update challenge.
 
-Keep Practice A–L unchanged as the assessment artifact; add worked reasoning separately.
+Build the rubric from ER-D3-01…13, require known + unseen + challenge evidence, and keep all proof/design/remaining-life/equipment-authority locks intact.
 
 ## D1 production sequence
 
@@ -423,14 +437,16 @@ D3 Technical Editorial ✅
 D3 Red Team ✅
 D3 Reader Experience ✅
 D3 Practice ✅
-D3 Practice Reasoning ← NEXT
+D3 Practice Reasoning ✅
+D3 Expected Result ✅
+D3 Verification Rubric ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 PRACTICE REASONING NEXT
+CRN-M-02 ← ACTIVE / D3 VERIFICATION RUBRIC NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

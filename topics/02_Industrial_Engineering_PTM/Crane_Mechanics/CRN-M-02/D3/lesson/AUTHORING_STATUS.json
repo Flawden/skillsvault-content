@@ -33,7 +33,7 @@
     "proof_design_remaining_life_locks_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D3 EXPECTED RESULT / v1 — define observable causal-analysis behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D3 VERIFICATION RUBRIC / v1 — score observable causal-analysis behaviors, non-compensable blocking failures, unseen transfer and adversarial evidence-update challenge",
   "editorial_pass_I": "COMPLETE",
   "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
   "red_team": {
@@ -69,5 +69,7 @@
     ]
   },
   "practice": "COMPLETE",
-  "practice_reasoning": "COMPLETE"
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

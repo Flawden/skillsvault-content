@@ -443,8 +443,8 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "verification_rubric": "WAITING",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT",
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
@@ -555,13 +555,32 @@
         "equipment_authority_boundary_preserved": true,
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 13,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/expected_result/v1/CRN-M-02_D3_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "transfer_required": true,
+        "known_case_performance_not_sufficient": true,
+        "challenge_evidence_update_required": true,
+        "observability_gate_required": true,
+        "hypothesis_space_limit_required": true,
+        "stop_or_escalation_can_be_success": true,
+        "candidate_blocking_failures": 11,
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_authority_boundary_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 EXPECTED RESULT / v1 — define observable causal-analysis behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
+  "next": "CRN-M-02 / D3 VERIFICATION RUBRIC / v1 — score observable causal-analysis behaviors, non-compensable blocking failures, unseen transfer and adversarial evidence-update challenge",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

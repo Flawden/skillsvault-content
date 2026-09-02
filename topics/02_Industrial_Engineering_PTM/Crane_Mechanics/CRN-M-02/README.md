@@ -102,4 +102,5 @@ D3 Practice v1 is complete. It adds 12 cases A–L covering competing causal mod
 
 D3 Practice Reasoning v1 is complete. It provides worked but non-exclusive reasoning paths for A–L, requires predictions and genuinely distinguishing evidence, treats non-detection through an observability gate, keeps `H_data` falsifiable, separates current state from accumulated history, rebuilds dynamic models without `not measured = zero`, and ends with model status + unknown register + bounded conclusion rather than formal root-cause storytelling. Practice itself remains unchanged.
 
-Next: `D3 EXPECTED RESULT / v1`.
+D3 Expected Result v1 is complete. It translates the causal-analysis contract into 13 observable competencies, a 17-item minimum evidence package, mandatory unseen transfer and an adversarial evidence-update challenge. Eleven candidate blocking failures carry causal closure, observability, `H_data`, dynamics, sensitivity, confounder, evidence-role, source/authority, unknown-erasure, single-story and update-failure risks forward to Verification Rubric. Correct bounded stop/escalation remains a successful outcome.
+Next: `D3 VERIFICATION RUBRIC / v1`.
