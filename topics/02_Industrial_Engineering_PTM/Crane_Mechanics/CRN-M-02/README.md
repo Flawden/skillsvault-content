@@ -70,4 +70,6 @@ Reader Experience Pass I is now complete with eight presentation corrections: ea
 
 D2 Practice v1 is complete with 11 cases A–K. It exercises local tension bookkeeping, body-first FBD rebuilding, qualitative reaction geometry, drum kinematics, helical-spooling stop conditions, moment-arm reasoning, spooling-state recognition, changed load paths, dynamic boundaries, source/reference-geometry traps and duty/classification context. Worked solutions remain separate by design.
 
-Next: `D2 PRACTICE REASONING / v1`.
+D2 Practice Reasoning v1 is complete. It provides bounded worked paths for all A–K cases, rebuilds FBDs after body/geometry changes, separates local `Ti`, `r_k` and `r_m`, makes spooling state precede verdict, and requires an explicit model-status/source boundary instead of a formula-first answer. The Practice artifact itself remains unchanged and no single mechanical answer key is introduced.
+
+Next: `D2 EXPECTED RESULT / v1`.

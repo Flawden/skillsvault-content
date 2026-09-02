@@ -181,11 +181,25 @@ Status: `COMPLETE`.
 - numeric design/OEM claim locks remain intact;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+- 11 worked reasoning paths A–K preserve the original Practice as a separate assessment artifact;
+- local `Ti` remain bookkeeping variables until equality is demonstrated;
+- body-first FBD rebuilds and action/reaction ownership are explicit;
+- `r_k` circumferential kinematics and `r_m` moment-arm reasoning remain separated;
+- spooling observations remain observation/mechanism inputs, not automatic accept/discard verdicts;
+- dynamic, source/reference-geometry and duty/classification stop conditions are explicit;
+- `SIMPLE`, `QUALITATIVE APPLIED`, `SOURCE / OEM REQUIRED` and `NOT YET DEMONSTRATED` outcomes are treated as legitimate bounded model states;
+- numeric design/OEM claim locks remain intact;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key
+CRN-M-02 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric
 
-D1 is immutable. Continue D2 Practice Reasoning under the locked Lesson, Editorial, Red-Team and Reader-Experience guards.
+D1 is immutable. Continue D2 Expected Result under the locked Lesson, Editorial, Red-Team, Reader-Experience, Practice and Practice-Reasoning guards.
 
 ## D1 production sequence
 
@@ -209,14 +223,15 @@ D2 Technical Editorial ✅
 D2 Red Team ✅
 D2 Reader Experience ✅
 D2 Practice ✅
-D2 Practice Reasoning ← NEXT
+D2 Practice Reasoning ✅
+D2 Expected Result ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 PRACTICE NEXT
+CRN-M-02 ← ACTIVE / D2 EXPECTED RESULT NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

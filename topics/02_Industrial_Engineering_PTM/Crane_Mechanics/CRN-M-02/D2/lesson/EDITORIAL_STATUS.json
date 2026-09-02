@@ -22,9 +22,10 @@
     "equipment_authority_boundary_preserved": true,
     "d1_frozen_immutable": true
   },
-  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key",
+  "next": "CRN-M-02 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
   "red_team_pass_I": "COMPLETE",
   "reader_experience_pass_I": "COMPLETE",
   "practice": "COMPLETE",
-  "practice_reasoning": "NEXT"
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "NEXT"
 }

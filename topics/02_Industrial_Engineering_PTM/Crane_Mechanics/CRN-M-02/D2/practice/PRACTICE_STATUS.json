@@ -13,5 +13,8 @@
   "numeric_design_claim_lock_preserved": true,
   "equipment_specific_authority_locked": true,
   "d1_frozen_immutable": true,
-  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key"
+  "next": "CRN-M-02 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, evidence outputs, model-status discipline and unseen transfer criteria before verification rubric",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "NEXT",
+  "reasoning": "COMPLETE"
 }
