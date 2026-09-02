@@ -140,4 +140,6 @@ D4 Expected Result v1 is complete with 14 observable dimensions. It converts que
 
 D4 Verification Rubric v1 is complete: 14 dimensions are scored 0–4, all must reach >=3, and all 12 BF-D4 failures are non-compensable. Known A–J is insufficient; prospective-change U1 plus mandatory C1 test configuration/input provenance, model independence, V&V, robustness and bounded authority handoff. Correct stop/escalation remains a strong result when evidence is incomplete.
 
-Next: `CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness`.
+D4 Final Alignment v1 is complete: 9/9 Parts, 45/45 Lesson blocks, 10/10 Practice and Reasoning cases, 14/14 Expected Result dimensions, 14/14 Rubric dimensions and 12/12 non-compensable Blocking Failures have complete prior/downstream traceability. Orphan competence = 0, surprise BF = 0, guard contradictions = 0. Known capstone J remains pattern-only for ER-D4-14; unseen U1 plus mandatory C1 close transfer/adaptive-update competence. No source/method/proof/remaining-life/NDT/equipment-authority boundary was relaxed.
+
+Next: `CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze`.

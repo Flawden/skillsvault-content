@@ -60,7 +60,8 @@ D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
-D4 Final Alignment ← NEXT
+D4 Final Alignment ✅ v1
+D4 Source Freshness ← NEXT
 ```
 
 
@@ -589,14 +590,15 @@ D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
-D4 Final Alignment ← NEXT
+D4 Final Alignment ✅ v1
+D4 Source Freshness ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 VERIFICATION RUBRIC COMPLETE / FINAL ALIGNMENT NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 FINAL ALIGNMENT COMPLETE / SOURCE FRESHNESS NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
@@ -701,4 +703,17 @@ Status: `COMPLETE`.
 - actual proof, remaining-life, NDT, acceptance/discard and equipment-authority locks remain closed;
 - D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
-Next: `CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness`
+## CRN-M-02 D4 Final Alignment v1
+
+Status: `COMPLETE / PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- 9 / 9 Lesson Parts and 45 / 45 Blocks traced;
+- Practice A–J and Practice Reasoning A–J: 10 / 10 each;
+- ER-D4-01…14 ↔ Rubric ER-D4-01…14: 14 / 14;
+- BF-D4-01…12: 12 / 12 with prior instructional/review origin;
+- orphan competence, surprise BF and guard contradictions: 0;
+- known J remains insufficient for ER-D4-14; unseen U1 + mandatory C1 remain required;
+- source/method applicability, V&V/common-mode, robustness-envelope, STOP/permission and equipment-authority guards remain closed;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze`

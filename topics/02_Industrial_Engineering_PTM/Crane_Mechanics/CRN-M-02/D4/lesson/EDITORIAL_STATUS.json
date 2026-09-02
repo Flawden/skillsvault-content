@@ -19,10 +19,11 @@
   },
   "red_team": "COMPLETE",
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness",
+  "next": "CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
-  "final_alignment": "NEXT"
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

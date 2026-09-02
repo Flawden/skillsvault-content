@@ -695,8 +695,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "PENDING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "PENDING"
       },
       "method_contract": {
@@ -908,10 +908,31 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/final_alignment/v1/CRN-M-02_D4_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "lesson_parts_traced": 9,
+        "lesson_blocks_traced": 45,
+        "practice_cases_traced": 10,
+        "reasoning_cases_traced": 10,
+        "expected_dimensions_traced": 14,
+        "rubric_dimensions_traced": 14,
+        "blocking_failures_with_prior_origin": 12,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true
       }
     }
   },
-  "next": "CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness",
+  "next": "CRN-M-02 / D4 SOURCE FRESHNESS / v1 — revalidate current source editions/status, development/watchlist records and D4 method-selection/V&V/robustness/authority claim boundaries before D4 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
