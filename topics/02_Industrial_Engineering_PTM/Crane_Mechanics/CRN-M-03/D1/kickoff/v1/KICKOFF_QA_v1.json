@@ -1,0 +1,29 @@
+{
+  "stage": "CRN-M-03_CONTENT_KICKOFF_v1",
+  "topic_id": "CRN-M-03",
+  "depth": "D1",
+  "version": "v1",
+  "date": "2026-09-02",
+  "result": "PASS_WITH_CLAIM_LIMITS",
+  "checks": {
+    "crn_m02_reused_as_structure_only": true,
+    "crn_m01_and_crn_m02_frozen_topics_immutable": true,
+    "d1_scope_has_explicit_in_and_out": true,
+    "integral_hook_suspension_vs_detachable_attachment_separated": true,
+    "load_path_before_judgement_present": true,
+    "latch_not_assumed_load_bearing": true,
+    "iso_4306_1_2026_current_verified": true,
+    "iso_1837_2003_current_verified": true,
+    "iso_17440_2014_current_verified_and_scope_limited": true,
+    "iso_17096_2015_current_verified": true,
+    "iso_17096_grab_exclusion_guard_recorded": true,
+    "fnp_461_2026_revision_verified": true,
+    "paid_iso_numeric_content_not_reproduced": true,
+    "oem_device_documentation_requirement_recorded": true,
+    "numeric_design_acceptance_claims_locked": true,
+    "repair_ndt_return_to_service_claims_locked": true,
+    "lesson_authoring_unlocked": true,
+    "frozen_index_unchanged": true
+  },
+  "next": "CRN-M-03 / D1 LESSON AUTHORING / v1 — build the beginner mental model for hook suspensions and load-gripping devices under the locked source/claim boundaries"
+}

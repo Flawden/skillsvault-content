@@ -21,8 +21,10 @@
 
 Активный Topic: `CRN-M-03 — Крюковые подвески и захваты`.
 
-- Content Kickoff — NEXT
-- D1 Scope / Source Gate — pending kickoff
+- Content Kickoff — COMPLETE v1
+- D1 Scope — LOCKED v1
+- D1 Source Gate — PASS WITH CLAIM LIMITS v1
+- D1 Lesson Authoring — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 

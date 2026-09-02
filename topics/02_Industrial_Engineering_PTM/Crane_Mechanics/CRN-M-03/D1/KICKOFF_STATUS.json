@@ -1,0 +1,16 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "d1_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "numeric_design_claims": "LOCKED_PENDING_EXACT_SOURCE",
+  "inspection_acceptance_claims": "LOCKED_PENDING_EXACT_SOURCE",
+  "repair_ndt_return_to_service_claims": "LOCKED",
+  "baseline_commit": "87c8523fd878ad568a06b80d06d4043c52b32518",
+  "structural_contract_source": "crn-m-02-v1",
+  "next": "CRN-M-03 / D1 LESSON AUTHORING / v1 — build the beginner mental model for hook suspensions and load-gripping devices under the locked source/claim boundaries"
+}

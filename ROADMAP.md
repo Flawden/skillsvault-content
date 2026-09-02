@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / CONTENT KICKOFF NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 LESSON AUTHORING NEXT
 ```
 
 
@@ -19,6 +19,25 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / CO
 
 
 
+
+
+
+## CRN-M-03 D1 Content Kickoff v1
+
+Status: `COMPLETE / PASS WITH CLAIM LIMITS`.
+
+- D1 scope is locked around beginner hook-suspension / load-gripping-device recognition and load-path reasoning;
+- crane-integral hook suspension versus detachable below-hook attachment is explicit;
+- hook nomenclature and latch/keeper role are separated from design/acceptance claims;
+- ISO 4306-1:2026 and ISO 1837:2003 anchor vocabulary;
+- ISO 17440:2014 is used only as a forged-hook proof scope boundary, not as a universal hook-block or inspection rule;
+- ISO 17096:2015 anchors several load-lifting attachment categories and its explicit exclusion of grabs/grab buckets is carried as a hard source-scope guard;
+- ФНП ПС №461 (ред. 16.04.2026) anchors the Russian regulatory/authority boundary;
+- passport/OEM/device documentation is mandatory for actual configuration, capacity, inspection, maintenance, repair and permission decisions;
+- numeric design/proof, discard/acceptance, holding-force, test, repair/NDT and return-to-service claims remain locked;
+- CRN-M-01 and CRN-M-02 frozen content and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 LESSON AUTHORING / v1`.
 
 ## CRN-M-02 D3 Verification Rubric v1
 

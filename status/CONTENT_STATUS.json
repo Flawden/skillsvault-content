@@ -5,9 +5,58 @@
   "active_topic": "CRN-M-03",
   "active_topic_name_ru": "Крюковые подвески и захваты",
   "topic_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03",
-  "topic_status": "PENDING_KICKOFF",
-  "depths": {},
-  "next": "CRN-M-03 / CONTENT KICKOFF / v1 — Крюковые подвески и захваты; define D1 scope/source gate and reuse the CRN-M-02 topic contract",
+  "topic_status": "ACTIVE",
+  "depths": {
+    "D1": {
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-02",
+        "lesson_authoring_unlocked": true,
+        "source_records": 6,
+        "watchlist_count": 0,
+        "numeric_design_limits_unlocked": false,
+        "inspection_acceptance_limits_unlocked": false,
+        "repair_ndt_return_to_service_unlocked": false,
+        "equipment_specific_claims_require_oem_or_device_documentation": true
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "NEXT",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "locks": {
+        "paid_source_reconstruction": true,
+        "numeric_design_and_proof": true,
+        "inspection_discard_acceptance": true,
+        "grab_clamp_magnet_vacuum_holding_force": true,
+        "repair_and_specialist_ndt": true,
+        "equipment_specific_capacity_and_compatibility": true,
+        "return_to_service_or_operational_permission": true
+      },
+      "baseline_commit": "87c8523fd878ad568a06b80d06d4043c52b32518",
+      "structural_contract_source": "crn-m-02-v1"
+    }
+  },
+  "next": "CRN-M-03 / D1 LESSON AUTHORING / v1 — build the beginner mental model for hook suspensions and load-gripping devices under the locked source/claim boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -25,8 +74,10 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/README.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/KICKOFF_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/FROZEN_v1/PILOT_HANDOFF.md",
     "Continue from status.next"
   ]
 }
