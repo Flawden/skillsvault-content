@@ -1,0 +1,65 @@
+{
+  "artifact": "CRN-M-02_D2_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "5dfbe665755ec2ca2c635b8d3bded15e1c9b3e25",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "findings": 7,
+    "corrections_applied": 7
+  },
+  "findings": [
+    {
+      "id": "RT-D2-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "physical rope continuity vs equal local tensions"
+    },
+    {
+      "id": "RT-D2-02",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "free-body selection / action-reaction arrow mixing"
+    },
+    {
+      "id": "RT-D2-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "no-slip vs helical rope-speed geometry"
+    },
+    {
+      "id": "RT-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "layer radius vs axis moment arm"
+    },
+    {
+      "id": "RT-D2-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "crossover / side-contact observation vs field verdict"
+    },
+    {
+      "id": "RT-D2-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "source-specific angle definition and numeric-limit transfer"
+    },
+    {
+      "id": "RT-D2-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "quasi-static reaction vs dynamic load overreach"
+    }
+  ],
+  "guards": {
+    "d1_frozen_modified": false,
+    "frozen_index_modified": false,
+    "numeric_design_limits_added": false,
+    "equipment_specific_authority_added": false,
+    "closed_normative_tables_reconstructed": false,
+    "claim_lock_preserved": true,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-02 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve applied-mechanics flow and diagram-reading clarity without weakening Red-Team, source or field-authority guards"
+}

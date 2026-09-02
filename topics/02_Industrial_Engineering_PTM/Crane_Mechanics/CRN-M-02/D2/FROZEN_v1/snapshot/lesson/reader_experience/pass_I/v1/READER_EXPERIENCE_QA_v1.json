@@ -1,0 +1,37 @@
+{
+  "artifact": "CRN-M-02_D2_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-02",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "be351d8cb33efea76f52fe21da58b629c181013d",
+  "findings": [
+    "RX-D2-01",
+    "RX-D2-02",
+    "RX-D2-03",
+    "RX-D2-04",
+    "RX-D2-05",
+    "RX-D2-06",
+    "RX-D2-07",
+    "RX-D2-08"
+  ],
+  "reader_checks": {
+    "early_working_route_added": true,
+    "symbol_legend_added": true,
+    "model_status_meaning_onboarded_early": true,
+    "paired_fbd_card_added": true,
+    "kinematic_radius_vs_moment_arm_card_added": true,
+    "spooling_state_recognition_routine_added": true,
+    "failure_examples_grouped": true,
+    "red_team_invariant_count_consistent": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "numeric_design_claims_introduced": false,
+    "field_authority_boundary_preserved": true,
+    "source_authority_changed": false,
+    "d1_frozen_changed": false,
+    "frozen_index_changed": false
+  },
+  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards"
+}

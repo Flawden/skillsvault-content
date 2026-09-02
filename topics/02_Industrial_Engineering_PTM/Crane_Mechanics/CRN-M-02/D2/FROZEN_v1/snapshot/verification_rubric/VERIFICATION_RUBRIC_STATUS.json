@@ -1,0 +1,23 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "stage": "VERIFICATION_RUBRIC",
+  "version": "v1",
+  "status": "COMPLETE",
+  "dimensions": 12,
+  "levels": 5,
+  "blocking_failures": 9,
+  "max_score": 48,
+  "known_case_required": true,
+  "unseen_transfer_required": true,
+  "challenge_delta_required": true,
+  "all_dimensions_minimum_3_for_verified": true,
+  "blocking_failures_non_compensable": true,
+  "numeric_design_claim_lock_preserved": true,
+  "equipment_specific_authority_locked": true,
+  "d1_frozen_immutable": true,
+  "final_alignment": "COMPLETE",
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
+}

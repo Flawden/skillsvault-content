@@ -1,0 +1,454 @@
+{
+  "artifact": "CRN-M-02_D2_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "8fcd35a86f9baf67238d3f1e089c2e054b03abbb",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_primary_sections": 18,
+    "lesson_primary_sections_traced": 18,
+    "practice_cases": 11,
+    "practice_cases_traced": 11,
+    "reasoning_cases": 11,
+    "reasoning_cases_traced": 11,
+    "expected_dimensions": 12,
+    "expected_dimensions_traced": 12,
+    "rubric_dimensions": 12,
+    "rubric_dimensions_traced": 12,
+    "blocking_failures": 9,
+    "blocking_failures_with_prior_origin": 9,
+    "orphan_lesson_sections": 0,
+    "orphan_practice_cases": 0,
+    "orphan_reasoning_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0
+  },
+  "lesson_traceability": [
+    {
+      "section": "§1",
+      "role": "Main D2 map",
+      "expected": "ER-D2-01,ER-D2-12",
+      "practice": "A–K",
+      "verification": "U1",
+      "status": "PASS"
+    },
+    {
+      "section": "§2",
+      "role": "Geometry is mechanics",
+      "expected": "ER-D2-04,ER-D2-08",
+      "practice": "C,H",
+      "verification": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§3",
+      "role": "Equal tension becomes assumption",
+      "expected": "ER-D2-02",
+      "practice": "A,C,H",
+      "verification": "BF-D2-01",
+      "status": "PASS"
+    },
+    {
+      "section": "§4",
+      "role": "Block reaction + FBD",
+      "expected": "ER-D2-03,ER-D2-04",
+      "practice": "B,C,H,I",
+      "verification": "C1/BF-D2-02",
+      "status": "PASS"
+    },
+    {
+      "section": "§5",
+      "role": "Entry/exit lateral geometry",
+      "expected": "ER-D2-10",
+      "practice": "J",
+      "verification": "U1/BF-D2-06",
+      "status": "PASS"
+    },
+    {
+      "section": "§6",
+      "role": "Drum kinematic radius",
+      "expected": "ER-D2-05",
+      "practice": "D,E",
+      "verification": "U1/BF-D2-03",
+      "status": "PASS"
+    },
+    {
+      "section": "§7",
+      "role": "Axis moment / moment arm",
+      "expected": "ER-D2-06",
+      "practice": "F",
+      "verification": "U1 when relevant/BF-D2-04",
+      "status": "PASS"
+    },
+    {
+      "section": "§8",
+      "role": "Spooling states",
+      "expected": "ER-D2-07",
+      "practice": "G",
+      "verification": "U1/BF-D2-05",
+      "status": "PASS"
+    },
+    {
+      "section": "§9",
+      "role": "Spooling state as input",
+      "expected": "ER-D2-07,ER-D2-12",
+      "practice": "G",
+      "verification": "U1",
+      "status": "PASS"
+    },
+    {
+      "section": "§10",
+      "role": "Real load path",
+      "expected": "ER-D2-01…04,ER-D2-08",
+      "practice": "A–C,H",
+      "verification": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§11",
+      "role": "Changed route",
+      "expected": "ER-D2-04,ER-D2-08",
+      "practice": "C,H",
+      "verification": "C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§12",
+      "role": "Losses/non-ideality",
+      "expected": "ER-D2-02,ER-D2-12",
+      "practice": "A,C,E,H",
+      "verification": "model-status guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§13",
+      "role": "Duty/classification",
+      "expected": "ER-D2-11",
+      "practice": "K",
+      "verification": "BF-D2-08",
+      "status": "PASS"
+    },
+    {
+      "section": "§14",
+      "role": "Observation to decision",
+      "expected": "ER-D2-07,10,11,12",
+      "practice": "G,H,J,K",
+      "verification": "BF-D2-05/06/09",
+      "status": "PASS"
+    },
+    {
+      "section": "§15",
+      "role": "D2 algorithm",
+      "expected": "ER-D2-01…12",
+      "practice": "A–K",
+      "verification": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§16",
+      "role": "Integrated example",
+      "expected": "ER-D2-01…08,12",
+      "practice": "mixed check",
+      "verification": "U1",
+      "status": "PASS"
+    },
+    {
+      "section": "§17",
+      "role": "Typical errors",
+      "expected": "BF-D2-01…09",
+      "practice": "A–K",
+      "verification": "BF provenance",
+      "status": "PASS"
+    },
+    {
+      "section": "§18",
+      "role": "Memory map",
+      "expected": "ER-D2-01…12",
+      "practice": "mixed check",
+      "verification": "U1/C1",
+      "status": "PASS"
+    }
+  ],
+  "er_traceability": [
+    {
+      "id": "ER-D2-01",
+      "competence": "System/mode + path + contact nodes",
+      "lesson": "§§1,10,15,16",
+      "practice_reasoning": "A–K; A/B/H",
+      "verification": "U1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-02",
+      "competence": "Local Ti bookkeeping",
+      "lesson": "§§3,10,12,15,17",
+      "practice_reasoning": "A/C/H",
+      "verification": "U1; BF-D2-01",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-03",
+      "competence": "Body-first FBD / force ownership",
+      "lesson": "§§4,10,15,17",
+      "practice_reasoning": "B/C/H/I",
+      "verification": "U1+C1; BF-D2-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-04",
+      "competence": "Vector reaction / geometry sensitivity",
+      "lesson": "§§2,4,10,11",
+      "practice_reasoning": "C/H",
+      "verification": "U1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-05",
+      "competence": "r_k kinematics + helical stop",
+      "lesson": "§§6,15,17",
+      "practice_reasoning": "D/E",
+      "verification": "U1; BF-D2-03",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-06",
+      "competence": "r_m / line-of-action moment",
+      "lesson": "§§7,15,17",
+      "practice_reasoning": "F",
+      "verification": "U1 when relevant; BF-D2-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-07",
+      "competence": "Spooling state before verdict",
+      "lesson": "§§8,9,14,15",
+      "practice_reasoning": "G",
+      "verification": "U1; BF-D2-05",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-08",
+      "competence": "Delta rebuild",
+      "lesson": "§§2,10,11,15,16",
+      "practice_reasoning": "C/F/H",
+      "verification": "C1; optional C2",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-09",
+      "competence": "Quasi-static/dynamic boundary",
+      "lesson": "§§4,12,15,17",
+      "practice_reasoning": "I",
+      "verification": "optional C2; BF-D2-07",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-10",
+      "competence": "Term/definition/reference geometry/source",
+      "lesson": "§§5,14,15,17",
+      "practice_reasoning": "J",
+      "verification": "U1; BF-D2-06",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-11",
+      "competence": "Duty/classification + authority boundary",
+      "lesson": "§§13,14,15,17",
+      "practice_reasoning": "G/H/J/K",
+      "verification": "U1; BF-D2-08/09",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-12",
+      "competence": "Integrated status + unseen transfer",
+      "lesson": "§§1,12,14–18",
+      "practice_reasoning": "A–K primitives",
+      "verification": "U1+C1 required",
+      "status": "PASS"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "primary": "local Ti bookkeeping",
+      "expected": "ER-D2-01,ER-D2-02,ER-D2-12",
+      "blocking_guard": "BF-D2-01",
+      "reasoning": "A",
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "primary": "body-first FBD/action-reaction",
+      "expected": "ER-D2-01,ER-D2-03",
+      "blocking_guard": "BF-D2-02",
+      "reasoning": "B",
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "primary": "vector reaction geometry",
+      "expected": "ER-D2-02,ER-D2-03,ER-D2-04,ER-D2-08",
+      "blocking_guard": "BF-D2-02",
+      "reasoning": "C",
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "primary": "simple circumferential kinematics",
+      "expected": "ER-D2-05,ER-D2-12",
+      "blocking_guard": "BF-D2-03 boundary",
+      "reasoning": "D",
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "primary": "helical kinematic stop",
+      "expected": "ER-D2-05,ER-D2-12",
+      "blocking_guard": "BF-D2-03",
+      "reasoning": "E",
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "primary": "line-of-action moment",
+      "expected": "ER-D2-06,ER-D2-08",
+      "blocking_guard": "BF-D2-04",
+      "reasoning": "F",
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "primary": "spooling state recognition",
+      "expected": "ER-D2-07,ER-D2-11,ER-D2-12",
+      "blocking_guard": "BF-D2-05",
+      "reasoning": "G",
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "primary": "changed load path / authority",
+      "expected": "ER-D2-01…04,ER-D2-08,ER-D2-11,ER-D2-12",
+      "blocking_guard": "BF-D2-09",
+      "reasoning": "H",
+      "status": "PASS"
+    },
+    {
+      "case": "I",
+      "primary": "quasi-static/dynamic stop",
+      "expected": "ER-D2-03,ER-D2-09,ER-D2-12",
+      "blocking_guard": "BF-D2-07",
+      "reasoning": "I",
+      "status": "PASS"
+    },
+    {
+      "case": "J",
+      "primary": "definition/reference geometry/source",
+      "expected": "ER-D2-10,ER-D2-11,ER-D2-12",
+      "blocking_guard": "BF-D2-06",
+      "reasoning": "J",
+      "status": "PASS"
+    },
+    {
+      "case": "K",
+      "primary": "duty/classification context",
+      "expected": "ER-D2-11,ER-D2-12",
+      "blocking_guard": "BF-D2-08",
+      "reasoning": "K",
+      "status": "PASS"
+    }
+  ],
+  "blocking_failure_traceability": [
+    {
+      "id": "BF-D2-01",
+      "failure": "One-rope-equal-T shortcut",
+      "lesson": "§§3,17",
+      "practice_reasoning": "A",
+      "expected": "ER-D2-02",
+      "verification": "BF-D2-01",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-02",
+      "failure": "FBD ownership collapse",
+      "lesson": "§§4,17",
+      "practice_reasoning": "B,C",
+      "expected": "ER-D2-03",
+      "verification": "BF-D2-02",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-03",
+      "failure": "Universal ωr",
+      "lesson": "§§6,17",
+      "practice_reasoning": "D,E",
+      "expected": "ER-D2-05",
+      "verification": "BF-D2-03",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-04",
+      "failure": "Layer-radius-as-moment-arm",
+      "lesson": "§§7,17",
+      "practice_reasoning": "F",
+      "expected": "ER-D2-06",
+      "verification": "BF-D2-04",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-05",
+      "failure": "Observation-to-verdict leap",
+      "lesson": "§§8,9,14,17",
+      "practice_reasoning": "G",
+      "expected": "ER-D2-07",
+      "verification": "BF-D2-05",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-06",
+      "failure": "Terminology-only numeric authority",
+      "lesson": "§§5,14,17",
+      "practice_reasoning": "J",
+      "expected": "ER-D2-10",
+      "verification": "BF-D2-06",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-07",
+      "failure": "Quasi-static-as-dynamic authority",
+      "lesson": "§§4,12,17",
+      "practice_reasoning": "I",
+      "expected": "ER-D2-09",
+      "verification": "BF-D2-07",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-08",
+      "failure": "Classification-factor invention",
+      "lesson": "§§13,17",
+      "practice_reasoning": "K",
+      "expected": "ER-D2-11",
+      "verification": "BF-D2-08",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-09",
+      "failure": "Comprehension-to-field-authority leap",
+      "lesson": "§§14,15,17",
+      "practice_reasoning": "H,J,K",
+      "expected": "ER-D2-11/12",
+      "verification": "BF-D2-09",
+      "status": "PASS"
+    }
+  ],
+  "guards": {
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_specific_authority_locked": true,
+    "source_definition_reference_geometry_guard_preserved": true,
+    "model_status_discipline_preserved": true,
+    "d1_frozen_immutable": true,
+    "frozen_index_modified": false,
+    "content_corrections_required": false,
+    "source_freshness_ready": true
+  }
+}

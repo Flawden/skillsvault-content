@@ -12,5 +12,8 @@
   "lesson_authoring": "UNLOCKED",
   "numeric_design_claims": "LOCKED_PENDING_EXACT_SOURCE",
   "baseline_commit": "fd58503a20a055c98c110694e4fcd3a7d935cd8d",
-  "next": "CRN-M-02 / D2 LESSON AUTHORING / v1 — build applied drum, sheave and reeving mechanics around geometry, spooling state and non-ideal load-path reasoning under locked numeric/OEM boundaries"
+  "next": "CRN-M-02 / D3 CONTENT KICKOFF / v1 — define advanced-analysis scope/source gate for drum, sheave and reeving mechanics while preserving D1/D2 frozen boundaries",
+  "freeze": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1"
 }

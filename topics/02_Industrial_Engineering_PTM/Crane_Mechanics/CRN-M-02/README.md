@@ -80,4 +80,6 @@ Final Alignment v1 is complete. Lesson §§1–18, Practice/Reasoning A–K, ER-
 
 Source Freshness v1 is complete. ISO 4306-1:2026, ISO 16625:2025, ISO 4301-1:2016, ISO 4309:2017, the Edition 6 draft watchlist and ФНП №461 (ред. 16.04.2026) were revalidated. No D2 content correction is required; geometry/spooling/classification claim locks and the passport/OEM authority boundary remain intact.
 
-Next: `D2 FREEZE / v1`.
+D2 Freeze v1 snapshots all 52 accepted D2 artifacts and locks them in the canonical frozen index under tag `crn-m-02-d2-v1`.
+
+Next: `D3 CONTENT KICKOFF / v1`.

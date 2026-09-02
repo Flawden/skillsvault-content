@@ -32,9 +32,10 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Practice Reasoning ✅ v1
 ├─ D2 Expected Result ✅ v1
 ├─ D2 Verification Rubric ✅ v1
-└─ D2 Final Alignment ✅
-D2 Source Freshness ✅
-D2 Freeze ← NEXT
+├─ D2 Final Alignment ✅ v1
+├─ D2 Source Freshness ✅ PASS WITH WATCHLIST v1
+├─ D2 Freeze ✅ FROZEN v1 / tag crn-m-02-d2-v1
+└─ D3 Content Kickoff ← NEXT
 ```
 
 
@@ -286,7 +287,8 @@ D2 Expected Result ✅
 D2 Verification Rubric ✅
 D2 Final Alignment ✅
 D2 Source Freshness ✅
-D2 Freeze ← NEXT
+D2 Freeze ✅ FROZEN v1 / tag crn-m-02-d2-v1
+D3 Content Kickoff ← NEXT
 ```
 
 ## CQ-B001 pilot sequence

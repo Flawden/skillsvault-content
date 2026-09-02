@@ -193,7 +193,7 @@
       }
     },
     "D2": {
-      "status": "SOURCE_FRESHNESS_COMPLETE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -223,7 +223,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "freeze": "COMPLETE"
       },
       "lesson_authoring": {
         "status": "COMPLETE",
@@ -398,16 +398,27 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/CRN-M-02_D2_SOURCE_FRESHNESS_v1.md",
         "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/SOURCE_INVENTORY_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
+      },
+      "freeze": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "freeze_date": "2026-09-02",
+        "baseline_commit": "e5030694ae6705cb6f7f61b4413b8288e7c68e72",
+        "tag": "crn-m-02-d2-v1",
+        "snapshot_members": 52,
+        "bundle_files": 61,
+        "immutable": true,
+        "d1_prerequisite_tag": "crn-m-02-d1-v1"
       }
     },
     "D3": {
-      "status": "WAITING"
+      "status": "NEXT"
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
+  "next": "CRN-M-02 / D3 CONTENT KICKOFF / v1 — define advanced-analysis scope/source gate for drum, sheave and reeving mechanics while preserving D1/D2 frozen boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -439,6 +450,7 @@
     "Continue from status.next",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/final_alignment/FINAL_ALIGNMENT_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/SOURCE_FRESHNESS_STATUS.json"
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/SOURCE_FRESHNESS_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/FREEZE_STATUS.json"
   ]
 }
