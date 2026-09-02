@@ -105,4 +105,6 @@ D3 Practice Reasoning v1 is complete. It provides worked but non-exclusive reaso
 D3 Expected Result v1 is complete. It translates the causal-analysis contract into 13 observable competencies, a minimum evidence package, mandatory unseen transfer and an adversarial evidence-update challenge. Eleven candidate blocking failures carry causal closure, observability, `H_data`, dynamics, sensitivity, confounder, evidence-role, source/authority, unknown-erasure, single-story and update-failure risks forward to Verification Rubric. Correct bounded stop/escalation remains a successful outcome.
 
 D3 Verification Rubric v1 is complete. It scores ER-D3-01…13 on a 0–4 scale (52 max), requires every dimension at >=3, makes all eleven BF non-compensable, and requires known-case evidence + unseen U1 + mandatory C1 evidence update. D3 VERIFIED = 39–45 only when all gates pass; ROBUST / TRANSFER = 46–52 with Level-4 evidence-matrix, distinguishing-data and integrated transfer/update performance. Score bands are pedagogical, not equipment criteria.
-Next: `D3 FINAL ALIGNMENT / v1`.
+
+D3 Final Alignment v1 is complete. Lesson §§1–33, Practice/Reasoning A–L, ER-D3-01…13, Rubric ER-D3-01…13 and BF-D3-01…11 are traced end-to-end. No orphan content, surprise blocking rule or guard contradiction was found. U1 + C1 intentionally close ER-D3-13 transfer/update; no content correction is required before freshness.
+Next: `D3 SOURCE FRESHNESS / v1`.

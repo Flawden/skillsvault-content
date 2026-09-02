@@ -14,9 +14,10 @@
   "equipment_specific_authority_locked": true,
   "d1_frozen_immutable": true,
   "d2_frozen_immutable": true,
-  "next": "CRN-M-02 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
+  "next": "CRN-M-02 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-analysis claim limits and proof/design/remaining-life/equipment-authority boundaries before D3 freeze",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
-  "final_alignment": "NEXT"
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

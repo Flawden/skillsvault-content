@@ -412,7 +412,7 @@
       }
     },
     "D3": {
-      "status": "ACTIVE",
+      "status": "FINAL_ALIGNMENT_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -445,8 +445,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "WAITING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "WAITING"
       },
       "lesson_authoring": {
@@ -599,13 +599,37 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/verification_rubric/v1/CRN-M-02_D3_VERIFICATION_RUBRIC_v1.md",
         "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json"
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/final_alignment/v1/CRN-M-02_D3_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "lesson_sections_traced": 33,
+        "practice_cases_traced": 12,
+        "reasoning_cases_traced": 12,
+        "expected_dimensions_traced": 13,
+        "rubric_dimensions_traced": 13,
+        "blocking_failures_with_prior_origin": 11,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "unseen_transfer_u1_required": true,
+        "mandatory_c1_evidence_update_required": true,
+        "formal_root_cause_not_unlocked": true,
+        "proof_design_remaining_life_locks_preserved": true,
+        "equipment_specific_authority_locked": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
+  "next": "CRN-M-02 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-analysis claim limits and proof/design/remaining-life/equipment-authority boundaries before D3 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

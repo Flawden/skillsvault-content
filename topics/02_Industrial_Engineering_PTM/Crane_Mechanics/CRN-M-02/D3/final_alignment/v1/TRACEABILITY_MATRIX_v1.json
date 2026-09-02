@@ -1,0 +1,604 @@
+{
+  "artifact": "CRN-M-02_D3_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "3e95c2b46fdb9a6f5cd69d29951012bc9d2a9e7c",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_primary_sections": 33,
+    "lesson_primary_sections_traced": 33,
+    "practice_cases": 12,
+    "practice_cases_traced": 12,
+    "reasoning_cases": 12,
+    "reasoning_cases_traced": 12,
+    "expected_dimensions": 13,
+    "expected_dimensions_traced": 13,
+    "rubric_dimensions": 13,
+    "rubric_dimensions_traced": 13,
+    "blocking_failures": 11,
+    "blocking_failures_with_prior_origin": 11,
+    "orphan_lesson_sections": 0,
+    "orphan_practice_cases": 0,
+    "orphan_reasoning_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0
+  },
+  "lesson_traceability": [
+    {
+      "section": "§1",
+      "role": "D3 case-file map: state → competing causal model → bounded conclusion",
+      "expected": "ER-D3-01,03,13",
+      "practice_or_verification": "L; U1/C1",
+      "guard_or_note": "integrated case boundary and transfer spine",
+      "status": "PASS"
+    },
+    {
+      "section": "§2",
+      "role": "Observed symptom is not cause",
+      "expected": "ER-D3-02,04,13",
+      "practice_or_verification": "A,B,L; U1",
+      "guard_or_note": "neutral signature before explanation",
+      "status": "PASS"
+    },
+    {
+      "section": "§3",
+      "role": "Causal map across load/history, geometry, contact, motion and response",
+      "expected": "ER-D3-03",
+      "practice_or_verification": "A,E,F,L; U1",
+      "guard_or_note": "multi-variable causal structure",
+      "status": "PASS"
+    },
+    {
+      "section": "§4",
+      "role": "At least two genuinely competing hypotheses",
+      "expected": "ER-D3-04",
+      "practice_or_verification": "A,B,D,L; U1",
+      "guard_or_note": "BF-D3-01/BF-D3-03/BF-D3-10 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§5",
+      "role": "Falsifiable predictions for each hypothesis",
+      "expected": "ER-D3-05",
+      "practice_or_verification": "A,C,D,H,L; U1",
+      "guard_or_note": "pre-evidence predictions, not post-hoc story",
+      "status": "PASS"
+    },
+    {
+      "section": "§6",
+      "role": "Confirmatory versus genuinely distinguishing data",
+      "expected": "ER-D3-05,08",
+      "practice_or_verification": "A,B,C,H,L; U1",
+      "guard_or_note": "evidence-plan discrimination",
+      "status": "PASS"
+    },
+    {
+      "section": "§7",
+      "role": "Evidence matrix and relative support update",
+      "expected": "ER-D3-06",
+      "practice_or_verification": "A,C,D,L; U1/C1",
+      "guard_or_note": "matrix update and BF-D3-11 closure",
+      "status": "PASS"
+    },
+    {
+      "section": "§8",
+      "role": "Correlation does not by itself identify mechanism",
+      "expected": "ER-D3-04,09",
+      "practice_or_verification": "B,G,K,L",
+      "guard_or_note": "BF-D3-01/BF-D3-06 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§9",
+      "role": "Time-dependent FBD/model rebuild",
+      "expected": "ER-D3-10",
+      "practice_or_verification": "F,L; U1/C1",
+      "guard_or_note": "dynamic-state rebuild",
+      "status": "PASS"
+    },
+    {
+      "section": "§10",
+      "role": "Transient state can change load path",
+      "expected": "ER-D3-10",
+      "practice_or_verification": "F,L; U1/C1",
+      "guard_or_note": "not measured ≠ zero",
+      "status": "PASS"
+    },
+    {
+      "section": "§11",
+      "role": "Present snapshot versus accumulated history",
+      "expected": "ER-D3-01,09",
+      "practice_or_verification": "B,E,G,K,L; U1",
+      "guard_or_note": "state/history boundary",
+      "status": "PASS"
+    },
+    {
+      "section": "§12",
+      "role": "Repeated bending/contact/local degradation as causal network",
+      "expected": "ER-D3-03,09",
+      "practice_or_verification": "A,E,L",
+      "guard_or_note": "network reasoning without remaining-life claim",
+      "status": "PASS"
+    },
+    {
+      "section": "§13",
+      "role": "Crossover/multilayer state as bounded causal example",
+      "expected": "ER-D3-02,03,04,08",
+      "practice_or_verification": "A,B,E,L",
+      "guard_or_note": "mechanism candidates without discard verdict",
+      "status": "PASS"
+    },
+    {
+      "section": "§14",
+      "role": "Qualitative sensitivity without unsupported numeric authority",
+      "expected": "ER-D3-11",
+      "practice_or_verification": "H,L",
+      "guard_or_note": "BF-D3-05 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§15",
+      "role": "Unknowns are explicit analysis outputs",
+      "expected": "ER-D3-11,13",
+      "practice_or_verification": "H,K,L; U1/C1",
+      "guard_or_note": "BF-D3-09 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§16",
+      "role": "Evidence/source roles are question-specific",
+      "expected": "ER-D3-12",
+      "practice_or_verification": "I,J,L; U1/C2",
+      "guard_or_note": "BF-D3-07/BF-D3-08 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§17",
+      "role": "Negative evidence requires observability",
+      "expected": "ER-D3-07",
+      "practice_or_verification": "C,D,L; U1/C1",
+      "guard_or_note": "BF-D3-02 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§18",
+      "role": "Falsification and change-my-mind criteria",
+      "expected": "ER-D3-05,06,07",
+      "practice_or_verification": "A,C,D,L; U1/C1",
+      "guard_or_note": "evidence-linked update",
+      "status": "PASS"
+    },
+    {
+      "section": "§19",
+      "role": "Confounders can imitate causality",
+      "expected": "ER-D3-09,11",
+      "practice_or_verification": "G,H,K,L",
+      "guard_or_note": "BF-D3-05/BF-D3-06 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§20",
+      "role": "Before/after history is natural-experiment-like only conditionally",
+      "expected": "ER-D3-09",
+      "practice_or_verification": "G,K,L",
+      "guard_or_note": "BF-D3-06 guard",
+      "status": "PASS"
+    },
+    {
+      "section": "§21",
+      "role": "Cause tree versus fault tree roles",
+      "expected": "ER-D3-03,04",
+      "practice_or_verification": "A,L",
+      "guard_or_note": "structured hypothesis-space representation",
+      "status": "PASS"
+    },
+    {
+      "section": "§22",
+      "role": "D3 evidence plan",
+      "expected": "ER-D3-08",
+      "practice_or_verification": "A,B,C,H,L; U1",
+      "guard_or_note": "next distinguishing datum",
+      "status": "PASS"
+    },
+    {
+      "section": "§23",
+      "role": "Bounded causal conclusion",
+      "expected": "ER-D3-13",
+      "practice_or_verification": "L; U1/C1",
+      "guard_or_note": "support ≠ formal root-cause certification",
+      "status": "PASS"
+    },
+    {
+      "section": "§24",
+      "role": "Model-status vocabulary",
+      "expected": "ER-D3-06,11,13",
+      "practice_or_verification": "A–L; U1/C1",
+      "guard_or_note": "relative support, unknowns and bounded status",
+      "status": "PASS"
+    },
+    {
+      "section": "§25",
+      "role": "Mini-case: local signature near transition zone",
+      "expected": "ER-D3-02,04,05,08,13",
+      "practice_or_verification": "A,B,L",
+      "guard_or_note": "competing mechanism + distinguishing-data pattern",
+      "status": "PASS"
+    },
+    {
+      "section": "§26",
+      "role": "Mini-case: reaction changed after mode change",
+      "expected": "ER-D3-01,03,09,10,13",
+      "practice_or_verification": "E,F,G,L",
+      "guard_or_note": "history/dynamic rebuild pattern",
+      "status": "PASS"
+    },
+    {
+      "section": "§27",
+      "role": "Same signature after different events",
+      "expected": "ER-D3-04,09",
+      "practice_or_verification": "B,K,L",
+      "guard_or_note": "same signature ≠ same cause",
+      "status": "PASS"
+    },
+    {
+      "section": "§28",
+      "role": "What counts as strong evidence",
+      "expected": "ER-D3-05,06,08,12",
+      "practice_or_verification": "I,L; U1",
+      "guard_or_note": "strength depends on question and discrimination",
+      "status": "PASS"
+    },
+    {
+      "section": "§29",
+      "role": "Input-data credibility is part of causal analysis",
+      "expected": "ER-D3-02,04,07,11",
+      "practice_or_verification": "D,I,L; U1/C1",
+      "guard_or_note": "H_data/observability/unknown discipline",
+      "status": "PASS"
+    },
+    {
+      "section": "§30",
+      "role": "D3 → D4 boundary",
+      "expected": "ER-D3-12,13",
+      "practice_or_verification": "J,L",
+      "guard_or_note": "formal method/model validation remains D4 when required",
+      "status": "PASS"
+    },
+    {
+      "section": "§31",
+      "role": "Universal D3 worksheet + authority gate",
+      "expected": "ER-D3-01…13",
+      "practice_or_verification": "L; U1/C1",
+      "guard_or_note": "integrated evidence package and authority boundary",
+      "status": "PASS"
+    },
+    {
+      "section": "§32",
+      "role": "Typical D3 failure families",
+      "expected": "ER-D3-01…13",
+      "practice_or_verification": "A–L; U1/C1",
+      "guard_or_note": "explicit prevention of BF-D3-01…11 and adjacent overclaims",
+      "status": "PASS"
+    },
+    {
+      "section": "§33",
+      "role": "Final D3 mental model",
+      "expected": "ER-D3-01…13",
+      "practice_or_verification": "A–L; U1/C1",
+      "guard_or_note": "consolidation of full D3 competence spine",
+      "status": "PASS"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "primary_competence": "Competing causal models from one signature",
+      "expected": "ER-D3-01,02,03,04,05,06,08",
+      "main_blocking_guard": "BF-D3-01/BF-D3-10",
+      "reasoning_case": "A",
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "primary_competence": "Same signature does not prove same cause/history",
+      "expected": "ER-D3-01,04,08,09",
+      "main_blocking_guard": "BF-D3-01/BF-D3-06/BF-D3-10",
+      "reasoning_case": "B",
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "primary_competence": "Observability before negative evidence",
+      "expected": "ER-D3-02,05,06,07,08",
+      "main_blocking_guard": "BF-D3-02",
+      "reasoning_case": "C",
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "primary_competence": "H_data as falsifiable hypothesis",
+      "expected": "ER-D3-02,04,05,06,07",
+      "main_blocking_guard": "BF-D3-03",
+      "reasoning_case": "D",
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "primary_competence": "Present snapshot versus accumulated history",
+      "expected": "ER-D3-01,03,09",
+      "main_blocking_guard": "BF-D3-06/BF-D3-09",
+      "reasoning_case": "E",
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "primary_competence": "Dynamic-state rebuild / unknown acceleration",
+      "expected": "ER-D3-01,03,10",
+      "main_blocking_guard": "BF-D3-04",
+      "reasoning_case": "F",
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "primary_competence": "Before/after change bundle and confounders",
+      "expected": "ER-D3-09",
+      "main_blocking_guard": "BF-D3-06",
+      "reasoning_case": "G",
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "primary_competence": "Directional sensitivity without causal identification",
+      "expected": "ER-D3-05,08,11",
+      "main_blocking_guard": "BF-D3-05/BF-D3-09",
+      "reasoning_case": "H",
+      "status": "PASS"
+    },
+    {
+      "case": "I",
+      "primary_competence": "Question-specific evidence roles",
+      "expected": "ER-D3-12",
+      "main_blocking_guard": "BF-D3-07",
+      "reasoning_case": "I",
+      "status": "PASS"
+    },
+    {
+      "case": "J",
+      "primary_competence": "Source existence versus formal-method authority",
+      "expected": "ER-D3-12",
+      "main_blocking_guard": "BF-D3-08",
+      "reasoning_case": "J",
+      "status": "PASS"
+    },
+    {
+      "case": "K",
+      "primary_competence": "Natural-experiment-like historical comparison",
+      "expected": "ER-D3-09,11",
+      "main_blocking_guard": "BF-D3-06/BF-D3-09",
+      "reasoning_case": "K",
+      "status": "PASS"
+    },
+    {
+      "case": "L",
+      "primary_competence": "Integrated D3 causal case file",
+      "expected": "ER-D3-01…12; ER-D3-13 pattern only",
+      "main_blocking_guard": "BF-D3-01…10; transfer not closed by known case",
+      "reasoning_case": "L",
+      "status": "PASS"
+    }
+  ],
+  "expected_result_traceability": [
+    {
+      "id": "ER-D3-01",
+      "competence": "Causal question + case boundary",
+      "known_evidence": "A,B,E,F,L",
+      "verification_closure": "U1 boundary + C1 window/applicability update",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-02",
+      "competence": "Neutral observed signature + data origin",
+      "known_evidence": "A,C,D,L",
+      "verification_closure": "U1 neutral signature + corrected mapping",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-03",
+      "competence": "Causal map of interacting variables",
+      "known_evidence": "A,E,F,L",
+      "verification_closure": "U1 causal map + C1 link rebuild",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-04",
+      "competence": "Competing falsifiable hypotheses / H_data",
+      "known_evidence": "A,B,D,L",
+      "verification_closure": "U1 competing H + H_data when justified",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-05",
+      "competence": "Predictions + WOULD BE UNEXPECTED",
+      "known_evidence": "A,C,D,H,L",
+      "verification_closure": "U1 pre-evidence predictions",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-06",
+      "competence": "Evidence matrix + model-status update",
+      "known_evidence": "A,C,D,L",
+      "verification_closure": "U1 matrix + mandatory C1 update",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-07",
+      "competence": "Observability before negative evidence",
+      "known_evidence": "C,D,L",
+      "verification_closure": "U1/C1 applicability + observability",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-08",
+      "competence": "Distinguishing-data selection / evidence plan",
+      "known_evidence": "A,B,C,H,L",
+      "verification_closure": "U1 next distinguishing datum",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-09",
+      "competence": "Snapshot/history + confounders/change bundles",
+      "known_evidence": "B,E,G,K,L",
+      "verification_closure": "U1 history/change bundle + C1 update",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-10",
+      "competence": "Dynamic-state rebuild / unknown acceleration",
+      "known_evidence": "F,L",
+      "verification_closure": "U1 transient uncertainty + C1 timestamp correction",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-11",
+      "competence": "Assumptions, unknowns, sensitivity, model status",
+      "known_evidence": "H,K,L; all reasoning paths",
+      "verification_closure": "U1 unknown/status + C1 rebuild",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-12",
+      "competence": "Evidence role + source/method/data/authority boundary",
+      "known_evidence": "I,J,L",
+      "verification_closure": "U1 authority boundary; optional C2",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D3-13",
+      "competence": "Bounded causal conclusion + unseen transfer + update",
+      "known_evidence": "L is pattern only",
+      "verification_closure": "mandatory U1 + C1",
+      "status": "PASS — verification-only closure intentional"
+    }
+  ],
+  "blocking_failure_lineage": [
+    {
+      "id": "BF-D3-01",
+      "failure": "Closed-world causal closure",
+      "lesson_origin": "§4, §8, §18, §23, §32",
+      "practice_reasoning_origin": "A,B,L",
+      "expected_origin": "ER-D3-04/06/13",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-02",
+      "failure": "Non-detection falsification without observability",
+      "lesson_origin": "§17–18, §29, §32",
+      "practice_reasoning_origin": "C,D,L",
+      "expected_origin": "ER-D3-07",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-03",
+      "failure": "H_data collapse",
+      "lesson_origin": "§4, §29, §32",
+      "practice_reasoning_origin": "D,L",
+      "expected_origin": "ER-D3-04/05/06/07",
+      "verification_pressure": "U1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-04",
+      "failure": "Dynamic unknown erased",
+      "lesson_origin": "§9–10, §15, §32",
+      "practice_reasoning_origin": "F,L",
+      "expected_origin": "ER-D3-10/11",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-05",
+      "failure": "Sensitivity becomes causal identification",
+      "lesson_origin": "§14, §19, §32",
+      "practice_reasoning_origin": "H,L",
+      "expected_origin": "ER-D3-11",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-06",
+      "failure": "Before/after single-cause proof",
+      "lesson_origin": "§8, §19–20, §32",
+      "practice_reasoning_origin": "B,G,K,L",
+      "expected_origin": "ER-D3-09",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-07",
+      "failure": "Evidence-role collapse",
+      "lesson_origin": "§16, §28–29, §32",
+      "practice_reasoning_origin": "I,L",
+      "expected_origin": "ER-D3-12",
+      "verification_pressure": "U1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-08",
+      "failure": "Source-exists authority leap",
+      "lesson_origin": "§16, §23–24, §30–32",
+      "practice_reasoning_origin": "J,L",
+      "expected_origin": "ER-D3-12/13",
+      "verification_pressure": "U1/C2",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-09",
+      "failure": "Unknown / assumption erasure",
+      "lesson_origin": "§15, §19, §24, §29, §31–32",
+      "practice_reasoning_origin": "E,H,K,L",
+      "expected_origin": "ER-D3-11",
+      "verification_pressure": "U1/C1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-10",
+      "failure": "Single-story analysis",
+      "lesson_origin": "§2, §4–5, §21, §23, §32",
+      "practice_reasoning_origin": "A,B,L",
+      "expected_origin": "ER-D3-04/13",
+      "verification_pressure": "U1",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D3-11",
+      "failure": "Failure to update after challenge",
+      "lesson_origin": "§7, §18, §22–24, §31–32",
+      "practice_reasoning_origin": "A,C,D,L reasoning update patterns",
+      "expected_origin": "ER-D3-06/13",
+      "verification_pressure": "mandatory C1",
+      "status": "PASS"
+    }
+  ],
+  "integrated_verification": {
+    "known_case_evidence": "A–L supports ER-D3-01…12 but is insufficient for D3 closure",
+    "unseen_transfer": "U1 mandatory and not a renaming of Practice L",
+    "challenge": "C1 mandatory corrected-mapping/event-applicability evidence update",
+    "optional_challenge": "C2 authority pressure may support Level 4 ER-D3-12",
+    "er_d3_13_closure": "U1 + C1 mandatory",
+    "blocking_failures_non_compensable": true
+  },
+  "guard_contract": {
+    "formal_root_cause_certification_not_unlocked": true,
+    "proof_of_competence_calculation_not_unlocked": true,
+    "numeric_design_or_acceptance_limits_not_unlocked": true,
+    "fatigue_remaining_life_calculation_not_unlocked": true,
+    "equipment_specific_intervention_authority_not_unlocked": true,
+    "pedagogical_score_bands_not_equipment_criteria": true,
+    "d1_frozen_immutable": true,
+    "d2_frozen_immutable": true,
+    "frozen_index_unchanged": true
+  }
+}

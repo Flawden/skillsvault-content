@@ -46,7 +46,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Practice Reasoning ✅ v1
 ├─ D3 Expected Result ✅ v1
 ├─ D3 Verification Rubric ✅ v1
-└─ D3 Final Alignment ← NEXT
+└─ D3 Final Alignment ✅
+D3 Source Freshness ← NEXT
 ```
 
 
@@ -411,11 +412,31 @@ Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
 - D1 frozen prerequisite remains immutable;
 - D2 Freeze candidate: READY.
 
+## CRN-M-02 D3 Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- Lesson primary sections: 33/33 traced;
+- Practice cases: 12/12 aligned;
+- Practice Reasoning cases: 12/12 aligned;
+- Expected Result: ER-D3-01…13 all traced;
+- Verification Rubric: 13/13 dimensions traced;
+- Blocking Failures: 11/11 have prior lesson/practice/reasoning origin;
+- known Practice L is pattern-only for ER-D3-13; unseen U1 + mandatory C1 remain required;
+- orphan lesson/practice/reasoning/ER/rubric items: 0;
+- surprise blocking failures: 0;
+- guard contradictions: 0;
+- content corrections required: NO;
+- proof/design/remaining-life/equipment-authority locks remain intact;
+- D1 and D2 frozen prerequisites remain immutable.
+
+Source Freshness candidate: `READY`.
+
 ## Next
 
-CRN-M-02 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness
+CRN-M-02 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-analysis claim limits and proof/design/remaining-life/equipment-authority boundaries before D3 freeze
 
-Trace Lesson/Practice/Reasoning/Expected/Rubric end-to-end before freshness; do not change D1/D2 frozen content.
+Revalidate current external/source-boundary status before D3 freeze; do not change D1/D2 frozen content.
 
 ## D1 production sequence
 
@@ -454,14 +475,15 @@ D3 Practice ✅
 D3 Practice Reasoning ✅
 D3 Expected Result ✅
 D3 Verification Rubric ✅
-D3 Final Alignment ← NEXT
+D3 Final Alignment ✅
+D3 Source Freshness ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FINAL ALIGNMENT NEXT
+CRN-M-02 ← ACTIVE / D3 SOURCE FRESHNESS NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
