@@ -1,0 +1,138 @@
+{
+  "topic_id": "CRN-M-02",
+  "depth": "D3",
+  "version": "v1",
+  "verified_on": "2026-09-02",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-02-d2-v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "TERMINOLOGY_COMPONENTS",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-16625-2025",
+      "title": "ISO 16625:2025 — Cranes and hoists — Selection of wire ropes, drums and sheaves",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "role": "ROPE_DRIVE_PROOF_AND_GEOMETRY_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/77889.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4301-1-2016",
+      "title": "ISO 4301-1:2016 — Cranes — Classification — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "DUTY_HISTORY_CLASSIFICATION_CONTEXT",
+      "public_url": "https://www.iso.org/standard/63070.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-8686-1-2012",
+      "title": "ISO 8686-1:2012 — Cranes — Design principles for loads and load combinations — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_UNDER_REVIEW_STAGE_90_60",
+      "role": "LOAD_DYNAMIC_METHOD_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59417.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-4309-2017",
+      "title": "ISO 4309:2017 — Cranes — Wire ropes — Care and maintenance, inspection and discard",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_TO_BE_REVISED",
+      "role": "ROPE_DEGRADATION_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/66759.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-CD-4309-ED6",
+      "title": "ISO/CD 4309 — Edition 6",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/90256.html",
+      "watchlist": true,
+      "normative_for_d3": false
+    },
+    {
+      "id": "EXT-ISO-9927-1-2013",
+      "title": "ISO 9927-1:2013 — Cranes — Inspections — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "role": "INSPECTION_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/51102.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12482-2014",
+      "title": "ISO 12482:2014 — Cranes — Monitoring for crane design working period",
+      "authority": "ISO",
+      "status": "PUBLISHED_TO_BE_REVISED",
+      "role": "DUTY_MONITORING_HISTORY_CONTEXT",
+      "public_url": "https://www.iso.org/standard/57481.html",
+      "full_text_available_in_repo": false,
+      "watchlist": true
+    },
+    {
+      "id": "EXT-ISO-CD-12482-ED2",
+      "title": "ISO/CD 12482 — Edition 2",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/91046.html",
+      "watchlist": true,
+      "normative_for_d3": false
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_AUTHORITY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-PS",
+      "title": "Passport / OEM / actual equipment records",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "EQUIPMENT_SPECIFIC_AND_HISTORY_AUTHORITY",
+      "public": false
+    }
+  ],
+  "locked_claim_classes": [
+    "paid_proof_of_competence_factors",
+    "numeric_dynamic_factors_or_load_combinations",
+    "numeric_design_or_acceptance_limits",
+    "numeric_fatigue_or_remaining_life",
+    "actual_design_working_period_verdict",
+    "equipment_specific_stress_or_bearing_proof",
+    "discard_acceptance_limits",
+    "specialist_ndt_interpretation",
+    "repair_redesign_rerouting_or_life_extension_authority"
+  ],
+  "lesson_authoring_unlocked": true
+}

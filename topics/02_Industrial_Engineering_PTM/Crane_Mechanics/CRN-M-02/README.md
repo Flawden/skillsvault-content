@@ -82,4 +82,12 @@ Source Freshness v1 is complete. ISO 4306-1:2026, ISO 16625:2025, ISO 4301-1:201
 
 D2 Freeze v1 snapshots all 52 accepted D2 artifacts and locks them in the canonical frozen index under tag `crn-m-02-d2-v1`.
 
-Next: `D3 CONTENT KICKOFF / v1`.
+## D3 kickoff
+
+`D3 — ACTIVE / CONTENT KICKOFF COMPLETE v1`.
+
+D3 is the causal-analysis depth. It treats D1 and D2 as immutable prerequisites and moves from applied state description to competing-mechanism analysis: load/duty history, geometry, contact, kinematics/dynamics, spooling state, local reactions and degradation signatures are combined into falsifiable engineering hypotheses.
+
+D3 Source Gate = `PASS WITH CLAIM LIMITS`. Public source metadata and generic mechanics do not unlock paid proof-of-competence factors, dynamic coefficients/load combinations, numeric fatigue/remaining-life results, equipment-specific acceptance limits or field redesign authority.
+
+Next: `D3 LESSON AUTHORING / v1`.

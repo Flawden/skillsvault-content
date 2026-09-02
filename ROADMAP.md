@@ -35,10 +35,53 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Final Alignment ✅ v1
 ├─ D2 Source Freshness ✅ PASS WITH WATCHLIST v1
 ├─ D2 Freeze ✅ FROZEN v1 / tag crn-m-02-d2-v1
-└─ D3 Content Kickoff ← NEXT
+├─ D3 Content Kickoff ✅ v1
+├─ D3 Scope ✅ LOCKED v1
+├─ D3 Source Gate ✅ PASS WITH CLAIM LIMITS v1
+└─ D3 Lesson Authoring ← NEXT
 ```
 
 
+
+
+## CRN-M-02 D3 Content Kickoff v1
+
+D3 starts only after immutable prerequisites `crn-m-02-d1-v1` and `crn-m-02-d2-v1`. It does not reopen either frozen depth.
+
+### D3 question
+
+D2 asks: **what is the applied mechanical state and where does the simple model stop?**
+
+D3 asks: **why is the system behaving or degrading this way, which causal models compete, and what observation/measurement would distinguish them?**
+
+### Advanced-analysis spine
+
+```text
+LOAD / DUTY HISTORY
++ GEOMETRY
++ CONTACT
++ KINEMATICS / DYNAMICS
++ SPOOLING STATE
++ LOCAL COMPONENT RESPONSE
+↓
+CANDIDATE MECHANISMS
+↓
+PREDICTED SIGNATURES
+↓
+DISTINGUISHING DATA
+↓
+APPLICABLE SOURCE / OEM
+↓
+BOUNDED TECHNICAL CONCLUSION
+```
+
+### Source-gate decision
+
+`PASS WITH CLAIM LIMITS`.
+
+D3 may use causal diagrams, symbolic mechanics, competing hypotheses, sensitivity directions and evidence plans. It may not invent proof-of-competence factors, dynamic coefficients/load combinations, fatigue or remaining-life results, numeric design/acceptance limits, or equipment-specific field authority.
+
+Current external anchors include ISO 16625:2025, ISO 4301-1:2016, ISO 8686-1:2012, ISO 4309:2017, ISO 9927-1:2013, ISO 12482:2014, ФНП ПС №461 and actual passport/OEM documentation. ISO/CD 4309 Edition 6 and ISO/CD 12482 Edition 2 are watch-only development companions.
 
 ## CRN-M-02 D2 Lesson Authoring v1
 

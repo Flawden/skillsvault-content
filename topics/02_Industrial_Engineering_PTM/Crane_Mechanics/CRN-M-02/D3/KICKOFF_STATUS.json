@@ -1,0 +1,28 @@
+{
+  "topic_id": "CRN-M-02",
+  "topic_name_ru": "Барабаны, блоки, полиспасты",
+  "depth": "D3",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-02-d2-v1"
+    }
+  ],
+  "d3_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "numeric_proof_design_claims": "LOCKED_PENDING_EXACT_SOURCE",
+  "fatigue_remaining_life_claims": "LOCKED",
+  "equipment_specific_claims": "OEM_OR_PASSPORT_REQUIRED",
+  "baseline_commit": "64c2dd26183db53cf859a6eb698b119ced0f39f8",
+  "next": "CRN-M-02 / D3 LESSON AUTHORING / v1 — build causal advanced-analysis lesson around interacting load, geometry, contact, dynamics, duty/history and competing-model discrimination under locked proof/design/remaining-life authority boundaries"
+}

@@ -1,0 +1,26 @@
+{
+  "topic_id": "CRN-M-02",
+  "depth": "D3",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "decision": "PASS",
+  "checks": {
+    "d1_frozen_prerequisite_declared": true,
+    "d2_frozen_prerequisite_declared": true,
+    "d3_d4_boundary_explicit": true,
+    "causal_competing_model_scope_explicit": true,
+    "distinguishing_evidence_required": true,
+    "dynamic_reasoning_boundary_explicit": true,
+    "duty_history_boundary_explicit": true,
+    "numeric_proof_design_limits_locked": true,
+    "remaining_life_locked": true,
+    "equipment_specific_authority_locked": true,
+    "development_sources_watch_only": true,
+    "lesson_authoring_unlocked": true
+  },
+  "primary_published_or_regulatory_anchors": 8,
+  "development_watch_records": 2,
+  "equipment_authority_records": 1,
+  "blocking_issues": [],
+  "next": "CRN-M-02 / D3 LESSON AUTHORING / v1 — build causal advanced-analysis lesson around interacting load, geometry, contact, dynamics, duty/history and competing-model discrimination under locked proof/design/remaining-life authority boundaries"
+}

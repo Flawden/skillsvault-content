@@ -412,13 +412,49 @@
       }
     },
     "D3": {
-      "status": "NEXT"
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-02",
+        "lesson_authoring_unlocked": true,
+        "numeric_design_or_acceptance_limits_unlocked": false,
+        "proof_of_competence_calculation_unlocked": false,
+        "remaining_life_calculation_unlocked": false,
+        "equipment_specific_claims_require_oem_or_passport": true,
+        "prerequisite_tags": [
+          "crn-m-02-d1-v1",
+          "crn-m-02-d2-v1"
+        ]
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "NEXT",
+        "editorial": "WAITING",
+        "red_team": "WAITING",
+        "reader_experience_pass": "WAITING",
+        "practice": "WAITING",
+        "practice_reasoning": "WAITING",
+        "expected_result": "WAITING",
+        "verification_rubric": "WAITING",
+        "final_alignment": "WAITING",
+        "source_freshness": "WAITING",
+        "freeze": "WAITING"
+      }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 CONTENT KICKOFF / v1 — define advanced-analysis scope/source gate for drum, sheave and reeving mechanics while preserving D1/D2 frozen boundaries",
+  "next": "CRN-M-02 / D3 LESSON AUTHORING / v1 — build causal advanced-analysis lesson around interacting load, geometry, contact, dynamics, duty/history and competing-model discrimination under locked proof/design/remaining-life authority boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -438,19 +474,10 @@
     "Read ROADMAP.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/README.md",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/FREEZE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/kickoff/v1/D2_SCOPE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/kickoff/v1/SOURCE_GATE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/v1/CRN-M-02_D2_LESSON_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/v1/SOURCE_MAP_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/AUTHORING_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/READER_EXPERIENCE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/reader_experience/pass_I/v1/CRN-M-02_D2_READER_EXPERIENCE_PASS_I_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/PRACTICE_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/CRN-M-02_D2_PRACTICE_v1.md",
-    "Continue from status.next",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/final_alignment/FINAL_ALIGNMENT_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/SOURCE_FRESHNESS_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/FREEZE_STATUS.json"
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/FREEZE_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/kickoff/v1/D3_SCOPE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/kickoff/v1/SOURCE_GATE_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/KICKOFF_STATUS.json",
+    "Continue from status.next"
   ]
 }
