@@ -74,7 +74,8 @@
 - D4 Verification Rubric — COMPLETE v1
 - D4 Final Alignment — COMPLETE v1
 - D4 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
-- D4 Freeze — NEXT
+- D4 Freeze — FROZEN v1, tag `crn-m-02-d4-v1`
+- CRN-M-02 Full Topic Freeze — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

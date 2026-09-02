@@ -32,5 +32,8 @@
   "equipment_specific_claims": "OEM_PASSPORT_DESIGN_OR_EXPERT_AUTHORITY_REQUIRED",
   "field_authority": "LOCKED",
   "baseline_commit": "2b5278096fabb228b0e82fbcf66d441587da396c",
-  "next": "CRN-M-02 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around problem-class identification, method applicability, boundary/input validation, sensitivity/error, competing proof-model comparison and audit trail under exact-source and equipment-authority locks"
+  "next": "CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff",
+  "freeze": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1"
 }

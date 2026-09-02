@@ -1,0 +1,1801 @@
+{
+  "artifact": "CRN-M-02_D4_TRACEABILITY_MATRIX_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "49733c17394f7dc33f6bb702959c75d438906b94",
+  "counts": {
+    "lesson_parts": 9,
+    "lesson_blocks": 45,
+    "practice_cases": 10,
+    "reasoning_cases": 10,
+    "expected_dimensions": 14,
+    "rubric_dimensions": 14,
+    "blocking_failures": 12
+  },
+  "lesson_blocks": [
+    {
+      "block": 1,
+      "part": "I",
+      "title": "One object → multiple engineering questions",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-01"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 2,
+      "part": "I",
+      "title": "Source applicability follows scope, not prestige",
+      "expected_result": [
+        "ER-D4-04"
+      ],
+      "practice_cases": [
+        "A",
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 3,
+      "part": "I",
+      "title": "Requirement / selection / proof / inspection / monitoring role separation",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-11",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 4,
+      "part": "I",
+      "title": "Method as applicability contract",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-05",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "C",
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-05"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 5,
+      "part": "I",
+      "title": "Audit trail before calculation",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 6,
+      "part": "II",
+      "title": "Scheme is not yet a boundary-value problem",
+      "expected_result": [
+        "ER-D4-02",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "B",
+        "C",
+        "E",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-02",
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 7,
+      "part": "II",
+      "title": "Versioned rope path / configuration provenance",
+      "expected_result": [
+        "ER-D4-02",
+        "ER-D4-03"
+      ],
+      "practice_cases": [
+        "B",
+        "E",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-02",
+        "BF-D4-03"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 8,
+      "part": "II",
+      "title": "Frame and sign convention are part of physics",
+      "expected_result": [
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "B",
+        "E",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 9,
+      "part": "II",
+      "title": "Motion state before equations",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "C",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 10,
+      "part": "II",
+      "title": "Requested output determines model detail",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-05",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-05",
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 11,
+      "part": "III",
+      "title": "Smallest adequate model over complex unverified model",
+      "expected_result": [
+        "ER-D4-05"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 12,
+      "part": "III",
+      "title": "Quasi-static as time-scale assumption",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-09"
+      ],
+      "practice_cases": [
+        "C",
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 13,
+      "part": "III",
+      "title": "Elastostatic when deformation changes load path",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 14,
+      "part": "III",
+      "title": "Advanced model needs V&V evidence",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-07"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-07"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 15,
+      "part": "III",
+      "title": "Adequacy matrix tied to decision",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-04",
+        "ER-D4-05",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-05"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 16,
+      "part": "IV",
+      "title": "Source-bound rope-drive question is its own class",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-04"
+      ],
+      "practice_cases": [
+        "A",
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 17,
+      "part": "IV",
+      "title": "Open mechanics cross-check does not replace proof method",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-07",
+        "ER-D4-11"
+      ],
+      "practice_cases": [
+        "D",
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-07",
+        "BF-D4-10"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 18,
+      "part": "IV",
+      "title": "Requirement and proof linked but distinct",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-11",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "D",
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-10"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 19,
+      "part": "IV",
+      "title": "Source-bound proof input provenance",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-04"
+      ],
+      "practice_cases": [
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-04"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 20,
+      "part": "IV",
+      "title": "Exact-source unavailable → bounded stop/request",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 21,
+      "part": "V",
+      "title": "Global load path first",
+      "expected_result": [
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "B",
+        "E",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 22,
+      "part": "V",
+      "title": "Sheave reaction as vector result",
+      "expected_result": [
+        "ER-D4-06",
+        "ER-D4-07"
+      ],
+      "practice_cases": [
+        "B",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 23,
+      "part": "V",
+      "title": "Drum torque with radius provenance",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "B",
+        "E",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 24,
+      "part": "V",
+      "title": "Local model cannot silently claim global proof",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-06"
+      ],
+      "practice_cases": [
+        "E",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-06"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 25,
+      "part": "V",
+      "title": "FEA as auditable pipeline, not contour image",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-08",
+        "ER-D4-09"
+      ],
+      "practice_cases": [
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-06",
+        "BF-D4-07",
+        "BF-D4-08"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 26,
+      "part": "VI",
+      "title": "Verification and validation answer different questions",
+      "expected_result": [
+        "ER-D4-07"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-07"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 27,
+      "part": "VI",
+      "title": "Dimensional/sign/order-of-magnitude checks",
+      "expected_result": [
+        "ER-D4-07"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-07"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 28,
+      "part": "VI",
+      "title": "Equilibrium and limiting cases",
+      "expected_result": [
+        "ER-D4-07",
+        "ER-D4-08"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-07",
+        "BF-D4-08"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 29,
+      "part": "VI",
+      "title": "Numerical verification follows decision-driving quantity",
+      "expected_result": [
+        "ER-D4-07",
+        "ER-D4-09"
+      ],
+      "practice_cases": [
+        "E",
+        "F",
+        "G",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-07"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 30,
+      "part": "VI",
+      "title": "Validation evidence and cross-check evidence separated",
+      "expected_result": [
+        "ER-D4-07",
+        "ER-D4-08"
+      ],
+      "practice_cases": [
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-07",
+        "BF-D4-08"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 31,
+      "part": "VII",
+      "title": "Error classes kept distinct",
+      "expected_result": [
+        "ER-D4-09"
+      ],
+      "practice_cases": [
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 32,
+      "part": "VII",
+      "title": "Qualitative sensitivity before derivatives",
+      "expected_result": [
+        "ER-D4-09"
+      ],
+      "practice_cases": [
+        "C",
+        "E",
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 33,
+      "part": "VII",
+      "title": "Decision robustness can matter more than precision",
+      "expected_result": [
+        "ER-D4-09",
+        "ER-D4-10"
+      ],
+      "practice_cases": [
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 34,
+      "part": "VII",
+      "title": "Robust decision ≠ precise result",
+      "expected_result": [
+        "ER-D4-09",
+        "ER-D4-10"
+      ],
+      "practice_cases": [
+        "G",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 35,
+      "part": "VII",
+      "title": "Competing methods require harmonized questions/outputs",
+      "expected_result": [
+        "ER-D4-08",
+        "ER-D4-09",
+        "ER-D4-12"
+      ],
+      "practice_cases": [
+        "F",
+        "G",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-08",
+        "BF-D4-09"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 36,
+      "part": "VIII",
+      "title": "Classification is service context, not coefficient dispenser",
+      "expected_result": [
+        "ER-D4-11"
+      ],
+      "practice_cases": [
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-10"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 37,
+      "part": "VIII",
+      "title": "Inspection condition ≠ design proof",
+      "expected_result": [
+        "ER-D4-11",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "H",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 38,
+      "part": "VIII",
+      "title": "Wire-rope condition/discard has its own method boundary",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-11",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 39,
+      "part": "VIII",
+      "title": "Monitoring/history ≠ automatic remaining-life calculation",
+      "expected_result": [
+        "ER-D4-11",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 40,
+      "part": "VIII",
+      "title": "Conflicting evidence channels trigger review, not voting",
+      "expected_result": [
+        "ER-D4-08",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "H",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-08",
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 41,
+      "part": "IX",
+      "title": "Method map before favorite model",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-04",
+        "ER-D4-05",
+        "ER-D4-11"
+      ],
+      "practice_cases": [
+        "A",
+        "D",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-04",
+        "BF-D4-10"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 42,
+      "part": "IX",
+      "title": "Method conflict via harmonization and discriminating evidence",
+      "expected_result": [
+        "ER-D4-08",
+        "ER-D4-12"
+      ],
+      "practice_cases": [
+        "F",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-08"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 43,
+      "part": "IX",
+      "title": "Technical review reproducible by another engineer",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-07",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "A",
+        "E",
+        "I",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-07",
+        "BF-D4-11"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 44,
+      "part": "IX",
+      "title": "Stop rules are expert competence",
+      "expected_result": [
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "D",
+        "H",
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-11",
+        "BF-D4-12"
+      ],
+      "result": "PASS"
+    },
+    {
+      "block": 45,
+      "part": "IX",
+      "title": "Final D4 worksheet / integrated synthesis",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-02",
+        "ER-D4-03",
+        "ER-D4-04",
+        "ER-D4-05",
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-08",
+        "ER-D4-09",
+        "ER-D4-10",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "practice_cases": [
+        "J"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-02",
+        "BF-D4-03",
+        "BF-D4-04",
+        "BF-D4-05",
+        "BF-D4-06",
+        "BF-D4-07",
+        "BF-D4-08",
+        "BF-D4-09",
+        "BF-D4-10",
+        "BF-D4-11",
+        "BF-D4-12"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "practice_cases": [
+    {
+      "case": "A",
+      "parts": "I, IX",
+      "core_competence": "question/claim decomposition; source/method/authority map",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-03",
+        "ER-D4-04",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-04",
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "reasoning_case": "A",
+      "result": "PASS"
+    },
+    {
+      "case": "B",
+      "parts": "II, V",
+      "core_competence": "configuration provenance; boundary-value problem",
+      "expected_result": [
+        "ER-D4-02",
+        "ER-D4-03",
+        "ER-D4-06"
+      ],
+      "blocking_guards": [
+        "BF-D4-02",
+        "BF-D4-03",
+        "BF-D4-06"
+      ],
+      "reasoning_case": "B",
+      "result": "PASS"
+    },
+    {
+      "case": "C",
+      "parts": "III, VI",
+      "core_competence": "model fidelity; transient adequacy; V&V separation",
+      "expected_result": [
+        "ER-D4-05",
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-09"
+      ],
+      "blocking_guards": [
+        "BF-D4-05",
+        "BF-D4-07"
+      ],
+      "reasoning_case": "C",
+      "result": "PASS"
+    },
+    {
+      "case": "D",
+      "parts": "I, IV, IX",
+      "core_competence": "exact-source applicability; proof branch/input provenance",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-04",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-04",
+        "BF-D4-11"
+      ],
+      "reasoning_case": "D",
+      "result": "PASS"
+    },
+    {
+      "case": "E",
+      "parts": "V, VI, VII",
+      "core_competence": "parent-child interface; FEA decision use",
+      "expected_result": [
+        "ER-D4-02",
+        "ER-D4-03",
+        "ER-D4-05",
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-09"
+      ],
+      "blocking_guards": [
+        "BF-D4-02",
+        "BF-D4-03",
+        "BF-D4-05",
+        "BF-D4-06",
+        "BF-D4-07"
+      ],
+      "reasoning_case": "E",
+      "result": "PASS"
+    },
+    {
+      "case": "F",
+      "parts": "VI",
+      "core_competence": "independent cross-check and common-mode error",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-07",
+        "ER-D4-08"
+      ],
+      "blocking_guards": [
+        "BF-D4-07",
+        "BF-D4-08"
+      ],
+      "reasoning_case": "F",
+      "result": "PASS"
+    },
+    {
+      "case": "G",
+      "parts": "VII",
+      "core_competence": "sensitivity, uncertainty, robustness envelope",
+      "expected_result": [
+        "ER-D4-03",
+        "ER-D4-05",
+        "ER-D4-09",
+        "ER-D4-10",
+        "ER-D4-12"
+      ],
+      "blocking_guards": [
+        "BF-D4-03",
+        "BF-D4-05",
+        "BF-D4-09"
+      ],
+      "reasoning_case": "G",
+      "result": "PASS"
+    },
+    {
+      "case": "H",
+      "parts": "VIII, IX",
+      "core_competence": "evidence-channel roles; remaining-life boundary",
+      "expected_result": [
+        "ER-D4-04",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "blocking_guards": [
+        "BF-D4-04",
+        "BF-D4-10",
+        "BF-D4-11",
+        "BF-D4-12"
+      ],
+      "reasoning_case": "H",
+      "result": "PASS"
+    },
+    {
+      "case": "I",
+      "parts": "V, VI, VII, VIII",
+      "core_competence": "competing-method harmonization and discriminating evidence",
+      "expected_result": [
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-08",
+        "ER-D4-09",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "blocking_guards": [
+        "BF-D4-06",
+        "BF-D4-07",
+        "BF-D4-08",
+        "BF-D4-10",
+        "BF-D4-11"
+      ],
+      "reasoning_case": "I",
+      "result": "PASS"
+    },
+    {
+      "case": "J",
+      "parts": "I–IX",
+      "core_competence": "full expert synthesis; stop rules; authority handoff",
+      "expected_result": [
+        "ER-D4-01",
+        "ER-D4-02",
+        "ER-D4-03",
+        "ER-D4-04",
+        "ER-D4-05",
+        "ER-D4-06",
+        "ER-D4-07",
+        "ER-D4-08",
+        "ER-D4-09",
+        "ER-D4-10",
+        "ER-D4-11",
+        "ER-D4-12",
+        "ER-D4-13"
+      ],
+      "blocking_guards": [
+        "BF-D4-01",
+        "BF-D4-02",
+        "BF-D4-03",
+        "BF-D4-04",
+        "BF-D4-05",
+        "BF-D4-06",
+        "BF-D4-07",
+        "BF-D4-08",
+        "BF-D4-09",
+        "BF-D4-10",
+        "BF-D4-11",
+        "BF-D4-12"
+      ],
+      "reasoning_case": "J",
+      "result": "PASS"
+    }
+  ],
+  "expected_result": [
+    {
+      "id": "ER-D4-01",
+      "title": "Decision question / claim-class decomposition",
+      "lesson_blocks": [
+        1,
+        3,
+        10,
+        15,
+        16,
+        41,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-01",
+      "blocking_pressure": [
+        "BF-D4-01"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-02",
+      "title": "Configuration versioning",
+      "lesson_blocks": [
+        6,
+        7,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "B",
+        "E",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-02",
+      "blocking_pressure": [
+        "BF-D4-02"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-03",
+      "title": "Input provenance / unknown discipline",
+      "lesson_blocks": [
+        5,
+        7,
+        19,
+        23,
+        43,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-03",
+      "blocking_pressure": [
+        "BF-D4-03"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-04",
+      "title": "Source / method applicability",
+      "lesson_blocks": [
+        2,
+        4,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        38,
+        41,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "D",
+        "H",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-04",
+      "blocking_pressure": [
+        "BF-D4-04"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-05",
+      "title": "Minimum adequate fidelity / model-status discipline",
+      "lesson_blocks": [
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        24,
+        25,
+        41,
+        45
+      ],
+      "known_evidence": [
+        "C",
+        "E",
+        "G",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-05",
+      "blocking_pressure": [
+        "BF-D4-05"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-06",
+      "title": "Boundary-value record / parent→child interface",
+      "lesson_blocks": [
+        6,
+        8,
+        9,
+        10,
+        13,
+        21,
+        22,
+        23,
+        24,
+        25,
+        45
+      ],
+      "known_evidence": [
+        "B",
+        "C",
+        "E",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-06",
+      "blocking_pressure": [
+        "BF-D4-06"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-07",
+      "title": "Verification / cross-check / validation separation",
+      "lesson_blocks": [
+        14,
+        17,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        43,
+        45
+      ],
+      "known_evidence": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-07",
+      "blocking_pressure": [
+        "BF-D4-07"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-08",
+      "title": "Common-mode error / competing-method harmonization",
+      "lesson_blocks": [
+        25,
+        28,
+        30,
+        35,
+        40,
+        42,
+        45
+      ],
+      "known_evidence": [
+        "F",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-08",
+      "blocking_pressure": [
+        "BF-D4-08"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-09",
+      "title": "Decision-sensitive sensitivity / uncertainty",
+      "lesson_blocks": [
+        12,
+        25,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "known_evidence": [
+        "C",
+        "E",
+        "G",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-09",
+      "blocking_pressure": [
+        "BF-D4-03",
+        "BF-D4-09"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-10",
+      "title": "Provenance-bounded robustness envelope",
+      "lesson_blocks": [
+        33,
+        34,
+        45
+      ],
+      "known_evidence": [
+        "G",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-10",
+      "blocking_pressure": [
+        "BF-D4-09"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-11",
+      "title": "Evidence-role separation",
+      "lesson_blocks": [
+        3,
+        17,
+        18,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "H",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-11",
+      "blocking_pressure": [
+        "BF-D4-10"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-12",
+      "title": "Value of information / discriminating evidence",
+      "lesson_blocks": [
+        20,
+        35,
+        40,
+        42,
+        44,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-12",
+      "blocking_pressure": [],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-13",
+      "title": "Bounded conclusion / stop / authority / audit trail",
+      "lesson_blocks": [
+        1,
+        3,
+        4,
+        5,
+        15,
+        18,
+        20,
+        37,
+        38,
+        39,
+        40,
+        43,
+        44,
+        45
+      ],
+      "known_evidence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "rubric_dimension": "ER-D4-13",
+      "blocking_pressure": [
+        "BF-D4-11",
+        "BF-D4-12"
+      ],
+      "transfer_closure": "Known evidence + U1/C1 confirmation",
+      "result": "PASS"
+    },
+    {
+      "id": "ER-D4-14",
+      "title": "Unseen adaptive transfer + adversarial evidence-status update",
+      "lesson_blocks": [],
+      "known_evidence": [
+        "J (pattern only)"
+      ],
+      "rubric_dimension": "ER-D4-14",
+      "blocking_pressure": [
+        "transfer/update failure; BF semantics remain applicable"
+      ],
+      "transfer_closure": "U1 + C1 mandatory",
+      "result": "PASS"
+    }
+  ],
+  "blocking_failures": [
+    {
+      "id": "BF-D4-01",
+      "name": "QUESTION COLLAPSE",
+      "lesson_blocks": [
+        1,
+        3,
+        10,
+        15,
+        41,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "A",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-01/13",
+      "review_guard_origin": "Technical Editorial + Red Team question/role guards",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-02",
+      "name": "CONFIGURATION COLLAPSE",
+      "lesson_blocks": [
+        6,
+        7,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "B",
+        "E",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-02",
+      "review_guard_origin": "Red Team observed ≠ approved configuration guard",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-03",
+      "name": "HIDDEN INPUT INVENTION",
+      "lesson_blocks": [
+        5,
+        7,
+        19,
+        23,
+        31,
+        43,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "A–J; strongest D/E/G/J"
+      ],
+      "expected_result_origin": "ER-D4-03/09",
+      "review_guard_origin": "Editorial/Red Team input provenance + unknown discipline",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-04",
+      "name": "SOURCE APPLICABILITY LEAP",
+      "lesson_blocks": [
+        2,
+        4,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        38,
+        41,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "A",
+        "D",
+        "H",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-04",
+      "review_guard_origin": "Editorial public metadata ≠ final applicability; Red Team exact-branch guard",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-05",
+      "name": "FIDELITY STATUS ERROR",
+      "lesson_blocks": [
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        24,
+        25,
+        29,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "C",
+        "E",
+        "G",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-05",
+      "review_guard_origin": "Editorial model fidelity ≠ validation; Red Team quasi-static plausibility guard",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-06",
+      "name": "PARENT-CHILD BREAK",
+      "lesson_blocks": [
+        6,
+        8,
+        10,
+        13,
+        21,
+        22,
+        23,
+        24,
+        25,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "B",
+        "C",
+        "E",
+        "I",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-06",
+      "review_guard_origin": "Red Team parent validation does not transfer automatically to child",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-07",
+      "name": "CROSS-CHECK → VALIDATION LEAP",
+      "lesson_blocks": [
+        14,
+        17,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        43,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "C",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-07",
+      "review_guard_origin": "Editorial/Red Team cross-check ≠ validation",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-08",
+      "name": "COMMON-MODE BLINDNESS",
+      "lesson_blocks": [
+        25,
+        28,
+        30,
+        35,
+        40,
+        42,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "F",
+        "I",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-08",
+      "review_guard_origin": "Red Team two models may share one wrong input/configuration",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-09",
+      "name": "UNSOURCED ROBUSTNESS",
+      "lesson_blocks": [
+        12,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "G",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-09/10",
+      "review_guard_origin": "Red Team robustness only inside sourced scenario envelope",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-10",
+      "name": "EVIDENCE-ROLE COLLAPSE",
+      "lesson_blocks": [
+        3,
+        17,
+        18,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "A",
+        "H",
+        "I",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-11",
+      "review_guard_origin": "Editorial/Red Team inspection/monitoring/proof/life role separation",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-11",
+      "name": "AUTHORITY LEAK",
+      "lesson_blocks": [
+        3,
+        5,
+        20,
+        37,
+        38,
+        39,
+        40,
+        43,
+        44,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "A",
+        "D",
+        "H",
+        "I",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-13",
+      "review_guard_origin": "Editorial/Red Team technical recommendation ≠ equipment authority",
+      "non_compensable": true,
+      "result": "PASS"
+    },
+    {
+      "id": "BF-D4-12",
+      "name": "STOP-PERMISSION CONFUSION",
+      "lesson_blocks": [
+        44,
+        45
+      ],
+      "practice_reasoning_exposure": [
+        "H",
+        "J"
+      ],
+      "expected_result_origin": "ER-D4-13",
+      "review_guard_origin": "Red Team analysis stop ≠ operation permitted",
+      "non_compensable": true,
+      "result": "PASS"
+    }
+  ],
+  "transfer": {
+    "known_case_J_role": "integrated known-case pattern only; not sufficient for ER-D4-14",
+    "U1_role": "unseen prospective operating-profile change; independent D4 review before challenge",
+    "C1_role": "mandatory evidence-status update after current-configuration mismatch and shared decision-driving workbook are revealed",
+    "required_update_chain": [
+      "configuration",
+      "input provenance",
+      "method applicability",
+      "parent-child applicability",
+      "verification/cross-check/validation status",
+      "common-mode/independence status",
+      "uncertainty/robustness",
+      "value of information",
+      "bounded conclusion",
+      "authority/safety handoff"
+    ],
+    "verified_without_U1": false,
+    "verified_without_C1": false
+  },
+  "audit": {
+    "orphan_lesson_blocks": 0,
+    "orphan_practice_cases": 0,
+    "orphan_reasoning_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0,
+    "content_corrections_required": false,
+    "source_freshness_ready": true
+  }
+}

@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
+  "next": "CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -206,11 +206,11 @@
     },
     {
       "stage": "SOURCE_FRESHNESS",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "D4_FREEZE",
-      "status": "PENDING"
+      "status": "COMPLETE"
     }
   ],
   "red_team": {
@@ -260,5 +260,7 @@
   },
   "final_alignment": "COMPLETE",
   "source_freshness": "COMPLETE",
-  "freeze": "NEXT"
+  "freeze": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1"
 }

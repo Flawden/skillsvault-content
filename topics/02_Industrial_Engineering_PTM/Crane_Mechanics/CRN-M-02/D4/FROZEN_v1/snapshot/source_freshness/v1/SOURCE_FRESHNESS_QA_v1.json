@@ -1,0 +1,30 @@
+{
+  "artifact": "CRN-M-02_D4_SOURCE_FRESHNESS_QA_v1",
+  "date": "2026-09-02",
+  "status": "PASS",
+  "baseline_commit": "3c640e87602b75c656f58600319250965ba9f19e",
+  "checks": {
+    "published_regulatory_anchors_checked": 10,
+    "development_companions_checked": 2,
+    "equipment_authority_boundary_checked": 1,
+    "watchlist_count": 5,
+    "draft_current_separation_recorded": true,
+    "content_corrections_required": false,
+    "method_role_separation_preserved": true,
+    "model_fidelity_validation_separated": true,
+    "crosscheck_validation_separated": true,
+    "common_mode_error_guard_preserved": true,
+    "robustness_envelope_provenance_preserved": true,
+    "remaining_life_guard_preserved": true,
+    "analysis_stop_operation_permission_separated": true,
+    "equipment_authority_guard_preserved": true,
+    "d1_frozen_unchanged": true,
+    "d2_frozen_unchanged": true,
+    "d3_frozen_unchanged": true,
+    "frozen_index_unchanged": true,
+    "repository_integrity_required_after_apply": true,
+    "git_diff_check_required": true
+  },
+  "freeze_candidate_ready": true,
+  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract"
+}

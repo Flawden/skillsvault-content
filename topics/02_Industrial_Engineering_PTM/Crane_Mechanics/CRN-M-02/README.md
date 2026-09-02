@@ -144,4 +144,6 @@ D4 Final Alignment v1 is complete: 9/9 Parts, 45/45 Lesson blocks, 10/10 Practic
 
 D4 Source Freshness v1 is complete. Ten published/regulatory anchors and two development companions were revalidated on 2026-09-02; five non-blocking watch records remain active. No content correction is required. Method-role, V&V/common-mode, robustness-envelope, remaining-life and equipment-authority boundaries remain intact.
 
-Next: `CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract`.
+D4 Freeze v1 snapshots all 85 accepted D4 artifacts into a 94-file immutable bundle and locks them in the canonical frozen index under tag `crn-m-02-d4-v1`. D1, D2 and D3 remain independently immutable.
+
+Next: `CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.

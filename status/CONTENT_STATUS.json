@@ -660,7 +660,7 @@
       }
     },
     "D4": {
-      "status": "ACTIVE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -697,7 +697,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "freeze": "COMPLETE"
       },
       "method_contract": {
         "question_class_before_method": true,
@@ -953,10 +953,22 @@
         "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/source_freshness/v1/SOURCE_INVENTORY_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       },
-      "freeze": "NEXT"
+      "freeze": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "freeze_date": "2026-09-02",
+        "baseline_commit": "a8079a9d8e9d4e4aeec361a10fd2dfbf93869210",
+        "tag": "crn-m-02-d4-v1",
+        "snapshot_members": 85,
+        "bundle_files": 94,
+        "immutable": true,
+        "d1_prerequisite_tag": "crn-m-02-d1-v1",
+        "d2_prerequisite_tag": "crn-m-02-d2-v1",
+        "d3_prerequisite_tag": "crn-m-02-d3-v1"
+      }
     }
   },
-  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract",
+  "next": "CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -978,6 +990,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/FREEZE_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/FREEZE_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/FROZEN_v1/FREEZE_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1/FREEZE_STATUS.json",
     "Continue from status.next"
   ]
 }

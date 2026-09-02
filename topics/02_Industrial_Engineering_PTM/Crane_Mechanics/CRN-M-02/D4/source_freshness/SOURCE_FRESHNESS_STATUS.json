@@ -22,6 +22,8 @@
   "d2_frozen_immutable": true,
   "d3_frozen_immutable": true,
   "freeze_candidate_ready": true,
-  "freeze": "NEXT",
-  "next": "CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract"
+  "freeze": "COMPLETE",
+  "next": "CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/FROZEN_v1"
 }

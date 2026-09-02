@@ -62,7 +62,8 @@ D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
 D4 Final Alignment ✅ v1
 D4 Source Freshness ✅ PASS WITH WATCHLIST v1
-D4 Freeze ← NEXT
+D4 Freeze ✅ FROZEN v1 / tag crn-m-02-d4-v1
+CRN-M-02 FULL TOPIC FREEZE ← NEXT
 ```
 
 
@@ -593,7 +594,8 @@ D4 Expected Result ✅ v1
 D4 Verification Rubric ✅ v1
 D4 Final Alignment ✅ v1
 D4 Source Freshness ✅ PASS WITH WATCHLIST v1
-D4 Freeze ← NEXT
+D4 Freeze ✅ FROZEN v1 / tag crn-m-02-d4-v1
+CRN-M-02 FULL TOPIC FREEZE ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -633,7 +635,7 @@ ZERO → LEGEND
 `FROZEN_vN` — immutable versions; existing frozen paths cannot be silently edited or deleted.
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
-`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2 and D3 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1` and `crn-m-02-d3-v1`.
+`status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2, D3 and D4 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1`, `crn-m-02-d3-v1` and `crn-m-02-d4-v1`.
 
 
 ## CRN-M-02 D4 Reader Experience Pass I v1
@@ -728,3 +730,22 @@ Status: `COMPLETE / PASS WITH WATCHLIST`.
 Ten published/regulatory anchors plus two development companions were revalidated on 2026-09-02. The five-item watchlist remains ISO 8686-1:2012; ISO 4309:2017 + ISO/CD 4309 Edition 6; ISO 12482:2014 + ISO/CD 12482 Edition 2. No D4 content correction is required. Method-role, V&V, common-mode, robustness-envelope, remaining-life and equipment-authority guards remain intact.
 
 Next: `CRN-M-02 / D4 FREEZE / v1 — immutable D4 package, manifests, frozen index and tag contract`.
+
+## CRN-M-02 D4 Freeze v1
+
+Decision: `CONTENT FROZEN`.
+
+- baseline: `a8079a9d8e9d4e4aeec361a10fd2dfbf93869210`;
+- immutable snapshot: 85/85 accepted D4 artifacts SHA-matched;
+- freeze bundle: 94 files;
+- canonical frozen-index entry appended with exact hashes;
+- immutable annotated tag contract: `crn-m-02-d4-v1`;
+- Lesson 9/9 Parts / 45/45 blocks, Practice/Reasoning 10/10, Expected Result/Rubric 14/14 and BF 12/12 alignment remain accepted;
+- unseen U1 + mandatory C1 transfer/update contract remains required;
+- Source Freshness remains `PASS WITH WATCHLIST` with five non-blocking watch records;
+- method-role, V&V/common-mode, robustness-envelope, remaining-life and equipment-authority guards remain locked;
+- D1/D2/D3 frozen packages remain byte-immutable.
+
+D4 must not be edited in place after this point. Any accepted D4 change requires a new review/freshness cycle and `FROZEN_v2`.
+
+Next: `CRN-M-02 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.
