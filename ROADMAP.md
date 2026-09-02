@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 TECHNICAL EDITORIAL PASS I NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 RED TEAM PASS I NEXT
 ```
 
 
@@ -21,6 +21,23 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- seven findings corrected;
+- load path now supports branch/merge maps instead of assuming one serial chain;
+- latch/keeper function/load role is explicitly device-source bound;
+- educational seating geometry is separated from field acceptance;
+- ISO 17440 remains a defined forged-steel-hook proof-scope boundary, not a whole-suspension or invented hook-body-only rule;
+- attachment mass does not create universal capacity subtraction arithmetic;
+- clamp/magnet/vacuum dependency examples cannot be used as inspection checklists;
+- visible abnormal state is not automatically a diagnosed failure;
+- numeric design/proof, inspection/discard, holding-force, repair/NDT and equipment-authority locks remain unchanged;
+- CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience`.
 
 ## CRN-M-03 D1 Lesson Authoring v1
 
@@ -47,7 +64,7 @@ system boundary
 - numeric design/proof, inspection/discard, holding-force, repair/NDT and operation-permission claims remain locked;
 - CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
 
-Next: `CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team`.
+Next: `CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1` — completed; see Technical Editorial section above.
 
 ## CRN-M-03 D1 Content Kickoff v1
 

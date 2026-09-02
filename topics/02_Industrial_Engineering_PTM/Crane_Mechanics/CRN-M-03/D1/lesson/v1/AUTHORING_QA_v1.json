@@ -48,7 +48,13 @@
     "appearance_not_source_applicability": true,
     "attachment_weight_not_ignored": true,
     "observation_not_normative_verdict": true,
-    "analysis_stop_not_operation_permission": true
+    "analysis_stop_not_operation_permission": true,
+    "branched_load_path_guard_explicit": true,
+    "latch_function_requires_device_source": true,
+    "educational_seating_not_field_acceptance": true,
+    "attachment_weight_not_generic_capacity_subtraction": true,
+    "holding_dependency_examples_not_inspection_checklist": true,
+    "abnormal_condition_not_failure_diagnosis": true
   },
   "sources": {
     "ISO_4306_1_2026": "crane vocabulary/component boundary",
@@ -60,5 +66,19 @@
     "educational_first_principles_mechanics": "qualitative load-path/holding-principle reasoning only"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team"
+  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+    "findings": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  }
 }

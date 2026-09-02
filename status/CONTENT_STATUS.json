@@ -32,8 +32,8 @@
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
-        "editorial": "NEXT",
-        "red_team": "PENDING",
+        "editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
@@ -52,7 +52,7 @@
         "equipment_specific_capacity_and_compatibility": true,
         "return_to_service_or_operational_permission": true
       },
-      "baseline_commit": "b895e0e31a399baf81f0db3ab83f04a0235ef13e",
+      "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
       "structural_contract_source": "crn-m-02-v1",
       "lesson": {
         "status": "AUTHORING_COMPLETE",
@@ -64,10 +64,26 @@
           "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/AUTHORING_QA_v1.json"
         },
         "formal_practice_included": false
+      },
+      "technical_editorial": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+        "findings": 7,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/editorial/pass_I/v1/CRN-M-03_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+        "branched_load_path_guard": true,
+        "latch_function_source_guard": true,
+        "educational_seating_not_acceptance": true,
+        "iso17440_scope_wording_corrected": true,
+        "attachment_mass_capacity_arithmetic_guard": true,
+        "holding_dependencies_not_inspection_checklist": true,
+        "failure_diagnosis_guard": true
       }
     }
   },
-  "next": "CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team",
+  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -89,8 +105,9 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/KICKOFF_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/AUTHORING_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/EDITORIAL_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/CRN-M-03_D1_LESSON_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/editorial/pass_I/v1/CRN-M-03_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "Continue from status.next"
   ]
 }

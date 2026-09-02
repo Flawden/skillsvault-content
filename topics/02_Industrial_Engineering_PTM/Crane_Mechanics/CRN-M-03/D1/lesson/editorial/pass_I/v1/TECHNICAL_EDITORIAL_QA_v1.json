@@ -1,0 +1,72 @@
+{
+  "artifact": "CRN-M-03_D1_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-02",
+  "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 7,
+    "corrections_applied": 7
+  },
+  "findings": [
+    {
+      "id": "TE-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "serial-chain load path vs branching/merging force paths"
+    },
+    {
+      "id": "TE-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "latch/keeper universal-function assumption"
+    },
+    {
+      "id": "TE-03",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "educational seating vs field acceptance"
+    },
+    {
+      "id": "TE-04",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "ISO 17440 forged-hook scope wording"
+    },
+    {
+      "id": "TE-05",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "attachment self-weight vs generic capacity subtraction"
+    },
+    {
+      "id": "TE-06",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "holding dependencies vs inspection checklist"
+    },
+    {
+      "id": "TE-07",
+      "severity": "LOW",
+      "status": "FIXED",
+      "topic": "abnormal-condition recognition vs failure diagnosis"
+    }
+  ],
+  "guards": {
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d1_source_gate_modified": false,
+    "numeric_design_limits_added": false,
+    "inspection_acceptance_limits_added": false,
+    "holding_force_calculations_added": false,
+    "iso_17096_extended_to_grabs": false,
+    "repair_ndt_permission_unlocked": false,
+    "equipment_specific_capacity_asserted": false,
+    "operation_permission_unlocked": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience"
+}

@@ -48,9 +48,9 @@ No paid dimensions or normative tables are reproduced.
 
 Role in Lesson v1:
 
-- formal proof-of-competence **scope boundary**;
+- formal proof-of-competence **scope boundary for defined forged steel hooks**;
 - demonstrates that hook proof is source- and construction-specific;
-- prevents the beginner lesson from treating every hook or the complete hook suspension as one universal design class.
+- prevents the beginner lesson from treating every hook, an isolated “hook body”, or the complete hook suspension as one universal design class.
 
 Source Gate warning preserved:
 
@@ -106,7 +106,7 @@ No proprietary OEM content is embedded in the repository.
 
 Lesson v1 uses only qualitative mechanics:
 
-- trace the load path from upper suspension to load;
+- trace the load path from upper suspension to load, including explicit branch/merge mapping when the real force path is not one serial chain;
 - distinguish centered/simple bearing contact from obviously shifted, tip, side or eccentric force paths;
 - distinguish structural load path from latch/keeper functionality;
 - recognize that a below-hook attachment contributes to the suspended system and therefore cannot be ignored in an equipment-specific capacity decision;
@@ -142,3 +142,17 @@ Not introduced in Lesson v1:
 - ISO 17096 scope is not extended to grabs/grab buckets;
 - observation ≠ discard/repair/operation verdict;
 - stopping analysis ≠ permission to continue operation.
+
+## Technical Editorial Pass I — guards
+
+Technical Editorial Pass I preserves the Source Gate and adds seven wording/model guards:
+
+- a hook-suspension load path may branch and merge; a single serial chain is only a simple teaching case;
+- latch/keeper function and load role are device-specific and cannot be inferred universally from appearance;
+- “centered/deep seating” is an educational comparison geometry, not field acceptance;
+- ISO 17440 is kept at the scope of defined forged steel hooks and is not reduced to an unsourced “hook-body-only” rule or extended to the whole suspension;
+- attachment self-weight belongs in the physical suspended-system picture, but no universal capacity subtraction rule is created;
+- clamp/magnet/vacuum dependency examples are causal categories, not complete inspection or pre-use checklists;
+- an abnormal visible condition is not by itself a diagnosed failure or discard verdict.
+
+No source authority, numeric limit, inspection criterion or equipment permission is upgraded by this editorial pass.

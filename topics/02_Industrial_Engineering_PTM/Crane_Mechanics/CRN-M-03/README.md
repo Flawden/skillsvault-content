@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 LESSON AUTHORING COMPLETE v1**.
+Status: **ACTIVE — D1 TECHNICAL EDITORIAL PASS I COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / LESSON AUTHORING COMPLETE v1`.
+`D1 — ACTIVE / TECHNICAL EDITORIAL PASS I COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -36,6 +36,21 @@ Authored core:
 - source-scope discipline, including the ISO 17096 grab/grab-bucket exclusion;
 - passport/OEM/device-documentation and competent-authority escalation.
 
+
+## Technical Editorial Pass I
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Seven corrections harden the beginner model without unlocking D2/inspection authority:
+
+- load paths may branch/merge rather than forming one mandatory serial chain;
+- latch/keeper function and load role require device-specific source confirmation;
+- educational seating/contact is not field acceptance;
+- ISO 17440 stays at the exact forged-steel-hook scope boundary, not “hook-body-only” or whole-suspension proof;
+- attachment self-weight does not create a generic capacity-subtraction rule;
+- clamp/magnet/vacuum dependency examples are not inspection checklists;
+- abnormal-condition recognition is not failure diagnosis.
+
 ## Locked claims preserved
 
 D1 still does not unlock:
@@ -51,4 +66,4 @@ D1 still does not unlock:
 
 Source Gate remains `PASS WITH CLAIM LIMITS`.
 
-Next: `CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team`.
+Next: `CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience`.

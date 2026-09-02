@@ -24,8 +24,22 @@
     "iso_17096_grab_scope_guard_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "technical_editorial_pass_I": "NEXT",
-  "red_team_pass_I": "PENDING",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+    "findings": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team_pass_I": "NEXT",
   "reader_experience_pass_I": "PENDING",
   "practice": "PENDING",
   "practice_reasoning": "PENDING",
@@ -34,5 +48,5 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team"
+  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience"
 }

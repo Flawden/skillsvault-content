@@ -1,0 +1,23 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D1",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/editorial/pass_I/v1/CRN-M-03_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "corrections": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team": "NEXT",
+  "reader_experience_pass": "PENDING",
+  "next": "CRN-M-03 / D1 RED TEAM / PASS I / v1 — adversarial challenge of hook-suspension load-path interpretation, latch/keeper assumptions, source-scope misuse, holding-principle shortcuts, acceptance leakage and equipment-authority traps before reader experience"
+}
