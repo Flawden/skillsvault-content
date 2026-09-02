@@ -3,6 +3,30 @@
 # Часть V. Иерархия моделей барабана, блока и полиспаста
 ## Блоки 21–25 — авторская версия v1
 
+## Reader Navigator — не теряй load path между global и local model
+
+Главная линия:
+
+```text
+GLOBAL LOAD PATH
+→ PARENT MODEL
+→ EXPLICIT INTERFACE QUANTITIES
+→ CHILD / LOCAL MODEL
+→ EQUILIBRIUM + INTERFACE CHECK BACK
+→ DECISION QUANTITY
+```
+
+Чем локальнее модель, тем важнее вопрос: **кто и на каких основаниях дал ей boundary conditions?**
+
+### К концу Части V ты должен уметь
+
+- восстановить global equilibrium до локальной детализации;
+- вывести sheave reaction как vector result, а не шаблон `2T`;
+- разделить winding/kinematic radius и moment arm там, где это требуется;
+- оформить parent–child submodel contract;
+- читать FEA как pipeline с provenance, mesh/BC checks и decision quantity, а не как цветную картинку.
+
+
 # Блок 21. Global load path — первый этаж любой component model
 
 Перед локальными stress plot нужно закрыть простой вопрос:
@@ -249,6 +273,14 @@ Geometric notch/singularity может давать mesh-dependent peak. Нел�
 ### Mini-review Part V
 
 Ни один local/high-fidelity model не должен существовать без parent load-path model и interface contract.
+
+## Reader Checkpoint V — интерфейс важнее картинки
+
+1. Что должен доказать global model до запуска local submodel?
+2. Когда формула `2T` для sheave reaction становится опасным shortcut?
+3. Какие quantities проходят через parent→child interface?
+4. Почему локальный stress peak не является автоматическим proof result?
+5. Как обнаружить, что child model «валидирован» только авторитетом parent model?
 
 # Итог Части V
 

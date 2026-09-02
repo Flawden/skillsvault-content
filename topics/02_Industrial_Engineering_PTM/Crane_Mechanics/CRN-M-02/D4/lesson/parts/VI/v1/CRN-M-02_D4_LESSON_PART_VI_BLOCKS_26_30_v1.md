@@ -3,6 +3,27 @@
 # Часть VI. Verification и validation: как проверять выбранную модель
 ## Блоки 26–30 — авторская версия v1
 
+## Reader Navigator — три разных вопроса: verification, cross-check, validation
+
+Не сливай их в одно слово «проверили»:
+
+| Слой | Главный вопрос | Типичный evidence |
+|---|---|---|
+| **Verification** | правильно ли мы решили реализованную математическую модель? | dimensions, signs, equilibrium, limiting cases, mesh/time-step/code checks |
+| **Cross-check** | согласуется ли результат с независимым reasoning/model route? | analytical benchmark, alternative implementation/model |
+| **Validation** | достаточно ли модель представляет реальную систему для intended use? | measurement/test/field evidence в заявленном domain |
+
+Два независимых расчёта могут разделять один common-mode wrong input. Поэтому agreement повышает confidence, но не превращается автоматически в real-system validation.
+
+### К концу Части VI ты должен уметь
+
+- написать verification plan до расчёта;
+- выбрать checks для decision-driving quantity;
+- различить code/spreadsheet implementation error и model-form inadequacy;
+- указать validation domain и его limits;
+- объяснить, почему calibration и model-to-model agreement не равны validation.
+
+
 # Блок 26. Verification и validation — разные вопросы
 
 **Verification:** решили ли мы выбранную математическую/численную задачу правильно?
@@ -228,6 +249,14 @@ Model validated for single-layer steady hoisting нельзя автоматич
 - `OUTSIDE VALIDATED DOMAIN — REVIEW REQUIRED`;
 - `CALIBRATED ONLY — INDEPENDENT VALIDATION MISSING`;
 - `IMPLEMENTATION CHECK FAILED`.
+
+## Reader Checkpoint VI — что именно было «проверено»?
+
+1. Какой вопрос задаёт verification, а какой validation?
+2. Почему global residual может быть недостаточен?
+3. Какой common-mode error могут разделять два согласующихся models?
+4. Почему calibration dataset не должен молча стать validation dataset?
+5. Как ты запишешь границу validation domain?
 
 # Итог Части VI
 

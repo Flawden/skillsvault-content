@@ -1,0 +1,25 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D4",
+  "stage": "READER_EXPERIENCE",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "findings_fixed": 9,
+    "corrected_parts": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX"
+    ]
+  },
+  "practice": "NEXT",
+  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff"
+}

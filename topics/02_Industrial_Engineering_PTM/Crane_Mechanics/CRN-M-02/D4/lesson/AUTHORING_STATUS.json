@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice",
+  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -182,11 +182,11 @@
     },
     {
       "stage": "READER_EXPERIENCE_PASS",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "PRACTICE",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "PRACTICE_REASONING",
@@ -220,5 +220,13 @@
     "baseline_commit": "ea6eb5a1caaf1b24223bbb51adc26e0f1f52efd0",
     "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/red_team/pass_I/v1/CRN-M-02_D4_RED_TEAM_PASS_I_v1.md",
     "findings": 10
+  },
+  "reader_experience": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "findings": 9
   }
 }

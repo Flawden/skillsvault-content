@@ -14,6 +14,7 @@
 - D4 Lesson Authoring: COMPLETE
 - Technical Editorial Pass I: COMPLETE — PASS WITH CORRECTIONS APPLIED v1
 - Red Team Pass I: COMPLETE — PASS WITH CORRECTIONS APPLIED v1
+- Reader Experience Pass I: COMPLETE — PASS WITH READER-LAYER IMPROVEMENTS APPLIED v1
 
 ## Lesson architecture
 
@@ -36,8 +37,8 @@ Remaining pipeline:
 ```text
 Technical Editorial ✅
 → Red Team ✅
-→ Reader Experience Pass ← NEXT
-→ Practice
+→ Reader Experience Pass ✅
+→ Practice ← NEXT
 → Practice Reasoning
 → Expected Result
 → Verification Rubric
@@ -63,6 +64,12 @@ Primary questions:
 9. Does any calculation become equipment acceptance or modification authority?
 10. Are all nine parts coherent with frozen D1–D3?
 
+## Reader Experience result
+
+All nine Parts now expose a compact reader navigator, an explicit capability target and a retrieval checkpoint. Part I adds the whole-D4 progression map; Part VI separates verification / cross-check / validation in one memory table; Part VIII adds a role-first evidence-channel map; Part IX is reframed as capstone synthesis and routes correctly to Practice.
+
+No Technical Editorial or Red-Team guard is weakened.
+
 ## Next
 
-`CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice`
+`CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff`

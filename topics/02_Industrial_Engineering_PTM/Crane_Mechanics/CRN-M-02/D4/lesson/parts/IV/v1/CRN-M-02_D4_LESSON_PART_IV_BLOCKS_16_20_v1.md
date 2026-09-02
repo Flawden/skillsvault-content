@@ -3,6 +3,31 @@
 # Часть IV. Rope-drive selection и proof: где заканчивается учебная механика
 ## Блоки 16–20 — авторская версия v1
 
+## Reader Navigator — formal source-bound pathway без подмены публичным summary
+
+Главная линия:
+
+```text
+QUESTION
+→ GOVERNING SOURCE / EXACT BRANCH
+→ APPLICABILITY
+→ REQUIRED INPUTS WITH PROVENANCE
+→ FORMAL METHOD
+→ VERIFICATION / REVIEW
+→ BOUNDED CLAIM
+```
+
+Публичный abstract, secondary summary или знакомое число могут помочь **найти вопрос и источник**, но не перепрыгивают applicability и exact-input gates.
+
+### К концу Части IV ты должен уметь
+
+- отличить open-mechanics sanity check от source-bound proof;
+- доказать, что выбран exact method branch, а не просто найден номер стандарта;
+- вести stricter input register для formal proof;
+- карантинировать secondary-source values;
+- завершить анализ bounded request package, если exact source/inputs/authority отсутствуют.
+
+
 # Блок 16. ISO 16625-type question — это отдельный класс, а не «ещё одна формула про канат»
 
 Публичный abstract `ISO 16625:2025` говорит о proof of competence и критериях выбора стальных канатов для кранов; влияние геометрии rope drive, барабана и блоков включается в proof/selection framework.
@@ -208,6 +233,14 @@ Requested authority/review:
 - criterion?
 - independent verification?
 - authorized reviewer?
+
+## Reader Checkpoint IV — где заканчивается учебная механика
+
+1. Что public metadata может подтвердить, а чего не может?
+2. Почему primary-source number всё равно может быть неприменим?
+3. Какие поля нужны для source-bound input register?
+4. Какой допустимый результат, если exact source недоступен?
+5. Чем отличается `consistent with mechanics` от `formal proof completed`?
 
 # Итог Части IV
 

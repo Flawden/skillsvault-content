@@ -690,8 +690,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "PENDING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
@@ -802,10 +802,38 @@
         "d1_frozen_immutable": true,
         "d2_frozen_immutable": true,
         "d3_frozen_immutable": true
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+        "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
+        "findings": [
+          "RX-D4-01",
+          "RX-D4-02",
+          "RX-D4-03",
+          "RX-D4-04",
+          "RX-D4-05",
+          "RX-D4-06",
+          "RX-D4-07",
+          "RX-D4-08",
+          "RX-D4-09"
+        ],
+        "parts_audited": 9,
+        "blocks_audited": 45,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+        "technical_depth_preserved": true,
+        "red_team_guards_preserved": true,
+        "equipment_authority_lock_preserved": true,
+        "d1_frozen_immutable": true,
+        "d2_frozen_immutable": true,
+        "d3_frozen_immutable": true
       }
     }
   },
-  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice",
+  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

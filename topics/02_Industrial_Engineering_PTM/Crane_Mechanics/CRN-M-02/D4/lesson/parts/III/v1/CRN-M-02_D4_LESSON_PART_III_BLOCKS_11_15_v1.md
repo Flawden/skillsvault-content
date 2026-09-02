@@ -3,6 +3,36 @@
 # Часть III. Выбор load/model fidelity: от rigid-body до advanced model
 ## Блоки 11–15 — авторская версия v1
 
+## Reader Navigator — выбирай не «самую умную», а самую адекватную модель
+
+Главная линия:
+
+```text
+DECISION / OUTPUT
+→ REQUIRED PHYSICS
+→ SIMPLEST ADEQUATE MODEL
+→ NEW INPUTS + NEW FAILURE MODES
+→ EVIDENCE BURDEN
+```
+
+Держи две независимые оси:
+
+| Ось | Вопрос |
+|---|---|
+| **Fidelity** | какую физику модель представляет? |
+| **Validation status** | насколько есть evidence, что эта модель адекватна реальной системе для intended use? |
+
+Сложность модели не двигает её автоматически вверх по второй оси.
+
+### К концу Части III ты должен уметь
+
+- начать selection с requested output, а не с любимого solver;
+- обосновать quasi-static assumption через time-scale / inertia relevance;
+- распознать случай, где compliance меняет load path;
+- назначить readiness gate для advanced model;
+- объяснить, почему `solver converged` не доказывает ни adequacy, ни formal proof.
+
+
 # Блок 11. Самая простая адекватная модель обычно сильнее самой сложной непроверенной
 
 `ISO 8686-1:2012` по публичному abstract строит общий load/load-combination framework на rigid-body kinetic analysis и elastostatic analysis и допускает более advanced methods, если можно продемонстрировать по меньшей мере эквивалентную состоятельность. Для D4 это важный методологический урок: усложнение требует **больше доказательств**, а не меньше.
@@ -224,6 +254,14 @@ M0 geometry
 4. inputs newly introduced by increased fidelity;
 5. independent check;
 6. stop condition.
+
+## Reader Checkpoint III — fidelity против уверенности
+
+1. Какая модель предпочтительнее: простая validated в нужном domain или сложная без validation evidence — и почему?
+2. Что должно заставить тебя отказаться от quasi-static shortcut?
+3. Назови один новый failure mode, который появляется при повышении fidelity.
+4. Какие evidence нужны до того, как advanced output станет decision-useful?
+5. Почему validation нельзя рисовать как «ступень 8» model ladder?
 
 # Итог Части III
 

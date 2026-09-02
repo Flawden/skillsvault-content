@@ -3,6 +3,34 @@
 # Часть IX. Экспертный синтез, technical review и authority handoff
 ## Блоки 41–45 — авторская версия v1
 
+## Final Reader Navigator — это не десятая тема, а сборка всего D4
+
+Не читай финальную часть как ещё один набор facts. Используй её как capstone: каждый раз восстанавливай маршрут из памяти и только потом сверяйся с текстом.
+
+```text
+QUESTION
+→ CONFIGURATION / STATE
+→ METHOD MAP
+→ APPLICABILITY + INPUT PROVENANCE
+→ MODEL(S)
+→ VERIFICATION
+→ VALIDATION / CROSS-CHECK
+→ SENSITIVITY / UNCERTAINTY
+→ BOUNDED TECHNICAL CONCLUSION
+→ STOP / AUTHORITY HANDOFF
+```
+
+Ни один method не обязан «победить» все остальные. Разные methods могут отвечать на разные questions одного случая.
+
+### К концу Части IX ты должен уметь
+
+- построить method map до выбора любимой модели;
+- harmonize conflicting outputs через state/definition/evidence, а не голосованием;
+- оформить review, который другой инженер сможет воспроизвести;
+- применить stop rule как корректный результат, а не как провал;
+- передать recommendation в правильный authority layer без самовольного повышения статуса.
+
+
 # Финальный кейс D4
 
 На механизме подъёма обнаружена повторяющаяся локальная сигнатура в rope-drive zone. После изменения режима работы выросла measured reaction на одной опоре. Есть паспортная схема, но actual rope path и layer state требуют подтверждения. Команда предлагает сразу построить FEA барабана и «посмотреть запас».
@@ -298,6 +326,19 @@ Possible handoff categories:
 
 Authoring v1 — начало испытаний, не конец.
 
+## Reader Checkpoint IX — capstone retrieval
+
+Не заглядывая вверх, восстанови:
+
+1. девять стадий D4 от question до authority handoff;
+2. три разных значения слов verification / cross-check / validation;
+3. один пример common-mode error;
+4. один пример scenario-envelope trap;
+5. один случай, где correct expert result — `STOP / REQUEST EVIDENCE`, а не число;
+6. один вывод, который SkillsVault D4 принципиально не имеет права превращать в equipment decision.
+
+Если маршрут не восстанавливается без текста, повтори только Reader Navigators и checkpoints, а не весь lesson подряд.
+
 ## Финальный mental audit
 
 Перед любым сильным выводом произнеси вслух семь вопросов:
@@ -354,4 +395,4 @@ CORRECT QUESTION
 
 # Что будет дальше
 
-Следующий pipeline gate — **D4 TECHNICAL EDITORIAL / PASS I / v1**: цель не переписать lesson красивее, а попытаться найти scope drift, method-role confusion, unsupported source claims, false validation, hidden input invention и authority leakage across all nine parts.
+После Technical Editorial, Red Team и Reader Experience следующий pipeline gate — **D4 PRACTICE / v1**: экспертные transfer cases должны заставить читателя самостоятельно выбирать question/method, фиксировать boundary/input provenance, разделять verification/validation, проверять sensitivity/robustness и завершать bounded authority handoff.

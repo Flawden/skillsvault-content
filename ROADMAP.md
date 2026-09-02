@@ -55,7 +55,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D4 Lesson Authoring ✅
 └─ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
-D4 Reader Experience ← NEXT
+D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
+D4 Practice ← NEXT
 ```
 
 
@@ -579,7 +580,8 @@ D4 Content Kickoff ✅
 D4 Lesson Authoring ✅
 D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
-D4 Reader Experience ← NEXT
+D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
+D4 Practice ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -620,3 +622,19 @@ ZERO → LEGEND
 CRN-M-01 topic tag: `crn-m-01-v1`.
 `status/CONTENT_STATUS.json` — canonical new-chat entrypoint.
 `status/FROZEN_INDEX.json` — canonical frozen-file hash index; CRN-M-02 D1, D2 and D3 are frozen as v1 under tags `crn-m-02-d1-v1`, `crn-m-02-d2-v1` and `crn-m-02-d3-v1`.
+
+
+## CRN-M-02 D4 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
+
+- 9 / 9 Parts and 45 / 45 Blocks retain their technical content;
+- every Part now has a Reader Navigator, capability target and retrieval checkpoint;
+- Part I exposes the whole-D4 progression;
+- Parts II–VIII lead with a positive causal/execution route before guard-dense detail;
+- Part VI makes verification / cross-check / validation explicitly distinct in one memory map;
+- Part VIII maps duty / condition / monitoring / proof / authority as separate evidence roles;
+- Part IX is capstone synthesis and now routes to Practice;
+- no normative claim, Red-Team guard, frozen D1/D2/D3 artifact or equipment-authority boundary was weakened.
+
+Next: `D4 PRACTICE / v1` — expert integrated transfer cases across method selection, boundary/input provenance, V&V, uncertainty/robustness and bounded handoff.

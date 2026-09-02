@@ -3,6 +3,30 @@
 # Часть VII. Sensitivity, uncertainty и error budget
 ## Блоки 31–35 — авторская версия v1
 
+## Reader Navigator — uncertainty начинается с вопроса «что способно перевернуть решение?»
+
+Главная линия:
+
+```text
+DECISION
+→ PLAUSIBLE INPUT / STATE / MODEL-FORM ENVELOPE
+→ RANGE PROVENANCE
+→ SENSITIVITY
+→ ROBUSTNESS / DECISION FLIP
+→ VALUE OF INFORMATION
+```
+
+Не начинай с Monte Carlo. Сначала докажи, **какие сценарии вообще имеют право входить в envelope**.
+
+### К концу Части VII ты должен уметь
+
+- разнести measurement/input, state, implementation и model-form uncertainty;
+- назвать provenance диапазона, а не придумать «±10%»;
+- искать decision flip, а не только local derivative;
+- сравнивать competing methods без бессмысленного усреднения;
+- выбрать следующее измерение по value of information.
+
+
 # Блок 31. Ошибки разных классов нельзя складывать словами «погрешность около 10%»
 
 D4 различает минимум пять классов:
@@ -237,6 +261,14 @@ D4 sensitivity помогает решить **что измерять даль�
 3. model-form alternative;
 4. scenario that most threatens conclusion;
 5. measurement with highest value of information.
+
+## Reader Checkpoint VII — устойчив ли вывод или только число?
+
+1. Какой uncertainty сейчас способен изменить решение?
+2. Откуда взят его диапазон?
+3. Какой alternative model form надо проверить?
+4. Почему robust result внутри выбранного envelope не означает global robustness?
+5. Как sensitivity помогает решить, что измерять дальше?
 
 # Итог Части VII
 

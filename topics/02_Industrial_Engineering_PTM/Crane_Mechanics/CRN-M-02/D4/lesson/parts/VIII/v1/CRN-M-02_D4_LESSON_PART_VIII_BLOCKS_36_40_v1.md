@@ -3,6 +3,29 @@
 # Часть VIII. Duty, inspection, monitoring и remaining-life boundary
 ## Блоки 36–40 — авторская версия v1
 
+## Reader Navigator — evidence channels не голосуют, а отвечают на разные вопросы
+
+Держи role map:
+
+```text
+DUTY / HISTORY       → какой режим и накопленный контекст был?
+INSPECTION / CONDITION → что наблюдается сейчас и с какой observability?
+MONITORING           → как менялось состояние/режим во времени?
+DESIGN / PROOF       → что говорит применимый formal method?
+AUTHORITY            → кто вправе назначить действие?
+```
+
+Если channels конфликтуют, задача — не выбрать «более авторитетный», а проверить state, scope, observability, method и missing evidence.
+
+### К концу Части VIII ты должен уметь
+
+- использовать classification как service-condition context, а не coefficient dispenser;
+- отделить condition evidence от design proof;
+- применять observability gate к non-detection;
+- собирать timeline без превращения monitoring counter в remaining-life verdict;
+- остановиться до specialist/remaining-life/equipment-action claim, если exact method или authority отсутствуют.
+
+
 # Блок 36. Classification — это контекст service conditions, а не универсальный coefficient dispenser
 
 `ISO 4301-1:2016` по публичному abstract связывает classification с service conditions, включая total working cycles, load spectrum factor и average displacements.
@@ -222,6 +245,14 @@ RECHECK TRIGGER:
 ### Mini-review Part VIII
 
 Для каждого evidence item назови его **role**, а потом назови хотя бы один вывод, который он не имеет права делать.
+
+## Reader Checkpoint VIII — назови role до вывода
+
+1. Что inspection может доказать и чего не может?
+2. Почему `no defect observed` зависит от observability?
+3. Что classification label говорит о duty и чего не даёт автоматически?
+4. Как действовать, если model и condition evidence конфликтуют?
+5. Какие gates должны появиться до numeric remaining-life или equipment action?
 
 # Итог Части VIII
 

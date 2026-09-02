@@ -1,0 +1,52 @@
+{
+  "artifact": "CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-02",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+  "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
+  "scope": {
+    "parts": 9,
+    "blocks": 45
+  },
+  "findings_fixed": 9,
+  "findings": [
+    "RX-D4-01",
+    "RX-D4-02",
+    "RX-D4-03",
+    "RX-D4-04",
+    "RX-D4-05",
+    "RX-D4-06",
+    "RX-D4-07",
+    "RX-D4-08",
+    "RX-D4-09"
+  ],
+  "parts_with_reader_layer_updates": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "checks": {
+    "whole_d4_progression_map": true,
+    "capability_targets_9_of_9": true,
+    "positive_causal_lines": true,
+    "verification_crosscheck_validation_memory_map": true,
+    "evidence_role_map": true,
+    "retrieval_checkpoints_9_of_9": true,
+    "technical_depth_reduced": false,
+    "normative_claims_changed": false,
+    "red_team_guards_weakened": false,
+    "d1_frozen_modified": false,
+    "d2_frozen_modified": false,
+    "d3_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d4_kickoff_source_gate_modified": false
+  },
+  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff"
+}

@@ -18,6 +18,7 @@
     ]
   },
   "red_team": "COMPLETE",
-  "reader_experience_pass": "NEXT",
-  "next": "CRN-M-02 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Red-Team/source/method/authority guards before practice"
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-02 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, boundary/input provenance, V&V, sensitivity/error, competing methods and bounded authority handoff",
+  "practice": "NEXT"
 }

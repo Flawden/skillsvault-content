@@ -3,6 +3,29 @@
 # Часть II. Boundary-value problem для барабана, блоков и полиспаста
 ## Блоки 6–10 — авторская версия v1
 
+## Reader Navigator — из реального механизма в однозначную постановку
+
+Главная линия этой части:
+
+```text
+REAL CONFIGURATION
+→ LOCK ROPE PATH + STATE
+→ CHOOSE SYSTEM / BOUNDARIES / FRAME
+→ DEFINE PHYSICAL OUTPUT
+→ ONLY THEN WRITE EQUATIONS
+```
+
+Если потерялся в деталях, вернись к четырём словам: **system — state — boundary — output**. Они важнее красивого CAD.
+
+### К концу Части II ты должен уметь
+
+- версионировать as-found configuration и rope path;
+- отличить физическую support/contact boundary от удобной constraint в модели;
+- зафиксировать frame, sign convention и motion state;
+- определить output физически, а не словом `stress` или `reaction`;
+- назвать critical unknown, который не позволяет запускать следующую модель.
+
+
 # Блок 6. «Схема механизма» ещё не является расчётной постановкой
 
 Фото, паспортная схема и красивый CAD отвечают на разные вопросы. D4 требует собрать **boundary-value problem**.
@@ -278,6 +301,14 @@ SOURCE CRITERION LINK (if any):
 - [ ] authority question separated.
 
 Если хотя бы одна критичная строка пустая, model may be premature.
+
+## Reader Checkpoint II — boundary-value problem без подсказки
+
+1. Какие четыре сущности образуют минимальное ядро постановки?
+2. Почему observed configuration нельзя автоматически считать approved configuration?
+3. Как ты проверишь, что две серии данных относятся к одному state?
+4. Почему `fixed support` должен иметь физическое объяснение?
+5. Сформулируй один output так, чтобы другой инженер понял location, frame, time characteristic и units.
 
 # Итог Части II
 

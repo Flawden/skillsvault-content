@@ -35,10 +35,11 @@
     "field_authority_implied": false,
     "fea_convergence_treated_as_validation": false
   },
-  "next": "D4 TECHNICAL EDITORIAL / PASS I / v1 after completion of all nine parts",
+  "next": "D4 PRACTICE / v1 after Reader Experience Pass I",
   "checks": {
     "technical_editorial_completed": true,
-    "red_team_completed": true
+    "red_team_completed": true,
+    "reader_experience_completed": true
   },
   "technical_editorial": {
     "pass": "I",
@@ -50,7 +51,7 @@
       "TE-D4-04"
     ]
   },
-  "sha256_lesson": "893D0D8C0F6BCD2CE9AB0F8D235238A23014A2E6FB4B50C8F740DC305201B35F",
+  "sha256_lesson": "78240ADAEDF1D09AA7B1528162A4B081738EA1310C1B80EE05B94AE3438C4873",
   "sha256_source_map": "F2443A5E51CADB092CBF18568F091CA78326B8962CAB90021AA7B292142A1EA6",
   "red_team": {
     "pass": "I",
@@ -61,5 +62,21 @@
     "findings": [
       "RT-D4-06"
     ]
+  },
+  "reader_experience": {
+    "pass": "I",
+    "date": "2026-09-02",
+    "status": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/lesson/reader_experience/pass_I/v1/CRN-M-02_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "baseline_commit": "4258bc1ee84bd7d923a0402df48e32b58408a18b",
+    "findings": [
+      "RX-D4-02",
+      "RX-D4-06",
+      "RX-D4-08"
+    ],
+    "capability_target_added": true,
+    "reader_navigator_added": true,
+    "retrieval_checkpoint_added": true,
+    "source_map_unchanged": true
   }
 }
