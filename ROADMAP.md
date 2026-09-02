@@ -59,7 +59,8 @@ D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
-D4 Verification Rubric ← NEXT
+D4 Verification Rubric ✅ v1
+D4 Final Alignment ← NEXT
 ```
 
 
@@ -587,14 +588,15 @@ D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
 D4 Practice Reasoning ✅ v1
 D4 Expected Result ✅ v1
-D4 Verification Rubric ← NEXT
+D4 Verification Rubric ✅ v1
+D4 Final Alignment ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 RED TEAM COMPLETE / READER EXPERIENCE NEXT
+CRN-M-02 ← ACTIVE / D3 FROZEN v1 / D4 VERIFICATION RUBRIC COMPLETE / FINAL ALIGNMENT NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза
@@ -684,3 +686,19 @@ Status: `COMPLETE`.
 - D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge`
+
+## CRN-M-02 D4 Verification Rubric v1
+
+Status: `COMPLETE`.
+
+- 14 ER-D4 dimensions are scored on a 0–4 behavioral scale; maximum 56;
+- every dimension must be >=3 for `D4 VERIFIED`; total score cannot compensate for a weak dimension;
+- all 12 BF-D4 failures are non-compensable;
+- known A–J is required but insufficient; unseen U1 plus mandatory challenge C1 are required;
+- U1 tests a prospective operating-profile change with apparently agreeing model packages;
+- C1 exposes a configuration mismatch and shared decision-driving workbook, forcing common-mode/V&V/robustness re-evaluation;
+- correct bounded `STOP / REQUEST EVIDENCE` remains a successful result where the evidence chain is incomplete;
+- actual proof, remaining-life, NDT, acceptance/discard and equipment-authority locks remain closed;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness`

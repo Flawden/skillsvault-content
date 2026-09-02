@@ -138,4 +138,6 @@ D4 Practice Reasoning v1 is complete for cases A–J. It demonstrates multiple d
 
 D4 Expected Result v1 is complete with 14 observable dimensions. It converts question/claim decomposition, configuration and input provenance, source/method applicability, model-fidelity and parent/child interfaces, V&V/common-mode challenge, sensitivity/robustness, evidence roles, value-of-information, bounded stop rules and authority/audit handoff into assessable behaviors. Known A–J remains insufficient: Verification requires unseen transfer plus a mandatory adversarial evidence-status update. Twelve BF-D4 candidates are carried into the rubric; proof/life/NDT/equipment-authority locks remain closed.
 
-Next: `CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge`.
+D4 Verification Rubric v1 is complete: 14 dimensions are scored 0–4, all must reach >=3, and all 12 BF-D4 failures are non-compensable. Known A–J is insufficient; prospective-change U1 plus mandatory C1 test configuration/input provenance, model independence, V&V, robustness and bounded authority handoff. Correct stop/escalation remains a strong result when evidence is incomplete.
+
+Next: `CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness`.

@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge",
+  "next": "CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -198,11 +198,11 @@
     },
     {
       "stage": "VERIFICATION_RUBRIC",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "FINAL_ALIGNMENT",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "SOURCE_FRESHNESS",
@@ -249,5 +249,13 @@
     "dimensions": 14,
     "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/CRN-M-02_D4_EXPECTED_RESULT_v1.md",
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/expected_result/v1/EXPECTED_RESULT_QA_v1.json"
+  },
+  "verification_rubric": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "dimensions": 14,
+    "blocking_failures": 12,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/verification_rubric/v1/CRN-M-02_D4_VERIFICATION_RUBRIC_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json"
   }
 }

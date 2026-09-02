@@ -21,8 +21,9 @@
     ]
   },
   "practice": "COMPLETE",
-  "next": "CRN-M-02 / D4 VERIFICATION RUBRIC / v1 — score observable expert method-governance behaviors, 12 non-compensable blocking failures, unseen transfer and adversarial evidence-status challenge",
+  "next": "CRN-M-02 / D4 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, surprise BF and guard contradictions before source freshness",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }
