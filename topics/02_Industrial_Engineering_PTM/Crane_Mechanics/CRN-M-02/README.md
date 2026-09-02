@@ -90,4 +90,6 @@ D3 is the causal-analysis depth. It treats D1 and D2 as immutable prerequisites 
 
 D3 Source Gate = `PASS WITH CLAIM LIMITS`. Public source metadata and generic mechanics do not unlock paid proof-of-competence factors, dynamic coefficients/load combinations, numeric fatigue/remaining-life results, equipment-specific acceptance limits or field redesign authority.
 
-Next: `D3 LESSON AUTHORING / v1`.
+D3 Lesson Authoring v1 is complete. The lesson introduces a causal case-file method: observed signature → competing mechanisms → predicted signatures → distinguishing evidence → model update → bounded conclusion. It adds dynamic-state rebuilds, present-state versus duty/history separation, sensitivity/unknown/confounder discipline and an explicit D3→D4 handoff without unlocking proof, remaining-life or field-authority claims.
+
+Next: `D3 TECHNICAL EDITORIAL / PASS I / v1`.

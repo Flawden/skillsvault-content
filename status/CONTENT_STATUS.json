@@ -437,8 +437,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "NEXT",
-        "editorial": "WAITING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "WAITING",
         "reader_experience_pass": "WAITING",
         "practice": "WAITING",
@@ -448,13 +448,26 @@
         "final_alignment": "WAITING",
         "source_freshness": "WAITING",
         "freeze": "WAITING"
+      },
+      "lesson_authoring": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/v1/CRN-M-02_D3_LESSON_v1.md",
+        "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/v1/SOURCE_MAP_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/v1/AUTHORING_QA_v1.json",
+        "causal_competing_model_framework_complete": true,
+        "discriminating_evidence_required": true,
+        "generic_dynamic_mechanics_only": true,
+        "numeric_proof_design_claim_lock_preserved": true,
+        "fatigue_remaining_life_claim_lock_preserved": true,
+        "equipment_authority_boundary_preserved": true
       }
     },
     "D4": {
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D3 LESSON AUTHORING / v1 — build causal advanced-analysis lesson around interacting load, geometry, contact, dynamics, duty/history and competing-model discrimination under locked proof/design/remaining-life authority boundaries",
+  "next": "CRN-M-02 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal-model logic, dynamics wording, hypothesis discrimination, degradation/history claims and proof/design/remaining-life authority boundaries before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -476,8 +489,9 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D1/FROZEN_v1/FREEZE_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/FROZEN_v1/FREEZE_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/kickoff/v1/D3_SCOPE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/kickoff/v1/SOURCE_GATE_v1.md",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/KICKOFF_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/v1/CRN-M-02_D3_LESSON_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/v1/SOURCE_MAP_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D3/lesson/AUTHORING_STATUS.json",
     "Continue from status.next"
   ]
 }

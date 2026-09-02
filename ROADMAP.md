@@ -38,11 +38,46 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D3 Content Kickoff ✅ v1
 ├─ D3 Scope ✅ LOCKED v1
 ├─ D3 Source Gate ✅ PASS WITH CLAIM LIMITS v1
-└─ D3 Lesson Authoring ← NEXT
+├─ D3 Lesson Authoring ✅ v1
+└─ D3 Technical Editorial / Pass I ← NEXT
 ```
 
 
 
+
+
+## CRN-M-02 D3 Lesson Authoring v1
+
+D3 Lesson v1 is complete under the locked `PASS WITH CLAIM LIMITS` source gate.
+
+### Advanced-analysis learning spine
+
+```text
+observed signature
+→ system + state + history
+→ causal variables
+→ competing H1/H2/H3
+→ predicted signatures
+→ discriminating data
+→ model update / falsification
+→ bounded conclusion
+→ source/OEM/specialist or D4 handoff
+```
+
+### Core authored concepts
+
+- symptom is not automatically cause;
+- a non-trivial case should preserve competing causal models until evidence discriminates them;
+- confirming evidence is weaker than genuinely distinguishing evidence when multiple models predict the same observation;
+- free-body/dynamic models must be rebuilt when geometry, state or acceleration changes;
+- generic `ΣF = m·a` / `ΣM = I·α` mechanics do not import crane-specific dynamic factors or load combinations;
+- present state and accumulated duty/history are separate evidence layers;
+- crossover/spooling/degradation relationships are causal candidates and evidence cues, not automatic discard authority;
+- qualitative sensitivity, unknown registers, negative evidence and confounders are part of the analysis;
+- bounded conclusions must preserve alternatives, unknowns and authority boundaries;
+- D3 hands formal method-selection/validation problems to D4 rather than pretending to solve them.
+
+No proof-of-competence factors, remaining-life numbers, numeric acceptance limits or equipment-specific interventions were introduced.
 
 ## CRN-M-02 D3 Content Kickoff v1
 

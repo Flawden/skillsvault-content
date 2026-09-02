@@ -1,0 +1,73 @@
+{
+  "artifact": "CRN-M-02_D3_LESSON_v1",
+  "date": "2026-09-02",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "tag": "crn-m-02-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "tag": "crn-m-02-d2-v1"
+    }
+  ],
+  "coverage": {
+    "symptom_vs_cause_explicit": true,
+    "causal_map_complete": true,
+    "competing_hypotheses_required": true,
+    "predicted_signatures_required": true,
+    "discriminating_evidence_required": true,
+    "negative_evidence_and_falsification_explicit": true,
+    "confounders_explicit": true,
+    "dynamic_fbd_rebuild_explicit": true,
+    "generic_newton_euler_symbolic_only": true,
+    "snapshot_vs_accumulated_history_explicit": true,
+    "degradation_network_qualitative": true,
+    "crossover_causal_example_bounded": true,
+    "qualitative_sensitivity_explicit": true,
+    "unknown_register_explicit": true,
+    "evidence_hierarchy_explicit": true,
+    "natural_experiment_history_boundary_explicit": true,
+    "evidence_plan_explicit": true,
+    "bounded_conclusion_format_explicit": true,
+    "model_status_vocabulary_complete": true,
+    "d3_d4_handoff_explicit": true,
+    "universal_d3_worksheet_complete": true
+  },
+  "claim_guards": {
+    "iso_8686_dynamic_factors_introduced": false,
+    "iso_8686_load_combinations_introduced": false,
+    "proof_of_competence_factors_introduced": false,
+    "numeric_D_d_or_geometry_limits_introduced": false,
+    "numeric_fatigue_life_introduced": false,
+    "numeric_remaining_life_introduced": false,
+    "actual_design_working_period_conclusion_introduced": false,
+    "numeric_stress_contact_bearing_limits_introduced": false,
+    "discard_acceptance_limits_introduced": false,
+    "specialist_ndt_interpretation_introduced": false,
+    "equipment_specific_modification_instruction_introduced": false,
+    "field_authority_implied": false,
+    "paid_normative_tables_reconstructed": false
+  },
+  "model_guards": {
+    "plausible_not_proven": true,
+    "correlation_not_automatically_causation": true,
+    "multiple_hypotheses_for_nontrivial_case": true,
+    "distinguishing_data_preferred_over_confirmation_only": true,
+    "fbd_rebuilt_on_state_change": true,
+    "generic_mechanics_not_normative_crane_factor": true,
+    "unknowns_visible": true,
+    "negative_evidence_used": true,
+    "history_not_replaced_by_snapshot": true,
+    "causal_analysis_not_field_authority": true
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-02 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal-model logic, dynamics wording, hypothesis discrimination, degradation/history claims and proof/design/remaining-life authority boundaries before red team"
+}
