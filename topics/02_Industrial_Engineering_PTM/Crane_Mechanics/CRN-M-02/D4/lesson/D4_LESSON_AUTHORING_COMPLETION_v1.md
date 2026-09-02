@@ -39,7 +39,8 @@ Technical Editorial ✅
 → Red Team ✅
 → Reader Experience Pass ✅
 → Practice ✅
-→ Practice Reasoning ← NEXT
+→ Practice Reasoning ✅
+→ Expected Result ← NEXT
 → Expected Result
 → Verification Rubric
 → Final Alignment
@@ -74,6 +75,10 @@ No Technical Editorial or Red-Team guard is weakened.
 
 D4 Practice v1 is complete with 10 integrated cases A–J. The cases force question/claim decomposition, configuration and input provenance, method applicability, smallest-adequate-model selection, exact-source stop rules, parent–child model interfaces, V&V separation, common-mode error checks, sensitivity/robustness review, competing-method harmonization, evidence-role boundaries and explicit authority handoff. Case J is the full transfer capstone. Worked reasoning remains separate.
 
+## Practice Reasoning result
+
+D4 Practice Reasoning v1 is complete for cases A–J with non-exclusive expert paths, discriminating evidence, V&V separation, common-mode error challenge, sensitivity/robustness review, value-of-information ordering, bounded conclusions and authority handoff. It preserves all source/proof/life/NDT/equipment-authority locks.
+
 ## Next
 
-`CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`
+`CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`

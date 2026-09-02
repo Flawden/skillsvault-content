@@ -162,7 +162,7 @@
     "equipment_specific_authority_locked": true,
     "field_modification_authority_locked": true
   },
-  "next": "CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key",
+  "next": "CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -190,11 +190,11 @@
     },
     {
       "stage": "PRACTICE_REASONING",
-      "status": "NEXT"
+      "status": "COMPLETE"
     },
     {
       "stage": "EXPECTED_RESULT",
-      "status": "PENDING"
+      "status": "NEXT"
     },
     {
       "stage": "VERIFICATION_RUBRIC",
@@ -235,5 +235,12 @@
     "cases": 10,
     "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/CRN-M-02_D4_PRACTICE_v1.md",
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice/v1/PRACTICE_QA_v1.json"
+  },
+  "practice_reasoning": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "cases": 10,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice_reasoning/v1/CRN-M-02_D4_PRACTICE_REASONING_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D4/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json"
   }
 }

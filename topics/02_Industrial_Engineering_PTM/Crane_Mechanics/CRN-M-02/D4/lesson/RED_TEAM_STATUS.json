@@ -21,7 +21,8 @@
     ]
   },
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key",
+  "next": "CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff",
   "practice": "COMPLETE",
-  "practice_reasoning": "NEXT"
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "NEXT"
 }

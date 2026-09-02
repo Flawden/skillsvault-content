@@ -57,7 +57,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
-D4 Practice Reasoning ← NEXT
+D4 Practice Reasoning ✅ v1
+D4 Expected Result ← NEXT
 ```
 
 
@@ -583,7 +584,8 @@ D4 Technical Editorial ✅ PASS WITH CORRECTIONS APPLIED
 D4 Red Team ✅ PASS WITH CORRECTIONS APPLIED
 D4 Reader Experience ✅ PASS WITH READER-LAYER IMPROVEMENTS APPLIED
 D4 Practice ✅ v1
-D4 Practice Reasoning ← NEXT
+D4 Practice Reasoning ✅ v1
+D4 Expected Result ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
@@ -639,7 +641,7 @@ Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
 - Part IX is capstone synthesis and now routes to Practice;
 - no normative claim, Red-Team guard, frozen D1/D2/D3 artifact or equipment-authority boundary was weakened.
 
-Next: `CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`
+Next: `CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`
 
 
 ## CRN-M-02 D4 Practice v1
@@ -652,4 +654,16 @@ Status: `COMPLETE`.
 - proof/remaining-life/discard/NDT/equipment-authority locks remain unchanged;
 - D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
-Next: `CRN-M-02 / D4 PRACTICE REASONING / v1 — build non-exclusive expert reasoning paths, discriminating evidence, V&V plans, sensitivity/robustness reviews and bounded authority handoff for cases A–J without turning Practice into a single answer key`
+Next: `CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`
+
+## CRN-M-02 D4 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+- cases A–J now have non-exclusive expert reasoning paths rather than a single answer key;
+- configuration/input provenance, method applicability, V&V, parent-child interfaces, common-mode error, sensitivity/robustness and value-of-information are explicit;
+- Case J provides a full bounded expert review/handoff packet;
+- cross-case failure taxonomy preserves source/proof/remaining-life/NDT/equipment-authority locks;
+- D1/D2/D3 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-02 / D4 EXPECTED RESULT / v1 — define observable expert behaviors, evidence outputs, transfer criteria and stop/escalation success conditions for method selection, V&V, robustness and bounded authority handoff`
