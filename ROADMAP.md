@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 LESSON AUTHORING NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 TECHNICAL EDITORIAL PASS I NEXT
 ```
 
 
@@ -21,6 +21,33 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Lesson Authoring v1
+
+Status: `COMPLETE / PASS_AUTHORING_COMPLETE`.
+
+Beginner lesson v1 now teaches a single executable mental model:
+
+```text
+system boundary
+→ load path
+→ holding principle
+→ device state / unknowns
+→ exact source scope
+→ bounded conclusion or STOP / REQUEST SOURCE-OEM
+```
+
+- hook body is separated from the complete hook suspension/load path;
+- latch/keeper function is not silently upgraded to a load-bearing role;
+- centered/simple seating is separated from tip/side/eccentric force paths without numeric limits;
+- positive engagement is separated from clamp/friction, magnetic, vacuum and grab/grab-bucket holding principles;
+- attachment self-weight is recognized as part of the suspended system, while equipment-specific capacity treatment remains locked to OEM/load-chart/device documentation;
+- observation, hypothesis and normative/equipment decision are explicit evidence-status layers;
+- ISO 17096 grab/grab-bucket scope exclusion remains a hard guard;
+- numeric design/proof, inspection/discard, holding-force, repair/NDT and operation-permission claims remain locked;
+- CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team`.
 
 ## CRN-M-03 D1 Content Kickoff v1
 

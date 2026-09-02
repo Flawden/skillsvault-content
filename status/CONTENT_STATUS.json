@@ -31,8 +31,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "NEXT",
-        "editorial": "PENDING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
@@ -52,11 +52,22 @@
         "equipment_specific_capacity_and_compatibility": true,
         "return_to_service_or_operational_permission": true
       },
-      "baseline_commit": "87c8523fd878ad568a06b80d06d4043c52b32518",
-      "structural_contract_source": "crn-m-02-v1"
+      "baseline_commit": "b895e0e31a399baf81f0db3ab83f04a0235ef13e",
+      "structural_contract_source": "crn-m-02-v1",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "baseline_commit": "b895e0e31a399baf81f0db3ab83f04a0235ef13e",
+        "artifacts": {
+          "lesson": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/CRN-M-03_D1_LESSON_v1.md",
+          "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/SOURCE_MAP_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/AUTHORING_QA_v1.json"
+        },
+        "formal_practice_included": false
+      }
     }
   },
-  "next": "CRN-M-03 / D1 LESSON AUTHORING / v1 — build the beginner mental model for hook suspensions and load-gripping devices under the locked source/claim boundaries",
+  "next": "CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -77,6 +88,8 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/README.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/KICKOFF_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/AUTHORING_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/v1/CRN-M-03_D1_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
     "Continue from status.next"
   ]

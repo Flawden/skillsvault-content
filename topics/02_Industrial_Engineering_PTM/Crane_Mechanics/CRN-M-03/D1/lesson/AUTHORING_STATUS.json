@@ -1,0 +1,38 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "baseline_commit": "b895e0e31a399baf81f0db3ab83f04a0235ef13e",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-03_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "hook_suspension_vs_attachment_boundary_explicit": true,
+    "load_path_and_holding_principle_explicit": true,
+    "numeric_design_and_acceptance_claim_locks_preserved": true,
+    "iso_17096_grab_scope_guard_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "technical_editorial_pass_I": "NEXT",
+  "red_team_pass_I": "PENDING",
+  "reader_experience_pass_I": "PENDING",
+  "practice": "PENDING",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-03 / D1 TECHNICAL EDITORIAL / PASS I / v1 — audit beginner hook-suspension and load-gripping-device lesson for load-path, source-scope, holding-principle, acceptance and equipment-authority leakage before red team"
+}
