@@ -78,4 +78,6 @@ Verification Rubric v1 is complete. It scores ER-D2-01…12 on a 0–4 scale, re
 
 Final Alignment v1 is complete. Lesson §§1–18, Practice/Reasoning A–K, ER-D2-01…12, Rubric ER-D2-01…12 and BF-D2-01…09 are traced end-to-end. No orphan content, surprise blocking rule or weakened source/OEM/field-authority guard was found; no content correction is required before freshness.
 
-Next: `D2 SOURCE FRESHNESS / v1`.
+Source Freshness v1 is complete. ISO 4306-1:2026, ISO 16625:2025, ISO 4301-1:2016, ISO 4309:2017, the Edition 6 draft watchlist and ФНП №461 (ред. 16.04.2026) were revalidated. No D2 content correction is required; geometry/spooling/classification claim locks and the passport/OEM authority boundary remain intact.
+
+Next: `D2 FREEZE / v1`.

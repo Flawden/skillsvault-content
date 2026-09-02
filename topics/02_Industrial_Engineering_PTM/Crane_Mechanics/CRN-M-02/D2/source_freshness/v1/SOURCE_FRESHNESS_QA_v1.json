@@ -1,0 +1,38 @@
+{
+  "artifact": "CRN-M-02_D2_SOURCE_FRESHNESS_v1",
+  "date": "2026-09-02",
+  "stage": "SOURCE_FRESHNESS",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+  "baseline_commit": "89548b636c718881189a90c3a35c2888b92c974c",
+  "checks": {
+    "source_gate_inventory_revalidated": true,
+    "current_status_rechecked": true,
+    "draft_vs_published_separated": true,
+    "replacements_checked": true,
+    "iso_4301_current_confirmation_checked": true,
+    "fnp_current_amendment_checked": true,
+    "d2_geometry_spooling_claims_rechecked": true,
+    "classification_context_guard_preserved": true,
+    "oem_equipment_boundary_preserved": true,
+    "numeric_design_claim_lock_preserved": true,
+    "field_authority_guard_preserved": true,
+    "stale_sources_requiring_removal": false,
+    "lesson_corrections_required": false,
+    "practice_corrections_required": false,
+    "reasoning_corrections_required": false,
+    "expected_result_corrections_required": false,
+    "verification_corrections_required": false,
+    "final_alignment_corrections_required": false,
+    "d1_frozen_immutable": true,
+    "freeze_candidate_ready": true,
+    "frozen_index_modified": false
+  },
+  "watchlist": [
+    "ISO-4309-2017",
+    "ISO-CD-4309-ED6"
+  ],
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
+  "sha256_report": "2F4AB3990149FB65E182CAAABD94678644131CF3E09A6CA36C9304F64F714C2E",
+  "sha256_inventory": "A552532CB6751A3E1392233CB2CD716E43FA339654F3E701B00F9BCA45211128"
+}

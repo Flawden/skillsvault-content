@@ -17,6 +17,7 @@
   "equipment_specific_authority_locked": true,
   "d1_frozen_immutable": true,
   "final_alignment": "COMPLETE",
-  "next": "CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze",
-  "source_freshness": "NEXT"
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
 }

@@ -13,11 +13,12 @@
   "numeric_design_claim_lock_preserved": true,
   "equipment_specific_authority_locked": true,
   "d1_frozen_immutable": true,
-  "next": "CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze",
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "reasoning": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT"
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
 }

@@ -193,7 +193,7 @@
       }
     },
     "D2": {
-      "status": "FINAL_ALIGNMENT_COMPLETE",
+      "status": "SOURCE_FRESHNESS_COMPLETE",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -222,8 +222,8 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT",
-        "freeze": "WAITING"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
       },
       "lesson_authoring": {
         "status": "COMPLETE",
@@ -379,6 +379,25 @@
         "numeric_design_claim_lock_preserved": true,
         "equipment_specific_authority_locked": true,
         "d1_frozen_immutable": true
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_WATCHLIST",
+        "checked_on": "2026-09-02",
+        "primary_anchors_checked": 6,
+        "development_companion_records_checked": 1,
+        "watchlist_count": 2,
+        "content_corrections_required": false,
+        "freeze_candidate_ready": true,
+        "d2_geometry_spooling_claims_rechecked": true,
+        "classification_context_guard_preserved": true,
+        "numeric_design_claim_lock_preserved": true,
+        "equipment_specific_authority_locked": true,
+        "d1_frozen_immutable": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/CRN-M-02_D2_SOURCE_FRESHNESS_v1.md",
+        "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       }
     },
     "D3": {
@@ -388,7 +407,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze",
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -419,6 +438,7 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/CRN-M-02_D2_PRACTICE_v1.md",
     "Continue from status.next",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
-    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/final_alignment/FINAL_ALIGNMENT_STATUS.json"
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/final_alignment/FINAL_ALIGNMENT_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/source_freshness/SOURCE_FRESHNESS_STATUS.json"
   ]
 }

@@ -33,7 +33,8 @@ CRN-M-02 — Барабаны, блоки, полиспасты ← ACTIVE
 ├─ D2 Expected Result ✅ v1
 ├─ D2 Verification Rubric ✅ v1
 └─ D2 Final Alignment ✅
-D2 Source Freshness ← NEXT
+D2 Source Freshness ✅
+D2 Freeze ← NEXT
 ```
 
 
@@ -235,11 +236,28 @@ Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 
 Source Freshness candidate: `READY`.
 
+## CRN-M-02 D2 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
+
+- 6 primary external/source-boundary anchors revalidated;
+- 1 active development companion checked;
+- ISO 4306-1:2026 remains current Published Edition 5;
+- ISO 16625:2025 remains current Published Edition 2; ISO 16625:2013 remains withdrawn;
+- ISO 4301-1:2016 remains current/confirmed and is retained only as classification/service-condition context;
+- ISO 4309:2017 remains current published Edition 5 but is marked to be revised;
+- ISO/CD 4309 Edition 6 remains under development at Committee Draft stage 30.20 and is watch-only;
+- ФНП ПС №461 remains current in the 16.04.2026 edition, valid through 01.09.2032;
+- D2 geometry/spooling/classification boundaries rechecked with no content correction required;
+- numeric design/acceptance locks and passport/OEM field-authority boundary remain intact;
+- D1 frozen prerequisite remains immutable;
+- D2 Freeze candidate: READY.
+
 ## Next
 
-CRN-M-02 / D2 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D2 claim limits and equipment-authority boundaries before D2 freeze
+CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract
 
-D1 is immutable. Continue D2 Source Freshness under the aligned Lesson, Practice, Reasoning, Expected-Result and Verification guards.
+Create the immutable D2 package, frozen index entry and tag contract from the freshness-cleared D2 tree.
 
 ## D1 production sequence
 
@@ -267,14 +285,15 @@ D2 Practice Reasoning ✅
 D2 Expected Result ✅
 D2 Verification Rubric ✅
 D2 Final Alignment ✅
-D2 Source Freshness ← NEXT
+D2 Source Freshness ✅
+D2 Freeze ← NEXT
 ```
 
 ## CQ-B001 pilot sequence
 
 ```text
 CRN-M-01 ✅ FULL TOPIC FROZEN v1
-CRN-M-02 ← ACTIVE / D2 SOURCE FRESHNESS NEXT
+CRN-M-02 ← ACTIVE / D2 FREEZE NEXT
 CRN-M-03 — Крюковые подвески и захваты
 CRN-M-04 — Редукторы и муфты
 CRN-M-05 — Тормоза

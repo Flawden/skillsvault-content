@@ -45,7 +45,8 @@
 - D2 Expected Result — COMPLETE v1
 - D2 Verification Rubric — COMPLETE v1
 - D2 Final Alignment — COMPLETE v1
-- D2 Source Freshness — NEXT
+- D2 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
+- D2 Freeze — NEXT
 
 CRN-M-01 используется как структурный pilot contract. Его технические выводы, численные критерии и source boundaries в CRN-M-02 автоматически не наследуются.
 

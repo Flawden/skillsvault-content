@@ -1,0 +1,22 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "stage": "SOURCE_FRESHNESS",
+  "version": "v1",
+  "status": "COMPLETE",
+  "decision": "PASS_WITH_WATCHLIST",
+  "checked_on": "2026-09-02",
+  "baseline_commit": "89548b636c718881189a90c3a35c2888b92c974c",
+  "primary_anchors_checked": 6,
+  "development_companion_records_checked": 1,
+  "watchlist_count": 2,
+  "corrections_required": false,
+  "d2_geometry_spooling_claims_rechecked": true,
+  "classification_context_guard_preserved": true,
+  "numeric_design_claim_lock_preserved": true,
+  "equipment_specific_authority_locked": true,
+  "d1_frozen_immutable": true,
+  "freeze_candidate_ready": true,
+  "freeze": "NEXT",
+  "next": "CRN-M-02 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract"
+}
