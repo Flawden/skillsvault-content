@@ -217,8 +217,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "WAITING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "WAITING",
         "verification_rubric": "WAITING",
         "final_alignment": "WAITING",
@@ -291,6 +291,22 @@
         "numeric_design_claim_lock_preserved": true,
         "equipment_specific_claims_require_oem_or_passport": true,
         "d1_frozen_immutable": true
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 11,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/CRN-M-02_D2_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "local_tension_bookkeeping_explicit": true,
+        "body_first_fbd_explicit": true,
+        "spooling_state_before_verdict": true,
+        "model_status_required": true,
+        "numeric_design_claim_lock_preserved": true,
+        "equipment_specific_authority_locked": true,
+        "d1_frozen_immutable": true
       }
     },
     "D3": {
@@ -300,7 +316,7 @@
       "status": "WAITING"
     }
   },
-  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards",
+  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -327,6 +343,8 @@
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/AUTHORING_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/READER_EXPERIENCE_STATUS.json",
     "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/lesson/reader_experience/pass_I/v1/CRN-M-02_D2_READER_EXPERIENCE_PASS_I_v1.md",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/PRACTICE_STATUS.json",
+    "Read topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-02/D2/practice/v1/CRN-M-02_D2_PRACTICE_v1.md",
     "Continue from status.next"
   ]
 }

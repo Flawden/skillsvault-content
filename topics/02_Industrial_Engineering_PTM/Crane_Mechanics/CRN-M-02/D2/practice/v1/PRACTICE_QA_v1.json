@@ -1,0 +1,46 @@
+{
+  "topic": "CRN-M-02",
+  "depth": "D2",
+  "stage": "PRACTICE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "status": "PASS",
+  "cases": 11,
+  "case_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K"
+  ],
+  "answer_key_embedded": false,
+  "coverage": {
+    "local_tension_bookkeeping": true,
+    "body_first_fbd": true,
+    "vector_reaction_reasoning": true,
+    "drum_kinematics": true,
+    "helical_spooling_stop": true,
+    "moment_arm_distinction": true,
+    "spooling_state_recognition": true,
+    "load_path_redistribution": true,
+    "dynamic_stop_condition": true,
+    "source_reference_geometry_guard": true,
+    "duty_classification_context": true,
+    "model_status_required": true,
+    "bounded_conclusion_required": true
+  },
+  "guards": {
+    "numeric_design_claim_lock_preserved": true,
+    "equipment_specific_authority_locked": true,
+    "d1_frozen_immutable": true,
+    "frozen_index_unchanged": true,
+    "practice_reasoning_separate": true
+  },
+  "decision": "PASS_PRACTICE_READY_FOR_REASONING"
+}

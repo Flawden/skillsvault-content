@@ -26,7 +26,7 @@
     "numeric_design_claim_lock_preserved": true,
     "equipment_authority_boundary_preserved": true
   },
-  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards",
+  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key",
   "technical_editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -70,5 +70,7 @@
       "RX-D2-07",
       "RX-D2-08"
     ]
-  }
+  },
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }

@@ -12,6 +12,7 @@
       "lesson/v1/CRN-M-02_D2_LESSON_v1.md"
     ]
   },
-  "practice": "NEXT",
-  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards"
+  "practice": "COMPLETE",
+  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key",
+  "practice_reasoning": "NEXT"
 }

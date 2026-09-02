@@ -171,11 +171,21 @@ Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 - technical conclusions, numeric-design locks, source authority and OEM/field boundaries are unchanged;
 - D1 frozen prerequisite remains immutable.
 
+## CRN-M-02 D2 Practice v1
+
+Status: `COMPLETE`.
+
+- 11 cases A–K exercise local `Ti`, body-first FBD, vector reactions, `r_k`/`r_m`, spooling state, dynamic stop conditions, source/reference-geometry discipline and duty context;
+- every case requires model-status and bounded conclusion rather than formula-first answering;
+- worked reasoning is intentionally deferred to a separate Practice Reasoning stage;
+- numeric design/OEM claim locks remain intact;
+- D1 frozen prerequisite remains immutable.
+
 ## Next
 
-CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards
+CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key
 
-D1 is immutable. Continue D2 practice production under the reviewed Reader Experience, Red-Team, numeric-design and equipment-authority guards.
+D1 is immutable. Continue D2 Practice Reasoning under the locked Lesson, Editorial, Red-Team and Reader-Experience guards.
 
 ## D1 production sequence
 
@@ -198,7 +208,8 @@ D2 Lesson Authoring ✅
 D2 Technical Editorial ✅
 D2 Red Team ✅
 D2 Reader Experience ✅
-D2 Practice ← NEXT
+D2 Practice ✅
+D2 Practice Reasoning ← NEXT
 ```
 
 ## CQ-B001 pilot sequence

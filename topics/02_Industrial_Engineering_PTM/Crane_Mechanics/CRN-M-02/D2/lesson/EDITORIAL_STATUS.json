@@ -22,7 +22,9 @@
     "equipment_authority_boundary_preserved": true,
     "d1_frozen_immutable": true
   },
-  "next": "CRN-M-02 / D2 PRACTICE / v1 — build applied-mechanics diagram-reading, FBD, geometry/spooling and model-status exercises under locked numeric/OEM guards",
+  "next": "CRN-M-02 / D2 PRACTICE REASONING / v1 — provide worked applied-mechanics reasoning paths, FBD rebuilds, model-status decisions and bounded conclusions without turning Practice into a single answer key",
   "red_team_pass_I": "COMPLETE",
-  "reader_experience_pass_I": "COMPLETE"
+  "reader_experience_pass_I": "COMPLETE",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }

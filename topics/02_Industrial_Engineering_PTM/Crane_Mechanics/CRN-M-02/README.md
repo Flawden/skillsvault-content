@@ -68,4 +68,6 @@ No numeric D/d, groove, angle, efficiency, strength, discard or equipment-specif
 
 Reader Experience Pass I is now complete with eight presentation corrections: early working-route preview; compact symbol/model-status onboarding; paired block/rope FBD reading; explicit `r_k` versus `r_m` question framing; spooling state-first recognition; grouped failure families; and full visibility of all seven Red-Team invariants. Engineering conclusions and source/OEM boundaries are unchanged.
 
-Next: `D2 PRACTICE / v1`.
+D2 Practice v1 is complete with 11 cases A–K. It exercises local tension bookkeeping, body-first FBD rebuilding, qualitative reaction geometry, drum kinematics, helical-spooling stop conditions, moment-arm reasoning, spooling-state recognition, changed load paths, dynamic boundaries, source/reference-geometry traps and duty/classification context. Worked solutions remain separate by design.
+
+Next: `D2 PRACTICE REASONING / v1`.
