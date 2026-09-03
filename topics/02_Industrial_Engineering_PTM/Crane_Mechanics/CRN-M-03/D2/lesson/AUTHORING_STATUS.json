@@ -87,7 +87,7 @@
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT",
-  "freeze": "PENDING",
-  "next": "CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze"
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
+  "next": "CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract"
 }

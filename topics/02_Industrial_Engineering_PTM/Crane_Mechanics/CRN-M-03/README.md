@@ -1,3 +1,13 @@
+## D2 Source Freshness v1 — COMPLETE
+
+Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
+
+Freshness revalidated all seven published/regulatory D2 anchors on 2026-09-03. ISO 8686-1:2012 remains current Published Edition 2 but at stage 90.60 / under review, so the existing one-record watchlist remains active and non-blocking. ISO 17096 still excludes grabs/grab buckets; ISO 17440 still excludes plate hooks from its public scope. ISO 9927-1 remains the inspection boundary, ISO 12480-1 remains the safe-use/planning boundary, and exact OEM/device documentation remains mandatory for equipment-specific authority.
+
+No Lesson/Practice/Reasoning/Expected/Rubric/Final-Alignment correction is required. Numeric proof/load-factor/WLL/holding-rating/inspection/load-test/rigging-plan/repair/NDT/equipment-operation claims remain locked. Russian-first learner language remains unchanged.
+
+Next: `CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract`.
+
 ## D2 Final Alignment v1 — COMPLETE
 
 - `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`;
@@ -25,7 +35,7 @@ Next: `CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source edition
 Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 FINAL ALIGNMENT COMPLETE v1 / SOURCE FRESHNESS NEXT**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 SOURCE FRESHNESS COMPLETE v1 / FREEZE NEXT**.
 
 ## Structural production contract
 
@@ -36,7 +46,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current D2
 
-`D2 — FINAL ALIGNMENT COMPLETE v1 / SOURCE FRESHNESS NEXT`.
+`D2 — SOURCE FRESHNESS COMPLETE v1 / FREEZE NEXT`.
 
 D2 переводит D1 mental model в applied mechanics:
 

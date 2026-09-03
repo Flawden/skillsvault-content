@@ -285,8 +285,8 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT",
-        "freeze": "PENDING"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -483,10 +483,32 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/CRN-M-03_D2_FINAL_ALIGNMENT_v1.md",
         "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json"
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_WATCHLIST",
+        "checked_on": "2026-09-03",
+        "baseline_commit": "59554329bcff086c4fdde8363eb51bdff0995638",
+        "published_regulatory_anchors_checked": 7,
+        "watchlist_count": 1,
+        "corrections_required": false,
+        "freeze_candidate_ready": true,
+        "iso8686_review_watch_retained": true,
+        "iso17096_grab_exclusion_preserved": true,
+        "iso17440_plate_hook_exclusion_preserved": true,
+        "formal_proof_boundary_preserved": true,
+        "inspection_authority_boundary_preserved": true,
+        "safe_use_authority_boundary_preserved": true,
+        "equipment_authority_guard_preserved": true,
+        "language_russian_first_preserved": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/source_freshness/v1/CRN-M-03_D2_SOURCE_FRESHNESS_v1.md",
+        "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze",
+  "next": "CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

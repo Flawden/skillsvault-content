@@ -1,5 +1,23 @@
 # SkillsVault Content — ROADMAP
 
+## CRN-M-03 D2 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
+
+- ISO 4306-1:2026 remains Published / Edition 5 / stage 60.60;
+- ISO 17440:2014 remains Published / Confirmed / stage 90.93; plate hooks remain outside its public scope;
+- ISO 17096:2015 remains Published / Confirmed / stage 90.93 after 2026-03-20 confirmation; grabs/grab buckets remain excluded;
+- ISO 8686-1:2012 remains Published at stage 90.60 / under review and stays on a one-record non-blocking watchlist;
+- ISO 9927-1:2013 remains Published / Confirmed / stage 90.93;
+- ISO 12480-1:2024 remains Published / stage 60.60;
+- ФНП ПС №461 remains current in edition 16.04.2026 and valid through 01.09.2032;
+- exact passport/OEM/device documentation remains mandatory for equipment-specific geometry, compatibility, holding state, inspection/test/maintenance and operational claims;
+- no D2 content correction is required; proof/load-factor/WLL/holding-rating/inspection/load-test/rigging-plan/repair/NDT/equipment-authority locks remain closed;
+- Russian-first learner-facing policy remains unchanged;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract`.
+
 ## CRN-M-03 D2 Final Alignment v1
 
 Final Alignment is complete with `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
@@ -26,7 +44,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 VERIFICATION RUBRIC COMPLETE
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 SOURCE FRESHNESS COMPLETE / FREEZE NEXT
 ```
 
 ## CRN-M-03 D2 Verification Rubric v1

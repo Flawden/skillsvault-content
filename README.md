@@ -45,7 +45,8 @@
 - D2 Expected Result — COMPLETE v1
 - D2 Verification Rubric — COMPLETE v1
 - D2 Final Alignment — COMPLETE / PASS TRACEABILITY COMPLETE / NO BLOCKING GAPS
-- D2 Source Freshness — NEXT
+- D2 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
+- D2 Freeze — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 
