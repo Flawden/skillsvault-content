@@ -259,4 +259,13 @@ Status: `COMPLETE`.
 - learner-facing language remains Russian-first;
 - CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
-Next: `CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key`.
+Next: `CRN-M-03 / D2 PRACTICE REASONING / v1` — completed; see Practice Reasoning section below.
+
+
+## CRN-M-03 D2 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+Practice A–J now has multiple valid reasoning trajectories rather than one answer key. The layer emphasizes system-boundary changes, complete SСТ/force/moment discipline, contact-resultant and CG evidence, loaded-state articulation hypotheses, three load-share model states, holding-state dependencies, transient-vs-quasistatic status, discriminating evidence requests and bounded source/authority handoff. Eleven cross-case failure families are carried forward only as Expected Result candidates. Russian-first learner language and all numeric/proof/inspection/holding/equipment-authority locks remain intact.
+
+Next: `CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation`.

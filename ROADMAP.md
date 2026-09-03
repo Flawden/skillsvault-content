@@ -1043,4 +1043,23 @@ Status: `COMPLETE`.
 - learner-facing language remains Russian-first;
 - CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
-Next: `CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key`.
+Next: `CRN-M-03 / D2 PRACTICE REASONING / v1` — completed; see Practice Reasoning section below.
+
+
+## CRN-M-03 D2 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+- 10/10 Practice cases A–J receive non-exclusive worked reasoning paths without changing the Practice prompts;
+- reasoning separates body/system-boundary choice, complete SСТ force/moment maps, contact-resultant position and centre-of-gravity evidence;
+- loaded articulation state is handled through competing constraint hypotheses rather than unloaded-name shortcuts;
+- load sharing is classified as equilibrium-solvable, compatibility/stiffness-dependent or unknown active-contact state;
+- attachment self-weight remains mechanics only and cannot become universal equipment-capacity arithmetic;
+- holding physics remains distinct from rating/acceptance;
+- slow motion is not promoted to proven quasistatics across slack take-up/transient states;
+- mechanics / formal proof / inspection / safe use / equipment authority remain separate evidence roles;
+- 11 cross-case reasoning failure families are carried forward as Expected Result candidates, not automatically declared blocking failures;
+- learner-facing language remains Russian-first and English labels are optional;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation`.

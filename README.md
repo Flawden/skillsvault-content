@@ -41,7 +41,8 @@
 - D2 Red Team / Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
 - D2 Reader Experience / Pass I — COMPLETE / PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED
 - D2 Practice — COMPLETE v1
-- D2 Practice Reasoning — NEXT
+- D2 Practice Reasoning — COMPLETE v1
+- D2 Expected Result — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 

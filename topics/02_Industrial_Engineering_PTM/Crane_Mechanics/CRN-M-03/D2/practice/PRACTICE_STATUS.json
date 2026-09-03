@@ -31,6 +31,6 @@
   "source_authority_handoff_required": true,
   "numeric_proof_holding_inspection_locks_preserved": true,
   "d1_frozen_immutable": true,
-  "practice_reasoning": "NEXT",
-  "next": "CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key"
+  "practice_reasoning": "COMPLETE",
+  "next": "CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation"
 }

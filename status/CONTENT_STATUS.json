@@ -281,8 +281,8 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT",
-        "expected_result": "PENDING",
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
@@ -393,10 +393,41 @@
         "dynamic_model_status_required": true,
         "source_authority_handoff_required": true,
         "numeric_proof_holding_inspection_locks_preserved": true
+      },
+      "practice_reasoning": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "cb9e3480757b49116c321069b02c2f4dcfbe2ab9",
+        "cases": 10,
+        "case_ids": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/practice_reasoning/v1/CRN-M-03_D2_PRACTICE_REASONING_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+        "single_answer_key": false,
+        "multiple_valid_paths_explicit": true,
+        "failure_taxonomy_candidates": 11,
+        "russian_first_language": true,
+        "body_fbd_force_moment_reasoning": true,
+        "cg_articulation_load_share_reasoning": true,
+        "holding_state_reasoning": true,
+        "dynamic_model_status_reasoning": true,
+        "discriminating_evidence_requests": true,
+        "source_authority_handoff": true,
+        "numeric_proof_holding_inspection_locks_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key",
+  "next": "CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
