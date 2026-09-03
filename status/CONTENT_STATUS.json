@@ -280,8 +280,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "PENDING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -364,10 +364,39 @@
           "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
           "russian_first_language_preserved": true
         }
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "6ad7127e1e93040c3d35d63dbf8af28a70c75f3f",
+        "cases": 10,
+        "case_ids": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/practice/v1/CRN-M-03_D2_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "russian_first_language": true,
+        "body_fbd_force_moment_required": true,
+        "cg_articulation_load_share_required": true,
+        "holding_state_required": true,
+        "dynamic_model_status_required": true,
+        "source_authority_handoff_required": true,
+        "numeric_proof_holding_inspection_locks_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff",
+  "next": "CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

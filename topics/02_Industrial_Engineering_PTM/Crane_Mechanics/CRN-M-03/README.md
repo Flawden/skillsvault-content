@@ -243,3 +243,20 @@ Eight reader-layer corrections make the reviewed D2 mechanics retrievable withou
 Russian-first language, all Red-Team/Technical-Editorial guards, ISO 17096 grab/grab-bucket exclusion, numeric proof/holding/inspection locks and equipment-authority boundaries remain unchanged.
 
 Next: `CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff`.
+
+## CRN-M-03 D2 Practice v1
+
+Status: `COMPLETE`.
+
+- 10 applied-mechanics transfer cases A–J added without worked solutions;
+- learner must select the body before reactions and keep FBD, force/moment balance, contact-resultant position and centre-of-gravity evidence explicit;
+- articulation is tested as a loaded-state constraint question, not a component-name shortcut;
+- multi-support load sharing is classified into equilibrium-solvable, compatibility/stiffness-dependent or unknown-contact-state cases;
+- attachment self-weight is represented mechanically without universal capacity subtraction;
+- holding physics is separated from device rating/acceptance;
+- low speed cannot promote a transient case to proven quasistatics;
+- formal proof, inspection, safe-use planning and equipment authority remain separate evidence layers;
+- learner-facing language remains Russian-first;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key`.

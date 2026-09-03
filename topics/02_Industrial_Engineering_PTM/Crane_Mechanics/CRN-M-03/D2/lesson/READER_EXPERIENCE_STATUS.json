@@ -12,12 +12,12 @@
       "lesson/v1/CRN-M-03_D2_LESSON_v1.md"
     ]
   },
-  "practice": "NEXT",
-  "practice_reasoning": "PENDING",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff"
+  "next": "CRN-M-03 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, model-state checks, discriminating evidence requests and bounded source/authority handoff for Practice A–J without turning Practice into a single answer key"
 }
