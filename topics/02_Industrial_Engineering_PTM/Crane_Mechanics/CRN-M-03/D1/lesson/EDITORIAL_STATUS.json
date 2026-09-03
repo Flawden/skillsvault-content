@@ -19,11 +19,14 @@
   },
   "red_team": "COMPLETE",
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT"
+  "source_freshness": "COMPLETE",
+  "source_freshness_version": "v1",
+  "source_freshness_decision": "PASS",
+  "freeze": "NEXT"
 }

@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 FINAL ALIGNMENT COMPLETE v1**.
+Status: **ACTIVE — D1 SOURCE FRESHNESS COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / FINAL ALIGNMENT COMPLETE v1`.
+`D1 — ACTIVE / SOURCE FRESHNESS COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -132,3 +132,13 @@ Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 - content corrections required: NO; Source Freshness: READY.
 
 Next: `CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze`.
+
+## Source Freshness v1
+
+Decision: `PASS — FREEZE CANDIDATE READY`.
+
+Freshness revalidated the current D1 anchors on 2026-09-03: ISO 4306-1:2026, ISO 1837:2003, ISO 17440:2014, ISO 17096:2015 and ФНП ПС №461. ISO 17096 remains confirmed at stage 90.93 and still explicitly excludes buckets, grabs, grab buckets and container spreaders; ISO 17440 remains a defined forged-steel-hook proof-scope boundary with plate hooks outside its public scope. Exact equipment/device passport/OEM documentation remains mandatory for real configuration, compatibility, inspection/test/maintenance and authority claims.
+
+No Lesson/Practice/Reasoning/Expected/Rubric/Final-Alignment correction is required. Numeric design/proof, inspection/discard/acceptance, holding-force, repair/NDT and equipment-authority locks remain closed. Learner-facing language remains Russian-first. Watchlist: empty.
+
+Next: `CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract`.

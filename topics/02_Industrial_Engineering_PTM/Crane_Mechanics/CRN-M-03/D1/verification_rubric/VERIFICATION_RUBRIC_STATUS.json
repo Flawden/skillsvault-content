@@ -38,7 +38,9 @@
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json"
   },
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT",
-  "freeze": "PENDING",
-  "next": "CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze"
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "source_freshness_version": "v1",
+  "source_freshness_decision": "PASS"
 }

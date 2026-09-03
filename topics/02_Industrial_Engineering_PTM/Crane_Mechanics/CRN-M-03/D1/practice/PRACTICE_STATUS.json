@@ -23,8 +23,8 @@
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT",
-  "freeze": "PENDING",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
   "system_boundary_required": true,
   "load_path_branch_merge_supported": true,
   "holding_principle_required": true,
@@ -33,7 +33,9 @@
   "bounded_stop_required": true,
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "next": "CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
   "reasoning_artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice_reasoning/v1/CRN-M-03_D1_PRACTICE_REASONING_v1.md",
-  "reasoning_is_non_exclusive": true
+  "reasoning_is_non_exclusive": true,
+  "source_freshness_version": "v1",
+  "source_freshness_decision": "PASS"
 }

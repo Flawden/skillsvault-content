@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FINAL ALIGNMENT COMPLETE v1
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 SOURCE FRESHNESS COMPLETE v1
 ```
 
 
@@ -23,6 +23,23 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Source Freshness v1
+
+Decision: `PASS — FREEZE CANDIDATE READY`.
+
+- ISO 4306-1:2026 remains Published / stage 60.60;
+- ISO 1837:2003 remains Published / Confirmed / stage 90.93;
+- ISO 17440:2014 remains Published / Confirmed / stage 90.93 and plate hooks remain outside the public scope;
+- ISO 17096:2015 remains Published / Confirmed / stage 90.93, with ISO lifecycle showing confirmation on 2026-03-20; buckets, grabs, grab buckets and container spreaders remain explicitly excluded;
+- ФНП ПС №461 remains current in the edition of 16.04.2026 and valid through 01.09.2032;
+- exact passport/OEM/device documentation remains mandatory for equipment-specific configuration, compatibility, inspection/test/maintenance and authority claims;
+- numeric design/proof, inspection/discard/acceptance, holding-force, repair/NDT and operation-permission locks remain closed;
+- Russian-first learner-facing language guard remains intact;
+- watchlist = 0; content corrections required = NO;
+- CRN-M-01 / CRN-M-02 frozen topics and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract`.
 
 ## CRN-M-03 D1 Final Alignment v1
 

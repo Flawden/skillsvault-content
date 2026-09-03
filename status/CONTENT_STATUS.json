@@ -40,8 +40,8 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT",
-        "freeze": "PENDING"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -214,10 +214,28 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/CRN-M-03_D1_FINAL_ALIGNMENT_v1.md",
         "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json"
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS",
+        "checked_on": "2026-09-03",
+        "published_or_regulatory_anchors_checked": 5,
+        "equipment_specific_authority_boundaries_checked": 1,
+        "explicit_scope_exclusion_records_rechecked": 2,
+        "development_companion_records_checked": 0,
+        "watchlist_count": 0,
+        "content_corrections_required": false,
+        "freeze_candidate_ready": true,
+        "iso17096_grab_exclusion_preserved": true,
+        "language_russian_first": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/CRN-M-03_D1_SOURCE_FRESHNESS_v1.md",
+        "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
