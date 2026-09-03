@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 SOURCE FRESHNESS COMPLETE v1
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 NEXT
 ```
 
 
@@ -23,6 +23,22 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Freeze v1
+
+Status: `CONTENT FROZEN`. Tag contract: `crn-m-03-d1-v1`.
+
+- 52/52 accepted D1 source/status artifacts snapshotted byte-for-byte;
+- 61/61 immutable freeze-bundle files registered in `status/FROZEN_INDEX.json`;
+- Lesson 17/17, Practice/Reasoning 10/10 + 10/10, ER/Rubric 10/10 + 10/10;
+- 8/8 non-compensable BF have prior origin; 2/2 severity-review families remain non-blocking unless they create an explicit BF;
+- unseen U1 + C1 requirement preserved;
+- Source Freshness = PASS, watchlist = 0, content corrections = 0;
+- Russian-first learner-language guard preserved;
+- numeric design/proof, inspection/discard/acceptance, holding-force, repair/NDT and equipment-authority locks remain closed;
+- CRN-M-01 / CRN-M-02 frozen topics remain byte-immutable.
+
+Next: `CRN-M-03 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied hook-suspension and load-gripping-device mechanics while preserving D1 source/acceptance/authority boundaries`.
 
 ## CRN-M-03 D1 Source Freshness v1
 

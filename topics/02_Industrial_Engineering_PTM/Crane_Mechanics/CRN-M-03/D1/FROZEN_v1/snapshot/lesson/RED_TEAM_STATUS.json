@@ -1,0 +1,27 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D1",
+  "stage": "RED_TEAM",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/lesson/red_team/pass_I/v1/CRN-M-03_D1_RED_TEAM_PASS_I_v1.md",
+    "findings_fixed": 9,
+    "corrected_artifacts": [
+      "lesson/v1/CRN-M-03_D1_LESSON_v1.md",
+      "lesson/v1/SOURCE_MAP_v1.md"
+    ]
+  },
+  "reader_experience_pass": "COMPLETE",
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "source_freshness_version": "v1",
+  "source_freshness_decision": "PASS"
+}

@@ -1,0 +1,339 @@
+{
+  "artifact": "CRN-M-03_D1_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "a23c41664497feaf84af7ceb697bb7374521056a",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_primary_sections": 17,
+    "lesson_primary_sections_traced": 17,
+    "practice_cases": 10,
+    "practice_cases_traced": 10,
+    "reasoning_cases": 10,
+    "reasoning_cases_traced": 10,
+    "expected_dimensions": 10,
+    "expected_dimensions_traced": 10,
+    "rubric_dimensions": 10,
+    "rubric_dimensions_traced": 10,
+    "blocking_failures": 8,
+    "blocking_failures_with_prior_origin": 8,
+    "severity_review_families": 2,
+    "severity_review_families_consistent": 2,
+    "orphan_lesson_sections": 0,
+    "orphan_practice_cases": 0,
+    "orphan_reasoning_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "severity_review_contradictions": 0,
+    "guard_contradictions": 0,
+    "language_accessibility_gaps": 0
+  },
+  "er_traceability": [
+    {
+      "id": "ER-D1-01",
+      "competence": "Object / interface boundary",
+      "lesson": "§§1,4,6,13,17",
+      "practice": [
+        "A",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-01; U1+C1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-02",
+      "competence": "Branch / merge load-path topology",
+      "lesson": "§§4,5,6,13,17",
+      "practice": [
+        "B",
+        "C",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-02; U1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-03",
+      "competence": "Latch / seating evidence discipline",
+      "lesson": "§§3,5,10,11,15,16",
+      "practice": [
+        "C",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-03; BF-D1-03",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-04",
+      "competence": "Holding principle without unsupported certainty",
+      "lesson": "§§7,8,10,13,17",
+      "practice": [
+        "D",
+        "E",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-04; U1+C1; SR-D1-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-05",
+      "competence": "Observation / unknown register",
+      "lesson": "§§10,11,13,16,17",
+      "practice": [
+        "E",
+        "I",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-05; BF-D1-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-06",
+      "competence": "Identity / interchangeability / whole-system boundary",
+      "lesson": "§§1,6,8,9,13,15,17",
+      "practice": [
+        "F",
+        "H",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-06; U1+C1; BF-D1-05",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-07",
+      "competence": "Source role / exact applicability",
+      "lesson": "§§12,13,15,16",
+      "practice": [
+        "G",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-07; U1+C1; BF-D1-06",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-08",
+      "competence": "History / nominal marking evidence status",
+      "lesson": "§§9,11,13,15,17",
+      "practice": [
+        "H",
+        "I",
+        "J"
+      ],
+      "verification": "Rubric ER-D1-08; BF-D1-07",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-09",
+      "competence": "Discriminating evidence request / bounded STOP / authority handoff",
+      "lesson": "§§11,12,13,16,17",
+      "practice": "A–J",
+      "verification": "Rubric ER-D1-09; BF-D1-01/BF-D1-08",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D1-10",
+      "competence": "Unseen transfer",
+      "lesson": "§§13,15,16,17",
+      "practice": "A–J primitives only; known J pattern only",
+      "verification": "Rubric ER-D1-10; U1+C1 mandatory",
+      "status": "PASS — verification-only closure by design"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "primary": "object/system boundary",
+      "expected": [
+        "ER-D1-01",
+        "ER-D1-09"
+      ],
+      "reasoning": "A",
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "primary": "branch/merge topology without visual load-share claim",
+      "expected": [
+        "ER-D1-02"
+      ],
+      "reasoning": "B",
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "primary": "latch/seating/low-load evidence discipline",
+      "expected": [
+        "ER-D1-02",
+        "ER-D1-03",
+        "ER-D1-09"
+      ],
+      "reasoning": "C",
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "primary": "holding-principle classification",
+      "expected": [
+        "ER-D1-04"
+      ],
+      "reasoning": "D",
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "primary": "visible state is not complete verification",
+      "expected": [
+        "ER-D1-04",
+        "ER-D1-05",
+        "ER-D1-09"
+      ],
+      "reasoning": "E",
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "primary": "interchangeability / identity gate",
+      "expected": [
+        "ER-D1-01",
+        "ER-D1-06",
+        "ER-D1-09"
+      ],
+      "reasoning": "F",
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "primary": "source role / exact applicability",
+      "expected": [
+        "ER-D1-07",
+        "ER-D1-09"
+      ],
+      "reasoning": "G",
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "primary": "whole suspended system / self-weight / nominal-number guard",
+      "expected": [
+        "ER-D1-06",
+        "ER-D1-08",
+        "ER-D1-09"
+      ],
+      "reasoning": "H",
+      "status": "PASS"
+    },
+    {
+      "case": "I",
+      "primary": "past success is not current validation",
+      "expected": [
+        "ER-D1-05",
+        "ER-D1-08",
+        "ER-D1-09"
+      ],
+      "reasoning": "I",
+      "status": "PASS"
+    },
+    {
+      "case": "J",
+      "primary": "integrated D1 capstone",
+      "expected": "ER-D1-01…09; pattern only for ER-D1-10",
+      "reasoning": "J",
+      "status": "PASS"
+    }
+  ],
+  "blocking_failure_traceability": [
+    {
+      "id": "BF-D1-01",
+      "failure": "OBJECT / AUTHORITY COLLAPSE",
+      "lesson": "§§1,6,11,13,16 + review guards",
+      "practice": "A,J",
+      "expected": "ER-D1-01/09",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-02",
+      "failure": "VISUAL SYMMETRY → LOAD CLAIM",
+      "lesson": "§4 + Red Team symmetry guard",
+      "practice": "B,J",
+      "expected": "ER-D1-02",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-03",
+      "failure": "LATCH / SEATING → ACCEPTANCE",
+      "lesson": "§§3,5,10,15 + Editorial/Red Team",
+      "practice": "C,J",
+      "expected": "ER-D1-03",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-04",
+      "failure": "VISIBLE STATE → COMPLETE VERIFICATION",
+      "lesson": "§§10,11,15 + Red Team",
+      "practice": "E,J",
+      "expected": "ER-D1-05",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-05",
+      "failure": "INTERCHANGEABILITY BY APPEARANCE",
+      "lesson": "§§8,15 + Red Team",
+      "practice": "F,J",
+      "expected": "ER-D1-06",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-06",
+      "failure": "SOURCE-SCOPE LEAP",
+      "lesson": "§12 + Source Gate / Red Team",
+      "practice": "G,J",
+      "expected": "ER-D1-07",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-07",
+      "failure": "HISTORY → CURRENT VALIDATION",
+      "lesson": "§§11,15 + Red Team",
+      "practice": "I,J",
+      "expected": "ER-D1-08",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D1-08",
+      "failure": "EQUIPMENT-AUTHORITY LEAK",
+      "lesson": "§§11,16 + authority lock",
+      "practice": "A–J",
+      "expected": "ER-D1-09",
+      "status": "PASS"
+    }
+  ],
+  "severity_review": [
+    {
+      "id": "SR-D1-01",
+      "family": "SERIAL-PATH ASSUMPTION",
+      "policy": "severity review unless it triggers an explicit BF",
+      "status": "PASS"
+    },
+    {
+      "id": "SR-D1-02",
+      "family": "HOLDING-PRINCIPLE COLLAPSE",
+      "policy": "honest UNKNOWN is acceptable; severity review unless unsupported certainty triggers an explicit BF",
+      "status": "PASS"
+    }
+  ],
+  "transfer": {
+    "known_a_j_sufficient_for_er_d1_10": false,
+    "case_j_sufficient_for_er_d1_10": false,
+    "u1_required": true,
+    "c1_required": true,
+    "u1_c1_closure_intentional": true,
+    "c1_exact_oem_identity": "grab",
+    "c1_iso17096_exclusion_update_required": true
+  },
+  "language": {
+    "learner_facing_primary_language": "ru",
+    "english_terms_explained_or_optional": true,
+    "russian_equivalent_wording_fully_accepted": true,
+    "language_accessibility_gaps": 0
+  }
+}

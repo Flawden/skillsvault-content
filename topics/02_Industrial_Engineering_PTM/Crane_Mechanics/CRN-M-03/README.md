@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 SOURCE FRESHNESS COMPLETE v1**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / SOURCE FRESHNESS COMPLETE v1`.
+`D1 — CONTENT FROZEN v1`, tag `crn-m-03-d1-v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -142,3 +142,10 @@ Freshness revalidated the current D1 anchors on 2026-09-03: ISO 4306-1:2026, ISO
 No Lesson/Practice/Reasoning/Expected/Rubric/Final-Alignment correction is required. Numeric design/proof, inspection/discard/acceptance, holding-force, repair/NDT and equipment-authority locks remain closed. Learner-facing language remains Russian-first. Watchlist: empty.
 
 Next: `CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract`.
+## D1 Freeze v1
+
+Status: `CONTENT FROZEN`.
+
+D1 Freeze v1 snapshots all 52 accepted D1 source/status artifacts byte-for-byte into `D1/FROZEN_v1`, verifies their SHA-256 values, registers all 61 freeze-bundle files in `status/FROZEN_INDEX.json` and binds the immutable tag `crn-m-03-d1-v1`. Source Freshness was `PASS` with watchlist 0 and no content correction. Russian-first learner language and all numeric/acceptance/holding-force/equipment-authority locks remain preserved.
+
+Next: `CRN-M-03 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied hook-suspension and load-gripping-device mechanics while preserving D1 source/acceptance/authority boundaries`.

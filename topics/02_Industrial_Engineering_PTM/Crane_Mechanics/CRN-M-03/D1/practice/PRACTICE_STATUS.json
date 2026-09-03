@@ -24,7 +24,7 @@
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
   "source_freshness": "COMPLETE",
-  "freeze": "NEXT",
+  "freeze": "COMPLETE",
   "system_boundary_required": true,
   "load_path_branch_merge_supported": true,
   "holding_principle_required": true,
@@ -33,9 +33,11 @@
   "bounded_stop_required": true,
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "next": "CRN-M-03 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied hook-suspension and load-gripping-device mechanics while preserving D1 source/acceptance/authority boundaries",
   "reasoning_artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice_reasoning/v1/CRN-M-03_D1_PRACTICE_REASONING_v1.md",
   "reasoning_is_non_exclusive": true,
   "source_freshness_version": "v1",
-  "source_freshness_decision": "PASS"
+  "source_freshness_decision": "PASS",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/FROZEN_v1"
 }

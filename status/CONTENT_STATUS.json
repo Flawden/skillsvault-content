@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "ACTIVE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -41,7 +41,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "freeze": "COMPLETE"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -232,10 +232,20 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/CRN-M-03_D1_SOURCE_FRESHNESS_v1.md",
         "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/SOURCE_INVENTORY_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
+      },
+      "freeze": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "freeze_date": "2026-09-03",
+        "baseline_commit": "8c94e9e9fe5c26a965c36bc850f8e1a8a4ccf89f",
+        "tag": "crn-m-03-d1-v1",
+        "snapshot_members": 52,
+        "bundle_files": 61,
+        "immutable": true
       }
     }
   },
-  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "next": "CRN-M-03 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied hook-suspension and load-gripping-device mechanics while preserving D1 source/acceptance/authority boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -268,8 +278,8 @@
   "recommended_start_files": [
     "status/CONTENT_STATUS.json",
     "ROADMAP.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/FINAL_ALIGNMENT_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/CRN-M-03_D1_FINAL_ALIGNMENT_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/README.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/FROZEN_v1/FREEZE_STATUS.json",
     "Continue from status.next"
   ]
 }

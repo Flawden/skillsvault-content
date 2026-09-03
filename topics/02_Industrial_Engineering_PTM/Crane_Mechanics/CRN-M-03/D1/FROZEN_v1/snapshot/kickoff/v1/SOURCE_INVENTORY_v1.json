@@ -1,0 +1,84 @@
+{
+  "topic_id": "CRN-M-03",
+  "depth": "D1",
+  "version": "v1",
+  "verified_on": "2026-09-02",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "stage": "60.60",
+      "role": "CRANE_TERMINOLOGY_COMPONENTS",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-1837-2003",
+      "title": "ISO 1837:2003 — Lifting hooks — Nomenclature",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "stage": "90.93",
+      "role": "HOOK_NOMENCLATURE",
+      "public_url": "https://www.iso.org/standard/37599.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-17440-2014",
+      "title": "ISO 17440:2014 — Cranes — General design — Limit states and proof of competence of forged steel hooks",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "stage": "90.93",
+      "role": "FORGED_HOOK_PROOF_SCOPE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59758.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Does not cover all hook constructions or the entire hook suspension; plate hooks are excluded by the public scope."
+    },
+    {
+      "id": "EXT-ISO-17096-2015",
+      "title": "ISO 17096:2015 — Cranes — Safety — Load lifting attachments",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "stage": "90.93",
+      "role": "LOAD_LIFTING_ATTACHMENT_CATEGORY_AND_SCOPE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/58103.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Public scope explicitly excludes buckets, grabs, grab buckets and container spreaders; do not extend it to those devices by analogy."
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-PS-OR-ATTACHMENT",
+      "title": "Passport / OEM / device documentation for the actual crane, hook suspension or load-gripping attachment",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "EQUIPMENT_AND_DEVICE_SPECIFIC_AUTHORITY",
+      "public": false
+    }
+  ],
+  "watchlist": [],
+  "freshness_recheck_required_before_freeze": true,
+  "locked_claim_classes": [
+    "numeric_hook_geometry",
+    "numeric_design_and_proof_criteria",
+    "numeric_inspection_discard_acceptance_limits",
+    "side_tip_eccentric_load_limits",
+    "latch_keeper_design_or_retrofit",
+    "grab_clamp_magnet_vacuum_holding_force_criteria",
+    "load_test_acceptance_values",
+    "specialist_ndt_interpretation",
+    "repair_or_refurbishment_instructions",
+    "equipment_specific_capacity_or_compatibility",
+    "return_to_service_or_operational_permission"
+  ],
+  "authoring_unlocked": true
+}

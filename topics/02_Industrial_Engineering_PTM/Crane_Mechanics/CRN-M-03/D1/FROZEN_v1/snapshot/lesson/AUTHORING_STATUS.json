@@ -1,0 +1,84 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-02",
+  "baseline_commit": "b895e0e31a399baf81f0db3ab83f04a0235ef13e",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-03_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "hook_suspension_vs_attachment_boundary_explicit": true,
+    "load_path_and_holding_principle_explicit": true,
+    "numeric_design_and_acceptance_claim_locks_preserved": true,
+    "iso_17096_grab_scope_guard_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "de20b1ca88ca64514a605ecf786242f7a510a38b",
+    "findings": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "901341bb7c1facef1b36e0dc3b497ac133e4e933",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05",
+      "RT-06",
+      "RT-07",
+      "RT-08",
+      "RT-09"
+    ]
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "fe104eaee90b2da72d71afeb0c90b89bc0ef68f1",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06",
+      "RX-07"
+    ]
+  },
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
+  "next": "CRN-M-03 / D1 FREEZE / v1 — immutable D1 package, manifests, frozen index and tag contract",
+  "source_freshness_version": "v1",
+  "source_freshness_decision": "PASS"
+}
