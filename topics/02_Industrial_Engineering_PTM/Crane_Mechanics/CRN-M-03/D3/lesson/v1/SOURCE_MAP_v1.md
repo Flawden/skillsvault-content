@@ -99,15 +99,15 @@ Guard: `symptom ≠ cause`.
 
 ## M2 — Competing mechanisms
 
-Общая диагностическая логика: при неуникальности строятся несколько механически совместимых гипотез. Каждая должна иметь отдельную D2-модель. Используется в разделах 3–6, 10–17.
+Общая диагностическая логика: при реальной неуникальности строятся механически различимые альтернативы. Искусственная «вторая гипотеза» не нужна, если exact evidence уже задаёт уникальное состояние; разные labels не считаются разными моделями без отличающего механизма/prediction. Каждая механически отличающаяся гипотеза должна иметь соответствующую D2-модель. Используется в разделах 3–6, 10–17.
 
-Guard: `one plausible model ≠ unique model`.
+Guard: `one plausible model ≠ unique model`; `different labels ≠ different mechanisms`.
 
 ## M3 — Falsifiable / discriminating predictions
 
-Гипотеза должна давать признаки, которые отличают её от альтернативы. Используется в разделах 5–7, 19–20.
+Гипотеза должна давать условные признаки, которые отличают её от альтернативы. Совместимость наблюдения с prediction не подтверждает гипотезу автоматически; отсутствие ожидаемого признака ослабляет её только при подтверждённой наблюдаемости/качестве данных. Используется в разделах 5–7, 19–20.
 
-Guard: hazardous fault reproduction forbidden.
+Guard: hazardous fault reproduction forbidden; reverse inference forbidden.
 
 ## M4 — State / transient / history separation
 
@@ -135,9 +135,21 @@ Guard: sensitivity direction ≠ allowable limit.
 
 ## M8 — Evidence update and model status
 
-Новое evidence требует пересборки затронутой модели и явного изменения статуса. Используется в разделах 19–23.
+Новое evidence требует пересборки затронутой модели и явного изменения статуса. Дискриминирующая ценность evidence и source/authority role оцениваются раздельно; downstream symptom не переименовывается в независимое evidence. Используется в разделах 19–23.
 
 Guard: OEM fact / inspection finding / formal proof do not cross-promote authority roles.
+
+## M9 — Causal direction / confounding
+
+Temporal order и mechanical path должны поддерживать причинную стрелку. Loaded-state finding, обслуживание или concurrent configuration change могут быть причиной, посредником, следствием или сопутствующим фактором; совместное появление не определяет направление причинности. Используется в разделах 8–12, 15, 18–20.
+
+Guard: `after ≠ because`; correlation ≠ causal driver.
+
+## M10 — Parallel authority lanes
+
+Formal proof, equipment-specific facts, inspection/specialist evidence и safe-use/planning отвечают на разные вопросы. Это не единая лестница и не последовательное повышение статуса. Используется в разделах 19, 21–23.
+
+Guard: authority in one lane ≠ authority in another lane.
 
 ---
 
@@ -155,6 +167,6 @@ Lesson v1 не вводит:
 - specialist NDT interpretation;
 - hazardous diagnostic experiments;
 - repair/adjustment/redesign/return-to-service instructions;
-- root-cause confirmation from one symptom;
+- root-cause confirmation by the D3 learner model;
 - equipment-operation permission;
 - paid normative table reconstruction.

@@ -1,0 +1,26 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D3",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "corrections": [
+      "TE-D3-01",
+      "TE-D3-02",
+      "TE-D3-03",
+      "TE-D3-04",
+      "TE-D3-05",
+      "TE-D3-06",
+      "TE-D3-07",
+      "TE-D3-08",
+      "TE-D3-09",
+      "TE-D3-10"
+    ]
+  },
+  "red_team": "NEXT",
+  "reader_experience_pass": "PENDING",
+  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience"
+}

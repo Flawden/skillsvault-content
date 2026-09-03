@@ -344,3 +344,10 @@ Status: `AUTHORING COMPLETE`.
 The D3 lesson teaches Russian-first causal-diagnostic reasoning over immutable D1/D2 mechanics: separate observation from inference, construct competing mechanisms, rebuild the D2 body/ССТ/contact/CG/constraint/load-share model for each hypothesis, derive different predictions, request evidence that actually discriminates models and update model status after new evidence. Present state, transient event and accumulated service history are kept distinct. Root cause, inspection/discard, remaining-life, specialist NDT, repair/adjustment, hazardous diagnostic experiments and operation permission remain outside learner authority.
 
 Next: `CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team`.
+
+
+## D3 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`. Ten causal-diagnostic editorial findings are fixed: hypothesis uniqueness, reverse inference, observability before exclusion, independent discriminating evidence, confounding/concurrent changes, causal direction for loaded-state findings, holding correlation discipline and parallel source/authority lanes. No numeric proof/rating/remaining-life, inspection verdict, specialist NDT interpretation, hazardous experiment or operation permission is unlocked. Russian-first language remains mandatory.
+
+Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience`.

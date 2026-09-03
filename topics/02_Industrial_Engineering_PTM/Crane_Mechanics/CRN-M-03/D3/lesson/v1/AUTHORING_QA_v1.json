@@ -8,8 +8,16 @@
   "source_gate_version": "v1",
   "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
   "prerequisites": [
-    {"depth":"D1","status":"FROZEN","tag":"crn-m-03-d1-v1"},
-    {"depth":"D2","status":"FROZEN","tag":"crn-m-03-d2-v1"}
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "tag": "crn-m-03-d2-v1"
+    }
   ],
   "coverage": {
     "observation_vs_inference": true,
@@ -34,7 +42,13 @@
     "model_status_ladder": true,
     "source_role_authority_separation": true,
     "bounded_stop_handoff": true,
-    "russian_first_language": true
+    "russian_first_language": true,
+    "hypothesis_uniqueness_not_ritualized": true,
+    "prediction_reverse_inference_guard": true,
+    "observability_before_exclusion": true,
+    "evidence_independence_guard": true,
+    "confounding_guard": true,
+    "parallel_authority_lanes": true
   },
   "claim_guards": {
     "single_symptom_root_cause_promoted": false,
@@ -57,5 +71,12 @@
     "russian_equivalents": "FULLY_ACCEPTED"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team"
+  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+    "findings": 10,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md"
+  }
 }

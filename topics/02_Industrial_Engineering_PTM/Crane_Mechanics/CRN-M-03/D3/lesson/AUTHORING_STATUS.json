@@ -6,10 +6,22 @@
   "date": "2026-09-03",
   "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
   "prerequisites": [
-    {"depth":"D1","status":"FROZEN_v1","tag":"crn-m-03-d1-v1"},
-    {"depth":"D2","status":"FROZEN_v1","tag":"crn-m-03-d2-v1"}
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d2-v1"
+    }
   ],
-  "source_gate": {"status":"COMPLETE","decision":"PASS_WITH_CLAIM_LIMITS","version":"v1"},
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
   "artifacts": {
     "lesson": "lesson/v1/CRN-M-03_D3_LESSON_v1.md",
     "source_map": "lesson/v1/SOURCE_MAP_v1.md",
@@ -32,8 +44,8 @@
     "source_authority_boundaries_preserved": true,
     "russian_first_language_guard_preserved": true
   },
-  "technical_editorial_pass_I": "NEXT",
-  "red_team_pass_I": "PENDING",
+  "technical_editorial_pass_I": "COMPLETE",
+  "red_team_pass_I": "NEXT",
   "reader_experience_pass_I": "PENDING",
   "practice": "PENDING",
   "practice_reasoning": "PENDING",
@@ -42,5 +54,14 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team"
+  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience",
+  "editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+    "findings": 10,
+    "report": "lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md"
+  }
 }

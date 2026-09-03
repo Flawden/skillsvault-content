@@ -1168,3 +1168,22 @@ Next: `CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagno
 - holding mechanisms remain qualitative, not rating/inspection criteria;
 - hazardous diagnostic experiments forbidden;
 - next: D3 Technical Editorial Pass I.
+
+
+## CRN-M-03 D3 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- 10/10 editorial findings corrected;
+- competing hypotheses are required only while real non-uniqueness remains and must differ mechanically/predictively, not just by label;
+- `H → X` plus observed `X` cannot confirm H by reverse inference;
+- absence of an expected sign can weaken/exclude only when observability is established;
+- downstream symptom relabeling is not independent discriminating evidence;
+- post-event/service reasoning now records concurrent changes/confounding;
+- loaded-state findings and holding variables cannot be promoted from correlation to causal driver without mechanical/temporal support;
+- discriminating value and source authority are separate axes;
+- source roles are parallel lanes, not a single ladder to an equipment verdict;
+- Russian-first and all numeric/proof/inspection/remaining-life/operation locks remain preserved;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1/D2 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience`.

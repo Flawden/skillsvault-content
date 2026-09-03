@@ -47,7 +47,10 @@
 - D2 Final Alignment — COMPLETE / PASS TRACEABILITY COMPLETE / NO BLOCKING GAPS
 - D2 Source Freshness — COMPLETE / PASS WITH WATCHLIST v1
 - D2 Freeze — **CONTENT FROZEN v1**, tag `crn-m-03-d2-v1`
-- D3 Content Kickoff — NEXT
+- D3 Content Kickoff — COMPLETE / PASS WITH CLAIM LIMITS v1
+- D3 Lesson Authoring — COMPLETE v1
+- D3 Technical Editorial / Pass I — COMPLETE / PASS WITH CORRECTIONS APPLIED
+- D3 Red Team / Pass I — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 
@@ -92,3 +95,11 @@ Status: `AUTHORING COMPLETE`.
 Russian-first D3 lesson adds causal-diagnostic reasoning above frozen D1/D2: observation/inference/unknown separation, competing mechanical hypotheses, per-hypothesis D2 model rebuilds, falsifiable predictions, discriminating evidence, state/transient/history separation, loaded-state/engagement sequence reasoning, qualitative sensitivity and bounded model-status handoff. Root-cause promotion, numeric proof/rating/remaining-life, inspection acceptance, specialist NDT interpretation, hazardous diagnostic experiments and operation permission remain locked.
 
 Next: `CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1`.
+
+## CRN-M-03 D3 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Ten editorial findings harden causal uniqueness, reverse-inference/observability discipline, evidence independence, post-event confounding, loaded-state causal direction and source-role separation. Evidence discriminating value is now separate from source authority; formal proof, inspection/specialist, safe-use/planning and equipment-specific facts are parallel roles rather than a single promotion ladder. D1/D2 frozen content remains immutable and learner-facing language remains Russian-first.
+
+Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience`.
