@@ -365,3 +365,22 @@ Next: `CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-fi
 Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`. Eight retrieval/cognitive-load findings are fixed without weakening common-mode premise, prediction/evidence condition-match, circular evidence, timing/history or parallel-authority guards. Learner-facing language remains Russian-first.
 
 Next: `CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff`.
+
+## CRN-M-03 D3 Practice v1
+
+Status: `COMPLETE`.
+
+- 10 causal-diagnostic transfer cases A–J added without worked solutions;
+- observation / inference / unknown separation is required before causal claims;
+- competing hypotheses must be mechanically distinct and checked for common-mode hidden premises;
+- each hypothesis rebuilds the relevant D2 model before prediction;
+- predictions must be condition-matched and negative evidence must pass observability checks;
+- circular/derived evidence cannot be returned as independent confirmation;
+- current state, transient event and accumulated history remain separate;
+- post-symptom findings and engagement sequences are not promoted to unique causes/history without evidence;
+- OEM/formal-proof/inspection/safe-use roles remain parallel and do not stack into root-cause or operation authority;
+- hazardous diagnostic experiments, numeric proof/rating/remaining-life, inspection/discard, repair and operation permission remain locked;
+- learner-facing language remains Russian-first;
+- CRN-M-01 / CRN-M-02 and CRN-M-03 D1/D2 frozen prerequisites plus `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key`.

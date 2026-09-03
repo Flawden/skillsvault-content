@@ -22,6 +22,7 @@
   },
   "red_team": "COMPLETE",
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff",
-  "practice": "NEXT"
+  "next": "CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key",
+  "practice": "COMPLETE",
+  "practice_reasoning": "NEXT"
 }

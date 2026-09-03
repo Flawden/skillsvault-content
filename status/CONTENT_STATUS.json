@@ -563,7 +563,7 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "PENDING",
+        "practice": "COMPLETE",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
@@ -653,10 +653,22 @@
         "red_team_guards_preserved": true,
         "source_authority_boundaries_preserved": true,
         "russian_first_language": true
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "9b6c00971038402195ae2736bc6bf817c306a454",
+        "cases": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice/v1/CRN-M-03_D3_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "answer_key_embedded": false,
+        "russian_first_language": true,
+        "red_team_guards_preserved": true,
+        "hazardous_diagnostic_experiments_forbidden": true
       }
     }
   },
-  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff",
+  "next": "CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
