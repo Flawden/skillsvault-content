@@ -990,3 +990,23 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience`.
+
+
+## CRN-M-03 D2 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- 11/11 adversarial findings corrected;
+- system-boundary laundering and invented reaction directions are blocked;
+- visual contact/geometry cannot promote central resultants or centre-of-gravity claims;
+- unloaded articulation behavior cannot prove loaded DOF state;
+- symmetry cannot promote stiffness/engagement/load-share equality;
+- equation count cannot substitute for contact/constraint-state closure;
+- attachment mass plus one capacity number cannot create a universal payload calculation;
+- D2 holding-factor coverage cannot become complete device verification;
+- slow motion cannot become automatic quasistatic proof;
+- formal proof / inspection / safe-use layers cannot promote one another automatically;
+- Russian-first learner language and all numeric/proof/acceptance/equipment-authority locks remain preserved;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice`.

@@ -209,4 +209,27 @@ Ten corrections harden the applied-mechanics lesson before Red Team:
 
 No standard-derived numeric factor, allowable limit, WLL/SWL selection, holding rating, inspection/discard/load-test criterion or operation permission is introduced. D1 and earlier topic freezes remain immutable.
 
-Next: `CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience`.
+Next: `CRN-M-03 / D2 RED TEAM / PASS I / v1` — completed; see Red Team section below.
+
+
+## D2 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Eleven adversarial findings harden the reviewed D2 applied-mechanics lesson:
+
+- a large system boundary cannot hide a critical internal interface from local analysis;
+- reaction directions must come from the connection/contact model, not from algebraic convenience;
+- central-looking contact is not proof of a central resultant;
+- geometric centre is not centre of gravity without mass-distribution evidence;
+- unloaded/manual articulation behavior is not proof of the loaded degree-of-freedom state;
+- geometric symmetry is not stiffness/engagement/load-share equality;
+- equation count is not contact/constraint-state closure;
+- exact attachment mass plus one capacity number is not a universal payload calculation;
+- all D2 holding factors checked is still not complete holding verification;
+- slow-looking motion is not proof of quasistatic behavior;
+- component proof, inspection and safe-use outcomes do not promote one another automatically.
+
+Russian-first learner language and all numeric/proof/inspection/equipment-authority locks remain intact.
+
+Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice`.

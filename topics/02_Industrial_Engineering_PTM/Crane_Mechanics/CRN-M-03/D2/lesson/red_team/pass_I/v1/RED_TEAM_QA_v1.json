@@ -1,0 +1,98 @@
+{
+  "artifact": "CRN-M-03_D2_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "62a167c34516878bbf9346ba3a4bdd4b18501ef9",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 11,
+    "corrections_applied": 11
+  },
+  "findings": [
+    {
+      "id": "RT-D2-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "body-boundary laundering / hidden internal interface"
+    },
+    {
+      "id": "RT-D2-02",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "invented reaction direction from solvable equations"
+    },
+    {
+      "id": "RT-D2-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "visual central contact to central resultant promotion"
+    },
+    {
+      "id": "RT-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "geometric centre to centre-of-gravity promotion"
+    },
+    {
+      "id": "RT-D2-05",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "unloaded articulation to loaded DOF promotion"
+    },
+    {
+      "id": "RT-D2-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "geometry symmetry to stiffness/engagement/load-share promotion"
+    },
+    {
+      "id": "RT-D2-07",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "equation count to contact/constraint model closure promotion"
+    },
+    {
+      "id": "RT-D2-08",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "attachment mass plus capacity-number arithmetic promotion"
+    },
+    {
+      "id": "RT-D2-09",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "lesson holding-factor list to complete holding verification"
+    },
+    {
+      "id": "RT-D2-10",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "slow motion to quasistatic status promotion"
+    },
+    {
+      "id": "RT-D2-11",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "cross-authority-layer promotion"
+    }
+  ],
+  "guards": {
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "crn_m03_d1_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d2_kickoff_source_gate_modified": false,
+    "numeric_design_limits_added": false,
+    "standard_load_factors_added": false,
+    "holding_force_calculations_added": false,
+    "inspection_acceptance_limits_added": false,
+    "iso_17096_extended_to_grabs": false,
+    "repair_ndt_return_to_service_unlocked": false,
+    "equipment_specific_capacity_asserted": false,
+    "operation_permission_unlocked": false,
+    "cross_authority_promotion_blocked": true,
+    "russian_first_language_preserved": true
+  },
+  "next": "CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice"
+}

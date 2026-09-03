@@ -73,7 +73,7 @@
     "russian_equivalents": "FULLY_ACCEPTED"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience",
+  "next": "CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice",
   "technical_editorial_pass_I": {
     "status": "COMPLETE",
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
@@ -89,5 +89,23 @@
     "translational_vs_rotational_dynamics_separated": true,
     "proof_inspection_safe_use_roles_separated": true,
     "russian_first_glossary_expanded": true
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "62a167c34516878bbf9346ba3a4bdd4b18501ef9",
+    "findings": 11,
+    "body_boundary_laundering_blocked": true,
+    "reaction_direction_invention_blocked": true,
+    "visual_contact_resultant_promotion_blocked": true,
+    "geometric_centre_to_cg_promotion_blocked": true,
+    "unloaded_articulation_to_loaded_dof_promotion_blocked": true,
+    "symmetry_to_stiffness_engagement_loadshare_promotion_blocked": true,
+    "equation_count_to_contact_model_closure_promotion_blocked": true,
+    "attachment_mass_capacity_arithmetic_promotion_blocked": true,
+    "lesson_factor_list_to_holding_verification_promotion_blocked": true,
+    "slow_motion_to_quasistatic_promotion_blocked": true,
+    "cross_authority_layer_promotion_blocked": true,
+    "russian_first_language_preserved": true
   }
 }

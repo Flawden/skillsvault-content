@@ -278,8 +278,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "PENDING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
@@ -341,11 +341,22 @@
           "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/editorial/pass_I/v1/CRN-M-03_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
           "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json",
           "russian_first_language_preserved": true
+        },
+        "red_team": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+          "baseline_commit": "62a167c34516878bbf9346ba3a4bdd4b18501ef9",
+          "findings": 11,
+          "corrections_applied": 11,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/red_team/pass_I/v1/CRN-M-03_D2_RED_TEAM_PASS_I_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
+          "russian_first_language_preserved": true
         }
       }
     }
   },
-  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience",
+  "next": "CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
