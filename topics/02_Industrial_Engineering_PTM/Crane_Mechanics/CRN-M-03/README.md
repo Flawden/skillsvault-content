@@ -384,3 +384,21 @@ Status: `COMPLETE`.
 - CRN-M-01 / CRN-M-02 and CRN-M-03 D1/D2 frozen prerequisites plus `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key`.
+
+## CRN-M-03 D3 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+- 10/10 Practice cases A–J receive multiple admissible causal-diagnostic reasoning paths without changing Practice prompts;
+- hypotheses must be mechanically distinct and checked for common-mode premises;
+- each H rebuilds the relevant D2 model before prediction/evidence comparison;
+- negative evidence requires observability and condition match;
+- derived/circular evidence is not independent confirmation;
+- current state, transient event and accumulated history remain separate;
+- post-symptom findings and endpoint geometry do not prove cause or unique sequence;
+- weakening one hypothesis does not prove another;
+- OEM/formal proof/inspection/safe-use remain parallel authority lanes;
+- 12 cross-case reasoning failure families are carried forward as Expected Result candidates, not automatically declared blocking failures;
+- Russian-first and all root-cause/inspection/remaining-life/repair/operation locks remain intact.
+
+Next: `CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority`.

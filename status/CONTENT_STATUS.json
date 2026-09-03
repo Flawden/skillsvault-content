@@ -668,7 +668,7 @@
       }
     }
   },
-  "next": "CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key",
+  "next": "CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -719,5 +719,29 @@
     "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
     "findings": 8,
     "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff"
+  },
+  "current": {
+    "depths": {
+      "D3": {
+        "practice_reasoning": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "baseline_commit": "5e9e8d0dac67dea556396762c973931f8e85e656",
+          "cases": 10,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice_reasoning/v1/CRN-M-03_D3_PRACTICE_REASONING_v1.md",
+          "single_answer_key": false,
+          "failure_taxonomy_count": 12,
+          "russian_first_language": true
+        }
+      }
+    }
+  },
+  "crn_m03_d3_practice_reasoning": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "5e9e8d0dac67dea556396762c973931f8e85e656",
+    "cases": 10,
+    "failure_taxonomy_count": 12,
+    "next": "CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority"
   }
 }

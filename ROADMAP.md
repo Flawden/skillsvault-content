@@ -1220,3 +1220,11 @@ Status: `COMPLETE`.
 - CRN-M-01 / CRN-M-02 and CRN-M-03 D1/D2 frozen prerequisites plus `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diagnostic reasoning paths, competing-hypothesis updates, prediction/evidence discrimination, state-history reconstruction and bounded source/authority handoff for Practice A–J without turning Practice into a single root-cause answer key`.
+
+## CRN-M-03 / D3 PRACTICE REASONING / v1 — COMPLETE
+
+- 10/10 cases A–J reasoned with non-exclusive causal trajectories;
+- 12 cross-case failure families mapped from Red-Team guards;
+- known cases do not constitute unseen transfer;
+- Practice prompts, reviewed Lesson and frozen prerequisites remain immutable;
+- next: `CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority`.
