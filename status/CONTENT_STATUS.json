@@ -561,8 +561,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "PENDING",
-        "reader_experience_pass": "PENDING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "COMPLETE",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
@@ -632,10 +632,31 @@
         "confounding_guard": true,
         "parallel_authority_lanes": true,
         "russian_first_language": true
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
+        "findings": 12,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/red_team/pass_I/v1/CRN-M-03_D3_RED_TEAM_PASS_I_v1.md"
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+        "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
+        "findings": 8,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/reader_experience/pass_I/v1/CRN-M-03_D3_READER_EXPERIENCE_PASS_I_v1.md",
+        "red_team_guards_preserved": true,
+        "source_authority_boundaries_preserved": true,
+        "russian_first_language": true
       }
     }
   },
-  "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice",
+  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -677,5 +698,14 @@
     "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
     "findings": 12,
     "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice"
+  },
+  "crn_m03_d3_reader_experience": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
+    "findings": 8,
+    "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff"
   }
 }

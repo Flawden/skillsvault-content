@@ -110,3 +110,10 @@ Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-
 Decision: `PASS WITH CORRECTIONS APPLIED`. Twelve adversarial causal-diagnostic traps are closed: common-mode hidden premises, condition-mismatched/negative evidence, circular evidence, history coverage, cause/consequence timing, engagement-sequence non-uniqueness, local sensitivity limits, relative hypothesis ranking and authority stacking. Frozen D1/D2 and numeric/inspection/operation locks remain intact.
 
 Next: `CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice`.
+
+
+## CRN-M-03 D3 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`. Eight reader findings are fixed with six-question D3 map, three-pass workflow, hypothesis/evidence/time/update/status cards and five Red-Team trap families. Causal truth conditions, Red-Team guards, D1/D2 frozen prerequisites and source/authority locks remain intact.
+
+Next: `CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff`.

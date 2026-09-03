@@ -46,15 +46,30 @@
   },
   "technical_editorial_pass_I": "COMPLETE",
   "red_team_pass_I": "COMPLETE",
-  "reader_experience_pass_I": "NEXT",
-  "practice": "PENDING",
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
+    "findings": [
+      "RX-D3-01",
+      "RX-D3-02",
+      "RX-D3-03",
+      "RX-D3-04",
+      "RX-D3-05",
+      "RX-D3-06",
+      "RX-D3-07",
+      "RX-D3-08"
+    ]
+  },
+  "practice": "NEXT",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice",
+  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff",
   "editorial": {
     "status": "COMPLETE",
     "pass": "I",

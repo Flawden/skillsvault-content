@@ -358,3 +358,10 @@ Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-
 Decision: `PASS WITH CORRECTIONS APPLIED`. Twelve adversarial findings are fixed without changing D1/D2 frozen content or unlocking root-cause, numeric proof/rating/remaining-life, inspection or operation authority. Red Team explicitly blocks common-mode premise errors, condition-mismatched and circular evidence, post-symptom cause promotion, engagement-history invention, hypothesis-by-elimination and authority stacking. Russian-first learner language remains mandatory.
 
 Next: `CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice`.
+
+
+## D3 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`. Eight retrieval/cognitive-load findings are fixed without weakening common-mode premise, prediction/evidence condition-match, circular evidence, timing/history or parallel-authority guards. Learner-facing language remains Russian-first.
+
+Next: `CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff`.

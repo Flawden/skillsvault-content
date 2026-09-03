@@ -20,7 +20,8 @@
       "TE-D3-10"
     ]
   },
-  "red_team": "NEXT",
-  "reader_experience_pass": "PENDING",
-  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience"
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff",
+  "practice": "NEXT"
 }
