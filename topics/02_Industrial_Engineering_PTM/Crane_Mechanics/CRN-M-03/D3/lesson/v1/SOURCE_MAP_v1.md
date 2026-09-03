@@ -170,3 +170,20 @@ Lesson v1 не вводит:
 - root-cause confirmation by the D3 learner model;
 - equipment-operation permission;
 - paid normative table reconstruction.
+
+
+## Red Team Pass I — adversarial claim guards
+
+После Red Team дополнительно зафиксированы:
+
+- common-mode hidden premise: несколько гипотез не считаются независимыми, если они разделяют одну непроверенную контактную/геометрическую/ЦТ предпосылку;
+- condition-matched evidence: prediction и отрицательное evidence относятся только к релевантной конфигурации/нагруженному состоянию, если переносимость не доказана;
+- circular evidence guard: derived quantity, полученная из спорной модели и того же симптома, не является независимым подтверждением;
+- history coverage guard: отсутствие записи не равно отсутствию события без подтверждённой способности системы его фиксировать;
+- cause/consequence timing: post-symptom loaded-state/holding finding может быть следствием;
+- sequence non-uniqueness: одна правдоподобная engagement sequence не становится уникальной без различающего evidence;
+- qualitative sensitivity local-only: направление эффекта не переносится через смену контакта/режима/активных связей;
+- relative ranking guard: weakening H1 не доказывает H2;
+- authority stacking guard: OEM + inspection + formal proof не складываются в автоматический root-cause или operation verdict.
+
+Все numeric proof/rating/remaining-life/inspection/safe-use/operation locks остаются закрыты.

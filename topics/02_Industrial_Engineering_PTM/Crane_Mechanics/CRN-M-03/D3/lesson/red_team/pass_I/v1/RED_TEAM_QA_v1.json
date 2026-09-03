@@ -1,0 +1,111 @@
+{
+  "artifact": "CRN-M-03_D3_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 12,
+    "corrections_applied": 12
+  },
+  "findings": [
+    {
+      "id": "RT-D3-01",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "common-mode hidden premise across multiple hypotheses"
+    },
+    {
+      "id": "RT-D3-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "prediction discrimination created by changing initial conditions"
+    },
+    {
+      "id": "RT-D3-03",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "negative evidence without observability / condition match"
+    },
+    {
+      "id": "RT-D3-04",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "circular evidence derived from the disputed model and symptom"
+    },
+    {
+      "id": "RT-D3-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "history log absence promoted to event absence"
+    },
+    {
+      "id": "RT-D3-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "post-event correlation / selected-case confounding promoted to causation"
+    },
+    {
+      "id": "RT-D3-07",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "post-symptom loaded-state finding promoted to initiating cause"
+    },
+    {
+      "id": "RT-D3-08",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "one plausible engagement sequence promoted to unique history"
+    },
+    {
+      "id": "RT-D3-09",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "post-event holding/contact state promoted to causal driver"
+    },
+    {
+      "id": "RT-D3-10",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "local qualitative sensitivity promoted to global monotonicity"
+    },
+    {
+      "id": "RT-D3-11",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "weakening one hypothesis promoted to proof of another"
+    },
+    {
+      "id": "RT-D3-12",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "authority stacking promoted to root-cause / operation verdict"
+    }
+  ],
+  "guards": {
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "crn_m03_d1_frozen_modified": false,
+    "crn_m03_d2_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d3_kickoff_source_gate_modified": false,
+    "numeric_design_limits_added": false,
+    "standard_load_factors_added": false,
+    "remaining_life_added": false,
+    "holding_rating_added": false,
+    "inspection_acceptance_added": false,
+    "specialist_ndt_interpretation_added": false,
+    "hazardous_diagnostic_experiment_added": false,
+    "repair_return_to_service_added": false,
+    "root_cause_confirmation_unlocked": false,
+    "operation_permission_unlocked": false,
+    "common_mode_premise_guard": true,
+    "condition_match_guard": true,
+    "circular_evidence_guard": true,
+    "cause_consequence_timing_guard": true,
+    "authority_stacking_blocked": true,
+    "russian_first_language_preserved": true
+  },
+  "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice"
+}

@@ -45,8 +45,8 @@
     "russian_first_language_guard_preserved": true
   },
   "technical_editorial_pass_I": "COMPLETE",
-  "red_team_pass_I": "NEXT",
-  "reader_experience_pass_I": "PENDING",
+  "red_team_pass_I": "COMPLETE",
+  "reader_experience_pass_I": "NEXT",
   "practice": "PENDING",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
@@ -54,7 +54,7 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience",
+  "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice",
   "editorial": {
     "status": "COMPLETE",
     "pass": "I",
@@ -63,5 +63,14 @@
     "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
     "findings": 10,
     "report": "lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md"
+  },
+  "red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
+    "findings": 12,
+    "report": "lesson/red_team/pass_I/v1/CRN-M-03_D3_RED_TEAM_PASS_I_v1.md"
   }
 }

@@ -103,3 +103,10 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 Ten editorial findings harden causal uniqueness, reverse-inference/observability discipline, evidence independence, post-event confounding, loaded-state causal direction and source-role separation. Evidence discriminating value is now separate from source authority; formal proof, inspection/specialist, safe-use/planning and equipment-specific facts are parallel roles rather than a single promotion ladder. D1/D2 frozen content remains immutable and learner-facing language remains Russian-first.
 
 Next: `CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience`.
+
+
+## CRN-M-03 D3 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`. Twelve adversarial causal-diagnostic traps are closed: common-mode hidden premises, condition-mismatched/negative evidence, circular evidence, history coverage, cause/consequence timing, engagement-sequence non-uniqueness, local sensitivity limits, relative hypothesis ranking and authority stacking. Frozen D1/D2 and numeric/inspection/operation locks remain intact.
+
+Next: `CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice`.
