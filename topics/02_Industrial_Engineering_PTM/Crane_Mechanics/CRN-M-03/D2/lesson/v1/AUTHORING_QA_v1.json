@@ -73,5 +73,21 @@
     "russian_equivalents": "FULLY_ACCEPTED"
   },
   "formal_practice_included": false,
-  "next": "CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team"
+  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "77952da08c032d37f49cf4b249af516dee5e4f2f",
+    "findings": 10,
+    "body_force_map_consistency_hardened": true,
+    "equilibrium_force_and_moment_closure_hardened": true,
+    "distributed_contact_resultant_guard_added": true,
+    "cg_orientation_model_boundary_hardened": true,
+    "articulation_reaction_path_guard_hardened": true,
+    "multi_support_determinacy_guard_hardened": true,
+    "holding_lists_not_checklists_explicit": true,
+    "translational_vs_rotational_dynamics_separated": true,
+    "proof_inspection_safe_use_roles_separated": true,
+    "russian_first_glossary_expanded": true
+  }
 }

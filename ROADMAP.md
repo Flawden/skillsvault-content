@@ -973,3 +973,20 @@ Status: `COMPLETE`.
 - CRN-M-01 / CRN-M-02 frozen topics and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation`
+
+
+## CRN-M-03 D2 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+- 10/10 technical-editorial findings corrected;
+- FBD external-effect completeness, force+moment equilibrium, distributed-contact resultant assumptions and CG/orientation model boundaries hardened;
+- articulation and multi-support load-share logic no longer infer reaction paths or static indeterminacy from component names / support count;
+- holding-state factor lists are explicitly non-exhaustive causal categories, not inspection/acceptance checklists;
+- translational dynamics is separated from rotational rigid-body dynamics;
+- formal proof, inspection/acceptance and safe-use/planning remain distinct source/authority layers;
+- Russian-first learner language is preserved and the glossary is expanded;
+- no numeric design/proof/holding/inspection/operation authority is unlocked;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience`.

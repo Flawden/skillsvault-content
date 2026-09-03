@@ -29,8 +29,25 @@
     "inspection_safe_use_equipment_authority_boundaries_preserved": true,
     "russian_first_language_guard_preserved": true
   },
-  "technical_editorial_pass_I": "NEXT",
-  "red_team_pass_I": "PENDING",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "77952da08c032d37f49cf4b249af516dee5e4f2f",
+    "findings": [
+      "TE-D2-01",
+      "TE-D2-02",
+      "TE-D2-03",
+      "TE-D2-04",
+      "TE-D2-05",
+      "TE-D2-06",
+      "TE-D2-07",
+      "TE-D2-08",
+      "TE-D2-09",
+      "TE-D2-10"
+    ]
+  },
+  "red_team_pass_I": "NEXT",
   "reader_experience_pass_I": "PENDING",
   "practice": "PENDING",
   "practice_reasoning": "PENDING",
@@ -39,5 +56,5 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team"
+  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience"
 }

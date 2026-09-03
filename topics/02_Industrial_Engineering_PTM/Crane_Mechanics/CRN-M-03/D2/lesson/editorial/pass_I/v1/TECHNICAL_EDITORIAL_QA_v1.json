@@ -1,0 +1,93 @@
+{
+  "artifact": "CRN-M-03_D2_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "77952da08c032d37f49cf4b249af516dee5e4f2f",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "findings": [
+    {
+      "id": "TE-D2-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "free-body external-effect completeness"
+    },
+    {
+      "id": "TE-D2-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "force and moment equilibrium closure"
+    },
+    {
+      "id": "TE-D2-03",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "distributed contact vs assumed resultant line of action"
+    },
+    {
+      "id": "TE-D2-04",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "centre-of-gravity / orientation model boundary"
+    },
+    {
+      "id": "TE-D2-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "blocked articulation vs inferred reaction path"
+    },
+    {
+      "id": "TE-D2-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "multi-support determinacy / model closure"
+    },
+    {
+      "id": "TE-D2-07",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "holding dependencies vs inspection checklist"
+    },
+    {
+      "id": "TE-D2-08",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "translational equation vs rigid-body dynamics"
+    },
+    {
+      "id": "TE-D2-09",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "formal proof vs inspection vs safe-use source-role separation"
+    },
+    {
+      "id": "TE-D2-10",
+      "severity": "LOW",
+      "status": "FIXED",
+      "topic": "Russian-first terminology accessibility"
+    }
+  ],
+  "guards": {
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "crn_m03_d1_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d2_kickoff_source_gate_modified": false,
+    "numeric_design_limits_added": false,
+    "standard_load_factors_added": false,
+    "holding_force_calculations_added": false,
+    "inspection_acceptance_limits_added": false,
+    "iso_17096_extended_to_grabs": false,
+    "repair_ndt_permission_unlocked": false,
+    "equipment_specific_capacity_asserted": false,
+    "operation_permission_unlocked": false,
+    "proof_inspection_safe_use_roles_separated": true,
+    "russian_first_language_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience"
+}

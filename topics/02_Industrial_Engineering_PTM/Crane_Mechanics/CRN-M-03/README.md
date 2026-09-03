@@ -187,4 +187,26 @@ No standard-derived numeric factors, hook proof values, side/tip/eccentric limit
 
 Learner-facing wording is Russian-first; English labels are explanatory/optional only.
 
-Next: `CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team`.
+Next: `CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1` — completed; see Technical Editorial section below.
+
+
+## D2 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+
+Ten corrections harden the applied-mechanics lesson before Red Team:
+
+- materially relevant external effects cannot disappear from an FBD without an explicit model assumption;
+- force equilibrium is paired with moment equilibrium and declared quasistatic status;
+- distributed contact is not silently replaced by a guessed central resultant;
+- centre-of-gravity reasoning is bounded by the actual connection/contact model;
+- blocked articulation changes the model but does not reveal the new reaction path by itself;
+- multi-support load sharing now requires equation/unknown/constraint/compatibility closure; three supports are neither automatically `G/3` nor automatically indeterminate;
+- holding-factor lists are causal teaching categories, not inspection/acceptance checklists;
+- `ΣF=m·a` is not presented as the whole rigid-body/transient model;
+- formal proof, inspection/acceptance and safe-use/planning are distinct authority layers;
+- learner-facing terminology remains Russian-first; English labels are explained or optional.
+
+No standard-derived numeric factor, allowable limit, WLL/SWL selection, holding rating, inspection/discard/load-test criterion or operation permission is introduced. D1 and earlier topic freezes remain immutable.
+
+Next: `CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience`.
