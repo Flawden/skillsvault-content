@@ -282,8 +282,8 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "verification_rubric": "PENDING",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
@@ -424,10 +424,27 @@
         "discriminating_evidence_requests": true,
         "source_authority_handoff": true,
         "numeric_proof_holding_inspection_locks_preserved": true
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 13,
+        "evidence_outputs": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/expected_result/v1/CRN-M-03_D2_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "known_case_performance_not_sufficient": true,
+        "unseen_u1_required": true,
+        "challenge_c1_required": true,
+        "strong_blocking_failure_candidates": 10,
+        "severity_review_candidates": 1,
+        "bounded_stop_can_be_success": true,
+        "russian_first_language": true,
+        "equipment_authority_guard_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation",
+  "next": "CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

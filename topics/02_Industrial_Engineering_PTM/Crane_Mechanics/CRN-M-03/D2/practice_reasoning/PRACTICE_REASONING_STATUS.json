@@ -58,5 +58,7 @@
     "crn_m03_d1_frozen_immutable": true,
     "frozen_index_unchanged": true
   },
-  "next": "CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation"
+  "next": "CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

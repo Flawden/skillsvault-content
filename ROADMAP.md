@@ -9,8 +9,23 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 LESSON COMPLETE
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 EXPECTED RESULT COMPLETE
 ```
+
+## CRN-M-03 D2 Expected Result v1
+
+Status: `COMPLETE`.
+
+- 13 observable ER-D2 dimensions convert the reviewed applied-mechanics model into verification-ready behavior;
+- ten visible evidence outputs are required across body/SСТ, force-moment, line-of-action/contact, CG, loaded constraint/contact, load-share, holding/motion, evidence-role, discriminating-evidence and bounded-conclusion layers;
+- known Practice/Reasoning A–J, including capstone J, is insufficient for transfer; unseen U1 + challenge C1 are mandatory;
+- correct `MODEL NOT CLOSED / REQUEST DISCRIMINATING EVIDENCE` is a successful outcome when the unresolved fork and its evidence are explicit;
+- RF-D2-01…10 are handed to Rubric as strong non-compensable BF candidates; RF-D2-11 remains severity-review candidate;
+- numeric proof/load factors, WLL/SWL selection, holding ratings, inspection/discard/load-test, repair/NDT and equipment authority remain locked;
+- learner-facing language remains Russian-first; English labels are explained or optional.
+
+Next: `CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation`.
+
 
 
 

@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 CONTENT KICKOFF COMPLETE v1**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 EXPECTED RESULT COMPLETE v1**.
 
 ## Structural production contract
 
@@ -11,7 +11,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current D2
 
-`D2 — CONTENT KICKOFF COMPLETE / PASS WITH CLAIM LIMITS v1`.
+`D2 — EXPECTED RESULT COMPLETE v1`.
 
 D2 переводит D1 mental model в applied mechanics:
 
@@ -268,4 +268,15 @@ Status: `COMPLETE`.
 
 Practice A–J now has multiple valid reasoning trajectories rather than one answer key. The layer emphasizes system-boundary changes, complete SСТ/force/moment discipline, contact-resultant and CG evidence, loaded-state articulation hypotheses, three load-share model states, holding-state dependencies, transient-vs-quasistatic status, discriminating evidence requests and bounded source/authority handoff. Eleven cross-case failure families are carried forward only as Expected Result candidates. Russian-first learner language and all numeric/proof/inspection/holding/equipment-authority locks remain intact.
 
-Next: `CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation`.
+Next: `CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation`.
+
+
+## CRN-M-03 D2 Expected Result v1
+
+Status: `COMPLETE`.
+
+Thirteen observable ER-D2 dimensions now verify body/system-boundary selection, complete ССТ force/moment maps, line-of-action/contact-resultant status, centre of gravity, loaded articulation/contact hypotheses, load-share closure class, mass/capacity separation, holding-state status, quasistatic/transient separation, evidence-role/authority separation, discriminating evidence requests, bounded model-status conclusions and unseen adaptive transfer.
+
+Known Practice/Reasoning A–J is not sufficient for transfer. Verification must add unseen U1 and challenge C1. Ten RF-D2 failure families are handed to the Rubric as strong BF candidates; non-discriminating evidence request remains severity-review candidate. Russian-first learner language and all numeric proof/holding/inspection/equipment-authority locks remain preserved.
+
+Next: `CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation`.
