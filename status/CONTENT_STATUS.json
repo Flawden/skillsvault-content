@@ -559,7 +559,7 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "PENDING",
+        "lesson": "COMPLETE",
         "editorial": "PENDING",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
@@ -602,10 +602,25 @@
       },
       "baseline_commit": "ccfdfa4ea5e64a8adeee1849bf1ad48c86221807",
       "structural_contract_source": "crn-m-02-v1",
-      "freeze": "PENDING"
+      "freeze": "PENDING",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
+        "artifacts": {
+          "lesson": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/v1/CRN-M-03_D3_LESSON_v1.md",
+          "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/v1/SOURCE_MAP_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/v1/AUTHORING_QA_v1.json"
+        },
+        "formal_practice_included": false,
+        "causal_diagnostic_model_complete": true,
+        "competing_hypotheses_required": true,
+        "hazardous_diagnostic_experiments_forbidden": true,
+        "language_russian_first": true
+      }
     }
   },
-  "next": "CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff",
+  "next": "CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

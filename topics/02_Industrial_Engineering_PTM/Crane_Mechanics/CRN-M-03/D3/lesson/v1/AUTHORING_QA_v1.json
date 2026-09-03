@@ -1,0 +1,61 @@
+{
+  "artifact": "CRN-M-03_D3_LESSON_v1",
+  "date": "2026-09-03",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {"depth":"D1","status":"FROZEN","tag":"crn-m-03-d1-v1"},
+    {"depth":"D2","status":"FROZEN","tag":"crn-m-03-d2-v1"}
+  ],
+  "coverage": {
+    "observation_vs_inference": true,
+    "causal_chain_not_component_label": true,
+    "multiple_competing_hypotheses": true,
+    "d2_model_rebuilt_per_hypothesis": true,
+    "falsifiable_predictions": true,
+    "safe_discriminating_evidence": true,
+    "present_transient_history_separated": true,
+    "post_event_not_causation": true,
+    "system_boundary_can_change": true,
+    "cg_as_diagnostic_variable": true,
+    "loaded_state_constraint_hypotheses": true,
+    "engagement_sequence": true,
+    "contact_resultant_as_hypothesis": true,
+    "holding_causal_families": true,
+    "qualitative_sensitivity": true,
+    "transient_dynamics_status": true,
+    "service_history_as_evidence_not_remaining_life": true,
+    "evidence_discrimination": true,
+    "hypothesis_update_after_evidence": true,
+    "model_status_ladder": true,
+    "source_role_authority_separation": true,
+    "bounded_stop_handoff": true,
+    "russian_first_language": true
+  },
+  "claim_guards": {
+    "single_symptom_root_cause_promoted": false,
+    "numeric_design_proof_introduced": false,
+    "standard_dynamic_factors_introduced": false,
+    "wll_swl_capacity_selection_introduced": false,
+    "remaining_life_or_failure_probability_introduced": false,
+    "holding_force_rating_calculated": false,
+    "inspection_discard_acceptance_introduced": false,
+    "specialist_ndt_interpretation_introduced": false,
+    "hazardous_diagnostic_experiment_instructed": false,
+    "repair_adjustment_modification_instructed": false,
+    "return_to_service_or_operation_permission_implied": false,
+    "paid_normative_tables_reconstructed": false,
+    "iso17096_extended_to_grabs": false
+  },
+  "language": {
+    "learner_facing": "RUSSIAN_FIRST",
+    "english_labels": "EXPLAINED_OR_OPTIONAL",
+    "russian_equivalents": "FULLY_ACCEPTED"
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team"
+}

@@ -1,0 +1,46 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D3",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-03",
+  "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
+  "prerequisites": [
+    {"depth":"D1","status":"FROZEN_v1","tag":"crn-m-03-d1-v1"},
+    {"depth":"D2","status":"FROZEN_v1","tag":"crn-m-03-d2-v1"}
+  ],
+  "source_gate": {"status":"COMPLETE","decision":"PASS_WITH_CLAIM_LIMITS","version":"v1"},
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-03_D3_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "observation_inference_unknown": true,
+    "causal_chain_mapping": true,
+    "competing_hypotheses": true,
+    "falsifiable_predictions": true,
+    "discriminating_evidence": true,
+    "d2_model_rebuild_per_hypothesis": true,
+    "state_transient_history_separation": true,
+    "loaded_state_and_engagement_sequence": true,
+    "holding_causal_families": true,
+    "qualitative_sensitivity": true,
+    "evidence_update": true,
+    "bounded_model_status": true,
+    "hazardous_diagnostic_experiments_forbidden": true,
+    "source_authority_boundaries_preserved": true,
+    "russian_first_language_guard_preserved": true
+  },
+  "technical_editorial_pass_I": "NEXT",
+  "red_team_pass_I": "PENDING",
+  "reader_experience_pass_I": "PENDING",
+  "practice": "PENDING",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1 — audit causal chains, competing-hypothesis uniqueness, D2 model rebuilds, prediction/evidence discrimination, state-history separation and source/authority leakage before red team"
+}

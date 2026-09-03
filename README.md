@@ -84,3 +84,11 @@ D3 opens Russian-first causal-diagnostic reasoning above frozen D1/D2 mechanics.
 Hard locks remain: one symptom cannot become a root cause; formal proof/rating/remaining-life values are not reconstructed; inspection/discard/acceptance and specialist NDT interpretation remain outside learner authority; no field fault-reproduction experiment, adjustment, repair, modification, return-to-service or operation permission is authorized. ISO 17096 grab/grab-bucket exclusions remain explicit. ISO 8686-1:2012, ISO 12482:2014 and ISO/CD 12482 Ed2 are on watchlist for their current review/development status.
 
 Next: `CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff`.
+
+## CRN-M-03 D3 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+
+Russian-first D3 lesson adds causal-diagnostic reasoning above frozen D1/D2: observation/inference/unknown separation, competing mechanical hypotheses, per-hypothesis D2 model rebuilds, falsifiable predictions, discriminating evidence, state/transient/history separation, loaded-state/engagement sequence reasoning, qualitative sensitivity and bounded model-status handoff. Root-cause promotion, numeric proof/rating/remaining-life, inspection acceptance, specialist NDT interpretation, hazardous diagnostic experiments and operation permission remain locked.
+
+Next: `CRN-M-03 / D3 TECHNICAL EDITORIAL / PASS I / v1`.
