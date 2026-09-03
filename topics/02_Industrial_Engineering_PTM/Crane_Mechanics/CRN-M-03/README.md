@@ -232,4 +232,14 @@ Eleven adversarial findings harden the reviewed D2 applied-mechanics lesson:
 
 Russian-first learner language and all numeric/proof/inspection/equipment-authority locks remain intact.
 
-Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice`.
+Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice` — completed; see Reader Experience section below.
+
+## D2 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+Eight reader-layer corrections make the reviewed D2 mechanics retrievable without weakening its evidence standard: a six-question memory card, two-pass mechanics/evidence route, load-share state router, holding-principle router, compressed status ladder, six-line pocket algorithm, grouped promotion traps and a final retrieval checkpoint. Formal Practice remains separate and contains the first assessed transfer cases.
+
+Russian-first language, all Red-Team/Technical-Editorial guards, ISO 17096 grab/grab-bucket exclusion, numeric proof/holding/inspection locks and equipment-authority boundaries remain unchanged.
+
+Next: `CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff`.

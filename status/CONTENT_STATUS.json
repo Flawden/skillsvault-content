@@ -279,8 +279,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "PENDING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
@@ -352,11 +352,22 @@
           "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/red_team/pass_I/v1/CRN-M-03_D2_RED_TEAM_PASS_I_v1.md",
           "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json",
           "russian_first_language_preserved": true
+        },
+        "reader_experience": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+          "baseline_commit": "ddd7bf71bb40099ea968c6cde7181b5141931211",
+          "findings": 8,
+          "corrections_applied": 8,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/reader_experience/pass_I/v1/CRN-M-03_D2_READER_EXPERIENCE_PASS_I_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+          "russian_first_language_preserved": true
         }
       }
     }
   },
-  "next": "CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice",
+  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

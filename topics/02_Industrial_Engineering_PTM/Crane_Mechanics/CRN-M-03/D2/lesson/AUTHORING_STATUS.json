@@ -66,13 +66,28 @@
       "RT-D2-11"
     ]
   },
-  "reader_experience_pass_I": "NEXT",
-  "practice": "PENDING",
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "ddd7bf71bb40099ea968c6cde7181b5141931211",
+    "findings": [
+      "RX-D2-01",
+      "RX-D2-02",
+      "RX-D2-03",
+      "RX-D2-04",
+      "RX-D2-05",
+      "RX-D2-06",
+      "RX-D2-07",
+      "RX-D2-08"
+    ]
+  },
+  "practice": "NEXT",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice"
+  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff"
 }

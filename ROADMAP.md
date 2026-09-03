@@ -1009,4 +1009,21 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - Russian-first learner language and all numeric/proof/acceptance/equipment-authority locks remain preserved;
 - CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
-Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice`.
+Next: `CRN-M-03 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first applied-mechanics flow, cognitive load and retrieval without weakening Red-Team body/force/moment/load-share/holding/dynamics/source/authority guards before practice` — completed; see Reader Experience section below.
+
+## CRN-M-03 D2 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+
+- 8 reader findings fixed without changing mechanics/source/authority truth conditions;
+- six-question memory card and two-pass mechanics/evidence route reduce working-memory load;
+- load-share router separates equilibrium-solvable, compatibility/stiffness-dependent and unknown contact-state cases;
+- holding-principle router is a classifier, not an inspection/acceptance checklist;
+- status ladder is compressed into model/evidence/authority floors without allowing promotion;
+- the 10-step algorithm has a six-line retrieval form;
+- 12 novice errors are grouped into five evidence-status promotion traps;
+- an eight-question retrieval checkpoint prepares for formal Practice;
+- Russian-first learner language, Red-Team guards, ISO 17096 exclusion, numeric/proof/inspection/holding/equipment-authority locks remain intact;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff`.

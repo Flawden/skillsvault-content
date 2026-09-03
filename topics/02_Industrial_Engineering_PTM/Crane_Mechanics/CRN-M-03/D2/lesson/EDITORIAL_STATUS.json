@@ -20,7 +20,8 @@
       "TE-D2-10"
     ]
   },
-  "red_team": "NEXT",
-  "reader_experience_pass": "PENDING",
-  "next": "CRN-M-03 / D2 RED TEAM / PASS I / v1 — adversarial challenge of body selection, force/moment maps, articulation/load-sharing assumptions, holding-state reasoning, dynamic-model status, source-role and equipment-authority traps before reader experience"
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff",
+  "practice": "NEXT"
 }

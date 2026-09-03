@@ -1,19 +1,17 @@
 {
   "topic": "CRN-M-03",
   "depth": "D2",
-  "stage": "RED_TEAM",
+  "stage": "READER_EXPERIENCE",
   "pass_I": {
     "status": "COMPLETE",
-    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
-    "baseline_commit": "62a167c34516878bbf9346ba3a4bdd4b18501ef9",
-    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/red_team/pass_I/v1/CRN-M-03_D2_RED_TEAM_PASS_I_v1.md",
-    "findings_fixed": 11,
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "baseline_commit": "ddd7bf71bb40099ea968c6cde7181b5141931211",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/reader_experience/pass_I/v1/CRN-M-03_D2_READER_EXPERIENCE_PASS_I_v1.md",
+    "findings_fixed": 8,
     "corrected_artifacts": [
-      "lesson/v1/CRN-M-03_D2_LESSON_v1.md",
-      "lesson/v1/SOURCE_MAP_v1.md"
+      "lesson/v1/CRN-M-03_D2_LESSON_v1.md"
     ]
   },
-  "reader_experience_pass": "COMPLETE",
   "practice": "NEXT",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
