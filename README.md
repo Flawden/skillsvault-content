@@ -35,7 +35,8 @@
 - D1 Final Alignment — COMPLETE v1
 - D1 Source Freshness — COMPLETE / PASS v1
 - D1 Freeze — **CONTENT FROZEN v1**, tag `crn-m-03-d1-v1`
-- D2 Content Kickoff — NEXT
+- D2 Content Kickoff — COMPLETE / PASS WITH CLAIM LIMITS v1
+- D2 Lesson Authoring — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 

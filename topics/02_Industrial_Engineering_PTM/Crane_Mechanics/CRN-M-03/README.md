@@ -1,12 +1,38 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 CONTENT KICKOFF COMPLETE v1**.
 
 ## Structural production contract
 
 CRN-M-03 reuses the frozen CRN-M-02 production discipline only: explicit D1–D4 boundaries, source gate, Technical Editorial, Red Team, Reader Experience, Practice, Practice Reasoning, Expected Result, Verification Rubric, Final Alignment, Source Freshness and immutable Freeze.
 
 CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applicability are not inherited automatically.
+
+
+## Current D2
+
+`D2 — CONTENT KICKOFF COMPLETE / PASS WITH CLAIM LIMITS v1`.
+
+D2 переводит D1 mental model в applied mechanics:
+
+```text
+object / interface boundary
+→ force + reaction map
+→ moment / eccentricity / centre-of-gravity check
+→ articulation + branch-load assumptions
+→ holding-state dependency map
+→ mechanics status
+→ exact source / inspection / safe-use / OEM boundary
+→ bounded conclusion or STOP / REQUEST EVIDENCE
+```
+
+D2 разрешает generic symbolic mechanics (`ΣF`, `ΣM`, `M = r × F`, symbolic reactions) только как учебную модель. Standard load factors/combinations, hook proof, WLL/capacity selection, holding-force ratings, inspection/discard/load-test criteria, repair/NDT and operation permission remain locked.
+
+Source Gate v1 uses ISO 4306-1:2026, ISO 17440:2014, ISO 17096:2015, ISO 8686-1:2012, ISO 9927-1:2013, ISO 12480-1:2024, ФНП ПС №461 (ред. 16.04.2026) and exact passport/OEM/device documentation. ISO 8686-1:2012 is watchlisted because the ISO page currently shows stage 90.60 / under review. ISO 17096 remains explicitly non-applicable to grabs/grab buckets.
+
+Learner-facing D2 remains Russian-first; English labels are explained or optional and Russian equivalents are fully accepted.
+
+Next: `CRN-M-03 / D2 LESSON AUTHORING / v1 — build Russian-first applied mechanics for hook suspensions and load-gripping devices around force/moment paths, eccentricity, articulation, load sharing, holding-state dependencies and bounded evidence/authority handoff`.
 
 ## Current depth
 

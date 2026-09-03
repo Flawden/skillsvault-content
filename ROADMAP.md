@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 KICKOFF COMPLETE
 ```
 
 
@@ -23,6 +23,26 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+
+## CRN-M-03 D2 Content Kickoff v1
+
+Decision: `PASS WITH CLAIM LIMITS`.
+
+- prerequisite `CRN-M-03 / D1 FROZEN v1`, tag `crn-m-03-d1-v1`;
+- D2 scope locked around applied force/reaction paths, moments/eccentricity, centre of gravity, articulation/DOF, branch-load assumptions, qualitative dynamics and holding-state dependencies;
+- generic symbolic mechanics is unlocked as an educational model; standard load factors/combinations and formal proof remain locked;
+- ISO 17440:2014 anchors the forged-hook formal-proof boundary;
+- ISO 17096:2015 anchors included non-fixed lifting-attachment categories and keeps grabs/grab buckets explicitly outside its scope;
+- ISO 8686-1:2012 anchors the formal load/load-combination proof boundary and is watchlisted at ISO stage 90.60 / under review;
+- ISO 9927-1:2013 anchors inspection separation; ISO 12480-1:2024 anchors safe-use/planning separation;
+- ФНП ПС №461 (ред. 16.04.2026) anchors Russian operational/inspection authority without turning D2 into an operational manual;
+- exact passport/OEM/device documentation remains mandatory for real geometry, capacity, permitted directions, holding-state limits, inspection/test/repair and operation claims;
+- WLL/capacity selection, hook proof, numeric side/tip/eccentric limits, holding-force ratings, inspection/discard/load-test criteria, sling design/rigging-plan authority, repair/NDT and return-to-service remain locked;
+- learner-facing D2 is Russian-first; English labels are explained or optional;
+- CRN-M-01 / CRN-M-02 frozen topics, CRN-M-03 D1 frozen content and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D2 LESSON AUTHORING / v1 — build Russian-first applied mechanics for hook suspensions and load-gripping devices around force/moment paths, eccentricity, articulation, load sharing, holding-state dependencies and bounded evidence/authority handoff`.
 
 ## CRN-M-03 D1 Freeze v1
 
