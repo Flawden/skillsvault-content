@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 PRACTICE COMPLETE v1
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 PRACTICE REASONING COMPLETE v1
 ```
 
 
@@ -21,6 +21,26 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D1 Practice Reasoning v1
+
+Status: `COMPLETE`.
+
+- non-exclusive reasoning paths are complete for all ten Practice cases A–J;
+- system boundaries and interfaces stay explicit before any technical claim;
+- branch/merge load paths are preserved without visual-symmetry load-share invention;
+- latch/seating observations stay separate from compatibility/acceptance;
+- holding-principle classification remains qualitative and device/source bound;
+- visible device state is not promoted to complete holding verification;
+- similar devices are not promoted to interchangeability without exact identity/configuration;
+- source role is selected before document number and exact applicability remains a separate gate;
+- attachment self-weight is recognized physically without invented capacity arithmetic;
+- past successful lifting stays historical evidence, not current validation;
+- bounded STOP/evidence requests are explicit and SkillsVault STOP remains separate from equipment-operation authority;
+- ten cross-case reasoning failure families are carried forward as Expected Result / blocking-failure candidates;
+- Practice prompts, reviewed D1 lesson/source gate and CRN-M-01/02 frozen topics remain immutable.
+
+Next: `CRN-M-03 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, transfer evidence, bounded STOP success conditions and candidate blocking failures for system boundary, load path, holding principle and source-scope discipline`.
 
 ## CRN-M-03 D1 Practice v1
 
@@ -36,7 +56,7 @@ Status: `COMPLETE`.
 - SkillsVault STOP remains separate from equipment-operation authority;
 - CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
 
-Next: `CRN-M-03 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key`.
+Next: `CRN-M-03 / D1 PRACTICE REASONING / v1` — completed; see Practice Reasoning section above.
 
 ## CRN-M-03 D1 Red Team Pass I v1
 

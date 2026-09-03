@@ -1,0 +1,59 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D1",
+  "stage": "PRACTICE_REASONING",
+  "version": "v1",
+  "status": "COMPLETE",
+  "date": "2026-09-03",
+  "baseline_commit": "6653e4f904ac24a171cfd58838ff8da8b905be85",
+  "cases": 10,
+  "case_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "single_answer_key": false,
+  "multiple_valid_paths_explicit": true,
+  "artifacts": {
+    "reasoning": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice_reasoning/v1/CRN-M-03_D1_PRACTICE_REASONING_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json"
+  },
+  "coverage": {
+    "system_boundary_reasoning": true,
+    "branch_merge_load_path_reasoning": true,
+    "visual_symmetry_guard": true,
+    "latch_seating_acceptance_guard": true,
+    "holding_principle_classification": true,
+    "visible_state_completeness_guard": true,
+    "interchangeability_guard": true,
+    "source_role_before_document_number": true,
+    "exact_source_applicability_guard": true,
+    "whole_system_self_weight_reasoning": true,
+    "past_success_current_validation_separated": true,
+    "bounded_stop_evidence_request": true,
+    "equipment_authority_boundary": true,
+    "case_j_capstone_reasoning": true,
+    "cross_case_failure_taxonomy": true
+  },
+  "guards": {
+    "numeric_design_and_proof_locked": true,
+    "inspection_discard_acceptance_locked": true,
+    "holding_force_calculations_locked": true,
+    "repair_ndt_return_to_service_locked": true,
+    "equipment_specific_capacity_locked": true,
+    "equipment_authority_locked": true,
+    "practice_prompts_unchanged": true,
+    "d1_source_gate_unchanged": true,
+    "crn_m01_frozen_topic_immutable": true,
+    "crn_m02_frozen_topic_immutable": true,
+    "frozen_index_unchanged": true
+  },
+  "next": "CRN-M-03 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, transfer evidence, bounded STOP success conditions and candidate blocking failures for system boundary, load path, holding principle and source-scope discipline"
+}
