@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 PRACTICE REASONING COMPLETE v1
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 VERIFICATION RUBRIC COMPLETE v1
 ```
 
 
@@ -21,6 +21,25 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+
+## CRN-M-03 D1 Verification Rubric v1
+
+Status: `COMPLETE`.
+
+- 10 ER-D1 dimensions scored 0–4; max = 40;
+- every ER-D1-01…10 must be >=3 for `D1 VERIFIED`; total >=30;
+- 8 dangerous evidence-status / authority failures are non-compensable;
+- serial-path assumption and holding-principle collapse remain severity-review errors unless they trigger an explicit BF;
+- known A–J evidence is required but insufficient; unseen U1 and challenge C1 are mandatory;
+- U1 combines object-boundary, branch/merge, latch/seating, nominal-marking, history and source-applicability traps;
+- C1 confirms exact OEM identity as a `grab` and requires the learner to recognize the ISO 17096 grab/grab-bucket exclusion rather than force applicability;
+- correct bounded `STOP / REQUEST EVIDENCE` is a successful D1 outcome when the blocked claim and discriminating evidence are explicit;
+- learner-facing language is Russian-first; English terms are explained or optional and Russian equivalents are fully accepted;
+- numeric design/proof, discard/acceptance, holding-force and equipment-authority locks remain closed;
+- CRN-M-01 / CRN-M-02 frozen topics and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 ## CRN-M-03 D1 Practice Reasoning v1
 

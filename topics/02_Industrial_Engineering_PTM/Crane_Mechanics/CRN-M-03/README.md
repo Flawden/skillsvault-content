@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 EXPECTED RESULT COMPLETE v1**.
+Status: **ACTIVE — D1 VERIFICATION RUBRIC COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / EXPECTED RESULT COMPLETE v1`.
+`D1 — ACTIVE / VERIFICATION RUBRIC COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -108,4 +108,11 @@ Status: `COMPLETE`.
 
 Ten observable ER-D1 dimensions now convert the reviewed beginner mental model into assessable behavior. Verification must require eight visible evidence outputs, known Practice/Reasoning A–J is insufficient for transfer, and at least one unseen case U1 is required. Correct `D1 STOP — EXACT DEVICE / SOURCE / OEM DATA REQUIRED` is a successful outcome when the blocked claim and discriminating evidence are explicit. Eight strong blocking-failure candidates are passed to the Rubric; serial-path assumption and holding-principle collapse remain severity-review candidates rather than pre-decided non-compensable failures.
 
-Next: `CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation`.
+
+## Verification Rubric v1
+
+Status: `COMPLETE`.
+
+Ten ER-D1 dimensions are scored 0–4. `D1 VERIFIED` requires every dimension >=3, total >=30/40, no Blocking Failure, a known case, unseen U1, challenge C1 and the complete evidence package. Eight dangerous evidence-status promotions are non-compensable BF. Serial-path assumption and holding-principle collapse remain severity-review errors unless they create one of the explicit dangerous claims. Correct bounded `STOP / REQUEST EVIDENCE` remains a successful D1 result. Learner-facing wording is Russian-first; English labels are explained or optional.
+
+Next: `CRN-M-03 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.

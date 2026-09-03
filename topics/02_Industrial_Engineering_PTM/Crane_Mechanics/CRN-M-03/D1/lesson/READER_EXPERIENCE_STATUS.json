@@ -15,9 +15,9 @@
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT",
-  "final_alignment": "PENDING",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation"
+  "next": "CRN-M-03 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
 }
