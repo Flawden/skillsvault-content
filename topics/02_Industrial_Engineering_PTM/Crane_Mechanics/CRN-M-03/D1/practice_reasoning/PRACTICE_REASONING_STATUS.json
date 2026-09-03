@@ -55,5 +55,7 @@
     "crn_m02_frozen_topic_immutable": true,
     "frozen_index_unchanged": true
   },
-  "next": "CRN-M-03 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, transfer evidence, bounded STOP success conditions and candidate blocking failures for system boundary, load path, holding principle and source-scope discipline"
+  "next": "CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT"
 }

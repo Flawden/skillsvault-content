@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 PRACTICE REASONING COMPLETE v1**.
+Status: **ACTIVE — D1 EXPECTED RESULT COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / PRACTICE REASONING COMPLETE v1`.
+`D1 — ACTIVE / EXPECTED RESULT COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -102,4 +102,10 @@ Status: `COMPLETE`.
 
 Ten transfer cases A–J exercise system-boundary selection, branch/merge load-path mapping, latch/seating evidence discipline, holding-principle classification, device-state unknowns, interchangeability, exact source scope, whole-system/self-weight reasoning, past-success traps and one integrated D1 capstone. Practice embeds no answer key and introduces no numeric design/inspection/holding-force or equipment-authority claim.
 
-Next: `CRN-M-03 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, transfer evidence, bounded STOP success conditions and candidate blocking failures for system boundary, load path, holding principle and source-scope discipline`.
+## Expected Result v1
+
+Status: `COMPLETE`.
+
+Ten observable ER-D1 dimensions now convert the reviewed beginner mental model into assessable behavior. Verification must require eight visible evidence outputs, known Practice/Reasoning A–J is insufficient for transfer, and at least one unseen case U1 is required. Correct `D1 STOP — EXACT DEVICE / SOURCE / OEM DATA REQUIRED` is a successful outcome when the blocked claim and discriminating evidence are explicit. Eight strong blocking-failure candidates are passed to the Rubric; serial-path assumption and holding-principle collapse remain severity-review candidates rather than pre-decided non-compensable failures.
+
+Next: `CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation`.

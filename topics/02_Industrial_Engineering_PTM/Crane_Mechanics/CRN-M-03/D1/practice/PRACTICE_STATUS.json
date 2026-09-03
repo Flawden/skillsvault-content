@@ -20,8 +20,8 @@
   ],
   "answer_key_embedded": false,
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT",
-  "verification_rubric": "PENDING",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
@@ -33,7 +33,7 @@
   "bounded_stop_required": true,
   "numeric_design_claim_lock_preserved": true,
   "field_authority_guard_preserved": true,
-  "next": "CRN-M-03 / D1 EXPECTED RESULT / v1 — define observable beginner behaviors, transfer evidence, bounded STOP success conditions and candidate blocking failures for system boundary, load path, holding principle and source-scope discipline",
+  "next": "CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation",
   "reasoning_artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/practice_reasoning/v1/CRN-M-03_D1_PRACTICE_REASONING_v1.md",
   "reasoning_is_non_exclusive": true
 }

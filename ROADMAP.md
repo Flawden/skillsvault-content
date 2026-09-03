@@ -849,3 +849,18 @@ Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 - CRN-M-01 / CRN-M-02 frozen topics and `status/FROZEN_INDEX.json` remain immutable.
 
 Next: `CRN-M-03 / D1 PRACTICE / v1 — build beginner transfer cases for system boundary, load-path mapping, holding-principle classification, source-scope discipline and bounded STOP / evidence handoff`.
+
+## CRN-M-03 D1 Expected Result v1
+
+Status: `COMPLETE`.
+
+- 10 observable ER-D1 dimensions cover object/interface boundary, branch/merge load path, latch/seating evidence discipline, holding-principle classification, observation/unknown status, identity/interchangeability, exact source applicability, history/current evidence separation, bounded STOP/handoff and unseen transfer;
+- minimum evidence package contains 8 visible outputs;
+- known A–J performance and Case J capstone are required background but insufficient for ER-D1-10 transfer;
+- Verification must include at least one unseen U1 case combining at least two D1 trap families;
+- correct bounded `STOP / REQUEST EVIDENCE` is a successful outcome when exact device/source/OEM evidence is missing;
+- 8 strong BF candidates are carried forward; serial-path assumption and holding-principle collapse remain explicit severity-review candidates;
+- numeric hook proof/discard/holding-force/acceptance and equipment-authority locks remain closed;
+- CRN-M-01 / CRN-M-02 frozen topics and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D1 VERIFICATION RUBRIC / v1 — score observable beginner behaviors, decide non-compensable blocking failures, require unseen transfer and preserve bounded STOP / equipment-authority separation`
