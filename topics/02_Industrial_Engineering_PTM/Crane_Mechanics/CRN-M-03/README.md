@@ -175,3 +175,16 @@ Status: `CONTENT FROZEN`.
 D1 Freeze v1 snapshots all 52 accepted D1 source/status artifacts byte-for-byte into `D1/FROZEN_v1`, verifies their SHA-256 values, registers all 61 freeze-bundle files in `status/FROZEN_INDEX.json` and binds the immutable tag `crn-m-03-d1-v1`. Source Freshness was `PASS` with watchlist 0 and no content correction. Russian-first learner language and all numeric/acceptance/holding-force/equipment-authority locks remain preserved.
 
 Next: `CRN-M-03 / D2 CONTENT KICKOFF / v1 — define D2 scope/source gate for applied hook-suspension and load-gripping-device mechanics while preserving D1 source/acceptance/authority boundaries`.
+
+
+## D2 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+
+The D2 lesson upgrades the frozen D1 model into Russian-first applied mechanics: select the body first, map external forces/reactions, inspect lines of action and moments, add the full-system centre of gravity, test articulation/DOF assumptions, refuse unjustified equal load sharing, map holding-state dependencies and then separate mechanics from proof/inspection/safe-use/equipment authority.
+
+No standard-derived numeric factors, hook proof values, side/tip/eccentric limits, WLL/SWL selection, holding-force ratings, inspection/discard/load-test criteria, repair/NDT or operation permission are introduced. Grab/grab-bucket mechanics stays conceptual and the ISO 17096 exclusion remains locked.
+
+Learner-facing wording is Russian-first; English labels are explanatory/optional only.
+
+Next: `CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team`.

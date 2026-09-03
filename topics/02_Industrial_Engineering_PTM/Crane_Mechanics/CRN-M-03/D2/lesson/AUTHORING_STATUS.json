@@ -1,0 +1,43 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D2",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-03",
+  "baseline_commit": "97c1d350eb7f9e0d4fedb81eaa3460c4a879cf9f",
+  "prerequisite": {
+    "D1": "FROZEN_v1",
+    "tag": "crn-m-03-d1-v1"
+  },
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-03_D2_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "applied_mechanics_model_complete": true,
+    "force_moment_cg_articulation_complete": true,
+    "load_share_assumption_guards_explicit": true,
+    "holding_state_dependencies_complete": true,
+    "numeric_design_proof_locks_preserved": true,
+    "inspection_safe_use_equipment_authority_boundaries_preserved": true,
+    "russian_first_language_guard_preserved": true
+  },
+  "technical_editorial_pass_I": "NEXT",
+  "red_team_pass_I": "PENDING",
+  "reader_experience_pass_I": "PENDING",
+  "practice": "PENDING",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team"
+}

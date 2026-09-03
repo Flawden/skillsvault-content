@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 KICKOFF COMPLETE
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 LESSON COMPLETE
 ```
 
 
@@ -24,6 +24,24 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+## CRN-M-03 D2 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+
+- Russian-first applied-mechanics lesson authored around body-first free-body diagrams, vector forces/reactions, line of action, moments/eccentricity and centre of gravity;
+- ideal versus real articulation/DOF is explicit, including friction/clearance/misalignment/binding as model-changing states;
+- branch/merge load sharing does not inherit equality from visual symmetry; stiffness/contact/gap dependence is explicit where statics alone is insufficient;
+- attachment self-weight and combined centre of gravity are included physically without a generic capacity-subtraction rule;
+- positive-engagement, friction/clamp, magnetic, vacuum and grab/grab-bucket holding states are treated qualitatively without device-rating calculations;
+- grab/grab-bucket mechanics remain conceptual and ISO 17096 is not extended across its explicit public-scope exclusion;
+- quasistatic `ΣF/ΣM` is kept separate from dynamic modes; no standard load factors/combinations are reconstructed;
+- mechanics → formal proof → inspection → safe use/regulation → OEM/equipment authority separation is explicit;
+- learner-facing language remains Russian-first; English labels are explained or optional and Russian equivalents are fully accepted;
+- formal Practice is not embedded in Lesson;
+- CRN-M-01 / CRN-M-02 frozen topics, CRN-M-03 D1 frozen content and `status/FROZEN_INDEX.json` remain immutable.
+
+Next: `CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team`.
 
 ## CRN-M-03 D2 Content Kickoff v1
 

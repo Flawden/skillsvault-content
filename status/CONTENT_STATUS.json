@@ -276,8 +276,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "PENDING",
-        "editorial": "PENDING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
@@ -315,10 +315,26 @@
         "russian_equivalents": "FULLY_ACCEPTED"
       },
       "baseline_commit": "0890438ab69a0893d491c8d22b026642f3994d40",
-      "structural_contract_source": "crn-m-02-v1"
+      "structural_contract_source": "crn-m-02-v1",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "baseline_commit": "97c1d350eb7f9e0d4fedb81eaa3460c4a879cf9f",
+        "artifacts": {
+          "lesson": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/v1/CRN-M-03_D2_LESSON_v1.md",
+          "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/v1/SOURCE_MAP_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/v1/AUTHORING_QA_v1.json"
+        },
+        "formal_practice_included": false,
+        "language": {
+          "learner_facing": "RUSSIAN_FIRST",
+          "english_labels": "EXPLAINED_OR_OPTIONAL",
+          "russian_equivalents": "FULLY_ACCEPTED"
+        }
+      }
     }
   },
-  "next": "CRN-M-03 / D2 LESSON AUTHORING / v1 — build Russian-first applied mechanics for hook suspensions and load-gripping devices around force/moment paths, eccentricity, articulation, load sharing, holding-state dependencies and bounded evidence/authority handoff",
+  "next": "CRN-M-03 / D2 TECHNICAL EDITORIAL / PASS I / v1 — audit applied mechanics lesson for body/force-map consistency, eccentricity/centre-of-gravity reasoning, articulation/load-share assumptions, holding-state shortcuts, source-role drift and equipment-authority leakage before red team",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
