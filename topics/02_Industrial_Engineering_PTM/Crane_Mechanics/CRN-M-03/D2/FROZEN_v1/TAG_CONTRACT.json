@@ -1,0 +1,7 @@
+{
+  "name": "crn-m-03-d2-v1",
+  "type": "annotated",
+  "message": "CRN-M-03 D2 FROZEN v1",
+  "target": "PATCH_APPLIED_COMMIT",
+  "push": true
+}

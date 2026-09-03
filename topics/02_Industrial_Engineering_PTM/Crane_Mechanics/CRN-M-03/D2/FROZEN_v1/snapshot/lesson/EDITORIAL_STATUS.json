@@ -1,0 +1,33 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D2",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "77952da08c032d37f49cf4b249af516dee5e4f2f",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/lesson/editorial/pass_I/v1/CRN-M-03_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "corrections": [
+      "TE-D2-01",
+      "TE-D2-02",
+      "TE-D2-03",
+      "TE-D2-04",
+      "TE-D2-05",
+      "TE-D2-06",
+      "TE-D2-07",
+      "TE-D2-08",
+      "TE-D2-09",
+      "TE-D2-10"
+    ]
+  },
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract",
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
+}

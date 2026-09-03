@@ -1,0 +1,126 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "depth": "D2",
+  "version": "v1",
+  "verified_on": "2026-09-03",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisite": {
+    "depth": "D1",
+    "status": "FROZEN",
+    "version": "v1",
+    "tag": "crn-m-03-d1-v1"
+  },
+  "language": {
+    "learner_facing": "RUSSIAN_FIRST",
+    "english_labels": "EXPLAINED_OR_OPTIONAL",
+    "russian_equivalents": "FULLY_ACCEPTED"
+  },
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_STAGE_60_60",
+      "role": "TERMINOLOGY_COMPONENTS",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-17440-2014",
+      "title": "ISO 17440:2014 — Cranes — General design — Limit states and proof of competence of forged steel hooks",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "FORGED_HOOK_FORMAL_PROOF_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59758.html",
+      "full_text_available_in_repo": false,
+      "plate_hooks_in_public_scope": false
+    },
+    {
+      "id": "EXT-ISO-17096-2015",
+      "title": "ISO 17096:2015 — Cranes — Safety — Load lifting attachments",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_2026_STAGE_90_93",
+      "role": "LOAD_LIFTING_ATTACHMENT_SAFETY_SCOPE",
+      "public_url": "https://www.iso.org/standard/58103.html",
+      "full_text_available_in_repo": false,
+      "explicit_exclusions": [
+        "slings",
+        "buckets",
+        "grabs",
+        "grab buckets",
+        "container spreaders"
+      ]
+    },
+    {
+      "id": "EXT-ISO-8686-1-2012",
+      "title": "ISO 8686-1:2012 — Cranes — Design principles for loads and load combinations — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_STAGE_90_60_UNDER_REVIEW",
+      "role": "FORMAL_LOAD_COMBINATION_PROOF_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59417.html",
+      "watchlist": true,
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-9927-1-2013",
+      "title": "ISO 9927-1:2013 — Cranes — Inspections — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "INSPECTION_AUTHORITY_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/51102.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12480-1-2024",
+      "title": "ISO 12480-1:2024 — Cranes — Safe use — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_STAGE_60_60",
+      "role": "SAFE_USE_PLANNING_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/83637.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_OPERATIONAL_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-DEVICE",
+      "title": "Passport / OEM / device documentation for actual hook suspension or load-gripping device",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "EQUIPMENT_SPECIFIC_AUTHORITY",
+      "public": false
+    }
+  ],
+  "watchlist": [
+    "EXT-ISO-8686-1-2012"
+  ],
+  "generic_mechanics_unlocked": [
+    "force_and_reaction_maps",
+    "moments_and_eccentricity",
+    "centre_of_gravity_reasoning",
+    "branch_merge_load_distribution",
+    "articulation_degrees_of_freedom",
+    "qualitative_dynamic_effects",
+    "holding_state_dependency_maps"
+  ],
+  "locked_claim_classes": [
+    "numeric_hook_design_or_proof",
+    "standard_load_factors_and_combinations",
+    "numeric_side_tip_eccentric_limits",
+    "holding_force_or_device_rating_calculation",
+    "wll_swl_capacity_selection",
+    "inspection_discard_acceptance",
+    "load_test_criteria",
+    "sling_design_or_rigging_plan_authority",
+    "repair_ndt_return_to_service",
+    "equipment_specific_operation_permission"
+  ],
+  "lesson_authoring_unlocked": true
+}

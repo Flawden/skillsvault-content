@@ -1,0 +1,152 @@
+{
+  "artifact": "CRN-M-03_D2_SOURCE_INVENTORY_v1",
+  "checked_on": "2026-09-03",
+  "baseline_commit": "59554329bcff086c4fdde8363eb51bdff0995638",
+  "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+  "counts": {
+    "published_or_regulatory_anchors": 7,
+    "equipment_specific_authority_boundaries": 1,
+    "development_companion_records": 0,
+    "explicit_scope_exclusion_records_rechecked": 2,
+    "watchlist_records": 1,
+    "stale_requiring_removal": 0,
+    "draft_misused_as_current": 0,
+    "withdrawn_used_as_current": 0,
+    "source_scope_leaks": 0,
+    "formal_proof_role_leaks": 0,
+    "inspection_authority_leaks": 0,
+    "safe_use_authority_leaks": 0,
+    "equipment_authority_leaks": 0,
+    "numeric_boundary_leaks": 0,
+    "language_accessibility_regressions": 0
+  },
+  "watchlist": [
+    {
+      "id": "ISO-8686-1-2012",
+      "reason": "Current published Edition 2 remains at ISO lifecycle stage 90.60 / Close of review (under review). Public ISO/TC 96/SC 10 catalogue still lists ISO 8686-1:2012 at 90.60; no separate published replacement is listed for Part 1.",
+      "blocking": false,
+      "action": "Recheck lifecycle/replacement status before any future D2 revision; do not reconstruct standard load factors or load combinations from public metadata."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ISO-4306-1-2026",
+      "type": "international_standard",
+      "title": "Cranes — Vocabulary — Part 1: General",
+      "status": "PUBLISHED",
+      "stage": "60.60",
+      "edition": 5,
+      "date": "2026-07",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "crane terminology / component boundary",
+      "url": "https://www.iso.org/standard/78820.html"
+    },
+    {
+      "id": "ISO-17440-2014",
+      "type": "international_standard",
+      "title": "Cranes — General design — Limit states and proof of competence of forged steel hooks",
+      "status": "PUBLISHED_CONFIRMED",
+      "stage": "90.93",
+      "edition": 1,
+      "date": "2014-06",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "formal proof-scope boundary for defined forged steel hooks",
+      "scope_warning": "Public scope covers bodies of point hooks made of steel forgings and specified shanks; plate hooks are excluded. Do not extend this source to the whole hook suspension or excluded constructions.",
+      "url": "https://www.iso.org/standard/59758.html"
+    },
+    {
+      "id": "ISO-17096-2015",
+      "type": "international_standard",
+      "title": "Cranes — Safety — Load lifting attachments",
+      "status": "PUBLISHED_CONFIRMED",
+      "stage": "90.93",
+      "edition": 1,
+      "date": "2015-08",
+      "confirmed": "2026-03-20",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "load-lifting-attachment safety/category boundary for included attachment types",
+      "scope_warning": "Public scope excludes slings, ladles, expanding mandrels, buckets, grabs, grab buckets and container spreaders; no extension to grabs/grab buckets by analogy.",
+      "url": "https://www.iso.org/standard/58103.html"
+    },
+    {
+      "id": "ISO-8686-1-2012",
+      "type": "international_standard",
+      "title": "Cranes — Design principles for loads and load combinations — Part 1: General",
+      "status": "PUBLISHED_UNDER_REVIEW",
+      "stage": "90.60",
+      "edition": 2,
+      "date": "2012-12",
+      "freshness": "CURRENT_WITH_WATCH",
+      "watch": true,
+      "role": "formal load/load-combination proof boundary; not a source for reconstructed public numeric factors",
+      "url": "https://www.iso.org/standard/59417.html",
+      "catalogue_url": "https://www.iso.org/committee/344665/x/catalogue/"
+    },
+    {
+      "id": "ISO-9927-1-2013",
+      "type": "international_standard",
+      "title": "Cranes — Inspections — Part 1: General",
+      "status": "PUBLISHED_CONFIRMED",
+      "stage": "90.93",
+      "edition": 3,
+      "date": "2013-06",
+      "confirmed": "2023-12-04",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "inspection-authority boundary",
+      "url": "https://www.iso.org/standard/51102.html"
+    },
+    {
+      "id": "ISO-12480-1-2024",
+      "type": "international_standard",
+      "title": "Cranes — Safe use — Part 1: General",
+      "status": "PUBLISHED",
+      "stage": "60.60",
+      "edition": 2,
+      "date": "2024-08",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "safe-use / planning authority boundary",
+      "url": "https://www.iso.org/standard/83637.html"
+    },
+    {
+      "id": "RU-FNP-461",
+      "type": "russian_regulation",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "date": "valid through 2032-09-01",
+      "freshness": "CURRENT",
+      "watch": false,
+      "role": "Russian regulatory / inspection / operational-authority boundary",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_373321/"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-DEVICE",
+      "type": "equipment_documentation_boundary",
+      "title": "Passport / OEM / exact device documentation for the actual hook suspension or load-gripping device",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "date": "equipment-specific",
+      "freshness": "MUST_MATCH_ACTUAL_EQUIPMENT_AND_CONFIGURATION",
+      "watch": false,
+      "role": "actual geometry/configuration, limits, holding-state criteria, compatibility, inspection/test/maintenance and equipment-authority source",
+      "public": false
+    }
+  ],
+  "locked_claim_classes": [
+    "numeric_hook_design_or_proof",
+    "standard_load_factors_and_combinations",
+    "numeric_side_tip_eccentric_limits",
+    "holding_force_or_device_rating_calculation",
+    "wll_swl_capacity_selection",
+    "inspection_discard_acceptance",
+    "load_test_criteria",
+    "sling_design_or_rigging_plan_authority",
+    "repair_ndt_return_to_service",
+    "equipment_specific_compatibility_or_operation_permission"
+  ],
+  "content_corrections_required": false,
+  "freeze_candidate_ready": true
+}

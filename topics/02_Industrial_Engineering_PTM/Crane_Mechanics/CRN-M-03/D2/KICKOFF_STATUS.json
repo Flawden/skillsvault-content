@@ -17,6 +17,8 @@
   "equipment_authority": "LOCKED",
   "language": "RUSSIAN_FIRST",
   "baseline_commit": "0890438ab69a0893d491c8d22b026642f3994d40",
-  "next": "CRN-M-03 / D2 LESSON AUTHORING / v1 — build Russian-first applied mechanics for hook suspensions and load-gripping devices around force/moment paths, eccentricity, articulation, load sharing, holding-state dependencies and bounded evidence/authority handoff",
-  "freeze": "PENDING"
+  "next": "CRN-M-03 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for hook suspensions and load-gripping devices while preserving D1/D2 frozen mechanics/source/authority boundaries",
+  "freeze": "COMPLETE",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/FROZEN_v1"
 }

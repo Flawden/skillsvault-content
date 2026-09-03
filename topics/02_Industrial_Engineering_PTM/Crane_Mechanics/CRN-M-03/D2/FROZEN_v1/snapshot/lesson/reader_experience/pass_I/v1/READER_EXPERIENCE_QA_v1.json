@@ -1,0 +1,42 @@
+{
+  "artifact": "CRN-M-03_D2_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-03",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "ddd7bf71bb40099ea968c6cde7181b5141931211",
+  "findings": [
+    "RX-D2-01",
+    "RX-D2-02",
+    "RX-D2-03",
+    "RX-D2-04",
+    "RX-D2-05",
+    "RX-D2-06",
+    "RX-D2-07",
+    "RX-D2-08"
+  ],
+  "reader_checks": {
+    "six_question_memory_card_added": true,
+    "two_pass_mechanics_evidence_route_added": true,
+    "load_share_state_router_added": true,
+    "holding_principle_router_added": true,
+    "three_floor_status_map_added": true,
+    "six_line_pocket_algorithm_added": true,
+    "promotion_traps_grouped": true,
+    "retrieval_checkpoint_added": true,
+    "russian_first_preserved": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "technical_editorial_invariants_preserved": true,
+    "numeric_design_claims_introduced": false,
+    "holding_force_claims_introduced": false,
+    "inspection_acceptance_claims_introduced": false,
+    "field_authority_boundary_preserved": true,
+    "source_authority_changed": false,
+    "iso_17096_grab_scope_exclusion_preserved": true,
+    "d1_frozen_changed": false,
+    "frozen_index_changed": false
+  },
+  "next": "CRN-M-03 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for body/FBD selection, force/moment/CG reasoning, articulation/load-share, holding-state, dynamics and bounded source/authority handoff"
+}

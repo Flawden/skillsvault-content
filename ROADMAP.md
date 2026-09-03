@@ -1,5 +1,22 @@
 # SkillsVault Content — ROADMAP
 
+## CRN-M-03 D2 Freeze v1
+
+Decision: `CONTENT FROZEN`.
+
+- freshness-cleared baseline: `40a5e422ab564ff29e0fb563dd9867ce2cb4d155`;
+- immutable snapshot members: 52/52 byte-identical;
+- freeze bundle: 61 files;
+- D2 ER/Rubric: 13/13; BF provenance 10/10; SR-D2-01 remains severity-review;
+- U1 + C1 transfer/update contract preserved;
+- source freshness: PASS WITH WATCHLIST; ISO 8686-1:2012 watch remains non-blocking;
+- Russian-first learner policy and proof/holding/inspection/safe-use/equipment-authority locks preserved;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites remain immutable;
+- tag contract: `crn-m-03-d2-v1`.
+
+Next: `CRN-M-03 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for hook suspensions and load-gripping devices while preserving D1/D2 frozen mechanics/source/authority boundaries`.
+
+
 ## CRN-M-03 D2 Source Freshness v1
 
 Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
@@ -44,7 +61,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 SOURCE FRESHNESS COMPLETE / FREEZE NEXT
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 FROZEN v1 / D3 KICKOFF NEXT
 ```
 
 ## CRN-M-03 D2 Verification Rubric v1

@@ -88,6 +88,8 @@
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
   "source_freshness": "COMPLETE",
-  "freeze": "NEXT",
-  "next": "CRN-M-03 / D2 FREEZE / v1 — immutable D2 package, manifests, frozen index and tag contract"
+  "freeze": "COMPLETE",
+  "next": "CRN-M-03 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for hook suspensions and load-gripping devices while preserving D1/D2 frozen mechanics/source/authority boundaries",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/FROZEN_v1"
 }

@@ -1,3 +1,14 @@
+## D2 Freeze v1 — CONTENT FROZEN
+
+- immutable snapshot: 52 accepted D2 artifacts, byte-for-byte preserved;
+- freeze bundle: 61 files;
+- tag contract: `crn-m-03-d2-v1`;
+- source freshness watchlist: 1 non-blocking record (`ISO 8686-1:2012` under review);
+- Russian-first applied-mechanics model and all proof/holding/inspection/safe-use/equipment-authority locks preserved;
+- D1 remains independently immutable under `crn-m-03-d1-v1`.
+
+Next: `CRN-M-03 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for hook suspensions and load-gripping devices while preserving D1/D2 frozen mechanics/source/authority boundaries`.
+
 ## D2 Source Freshness v1 — COMPLETE
 
 Decision: `PASS WITH WATCHLIST — FREEZE CANDIDATE READY`.
@@ -35,7 +46,7 @@ Next: `CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source edition
 Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 SOURCE FRESHNESS COMPLETE v1 / FREEZE NEXT**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 CONTENT FROZEN v1 / D3 KICKOFF NEXT**.
 
 ## Structural production contract
 

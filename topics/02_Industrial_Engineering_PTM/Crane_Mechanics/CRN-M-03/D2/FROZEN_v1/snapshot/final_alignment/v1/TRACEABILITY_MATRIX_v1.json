@@ -1,0 +1,401 @@
+{
+  "artifact": "CRN-M-03_D2_FINAL_ALIGNMENT_TRACEABILITY_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "7628f3fb4afe8c0cc562d63d3577c67d0f757fe4",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "counts": {
+    "lesson_primary_sections": 22,
+    "lesson_primary_sections_traced": 22,
+    "practice_cases": 10,
+    "practice_cases_traced": 10,
+    "reasoning_cases": 10,
+    "reasoning_cases_traced": 10,
+    "expected_dimensions": 13,
+    "expected_dimensions_traced": 13,
+    "rubric_dimensions": 13,
+    "rubric_dimensions_traced": 13,
+    "blocking_failures": 10,
+    "blocking_failures_with_prior_origin": 10,
+    "severity_review_families": 1,
+    "severity_review_families_consistent": 1,
+    "orphan_lesson_sections": 0,
+    "orphan_practice_cases": 0,
+    "orphan_reasoning_cases": 0,
+    "orphan_expected_dimensions": 0,
+    "orphan_rubric_dimensions": 0,
+    "surprise_blocking_failures": 0,
+    "severity_review_contradictions": 0,
+    "guard_contradictions": 0,
+    "language_accessibility_gaps": 0
+  },
+  "er_traceability": [
+    {
+      "id": "ER-D2-01",
+      "competence": "System/body boundary and hidden interfaces",
+      "lesson": "§§1,10,19–22",
+      "practice": [
+        "A",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-01; U1+C1",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-02",
+      "competence": "Complete FBD: forces, reactions and moments",
+      "lesson": "§§1–3,19–22",
+      "practice": [
+        "A",
+        "B",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-02; BF-D2-02",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-03",
+      "competence": "Line of action / contact-resultant status",
+      "lesson": "§§2–4,19–22",
+      "practice": [
+        "B",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-03; BF-D2-03",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-04",
+      "competence": "Centre of gravity of selected system",
+      "lesson": "§§5,6,19–22",
+      "practice": [
+        "C",
+        "F",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-04; BF-D2-04",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-05",
+      "competence": "Loaded-state articulation / constraint evidence",
+      "lesson": "§§7,10,19–22",
+      "practice": [
+        "D",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-05; BF-D2-05",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-06",
+      "competence": "Load-share closure-class classification",
+      "lesson": "§§8–10,19–22",
+      "practice": [
+        "E",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-06; U1+C1; BF-D2-06",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-07",
+      "competence": "Mass mechanics separated from equipment-specific capacity logic",
+      "lesson": "§§6,17–19,21,22",
+      "practice": [
+        "F",
+        "I",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-07; BF-D2-07",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-08",
+      "competence": "Holding physics without completeness/rating promotion",
+      "lesson": "§§11–15,17–19,21,22",
+      "practice": [
+        "G",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-08; U1; BF-D2-08",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-09",
+      "competence": "Quasistatic versus transition/dynamic model status",
+      "lesson": "§§16,17,19,21,22",
+      "practice": [
+        "H",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-09; U1; BF-D2-09",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-10",
+      "competence": "Evidence-role and authority separation",
+      "lesson": "§§17–19,21,22",
+      "practice": [
+        "I",
+        "J"
+      ],
+      "verification": "Rubric ER-D2-10; U1+C1; BF-D2-10",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-11",
+      "competence": "Discriminating evidence request",
+      "lesson": "§§18,19,21,22",
+      "practice": "A–J reasoning",
+      "verification": "Rubric ER-D2-11; SR-D2-01",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-12",
+      "competence": "Bounded conclusion / correct STOP",
+      "lesson": "§§17–19,21,22",
+      "practice": "A–J",
+      "verification": "Rubric ER-D2-12; BF policy guard",
+      "status": "PASS"
+    },
+    {
+      "id": "ER-D2-13",
+      "competence": "Unseen transfer and rebuild after challenge",
+      "lesson": "§§19–22",
+      "practice": "A–J primitives only; J pattern only",
+      "verification": "Rubric ER-D2-13; U1+C1 mandatory",
+      "status": "PASS — verification-only closure by design"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "primary": "large FBD / hidden interface",
+      "expected": [
+        "ER-D2-01",
+        "ER-D2-02",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "A",
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "primary": "contact resultant / line of action / moment",
+      "expected": [
+        "ER-D2-02",
+        "ER-D2-03",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "B",
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "primary": "geometric centre versus CG",
+      "expected": [
+        "ER-D2-04",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "C",
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "primary": "loaded articulation/constraint state",
+      "expected": [
+        "ER-D2-05",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "D",
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "primary": "load-share closure class",
+      "expected": [
+        "ER-D2-06",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "E",
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "primary": "attachment mass / capacity separation",
+      "expected": [
+        "ER-D2-04",
+        "ER-D2-07",
+        "ER-D2-10",
+        "ER-D2-12"
+      ],
+      "reasoning": "F",
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "primary": "holding-state causal model / verification boundary",
+      "expected": [
+        "ER-D2-08",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "G",
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "primary": "quasistatic / transition separation",
+      "expected": [
+        "ER-D2-09",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "H",
+      "status": "PASS"
+    },
+    {
+      "case": "I",
+      "primary": "evidence-role / authority separation",
+      "expected": [
+        "ER-D2-07",
+        "ER-D2-10",
+        "ER-D2-11",
+        "ER-D2-12"
+      ],
+      "reasoning": "I",
+      "status": "PASS"
+    },
+    {
+      "case": "J",
+      "primary": "integrated D2 capstone",
+      "expected": "ER-D2-01…12; pattern only for ER-D2-13",
+      "reasoning": "J",
+      "status": "PASS"
+    }
+  ],
+  "blocking_failure_traceability": [
+    {
+      "id": "BF-D2-01",
+      "failure": "BODY / INTERFACE LAUNDERING",
+      "lesson": "§§1,10,19,21 + review guards",
+      "practice": "A,J",
+      "expected": "ER-D2-01/12",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-02",
+      "failure": "FORCE / MOMENT MAP INCOMPLETE",
+      "lesson": "§§1–3,19,21 + Editorial/Red Team",
+      "practice": "A,B,J",
+      "expected": "ER-D2-02",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-03",
+      "failure": "CONTACT RESULTANT INVENTION",
+      "lesson": "§§3,4,19,21 + Editorial/Red Team",
+      "practice": "B,J",
+      "expected": "ER-D2-03",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-04",
+      "failure": "CG SUBSTITUTION",
+      "lesson": "§§5,6,19,21 + Red Team",
+      "practice": "C,J",
+      "expected": "ER-D2-04",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-05",
+      "failure": "CONSTRAINT-STATE PROMOTION",
+      "lesson": "§§7,10,19,21 + Red Team",
+      "practice": "D,J",
+      "expected": "ER-D2-05",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-06",
+      "failure": "LOAD-SHARE BY APPEARANCE",
+      "lesson": "§§8–10,19,21 + Editorial/Red Team",
+      "practice": "E,J",
+      "expected": "ER-D2-06",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-07",
+      "failure": "CAPACITY ARITHMETIC PROMOTION",
+      "lesson": "§§6,17–19,21 + Red Team",
+      "practice": "F,I,J",
+      "expected": "ER-D2-07/10",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-08",
+      "failure": "HOLDING COMPLETENESS CLAIM",
+      "lesson": "§§11–15,17–19,21 + Red Team",
+      "practice": "G,J",
+      "expected": "ER-D2-08/10",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-09",
+      "failure": "QUASISTATIC PROMOTION",
+      "lesson": "§§16,17,19,21 + Red Team",
+      "practice": "H,J",
+      "expected": "ER-D2-09",
+      "status": "PASS"
+    },
+    {
+      "id": "BF-D2-10",
+      "failure": "EVIDENCE-ROLE / AUTHORITY COLLAPSE",
+      "lesson": "§§17–19,21 + authority guards",
+      "practice": "I,J",
+      "expected": "ER-D2-10/12",
+      "status": "PASS"
+    }
+  ],
+  "severity_review": [
+    {
+      "id": "SR-D2-01",
+      "family": "NON-DISCRIMINATING EVIDENCE REQUEST",
+      "reasoning_origin": "RF-D2-11",
+      "expected_handoff": "severity-review candidate",
+      "policy": "not automatic BF if unsupported inference is stopped and no false verdict is made",
+      "status": "PASS"
+    }
+  ],
+  "transfer": {
+    "known_a_j_sufficient_for_er_d2_13": false,
+    "case_j_sufficient_for_er_d2_13": false,
+    "u1_required": true,
+    "c1_required": true,
+    "u1_c1_closure_intentional": true,
+    "c1_rebuild_required": true,
+    "c1_does_not_grant_inspection_safe_use_operation_authority": true
+  },
+  "language": {
+    "learner_facing_primary_language": "ru",
+    "english_terms_explained_or_optional": true,
+    "russian_equivalent_wording_fully_accepted": true,
+    "language_accessibility_gaps": 0
+  },
+  "guards": {
+    "numeric_design_and_proof_locked": true,
+    "standard_load_factors_locked": true,
+    "holding_force_and_device_ratings_locked": true,
+    "inspection_discard_acceptance_locked": true,
+    "load_test_criteria_locked": true,
+    "rigging_plan_authority_locked": true,
+    "repair_ndt_return_to_service_locked": true,
+    "equipment_specific_capacity_locked": true,
+    "equipment_authority_locked": true,
+    "guard_contradictions": 0
+  }
+}
