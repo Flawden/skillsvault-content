@@ -326,3 +326,13 @@ Thirteen observable ER-D2 dimensions now verify body/system-boundary selection, 
 Known Practice/Reasoning A–J is not sufficient for transfer. Verification must add unseen U1 and challenge C1. Ten RF-D2 failure families are handed to the Rubric as strong BF candidates; non-discriminating evidence request remains severity-review candidate. Russian-first learner language and all numeric proof/holding/inspection/equipment-authority locks remain preserved.
 
 Next: `CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation`.
+
+## CRN-M-03 D3 Content Kickoff v1
+
+Status: `COMPLETE / PASS WITH CLAIM LIMITS`.
+
+D3 opens Russian-first causal-diagnostic reasoning above frozen D1/D2 mechanics. The learner must separate observation from inference, construct competing mechanisms, derive falsifiable predictions, rebuild the D2 mechanical model per hypothesis, distinguish present state / transient event / accumulated history and request evidence that actually discriminates models.
+
+Hard locks remain: one symptom cannot become a root cause; formal proof/rating/remaining-life values are not reconstructed; inspection/discard/acceptance and specialist NDT interpretation remain outside learner authority; no field fault-reproduction experiment, adjustment, repair, modification, return-to-service or operation permission is authorized. ISO 17096 grab/grab-bucket exclusions remain explicit. ISO 8686-1:2012, ISO 12482:2014 and ISO/CD 12482 Ed2 are on watchlist for their current review/development status.
+
+Next: `CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff`.

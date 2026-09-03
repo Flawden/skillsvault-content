@@ -1146,3 +1146,13 @@ Status: `COMPLETE`.
 - CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
 
 Next: `CRN-M-03 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics behaviors, transfer evidence, model-status discipline, bounded STOP success conditions and candidate blocking failures for body/FBD, force/moment/CG, articulation/load-share, holding-state, dynamics and source/authority separation`.
+
+## CRN-M-03 D3 Content Kickoff v1
+
+Status: `COMPLETE / PASS WITH CLAIM LIMITS`.
+
+D3 opens Russian-first causal-diagnostic reasoning above frozen D1/D2 mechanics. The learner must separate observation from inference, construct competing mechanisms, derive falsifiable predictions, rebuild the D2 mechanical model per hypothesis, distinguish present state / transient event / accumulated history and request evidence that actually discriminates models.
+
+Hard locks remain: one symptom cannot become a root cause; formal proof/rating/remaining-life values are not reconstructed; inspection/discard/acceptance and specialist NDT interpretation remain outside learner authority; no field fault-reproduction experiment, adjustment, repair, modification, return-to-service or operation permission is authorized. ISO 17096 grab/grab-bucket exclusions remain explicit. ISO 8686-1:2012, ISO 12482:2014 and ISO/CD 12482 Ed2 are on watchlist for their current review/development status.
+
+Next: `CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff`.

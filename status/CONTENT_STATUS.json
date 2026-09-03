@@ -517,9 +517,95 @@
         "bundle_files": 61,
         "source_watchlist_count": 1
       }
+    },
+    "D3": {
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "prerequisites": [
+        {
+          "depth": "D1",
+          "status": "FROZEN",
+          "version": "v1",
+          "tag": "crn-m-03-d1-v1"
+        },
+        {
+          "depth": "D2",
+          "status": "FROZEN",
+          "version": "v1",
+          "tag": "crn-m-03-d2-v1"
+        }
+      ],
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-03",
+        "lesson_authoring_unlocked": true,
+        "source_records": 11,
+        "watchlist_count": 3,
+        "causal_diagnostic_reasoning_unlocked": true,
+        "numeric_design_proof_unlocked": false,
+        "holding_force_rating_unlocked": false,
+        "remaining_life_unlocked": false,
+        "inspection_acceptance_unlocked": false,
+        "specialist_ndt_interpretation_unlocked": false,
+        "equipment_specific_claims_require_oem_or_device_documentation": true
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "PENDING",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "unlocked": {
+        "causal_chain_mapping": true,
+        "competing_hypotheses": true,
+        "falsifiable_predictions": true,
+        "qualitative_sensitivity": true,
+        "state_transient_history_separation": true,
+        "d2_model_rebuild_per_hypothesis": true,
+        "discriminating_evidence_requests": true,
+        "bounded_model_status": true
+      },
+      "locks": {
+        "paid_source_reconstruction": true,
+        "numeric_design_and_proof": true,
+        "standard_load_factors_and_combinations": true,
+        "holding_force_and_device_ratings": true,
+        "remaining_life_and_failure_probability": true,
+        "inspection_discard_acceptance": true,
+        "load_test_criteria": true,
+        "specialist_ndt_interpretation": true,
+        "hazardous_diagnostic_experiments": true,
+        "repair_adjustment_redesign_modification": true,
+        "equipment_specific_capacity_and_compatibility": true,
+        "return_to_service_or_operational_permission": true
+      },
+      "language": {
+        "learner_facing": "RUSSIAN_FIRST",
+        "english_labels": "EXPLAINED_OR_OPTIONAL",
+        "russian_equivalents": "FULLY_ACCEPTED"
+      },
+      "baseline_commit": "ccfdfa4ea5e64a8adeee1849bf1ad48c86221807",
+      "structural_contract_source": "crn-m-02-v1",
+      "freeze": "PENDING"
     }
   },
-  "next": "CRN-M-03 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for hook suspensions and load-gripping devices while preserving D1/D2 frozen mechanics/source/authority boundaries",
+  "next": "CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -538,9 +624,9 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/KICKOFF_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/kickoff/v1/D2_SCOPE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/KICKOFF_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/kickoff/v1/D3_SCOPE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/kickoff/v1/SOURCE_GATE_v1.md",
     "Continue from status.next"
   ],
   "recommended_start_files": [
@@ -548,8 +634,9 @@
     "ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/README.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/FROZEN_v1/FREEZE_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/KICKOFF_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/FROZEN_v1/FREEZE_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/KICKOFF_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/kickoff/v1/SOURCE_GATE_v1.md",
     "Continue from status.next"
   ]
 }
