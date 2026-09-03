@@ -1,5 +1,22 @@
 # SkillsVault Content — ROADMAP
 
+## CRN-M-03 D2 Final Alignment v1
+
+Final Alignment is complete with `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- Lesson primary sections: 22/22 traced;
+- Practice / Reasoning: 10/10 + 10/10 traced;
+- Expected Result / Rubric: ER-D2-01…13 all traced;
+- Blocking Failures: 10/10 have prior instructional/review/practice/reasoning origin;
+- SR-D2-01 remains severity-review and is not silently promoted;
+- known A–J and Case J remain insufficient for ER-D2-13; U1 + C1 are mandatory;
+- no orphan competency, surprise BF, guard contradiction or language accessibility gap;
+- learner-facing Russian-first policy preserved;
+- numeric proof, device ratings, inspection/acceptance, rigging-plan and equipment-operation authority remain locked;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 D1 frozen prerequisites and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze`.
+
 ## Текущая точка
 
 ```text

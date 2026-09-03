@@ -86,8 +86,8 @@
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
-  "final_alignment": "NEXT",
-  "source_freshness": "PENDING",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+  "next": "CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze"
 }

@@ -284,8 +284,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "PENDING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "PENDING"
       },
       "locks": {
@@ -462,10 +462,31 @@
         "stop_or_model_not_closed_can_be_success": true,
         "language_russian_first": true,
         "equipment_authority_guard_preserved": true
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "baseline_commit": "7628f3fb4afe8c0cc562d63d3577c67d0f757fe4",
+        "lesson_sections_traced": 22,
+        "practice_cases_traced": 10,
+        "reasoning_cases_traced": 10,
+        "expected_dimensions_traced": 13,
+        "rubric_dimensions_traced": 13,
+        "blocking_failures_with_prior_origin": 10,
+        "severity_review_families_consistent": 1,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "language_russian_first": true,
+        "language_accessibility_gaps": 0,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/CRN-M-03_D2_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
+  "next": "CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

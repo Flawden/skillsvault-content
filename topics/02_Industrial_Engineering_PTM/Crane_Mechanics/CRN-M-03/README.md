@@ -1,3 +1,14 @@
+## D2 Final Alignment v1 — COMPLETE
+
+- `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`;
+- Lesson 22/22, Practice 10/10, Reasoning 10/10, Expected Result 13/13 and Rubric 13/13 traced;
+- BF-D2-01…10 all have prior origin; SR-D2-01 remains severity-review;
+- known A–J / J do not close ER-D2-13; U1 + C1 remain mandatory;
+- no orphan competencies, surprise BF, guard contradictions or language gaps;
+- Russian-first and all proof/holding/inspection/equipment-authority locks preserved.
+
+Next: `CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status, watchlist records and D2 applied-mechanics/source-role/authority boundaries before D2 freeze`.
+
 # CRN-M-03 — Крюковые подвески и захваты
 
 ## D2 Verification Rubric v1 — COMPLETE
@@ -14,7 +25,7 @@
 Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 EXPECTED RESULT COMPLETE v1**.
+Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 FINAL ALIGNMENT COMPLETE v1 / SOURCE FRESHNESS NEXT**.
 
 ## Structural production contract
 
@@ -25,7 +36,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current D2
 
-`D2 — EXPECTED RESULT COMPLETE v1`.
+`D2 — FINAL ALIGNMENT COMPLETE v1 / SOURCE FRESHNESS NEXT`.
 
 D2 переводит D1 mental model в applied mechanics:
 
