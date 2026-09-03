@@ -283,8 +283,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT",
-        "final_alignment": "PENDING",
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
       },
@@ -441,10 +441,31 @@
         "bounded_stop_can_be_success": true,
         "russian_first_language": true,
         "equipment_authority_guard_preserved": true
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "dimensions": 13,
+        "levels": 5,
+        "max_score": 52,
+        "blocking_failures": 10,
+        "severity_review_candidates": 1,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/verification_rubric/v1/CRN-M-03_D2_VERIFICATION_RUBRIC_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D2/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+        "known_case_required": true,
+        "unseen_u1_required": true,
+        "challenge_c1_required": true,
+        "all_dimensions_minimum_3": true,
+        "verified_score_min": 39,
+        "robust_score_min": 47,
+        "stop_or_model_not_closed_can_be_success": true,
+        "language_russian_first": true,
+        "equipment_authority_guard_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation",
+  "next": "CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"

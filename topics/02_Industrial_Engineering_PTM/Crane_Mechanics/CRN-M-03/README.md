@@ -1,5 +1,19 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
+## D2 Verification Rubric v1 — COMPLETE
+
+- 13 dimensions × 0–4 = 52; every ER-D2-01…13 must be >=3 for `D2 VERIFIED`;
+- verified threshold 39/52; robust/transfer threshold 47/52 with ER-D2-06/10/11/12/13 =4;
+- BF-D2-01…10 are non-compensable when the error is used as a closed/numeric/equipment claim; self-corrected draft mistakes remain scoring errors;
+- SR-D2-01 non-discriminating evidence request is severity-review, not automatic BF;
+- known A–J is insufficient; unseen U1 + evidence-status challenge C1 are mandatory;
+- correct `MODEL NOT CLOSED / STOP` can be successful when the unresolved fork and discriminating evidence are explicit;
+- learner-facing language remains Russian-first; Russian equivalents are fully accepted;
+- numeric proof/load-factor/WLL/holding-rating/inspection/load-test/repair/NDT/equipment-authority locks remain closed.
+
+Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
+
+
 Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 EXPECTED RESULT COMPLETE v1**.
 
 ## Structural production contract

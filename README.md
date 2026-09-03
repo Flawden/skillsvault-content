@@ -43,7 +43,8 @@
 - D2 Practice — COMPLETE v1
 - D2 Practice Reasoning — COMPLETE v1
 - D2 Expected Result — COMPLETE v1
-- D2 Verification Rubric — NEXT
+- D2 Verification Rubric — COMPLETE v1
+- D2 Final Alignment — NEXT
 
 CRN-M-01 and CRN-M-02 are structural production contracts. Their technical conclusions, numeric criteria, source boundaries and method applicability are not inherited automatically by CRN-M-03.
 

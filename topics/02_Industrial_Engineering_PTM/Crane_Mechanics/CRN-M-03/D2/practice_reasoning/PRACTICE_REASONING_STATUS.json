@@ -58,7 +58,8 @@
     "crn_m03_d1_frozen_immutable": true,
     "frozen_index_unchanged": true
   },
-  "next": "CRN-M-03 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics behaviors, decide non-compensable blocking failures, require unseen transfer plus evidence-status challenge and preserve model-status / source / equipment-authority separation",
+  "next": "CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }

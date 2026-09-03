@@ -9,8 +9,24 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 EXPECTED RESULT COMPLETE
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FROZEN v1 / D2 VERIFICATION RUBRIC COMPLETE
 ```
+
+## CRN-M-03 D2 Verification Rubric v1
+
+Status: `COMPLETE`.
+
+- 13 ER-D2 dimensions use a 0–4 scale; max 52; every dimension must reach >=3 for `D2 VERIFIED`;
+- `D2 VERIFIED` requires >=39/52, no BF, known case + unseen U1 + C1 + complete evidence package;
+- `D2 ROBUST / TRANSFER` requires >=47/52 plus ER-D2-06/10/11/12/13 =4;
+- RF-D2-01…10 become 10 non-compensable BF with a downstream-use trigger, so self-corrected draft mistakes are not automatic BF;
+- RF-D2-11 becomes one severity-review family for non-discriminating evidence requests;
+- U1 combines unknown CG, uncertain branch engagement, loaded articulation, holding-state and transition-dynamics uncertainty;
+- C1 changes exact configuration evidence while preserving inspection/safe-use/equipment-authority locks;
+- correct `MODEL NOT CLOSED / STOP` can be a strong passing outcome;
+- learner-facing language remains Russian-first; Russian equivalents are fully accepted.
+
+Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 ## CRN-M-03 D2 Expected Result v1
 
