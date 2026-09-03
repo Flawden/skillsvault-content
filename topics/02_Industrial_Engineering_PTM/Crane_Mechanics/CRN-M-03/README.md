@@ -1,6 +1,6 @@
 # CRN-M-03 — Крюковые подвески и захваты
 
-Status: **ACTIVE — D1 VERIFICATION RUBRIC COMPLETE v1**.
+Status: **ACTIVE — D1 FINAL ALIGNMENT COMPLETE v1**.
 
 ## Structural production contract
 
@@ -10,7 +10,7 @@ CRN-M-01 and CRN-M-02 technical conclusions, numeric criteria and source applica
 
 ## Current depth
 
-`D1 — ACTIVE / VERIFICATION RUBRIC COMPLETE v1`.
+`D1 — ACTIVE / FINAL ALIGNMENT COMPLETE v1`.
 
 Lesson v1 establishes one beginner workflow:
 
@@ -115,4 +115,20 @@ Status: `COMPLETE`.
 
 Ten ER-D1 dimensions are scored 0–4. `D1 VERIFIED` requires every dimension >=3, total >=30/40, no Blocking Failure, a known case, unseen U1, challenge C1 and the complete evidence package. Eight dangerous evidence-status promotions are non-compensable BF. Serial-path assumption and holding-principle collapse remain severity-review errors unless they create one of the explicit dangerous claims. Correct bounded `STOP / REQUEST EVIDENCE` remains a successful D1 result. Learner-facing wording is Russian-first; English labels are explained or optional.
 
-Next: `CRN-M-03 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
+Next: `CRN-M-03 / D1 FINAL ALIGNMENT / v1` — completed; see Final Alignment section below.
+
+## Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- Lesson primary sections: 17/17 traced;
+- Practice / Reasoning: 10/10 + 10/10;
+- Expected Result / Rubric: 10/10 + 10/10;
+- non-compensable BF with prior origin: 8/8;
+- severity-review families remain exactly 2/2 and are not silently promoted to BF;
+- known A–J and Case J remain insufficient for unseen transfer; U1 + C1 are mandatory;
+- learner-facing language remains Russian-first; English terms are explained or optional and Russian equivalents are fully accepted;
+- orphan content / surprise BF / guard contradictions / language-accessibility gaps: 0 / 0 / 0 / 0;
+- content corrections required: NO; Source Freshness: READY.
+
+Next: `CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze`.

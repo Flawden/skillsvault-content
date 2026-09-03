@@ -39,8 +39,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT",
-        "source_freshness": "PENDING",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT",
         "freeze": "PENDING"
       },
       "locks": {
@@ -193,10 +193,31 @@
         "stop_or_evidence_request_can_be_success": true,
         "language_russian_first": true,
         "equipment_authority_guard_preserved": true
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "baseline_commit": "a23c41664497feaf84af7ceb697bb7374521056a",
+        "lesson_sections_traced": 17,
+        "practice_cases_traced": 10,
+        "reasoning_cases_traced": 10,
+        "expected_dimensions_traced": 10,
+        "rubric_dimensions_traced": 10,
+        "blocking_failures_with_prior_origin": 8,
+        "severity_review_families_consistent": 2,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "language_russian_first": true,
+        "language_accessibility_gaps": 0,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/CRN-M-03_D1_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
+  "next": "CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -229,8 +250,8 @@
   "recommended_start_files": [
     "status/CONTENT_STATUS.json",
     "ROADMAP.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/verification_rubric/VERIFICATION_RUBRIC_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/verification_rubric/v1/CRN-M-03_D1_VERIFICATION_RUBRIC_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/FINAL_ALIGNMENT_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D1/final_alignment/v1/CRN-M-03_D1_FINAL_ALIGNMENT_v1.md",
     "Continue from status.next"
   ]
 }

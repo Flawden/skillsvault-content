@@ -9,7 +9,7 @@ CRN-M-01 — Канаты и цепи ✅ FULL TOPIC FROZEN v1
 CRN-M-02 — Барабаны, блоки, полиспасты ✅ FULL TOPIC FROZEN v1
 └─ tag: crn-m-02-v1
 
-CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 VERIFICATION RUBRIC COMPLETE v1
+CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1 FINAL ALIGNMENT COMPLETE v1
 ```
 
 
@@ -22,6 +22,25 @@ CRN-M-03 — Крюковые подвески и захваты ← ACTIVE / D1
 
 
 
+
+
+## CRN-M-03 D1 Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+
+- 17/17 primary Lesson sections traced;
+- Practice A–J 10/10 and Reasoning A–J 10/10 aligned;
+- ER-D1-01…10 and Rubric dimensions 10/10 aligned;
+- 8/8 non-compensable BF have prior Lesson/review/practice/reasoning origin;
+- SR-D1-01/02 remain severity-review families and are not hidden BF;
+- Known A–J and J remain insufficient for ER-D1-10; U1 + C1 mandatory;
+- C1 exact `grab` identification must update ISO 17096 applicability because grabs/grab buckets are excluded from its public scope;
+- Russian-first learner-facing language preserved; English labels are explained or optional;
+- orphan competence / surprise BF / guard contradiction / language gap = 0 / 0 / 0 / 0;
+- content corrections required: NO; Source Freshness: READY;
+- CRN-M-01 / CRN-M-02 frozen topics and `FROZEN_INDEX` remain immutable.
+
+Next: `CRN-M-03 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, explicit scope/exclusion records and D1 load-path/holding/source/acceptance/authority boundaries before D1 freeze`.
 
 ## CRN-M-03 D1 Verification Rubric v1
 
