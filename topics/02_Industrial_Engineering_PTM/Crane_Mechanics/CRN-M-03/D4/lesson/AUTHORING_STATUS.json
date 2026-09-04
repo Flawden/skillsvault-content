@@ -195,11 +195,19 @@
     "operation_return_to_service_locked": true
   },
   "technical_editorial": {
-    "status": "NEXT",
-    "pass": "I"
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "5be0db99d51d56adf35ef32f36e1280bc59a87b0",
+    "findings": 9,
+    "corrections_applied": 9,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/CRN-M-03_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json"
   },
   "red_team": {
-    "status": "PENDING"
+    "status": "NEXT",
+    "pass": "I"
   },
   "reader_experience": {
     "status": "PENDING"
@@ -219,5 +227,5 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review"
+  "next": "CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review"
 }

@@ -68,7 +68,7 @@ Monitoring/log data влияет на load/history scenarios только в п�
 После блока инженер должен уметь применить `Remaining-life boundary and watchlist discipline` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-ISO 12482:2014 остаётся published-to-be-revised; draft Edition 2 — watch only. D4 может объяснять role/history inputs, но numeric remaining-life/life-extension verdict остаётся locked без complete governing method/data/authority.
+ISO 12482:2014 остаётся published-to-be-revised; draft Edition 2 — watch only. Этот source относится к monitoring/design-working-period context и не становится автоматически component-specific remaining-life method для hook body, suspension member или grab. Exact applicable method должен владеть component scope и required-input list. D4 может объяснять role/history inputs, но numeric remaining-life/life-extension verdict остаётся locked без complete governing method/data/authority.
 
 ## Working sequence
 1. Published vs draft.

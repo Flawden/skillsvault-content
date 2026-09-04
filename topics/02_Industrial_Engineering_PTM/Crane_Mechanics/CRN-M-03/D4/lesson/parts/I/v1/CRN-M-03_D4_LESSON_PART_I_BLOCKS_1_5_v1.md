@@ -48,14 +48,14 @@ Requirement говорит, что требуется; model объясняет/
 После блока инженер должен уметь применить `Source applicability as an explicit claim` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Применимость источника — отдельное доказуемое утверждение: объект, компонент, edition/status, scope, исключения и тип вопроса должны совпасть. Близкий по названию стандарт не становится применимым автоматически.
+Применимость источника — отдельное доказуемое утверждение: объект, компонент, edition/status, scope, исключения и тип вопроса должны совпасть. Публичное metadata/abstract может подтвердить идентичность, edition/status и предварительный scope screen, но само по себе не закрывает final applicability к конкретной configuration/method. Близкий по названию стандарт не становится применимым автоматически.
 
 ## Working sequence
 1. COMPONENT = ?
 2. QUESTION = ?
-3. SOURCE SCOPE = ?
-4. EXCLUSIONS = ?
-5. APPLICABLE = YES / NO / NOT YET DEMONSTRATED.
+3. SOURCE ID / EDITION / STATUS = ?
+4. PRELIMINARY SCOPE SCREEN = MATCH / NO MATCH / UNKNOWN.
+5. FINAL APPLICABILITY = CONFIRMED only from legitimately available governing material plus actual configuration/method conditions; otherwise NOT YET DEMONSTRATED.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

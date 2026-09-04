@@ -1325,3 +1325,18 @@ Status: `AUTHORING COMPLETE`.
 - source-bound numeric proof, remaining-life, inspection/NDT/repair and operation authority remain locked;
 - D1/D2/D3 frozen packages and FROZEN_INDEX remain immutable.
 Next: `CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review`.
+
+## CRN-M-03 D4 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 9/9 Parts and 45/45 Blocks audited;
+- 9 editorial findings fixed; text corrections in Parts I, III, IV, V, VI, VII, VIII and IX;
+- public metadata is preliminary scope evidence, not final method applicability;
+- ISO 17440 direct coverage, conditional shank extension and plate-hook exclusion are separated;
+- component mapping is necessary but not sufficient for a formal proof method;
+- cross-check, real-system validation and authoritative input/requirement roles are separated;
+- quantitative sensitivity requires defensible range provenance;
+- ISO 12482 monitoring context is not promoted into component remaining-life authority;
+- equipment handoff uses the actual authorized organization/jurisdiction role, not a universal role list;
+- D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
+Next: `CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review`.

@@ -91,11 +91,11 @@
 После блока инженер должен уметь применить `Authority handoff and complete D4 review record` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Финальный handoff передаёт не только number, но complete trace: source/version, scope map, model revision, inputs, checks, validation, sensitivity, conflicts and explicit authority requested from designer/OEM/expert/NDT/inspection/operations.
+Финальный handoff передаёт не только number, но complete trace: source/version, scope map, model revision, inputs, checks, validation, sensitivity, conflicts и explicit authority requested from the actual authorized role/process for this organization, equipment, jurisdiction and decision. Designer/OEM/expert/NDT/inspection/operations — возможные примеры, а не универсальная hierarchy. D4 method-review record также не следует путать со стадией SkillsVault `Technical Editorial`.
 
 ## Working sequence
 1. Package evidence.
-2. Name receiving authority.
+2. Name the actually authorized receiving role/process and its basis.
 3. No silent promotion from analysis to approval.
 
 ## Guard

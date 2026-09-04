@@ -67,12 +67,12 @@ Frozen D2 equilibrium, moments, load paths and branch reactions остаются
 После блока инженер должен уметь применить `When higher fidelity is justified` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Elastostatic/contact/FEA model оправдан, когда rigid-body/member idealization не отвечает на локальный output или нарушает ключевую assumption. Fidelity выбирается по question, а не по престижу ПО.
+Elastostatic/contact/FEA model оправдан, когда rigid-body/member idealization не отвечает на локальный output или нарушает ключевую assumption. Fidelity выбирается по question, а не по престижу ПО. Повышение fidelity не является повышением validation status.
 
 ## Working sequence
 1. Назови missing physics.
 2. Покажи expected effect on output.
-3. Определи validation evidence до запуска solver.
+3. До того как solver-result станет decision evidence, определи intended-use domain и validation plan / target evidence. Exploratory runs допустимы раньше, но не получают status VALIDATED только из-за выполнения или convergence.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

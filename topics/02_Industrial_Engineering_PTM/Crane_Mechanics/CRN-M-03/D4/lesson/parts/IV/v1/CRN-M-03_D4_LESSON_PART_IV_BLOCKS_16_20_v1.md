@@ -10,7 +10,7 @@
 После блока инженер должен уметь применить `Forged hook body vs shank scope mapping` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-ISO 17440 относится к определённому forged-hook scope. Перед использованием нужно показать, что рассматриваемая геометрия/компонент действительно попадают в этот scope; hook body и machined shank нельзя бездумно смешивать с plate hook или иным attachment.
+ISO 17440 имеет определённый forged-hook scope: публичное описание прямо охватывает bodies point hooks из steel forgings и machined shanks с thread/nut suspension; для некоторых иных shank-hook constructions принципы могут применяться только при выполнении указанных самим методом условий. Plate hooks публично исключены. Поэтому нужно различать direct coverage, conditional extension и exclusion, а не сводить всё к одному category match.
 
 ## Working sequence
 1. Идентифицируй hook construction.
@@ -43,18 +43,19 @@ Proof-of-competence hook method и load/load-combination framework выполн�
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 17, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
 
-# Block 18 — Plate-hook and non-covered geometry stop rule
+# Block 18 — Direct coverage / conditional extension / plate-hook stop rule
 
 ## Capability target
-После блока инженер должен уметь применить `Plate-hook and non-covered geometry stop rule` как наблюдаемую D4-процедуру, а не как лозунг.
+После блока инженер должен уметь применить `Direct coverage / conditional extension / plate-hook stop rule` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Если geometry/component явно не покрыты forged-hook scope, корректный D4 outcome — method not applicable + поиск exact applicable source/designer basis. Нельзя «примерно применить» ближайший method.
+Отсутствие direct coverage не всегда означает один и тот же исход. Для ISO 17440 различай: DIRECTLY COVERED; CONDITIONAL EXTENSION, если exact method действительно допускает её и выполнены его conditions; EXCLUDED / NOT COVERED. Plate hooks относятся к публично исключённой категории. Нельзя превращать общую фразу о применимости principles к другим shank hooks в автоматическое разрешение на source-bound proof.
 
 ## Working sequence
-1. Проверь construction type.
-2. Запиши exclusion/gap.
-3. STOP before numeric criterion.
+1. Классифицируй construction: direct scope / other shank / plate-or-other excluded class.
+2. Для other shank проверь exact governing conditions и required stress-concentration treatment из legitimately available method.
+3. Для plate hook зафиксируй ISO 17440 NOT COVERED.
+4. До final applicability не вводи source-bound numeric criterion.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

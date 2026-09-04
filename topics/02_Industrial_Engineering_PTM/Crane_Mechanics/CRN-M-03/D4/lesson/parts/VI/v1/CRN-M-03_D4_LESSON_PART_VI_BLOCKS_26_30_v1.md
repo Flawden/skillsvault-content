@@ -68,13 +68,13 @@ Independent check должен отличаться достаточно, что
 После блока инженер должен уметь применить `Validation evidence and common-mode error` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Два numerical models могут совпасть из-за общего неверного input/boundary. Validation требует evidence, которое не является просто вторым проходом той же assumption chain.
+Два numerical models могут совпасть из-за общего неверного input/boundary. Их согласие — verification/cross-check evidence, но не автоматическая validation. Validation должна связывать model с real system и intended-use domain. OEM/document reference может быть authoritative input/requirement; он становится validation evidence только если реально предоставляет независимое evidence поведения системы для нужного domain.
 
 ## Working sequence
-1. Common inputs?
-2. Common geometry?
-3. Independent measurement/test/OEM reference?
-4. Coverage limitations?
+1. VERIFICATION / CROSS-CHECK: независима ли реализация/формулировка?
+2. VALIDATION: есть ли independent real-system evidence для intended-use domain?
+3. AUTHORITATIVE INPUT / REQUIREMENT: не выдан ли он ошибочно за validation?
+4. Common inputs / geometry / assumptions and coverage limitations?
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
@@ -94,7 +94,7 @@ Mesh convergence показывает numerical stability относительн
 1. Mesh study.
 2. Boundary sensitivity.
 3. Contact/model-form sensitivity.
-4. External validation lane.
+4. Validation plan / real-system evidence lane, если она требуется для intended use.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

@@ -30,7 +30,7 @@
 После блока инженер должен уметь применить `Traverse and member idealization` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Traverse/crosshead/links требуют отдельного member idealization с собственными supports, load introduction и possible bending/shear/axial interactions. Generic steel-structure method применим только после component/scope mapping.
+Traverse/crosshead/links требуют отдельного member idealization с собственными supports, load introduction и possible bending/shear/axial interactions. Component/scope mapping — необходимое, но не достаточное условие formal steel-structure method: отдельно должны совпасть governing scope, load basis, material/model assumptions, limit-state/output и method-specific conditions.
 
 ## Working sequence
 1. Member boundary.

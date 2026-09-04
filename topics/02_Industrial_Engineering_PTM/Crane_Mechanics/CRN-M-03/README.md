@@ -429,4 +429,27 @@ Status: `ACTIVE / KICKOFF COMPLETE`.
 - exact grab numeric proof/holding/acceptance method: source/OEM/designer required;
 - source-bound proof and equipment authority remain locked.
 
-Next: `CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff`.
+Lesson Authoring completed at `5be0db99d51d56adf35ef32f36e1280bc59a87b0`; see D4 Lesson Authoring section below.
+
+## D4 — Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+- 9/9 Parts; 45/45 Blocks;
+- method governance, boundary-value problem, model fidelity, forged-hook applicability, component hierarchy,
+  V&V, sensitivity/error, monitoring/life boundaries and bounded handoff are covered;
+- ISO 17096 grab/grab-bucket authority transfer remains forbidden;
+- D1/D2/D3 remain immutable.
+
+## D4 — Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 9 findings fixed;
+- public metadata is not final applicability;
+- ISO 17440 direct/conditional/excluded scope states are separated;
+- model agreement is not real-system validation;
+- OEM authority is not automatic validation evidence;
+- unsourced sensitivity ranges are forbidden;
+- monitoring context is not component remaining-life proof;
+- authority handoff is organization/equipment/jurisdiction specific.
+
+Next: `CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review`.

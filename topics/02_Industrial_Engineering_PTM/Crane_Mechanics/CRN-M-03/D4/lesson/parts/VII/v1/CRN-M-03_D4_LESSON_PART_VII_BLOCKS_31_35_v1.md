@@ -14,7 +14,7 @@
 
 ## Working sequence
 1. Rank inputs.
-2. Perturb plausible range.
+2. Perturb only a defensible range with source / measurement / tolerance / scenario provenance; if no range is defensible, keep sensitivity qualitative and report the range as UNKNOWN.
 3. Track status changes, not only percentage changes.
 
 ## Guard
@@ -88,7 +88,7 @@ Wrong drawing revision, nominal-vs-actual geometry, wrong articulation/contact s
 После блока инженер должен уметь применить `Robustness and decision sensitivity` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Результат robust, если bounded conclusion сохраняется по plausible input/model/source scenarios. Если небольшой admissible change переворачивает status, честный outcome — decision not robust.
+Результат robust, если bounded conclusion сохраняется по defensible input/model/source scenarios with stated provenance. Если небольшой admissible change переворачивает status, честный outcome — decision not robust. Unsourced scenario width cannot be used to manufacture robustness.
 
 ## Working sequence
 1. Scenario envelope.

@@ -1,0 +1,103 @@
+{
+  "artifact": "CRN-M-03_D4_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-04",
+  "baseline_commit": "5be0db99d51d56adf35ef32f36e1280bc59a87b0",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "parts": 9,
+    "blocks": 45,
+    "parts_with_text_corrections": [
+      "I",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX"
+    ],
+    "parts_without_text_corrections": [
+      "II"
+    ]
+  },
+  "findings": [
+    {
+      "id": "TE-M03-D4-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "part": "I",
+      "topic": "public metadata vs final applicability"
+    },
+    {
+      "id": "TE-M03-D4-02",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "III",
+      "topic": "validation plan vs pre-existing validation evidence"
+    },
+    {
+      "id": "TE-M03-D4-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "part": "IV",
+      "topic": "ISO 17440 direct scope vs conditional shank extension vs plate-hook exclusion"
+    },
+    {
+      "id": "TE-M03-D4-04",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "V",
+      "topic": "component mapping necessary but not sufficient"
+    },
+    {
+      "id": "TE-M03-D4-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "part": "VI",
+      "topic": "cross-check/validation/authoritative-input evidence roles"
+    },
+    {
+      "id": "TE-M03-D4-06",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "VII",
+      "topic": "sensitivity range provenance"
+    },
+    {
+      "id": "TE-M03-D4-07",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "part": "VIII",
+      "topic": "ISO 12482 context vs component remaining-life method"
+    },
+    {
+      "id": "TE-M03-D4-08",
+      "severity": "LOW",
+      "status": "FIXED",
+      "part": "IX",
+      "topic": "organization-specific authority handoff and review terminology"
+    },
+    {
+      "id": "TE-M03-D4-09",
+      "severity": "LOW",
+      "status": "FIXED",
+      "part": "CANONICAL",
+      "topic": "stale README workflow next"
+    }
+  ],
+  "guards": {
+    "frozen_d1_d2_d3_modified": false,
+    "frozen_index_modified": false,
+    "d4_kickoff_source_gate_modified": false,
+    "new_normative_thresholds": false,
+    "closed_tables_reconstructed": false,
+    "actual_hook_proof_unlocked": false,
+    "actual_grab_proof_holding_capacity_unlocked": false,
+    "remaining_life_verdict_unlocked": false,
+    "inspection_acceptance_unlocked": false,
+    "equipment_authority_unlocked": false,
+    "red_team_completed": false,
+    "reader_experience_completed": false
+  },
+  "next": "CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review"
+}
