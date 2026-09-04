@@ -1,0 +1,80 @@
+{
+  "artifact": "CRN-M-03_D4_FINAL_ALIGNMENT_v1",
+  "date": "2026-09-04",
+  "baseline_commit": "b32f75e0a0e666e502a93f8c0d1d49122d2b69b3",
+  "status": "PASS",
+  "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+  "traceability": {
+    "lesson_parts": {
+      "expected": 9,
+      "actual": 9,
+      "pass": true
+    },
+    "lesson_blocks": {
+      "expected": 45,
+      "actual": 45,
+      "pass": true
+    },
+    "practice_cases": {
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    "practice_reasoning_cases": {
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    "expected_result_dimensions": {
+      "expected": 14,
+      "actual": 14,
+      "pass": true
+    },
+    "verification_rubric_dimensions": {
+      "expected": 14,
+      "actual": 14,
+      "pass": true
+    },
+    "blocking_failures": {
+      "expected": 14,
+      "actual": 14,
+      "pass": true
+    }
+  },
+  "orphans": {
+    "lesson_blocks": 0,
+    "practice_cases": 0,
+    "practice_reasoning_cases": 0,
+    "expected_dimensions": 0,
+    "rubric_dimensions": 0,
+    "surprise_blocking_failures": 0
+  },
+  "guard_contradictions": 0,
+  "review_lineage": {
+    "technical_editorial": "PASS",
+    "red_team": "PASS",
+    "reader_experience": "PASS"
+  },
+  "transfer": {
+    "known_j_not_sufficient": true,
+    "u1_required": true,
+    "c1_required": true,
+    "gap_closed": true
+  },
+  "source_scope_guards": {
+    "iso17440_direct_conditional_excluded_consistent": true,
+    "iso17440_conditional_extension_not_automatic": true,
+    "iso17096_c_hook_not_crane_hook_proof": true,
+    "iso17096_grab_exclusion_preserved": true,
+    "negative_evidence_observability_preserved": true,
+    "remaining_life_separate_pathway": true,
+    "analysis_stop_not_operation_permission": true,
+    "technical_recommendation_not_authorized_decision": true
+  },
+  "content_corrections_required": false,
+  "source_freshness_ready": true,
+  "immutable_prior_layers": true,
+  "tag_created": false,
+  "freeze_performed": false,
+  "next": "CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract"
+}

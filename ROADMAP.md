@@ -1424,3 +1424,19 @@ Status: `COMPLETE`.
 - ISO 17440 conditional-extension and ISO 17096 scope-laundering are explicit blockers;
 - no prior D4 content layer is modified.
 Next: `CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness`.
+
+## CRN-M-03 D4 Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+- Lesson: 9/9 Parts, 45/45 Blocks traced;
+- Practice / Practice Reasoning: 10/10 + 10/10 traced;
+- Expected Result / Rubric: 14/14 + 14/14 traced;
+- BF provenance: 14/14 non-compensable semantics traced upstream;
+- U1 + C1 transfer/update closure: PASS;
+- Technical Editorial / Red Team / Reader Experience lineage: PASS;
+- ISO 17440 and ISO 17096 source-scope consistency: PASS;
+- orphan competencies: 0;
+- surprise BF: 0;
+- guard contradictions: 0;
+- content corrections required: NO.
+Next: `CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract`.

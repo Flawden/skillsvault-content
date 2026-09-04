@@ -525,3 +525,17 @@ Status: `COMPLETE`.
 - U1 and C1 mandatory.
 
 Next: `CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness`.
+
+## D4 — Final Alignment v1
+
+Decision: `PASS`.
+- 45/45 Lesson Blocks;
+- 10/10 Practice + 10/10 Reasoning cases;
+- 14/14 Expected + 14/14 Rubric dimensions;
+- 14/14 BF provenance;
+- U1/C1 closed;
+- orphans 0;
+- contradictions 0;
+- Source Freshness is next.
+
+Next: `CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract`.

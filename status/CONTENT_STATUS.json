@@ -843,7 +843,7 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "PENDING",
+        "final_alignment": "COMPLETE",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
       },
@@ -1032,10 +1032,32 @@
         "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/verification_rubric/v1/VERIFICATION_RUBRIC_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
         "final_alignment": "NEXT"
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS",
+        "baseline_commit": "b32f75e0a0e666e502a93f8c0d1d49122d2b69b3",
+        "lesson_parts": 9,
+        "lesson_blocks": 45,
+        "practice_cases": 10,
+        "practice_reasoning_cases": 10,
+        "expected_dimensions": 14,
+        "rubric_dimensions": 14,
+        "blocking_failures": 14,
+        "orphans": 0,
+        "guard_contradictions": 0,
+        "content_corrections_required": false,
+        "u1_c1_transfer_closed": true,
+        "review_lineage_pass": true,
+        "source_scope_consistency_pass": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/final_alignment/v1/CRN-M-03_D4_FINAL_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "source_freshness": "NEXT"
       }
     }
   },
-  "next": "CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness",
+  "next": "CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1226,7 +1248,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT"
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       }
     }
   },
@@ -1428,5 +1451,21 @@
     "c1_required": true,
     "final_alignment": "NEXT",
     "next": "CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness"
+  },
+  "crn_m03_d4_final_alignment": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "decision": "PASS",
+    "baseline_commit": "b32f75e0a0e666e502a93f8c0d1d49122d2b69b3",
+    "lesson_blocks": 45,
+    "practice_cases": 10,
+    "reasoning_cases": 10,
+    "expected_dimensions": 14,
+    "rubric_dimensions": 14,
+    "blocking_failures": 14,
+    "orphans": 0,
+    "contradictions": 0,
+    "source_freshness": "NEXT",
+    "next": "CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract"
   }
 }
