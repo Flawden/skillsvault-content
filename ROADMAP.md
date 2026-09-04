@@ -1340,3 +1340,20 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - equipment handoff uses the actual authorized organization/jurisdiction role, not a universal role list;
 - D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
 Next: `CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review`.
+
+## CRN-M-03 D4 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 9/9 Parts and 45/45 Blocks attacked adversarially;
+- 10/10 Red-Team findings fixed;
+- applicability unknown/not-yet-demonstrated cannot become formal-proof permission;
+- observed/as-found configuration is separated from approved/design-conforming configuration;
+- model adequacy cannot delete governing source-required load/proof cases;
+- ISO 17440 conditional extension cannot become automatic shank-hook applicability;
+- ISO 17096 C-hook coverage is not crane hook-suspension proof and ISO 17096 is not grab/grab-bucket authority;
+- two-model agreement does not exclude common-mode error or prove real-system validation;
+- robustness is bounded to the sourced/tested envelope and its coverage;
+- negative inspection/monitoring evidence requires observability coverage;
+- analysis STOP is not operation permission;
+- technical recommendation/source-gap handoff is not an authorized equipment decision.
+Next: `CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice`.

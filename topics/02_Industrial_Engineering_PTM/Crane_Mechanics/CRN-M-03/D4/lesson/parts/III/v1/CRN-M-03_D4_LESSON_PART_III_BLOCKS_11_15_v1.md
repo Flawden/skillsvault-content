@@ -86,7 +86,7 @@ Elastostatic/contact/FEA model оправдан, когда rigid-body/member id
 После блока инженер должен уметь применить `Model-form adequacy and stopping criteria` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Adequacy — достаточность model form для decision, а не абсолютная «истина». Stop escalation, когда дополнительная fidelity не меняет bounded conclusion сильнее, чем оставшаяся uncertainty или когда отсутствуют валидные inputs.
+Adequacy — достаточность model form для decision, а не абсолютная «истина». `MODEL FORM SUFFICIENT FOR THIS OUTPUT` не означает `GOVERNING LOAD / PROOF METHOD SATISFIED`: model-form reasoning не отменяет source-required cases, factors, combinations или proof branches. Stop escalation, когда дополнительная fidelity не меняет bounded conclusion сильнее, чем оставшаяся uncertainty или когда отсутствуют валидные inputs.
 
 ## Working sequence
 1. Сравни model hierarchy.

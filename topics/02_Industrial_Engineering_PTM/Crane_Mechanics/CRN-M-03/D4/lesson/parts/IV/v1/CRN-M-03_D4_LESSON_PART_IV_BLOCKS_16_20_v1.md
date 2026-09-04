@@ -53,9 +53,10 @@ Proof-of-competence hook method и load/load-combination framework выполн�
 
 ## Working sequence
 1. Классифицируй construction: direct scope / other shank / plate-or-other excluded class.
-2. Для other shank проверь exact governing conditions и required stress-concentration treatment из legitimately available method.
+2. Для other shank проверь exact governing conditions и required stress-concentration treatment из legitimately available method; наличие conditional-extension language само по себе не доказывает eligibility именно этой geometry.
 3. Для plate hook зафиксируй ISO 17440 NOT COVERED.
 4. До final applicability не вводи source-bound numeric criterion.
+5. Даже реально найденное source value используй только после совпадения definition, edition, component, method branch/condition и units.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

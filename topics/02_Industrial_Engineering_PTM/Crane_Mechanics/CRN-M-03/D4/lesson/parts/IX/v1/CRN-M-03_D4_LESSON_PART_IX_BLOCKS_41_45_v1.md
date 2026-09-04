@@ -70,7 +70,7 @@
 После блока инженер должен уметь применить `Bounded expert conclusion and STOP` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Заключение должно быть сильнее простого caveat: clearly state method applicability, model adequacy, input confidence, sensitivity, unresolved conflicts and what is intentionally not concluded.
+Заключение должно быть сильнее простого caveat: clearly state method applicability, model adequacy, input confidence, sensitivity, unresolved conflicts and what is intentionally not concluded. `ANALYSIS / PROOF STOPPED` не означает `OPERATION PERMITTED UNTIL ANALYSIS FINISHES`; method/cause unknown также не разрешает откладывать отдельно применимое safety action.
 
 ## Working sequence
 1. METHOD STATUS.
@@ -96,7 +96,9 @@
 ## Working sequence
 1. Package evidence.
 2. Name the actually authorized receiving role/process and its basis.
-3. No silent promotion from analysis to approval.
+3. Запиши technical recommendation/status и явно `NOT AUTHORIZING`, если соответствующая authority не принадлежит автору review.
+4. Для фактического equipment decision запиши authorized decision owner/process и, когда decision существует, его status/basis/date.
+5. No silent promotion from analysis to approval; source-gap handoff is not permission to continue by default.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

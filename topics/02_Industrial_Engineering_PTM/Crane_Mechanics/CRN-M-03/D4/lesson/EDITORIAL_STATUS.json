@@ -4,7 +4,7 @@
   "stage": "TECHNICAL_EDITORIAL",
   "status": "COMPLETE",
   "pass": "I",
-  "next": "CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review",
+  "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice",
   "version": "v1",
   "decision": "PASS_WITH_CORRECTIONS_APPLIED",
   "baseline_commit": "5be0db99d51d56adf35ef32f36e1280bc59a87b0",

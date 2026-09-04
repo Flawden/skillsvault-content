@@ -10,7 +10,7 @@
 После блока инженер должен уметь применить `Inspection evidence as input lane` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Inspection findings информируют geometry/condition/model choice и validation, но inspection result не становится design proof автоматически, а D4 analysis не выдаёт discard/acceptance без authority.
+Inspection findings информируют geometry/condition/model choice и validation, но inspection result не становится design proof автоматически, а D4 analysis не выдаёт discard/acceptance без authority. `NO DEFECT OBSERVED` не означает `DEFECT ABSENT`: отрицательное evidence требует observability gate по access/coverage, method capability, procedure/state, uncertainty и competence.
 
 ## Working sequence
 1. Finding → model input?
@@ -48,7 +48,7 @@ Classification помогает описать duty context, но не дока�
 После блока инженер должен уметь применить `Monitoring record coverage and model selection` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Monitoring/log data влияет на load/history scenarios только в пределах coverage, resolution and mapping quality. Пропуски не равны нулевой нагрузке.
+Monitoring/log data влияет на load/history scenarios только в пределах coverage, resolution and mapping quality. Пропуски не равны нулевой нагрузке, а `NO EVENT LOGGED` не означает `EVENT DID NOT OCCUR` без достаточных coverage/resolution/sensor mapping/data-completeness conditions.
 
 ## Working sequence
 1. Coverage window.

@@ -453,3 +453,21 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - authority handoff is organization/equipment/jurisdiction specific.
 
 Next: `CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review`.
+
+## D4 — Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 10 adversarial findings fixed across all 9 Parts;
+- preliminary match ≠ final applicability;
+- observed ≠ approved;
+- adequate model ≠ governing method satisfied;
+- conditional extension ≠ automatic applicability;
+- C-hook coverage ≠ crane hook proof;
+- ISO 17096 ≠ grab/grab-bucket authority;
+- model agreement ≠ common-mode error excluded;
+- tested-envelope robustness ≠ global robustness;
+- no finding/no log ≠ absence;
+- analysis STOP ≠ operation permission;
+- technical recommendation ≠ authorized equipment decision.
+
+Next: `CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice`.

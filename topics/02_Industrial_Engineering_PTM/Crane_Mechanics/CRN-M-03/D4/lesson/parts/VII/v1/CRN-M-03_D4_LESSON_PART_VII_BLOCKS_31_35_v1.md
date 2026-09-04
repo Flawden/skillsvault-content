@@ -88,7 +88,7 @@ Wrong drawing revision, nominal-vs-actual geometry, wrong articulation/contact s
 После блока инженер должен уметь применить `Robustness and decision sensitivity` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Результат robust, если bounded conclusion сохраняется по defensible input/model/source scenarios with stated provenance. Если небольшой admissible change переворачивает status, честный outcome — decision not robust. Unsourced scenario width cannot be used to manufacture robustness.
+Результат robust, если bounded conclusion сохраняется по defensible input/model/source scenarios with stated provenance. Но `ROBUST ACROSS TESTED / SOURCED ENVELOPE` не означает robustness вне envelope и не исключает unknown/unmodeled states. Поэтому robustness record должен фиксировать не только provenance, но и coverage. Если небольшой admissible change переворачивает status, честный outcome — decision not robust. Unsourced scenario width cannot be used to manufacture robustness.
 
 ## Working sequence
 1. Scenario envelope.

@@ -87,12 +87,13 @@ Constraint set, degrees of freedom, CG and motion state — часть boundary-
 После блока инженер должен уметь применить `Boundary-input freeze before calculation` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Перед calculation freeze фиксирует geometry revision, material declaration, load/state, constraints, contact assumptions, source versions и requested outputs. Иначе модель меняется во время доказательства.
+Перед calculation freeze фиксирует geometry revision, material declaration, load/state, constraints, contact assumptions, source versions и requested outputs. Иначе модель меняется во время доказательства. Но INPUT FREEZE фиксирует то, что принято для конкретной model revision; он не превращает observed/as-found geometry или state в approved/design-conforming configuration.
 
 ## Working sequence
 1. Создай INPUT FREEZE record.
-2. Любое изменение — новая model revision.
-3. Не сравнивай результаты разных revisions как один method run.
+2. Отдельно пометь `OBSERVED / AS-FOUND` и `APPROVED / DESIGN-CONFORMING`; если они не совпадают, сохрани discrepancy как uncertainty/escalation item.
+3. Любое изменение — новая model revision.
+4. Не сравнивай результаты разных revisions как один method run.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

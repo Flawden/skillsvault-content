@@ -1,0 +1,109 @@
+{
+  "artifact": "CRN-M-03_D4_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-04",
+  "baseline_commit": "5015ed93d23c3ea8e88eef89b9ec60a53bca8c44",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "parts": 9,
+    "blocks": 45,
+    "parts_with_text_corrections": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX"
+    ],
+    "parts_without_text_corrections": []
+  },
+  "findings": [
+    {
+      "id": "RT-M03-D4-01",
+      "severity": "HIGH",
+      "part": "I",
+      "status": "FIXED",
+      "topic": "not-yet-demonstrated applicability promotion"
+    },
+    {
+      "id": "RT-M03-D4-02",
+      "severity": "CRITICAL",
+      "part": "II",
+      "status": "FIXED",
+      "topic": "as-found vs approved configuration"
+    },
+    {
+      "id": "RT-M03-D4-03",
+      "severity": "HIGH",
+      "part": "III",
+      "status": "FIXED",
+      "topic": "model adequacy vs governing load/proof method"
+    },
+    {
+      "id": "RT-M03-D4-04",
+      "severity": "CRITICAL",
+      "part": "IV",
+      "status": "FIXED",
+      "topic": "ISO 17440 conditional-extension and method-branch laundering"
+    },
+    {
+      "id": "RT-M03-D4-05",
+      "severity": "CRITICAL",
+      "part": "V",
+      "status": "FIXED",
+      "topic": "ISO 17096 C-hook/crane-hook/grab scope laundering"
+    },
+    {
+      "id": "RT-M03-D4-06",
+      "severity": "CRITICAL",
+      "part": "VI",
+      "status": "FIXED",
+      "topic": "two-model common-mode error"
+    },
+    {
+      "id": "RT-M03-D4-07",
+      "severity": "CRITICAL",
+      "part": "VII",
+      "status": "FIXED",
+      "topic": "scenario-envelope robustness laundering"
+    },
+    {
+      "id": "RT-M03-D4-08",
+      "severity": "CRITICAL",
+      "part": "VIII",
+      "status": "FIXED",
+      "topic": "negative evidence observability"
+    },
+    {
+      "id": "RT-M03-D4-09",
+      "severity": "CRITICAL",
+      "part": "IX",
+      "status": "FIXED",
+      "topic": "analysis stop vs operation permission"
+    },
+    {
+      "id": "RT-M03-D4-10",
+      "severity": "HIGH",
+      "part": "IX",
+      "status": "FIXED",
+      "topic": "technical recommendation vs authorized equipment decision"
+    }
+  ],
+  "guards": {
+    "frozen_d1_d2_d3_modified": false,
+    "frozen_index_modified": false,
+    "d4_kickoff_source_gate_modified": false,
+    "new_normative_thresholds": false,
+    "closed_tables_reconstructed": false,
+    "actual_hook_proof_declared": false,
+    "actual_grab_holding_capacity_declared": false,
+    "remaining_life_verdict_declared": false,
+    "inspection_acceptance_declared": false,
+    "specialist_ndt_authority_declared": false,
+    "equipment_permission_declared": false,
+    "reader_experience_pass_completed": false
+  },
+  "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice"
+}

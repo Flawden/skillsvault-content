@@ -56,6 +56,7 @@ Requirement говорит, что требуется; model объясняет/
 3. SOURCE ID / EDITION / STATUS = ?
 4. PRELIMINARY SCOPE SCREEN = MATCH / NO MATCH / UNKNOWN.
 5. FINAL APPLICABILITY = CONFIRMED only from legitimately available governing material plus actual configuration/method conditions; otherwise NOT YET DEMONSTRATED.
+6. `NOT YET DEMONSTRATED` is a gate: it is not permission to use the method as formal proof and is not permission to make the equipment decision.
 
 ## Guard
 Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.

@@ -70,7 +70,7 @@ Pin/bearing/contact response зависит от local geometry, clearances, fit
 После блока инженер должен уметь применить `Grab model hierarchy under source gaps` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Для grabs допустима hierarchy general mechanics: geometry/kinematics → reactions → contact/holding hypothesis → local structural model. Но ISO 17096 прямо не даёт grab authority; exact proof/holding/capacity criterion должен прийти из реально применимого источника/OEM/designer.
+Для grabs допустима hierarchy general mechanics: geometry/kinematics → reactions → contact/holding hypothesis → local structural model. Но ISO 17096 прямо не даёт grab authority; exact proof/holding/capacity criterion должен прийти из реально применимого источника/OEM/designer. Наличие в ISO 17096 иных attachment families, включая C-hooks, не создаёт crane hook-suspension proof authority и не отменяет явное исключение grabs/grab buckets.
 
 ## Working sequence
 1. GENERAL MECHANICS = OK.
@@ -90,7 +90,7 @@ Pin/bearing/contact response зависит от local geometry, clearances, fit
 После блока инженер должен уметь применить `Parent-child model interface and data handoff` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Каждая child model должна получать boundary conditions из parent model с явной provenance. Parent validation не автоматически валидирует child, а совпадение child result с ожиданием не доказывает parent.
+Каждая child model должна получать boundary conditions из parent model с явной provenance. Parent validation не автоматически валидирует child, а совпадение child result с ожиданием не доказывает parent. Корректная parent reaction также не делает применимым source/method, который не покрывает child component или question.
 
 ## Working sequence
 1. Interface quantity + units.

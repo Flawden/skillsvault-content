@@ -837,7 +837,7 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "PENDING",
+        "red_team": "COMPLETE",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
@@ -918,10 +918,42 @@
         "authority_handoff_organization_specific": true,
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/CRN-M-03_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json"
+      },
+      "red_team": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "baseline_commit": "5015ed93d23c3ea8e88eef89b9ec60a53bca8c44",
+        "findings": 10,
+        "corrections_applied": 10,
+        "parts_with_text_corrections": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "IX"
+        ],
+        "applicability_gate_hardened": true,
+        "as_found_vs_approved_guard": true,
+        "model_adequacy_vs_governing_method_guard": true,
+        "iso17440_conditional_extension_guard": true,
+        "iso17096_c_hook_crane_hook_grab_scope_guard": true,
+        "common_mode_v_and_v_guard": true,
+        "robustness_envelope_coverage_guard": true,
+        "negative_evidence_observability_guard": true,
+        "analysis_stop_operation_separation": true,
+        "technical_recommendation_authority_separation": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/red_team/pass_I/v1/CRN-M-03_D4_RED_TEAM_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review",
+  "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1106,7 +1138,8 @@
         "source_gate": "PASS_WITH_CLAIM_LIMITS",
         "lesson": "COMPLETE",
         "technical_editorial": "COMPLETE",
-        "red_team": "NEXT"
+        "red_team": "COMPLETE",
+        "reader_experience": "NEXT"
       }
     }
   },
@@ -1241,5 +1274,16 @@
     "corrections_applied": 9,
     "red_team": "NEXT",
     "next": "CRN-M-03 / D4 RED TEAM / PASS I / v1 — adversarial challenge of method selection, source applicability, hook/grab scope traps, hidden inputs, V&V claims, sensitivity robustness and authority boundaries before reader-experience review"
+  },
+  "crn_m03_d4_red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "5015ed93d23c3ea8e88eef89b9ec60a53bca8c44",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10,
+    "corrections_applied": 10,
+    "reader_experience": "NEXT",
+    "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice"
   }
 }

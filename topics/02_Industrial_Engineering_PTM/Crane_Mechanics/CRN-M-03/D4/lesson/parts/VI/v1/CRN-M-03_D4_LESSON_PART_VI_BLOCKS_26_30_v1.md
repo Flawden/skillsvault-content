@@ -49,7 +49,7 @@ Verification отвечает «правильно ли решена задан�
 После блока инженер должен уметь применить `Independent calculation and benchmark checks` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Independent check должен отличаться достаточно, чтобы не наследовать тот же bug: hand calc, alternative formulation, benchmark, simplified model или separately implemented script.
+Independent check должен отличаться достаточно, чтобы не наследовать тот же bug: hand calc, alternative formulation, benchmark, simplified model или separately implemented script. Independence проверяется не только по implementation, но и по input provenance, geometry/configuration mapping, model form, measurement/validation evidence и source/criterion interpretation.
 
 ## Working sequence
 1. Опиши independence.
@@ -68,7 +68,7 @@ Independent check должен отличаться достаточно, что
 После блока инженер должен уметь применить `Validation evidence and common-mode error` как наблюдаемую D4-процедуру, а не как лозунг.
 
 ## Core
-Два numerical models могут совпасть из-за общего неверного input/boundary. Их согласие — verification/cross-check evidence, но не автоматическая validation. Validation должна связывать model с real system и intended-use domain. OEM/document reference может быть authoritative input/requirement; он становится validation evidence только если реально предоставляет независимое evidence поведения системы для нужного domain.
+Два numerical models могут совпасть из-за общего неверного input/boundary. `TWO MODELS AGREE` не означает `COMMON-MODE ERROR EXCLUDED`. Их согласие — verification/cross-check evidence, но не автоматическая validation. Validation должна связывать model с real system и intended-use domain. OEM/document reference может быть authoritative input/requirement; он становится validation evidence только если реально предоставляет независимое evidence поведения системы для нужного domain.
 
 ## Working sequence
 1. VERIFICATION / CROSS-CHECK: независима ли реализация/формулировка?
