@@ -842,7 +842,7 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "PENDING",
+        "verification_rubric": "COMPLETE",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
@@ -1015,10 +1015,27 @@
         "adversarial_evidence_status_update_required": true,
         "bounded_stop_can_be_success": true,
         "verification_rubric": "NEXT"
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "2ad9300139044fe7aae30e996ad25b68c411a888",
+        "dimensions": 14,
+        "maximum_score": 56,
+        "verified_threshold": 42,
+        "robust_threshold": 50,
+        "blocking_failures": 14,
+        "blocking_failures_non_compensable": true,
+        "unseen_u1_required": true,
+        "challenge_c1_required": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/verification_rubric/v1/CRN-M-03_D4_VERIFICATION_RUBRIC_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/verification_rubric/v1/VERIFICATION_RUBRIC_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+        "final_alignment": "NEXT"
       }
     }
   },
-  "next": "CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries",
+  "next": "CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1208,7 +1225,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       }
     }
   },
@@ -1396,5 +1414,19 @@
     "bounded_stop_can_be_success": true,
     "verification_rubric": "NEXT",
     "next": "CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries"
+  },
+  "crn_m03_d4_verification_rubric": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "2ad9300139044fe7aae30e996ad25b68c411a888",
+    "dimensions": 14,
+    "max_score": 56,
+    "verified_threshold": 42,
+    "robust_threshold": 50,
+    "blocking_failures": 14,
+    "u1_required": true,
+    "c1_required": true,
+    "final_alignment": "NEXT",
+    "next": "CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness"
   }
 }

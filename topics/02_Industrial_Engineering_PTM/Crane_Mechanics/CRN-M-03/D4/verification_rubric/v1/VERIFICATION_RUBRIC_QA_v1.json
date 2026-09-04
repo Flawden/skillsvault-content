@@ -1,0 +1,76 @@
+{
+  "artifact": "CRN-M-03_D4_VERIFICATION_RUBRIC_v1",
+  "date": "2026-09-04",
+  "baseline_commit": "2ad9300139044fe7aae30e996ad25b68c411a888",
+  "status": "COMPLETE",
+  "dimensions": 14,
+  "scale": {
+    "min": 0,
+    "max": 4,
+    "maximum_total": 56
+  },
+  "verified": {
+    "minimum_total": 42,
+    "every_dimension_minimum": 3,
+    "known_cases_required": true,
+    "unseen_u1_required": true,
+    "challenge_c1_required": true,
+    "no_blocking_failures": true,
+    "stop_source_scope_authority_gates": true
+  },
+  "robust_transfer": {
+    "minimum_total": 50,
+    "required_level4_dimensions": [
+      "ER-D4-04",
+      "ER-D4-05",
+      "ER-D4-06",
+      "ER-D4-09",
+      "ER-D4-10",
+      "ER-D4-11",
+      "ER-D4-13",
+      "ER-D4-14"
+    ]
+  },
+  "blocking_failures": [
+    "BF-D4-M03-01",
+    "BF-D4-M03-02",
+    "BF-D4-M03-03",
+    "BF-D4-M03-04",
+    "BF-D4-M03-05",
+    "BF-D4-M03-06",
+    "BF-D4-M03-07",
+    "BF-D4-M03-08",
+    "BF-D4-M03-09",
+    "BF-D4-M03-10",
+    "BF-D4-M03-11",
+    "BF-D4-M03-12",
+    "BF-D4-M03-13",
+    "BF-D4-M03-14"
+  ],
+  "blocking_failures_non_compensable": true,
+  "u1": {
+    "required": true,
+    "actual_numerical_proof_required": false
+  },
+  "c1": {
+    "required": true,
+    "evidence_status_update_required": true
+  },
+  "guards": {
+    "iso17440_conditional_extension_laundering_blocking": true,
+    "iso17096_scope_laundering_blocking": true,
+    "stop_permission_confusion_blocking": true,
+    "authority_leak_blocking": true,
+    "bounded_stop_can_score_high": true,
+    "pedagogical_thresholds_not_crane_technical_thresholds": true,
+    "new_normative_thresholds": false,
+    "actual_equipment_authority_unlocked": false,
+    "d1_d2_d3_frozen_modified": false,
+    "frozen_index_modified": false,
+    "lesson_modified": false,
+    "practice_modified": false,
+    "practice_reasoning_modified": false,
+    "expected_result_modified": false
+  },
+  "next": "CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness"
+}

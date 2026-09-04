@@ -1413,3 +1413,14 @@ Status: `COMPLETE`.
 - ISO 17440 conditional-extension and ISO 17096 grab-scope guards preserved;
 - D1/D2/D3, Lesson, Practice and Practice Reasoning remain unchanged.
 Next: `CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries`.
+
+## CRN-M-03 D4 Verification Rubric v1
+
+Status: `COMPLETE`.
+- 14 dimensions scored 0–4; maximum 56;
+- `VERIFIED`: >=42/56, every ER >=3, no BF, known evidence, U1 + C1, STOP/source-scope/authority gates pass;
+- `ROBUST / TRANSFER`: >=50/56 with ER-04/05/06/09/10/11/13/14 at Level 4;
+- 14/14 material BF semantics are non-compensable;
+- ISO 17440 conditional-extension and ISO 17096 scope-laundering are explicit blockers;
+- no prior D4 content layer is modified.
+Next: `CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness`.

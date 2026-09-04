@@ -514,3 +514,14 @@ Status: `COMPLETE`.
 - Verification Rubric is next.
 
 Next: `CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries`.
+
+## D4 — Verification Rubric v1
+
+Status: `COMPLETE`.
+- 14 × 0–4 = 56;
+- VERIFIED >=42 with every dimension >=3;
+- ROBUST >=50 with eight core Level-4 dimensions;
+- 14 non-compensable BF;
+- U1 and C1 mandatory.
+
+Next: `CRN-M-03 / D4 FINAL ALIGNMENT / v1 — prove end-to-end traceability from Lesson through Practice/Reasoning/Expected Result/Rubric, verify 45/45 lesson blocks, 10/10 cases, 14/14 ER dimensions, 14/14 non-compensable BF semantics, U1/C1 transfer coverage and absence of orphan competencies or guard contradictions before source freshness`.
