@@ -539,3 +539,13 @@ Decision: `PASS`.
 - Source Freshness is next.
 
 Next: `CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract`.
+
+## D4 — Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST`.
+- source records: 14;
+- watchlist: 3;
+- content contract change required: NO;
+- freeze ready: YES.
+
+Next: `CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history`.

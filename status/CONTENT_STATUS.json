@@ -844,7 +844,7 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "PENDING",
+        "source_freshness": "COMPLETE",
         "freeze": "PENDING"
       },
       "locks": {
@@ -1054,10 +1054,24 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/final_alignment/v1/CRN-M-03_D4_FINAL_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
         "source_freshness": "NEXT"
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_WATCHLIST",
+        "baseline_commit": "ef52fcf303e125fb0cff24657bf6f469c1cc80bc",
+        "source_records": 14,
+        "watchlist": 3,
+        "content_contract_change_required": false,
+        "freeze_ready": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/source_freshness/v1/CRN-M-03_D4_SOURCE_FRESHNESS_v1.md",
+        "records": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/source_freshness/v1/SOURCE_FRESHNESS_RECORDS_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json",
+        "freeze": "NEXT"
       }
     }
   },
-  "next": "CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract",
+  "next": "CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1249,7 +1263,8 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "NEXT"
+        "source_freshness": "COMPLETE",
+        "freeze": "NEXT"
       }
     }
   },
@@ -1467,5 +1482,17 @@
     "contradictions": 0,
     "source_freshness": "NEXT",
     "next": "CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract"
+  },
+  "crn_m03_d4_source_freshness": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "decision": "PASS_WITH_WATCHLIST",
+    "baseline_commit": "ef52fcf303e125fb0cff24657bf6f469c1cc80bc",
+    "source_records": 14,
+    "watchlist": 3,
+    "freeze_ready": true,
+    "content_contract_change_required": false,
+    "freeze": "NEXT",
+    "next": "CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history"
   }
 }

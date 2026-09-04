@@ -1440,3 +1440,17 @@ Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
 - guard contradictions: 0;
 - content corrections required: NO.
 Next: `CRN-M-03 / D4 SOURCE FRESHNESS / v1 — re-verify identity, edition/status and claim limits for all governing source lanes; preserve ISO 17440 direct/conditional/excluded scope, ISO 17096 grab/grab-bucket exclusion, watchlist and authority boundaries; decide freeze readiness without changing the aligned D4 competence contract`.
+
+## CRN-M-03 D4 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE READY`.
+- 14 governing source lanes rechecked on 2026-09-04;
+- watchlist: 3;
+- ISO 4306-1:2026 and ISO 12480-5:2026 current;
+- ISO 17440 direct/conditional/excluded scope preserved;
+- ISO 17096 C-hook coverage and explicit grab/grab-bucket exclusion preserved;
+- ISO 12482:2014 remains published/to-be-revised; Edition 2 draft remains non-normative watchlist;
+- ФНП ПС №461 tracked in revision 16.04.2026, valid through 01.09.2032;
+- no aligned D4 competence contract change required;
+- D1/D2/D3 and all prior D4 layers remain unchanged.
+Next: `CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history`.

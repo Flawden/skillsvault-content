@@ -1,0 +1,202 @@
+{
+  "artifact": "CRN-M-03_D4_SOURCE_FRESHNESS_RECORDS_v1",
+  "date": "2026-09-04",
+  "baseline_commit": "ef52fcf303e125fb0cff24657bf6f469c1cc80bc",
+  "source_records": [
+    {
+      "id": "SF-D4-M03-01",
+      "lane": "Vocabulary / component terminology",
+      "source": "ISO 4306-1:2026",
+      "edition": "5",
+      "published": "2026-07",
+      "status": "PUBLISHED",
+      "freshness": "CURRENT",
+      "claim_limit": "Vocabulary / terminology only; does not provide proof, inspection, acceptance or operation authority.",
+      "evidence_url": "https://www.iso.org/standard/78820.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-02",
+      "lane": "Forged-hook proof applicability",
+      "source": "ISO 17440:2014",
+      "edition": "1",
+      "published": "2014-06",
+      "status": "PUBLISHED_CONFIRMED",
+      "freshness": "CURRENT_WITH_SCOPE_GUARD",
+      "claim_limit": "Direct coverage: point-hook bodies of steel forgings and machined shanks with thread/nut suspension. Other shank-hook principles require exact conditions. Plate hooks are not covered. Public metadata is preliminary scope evidence, not final current-case applicability.",
+      "evidence_url": "https://www.iso.org/standard/59758.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-03",
+      "lane": "Load-lifting attachments / C-hook boundary",
+      "source": "ISO 17096:2015",
+      "edition": "1",
+      "published": "2015-08",
+      "status": "PUBLISHED_CONFIRMED_2026",
+      "freshness": "CURRENT_WITH_EXPLICIT_EXCLUSION",
+      "claim_limit": "C-hooks are covered attachment family. Standard explicitly excludes buckets, grabs and grab buckets. C-hook coverage must not be transferred to crane hook-suspension proof or grab authority.",
+      "evidence_url": "https://www.iso.org/standard/58103.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-04",
+      "lane": "Mechanism requirements / component selection",
+      "source": "ISO 10972-1:2025",
+      "edition": "2",
+      "published": "2025-02",
+      "status": "PUBLISHED",
+      "freshness": "CURRENT",
+      "claim_limit": "Layout/design/selection requirements for mechanisms and components; explicitly not proof-of-competence calculation for yield/fatigue/wear.",
+      "evidence_url": "https://www.iso.org/standard/85884.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-05",
+      "lane": "Loads / load combinations framework",
+      "source": "ISO 8686-1:2012",
+      "edition": "2",
+      "published": "2012-12",
+      "status": "PUBLISHED_REVIEW_ACTIVITY",
+      "freshness": "WATCHLIST",
+      "claim_limit": "Framework for loads/load combinations; exact factors/branches are source-bound and not reconstructed. Current lifecycle shows review/revision activity, so identity/status must be rechecked before future source-bound use.",
+      "evidence_url": "https://www.iso.org/standard/59417.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-06",
+      "lane": "Steel-structure proof boundary",
+      "source": "ISO 20332:2016",
+      "edition": "2",
+      "published": "2016-06",
+      "status": "PUBLISHED_CONFIRMED",
+      "freshness": "CURRENT_WITH_COMPONENT_MAPPING_GUARD",
+      "claim_limit": "General steel-structure proof framework used with applicable ISO 8686 loads. Component mapping is necessary but not sufficient for current-case applicability.",
+      "evidence_url": "https://www.iso.org/standard/62663.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-07",
+      "lane": "Inspection",
+      "source": "ISO 9927-1:2013",
+      "edition": "3",
+      "published": "2013-06",
+      "status": "PUBLISHED_CONFIRMED",
+      "freshness": "CURRENT",
+      "claim_limit": "General crane inspection requirements. Inspection evidence remains bounded by method/access/coverage and is not design proof, remaining-life proof or operation authority.",
+      "evidence_url": "https://www.iso.org/standard/51102.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-08",
+      "lane": "Safe use — general",
+      "source": "ISO 12480-1:2024",
+      "edition": "2",
+      "published": "2024-08",
+      "status": "PUBLISHED",
+      "freshness": "CURRENT",
+      "claim_limit": "Safe-system-of-work / safe-use requirements; separate from analytical proof and component model validity.",
+      "evidence_url": "https://www.iso.org/standard/83637.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-09",
+      "lane": "Safe use — bridge / gantry context",
+      "source": "ISO 12480-5:2026",
+      "edition": "1",
+      "published": "2026-06",
+      "status": "PUBLISHED",
+      "freshness": "CURRENT_NEW_2026",
+      "claim_limit": "Bridge/gantry safe-use context in conjunction with ISO 12480-1. Does not become hook/grab proof method.",
+      "evidence_url": "https://www.iso.org/standard/90196.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-10",
+      "lane": "Classification / duty context",
+      "source": "ISO 4301-1:2016",
+      "edition": "3",
+      "published": "2016-07",
+      "status": "PUBLISHED_CONFIRMED",
+      "freshness": "CURRENT",
+      "claim_limit": "Classification/service-condition context. Classification is not actual component history, condition verdict or remaining-life proof.",
+      "evidence_url": "https://www.iso.org/standard/63070.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-11",
+      "lane": "Monitoring / design working period",
+      "source": "ISO 12482:2014",
+      "edition": "1",
+      "published": "2014-09",
+      "status": "PUBLISHED_TO_BE_REVISED",
+      "freshness": "WATCHLIST",
+      "claim_limit": "Monitoring actual crane duty versus original design duty and focusing inspections. Does not automatically provide component-specific remaining-life method or verdict.",
+      "evidence_url": "https://www.iso.org/standard/57481.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-12",
+      "lane": "Monitoring successor draft",
+      "source": "ISO/CD 12482",
+      "edition": "2",
+      "published": null,
+      "status": "UNDER_DEVELOPMENT_CD",
+      "freshness": "WATCHLIST_NON_NORMATIVE",
+      "claim_limit": "Draft under development, intended to replace ISO 12482:2014. Watchlist only; no normative claims imported into D4.",
+      "evidence_url": "https://www.iso.org/standard/91046.html",
+      "verified": "2026-09-04"
+    },
+    {
+      "id": "SF-D4-M03-13",
+      "lane": "Russian regulatory / lifting-facility safety",
+      "source": "Ростехнадзор Приказ №461 / ФНП ПС",
+      "edition": "ред. 16.04.2026",
+      "published": "2020-11-26",
+      "status": "ACTIVE",
+      "freshness": "CURRENT_2026_AMENDMENT",
+      "claim_limit": "Current regulatory/safe-use authority lane. Does not substitute design proof, source-bound hook/grab calculation method, specialist NDT or remaining-life methodology.",
+      "evidence_url": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "verified": "2026-09-04",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "SF-D4-M03-14",
+      "lane": "Equipment-specific authority / inputs",
+      "source": "Passport / OEM / designer / approved drawings / equipment records / service history",
+      "edition": "equipment-specific",
+      "published": null,
+      "status": "EQUIPMENT_SPECIFIC_REQUIRED_WHERE_APPLICABLE",
+      "freshness": "CURRENT_BY_CONFIGURATION_NOT_CALENDAR",
+      "claim_limit": "Authoritative equipment-specific configuration/input/source lane. Exact applicable revision and actual equipment identity must be demonstrated; absence is a legitimate STOP condition.",
+      "evidence_url": null,
+      "verified": "2026-09-04"
+    }
+  ],
+  "source_records_count": 14,
+  "watchlist": [
+    {
+      "id": "WL-D4-M03-01",
+      "source": "ISO 8686-1:2012",
+      "reason": "Published standard has active/recent lifecycle review/revision signals. Recheck status before future source-bound load-combination use.",
+      "action": "WATCH; do not reconstruct factors/branches; exact edition/status gate before source-bound use."
+    },
+    {
+      "id": "WL-D4-M03-02",
+      "source": "ISO 12482:2014",
+      "reason": "ISO marks current edition as 'to be revised'.",
+      "action": "WATCH; retain current published identity, but do not promote it into component-specific remaining-life authority."
+    },
+    {
+      "id": "WL-D4-M03-03",
+      "source": "ISO/CD 12482 Edition 2",
+      "reason": "Committee Draft under development and intended successor to ISO 12482:2014.",
+      "action": "WATCHLIST ONLY / NON-NORMATIVE until published and separately reviewed."
+    }
+  ],
+  "watchlist_count": 3,
+  "decision": "PASS_WITH_WATCHLIST",
+  "content_contract_change_required": false,
+  "freeze_ready": true,
+  "next": "CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history"
+}
