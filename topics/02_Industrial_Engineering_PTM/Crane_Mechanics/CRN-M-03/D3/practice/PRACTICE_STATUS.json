@@ -34,8 +34,9 @@
   "root_cause_inspection_operation_locks_preserved": true,
   "d1_d2_frozen_immutable": true,
   "practice_reasoning": "COMPLETE",
-  "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation",
+  "next": "CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
   "practice": "COMPLETE",
   "expected_result": "COMPLETE",
-  "verification_rubric": "NEXT"
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "NEXT"
 }

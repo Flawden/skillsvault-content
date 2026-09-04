@@ -1240,3 +1240,16 @@ Status: `COMPLETE`.
 - hazardous diagnostic experiments and root-cause / numeric proof / remaining-life / inspection-discard / specialist NDT / repair-modification / operation authority remain locked;
 - frozen CRN-M-01, CRN-M-02, CRN-M-03 D1/D2 and `status/FROZEN_INDEX.json` remain unchanged.
 Next: `CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation`.
+
+## CRN-M-03 D3 Verification Rubric v1
+
+Status: `COMPLETE`.
+- 13 Expected Result dimensions are scored on levels 0–4; maximum 52;
+- `VERIFIED` requires >=39/52, every dimension >=3, K1 + unseen U1 + mandatory premise-changing C1, no material BF and S0 clear;
+- `ROBUST` requires >=46/52 plus level 4 on ER-D3-03/06/07/08/12/13;
+- all 12 Expected Result candidate failure families become non-compensable when materially present;
+- materiality is tied to model ranking, bounded conclusion, STOP/handoff or authority boundary;
+- S0 separately blocks hazardous evidence acquisition and unauthorized root-cause / inspection / repair / operation decisions;
+- correct bounded STOP/handoff remains a successful D3 behavior;
+- CRN-M-03 D1/D2 frozen content and `status/FROZEN_INDEX.json` remain unchanged.
+Next: `CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness`.

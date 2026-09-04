@@ -566,7 +566,7 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "PENDING",
+        "verification_rubric": "COMPLETE",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
@@ -698,10 +698,34 @@
         "hazardous_diagnostic_experiments_forbidden": true,
         "root_cause_inspection_operation_locks_preserved": true,
         "russian_first_language": true
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "f282779be2853eb214be1dfc9afdf8e72c6a99ed",
+        "dimensions": 13,
+        "levels": 5,
+        "blocking_failures": 12,
+        "max_score": 52,
+        "verified_score_min": 39,
+        "robust_score_min": 46,
+        "all_dimensions_minimum_3_for_verified": true,
+        "known_case_required": true,
+        "unseen_transfer_required": true,
+        "premise_changing_challenge_required": true,
+        "blocking_failures_non_compensable_when_material": true,
+        "s0_safety_authority_gate": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/CRN-M-03_D3_VERIFICATION_RUBRIC_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+        "formal_root_cause_not_required": true,
+        "stop_or_handoff_can_be_success": true,
+        "hazardous_diagnostic_experiments_forbidden": true,
+        "authority_locks_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation",
+  "next": "CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -788,6 +812,30 @@
           "hazardous_diagnostic_experiments_forbidden": true,
           "root_cause_inspection_operation_locks_preserved": true,
           "russian_first_language": true
+        },
+        "verification_rubric": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "baseline_commit": "f282779be2853eb214be1dfc9afdf8e72c6a99ed",
+          "dimensions": 13,
+          "levels": 5,
+          "blocking_failures": 12,
+          "max_score": 52,
+          "verified_score_min": 39,
+          "robust_score_min": 46,
+          "all_dimensions_minimum_3_for_verified": true,
+          "known_case_required": true,
+          "unseen_transfer_required": true,
+          "premise_changing_challenge_required": true,
+          "blocking_failures_non_compensable_when_material": true,
+          "s0_safety_authority_gate": true,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/CRN-M-03_D3_VERIFICATION_RUBRIC_v1.md",
+          "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+          "formal_root_cause_not_required": true,
+          "stop_or_handoff_can_be_success": true,
+          "hazardous_diagnostic_experiments_forbidden": true,
+          "authority_locks_preserved": true
         }
       }
     }
@@ -810,5 +858,19 @@
     "premise_changing_challenge_required": true,
     "bounded_stop_can_be_success": true,
     "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation"
+  },
+  "crn_m03_d3_verification_rubric": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "f282779be2853eb214be1dfc9afdf8e72c6a99ed",
+    "dimensions": 13,
+    "levels": 5,
+    "blocking_failures": 12,
+    "verified_score_min": 39,
+    "robust_score_min": 46,
+    "u1_required": true,
+    "c1_required": true,
+    "s0_safety_authority_gate": true,
+    "next": "CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness"
   }
 }
