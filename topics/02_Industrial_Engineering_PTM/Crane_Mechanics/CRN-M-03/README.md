@@ -417,3 +417,16 @@ Status: `FROZEN`.
 - root-cause/proof/inspection/remaining-life/repair/operation authority remains locked.
 
 Next: `CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries`.
+
+## D4 — Content Kickoff v1
+
+Status: `ACTIVE / KICKOFF COMPLETE`.
+
+- D1/D2/D3 remain immutable frozen prerequisites;
+- D4 mission: expert/reference method governance and model validation;
+- forged hook proof-method scope anchor: ISO 17440:2014;
+- ISO 17096 grab/grab-bucket scope transfer: FORBIDDEN;
+- exact grab numeric proof/holding/acceptance method: source/OEM/designer required;
+- source-bound proof and equipment authority remain locked.
+
+Next: `CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff`.

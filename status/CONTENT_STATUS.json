@@ -785,9 +785,98 @@
         "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_INVENTORY_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       }
+    },
+    "D4": {
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "prerequisites": [
+        {
+          "depth": "D1",
+          "status": "FROZEN",
+          "version": "v1",
+          "tag": "crn-m-03-d1-v1"
+        },
+        {
+          "depth": "D2",
+          "status": "FROZEN",
+          "version": "v1",
+          "tag": "crn-m-03-d2-v1"
+        },
+        {
+          "depth": "D3",
+          "status": "FROZEN",
+          "version": "v1",
+          "tag": "crn-m-03-d3-v1",
+          "commit": "95de28a1db14e283522936f574bbce22fa495f47"
+        }
+      ],
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-04",
+        "lesson_authoring_unlocked": true,
+        "source_records": 14,
+        "watchlist_count": 3,
+        "method_selection_review_unlocked": true,
+        "validation_sensitivity_error_review_unlocked": true,
+        "source_bound_numeric_proof_unlocked": false,
+        "grab_numeric_proof_holding_acceptance_unlocked": false,
+        "remaining_life_unlocked": false,
+        "equipment_specific_claims_require_oem_passport_designer_or_expert": true,
+        "field_authority_unlocked": false,
+        "iso17096_grab_scope_transfer_forbidden": true
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "PENDING",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "locks": {
+        "paid_source_reconstruction": true,
+        "source_applicability_before_numeric_method": true,
+        "formal_hook_proof_without_exact_method_inputs": true,
+        "iso17096_grab_scope_transfer": true,
+        "grab_holding_capacity_acceptance_without_exact_source": true,
+        "numeric_design_and_proof": true,
+        "standard_load_factors_and_combinations": true,
+        "remaining_life": true,
+        "inspection_discard_acceptance": true,
+        "specialist_ndt": true,
+        "repair_adjustment_modification": true,
+        "equipment_specific_capacity_and_compatibility": true,
+        "return_to_service_or_operational_permission": true
+      },
+      "method_scaffold": {
+        "question_classification": true,
+        "component_scope_mapping": true,
+        "method_applicability": true,
+        "boundary_input_provenance": true,
+        "verification_vs_validation": true,
+        "sensitivity_uncertainty_error": true,
+        "competing_method_comparison": true,
+        "bounded_review_handoff": true
+      },
+      "baseline_commit": "95de28a1db14e283522936f574bbce22fa495f47",
+      "structural_contract_source": "crn-m-02-d4-v1"
     }
   },
-  "next": "CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries",
+  "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -964,6 +1053,13 @@
           "authority_locks_preserved": true,
           "iso_17096_grab_scope_guard_preserved": true
         }
+      },
+      "D4": {
+        "status": "ACTIVE",
+        "kickoff": "COMPLETE",
+        "scope": "LOCKED",
+        "source_gate": "PASS_WITH_CLAIM_LIMITS",
+        "lesson": "NEXT"
       }
     }
   },
@@ -1065,5 +1161,18 @@
     "authority_locks_preserved": true,
     "iso_17096_grab_scope_guard_preserved": true,
     "next": "CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries"
+  },
+  "crn_m03_d4_kickoff": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "95de28a1db14e283522936f574bbce22fa495f47",
+    "source_records": 14,
+    "watchlist_count": 3,
+    "iso17440_hook_proof_scope": true,
+    "iso17096_grab_exclusion": true,
+    "lesson_authoring_unlocked": true,
+    "source_bound_numeric_proof_unlocked": false,
+    "equipment_authority_locked": true,
+    "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff"
   }
 }

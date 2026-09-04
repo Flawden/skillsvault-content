@@ -1298,3 +1298,17 @@ Status: `FROZEN`.
 - root-cause/proof/remaining-life/inspection/NDT/repair/operation authority remains locked;
 - ISO 17096 grab/grab-bucket scope separation remains locked.
 Next: `CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries`.
+
+## CRN-M-03 D4 Content Kickoff v1
+
+Status: `COMPLETE`.
+- immutable prerequisites: CRN-M-03 D1/D2/D3 FROZEN v1;
+- D4 scope: LOCKED;
+- source gate: PASS_WITH_CLAIM_LIMITS;
+- 14 source records; watchlist = 3;
+- ISO 17440:2014 is the primary forged-hook proof-method scope anchor;
+- ISO 17096:2015 remains a negative scope guard for grabs/grab buckets and must not be conflated with crane hook proof;
+- method selection / verification / validation / sensitivity / error review are unlocked;
+- source-bound numeric proof, grab holding/capacity/acceptance values, remaining-life, inspection/NDT/repair and operation authority remain locked;
+- lesson authoring: UNLOCKED.
+Next: `CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff`.

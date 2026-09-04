@@ -1,0 +1,39 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "depth": "D4",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d3-v1",
+      "commit": "95de28a1db14e283522936f574bbce22fa495f47"
+    }
+  ],
+  "d4_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "method_selection_review": "UNLOCKED",
+  "validation_sensitivity_error_review": "UNLOCKED",
+  "source_bound_numeric_proof": "LOCKED_PENDING_EXACT_METHOD_INPUTS_AND_APPLICABILITY",
+  "grab_numeric_proof_holding_acceptance": "LOCKED_PENDING_EXACT_APPLICABLE_SOURCE_AND_AUTHORITY",
+  "remaining_life_verdict": "LOCKED",
+  "equipment_specific_claims": "OEM_PASSPORT_DESIGN_OR_EXPERT_AUTHORITY_REQUIRED",
+  "field_authority": "LOCKED",
+  "iso17096_grab_scope_transfer": "FORBIDDEN",
+  "baseline_commit": "95de28a1db14e283522936f574bbce22fa495f47",
+  "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff"
+}
