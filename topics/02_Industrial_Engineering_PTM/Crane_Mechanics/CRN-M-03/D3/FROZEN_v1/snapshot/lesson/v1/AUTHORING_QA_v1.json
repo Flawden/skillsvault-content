@@ -1,0 +1,98 @@
+{
+  "artifact": "CRN-M-03_D3_LESSON_v1",
+  "date": "2026-09-03",
+  "stage": "AUTHORING",
+  "status": "PASS_AUTHORING_COMPLETE",
+  "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
+  "scope_version": "v1",
+  "source_gate_version": "v1",
+  "source_gate_decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "tag": "crn-m-03-d2-v1"
+    }
+  ],
+  "coverage": {
+    "observation_vs_inference": true,
+    "causal_chain_not_component_label": true,
+    "multiple_competing_hypotheses": true,
+    "d2_model_rebuilt_per_hypothesis": true,
+    "falsifiable_predictions": true,
+    "safe_discriminating_evidence": true,
+    "present_transient_history_separated": true,
+    "post_event_not_causation": true,
+    "system_boundary_can_change": true,
+    "cg_as_diagnostic_variable": true,
+    "loaded_state_constraint_hypotheses": true,
+    "engagement_sequence": true,
+    "contact_resultant_as_hypothesis": true,
+    "holding_causal_families": true,
+    "qualitative_sensitivity": true,
+    "transient_dynamics_status": true,
+    "service_history_as_evidence_not_remaining_life": true,
+    "evidence_discrimination": true,
+    "hypothesis_update_after_evidence": true,
+    "model_status_ladder": true,
+    "source_role_authority_separation": true,
+    "bounded_stop_handoff": true,
+    "russian_first_language": true,
+    "hypothesis_uniqueness_not_ritualized": true,
+    "prediction_reverse_inference_guard": true,
+    "observability_before_exclusion": true,
+    "evidence_independence_guard": true,
+    "confounding_guard": true,
+    "parallel_authority_lanes": true,
+    "red_team_common_mode_hidden_premise_guard": true,
+    "red_team_condition_matched_prediction_guard": true,
+    "red_team_circular_evidence_guard": true,
+    "red_team_history_coverage_guard": true,
+    "red_team_cause_consequence_timing_guard": true,
+    "red_team_sequence_nonuniqueness_guard": true,
+    "red_team_local_sensitivity_guard": true,
+    "red_team_relative_ranking_guard": true,
+    "red_team_authority_stacking_guard": true
+  },
+  "claim_guards": {
+    "single_symptom_root_cause_promoted": false,
+    "numeric_design_proof_introduced": false,
+    "standard_dynamic_factors_introduced": false,
+    "wll_swl_capacity_selection_introduced": false,
+    "remaining_life_or_failure_probability_introduced": false,
+    "holding_force_rating_calculated": false,
+    "inspection_discard_acceptance_introduced": false,
+    "specialist_ndt_interpretation_introduced": false,
+    "hazardous_diagnostic_experiment_instructed": false,
+    "repair_adjustment_modification_instructed": false,
+    "return_to_service_or_operation_permission_implied": false,
+    "paid_normative_tables_reconstructed": false,
+    "iso17096_extended_to_grabs": false
+  },
+  "language": {
+    "learner_facing": "RUSSIAN_FIRST",
+    "english_labels": "EXPLAINED_OR_OPTIONAL",
+    "russian_equivalents": "FULLY_ACCEPTED"
+  },
+  "formal_practice_included": false,
+  "next": "CRN-M-03 / D3 READER EXPERIENCE PASS / PASS I / v1 — improve Russian-first causal-diagnostic flow, cognitive load and retrieval without weakening Red-Team hypothesis/evidence/state-history/source-authority guards before practice",
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+    "findings": 10,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md"
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
+    "findings": 12,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/lesson/red_team/pass_I/v1/CRN-M-03_D3_RED_TEAM_PASS_I_v1.md"
+  }
+}

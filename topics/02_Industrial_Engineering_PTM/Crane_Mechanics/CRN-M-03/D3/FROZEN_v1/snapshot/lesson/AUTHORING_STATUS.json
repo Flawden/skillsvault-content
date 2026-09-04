@@ -1,0 +1,91 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D3",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-03",
+  "baseline_commit": "2d0d03e3307da424eb7277096ca4b1ad472d02e0",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d2-v1"
+    }
+  ],
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-03_D3_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "observation_inference_unknown": true,
+    "causal_chain_mapping": true,
+    "competing_hypotheses": true,
+    "falsifiable_predictions": true,
+    "discriminating_evidence": true,
+    "d2_model_rebuild_per_hypothesis": true,
+    "state_transient_history_separation": true,
+    "loaded_state_and_engagement_sequence": true,
+    "holding_causal_families": true,
+    "qualitative_sensitivity": true,
+    "evidence_update": true,
+    "bounded_model_status": true,
+    "hazardous_diagnostic_experiments_forbidden": true,
+    "source_authority_boundaries_preserved": true,
+    "russian_first_language_guard_preserved": true
+  },
+  "technical_editorial_pass_I": "COMPLETE",
+  "red_team_pass_I": "COMPLETE",
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
+    "findings": [
+      "RX-D3-01",
+      "RX-D3-02",
+      "RX-D3-03",
+      "RX-D3-04",
+      "RX-D3-05",
+      "RX-D3-06",
+      "RX-D3-07",
+      "RX-D3-08"
+    ]
+  },
+  "practice": "COMPLETE",
+  "practice_reasoning": "COMPLETE",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT",
+  "next": "CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract",
+  "editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+    "findings": 10,
+    "report": "lesson/editorial/pass_I/v1/CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1.md"
+  },
+  "red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "238ff522cbf45b357c83b79ccbde013de36e3570",
+    "findings": 12,
+    "report": "lesson/red_team/pass_I/v1/CRN-M-03_D3_RED_TEAM_PASS_I_v1.md"
+  }
+}

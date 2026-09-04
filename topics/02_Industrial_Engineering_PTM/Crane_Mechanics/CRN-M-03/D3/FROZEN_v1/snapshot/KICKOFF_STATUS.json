@@ -1,0 +1,36 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "depth": "D3",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d2-v1"
+    }
+  ],
+  "d3_scope": "LOCKED",
+  "source_gate": "PASS_WITH_CLAIM_LIMITS",
+  "lesson_authoring": "UNLOCKED",
+  "causal_diagnostic_reasoning": "UNLOCKED",
+  "competing_hypotheses": "REQUIRED",
+  "discriminating_evidence": "REQUIRED",
+  "root_cause_authority": "LOCKED",
+  "numeric_proof_rating_remaining_life": "LOCKED",
+  "inspection_acceptance": "LOCKED",
+  "specialist_ndt_interpretation": "LOCKED",
+  "equipment_operation_authority": "LOCKED",
+  "hazardous_diagnostic_experiments": "FORBIDDEN",
+  "language": "RUSSIAN_FIRST",
+  "baseline_commit": "ccfdfa4ea5e64a8adeee1849bf1ad48c86221807",
+  "next": "CRN-M-03 / D3 LESSON AUTHORING / v1 — build Russian-first causal-diagnostic reasoning for hook suspensions and load-gripping devices around symptom-to-mechanism maps, competing hypotheses, falsifiable predictions, discriminating evidence, state/history separation and bounded source/authority handoff",
+  "freeze": "PENDING"
+}

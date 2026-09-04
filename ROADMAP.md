@@ -1281,3 +1281,20 @@ Status: `COMPLETE`.
 - stale sources requiring removal = 0; content corrections required = NO;
 - freeze candidate ready = YES.
 Next: `CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract`.
+
+## CRN-M-03 D3 Freeze v1
+
+Status: `FROZEN`.
+- immutable package: `topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/FROZEN_v1`;
+- source baseline: `a3257ac937391e526078eaf22804054ec8d84be4`;
+- snapshot members: 52;
+- freeze bundle files: 61;
+- tag contract: `crn-m-03-d3-v1` (annotated, never moved);
+- Lesson 26/26; Practice A–J 10/10; Practice Reasoning A–J 10/10;
+- Expected Result 13/13; Verification Rubric 13/13;
+- material BF provenance 12/12; S0 origin PASS; U1 + C1 preserved;
+- Final Alignment PASS; Source Freshness PASS_WITH_WATCHLIST;
+- frozen D1/D2 prerequisites preserved;
+- root-cause/proof/remaining-life/inspection/NDT/repair/operation authority remains locked;
+- ISO 17096 grab/grab-bucket scope separation remains locked.
+Next: `CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries`.

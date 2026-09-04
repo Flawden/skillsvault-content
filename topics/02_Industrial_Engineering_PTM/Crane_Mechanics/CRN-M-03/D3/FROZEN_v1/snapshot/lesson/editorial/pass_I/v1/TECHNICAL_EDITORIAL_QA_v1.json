@@ -1,0 +1,88 @@
+{
+  "artifact": "CRN-M-03_D3_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "c4261dfa368d1584aa0f6c569a2f206281abc652",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "findings": [
+    {
+      "id": "TE-D3-01",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "competing-hypothesis requirement vs ritual"
+    },
+    {
+      "id": "TE-D3-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "hypothesis uniqueness at mechanism/prediction level"
+    },
+    {
+      "id": "TE-D3-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "prediction compatibility vs reverse causal confirmation"
+    },
+    {
+      "id": "TE-D3-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "observability before exclusion by absent evidence"
+    },
+    {
+      "id": "TE-D3-05",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "independent discriminating evidence vs symptom relabeling"
+    },
+    {
+      "id": "TE-D3-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "post-event confounding / concurrent changes"
+    },
+    {
+      "id": "TE-D3-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "loaded-state finding cause/mediator/effect direction"
+    },
+    {
+      "id": "TE-D3-08",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "holding-variable correlation vs causal driver"
+    },
+    {
+      "id": "TE-D3-09",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "discriminating value vs source authority axes"
+    },
+    {
+      "id": "TE-D3-10",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "parallel authority lanes vs linear source-role ladder"
+    }
+  ],
+  "guards": {
+    "d1_d2_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d3_kickoff_source_gate_modified": false,
+    "numeric_design_or_proof_added": false,
+    "remaining_life_added": false,
+    "inspection_acceptance_added": false,
+    "hazardous_experiment_unlocked": false,
+    "root_cause_authority_unlocked": false,
+    "operation_permission_unlocked": false,
+    "russian_first_language_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-03 / D3 RED TEAM / PASS I / v1 — adversarial challenge of causal-chain uniqueness, competing-hypothesis discrimination, D2 model rebuilds, evidence independence, state/history confounding and source/authority traps before reader experience"
+}

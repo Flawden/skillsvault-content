@@ -66,6 +66,9 @@
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
   "source_freshness": "COMPLETE",
-  "freeze": "NEXT",
-  "next": "CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract"
+  "freeze": "COMPLETE",
+  "next": "CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries",
+  "freeze_version": "v1",
+  "frozen_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/FROZEN_v1",
+  "freeze_tag": "crn-m-03-d3-v1"
 }

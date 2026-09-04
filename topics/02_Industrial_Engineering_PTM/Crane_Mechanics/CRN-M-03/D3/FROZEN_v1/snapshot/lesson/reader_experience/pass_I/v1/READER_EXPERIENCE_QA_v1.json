@@ -1,0 +1,92 @@
+{
+  "artifact": "CRN-M-03_D3_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-03",
+  "baseline_commit": "80642906af623d9d1a44aa698d648ef46d81010b",
+  "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_modified": false,
+    "findings": 8,
+    "corrections_applied": 8
+  },
+  "findings": [
+    {
+      "id": "RX-D3-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "problem": "27 разделов перегружали рабочую память",
+      "correction": "Добавлена шестиблочная карта D3."
+    },
+    {
+      "id": "RX-D3-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "problem": "Механика, evidence и статус приходилось удерживать одновременно",
+      "correction": "Добавлен трёхпроходный workflow A/B/C."
+    },
+    {
+      "id": "RX-D3-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "problem": "Competing hypotheses легко превращались в словесные истории",
+      "correction": "Добавлена пятистрочная карточка гипотезы с D2 change/prediction/shared premises."
+    },
+    {
+      "id": "RX-D3-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "problem": "State/transient/history были точны, но трудны для быстрого временного reasoning",
+      "correction": "Добавлена трёхслойная timeline-card без автоматических causal arrows."
+    },
+    {
+      "id": "RX-D3-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "problem": "Дискриминирующая ценность evidence и source authority смешивались при чтении",
+      "correction": "Добавлена двухосевая evidence-card."
+    },
+    {
+      "id": "RX-D3-06",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "problem": "Полный evidence-update template был тяжёл для retrieval",
+      "correction": "Добавлена четырёхстрочная update-card без ослабления model rebuild."
+    },
+    {
+      "id": "RX-D3-07",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "problem": "Список статусов причинной модели был трудно воспроизводим",
+      "correction": "Добавлена четырёхсостояний reader-map с явным запретом root-cause promotion."
+    },
+    {
+      "id": "RX-D3-08",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "problem": "Red-Team guards воспринимались как длинный список",
+      "correction": "Двенадцать traps сгруппированы в пять семейств при сохранении каждого исходного guard."
+    }
+  ],
+  "guards": {
+    "red_team_guards_preserved": true,
+    "common_mode_premise_guard_preserved": true,
+    "condition_match_observability_preserved": true,
+    "circular_evidence_guard_preserved": true,
+    "cause_consequence_timing_preserved": true,
+    "authority_stacking_blocked": true,
+    "hazardous_diagnostic_experiments_forbidden": true,
+    "root_cause_confirmation_locked": true,
+    "operation_permission_locked": true,
+    "numeric_design_proof_locked": true,
+    "remaining_life_locked": true,
+    "inspection_acceptance_locked": true,
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "crn_m03_d1_frozen_modified": false,
+    "crn_m03_d2_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d3_kickoff_source_gate_modified": false,
+    "russian_first_language_preserved": true
+  },
+  "next": "CRN-M-03 / D3 PRACTICE / v1 — build causal-diagnostic transfer cases for observation/inference separation, competing hypotheses, D2 model rebuilds, prediction/evidence discrimination, state-history reasoning and bounded source/authority handoff"
+}

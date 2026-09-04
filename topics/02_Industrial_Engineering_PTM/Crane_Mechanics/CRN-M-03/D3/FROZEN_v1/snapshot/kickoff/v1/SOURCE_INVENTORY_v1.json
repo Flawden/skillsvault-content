@@ -1,0 +1,171 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "depth": "D3",
+  "version": "v1",
+  "verified_on": "2026-09-03",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-03-d2-v1"
+    }
+  ],
+  "language": {
+    "learner_facing": "RUSSIAN_FIRST",
+    "english_labels": "EXPLAINED_OR_OPTIONAL",
+    "russian_equivalents": "FULLY_ACCEPTED"
+  },
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_STAGE_60_60",
+      "role": "TERMINOLOGY_COMPONENTS",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-17440-2014",
+      "title": "ISO 17440:2014 — Cranes — General design — Limit states and proof of competence of forged steel hooks",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "FORGED_HOOK_FORMAL_PROOF_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59758.html",
+      "full_text_available_in_repo": false,
+      "plate_hooks_in_public_scope": false
+    },
+    {
+      "id": "EXT-ISO-17096-2015",
+      "title": "ISO 17096:2015 — Cranes — Safety — Load lifting attachments",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "ATTACHMENT_SAFETY_AND_SCOPE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/58103.html",
+      "full_text_available_in_repo": false,
+      "explicit_exclusions": [
+        "slings",
+        "buckets",
+        "grabs",
+        "grab buckets",
+        "container spreaders"
+      ]
+    },
+    {
+      "id": "EXT-ISO-8686-1-2012",
+      "title": "ISO 8686-1:2012 — Cranes — Design principles for loads and load combinations — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_STAGE_90_60_UNDER_REVIEW",
+      "role": "FORMAL_DYNAMIC_LOAD_METHOD_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/59417.html",
+      "watchlist": true,
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-9927-1-2013",
+      "title": "ISO 9927-1:2013 — Cranes — Inspections — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "INSPECTION_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/51102.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12480-1-2024",
+      "title": "ISO 12480-1:2024 — Cranes — Safe use — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT_STAGE_60_60",
+      "role": "SAFE_USE_PLANNING_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/83637.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4301-1-2016",
+      "title": "ISO 4301-1:2016 — Cranes — Classification — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_STAGE_90_93",
+      "role": "SERVICE_HISTORY_CLASSIFICATION_CONTEXT",
+      "public_url": "https://www.iso.org/standard/63070.html",
+      "full_text_available_in_repo": false,
+      "attachment_duty_inference_allowed": false
+    },
+    {
+      "id": "EXT-ISO-12482-2014",
+      "title": "ISO 12482:2014 — Cranes — Monitoring for crane design working period",
+      "authority": "ISO",
+      "status": "PUBLISHED_STAGE_90_92_TO_BE_REVISED",
+      "role": "LONG_TERM_DUTY_MONITORING_CONTEXT",
+      "public_url": "https://www.iso.org/standard/57481.html",
+      "watchlist": true,
+      "full_text_available_in_repo": false,
+      "attachment_remaining_life_authority": false
+    },
+    {
+      "id": "EXT-ISO-CD-12482-ED2",
+      "title": "ISO/CD 12482 — Edition 2 — Cranes — Monitoring for crane design working period",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "public_url": "https://www.iso.org/standard/91046.html",
+      "watchlist": true,
+      "normative_for_d3": false
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_INSPECTION_OPERATIONAL_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-DEVICE",
+      "title": "Passport / OEM / actual-device / service records for hook suspension or load-gripping device",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_AND_HISTORICAL_CLAIMS",
+      "role": "CONFIGURATION_HISTORY_DIAGNOSTIC_AUTHORITY",
+      "public": false
+    }
+  ],
+  "watchlist": [
+    "EXT-ISO-8686-1-2012",
+    "EXT-ISO-12482-2014",
+    "EXT-ISO-CD-12482-ED2"
+  ],
+  "diagnostic_reasoning_unlocked": [
+    "observation_inference_unknown_separation",
+    "causal_chain_mapping",
+    "competing_hypotheses",
+    "falsifiable_predictions",
+    "qualitative_sensitivity",
+    "state_transient_history_separation",
+    "d2_model_rebuild_per_hypothesis",
+    "discriminating_evidence_requests",
+    "bounded_model_status_and_escalation"
+  ],
+  "locked_claim_classes": [
+    "single_symptom_root_cause_promotion",
+    "numeric_design_or_proof",
+    "standard_dynamic_factors_or_load_combinations",
+    "numeric_fatigue_or_remaining_life",
+    "holding_force_or_device_rating",
+    "wll_swl_capacity_derating",
+    "inspection_discard_acceptance",
+    "load_test_criteria",
+    "specialist_ndt_interpretation",
+    "hazardous_fault_reproduction_or_diagnostic_experiment",
+    "repair_adjustment_redesign_modification",
+    "return_to_service_or_operational_permission"
+  ],
+  "lesson_authoring_unlocked": true
+}

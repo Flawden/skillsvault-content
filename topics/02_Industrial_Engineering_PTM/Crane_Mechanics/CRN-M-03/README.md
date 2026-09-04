@@ -402,3 +402,18 @@ Status: `COMPLETE`.
 - Russian-first and all root-cause/inspection/remaining-life/repair/operation locks remain intact.
 
 Next: `CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority`.
+
+## D3 — FROZEN v1
+
+Status: `FROZEN`.
+
+- immutable path: `topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/FROZEN_v1`;
+- source baseline: `a3257ac937391e526078eaf22804054ec8d84be4`;
+- snapshot members: 52;
+- tag: `crn-m-03-d3-v1`;
+- source freshness: PASS_WITH_WATCHLIST;
+- D3 remains bounded causal-diagnostic reasoning;
+- U1 unseen transfer + C1 premise-changing update remain mandatory;
+- root-cause/proof/inspection/remaining-life/repair/operation authority remains locked.
+
+Next: `CRN-M-03 / D4 CONTENT KICKOFF / v1 — define expert/reference formal-method selection and model-validation scope/source gate while preserving D1/D2/D3 frozen boundaries`.
