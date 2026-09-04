@@ -840,7 +840,7 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "PENDING",
+        "practice_reasoning": "COMPLETE",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -984,10 +984,24 @@
         "technical_editorial_guards_preserved": true,
         "red_team_guards_preserved": true,
         "reader_experience_contract_preserved": true
+      },
+      "practice_reasoning": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "696137256b6a9c37991e8df138bb6282ff0cb9cc",
+        "cases": 10,
+        "blocking_failure_families": 14,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice_reasoning/v1/CRN-M-03_D4_PRACTICE_REASONING_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+        "single_answer_key": false,
+        "multiple_valid_paths_explicit": true,
+        "expected_result": "NEXT",
+        "practice_unchanged": true,
+        "lesson_stack_unchanged": true
       }
     }
   },
-  "next": "CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice",
+  "next": "CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1175,7 +1189,8 @@
         "red_team": "COMPLETE",
         "reader_experience": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT"
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT"
       }
     }
   },
@@ -1341,5 +1356,15 @@
     "answer_key_embedded": false,
     "practice_reasoning": "NEXT",
     "next": "CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice"
+  },
+  "crn_m03_d4_practice_reasoning": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "696137256b6a9c37991e8df138bb6282ff0cb9cc",
+    "cases": 10,
+    "blocking_failure_families": 14,
+    "decision": "PASS_REASONING_READY_FOR_EXPECTED_RESULT",
+    "expected_result": "NEXT",
+    "next": "CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions"
   }
 }

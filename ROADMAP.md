@@ -1385,3 +1385,17 @@ Status: `COMPLETE`.
 - Technical Editorial, Red Team and Reader Experience guards are preserved;
 - D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
 Next: `CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice`.
+
+## CRN-M-03 D4 Practice Reasoning v1
+
+Status: `COMPLETE`.
+- 10/10 cases A–J receive multiple valid expert reasoning trajectories;
+- no single answer key is declared;
+- source/component applicability, ISO 17440 direct/conditional/excluded routing,
+  ISO 17096 grab-scope exclusion, configuration provenance, V&V/common-mode error,
+  sensitivity/coverage, observability, value-of-information and authority handoff are explicit;
+- 14 cross-case blocking-failure semantics are defined;
+- unseen transfer expectations are explicit;
+- Practice and D4 Lesson stack remain unchanged;
+- D1/D2/D3 frozen content and FROZEN_INDEX remain immutable.
+Next: `CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions`.

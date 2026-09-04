@@ -492,3 +492,14 @@ Status: `COMPLETE`.
 - hook applicability, grab source-gap, V&V, robustness, observability and authority guards are exercised.
 
 Next: `CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice`.
+
+## D4 — Practice Reasoning v1
+
+Status: `COMPLETE`.
+- 10/10 cases A–J;
+- multiple valid reasoning paths; no single answer key;
+- 14 blocking-failure families;
+- unseen transfer explicitly required;
+- Practice remains unchanged.
+
+Next: `CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions`.
