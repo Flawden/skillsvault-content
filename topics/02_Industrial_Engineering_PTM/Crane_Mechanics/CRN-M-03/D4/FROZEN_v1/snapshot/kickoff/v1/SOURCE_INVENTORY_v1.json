@@ -1,0 +1,258 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "depth": "D4",
+  "version": "v1",
+  "verified_on": "2026-09-04",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "baseline_commit": "95de28a1db14e283522936f574bbce22fa495f47",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-03-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN",
+      "version": "v1",
+      "tag": "crn-m-03-d3-v1",
+      "commit": "95de28a1db14e283522936f574bbce22fa495f47"
+    }
+  ],
+  "structural_precedent": {
+    "topic": "CRN-M-02",
+    "depth": "D4",
+    "version": "v1",
+    "tag": "crn-m-02-d4-v1"
+  },
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "edition": 5,
+      "published": "2026-07",
+      "stage": "60.60",
+      "role": "TERMINOLOGY_COMPONENT_QUESTION_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-17440-2014",
+      "title": "ISO 17440:2014 — Cranes — General design — Limit states and proof of competence of forged steel hooks",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 1,
+      "stage": "90.93",
+      "role": "PRIMARY_FORGED_HOOK_PROOF_METHOD_SCOPE_BOUNDARY",
+      "scope_note": "Point-hook bodies made of steel forgings and machined shanks with thread/nut suspension; plate hooks not covered; uses limit-state approach with ISO 8686-1.",
+      "public_url": "https://www.iso.org/standard/59758.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-17096-2015",
+      "title": "ISO 17096:2015 — Cranes — Safety — Load lifting attachments",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 1,
+      "stage": "90.93",
+      "role": "ATTACHMENT_SCOPE_AND_NEGATIVE_GRAB_BOUNDARY",
+      "scope_note": "Includes listed attachment families such as C-hooks; explicitly excludes buckets, grabs and grab buckets. C-hook coverage must not be conflated with crane hook suspension/hook-block proof.",
+      "public_url": "https://www.iso.org/standard/58103.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-10972-1-2025",
+      "title": "ISO 10972-1:2025 — Cranes — Requirements for mechanisms — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "edition": 2,
+      "published": "2025-02",
+      "stage": "60.60",
+      "role": "MECHANISM_REQUIREMENT_VS_PROOF_BOUNDARY",
+      "scope_note": "General layout and component selection/design requirements; public abstract explicitly says it does not provide proof-of-competence calculations for yield/fatigue/wear limit states.",
+      "public_url": "https://www.iso.org/standard/85884.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-8686-1-2012",
+      "title": "ISO 8686-1:2012 — Cranes — Design principles for loads and load combinations — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_UNDER_REVIEW_STAGE_90_60",
+      "edition": 2,
+      "stage": "90.60",
+      "role": "LOAD_MODEL_LOAD_COMBINATION_MODEL_FIDELITY_BOUNDARY",
+      "watchlist": true,
+      "public_url": "https://www.iso.org/standard/59417.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-20332-2016",
+      "title": "ISO 20332:2016 — Cranes — Proof of competence of steel structures",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 2,
+      "stage": "90.93",
+      "role": "STEEL_STRUCTURE_LIMIT_STATE_PROOF_SCOPE_MAPPING_BOUNDARY",
+      "scope_note": "General crane steel-structure proof method used with applicable ISO 8686 loads. It is not automatically the governing method for forged hook bodies or every grab component; component/scope mapping is mandatory.",
+      "public_url": "https://www.iso.org/standard/62663.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-9927-1-2013",
+      "title": "ISO 9927-1:2013 — Cranes — Inspections — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 3,
+      "stage": "90.93",
+      "role": "INSPECTION_METHOD_EVIDENCE_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/51102.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12480-1-2024",
+      "title": "ISO 12480-1:2024 — Cranes — Safe use — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "edition": 2,
+      "stage": "60.60",
+      "role": "SAFE_USE_OPERATIONAL_AUTHORITY_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/83637.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12480-5-2026",
+      "title": "ISO 12480-5:2026 — Cranes — Safe use — Part 5: Bridge and gantry cranes",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "edition": 1,
+      "published": "2026-06",
+      "stage": "60.60",
+      "role": "BRIDGE_GANTRY_SAFE_USE_CONTEXT_WHEN_APPLICABLE",
+      "scope_note": "Contextual only when the actual crane is bridge/gantry; not a universal hook/grab proof source.",
+      "public_url": "https://www.iso.org/standard/90196.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-4301-1-2016",
+      "title": "ISO 4301-1:2016 — Cranes — Classification — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 3,
+      "stage": "90.93",
+      "role": "DUTY_CLASSIFICATION_INPUT_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/63070.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-12482-2014",
+      "title": "ISO 12482:2014 — Cranes — Monitoring for crane design working period",
+      "authority": "ISO",
+      "status": "PUBLISHED_TO_BE_REVISED_STAGE_90_92",
+      "edition": 1,
+      "stage": "90.92",
+      "role": "DUTY_MONITORING_DESIGN_WORKING_PERIOD_CONTEXT",
+      "watchlist": true,
+      "public_url": "https://www.iso.org/standard/57481.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-ISO-CD-12482-ED2",
+      "title": "ISO/CD 12482 — Cranes — Monitoring for crane design working period — Edition 2",
+      "authority": "ISO",
+      "status": "UNDER_DEVELOPMENT_STAGE_30_20",
+      "edition": 2,
+      "stage": "30.20",
+      "role": "DEVELOPMENT_WATCH_ONLY",
+      "watchlist": true,
+      "normative_for_d4": false,
+      "public_url": "https://www.iso.org/standard/91046.html"
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "Ростехнадзор",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "valid_through": "2032-09-01",
+      "role": "RUSSIAN_REGULATORY_AUTHORITY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/"
+    },
+    {
+      "id": "OEM-PASSPORT-DESIGN-ACTUAL-DEVICE",
+      "title": "Passport / OEM / designer / actual-device / service records",
+      "authority": "OEM_OR_DESIGN_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_METHOD_INPUTS_AND_AUTHORITY",
+      "role": "EQUIPMENT_INPUT_CONFIGURATION_HISTORY_AND_AUTHORITY_SOURCE",
+      "public": false
+    }
+  ],
+  "source_counts": {
+    "total_records": 14,
+    "published_or_regulatory_records": 11,
+    "development_companion_records": 1,
+    "equipment_authority_records": 1,
+    "watchlist_records": 3,
+    "scope_negative_records": 1
+  },
+  "watchlist": [
+    "EXT-ISO-8686-1-2012",
+    "EXT-ISO-12482-2014",
+    "EXT-ISO-CD-12482-ED2"
+  ],
+  "method_scaffold": {
+    "status": "UNLOCKED_NON_NORMATIVE",
+    "normative_claim": false,
+    "required_steps": [
+      "question_output",
+      "component_system_boundary",
+      "method_candidates",
+      "source_scope_applicability",
+      "boundary_conditions",
+      "inputs_provenance",
+      "implementation",
+      "verification_checks",
+      "validation_cross_check",
+      "sensitivity_uncertainty",
+      "competing_method_comparison",
+      "bounded_review",
+      "authority_handoff"
+    ]
+  },
+  "topic_specific_guards": {
+    "iso17440_forged_hook_scope_mapping_required": true,
+    "iso17096_c_hook_not_crane_hook_proof": true,
+    "iso17096_grab_grab_bucket_transfer_forbidden": true,
+    "grab_exact_source_gap_must_be_explicit": true,
+    "forged_hook_plate_hook_scope_separation_required": true,
+    "component_method_mapping_required": true
+  },
+  "locked_claim_classes": [
+    "closed_paid_tables_coefficients_or_algorithms_not_legitimately_available",
+    "actual_hook_proof_from_public_metadata",
+    "actual_dynamic_factors_or_load_combinations_from_memory",
+    "actual_component_stress_fatigue_bearing_or_contact_verdict_without_governing_method_and_inputs",
+    "actual_grab_holding_capacity_or_acceptance_values_without_exact_applicable_source",
+    "numeric_remaining_life_or_life_extension_verdict",
+    "discard_acceptance_criteria_reconstructed_from_secondary_fragments",
+    "specialist_ndt_interpretation_without_qualification",
+    "repair_redesign_adjustment_or_modification_approval",
+    "equipment_specific_authority_without_oem_passport_designer_or_expert_basis",
+    "operation_or_return_to_service_permission"
+  ],
+  "lesson_authoring_unlocked": true,
+  "method_selection_review_unlocked": true,
+  "validation_sensitivity_error_review_unlocked": true,
+  "source_bound_numeric_proof_unlocked": false,
+  "equipment_specific_authority_locked": true,
+  "field_authority_locked": true,
+  "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff"
+}

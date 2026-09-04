@@ -1,0 +1,54 @@
+{
+  "artifact": "CRN-M-03_D4_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-04",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+  "baseline_commit": "0a73d054a8203524db26e7df6f363f0e46831127",
+  "scope": {
+    "parts": 9,
+    "blocks": 45
+  },
+  "findings_fixed": 9,
+  "findings": [
+    "RX-M03-D4-01",
+    "RX-M03-D4-02",
+    "RX-M03-D4-03",
+    "RX-M03-D4-04",
+    "RX-M03-D4-05",
+    "RX-M03-D4-06",
+    "RX-M03-D4-07",
+    "RX-M03-D4-08",
+    "RX-M03-D4-09"
+  ],
+  "parts_with_reader_layer_updates": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "checks": {
+    "whole_d4_progression_map": true,
+    "capability_targets_9_of_9": true,
+    "positive_causal_lines": true,
+    "hook_grab_scope_memory_map": true,
+    "verification_crosscheck_validation_memory_map": true,
+    "evidence_role_map": true,
+    "retrieval_checkpoints_9_of_9": true,
+    "technical_depth_reduced": false,
+    "normative_claims_changed": false,
+    "technical_editorial_guards_weakened": false,
+    "red_team_guards_weakened": false,
+    "d1_frozen_modified": false,
+    "d2_frozen_modified": false,
+    "d3_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d4_kickoff_source_gate_modified": false
+  },
+  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff"
+}

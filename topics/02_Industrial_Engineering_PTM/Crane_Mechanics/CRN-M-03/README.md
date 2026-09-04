@@ -549,3 +549,14 @@ Decision: `PASS WITH WATCHLIST`.
 - freeze ready: YES.
 
 Next: `CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history`.
+
+## D4 — FROZEN v1
+
+Status: `CONTENT_FROZEN`.
+- source baseline: `07cc5542dcbb398880b585b8b61a21195ad64432`;
+- snapshot members: 86;
+- tag: `crn-m-03-d4-v1`;
+- artifact integrity: PASS;
+- Source Freshness: PASS WITH WATCHLIST.
+
+Next: `CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.

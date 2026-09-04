@@ -1454,3 +1454,20 @@ Decision: `PASS WITH WATCHLIST — FREEZE READY`.
 - no aligned D4 competence contract change required;
 - D1/D2/D3 and all prior D4 layers remain unchanged.
 Next: `CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history`.
+
+## CRN-M-03 D4 Freeze v1
+
+Status: `CONTENT_FROZEN`.
+- source baseline: `07cc5542dcbb398880b585b8b61a21195ad64432`;
+- immutable path: `topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/FROZEN_v1`;
+- snapshot members: 86;
+- Lesson 45/45, Practice 10/10, Reasoning 10/10;
+- Expected Result 14/14, Verification Rubric 14/14;
+- BF provenance 14/14;
+- U1 + C1 transfer contract preserved;
+- Source Freshness: PASS WITH WATCHLIST (3);
+- artifact source↔snapshot identity: PASS;
+- annotated tag contract: `crn-m-03-d4-v1`;
+- D1/D2/D3 remain immutable.
+
+Next: `CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.

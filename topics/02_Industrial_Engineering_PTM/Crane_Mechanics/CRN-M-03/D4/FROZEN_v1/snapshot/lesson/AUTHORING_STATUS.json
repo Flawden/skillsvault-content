@@ -1,0 +1,247 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-04",
+  "baseline_commit": "30e676c20beb0160b69e01664bb9d0d59a3e12a7",
+  "prerequisites": [
+    {
+      "depth": "D1",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d1-v1"
+    },
+    {
+      "depth": "D2",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d2-v1"
+    },
+    {
+      "depth": "D3",
+      "status": "FROZEN_v1",
+      "tag": "crn-m-03-d3-v1"
+    }
+  ],
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "parts_total": 9,
+  "parts_completed": 9,
+  "blocks_total": 45,
+  "blocks_completed": 45,
+  "completed_parts": [
+    "I",
+    "II",
+    "III",
+    "IV",
+    "V",
+    "VI",
+    "VII",
+    "VIII",
+    "IX"
+  ],
+  "parts": {
+    "I": {
+      "title": "Method governance: question/source/method/audit trail",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/I/v1/CRN-M-03_D4_LESSON_PART_I_BLOCKS_1_5_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/I/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/I/v1/AUTHORING_QA_v1.json"
+    },
+    "II": {
+      "title": "Boundary-value problem: hook suspension / grab system / state / output",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/II/v1/CRN-M-03_D4_LESSON_PART_II_BLOCKS_6_10_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/II/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/II/v1/AUTHORING_QA_v1.json"
+    },
+    "III": {
+      "title": "Load/model fidelity and adequacy",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/III/v1/CRN-M-03_D4_LESSON_PART_III_BLOCKS_11_15_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/III/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/III/v1/AUTHORING_QA_v1.json"
+    },
+    "IV": {
+      "title": "Forged-hook proof applicability and exact-source boundary",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IV/v1/CRN-M-03_D4_LESSON_PART_IV_BLOCKS_16_20_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IV/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IV/v1/AUTHORING_QA_v1.json"
+    },
+    "V": {
+      "title": "Suspension / traverse / pin / bearing / grab component-model hierarchy",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/V/v1/CRN-M-03_D4_LESSON_PART_V_BLOCKS_21_25_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/V/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/V/v1/AUTHORING_QA_v1.json"
+    },
+    "VI": {
+      "title": "Verification versus validation and independent checks",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VI/v1/CRN-M-03_D4_LESSON_PART_VI_BLOCKS_26_30_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VI/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VI/v1/AUTHORING_QA_v1.json"
+    },
+    "VII": {
+      "title": "Sensitivity, uncertainty, error budget and competing methods",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VII/v1/CRN-M-03_D4_LESSON_PART_VII_BLOCKS_31_35_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VII/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VII/v1/AUTHORING_QA_v1.json"
+    },
+    "VIII": {
+      "title": "Duty / inspection / monitoring / life-context boundaries",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VIII/v1/CRN-M-03_D4_LESSON_PART_VIII_BLOCKS_36_40_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VIII/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/VIII/v1/AUTHORING_QA_v1.json"
+    },
+    "IX": {
+      "title": "Expert synthesis, review, stop rules and authority handoff",
+      "status": "AUTHORING_COMPLETE_v1",
+      "blocks": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IX/v1/CRN-M-03_D4_LESSON_PART_IX_BLOCKS_41_45_v1.md",
+      "source_map": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IX/v1/SOURCE_MAP_v1.json",
+      "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/parts/IX/v1/AUTHORING_QA_v1.json"
+    }
+  },
+  "coverage": {
+    "question_class_before_method": true,
+    "boundary_value_problem_complete": true,
+    "model_fidelity_selection_complete": true,
+    "forged_hook_proof_scope_complete": true,
+    "grab_source_gap_governance_complete": true,
+    "component_model_hierarchy_complete": true,
+    "verification_validation_separation_complete": true,
+    "sensitivity_uncertainty_error_budget_complete": true,
+    "duty_inspection_monitoring_life_boundaries_complete": true,
+    "expert_review_stop_rules_authority_handoff_complete": true
+  },
+  "locks": {
+    "paid_source_reconstruction_preserved": true,
+    "actual_hook_proof_without_exact_method_locked": true,
+    "iso17096_grab_scope_transfer_locked": true,
+    "actual_grab_holding_capacity_acceptance_locked": true,
+    "remaining_life_verdict_locked": true,
+    "discard_acceptance_secondary_source_locked": true,
+    "specialist_ndt_locked": true,
+    "equipment_specific_authority_locked": true,
+    "field_modification_authority_locked": true,
+    "operation_return_to_service_locked": true
+  },
+  "technical_editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "5be0db99d51d56adf35ef32f36e1280bc59a87b0",
+    "findings": 9,
+    "corrections_applied": 9,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/CRN-M-03_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json"
+  },
+  "red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "5015ed93d23c3ea8e88eef89b9ec60a53bca8c44",
+    "findings": 10,
+    "corrections_applied": 10,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/red_team/pass_I/v1/CRN-M-03_D4_RED_TEAM_PASS_I_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json"
+  },
+  "reader_experience": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "baseline_commit": "0a73d054a8203524db26e7df6f363f0e46831127",
+    "findings": 9,
+    "improvements_applied": 9,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/CRN-M-03_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json"
+  },
+  "practice": {
+    "status": "NEXT",
+    "version": "v1"
+  },
+  "practice_reasoning": {
+    "status": "PENDING"
+  },
+  "expected_result": {
+    "status": "PENDING"
+  },
+  "verification_rubric": {
+    "status": "PENDING"
+  },
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff"
+}

@@ -1,0 +1,29 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "part": "IX",
+  "version": "v1",
+  "title": "Expert synthesis, review, stop rules and authority handoff",
+  "blocks": [
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "source_ids": [
+    "EXT-ISO-17440-2014",
+    "EXT-ISO-17096-2015",
+    "EXT-ISO-9927-1-2013",
+    "EXT-ISO-12480-1-2024",
+    "EXT-RU-FNP-461",
+    "OEM-PASSPORT-DESIGN-ACTUAL-DEVICE"
+  ],
+  "source_role_rule": "SOURCE_METADATA_AND_SCOPE_ONLY_UNLESS_EXACT_APPLICABLE_METHOD_TEXT_AND_INPUTS_ARE_LEGITIMATELY_AVAILABLE",
+  "iso17096_grab_transfer_forbidden": true,
+  "frozen_prerequisites": [
+    "crn-m-03-d1-v1",
+    "crn-m-03-d2-v1",
+    "crn-m-03-d3-v1"
+  ]
+}

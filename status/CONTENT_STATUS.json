@@ -787,7 +787,7 @@
       }
     },
     "D4": {
-      "status": "ACTIVE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "prerequisites": [
@@ -845,7 +845,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "PENDING"
+        "freeze": "COMPLETE"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -1068,10 +1068,24 @@
         "records": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/source_freshness/v1/SOURCE_FRESHNESS_RECORDS_v1.json",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json",
         "freeze": "NEXT"
+      },
+      "freeze": {
+        "status": "CONTENT_FROZEN",
+        "version": "v1",
+        "freeze_date": "2026-09-04",
+        "source_baseline_commit": "07cc5542dcbb398880b585b8b61a21195ad64432",
+        "snapshot_members": 86,
+        "tag": "crn-m-03-d4-v1",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/FROZEN_v1",
+        "artifact_integrity": "PASS",
+        "source_freshness": "PASS_WITH_WATCHLIST",
+        "watchlist": 3,
+        "content_corrections_required": false,
+        "next": "CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff"
       }
     }
   },
-  "next": "CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history",
+  "next": "CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1250,21 +1264,11 @@
         }
       },
       "D4": {
-        "status": "ACTIVE",
-        "kickoff": "COMPLETE",
-        "scope": "LOCKED",
-        "source_gate": "PASS_WITH_CLAIM_LIMITS",
-        "lesson": "COMPLETE",
-        "technical_editorial": "COMPLETE",
-        "red_team": "COMPLETE",
-        "reader_experience": "COMPLETE",
-        "practice": "COMPLETE",
-        "practice_reasoning": "COMPLETE",
-        "expected_result": "COMPLETE",
-        "verification_rubric": "COMPLETE",
-        "final_alignment": "COMPLETE",
-        "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "status": "FROZEN",
+        "version": "v1",
+        "tag": "crn-m-03-d4-v1",
+        "source_baseline_commit": "07cc5542dcbb398880b585b8b61a21195ad64432",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/FROZEN_v1"
       }
     }
   },
@@ -1494,5 +1498,14 @@
     "content_contract_change_required": false,
     "freeze": "NEXT",
     "next": "CRN-M-03 / D4 FREEZE / v1 — create immutable D4 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-03-d4-v1, push commit and tag, and preserve D1/D2/D3 frozen history"
+  },
+  "crn_m03_d4_freeze": {
+    "status": "CONTENT_FROZEN",
+    "version": "v1",
+    "source_baseline_commit": "07cc5542dcbb398880b585b8b61a21195ad64432",
+    "snapshot_members": 86,
+    "tag": "crn-m-03-d4-v1",
+    "artifact_integrity": "PASS",
+    "next": "CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff"
   }
 }

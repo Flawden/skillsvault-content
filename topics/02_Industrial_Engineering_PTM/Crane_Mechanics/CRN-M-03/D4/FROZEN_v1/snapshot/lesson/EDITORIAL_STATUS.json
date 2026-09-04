@@ -1,0 +1,15 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "stage": "TECHNICAL_EDITORIAL",
+  "status": "COMPLETE",
+  "pass": "I",
+  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff",
+  "version": "v1",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "baseline_commit": "5be0db99d51d56adf35ef32f36e1280bc59a87b0",
+  "findings": 9,
+  "corrections_applied": 9,
+  "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/CRN-M-03_D4_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+  "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/editorial/pass_I/v1/TECHNICAL_EDITORIAL_QA_v1.json"
+}

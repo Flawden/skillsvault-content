@@ -1,0 +1,136 @@
+# CRN-M-03 / D4 Lesson — Part VIII v1
+## Duty / inspection / monitoring / life-context boundaries
+
+### Reader Navigator — evidence channels отвечают на разные вопросы
+
+| Channel | Главный вопрос | Не становится автоматически |
+|---|---|---|
+| **Inspection** | что наблюдалось в зоне/методе/состоянии проверки? | design proof / remaining-life verdict |
+| **Monitoring** | что записано в covered history/resolution? | доказательством отсутствия незаписанного event |
+| **Classification** | какой duty context задан? | actual component history / remaining life |
+| **Formal proof method** | выполнен ли source-bound check? | field permission без authority |
+| **Safe-use / regulatory** | какие operational/authority requirements действуют? | заменой design/model proof |
+
+Channels не «голосуют». Конфликт означает пересмотр state/scope/observability/method.
+
+```text
+NO DEFECT OBSERVED ≠ DEFECT ABSENT
+NO EVENT LOGGED ≠ EVENT DID NOT OCCUR
+```
+
+### К концу Части VIII ты должен уметь
+
+- использовать inspection как bounded condition evidence;
+- проверить observability до negative evidence;
+- использовать classification/monitoring только в пределах их role/coverage;
+- не превращать ISO 12482 context в component-specific remaining-life method;
+- отделить technical analysis от safe-use/regulatory operational authority.
+
+# Block 36 — Inspection evidence as input lane
+
+## Capability target
+После блока инженер должен уметь применить `Inspection evidence as input lane` как наблюдаемую D4-процедуру, а не как лозунг.
+
+## Core
+Inspection findings информируют geometry/condition/model choice и validation, но inspection result не становится design proof автоматически, а D4 analysis не выдаёт discard/acceptance без authority. `NO DEFECT OBSERVED` не означает `DEFECT ABSENT`: отрицательное evidence требует observability gate по access/coverage, method capability, procedure/state, uncertainty и competence.
+
+## Working sequence
+1. Finding → model input?
+2. Coverage/reliability.
+3. Inspection authority separate.
+
+## Guard
+Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
+
+## Retrieval checkpoint
+Сформулируй за 60 секунд: **какой вопрос решает Block 36, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+# Block 37 — Duty classification as context, not verdict
+
+## Capability target
+После блока инженер должен уметь применить `Duty classification as context, not verdict` как наблюдаемую D4-процедуру, а не как лозунг.
+
+## Core
+Classification помогает описать duty context, но не доказывает actual history отдельного attachment и не выдаёт remaining life. Exact equipment history остаётся отдельным input lane.
+
+## Working sequence
+1. Classification source.
+2. Actual utilization record.
+3. Do not infer life from class alone.
+
+## Guard
+Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
+
+## Retrieval checkpoint
+Сформулируй за 60 секунд: **какой вопрос решает Block 37, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+# Block 38 — Monitoring record coverage and model selection
+
+## Capability target
+После блока инженер должен уметь применить `Monitoring record coverage and model selection` как наблюдаемую D4-процедуру, а не как лозунг.
+
+## Core
+Monitoring/log data влияет на load/history scenarios только в пределах coverage, resolution and mapping quality. Пропуски не равны нулевой нагрузке, а `NO EVENT LOGGED` не означает `EVENT DID NOT OCCUR` без достаточных coverage/resolution/sensor mapping/data-completeness conditions.
+
+## Working sequence
+1. Coverage window.
+2. Sensor/mapping validity.
+3. Missing data policy.
+4. Scenario implication.
+
+## Guard
+Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
+
+## Retrieval checkpoint
+Сформулируй за 60 секунд: **какой вопрос решает Block 38, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+# Block 39 — Remaining-life boundary and watchlist discipline
+
+## Capability target
+После блока инженер должен уметь применить `Remaining-life boundary and watchlist discipline` как наблюдаемую D4-процедуру, а не как лозунг.
+
+## Core
+ISO 12482:2014 остаётся published-to-be-revised; draft Edition 2 — watch only. Этот source относится к monitoring/design-working-period context и не становится автоматически component-specific remaining-life method для hook body, suspension member или grab. Exact applicable method должен владеть component scope и required-input list. D4 может объяснять role/history inputs, но numeric remaining-life/life-extension verdict остаётся locked без complete governing method/data/authority.
+
+## Working sequence
+1. Published vs draft.
+2. Method completeness.
+3. History completeness.
+4. Authority lane.
+
+## Guard
+Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
+
+## Retrieval checkpoint
+Сформулируй за 60 секунд: **какой вопрос решает Block 39, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+# Block 40 — Safe-use / regulatory authority separation
+
+## Capability target
+После блока инженер должен уметь применить `Safe-use / regulatory authority separation` как наблюдаемую D4-процедуру, а не как лозунг.
+
+## Core
+Safe-use and ФНП requirements определяют operational/regulatory constraints, но method review не превращается в разрешение продолжать работу. Analysis STOP ≠ permission to operate.
+
+## Working sequence
+1. Technical finding.
+2. Regulatory requirement.
+3. Operational decision owner.
+
+## Guard
+Не повышай model/evidence/source role до proof, acceptance, remaining-life или operation authority без отдельного применимого метода, complete inputs и компетентного decision owner.
+
+## Retrieval checkpoint
+Сформулируй за 60 секунд: **какой вопрос решает Block 40, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint VIII — разложи evidence по ролям
+
+1. Что именно может утверждать inspection finding?
+2. Какой observability gate нужен перед отрицательным evidence?
+3. Почему missing monitoring data не равны zero load?
+4. Что classification не доказывает об actual history?
+5. Где заканчивается monitoring/life context и начинается authority-bound remaining-life method?
+
+## Мост к Части IX
+
+Осталось собрать конфликтующие methods/evidence в bounded expert review и остановиться в правильном месте.

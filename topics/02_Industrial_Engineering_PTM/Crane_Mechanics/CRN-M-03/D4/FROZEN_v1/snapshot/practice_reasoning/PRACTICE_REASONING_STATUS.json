@@ -1,0 +1,23 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "stage": "PRACTICE_REASONING",
+  "version": "v1",
+  "date": "2026-09-04",
+  "status": "COMPLETE",
+  "baseline_commit": "696137256b6a9c37991e8df138bb6282ff0cb9cc",
+  "cases": 10,
+  "blocking_failure_families": 14,
+  "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice_reasoning/v1/CRN-M-03_D4_PRACTICE_REASONING_v1.md",
+  "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+  "single_answer_key": false,
+  "multiple_valid_paths_explicit": true,
+  "practice_unchanged": true,
+  "lesson_stack_unchanged": true,
+  "expected_result": "NEXT",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions"
+}

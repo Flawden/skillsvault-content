@@ -1,0 +1,27 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "part": "V",
+  "version": "v1",
+  "title": "Suspension / traverse / pin / bearing / grab component-model hierarchy",
+  "blocks": [
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "source_ids": [
+    "EXT-ISO-10972-1-2025",
+    "EXT-ISO-20332-2016",
+    "EXT-ISO-17096-2015",
+    "OEM-PASSPORT-DESIGN-ACTUAL-DEVICE"
+  ],
+  "source_role_rule": "SOURCE_METADATA_AND_SCOPE_ONLY_UNLESS_EXACT_APPLICABLE_METHOD_TEXT_AND_INPUTS_ARE_LEGITIMATELY_AVAILABLE",
+  "iso17096_grab_transfer_forbidden": true,
+  "frozen_prerequisites": [
+    "crn-m-03-d1-v1",
+    "crn-m-03-d2-v1",
+    "crn-m-03-d3-v1"
+  ]
+}
