@@ -1372,3 +1372,16 @@ Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
 - Technical Editorial and Red-Team guards are preserved;
 - D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
 Next: `CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff`.
+
+## CRN-M-03 D4 Practice v1
+
+Status: `COMPLETE`.
+- 10/10 expert integrated cases A–J;
+- one common D4 review-packet contract;
+- question/method governance, configuration provenance, model fidelity, ISO 17440 applicability,
+  grab source gaps, V&V/common-mode error, sensitivity/coverage, inspection/monitoring/life boundaries,
+  competing methods and bounded authority handoff are exercised;
+- answer key and canonical reasoning are intentionally not embedded;
+- Technical Editorial, Red Team and Reader Experience guards are preserved;
+- D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
+Next: `CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice`.

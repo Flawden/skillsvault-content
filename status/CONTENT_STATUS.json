@@ -839,7 +839,7 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "PENDING",
+        "practice": "COMPLETE",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
@@ -970,10 +970,24 @@
         "red_team_guards_weakened": false,
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/CRN-M-03_D4_READER_EXPERIENCE_PASS_I_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json"
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "6bf0fe4a909963786b81dfaa1c1cf50feec45407",
+        "cases": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice/v1/CRN-M-03_D4_PRACTICE_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/practice/v1/PRACTICE_QA_v1.json",
+        "answer_key_embedded": false,
+        "practice_reasoning": "NEXT",
+        "technical_editorial_guards_preserved": true,
+        "red_team_guards_preserved": true,
+        "reader_experience_contract_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff",
+  "next": "CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1160,7 +1174,8 @@
         "technical_editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience": "COMPLETE",
-        "practice": "NEXT"
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT"
       }
     }
   },
@@ -1317,5 +1332,14 @@
     "improvements_applied": 9,
     "practice": "NEXT",
     "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff"
+  },
+  "crn_m03_d4_practice": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6bf0fe4a909963786b81dfaa1c1cf50feec45407",
+    "cases": 10,
+    "answer_key_embedded": false,
+    "practice_reasoning": "NEXT",
+    "next": "CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice"
   }
 }

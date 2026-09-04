@@ -482,3 +482,13 @@ Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
 - expert/reference depth is preserved.
 
 Next: `CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff`.
+
+## D4 — Practice v1
+
+Status: `COMPLETE`.
+- 10 expert cases A–J;
+- no embedded answer key;
+- full D4 review packet required for every case;
+- hook applicability, grab source-gap, V&V, robustness, observability and authority guards are exercised.
+
+Next: `CRN-M-03 / D4 PRACTICE REASONING / v1 — define expert reasoning paths, discriminating checks, acceptable bounded statuses and blocking failures for all 10 D4 cases without embedding a student answer key into Practice`.
