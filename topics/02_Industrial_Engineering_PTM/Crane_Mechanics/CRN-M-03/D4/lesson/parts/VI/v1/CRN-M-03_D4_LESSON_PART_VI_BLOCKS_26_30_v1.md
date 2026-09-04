@@ -1,8 +1,29 @@
 # CRN-M-03 / D4 Lesson — Part VI v1
 ## Verification versus validation and independent checks
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — три слова `проверили` означают три разных вещи
+
+| Layer | Главный вопрос | Не доказывает само по себе |
+|---|---|---|
+| **Verification** | правильно ли решена/реализована заявленная модель? | что model represents the real system |
+| **Cross-check** | согласуется ли независимый reasoning/model route? | что common-mode error исключён |
+| **Validation** | достаточна ли model для real system и intended-use domain? | authority за пределами validated domain |
+
+```text
+SOLVER CONVERGED
+≠ MODEL VALIDATED
+
+TWO MODELS AGREE
+≠ COMMON-MODE ERROR EXCLUDED
+```
+
+### К концу Части VI ты должен уметь
+
+- отделить verification, cross-check и validation;
+- выбрать cheap checks: units/sign/equilibrium/limiting cases;
+- описать independence по implementation, inputs, geometry, model form, data и criterion interpretation;
+- определить intended-use / validation domain;
+- не выдавать OEM requirement/input или model agreement за automatic real-system validation.
 
 # Block 26 — Verification is not validation
 
@@ -101,3 +122,15 @@ Mesh convergence показывает numerical stability относительн
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 30, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint VI — раздели три вида evidence
+
+1. Что проверяет verification?
+2. Что добавляет cross-check?
+3. Что необходимо для validation?
+4. Назови минимум три common-mode dimensions, которые могут пережить «независимый» второй расчёт.
+5. Почему convergence — полезно, но недостаточно?
+
+## Мост к Части VII
+
+Даже verified/validated model может дать хрупкий decision, если вывод чувствителен к плохо известным inputs или coverage.

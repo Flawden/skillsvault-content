@@ -1,8 +1,28 @@
 # CRN-M-03 / D4 Lesson — Part II v1
 ## Boundary-value problem: hook suspension / grab system / state / output
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — преврати реальный узел в однозначную задачу
+
+Положительная линия части:
+
+```text
+REAL HOOK / SUSPENSION / GRAB
+→ SYSTEM BOUNDARY
+→ STATE / CONTACTS / DOF / CG
+→ LOAD PATH / ACTIVE CONSTRAINTS
+→ INPUT FREEZE
+→ CALCULABLE MODEL
+```
+
+Сначала создай **system/boundary card**: bodies, inside/outside, state, contacts, output, configuration revision.
+
+### К концу Части II ты должен уметь
+
+- отделить hook body, shank, traverse, pins/bearings/branches как разные components;
+- описать grab state, jaws/linkages/rope-or-drive constraints и active contacts;
+- зафиксировать DOF/CG/motion-state assumptions;
+- отличить `OBSERVED / AS-FOUND` от `APPROVED / DESIGN-CONFORMING`;
+- заморозить inputs для model revision без превращения observed state в approval.
 
 # Block 6 — System boundary and requested output
 
@@ -100,3 +120,15 @@ Constraint set, degrees of freedom, CG and motion state — часть boundary-
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 10, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint II — нарисуй систему
+
+1. Какие bodies входят в system boundary для выбранного output?
+2. Где hook assembly должен быть разложен на components?
+3. Какие grab contacts/constraints активны в рассматриваемом state?
+4. Почему slow observed motion не равен автоматически quasi-static assumption?
+5. Чем INPUT FREEZE отличается от approval configuration?
+
+## Мост к Части III
+
+Когда boundary/state/inputs зафиксированы, можно выбирать минимальную достаточную fidelity.

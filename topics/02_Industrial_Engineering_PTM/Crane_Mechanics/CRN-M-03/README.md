@@ -471,3 +471,14 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - technical recommendation ≠ authorized equipment decision.
 
 Next: `CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice`.
+
+## D4 — Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
+- one executable D4 route now spans all 9 Parts;
+- Part capability targets and reader checkpoints are complete 9/9;
+- hook/grab scope, V&V, sensitivity coverage and evidence-role distinctions are easier to retrieve;
+- no Technical-Editorial or Red-Team guard was weakened;
+- expert/reference depth is preserved.
+
+Next: `CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff`.

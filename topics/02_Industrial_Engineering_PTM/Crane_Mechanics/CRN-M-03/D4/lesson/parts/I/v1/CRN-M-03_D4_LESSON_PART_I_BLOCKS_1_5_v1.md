@@ -1,8 +1,34 @@
 # CRN-M-03 / D4 Lesson — Part I v1
 ## Method governance: question/source/method/audit trail
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — весь D4 на одной карте
+
+Не пытайся держать 45 блоков в памяти. Держи маршрут:
+
+```text
+QUESTION / DECISION
+→ CONFIGURATION / STATE / OUTPUT
+→ SIMPLEST ADEQUATE MODEL
+→ SOURCE + COMPONENT APPLICABILITY
+→ HOOK / SUSPENSION / GRAB METHOD HIERARCHY
+→ VERIFICATION / CROSS-CHECK / VALIDATION
+→ SENSITIVITY / UNCERTAINTY / COVERAGE
+→ INSPECTION / DUTY / MONITORING BY ROLE
+→ BOUNDED REVIEW
+→ STOP / AUTHORITY HANDOFF
+```
+
+### Что не надо зубрить
+
+Не нужно помнить номер каждого ISO и каждое English label. Нужно уметь восстановить различие своими словами: **какой вопрос решаем, какой компонент/состояние рассматриваем, почему метод применим, откуда inputs, чем проверена модель, насколько покрыт uncertainty envelope и кто имеет право действовать**.
+
+### К концу Части I ты должен уметь
+
+- классифицировать engineering question до выбора метода;
+- различить requirement / model / proof / inspection / monitoring / operation;
+- оформить preliminary scope screen и final applicability как разные gates;
+- собрать method/provenance record;
+- оставить bounded status и audit trail без скачка к equipment authority.
 
 # Block 1 — Question class before method class
 
@@ -101,3 +127,15 @@ D4 результат должен быть воспроизводимым revie
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 5, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint I — восстанови маршрут без текста
+
+1. Почему D4 начинается с question/decision, а не с solver?
+2. Чем preliminary scope screen отличается от final applicability?
+3. Какие три вещи должны появиться между model result и equipment decision?
+4. Что обязательно хранит method/provenance record?
+5. Какой status честнее `probably applicable`, если governing conditions ещё не закрыты?
+
+## Мост к Части II
+
+Теперь нужно превратить реальный hook suspension / grab в однозначную boundary-value problem.

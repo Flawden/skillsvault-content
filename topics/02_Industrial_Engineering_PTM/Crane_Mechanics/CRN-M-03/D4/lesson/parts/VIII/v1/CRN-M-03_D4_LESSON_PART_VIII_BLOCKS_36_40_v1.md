@@ -1,8 +1,30 @@
 # CRN-M-03 / D4 Lesson — Part VIII v1
 ## Duty / inspection / monitoring / life-context boundaries
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — evidence channels отвечают на разные вопросы
+
+| Channel | Главный вопрос | Не становится автоматически |
+|---|---|---|
+| **Inspection** | что наблюдалось в зоне/методе/состоянии проверки? | design proof / remaining-life verdict |
+| **Monitoring** | что записано в covered history/resolution? | доказательством отсутствия незаписанного event |
+| **Classification** | какой duty context задан? | actual component history / remaining life |
+| **Formal proof method** | выполнен ли source-bound check? | field permission без authority |
+| **Safe-use / regulatory** | какие operational/authority requirements действуют? | заменой design/model proof |
+
+Channels не «голосуют». Конфликт означает пересмотр state/scope/observability/method.
+
+```text
+NO DEFECT OBSERVED ≠ DEFECT ABSENT
+NO EVENT LOGGED ≠ EVENT DID NOT OCCUR
+```
+
+### К концу Части VIII ты должен уметь
+
+- использовать inspection как bounded condition evidence;
+- проверить observability до negative evidence;
+- использовать classification/monitoring только в пределах их role/coverage;
+- не превращать ISO 12482 context в component-specific remaining-life method;
+- отделить technical analysis от safe-use/regulatory operational authority.
 
 # Block 36 — Inspection evidence as input lane
 
@@ -100,3 +122,15 @@ Safe-use and ФНП requirements определяют operational/regulatory con
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 40, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint VIII — разложи evidence по ролям
+
+1. Что именно может утверждать inspection finding?
+2. Какой observability gate нужен перед отрицательным evidence?
+3. Почему missing monitoring data не равны zero load?
+4. Что classification не доказывает об actual history?
+5. Где заканчивается monitoring/life context и начинается authority-bound remaining-life method?
+
+## Мост к Части IX
+
+Осталось собрать конфликтующие methods/evidence в bounded expert review и остановиться в правильном месте.

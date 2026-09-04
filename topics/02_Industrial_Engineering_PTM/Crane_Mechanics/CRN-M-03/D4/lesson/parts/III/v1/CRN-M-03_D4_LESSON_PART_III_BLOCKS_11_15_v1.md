@@ -1,8 +1,34 @@
 # CRN-M-03 / D4 Lesson — Part III v1
 ## Load/model fidelity and adequacy
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — fidelity отвечает на вопрос, а не заменяет governing method
+
+Положительная линия части:
+
+```text
+REQUESTED OUTPUT
+→ SIMPLE SCREENING MODEL
+→ CHECK WHAT PHYSICS IS MISSING
+→ ESCALATE FIDELITY ONLY IF MATERIAL
+→ DEFINE V&V PLAN
+→ MODEL-FORM STATUS
+```
+
+Держи две независимые оси:
+
+```text
+MODEL FIDELITY
+≠
+VALIDATION STATUS
+```
+
+### К концу Части III ты должен уметь
+
+- выбрать smallest adequate model;
+- использовать frozen D2 mechanics как screening/cross-check layer;
+- распознать момент, когда нужен source-bound load model;
+- обосновать повышение fidelity до local/contact/FEA;
+- сказать `MODEL FORM SUFFICIENT / INSUFFICIENT` без заявления, что governing proof method автоматически satisfied.
 
 # Block 11 — Smallest adequate model
 
@@ -98,3 +124,15 @@ Adequacy — достаточность model form для decision, а не аб
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 15, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint III — выбери model fidelity
+
+1. Когда frozen D2 model достаточен как screening layer?
+2. Какой trigger оправдывает higher fidelity?
+3. Почему FEA detail не повышает validation status?
+4. Когда нужен source-bound load model?
+5. Что означает `MODEL FORM SUFFICIENT`, а чего эта фраза не означает?
+
+## Мост к Части IV
+
+Теперь нужно доказать, что formal method вообще относится к нужному hook component и question.

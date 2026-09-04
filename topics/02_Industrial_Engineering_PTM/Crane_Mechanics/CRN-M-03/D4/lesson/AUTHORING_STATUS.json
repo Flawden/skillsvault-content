@@ -217,11 +217,19 @@
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/red_team/pass_I/v1/RED_TEAM_QA_v1.json"
   },
   "reader_experience": {
-    "status": "NEXT",
-    "pass": "I"
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "decision": "PASS_WITH_READER_LAYER_IMPROVEMENTS_APPLIED",
+    "baseline_commit": "0a73d054a8203524db26e7df6f363f0e46831127",
+    "findings": 9,
+    "improvements_applied": 9,
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/CRN-M-03_D4_READER_EXPERIENCE_PASS_I_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json"
   },
   "practice": {
-    "status": "PENDING"
+    "status": "NEXT",
+    "version": "v1"
   },
   "practice_reasoning": {
     "status": "PENDING"
@@ -235,5 +243,5 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice"
+  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff"
 }

@@ -1,8 +1,37 @@
 # CRN-M-03 / D4 Lesson — Part IV v1
 ## Forged-hook proof applicability and exact-source boundary
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — сначала scope state, потом proof branch
+
+Положительная линия части:
+
+```text
+HOOK CONSTRUCTION / COMPONENT
+→ SOURCE SCOPE
+→ DIRECT / CONDITIONAL / EXCLUDED
+→ EXACT METHOD CONDITIONS
+→ LOAD BASIS + INPUTS
+→ FORMAL METHOD OR STOP
+```
+
+Memory rule:
+
+```text
+ISO 17440
+DIRECT COVERAGE
+/ CONDITIONAL EXTENSION — EXACT CONDITIONS REQUIRED
+/ EXCLUDED / NOT COVERED
+```
+
+Plate-hook exclusion и conditional shank extension нельзя сводить в один status.
+
+### К концу Части IV ты должен уметь
+
+- различить hook body / shank / interface;
+- отделить direct coverage от conditional extension и exclusion;
+- не превращать публичный abstract в final applicability;
+- не использовать реально найденное source value вне правильного branch/condition/unit/component;
+- остановить source-bound proof, если цепь method + loads + geometry + material + criteria + authority неполна.
 
 # Block 16 — Forged hook body vs shank scope mapping
 
@@ -106,3 +135,15 @@ Proof-of-competence hook method и load/load-combination framework выполн�
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 20, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint IV — восстанови scope state
+
+1. Какие три applicability states нужно различать для ISO 17440 route?
+2. Почему conditional extension не является automatic eligibility?
+3. Какой public scope guard действует для plate hooks?
+4. Почему real source value всё ещё может быть использовано неправильно?
+5. Какие звенья делает formal proof complete?
+
+## Мост к Части V
+
+После hook-scope route нужно связать global load path с suspension/component/grab models, не перенося authority между ними.

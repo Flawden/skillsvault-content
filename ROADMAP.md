@@ -1357,3 +1357,18 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - analysis STOP is not operation permission;
 - technical recommendation/source-gap handoff is not an authorized equipment decision.
 Next: `CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice`.
+
+## CRN-M-03 D4 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-LAYER IMPROVEMENTS APPLIED`.
+- 9/9 Parts and 45/45 Blocks preserved;
+- whole-D4 workflow map added;
+- observable capability target added to every Part;
+- Parts II–VIII expose positive causal lines before dense guards;
+- Part IV/V expose compact hook/grab scope memory rules;
+- Part VI exposes verification/cross-check/validation memory map;
+- Part VIII exposes role-first inspection/monitoring/classification/proof/authority map;
+- Reader Checkpoints added to all 9 Parts;
+- Technical Editorial and Red-Team guards are preserved;
+- D1/D2/D3 frozen content, FROZEN_INDEX and D4 kickoff/source gate remain unchanged.
+Next: `CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff`.

@@ -1,8 +1,38 @@
 # CRN-M-03 / D4 Lesson — Part V v1
 ## Suspension / traverse / pin / bearing / grab component-model hierarchy
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — связывай модели, но не переноси authority между компонентами
+
+Положительная линия части:
+
+```text
+GLOBAL LOAD PATH
+→ INTERFACE REACTIONS
+→ COMPONENT MODEL
+→ LOCAL CONTACT / BEARING / MEMBER MODEL
+→ CHILD-MODEL SOURCE APPLICABILITY
+→ BOUNDED COMPONENT STATUS
+```
+
+Grab memory rule:
+
+```text
+GENERAL GRAB MECHANICS = ALLOWED
+
+ISO 17096 C-HOOK COVERAGE
+≠ CRANE HOOK-SUSPENSION PROOF
+
+ISO 17096
+≠ GRAB / GRAB-BUCKET AUTHORITY
+```
+
+### К концу Части V ты должен уметь
+
+- передать global reaction в child model с provenance;
+- различить traverse/member и pin/bearing/contact model layers;
+- понимать, что component mapping необходимо, но недостаточно для formal method;
+- строить grab mechanics hierarchy без выдумывания grab acceptance criterion;
+- не превращать корректную parent reaction в applicability child method.
 
 # Block 21 — Global load path to component reactions
 
@@ -103,3 +133,15 @@ Pin/bearing/contact response зависит от local geometry, clearances, fit
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 25, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint V — проведи reaction до child model
+
+1. Откуда child model получает boundary conditions?
+2. Почему component mapping недостаточно для formal proof?
+3. Что требует local pin/bearing/contact escalation?
+4. Что в grab hierarchy можно делать на general mechanics, а что требует exact source?
+5. Почему ISO 17096 C-hook coverage не даёт ни crane-hook proof, ни grab authority?
+
+## Мост к Части VI
+
+Теперь model chain надо проверить: implementation, independent cross-check и adequacy к реальной системе.

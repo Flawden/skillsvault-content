@@ -1,8 +1,36 @@
 # CRN-M-03 / D4 Lesson — Part IX v1
 ## Expert synthesis, review, stop rules and authority handoff
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — capstone: собери D4 в один review
+
+```text
+QUESTION / DECISION
+→ CONFIGURATION / STATE / OUTPUT
+→ METHOD CANDIDATES
+→ SOURCE + COMPONENT APPLICABILITY
+→ BOUNDARY / INPUT PROVENANCE
+→ IMPLEMENTATION
+→ VERIFICATION / CROSS-CHECK / VALIDATION
+→ SENSITIVITY / UNCERTAINTY / COVERAGE
+→ CONFLICTS / SOURCE GAPS
+→ BOUNDED TECHNICAL STATUS
+→ STOP / ACTUAL AUTHORIZED HANDOFF
+```
+
+Главная финальная граница:
+
+```text
+ANALYSIS STOPPED ≠ OPERATION PERMITTED
+TECHNICAL RECOMMENDATION ≠ AUTHORIZED EQUIPMENT DECISION
+```
+
+### К концу Части IX ты должен уметь
+
+- разобрать конфликт источников по scope/edition/question role;
+- оформить grab source gap как корректный engineering outcome;
+- выбрать next evidence по value of information;
+- написать bounded conclusion с явным `NOT AUTHORIZING`, когда authority не принадлежит review;
+- передать complete D4 trace в фактически authorized role/process.
 
 # Block 41 — Conflicting sources and applicability conflicts
 
@@ -105,3 +133,27 @@
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 45, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint IX — capstone reconstruction
+
+Закрой текст и восстанови полный маршрут:
+
+1. QUESTION / DECISION
+2. CONFIGURATION / STATE / OUTPUT
+3. METHOD + SOURCE / COMPONENT APPLICABILITY
+4. BOUNDARY + INPUT PROVENANCE
+5. VERIFICATION / CROSS-CHECK / VALIDATION
+6. SENSITIVITY / UNCERTAINTY / COVERAGE
+7. INSPECTION / DUTY / MONITORING ROLES
+8. CONFLICTS / SOURCE GAPS
+9. BOUNDED TECHNICAL STATUS
+10. STOP / AUTHORIZED HANDOFF
+
+После этого объясни своими словами три запрета:
+- conditional applicability не является permission;
+- analysis STOP не является operation permission;
+- technical recommendation не является authorized equipment decision.
+
+## Переход к Practice
+
+Reader layer завершён. Следующий этап — интегрированные D4 cases, где весь маршрут придётся выполнить без подсказки структуры.

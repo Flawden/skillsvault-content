@@ -1,8 +1,33 @@
 # CRN-M-03 / D4 Lesson — Part VII v1
 ## Sensitivity, uncertainty, error budget and competing methods
 
-### Reader navigator
-Этот раздел — часть expert/reference D4. Читай блоки последовательно: каждый следующий предполагает, что source/scope и authority не были silently promoted на предыдущем шаге.
+### Reader Navigator — robustness начинается с provenance и заканчивается coverage
+
+Положительная линия части:
+
+```text
+DECISION-DRIVING OUTPUT
+→ DOMINANT INPUTS / MODEL FORMS
+→ DEFENSIBLE RANGES / SCENARIOS
+→ SENSITIVITY
+→ UNCERTAINTY TYPES
+→ COVERAGE
+→ ROBUST / NOT ROBUST / UNKNOWN
+```
+
+```text
+ROBUST IN TESTED / SOURCED ENVELOPE
+≠
+GLOBALLY ROBUST
+```
+
+### К концу Части VII ты должен уметь
+
+- ранжировать sensitivity до красивой precision;
+- отделить input uncertainty от model-form uncertainty;
+- включить geometry/configuration mapping error;
+- сравнить competing methods без усреднения несовместимых результатов;
+- связать robustness с provenance **и** coverage, сохраняя unknown/unmodeled states явными.
 
 # Block 31 — Sensitivity map before precision
 
@@ -101,3 +126,15 @@ Wrong drawing revision, nominal-vs-actual geometry, wrong articulation/contact s
 
 ## Retrieval checkpoint
 Сформулируй за 60 секунд: **какой вопрос решает Block 35, какой source/applicability check обязателен и какой STOP condition не позволяет превратить анализ в несанкционированное решение?**
+
+## Reader Checkpoint VII — атакуй robustness
+
+1. Откуда берётся defensible sensitivity range?
+2. Чем input uncertainty отличается от model-form uncertainty?
+3. Почему mapping wrong revision может доминировать над numerical error?
+4. Что делать, если два legitimate methods расходятся?
+5. Почему robustness всегда должна указывать envelope coverage?
+
+## Мост к Части VIII
+
+Теперь добавим field evidence и history — но только в тех ролях, которые они действительно выполняют.

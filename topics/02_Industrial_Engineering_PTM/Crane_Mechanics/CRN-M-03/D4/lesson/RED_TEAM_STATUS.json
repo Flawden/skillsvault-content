@@ -4,7 +4,7 @@
   "stage": "RED_TEAM",
   "status": "COMPLETE",
   "pass": "I",
-  "next": "CRN-M-03 / D4 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, cognitive load and comprehension without weakening Technical-Editorial/Red-Team source, method, V&V, grab-scope and authority guards before practice",
+  "next": "CRN-M-03 / D4 PRACTICE / v1 — build expert integrated cases for question/method selection, hook/grab component scope, boundary/input provenance, V&V, sensitivity/error, evidence-role conflicts, source gaps and bounded authority handoff",
   "version": "v1",
   "decision": "PASS_WITH_CORRECTIONS_APPLIED",
   "baseline_commit": "5015ed93d23c3ea8e88eef89b9ec60a53bca8c44",
