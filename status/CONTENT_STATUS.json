@@ -568,7 +568,7 @@
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
-        "source_freshness": "PENDING",
+        "source_freshness": "COMPLETE",
         "freeze": "PENDING"
       },
       "unlocked": {
@@ -745,10 +745,31 @@
         "c1_required": true,
         "authority_locks_preserved": true,
         "iso_17096_grab_scope_guard_preserved": true
+      },
+      "source_freshness": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "d72414c37642f4340166216c7cc17abee0ccdfb8",
+        "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+        "checked_on": "2026-09-04",
+        "source_map_lanes_checked": 11,
+        "external_records_checked": 11,
+        "watchlist_count": 3,
+        "corrections_required": false,
+        "stale_sources_requiring_removal": false,
+        "iso_17096_grab_scope_guard_preserved": true,
+        "draft_vs_published_separated": true,
+        "fnp_current_amendment_checked": true,
+        "claim_limits_rechecked": true,
+        "authority_locks_preserved": true,
+        "freeze_candidate_ready": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/CRN-M-03_D3_SOURCE_FRESHNESS_v1.md",
+        "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
       }
     }
   },
-  "next": "CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze",
+  "next": "CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -882,6 +903,27 @@
           "c1_required": true,
           "authority_locks_preserved": true,
           "iso_17096_grab_scope_guard_preserved": true
+        },
+        "source_freshness": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "baseline_commit": "d72414c37642f4340166216c7cc17abee0ccdfb8",
+          "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+          "checked_on": "2026-09-04",
+          "source_map_lanes_checked": 11,
+          "external_records_checked": 11,
+          "watchlist_count": 3,
+          "corrections_required": false,
+          "stale_sources_requiring_removal": false,
+          "iso_17096_grab_scope_guard_preserved": true,
+          "draft_vs_published_separated": true,
+          "fnp_current_amendment_checked": true,
+          "claim_limits_rechecked": true,
+          "authority_locks_preserved": true,
+          "freeze_candidate_ready": true,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/CRN-M-03_D3_SOURCE_FRESHNESS_v1.md",
+          "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json"
         }
       }
     }
@@ -942,5 +984,27 @@
     "authority_locks_preserved": true,
     "iso_17096_grab_scope_guard_preserved": true,
     "next": "CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze"
+  },
+  "crn_m03_d3_source_freshness": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "d72414c37642f4340166216c7cc17abee0ccdfb8",
+    "decision": "PASS_WITH_WATCHLIST_FREEZE_CANDIDATE_READY",
+    "checked_on": "2026-09-04",
+    "source_map_lanes_checked": 11,
+    "external_records_checked": 11,
+    "watchlist_count": 3,
+    "corrections_required": false,
+    "stale_sources_requiring_removal": false,
+    "iso_17096_grab_scope_guard_preserved": true,
+    "draft_vs_published_separated": true,
+    "fnp_current_amendment_checked": true,
+    "claim_limits_rechecked": true,
+    "authority_locks_preserved": true,
+    "freeze_candidate_ready": true,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/CRN-M-03_D3_SOURCE_FRESHNESS_v1.md",
+    "inventory": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_INVENTORY_v1.json",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/source_freshness/v1/SOURCE_FRESHNESS_QA_v1.json",
+    "next": "CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract"
   }
 }

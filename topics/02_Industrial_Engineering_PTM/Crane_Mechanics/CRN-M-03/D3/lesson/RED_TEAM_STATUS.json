@@ -23,12 +23,12 @@
     ]
   },
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze",
+  "next": "CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
   "expected_result": "COMPLETE",
   "verification_rubric": "COMPLETE",
   "final_alignment": "COMPLETE",
-  "source_freshness": "NEXT",
-  "freeze": "PENDING"
+  "source_freshness": "COMPLETE",
+  "freeze": "NEXT"
 }

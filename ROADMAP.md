@@ -1267,3 +1267,17 @@ Status: `COMPLETE`.
 - ISO 17096 grab/grab-bucket scope separation remains preserved;
 - no content corrections are required before Source Freshness.
 Next: `CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze`.
+
+## CRN-M-03 D3 Source Freshness v1
+
+Status: `COMPLETE`.
+- 11 source records / lanes revalidated immediately before freeze;
+- ISO 4306-1:2026 remains current Edition 5 / Published;
+- ISO 17096:2015 remains Published/Confirmed and its public scope still excludes buckets, grabs and grab buckets;
+- ISO 8686-1:2012 remains Published / stage 90.60 under review;
+- ISO 12482:2014 remains Published / stage 90.92 to be revised, while ISO/CD 12482 Ed2 remains development-only at stage 30.20;
+- ФНП ПС №461 remains current as amended 16.04.2026 and valid through 01.09.2032;
+- root-cause/proof/remaining-life/inspection/NDT/repair/operation claim locks remain intact;
+- stale sources requiring removal = 0; content corrections required = NO;
+- freeze candidate ready = YES.
+Next: `CRN-M-03 / D3 FREEZE / v1 — immutable D3 package, manifests, frozen index and tag contract`.
