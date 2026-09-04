@@ -1,6 +1,6 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-09-03",
+  "snapshot_date": "2026-09-04",
   "canonical_branch": "main",
   "active_topic": "CRN-M-03",
   "active_topic_name_ru": "Крюковые подвески и захваты",
@@ -564,8 +564,8 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "PENDING",
-        "expected_result": "PENDING",
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "COMPLETE",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
@@ -665,10 +665,43 @@
         "russian_first_language": true,
         "red_team_guards_preserved": true,
         "hazardous_diagnostic_experiments_forbidden": true
+      },
+      "practice_reasoning": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "5e9e8d0dac67dea556396762c973931f8e85e656",
+        "cases": 10,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice_reasoning/v1/CRN-M-03_D3_PRACTICE_REASONING_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+        "single_answer_key": false,
+        "multiple_valid_paths_explicit": true,
+        "failure_taxonomy_candidates": 12,
+        "russian_first_language": true,
+        "hazardous_diagnostic_experiments_forbidden": true,
+        "root_cause_inspection_operation_locks_preserved": true
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "8aa35330538ce6b61315c3e911ba5e88a23f3bf4",
+        "dimensions": 13,
+        "evidence_outputs": 17,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/CRN-M-03_D3_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "known_case_performance_not_sufficient": true,
+        "unseen_transfer_required": true,
+        "premise_changing_challenge_required": true,
+        "adaptive_rebuild_required": true,
+        "failure_taxonomy_candidates": 12,
+        "bounded_stop_can_be_success": true,
+        "hazardous_diagnostic_experiments_forbidden": true,
+        "root_cause_inspection_operation_locks_preserved": true,
+        "russian_first_language": true
       }
     }
   },
-  "next": "CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority",
+  "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -729,8 +762,31 @@
           "baseline_commit": "5e9e8d0dac67dea556396762c973931f8e85e656",
           "cases": 10,
           "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice_reasoning/v1/CRN-M-03_D3_PRACTICE_REASONING_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
           "single_answer_key": false,
-          "failure_taxonomy_count": 12,
+          "multiple_valid_paths_explicit": true,
+          "failure_taxonomy_candidates": 12,
+          "russian_first_language": true,
+          "hazardous_diagnostic_experiments_forbidden": true,
+          "root_cause_inspection_operation_locks_preserved": true
+        },
+        "expected_result": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "baseline_commit": "8aa35330538ce6b61315c3e911ba5e88a23f3bf4",
+          "dimensions": 13,
+          "evidence_outputs": 17,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/CRN-M-03_D3_EXPECTED_RESULT_v1.md",
+          "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+          "known_case_performance_not_sufficient": true,
+          "unseen_transfer_required": true,
+          "premise_changing_challenge_required": true,
+          "adaptive_rebuild_required": true,
+          "failure_taxonomy_candidates": 12,
+          "bounded_stop_can_be_success": true,
+          "hazardous_diagnostic_experiments_forbidden": true,
+          "root_cause_inspection_operation_locks_preserved": true,
           "russian_first_language": true
         }
       }
@@ -743,5 +799,16 @@
     "cases": 10,
     "failure_taxonomy_count": 12,
     "next": "CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority"
+  },
+  "crn_m03_d3_expected_result": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "8aa35330538ce6b61315c3e911ba5e88a23f3bf4",
+    "dimensions": 13,
+    "failure_taxonomy_candidates": 12,
+    "unseen_transfer_required": true,
+    "premise_changing_challenge_required": true,
+    "bounded_stop_can_be_success": true,
+    "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation"
   }
 }

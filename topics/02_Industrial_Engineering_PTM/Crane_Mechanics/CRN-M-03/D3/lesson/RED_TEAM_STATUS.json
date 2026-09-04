@@ -23,11 +23,11 @@
     ]
   },
   "reader_experience_pass": "COMPLETE",
-  "next": "CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority",
+  "next": "CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation",
   "practice": "COMPLETE",
   "practice_reasoning": "COMPLETE",
-  "expected_result": "NEXT",
-  "verification_rubric": "PENDING",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "NEXT",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING"

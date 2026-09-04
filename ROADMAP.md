@@ -1228,3 +1228,15 @@ Next: `CRN-M-03 / D3 PRACTICE REASONING / v1 — build non-exclusive causal-diag
 - known cases do not constitute unseen transfer;
 - Practice prompts, reviewed Lesson and frozen prerequisites remain immutable;
 - next: `CRN-M-03 / D3 EXPECTED RESULT / v1 — define observable causal-diagnostic behaviors, transfer evidence, hypothesis-update discipline, state/history reconstruction, bounded STOP success conditions and candidate blocking failures without promoting D3 to root-cause, inspection or operation authority`.
+
+## CRN-M-03 D3 Expected Result v1
+
+Status: `COMPLETE`.
+- 13 observable ER-D3 dimensions define causal-diagnostic behavior from clean observation/inference/unknown separation through mechanically distinct hypotheses, D2 rebuilds, matched predictions, observability/evidence-independence checks, state/transient/history reconstruction, source-role separation and bounded STOP;
+- 17 minimum visible evidence outputs are defined for integrated verification;
+- known Practice/Reasoning A–J are necessary background but do not close unseen transfer;
+- Verification must include an unseen integrated case and a mandatory premise-changing evidence challenge followed by adaptive rebuild of the model set;
+- 12 cross-case failure families are carried forward as candidate blocking failures; severity/non-compensability is deferred to Verification Rubric;
+- hazardous diagnostic experiments and root-cause / numeric proof / remaining-life / inspection-discard / specialist NDT / repair-modification / operation authority remain locked;
+- frozen CRN-M-01, CRN-M-02, CRN-M-03 D1/D2 and `status/FROZEN_INDEX.json` remain unchanged.
+Next: `CRN-M-03 / D3 VERIFICATION RUBRIC / v1 — score observable causal-diagnostic behaviors, decide non-compensable blocking failures, require unseen transfer with a premise-changing evidence challenge and preserve bounded STOP / source-authority / operation-authority separation`.
