@@ -1253,3 +1253,17 @@ Status: `COMPLETE`.
 - correct bounded STOP/handoff remains a successful D3 behavior;
 - CRN-M-03 D1/D2 frozen content and `status/FROZEN_INDEX.json` remain unchanged.
 Next: `CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness`.
+
+## CRN-M-03 D3 Final Alignment v1
+
+Status: `COMPLETE`.
+- 26/26 numbered Lesson sections, 10/10 Practice cases and 10/10 Practice Reasoning cases are traced;
+- 13/13 Expected Result dimensions map to the same 13 Rubric dimensions;
+- 12/12 material blocking failures have prior instructional/guard origin;
+- S0 safety/authority gate has explicit prior origin and is not a surprise BF-D3-13;
+- U1 + C1 intentionally close unseen-transfer and premise-changing update behavior that known A–J cannot close;
+- orphan content = 0, surprise blockers = 0, guard contradictions = 0;
+- formal root-cause, proof/design/WLL-SWL/remaining-life, inspection/NDT/repair and operation authority remain locked;
+- ISO 17096 grab/grab-bucket scope separation remains preserved;
+- no content corrections are required before Source Freshness.
+Next: `CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze`.

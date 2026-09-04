@@ -567,7 +567,7 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "PENDING",
+        "final_alignment": "COMPLETE",
         "source_freshness": "PENDING",
         "freeze": "PENDING"
       },
@@ -722,10 +722,33 @@
         "stop_or_handoff_can_be_success": true,
         "hazardous_diagnostic_experiments_forbidden": true,
         "authority_locks_preserved": true
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "4d269a1bf373164e72c5b41200a7d1d1ee44b7a2",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "lesson_sections_traced": 26,
+        "practice_cases_traced": 10,
+        "reasoning_cases_traced": 10,
+        "expected_dimensions_traced": 13,
+        "rubric_dimensions_traced": 13,
+        "blocking_failures_with_prior_origin": 12,
+        "s0_origin_traced": true,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/CRN-M-03_D3_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "u1_required": true,
+        "c1_required": true,
+        "authority_locks_preserved": true,
+        "iso_17096_grab_scope_guard_preserved": true
       }
     }
   },
-  "next": "CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness",
+  "next": "CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -836,6 +859,29 @@
           "stop_or_handoff_can_be_success": true,
           "hazardous_diagnostic_experiments_forbidden": true,
           "authority_locks_preserved": true
+        },
+        "final_alignment": {
+          "status": "COMPLETE",
+          "version": "v1",
+          "baseline_commit": "4d269a1bf373164e72c5b41200a7d1d1ee44b7a2",
+          "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+          "lesson_sections_traced": 26,
+          "practice_cases_traced": 10,
+          "reasoning_cases_traced": 10,
+          "expected_dimensions_traced": 13,
+          "rubric_dimensions_traced": 13,
+          "blocking_failures_with_prior_origin": 12,
+          "s0_origin_traced": true,
+          "orphan_count": 0,
+          "content_corrections_required": false,
+          "source_freshness_ready": true,
+          "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/CRN-M-03_D3_FINAL_ALIGNMENT_v1.md",
+          "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+          "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+          "u1_required": true,
+          "c1_required": true,
+          "authority_locks_preserved": true,
+          "iso_17096_grab_scope_guard_preserved": true
         }
       }
     }
@@ -872,5 +918,29 @@
     "c1_required": true,
     "s0_safety_authority_gate": true,
     "next": "CRN-M-03 / D3 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close gaps and guard contradictions before source freshness"
+  },
+  "crn_m03_d3_final_alignment": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "4d269a1bf373164e72c5b41200a7d1d1ee44b7a2",
+    "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+    "lesson_sections_traced": 26,
+    "practice_cases_traced": 10,
+    "reasoning_cases_traced": 10,
+    "expected_dimensions_traced": 13,
+    "rubric_dimensions_traced": 13,
+    "blocking_failures_with_prior_origin": 12,
+    "s0_origin_traced": true,
+    "orphan_count": 0,
+    "content_corrections_required": false,
+    "source_freshness_ready": true,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/CRN-M-03_D3_FINAL_ALIGNMENT_v1.md",
+    "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D3/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+    "u1_required": true,
+    "c1_required": true,
+    "authority_locks_preserved": true,
+    "iso_17096_grab_scope_guard_preserved": true,
+    "next": "CRN-M-03 / D3 SOURCE FRESHNESS / v1 — revalidate external source editions/status, development/watchlist records, D3 causal-diagnostic claim limits, ISO 17096 grab-scope separation and root-cause/proof/inspection/remaining-life/operation-authority boundaries before D3 freeze"
   }
 }
