@@ -1,0 +1,23 @@
+{
+  "artifact": "CRN-M-03_D4_LESSON_PART_VII_v1",
+  "part": "VII",
+  "blocks": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "block_count": 5,
+  "status": "AUTHORING_COMPLETE",
+  "checks": {
+    "question_before_method": true,
+    "source_scope_guard": true,
+    "verification_validation_separated": true,
+    "iso17096_grab_scope_transfer_forbidden": true,
+    "closed_normative_reconstruction": false,
+    "remaining_life_authority_unlocked": false,
+    "inspection_operation_authority_unlocked": false,
+    "frozen_prerequisites_modified": false
+  }
+}

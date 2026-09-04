@@ -835,7 +835,7 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "PENDING",
+        "lesson": "COMPLETE",
         "editorial": "PENDING",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
@@ -873,10 +873,24 @@
         "bounded_review_handoff": true
       },
       "baseline_commit": "95de28a1db14e283522936f574bbce22fa495f47",
-      "structural_contract_source": "crn-m-02-d4-v1"
+      "structural_contract_source": "crn-m-02-d4-v1",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "baseline_commit": "30e676c20beb0160b69e01664bb9d0d59a3e12a7",
+        "parts": 9,
+        "blocks": 45,
+        "artifact_root": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson",
+        "completion": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/D4/lesson/D4_LESSON_AUTHORING_COMPLETION_v1.md",
+        "forged_hook_scope_guard": true,
+        "grab_source_gap_guard": true,
+        "iso17096_grab_scope_transfer_locked": true,
+        "verification_validation_separated": true,
+        "authority_locks_preserved": true
+      }
     }
   },
-  "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff",
+  "next": "CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -1059,7 +1073,8 @@
         "kickoff": "COMPLETE",
         "scope": "LOCKED",
         "source_gate": "PASS_WITH_CLAIM_LIMITS",
-        "lesson": "NEXT"
+        "lesson": "COMPLETE",
+        "technical_editorial": "NEXT"
       }
     }
   },
@@ -1174,5 +1189,14 @@
     "source_bound_numeric_proof_unlocked": false,
     "equipment_authority_locked": true,
     "next": "CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff"
+  },
+  "crn_m03_d4_lesson_authoring": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "30e676c20beb0160b69e01664bb9d0d59a3e12a7",
+    "parts": 9,
+    "blocks": 45,
+    "technical_editorial": "NEXT",
+    "next": "CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review"
   }
 }

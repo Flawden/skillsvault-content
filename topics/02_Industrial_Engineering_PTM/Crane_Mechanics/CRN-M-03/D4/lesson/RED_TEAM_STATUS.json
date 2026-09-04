@@ -1,0 +1,8 @@
+{
+  "topic": "CRN-M-03",
+  "depth": "D4",
+  "stage": "RED_TEAM",
+  "status": "PENDING",
+  "pass": "I",
+  "next": "CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review"
+}

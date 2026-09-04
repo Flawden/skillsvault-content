@@ -1312,3 +1312,16 @@ Status: `COMPLETE`.
 - source-bound numeric proof, grab holding/capacity/acceptance values, remaining-life, inspection/NDT/repair and operation authority remain locked;
 - lesson authoring: UNLOCKED.
 Next: `CRN-M-03 / D4 LESSON AUTHORING / v1 — build expert/reference lesson around question-class identification, method applicability, boundary/input validation, hook proof-method scope, grab source gaps, model verification/validation, sensitivity/error and bounded authority handoff`.
+
+## CRN-M-03 D4 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+- 9/9 Parts; 45/45 expert/reference blocks;
+- method governance, boundary-value problem, model fidelity, forged-hook proof applicability, component hierarchy,
+  V&V, sensitivity/error, inspection/duty/life boundaries and expert handoff are covered;
+- ISO 17440 forged-hook scope mapping is explicit;
+- ISO 17096 grab/grab-bucket authority transfer remains forbidden;
+- exact grab numeric proof/holding/capacity/acceptance remains source/OEM/designer-bound;
+- source-bound numeric proof, remaining-life, inspection/NDT/repair and operation authority remain locked;
+- D1/D2/D3 frozen packages and FROZEN_INDEX remain immutable.
+Next: `CRN-M-03 / D4 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of all 45 lesson blocks for method/scope accuracy, hook/grab source boundaries, model V&V, sensitivity/error discipline and authority-safe wording before red-team review`.
