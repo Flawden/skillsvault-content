@@ -503,3 +503,14 @@ Status: `COMPLETE`.
 - Practice remains unchanged.
 
 Next: `CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions`.
+
+## D4 — Expected Result v1
+
+Status: `COMPLETE`.
+- 14 observable dimensions;
+- 14 blocking-failure candidates;
+- unseen transfer + adversarial update required;
+- bounded STOP can be successful;
+- Verification Rubric is next.
+
+Next: `CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries`.

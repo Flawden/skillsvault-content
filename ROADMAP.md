@@ -1399,3 +1399,17 @@ Status: `COMPLETE`.
 - Practice and D4 Lesson stack remain unchanged;
 - D1/D2/D3 frozen content and FROZEN_INDEX remain immutable.
 Next: `CRN-M-03 / D4 EXPECTED RESULT / v1 — define observable expert behaviors and transfer evidence for question/method governance, hook/grab applicability, configuration/input provenance, V&V, sensitivity/coverage, source gaps and bounded authority-safe conclusions`.
+
+## CRN-M-03 D4 Expected Result v1
+
+Status: `COMPLETE`.
+- 14/14 observable expert dimensions;
+- 19 minimum observable evidence layers;
+- 14/14 blocking-failure candidates traced from Practice Reasoning;
+- known-case performance is not sufficient;
+- unseen integrated transfer is required;
+- mandatory adversarial evidence-status update is required;
+- correct STOP / REQUEST EVIDENCE may be a successful outcome;
+- ISO 17440 conditional-extension and ISO 17096 grab-scope guards preserved;
+- D1/D2/D3, Lesson, Practice and Practice Reasoning remain unchanged.
+Next: `CRN-M-03 / D4 VERIFICATION RUBRIC / v1 — score 14 observable expert method-governance dimensions, make material blocking failures non-compensable, require unseen transfer plus adversarial evidence-status update, and preserve hook/grab source-scope, STOP, safety and authority boundaries`.
