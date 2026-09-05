@@ -34,8 +34,8 @@
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
-        "editorial": "NEXT",
-        "red_team": "PENDING",
+        "editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
@@ -65,11 +65,13 @@
         "status": "AUTHORING_COMPLETE",
         "version": "v1",
         "primary_sections": 17,
-        "technical_editorial_pass_I": "NEXT"
+        "technical_editorial_pass_I": "COMPLETE",
+        "red_team_pass_I": "NEXT",
+        "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED"
       }
     }
   },
-  "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review",
+  "next": "CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -88,10 +90,9 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/KICKOFF_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/kickoff/v1/SOURCE_GATE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/AUTHORING_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/v1/CRN-M-04_D1_LESSON_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/editorial/pass_I/v1/CRN-M-04_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -102,7 +103,8 @@
         "scope": "LOCKED",
         "source_gate": "PASS_WITH_CLAIM_LIMITS",
         "lesson": "COMPLETE",
-        "editorial": "NEXT"
+        "editorial": "COMPLETE",
+        "red_team": "NEXT"
       }
     }
   },
@@ -123,7 +125,21 @@
     "baseline_commit": "233816b693eda3e8e21d761248252d8a23ee87b4",
     "primary_sections": 17,
     "source_gate": "PASS_WITH_CLAIM_LIMITS",
-    "technical_editorial_pass_I": "NEXT",
-    "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review"
+    "technical_editorial_pass_I": "COMPLETE",
+    "technical_editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "technical_editorial_baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+    "red_team_pass_I": "NEXT",
+    "next": "CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience"
+  },
+  "crn_m04_d1_editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 7,
+    "corrections_applied": 7,
+    "red_team_pass_I": "NEXT",
+    "next": "CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience"
   }
 }

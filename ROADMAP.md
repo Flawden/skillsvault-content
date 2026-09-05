@@ -1520,3 +1520,18 @@ Status: `AUTHORING COMPLETE`.
 - OEM/passport/exact-source and authority handoff preserved;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review`.
+
+## CRN-M-04 D1 Technical Editorial Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 7/7 editorial findings fixed;
+- drive-path arrows are connectivity/analysis maps, not rotation-direction or one-way power-flow proof;
+- ratio no longer permits actual transmitted-torque or rating inference;
+- coupling family/function wording does not invent generic compensation capability;
+- planetary multiple meshes do not imply equal load sharing;
+- lubrication evidence remains separate from diagnosis/prescription;
+- relative movement is not collapsed into one universal misalignment category;
+- condition evidence does not acquire undocumented acceptance thresholds;
+- numeric design/rating/alignment/lubrication/acceptance and equipment-authority locks remain closed;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience`.

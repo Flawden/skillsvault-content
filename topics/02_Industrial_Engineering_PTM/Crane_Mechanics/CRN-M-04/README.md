@@ -17,8 +17,8 @@ Build a progressive mental model of crane drive reducers and couplings from begi
 
 ## Current state
 
-`D1 LESSON AUTHORING v1 = COMPLETE / PASS_AUTHORING_COMPLETE`.
+`D1 TECHNICAL EDITORIAL PASS I v1 = COMPLETE / PASS_WITH_CORRECTIONS_APPLIED`.
 
 Design/rating, coupling selection, numeric alignment, lubricant selection, inspection acceptance, repair and return-to-service remain locked to exact sources/OEM/qualified authority.
 
-Next: `CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review`.
+Next: `CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience`.

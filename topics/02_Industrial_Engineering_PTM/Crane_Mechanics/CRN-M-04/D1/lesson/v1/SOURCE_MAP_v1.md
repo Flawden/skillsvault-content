@@ -106,10 +106,10 @@ Lesson v1 uses qualitative reasoning only:
 
 - trace rotation/torque path;
 - separate reducer, coupling, brake and support functions;
-- recognize speed-ratio / torque-level relationship qualitatively;
+- recognize the speed-ratio / torque-level relationship qualitatively without deriving actual transmitted torque or rating from ratio alone;
 - recognize reducer/coupling families without selection;
 - separate observable evidence from diagnosis/acceptance;
-- separate lubrication/alignment importance from actual numeric specification.
+- separate lubrication/alignment importance from actual numeric specification and from diagnosis/acceptance status.
 
 ## Claim-lock audit
 
@@ -120,6 +120,8 @@ Not introduced in Lesson v1:
 - shaft/bearing/key/spline/bolt design;
 - reducer or coupling selection/rating;
 - service/duty/dynamic factors;
+- actual transmitted torque or permissible load derived from ratio alone;
+- equal planetary load sharing assumed from architecture alone;
 - numeric alignment/displacement limits;
 - backlash/wear/damage/vibration/noise/temperature acceptance limits;
 - lubricant grade/viscosity/substitution/change interval;
@@ -131,14 +133,16 @@ Not introduced in Lesson v1:
 ## Authoring guards carried into Technical Editorial
 
 - reducer ≠ coupling ≠ brake;
-- teaching drive-path ≠ universal machine layout;
-- reduced speed ≠ free power creation;
+- teaching drive-path ≠ universal machine layout / proven rotation direction / one-way power flow;
+- reduced speed / ratio ≠ actual transmitted torque or permissible rating;
+- multiple planetary meshes ≠ assumed equal load sharing;
 - reducer family recognition ≠ selection authority;
 - coupling family recognition ≠ interchangeable requirements;
 - gear-coupling standard ≠ all-coupling standard;
 - flexible/compensating coupling ≠ arbitrary misalignment tolerance;
-- lubricant importance ≠ lubricant-selection authority;
-- noise/heat/vibration/leak/damage observation ≠ diagnosed cause;
+- relative movement ≠ one universal “misalignment” category;
+- lubricant importance ≠ lubricant-selection authority or lubrication-failure diagnosis;
+- noise/temperature/vibration/leak/damage observation ≠ acceptance threshold or diagnosed cause;
 - damage nomenclature ≠ acceptance/serviceability verdict;
 - source name/category match ≠ exact applicability;
 - SkillsVault STOP ≠ equipment-operation command.

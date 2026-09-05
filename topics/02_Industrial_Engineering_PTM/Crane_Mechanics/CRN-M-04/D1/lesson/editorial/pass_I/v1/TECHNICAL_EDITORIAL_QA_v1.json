@@ -1,0 +1,76 @@
+{
+  "artifact": "CRN-M-04_D1_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-05",
+  "baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 7,
+    "corrections_applied": 7
+  },
+  "findings": [
+    {
+      "id": "TE-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "drive-path arrows could be over-read as proven rotation direction or one-way power flow"
+    },
+    {
+      "id": "TE-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "ratio-to-torque wording could become deterministic actual-torque/rating inference"
+    },
+    {
+      "id": "TE-03",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "coupling function wording could imply generic compensation capability"
+    },
+    {
+      "id": "TE-04",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "planetary multiple meshes could be misread as equal load sharing"
+    },
+    {
+      "id": "TE-05",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "lubrication evidence could drift into lubrication-failure diagnosis or lubricant prescription"
+    },
+    {
+      "id": "TE-06",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "relative movement could collapse distinct phenomena into one universal misalignment category"
+    },
+    {
+      "id": "TE-07",
+      "severity": "LOW_MEDIUM",
+      "status": "FIXED",
+      "topic": "condition adjectives could smuggle undocumented thresholds into evidence language"
+    }
+  ],
+  "guards": {
+    "crn_m01_frozen_modified": false,
+    "crn_m02_frozen_modified": false,
+    "crn_m03_frozen_modified": false,
+    "frozen_index_modified": false,
+    "d1_source_gate_modified": false,
+    "numeric_gear_design_or_rating_added": false,
+    "actual_torque_derived_from_ratio": false,
+    "planetary_equal_load_share_assumed": false,
+    "coupling_compensation_generalized": false,
+    "numeric_alignment_limits_added": false,
+    "lubricant_selected_or_prescribed": false,
+    "condition_thresholds_invented": false,
+    "root_cause_from_observation_asserted": false,
+    "repair_ndt_permission_unlocked": false,
+    "operation_permission_unlocked": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience"
+}

@@ -1,6 +1,23 @@
 {
   "topic": "CRN-M-04",
   "depth": "D1",
-  "status": "PENDING",
-  "next_pass": "TECHNICAL_EDITORIAL_PASS_I"
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/editorial/pass_I/v1/CRN-M-04_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "corrections": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team": "NEXT",
+  "reader_experience_pass": "PENDING",
+  "next": "CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience"
 }
