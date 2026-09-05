@@ -36,15 +36,15 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "PENDING",
-        "practice": "PENDING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING",
-        "reader_experience": "NEXT"
+        "reader_experience": "COMPLETE"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -69,12 +69,26 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "reader_experience_pass_I": "NEXT",
-        "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED"
+        "reader_experience_pass_I": "COMPLETE",
+        "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "practice": "NEXT"
+      },
+      "reader_experience": {
+        "status": "COMPLETE",
+        "pass": "I",
+        "version": "v1",
+        "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+        "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+        "findings": 7,
+        "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/reader_experience/pass_I/v1/CRN-M-04_D1_READER_EXPERIENCE_PASS_I_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/reader_experience/pass_I/v1/READER_EXPERIENCE_QA_v1.json",
+        "red_team_guards_preserved": true,
+        "source_scope_preserved": true,
+        "equipment_authority_lock_preserved": true
       }
     }
   },
-  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice",
+  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -97,6 +111,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/v1/CRN-M-04_D1_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/editorial/pass_I/v1/CRN-M-04_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/red_team/pass_I/v1/CRN-M-04_D1_RED_TEAM_PASS_I_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/reader_experience/pass_I/v1/CRN-M-04_D1_READER_EXPERIENCE_PASS_I_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -109,7 +124,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience": "NEXT"
+        "reader_experience": "COMPLETE",
+        "practice": "NEXT"
       }
     }
   },
@@ -134,10 +150,13 @@
     "technical_editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "technical_editorial_baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
     "red_team_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice",
+    "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "7c6702ad8931a5a614fbd7f80a2dac8d50b608d5",
-    "reader_experience_pass_I": "NEXT"
+    "reader_experience_pass_I": "COMPLETE",
+    "reader_experience_decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "reader_experience_baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+    "practice": "NEXT"
   },
   "crn_m04_d1_editorial": {
     "status": "COMPLETE",
@@ -158,7 +177,18 @@
     "decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "findings": 10,
     "corrections_applied": 10,
-    "reader_experience_pass_I": "NEXT",
-    "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
+    "reader_experience_pass_I": "COMPLETE",
+    "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
+  },
+  "crn_m04_d1_reader_experience": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": 7,
+    "corrections_applied": 7,
+    "practice": "NEXT",
+    "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
   }
 }

@@ -18,6 +18,7 @@
     ]
   },
   "red_team": "COMPLETE",
-  "reader_experience_pass": "NEXT",
-  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff",
+  "practice": "NEXT"
 }

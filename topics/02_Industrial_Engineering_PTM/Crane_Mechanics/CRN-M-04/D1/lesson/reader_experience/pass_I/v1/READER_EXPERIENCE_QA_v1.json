@@ -1,0 +1,79 @@
+{
+  "artifact": "CRN-M-04_D1_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-05",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+  "findings": [
+    "RX-01",
+    "RX-02",
+    "RX-03",
+    "RX-04",
+    "RX-05",
+    "RX-06",
+    "RX-07"
+  ],
+  "finding_records": [
+    {
+      "id": "RX-01",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-02",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-03",
+      "severity": "MEDIUM",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-04",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-05",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-06",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-07",
+      "severity": "MEDIUM",
+      "status": "FIXED"
+    }
+  ],
+  "reader_checks": {
+    "five_question_memory_card_added": true,
+    "drive_path_recording_template_added": true,
+    "micro_case_status_lanes_added": true,
+    "reducer_family_router_added": true,
+    "coupling_four_question_card_added": true,
+    "question_first_source_role_router_added": true,
+    "compact_stop_card_added": true,
+    "six_step_retrieval_spine_added": true,
+    "retrieval_checkpoint_grouped_to_seven_questions": true,
+    "stale_handoff_corrected_to_practice": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "technical_editorial_invariants_preserved": true,
+    "source_map_unchanged": true,
+    "numeric_design_or_rating_claims_introduced": false,
+    "numeric_alignment_or_acceptance_claims_introduced": false,
+    "lubricant_selection_or_substitution_claims_introduced": false,
+    "root_cause_or_health_verdict_introduced": false,
+    "equipment_operation_authority_introduced": false,
+    "source_authority_changed": false,
+    "frozen_index_changed": false
+  },
+  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
+}

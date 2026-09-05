@@ -2,7 +2,16 @@
   "topic": "CRN-M-04",
   "depth": "D1",
   "stage": "READER_EXPERIENCE",
-  "status": "NEXT",
-  "pass": "I",
-  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/reader_experience/pass_I/v1/CRN-M-04_D1_READER_EXPERIENCE_PASS_I_v1.md",
+    "findings_fixed": 7,
+    "corrected_artifacts": [
+      "lesson/v1/CRN-M-04_D1_LESSON_v1.md"
+    ]
+  },
+  "practice": "NEXT",
+  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
 }

@@ -59,15 +59,26 @@
     ]
   },
   "reader_experience_pass_I": {
-    "status": "NEXT",
-    "version": "v1"
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06",
+      "RX-07"
+    ]
   },
-  "practice": "PENDING",
+  "practice": "NEXT",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
+  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
 }

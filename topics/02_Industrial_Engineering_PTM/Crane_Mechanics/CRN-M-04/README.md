@@ -17,8 +17,8 @@ Build a progressive mental model of crane drive reducers and couplings from begi
 
 ## Current state
 
-`D1 RED TEAM PASS I v1 = COMPLETE / PASS_WITH_CORRECTIONS_APPLIED`.
+`D1 READER EXPERIENCE PASS I v1 = COMPLETE / PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED`.
 
 Design/rating, coupling selection, numeric alignment, lubricant selection, inspection acceptance, repair and return-to-service remain locked to exact sources/OEM/qualified authority.
 
-Next: `CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice`.
+Next: `CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff`.

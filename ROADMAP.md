@@ -1553,3 +1553,19 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - numeric design/rating/alignment/lubrication/acceptance and equipment-authority locks remain closed;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice`.
+
+## CRN-M-04 D1 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+- 7/7 reader-experience findings fixed across the 17-section beginner lesson;
+- five-question drive/boundary/path/function/evidence/source memory card added;
+- drive-path micro-case rewritten into observed / bounded claim / forbidden-promotion lanes;
+- reducer-family recognition router added without selection authority;
+- coupling identity/function/movement/limit retrieval card added;
+- source roles routed from question type rather than standard-number memorization;
+- STOP compressed to a four-step evidence-request/handoff card while equipment authority remains locked;
+- six-step retrieval spine and seven-question checkpoint added;
+- stale lesson handoff corrected to D1 Practice;
+- Technical Editorial / Red Team source-scope, rating, evidence and authority guards remain unchanged;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff`.
