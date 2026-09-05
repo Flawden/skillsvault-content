@@ -1579,3 +1579,12 @@ Status: `COMPLETE`.
 - post-Reader-Experience Lesson and SOURCE_MAP remain byte-identical;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, discriminating evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key`.
+
+## CRN-M-04 D1 Practice Reasoning v1
+
+Status: `COMPLETE`.
+- 10/10 cases A–J; multiple valid reasoning paths, no single answer key;
+- 12 blocking-failure families; discriminating evidence and bounded conclusions required;
+- Practice and Lesson stack remain read-only; equipment-operation authority remains locked;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff`.
