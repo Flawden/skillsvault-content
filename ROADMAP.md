@@ -1504,3 +1504,19 @@ Status: `COMPLETE`.
 - numeric design/rating, coupling selection/alignment/acceptance, lubricant selection, repair and return-to-service remain locked;
 - lesson authoring: UNLOCKED.
 Next: `CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries`.
+
+## CRN-M-04 D1 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+- 17 primary beginner sections; Russian-first;
+- drive boundary and rotation/torque path explicit;
+- reducer / coupling / brake roles separated;
+- reducer and coupling families remain recognition-only;
+- speed/ratio/torque relation stays qualitative;
+- gear rating / ISO 6336 method remains locked;
+- gear-coupling scope is not generalized to other coupling families;
+- alignment numbers, lubricant selection and acceptance limits remain locked;
+- noise/heat/vibration/leak/damage remain evidence, not causal or acceptance verdicts;
+- OEM/passport/exact-source and authority handoff preserved;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review`.

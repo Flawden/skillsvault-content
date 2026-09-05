@@ -7,7 +7,7 @@
   "status": "COMPLETE",
   "d1_scope": "LOCKED",
   "source_gate": "PASS_WITH_CLAIM_LIMITS",
-  "lesson_authoring": "UNLOCKED",
+  "lesson_authoring": "COMPLETE",
   "numeric_design_and_rating": "LOCKED_PENDING_EXACT_METHOD_AND_INPUTS",
   "coupling_selection_alignment_acceptance": "LOCKED_PENDING_EXACT_TYPE_STANDARD_AND_OEM",
   "lubricant_selection": "LOCKED_PENDING_ACTUAL_REDUCER_DOCUMENTATION",
@@ -15,5 +15,5 @@
   "repair_return_to_service_claims": "LOCKED",
   "structural_contract_source": "crn-m-03-v1",
   "baseline_commit": "dbc27758e2f6fe1a696400d5a47f7d04cee90a55",
-  "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries"
+  "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review"
 }

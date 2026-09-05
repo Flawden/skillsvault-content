@@ -1,0 +1,46 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-05",
+  "baseline_commit": "233816b693eda3e8e21d761248252d8a23ee87b4",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-04_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "drive_train_path_explicit": true,
+    "reducer_coupling_brake_boundary_explicit": true,
+    "reducer_coupling_family_recognition_complete": true,
+    "lubrication_alignment_condition_boundaries_explicit": true,
+    "numeric_design_and_acceptance_claim_locks_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "technical_editorial_pass_I": {
+    "status": "NEXT",
+    "version": "v1"
+  },
+  "red_team_pass_I": {
+    "status": "PENDING"
+  },
+  "reader_experience_pass_I": {
+    "status": "PENDING"
+  },
+  "practice": "PENDING",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review"
+}

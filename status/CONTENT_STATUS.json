@@ -33,8 +33,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "PENDING",
-        "editorial": "PENDING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
@@ -60,10 +60,16 @@
         "return_to_service_or_operational_permission": true
       },
       "baseline_commit": "dbc27758e2f6fe1a696400d5a47f7d04cee90a55",
-      "structural_contract_source": "crn-m-03-v1"
+      "structural_contract_source": "crn-m-03-v1",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "primary_sections": 17,
+        "technical_editorial_pass_I": "NEXT"
+      }
     }
   },
-  "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries",
+  "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -84,6 +90,8 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/KICKOFF_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/AUTHORING_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/v1/CRN-M-04_D1_LESSON_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -93,7 +101,8 @@
         "kickoff": "COMPLETE",
         "scope": "LOCKED",
         "source_gate": "PASS_WITH_CLAIM_LIMITS",
-        "lesson": "NEXT"
+        "lesson": "COMPLETE",
+        "editorial": "NEXT"
       }
     }
   },
@@ -107,5 +116,14 @@
     "numeric_design_unlocked": false,
     "equipment_authority_locked": true,
     "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries"
+  },
+  "crn_m04_d1_lesson": {
+    "status": "AUTHORING_COMPLETE",
+    "version": "v1",
+    "baseline_commit": "233816b693eda3e8e21d761248252d8a23ee87b4",
+    "primary_sections": 17,
+    "source_gate": "PASS_WITH_CLAIM_LIMITS",
+    "technical_editorial_pass_I": "NEXT",
+    "next": "CRN-M-04 / D1 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 17-section beginner lesson for drive-path, ratio, reducer/coupling family, lubrication/alignment, condition-evidence, source-scope and authority-safe wording before red-team review"
   }
 }
