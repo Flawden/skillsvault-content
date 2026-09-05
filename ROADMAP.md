@@ -1471,3 +1471,19 @@ Status: `CONTENT_FROZEN`.
 - D1/D2/D3 remain immutable.
 
 Next: `CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.
+
+## CRN-M-03 Full Topic Freeze v1
+
+Decision: `FULL TOPIC FROZEN`.
+- baseline: `b15ff4de2fad0b893589e07bb4be9dbf54e09854`;
+- D1/D2/D3/D4 are independently frozen as v1;
+- depth frozen-file counts: D1=61, D2=61, D3=61, D4=95;
+- 278 / 278 indexed depth members were re-hashed and matched;
+- all indexed depth members are blob-identical to their annotated depth tags;
+- topic aggregate bundle: 11 immutable contract files under `CRN-M-03/FROZEN_v1`;
+- canonical frozen-index TOPIC entry appended with exact hashes;
+- annotated immutable topic tag contract: `crn-m-03-v1`;
+- D1–D4 source freshness watchlists remain non-blocking for v1;
+- no D1–D4 frozen content was rewritten;
+- `CQ-B001` remains in progress and continues through CRN-M-04…CRN-M-06.
+Next: `CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract`.

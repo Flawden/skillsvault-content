@@ -46,7 +46,7 @@ Next: `CRN-M-03 / D2 SOURCE FRESHNESS / v1 — revalidate current source edition
 Next: `CRN-M-03 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 
-Status: **ACTIVE — D1 CONTENT FROZEN v1 / D2 CONTENT FROZEN v1 / D3 KICKOFF NEXT**.
+Status: **FULL TOPIC FROZEN v1**.
 
 ## Structural production contract
 
@@ -560,3 +560,11 @@ Status: `CONTENT_FROZEN`.
 - Source Freshness: PASS WITH WATCHLIST.
 
 Next: `CRN-M-03 / FULL TOPIC FREEZE / v1 — aggregate D1-D4 immutability, topic manifest, topic tag contract and handoff`.
+
+## Full Topic Freeze v1
+
+CRN-M-03 is fully frozen across D1–D4. The aggregate topic contract locks 278 depth-frozen files through `ARTIFACT_MANIFEST.json` and `DEPTH_LOCKS.json`, and the immutable topic tag is `crn-m-03-v1`.
+
+No depth bundle is duplicated or rewritten by the topic freeze.
+
+Next: `CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract`.

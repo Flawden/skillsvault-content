@@ -1,0 +1,56 @@
+{
+  "freeze_id": "CRN-M-03-FULL-TOPIC-FREEZE-v1",
+  "topic_id": "CRN-M-03",
+  "topic_title_ru": "Крюковые подвески и захваты",
+  "scope": "D1-D4",
+  "version": "v1",
+  "freeze_date": "2026-09-04",
+  "decision": "TOPIC_CONTENT_FROZEN",
+  "source_baseline_commit": "b15ff4de2fad0b893589e07bb4be9dbf54e09854",
+  "canonical_branch": "main",
+  "immutable_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/FROZEN_v1",
+  "depth_freezes": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1",
+    "D4": "FROZEN_v1"
+  },
+  "frozen_index_members_by_depth": {
+    "D1": 61,
+    "D2": 61,
+    "D3": 61,
+    "D4": 95
+  },
+  "frozen_index_members_total": 278,
+  "cross_depth_hash_verification": "PASS",
+  "depth_tags": {
+    "D1": "crn-m-03-d1-v1",
+    "D2": "crn-m-03-d2-v1",
+    "D3": "crn-m-03-d3-v1",
+    "D4": "crn-m-03-d4-v1"
+  },
+  "topic_tag_contract": "crn-m-03-v1",
+  "source_freshness_by_depth": {
+    "D1": {
+      "decision": "PASS",
+      "watchlist_count": 0
+    },
+    "D2": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 1
+    },
+    "D3": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 3
+    },
+    "D4": {
+      "decision": "PASS_WITH_WATCHLIST",
+      "watchlist_count": 3
+    }
+  },
+  "source_watch_records_total_by_depth_non_deduplicated": 7,
+  "integration_blocker": "SCR-CONTENT-DEPTH-001 / canonical Vault has no D1-D4 depth axis",
+  "integration_blocker_blocks_content_freeze": false,
+  "cq_b001_pilot_complete": false,
+  "next": "CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract"
+}

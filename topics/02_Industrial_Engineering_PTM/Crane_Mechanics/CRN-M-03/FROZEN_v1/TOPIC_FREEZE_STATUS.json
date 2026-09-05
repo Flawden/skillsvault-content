@@ -1,0 +1,21 @@
+{
+  "topic_id": "CRN-M-03",
+  "topic_name_ru": "Крюковые подвески и захваты",
+  "status": "FULL_TOPIC_FROZEN",
+  "version": "v1",
+  "freeze_date": "2026-09-04",
+  "source_baseline_commit": "b15ff4de2fad0b893589e07bb4be9dbf54e09854",
+  "depths": {
+    "D1": "FROZEN_v1",
+    "D2": "FROZEN_v1",
+    "D3": "FROZEN_v1",
+    "D4": "FROZEN_v1"
+  },
+  "artifact_integrity": "PASS",
+  "cross_depth_identity": "PASS",
+  "frozen_members_verified": 278,
+  "topic_tag": "crn-m-03-v1",
+  "review_required_blocking": false,
+  "cq_b001_status": "IN_PROGRESS",
+  "next": "CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract"
+}
