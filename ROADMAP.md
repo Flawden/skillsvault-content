@@ -1569,3 +1569,13 @@ Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 - Technical Editorial / Red Team source-scope, rating, evidence and authority guards remain unchanged;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff`.
+
+## CRN-M-04 D1 Practice v1
+
+Status: `COMPLETE`.
+- 10/10 transfer cases A–J;
+- no worked answer key or canonical single reasoning path;
+- drive boundary/path/function, ratio-vs-torque, reducer/coupling family, alignment/lubrication/condition evidence, source scope and bounded authority handoff are exercised;
+- post-Reader-Experience Lesson and SOURCE_MAP remain byte-identical;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 PRACTICE REASONING / v1 — build non-exclusive beginner reasoning paths, discriminating evidence requests, source-scope checks and bounded STOP decisions for Practice A–J without turning Practice into a single answer key`.
