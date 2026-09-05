@@ -13,5 +13,9 @@
     ]
   },
   "practice": "NEXT",
-  "next": "CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff"
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

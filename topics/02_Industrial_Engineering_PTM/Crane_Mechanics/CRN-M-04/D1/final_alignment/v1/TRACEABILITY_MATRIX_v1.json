@@ -1,0 +1,458 @@
+{
+  "artifact": "CRN-M-04_D1_TRACEABILITY_MATRIX_v1",
+  "date": "2026-09-05",
+  "baseline_commit": "63baa98bcd5b8a92d63129e75b0c8421afc2c7dc",
+  "lesson_traceability": [
+    {
+      "section": "§1",
+      "role": "Separate drive elements: motor / coupling / reducer / brake and their interfaces",
+      "expected": "ER-D1-01,04,05",
+      "practice_or_verification": "A,D,E,F,J; U1/C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§2",
+      "role": "Choose system boundary, input/output and build drive-path interfaces before inference",
+      "expected": "ER-D1-01,02,09",
+      "practice_or_verification": "A,B,J; BF-D1-01/02",
+      "status": "PASS"
+    },
+    {
+      "section": "§3",
+      "role": "Explain reducer ratio without power-creation or rating shortcut",
+      "expected": "ER-D1-03",
+      "practice_or_verification": "C,J; BF-D1-03",
+      "status": "PASS"
+    },
+    {
+      "section": "§4",
+      "role": "Recognize reducer internals without collapsing them into one generic gear",
+      "expected": "ER-D1-04",
+      "practice_or_verification": "D,J; U1/C1",
+      "status": "PASS"
+    },
+    {
+      "section": "§5",
+      "role": "Recognize reducer families without selection/rating promotion",
+      "expected": "ER-D1-04",
+      "practice_or_verification": "D,J; SR-D1-01",
+      "status": "PASS"
+    },
+    {
+      "section": "§6",
+      "role": "Separate topology / stage structure from direction, mode and load-flow claims",
+      "expected": "ER-D1-02,03,04",
+      "practice_or_verification": "B,C,D,J; BF-D1-02/03",
+      "status": "PASS"
+    },
+    {
+      "section": "§7",
+      "role": "Treat bearings, housing and seals as functional support elements, not diagnostic verdicts",
+      "expected": "ER-D1-06",
+      "practice_or_verification": "G,H,J",
+      "status": "PASS"
+    },
+    {
+      "section": "§8",
+      "role": "Treat lubrication as evidence/source-bound; D1 does not prescribe product/substitution",
+      "expected": "ER-D1-06,07",
+      "practice_or_verification": "G,I,J; BF-D1-06",
+      "status": "PASS"
+    },
+    {
+      "section": "§9",
+      "role": "Recognize coupling function/family without universal misalignment forgiveness",
+      "expected": "ER-D1-05",
+      "practice_or_verification": "E,F,J; BF-D1-04",
+      "status": "PASS"
+    },
+    {
+      "section": "§10",
+      "role": "Preserve ГОСТ Р 50895-2025 gear-coupling scope; family scope is not interchangeability",
+      "expected": "ER-D1-05,07",
+      "practice_or_verification": "F,I,J; BF-D1-05",
+      "status": "PASS"
+    },
+    {
+      "section": "§11",
+      "role": "Keep alignment/interface geometry important but numeric acceptance source-bound",
+      "expected": "ER-D1-05,09",
+      "practice_or_verification": "E,J; BF-D1-04",
+      "status": "PASS"
+    },
+    {
+      "section": "§12",
+      "role": "Separate visible condition evidence from diagnosis / acceptance",
+      "expected": "ER-D1-06,09",
+      "practice_or_verification": "G,H,J; BF-D1-07",
+      "status": "PASS"
+    },
+    {
+      "section": "§13",
+      "role": "Use gear-damage nomenclature without promoting a damage name to root cause",
+      "expected": "ER-D1-06,07",
+      "practice_or_verification": "H,I,J; BF-D1-07",
+      "status": "PASS"
+    },
+    {
+      "section": "§14",
+      "role": "Route question → source role → exact applicability; title/category alone is insufficient",
+      "expected": "ER-D1-07,08,09",
+      "practice_or_verification": "F,G,H,I,J; BF-D1-08/09",
+      "status": "PASS"
+    },
+    {
+      "section": "§15",
+      "role": "Integrated D1 workflow: identity/history/unknown status → evidence → bounded conclusion",
+      "expected": "ER-D1-01…09",
+      "practice_or_verification": "A–J; U1/C1; SR-D1-02",
+      "status": "PASS"
+    },
+    {
+      "section": "§16",
+      "role": "Beginner traps + STOP-card; unsupported inference stops without equipment command",
+      "expected": "ER-D1-01…09",
+      "practice_or_verification": "A–J; BF-D1-01…10; SR-D1-01/02",
+      "status": "PASS"
+    },
+    {
+      "section": "§17",
+      "role": "Consolidated mental model for transfer; exact data/OEM/qualified process at boundary",
+      "expected": "ER-D1-01…10",
+      "practice_or_verification": "J pattern; U1 + C1 closure",
+      "status": "PASS"
+    }
+  ],
+  "practice_traceability": [
+    {
+      "case": "A",
+      "role": "system boundary + apparent interfaces vs proven architecture",
+      "expected": "ER-D1-01,02,09",
+      "guard": "BF-D1-01/02",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "B",
+      "role": "connectivity map vs operating mode / direction",
+      "expected": "ER-D1-02,09",
+      "guard": "BF-D1-02",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "C",
+      "role": "ratio vs actual/rated torque + current-configuration status",
+      "expected": "ER-D1-03,08,09",
+      "guard": "BF-D1-03/09",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "D",
+      "role": "reducer-family recognition without exact model/rating/load-share invention",
+      "expected": "ER-D1-04,09",
+      "guard": "SR-D1-01; BF-D1-03 if downstream",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "role": "coupling function/flexibility vs alignment acceptance",
+      "expected": "ER-D1-05,09",
+      "guard": "BF-D1-04",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "F",
+      "role": "gear-coupling source scope vs exact identity/interchangeability",
+      "expected": "ER-D1-05,07,09",
+      "guard": "BF-D1-05/08; SR-D1-01",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "role": "leak/lubrication evidence vs installed product/substitution/root cause",
+      "expected": "ER-D1-06,07,09",
+      "guard": "BF-D1-06/07",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "H",
+      "role": "noise/vibration/temperature/damage evidence vs diagnosis/acceptance",
+      "expected": "ER-D1-06,07,09",
+      "guard": "BF-D1-07",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "I",
+      "role": "source-role routing and exact applicability across question families",
+      "expected": "ER-D1-07,09",
+      "guard": "BF-D1-08/10",
+      "reasoning_present": true,
+      "status": "PASS"
+    },
+    {
+      "case": "J",
+      "role": "integrated known D1 drive packet + bounded authority handoff",
+      "expected": "ER-D1-01…09; ER-D1-10 pattern only",
+      "guard": "BF-D1-01…10; SR-D1-01/02",
+      "reasoning_present": true,
+      "status": "PASS"
+    }
+  ],
+  "expected_rubric_traceability": [
+    {
+      "expected": "ER-D1-01",
+      "competence": "System / authority boundary",
+      "lesson_origin": "§§1–2,15–17",
+      "known_evidence": "A,J",
+      "verification_closure": "U1 + C1 boundary/status update",
+      "rubric_dimension": "ER-D1-01",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-02",
+      "competence": "Drive-path topology separated from operating state",
+      "lesson_origin": "§§2,6,15–17",
+      "known_evidence": "A,B,J",
+      "verification_closure": "U1 + C1 connectivity/state update",
+      "rubric_dimension": "ER-D1-02",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-03",
+      "competence": "Ratio / actual torque / permissible torque separation",
+      "lesson_origin": "§§3,6,15–17",
+      "known_evidence": "C,J",
+      "verification_closure": "U1 + C1 current-ratio update without rating leap",
+      "rubric_dimension": "ER-D1-03",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-04",
+      "competence": "Reducer family recognition without exact design/rating completion",
+      "lesson_origin": "§§1,4–6,15–17",
+      "known_evidence": "D,J",
+      "verification_closure": "U1 + C1 family/exact-identity update",
+      "rubric_dimension": "ER-D1-04",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-05",
+      "competence": "Coupling function / identity / alignment / interchangeability separation",
+      "lesson_origin": "§§1,9–11,15–17",
+      "known_evidence": "E,F,J",
+      "verification_closure": "U1 + C1 exact coupling/OEM update",
+      "rubric_dimension": "ER-D1-05",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-06",
+      "competence": "Condition + lubrication evidence discipline without diagnosis/acceptance",
+      "lesson_origin": "§§7–8,12–13,15–17",
+      "known_evidence": "G,H,J",
+      "verification_closure": "U1 + C1 evidence-state update",
+      "rubric_dimension": "ER-D1-06",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-07",
+      "competence": "Source role + exact applicability",
+      "lesson_origin": "§§8,10,13–17",
+      "known_evidence": "F,G,H,I,J",
+      "verification_closure": "U1 + C1 source-map update",
+      "rubric_dimension": "ER-D1-07",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-08",
+      "competence": "Historical / old-document status separated from current configuration",
+      "lesson_origin": "§§14–17",
+      "known_evidence": "C,I,J",
+      "verification_closure": "U1 + C1 old-drawing/current-as-built update",
+      "rubric_dimension": "ER-D1-08",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-09",
+      "competence": "Discriminating evidence + bounded STOP / authority handoff",
+      "lesson_origin": "§§2,11–17",
+      "known_evidence": "A–J",
+      "verification_closure": "U1 + C1 selective STOP release",
+      "rubric_dimension": "ER-D1-09",
+      "status": "PASS"
+    },
+    {
+      "expected": "ER-D1-10",
+      "competence": "Unseen transfer of complete D1 workflow",
+      "lesson_origin": "integrated §§1–17",
+      "known_evidence": "J is known pattern only",
+      "verification_closure": "mandatory unseen U1 + material C1 update",
+      "rubric_dimension": "ER-D1-10",
+      "status": "PASS"
+    }
+  ],
+  "blocking_failure_provenance": [
+    {
+      "bf": "BF-D1-01",
+      "failure": "BOUNDARY / AUTHORITY LEAKAGE",
+      "reasoning_origin": "R-F01",
+      "lesson_origin": "§§1–2,15–17",
+      "practice_reasoning": "A,J",
+      "expected_origin": "ER-D1-01/09",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-02",
+      "failure": "TOPOLOGY → OPERATING STATE",
+      "reasoning_origin": "R-F02",
+      "lesson_origin": "§§2,6,15–16",
+      "practice_reasoning": "A,B,J",
+      "expected_origin": "ER-D1-02",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-03",
+      "failure": "RATIO → ACTUAL / RATED TORQUE",
+      "reasoning_origin": "R-F03",
+      "lesson_origin": "§§3,6,15–16",
+      "practice_reasoning": "C,J",
+      "expected_origin": "ER-D1-03",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-04",
+      "failure": "COUPLING FLEXIBILITY → ALIGNMENT ACCEPTANCE",
+      "reasoning_origin": "R-F05",
+      "lesson_origin": "§§9,11,16",
+      "practice_reasoning": "E,J",
+      "expected_origin": "ER-D1-05/09",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-05",
+      "failure": "FAMILY STANDARD → INTERCHANGEABILITY",
+      "reasoning_origin": "R-F06",
+      "lesson_origin": "§§9–10,14–16",
+      "practice_reasoning": "F,I,J",
+      "expected_origin": "ER-D1-05/07",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-06",
+      "failure": "LUBRICANT SOURCE → INSTALLED / SUBSTITUTION CLAIM",
+      "reasoning_origin": "R-F07",
+      "lesson_origin": "§§8,14–16",
+      "practice_reasoning": "G,I,J",
+      "expected_origin": "ER-D1-06/07",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-07",
+      "failure": "CONDITION / DAMAGE → ROOT CAUSE / ACCEPTANCE",
+      "reasoning_origin": "R-F08",
+      "lesson_origin": "§§7,12–13,16",
+      "practice_reasoning": "G,H,J",
+      "expected_origin": "ER-D1-06",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-08",
+      "failure": "DOCUMENT TITLE → EXACT APPLICABILITY",
+      "reasoning_origin": "R-F09",
+      "lesson_origin": "§§10,14–16",
+      "practice_reasoning": "F,I,J",
+      "expected_origin": "ER-D1-07",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-09",
+      "failure": "HISTORICAL DATA → CURRENT CONFIGURATION",
+      "reasoning_origin": "R-F10",
+      "lesson_origin": "§§14–16",
+      "practice_reasoning": "C,I,J",
+      "expected_origin": "ER-D1-08",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    },
+    {
+      "bf": "BF-D1-10",
+      "failure": "EQUIPMENT-AUTHORITY LEAK",
+      "reasoning_origin": "R-F12",
+      "lesson_origin": "§§14–17",
+      "practice_reasoning": "A–J; explicit J",
+      "expected_origin": "ER-D1-01/09",
+      "rubric_policy": "NON_COMPENSABLE_AFTER_DOWNSTREAM_USE_TRIGGER",
+      "status": "PASS"
+    }
+  ],
+  "severity_review_provenance": [
+    {
+      "sr": "SR-D1-01",
+      "failure": "FAMILY → EXACT IDENTITY / RATING",
+      "reasoning_origin": "R-F04",
+      "lesson_origin": "§§4–6,9–10,14–16",
+      "practice_reasoning": "D,F,J",
+      "rubric_policy": "severity review; escalates only through concrete BF if used downstream",
+      "status": "PASS"
+    },
+    {
+      "sr": "SR-D1-02",
+      "failure": "UNKNOWN → CONVENIENT NOMINAL ASSUMPTION",
+      "reasoning_origin": "R-F11",
+      "lesson_origin": "§§2,14–16",
+      "practice_reasoning": "A,C,D,J",
+      "rubric_policy": "severity review; escalates only when unknown is promoted into a concrete BF status jump",
+      "status": "PASS"
+    }
+  ],
+  "transfer_closure": {
+    "known_A_J_required": true,
+    "case_J_known_integrated_but_insufficient": true,
+    "u1_required": true,
+    "c1_required": true,
+    "u1_role": "unseen drive case combining multiple D1 trap families",
+    "c1_role": "material current-configuration/OEM evidence update requiring selective status/source-map revision",
+    "bounded_stop_can_be_success": true
+  },
+  "guard_consistency": {
+    "gost_r_50895_2025_gear_coupling_scope_only": true,
+    "iso_6336_design_rating_boundary_preserved": true,
+    "iso_10825_1_damage_nomenclature_not_root_cause": true,
+    "iso_12925_1_lubricant_spec_boundary_not_installed_product": true,
+    "iso_14691_scope_limited_watchlist_preserved": true,
+    "numeric_alignment_acceptance_locked": true,
+    "condition_acceptance_root_cause_locked": true,
+    "repair_adjustment_return_to_service_locked": true,
+    "skillsvault_stop_not_equipment_command": true,
+    "rubric_thresholds_pedagogical_only": true,
+    "russian_first_accessibility_preserved": true
+  },
+  "result": {
+    "lesson": "17/17",
+    "practice": "10/10",
+    "reasoning": "10/10",
+    "expected": "10/10",
+    "rubric": "10/10",
+    "blocking_failures": "10/10",
+    "severity_review": "2/2",
+    "orphans": 0,
+    "surprise_bf": 0,
+    "guard_contradictions": 0,
+    "content_corrections_required": false,
+    "source_freshness_ready": true
+  }
+}

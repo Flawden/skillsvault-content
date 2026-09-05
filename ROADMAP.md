@@ -1,4 +1,20 @@
 # SkillsVault Content — ROADMAP
+## CRN-M-04 D1 Final Alignment v1
+
+Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
+- Lesson primary sections: 17/17 traced;
+- Practice / Reasoning: 10/10 + 10/10 traced;
+- Expected Result / Rubric: ER-D1-01…10 all traced;
+- Blocking Failures: 10/10 have prior instructional/practice/reasoning origin;
+- SR-D1-01/02 remain severity-review and are not silently promoted;
+- known A–J and Case J remain insufficient for ER-D1-10; unseen U1 + C1 are mandatory;
+- no orphan competency, surprise BF, guard contradiction or language accessibility gap;
+- Russian-first learner-facing policy preserved;
+- reducer/coupling source-role guards and ISO 14691 scope-limited watchlist preserved;
+- numerical design/rating, alignment/lubrication acceptance, diagnosis/repair and equipment-operation authority remain locked;
+- CRN-M-01 / CRN-M-02 / CRN-M-03 frozen topics and `FROZEN_INDEX` remain immutable.
+Next: `CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze`.
+
 ## CRN-M-04 D1 Verification Rubric v1
 
 Status: `COMPLETE`.

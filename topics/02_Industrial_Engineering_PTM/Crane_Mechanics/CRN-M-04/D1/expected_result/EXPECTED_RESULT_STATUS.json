@@ -35,9 +35,10 @@
     "crn_m01_m02_m03_immutable": true,
     "frozen_index_unchanged": true
   },
-  "verification_rubric": "NEXT",
-  "final_alignment": "PENDING",
-  "source_freshness": "PENDING",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
   "freeze": "PENDING",
-  "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+  "expected_result": "COMPLETE"
 }

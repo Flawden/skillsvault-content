@@ -14,10 +14,10 @@
   "multiple_valid_paths_explicit": true,
   "practice_unchanged": true,
   "lesson_stack_unchanged": true,
-  "expected_result": "NEXT",
-  "verification_rubric": "PENDING",
-  "final_alignment": "PENDING",
-  "source_freshness": "PENDING",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
   "freeze": "PENDING",
-  "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff"
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze"
 }

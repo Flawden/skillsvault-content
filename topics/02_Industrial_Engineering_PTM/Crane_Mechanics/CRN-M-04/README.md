@@ -17,11 +17,11 @@ Build a progressive mental model of crane drive reducers and couplings from begi
 
 ## Current state
 
-`D1 VERIFICATION RUBRIC v1 = COMPLETE``.
+`D1 FINAL ALIGNMENT v1 = COMPLETE`.
 
 Design/rating, coupling selection, numeric alignment, lubricant selection, inspection acceptance, repair and return-to-service remain locked to exact sources/OEM/qualified authority.
 
-Next: `CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
+Next: `CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze`.
 
 ## D1 — Practice v1
 
@@ -67,3 +67,15 @@ Status: `COMPLETE`.
 - correct bounded STOP is a passing outcome when blocked claim and discriminating evidence are explicit;
 - numerical design/rating, alignment/lubrication acceptance, diagnosis and equipment authority remain locked.
 Next: `CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
+
+## D1 — Final Alignment v1
+
+Status: `COMPLETE`.
+- 17/17 Lesson sections, Practice/Reasoning 10/10 + 10/10 and ER/Rubric 10/10 are traced end-to-end;
+- 10/10 non-compensable BF have prior reasoning/instructional origin; SR-D1-01/02 remain severity-review only;
+- known A–J and Case J remain insufficient for ER-D1-10; unseen U1 + C1 are mandatory;
+- orphan competence / surprise BF / guard contradiction / language gap = 0 / 0 / 0 / 0;
+- ГОСТ Р 50895, ISO 6336, ISO 10825-1, ISO 12925-1 and ISO 14691 source-role guards remain bounded;
+- numerical design/rating, alignment/lubrication acceptance, diagnosis/repair and equipment-operation authority remain locked;
+- CRN-M-01/02/03 frozen topics and FROZEN_INDEX remain immutable; no content correction is required before Source Freshness.
+Next: `CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze`.

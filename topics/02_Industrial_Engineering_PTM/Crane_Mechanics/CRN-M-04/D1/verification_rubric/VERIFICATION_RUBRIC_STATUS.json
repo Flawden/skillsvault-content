@@ -40,6 +40,9 @@
     "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
     "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json"
   },
-  "final_alignment": "NEXT",
-  "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+  "final_alignment": "COMPLETE",
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "source_freshness": "NEXT"
 }

@@ -41,7 +41,7 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "PENDING",
+        "final_alignment": "COMPLETE",
         "source_freshness": "PENDING",
         "freeze": "PENDING",
         "reader_experience": "COMPLETE"
@@ -74,8 +74,10 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
-        "verification_rubric": "COMPLETE"
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       },
       "reader_experience": {
         "status": "COMPLETE",
@@ -107,7 +109,9 @@
         "equipment_authority_lock_preserved": true,
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       },
       "practice_reasoning": {
         "status": "COMPLETE",
@@ -124,7 +128,9 @@
         "expected_result": "COMPLETE",
         "equipment_authority_lock_preserved": true,
         "verification_rubric": "COMPLETE",
-        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       },
       "expected_result": {
         "status": "COMPLETE",
@@ -146,7 +152,9 @@
         "practice_unchanged": true,
         "practice_reasoning_unchanged": true,
         "equipment_authority_lock_preserved": true,
-        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       },
       "verification_rubric": {
         "status": "COMPLETE",
@@ -168,13 +176,39 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/CRN-M-04_D1_VERIFICATION_RUBRIC_v1.md",
         "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
-        "final_alignment": "NEXT",
+        "final_alignment": "COMPLETE",
         "equipment_authority_lock_preserved": true,
-        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+        "source_freshness": "NEXT"
+      },
+      "final_alignment": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "63baa98bcd5b8a92d63129e75b0c8421afc2c7dc",
+        "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+        "lesson_sections_traced": 17,
+        "practice_cases_traced": 10,
+        "reasoning_cases_traced": 10,
+        "expected_dimensions_traced": 10,
+        "rubric_dimensions_traced": 10,
+        "blocking_failures_with_prior_origin": 10,
+        "severity_review_families_traced": 2,
+        "orphan_count": 0,
+        "content_corrections_required": false,
+        "source_freshness_ready": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/CRN-M-04_D1_FINAL_ALIGNMENT_v1.md",
+        "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+        "u1_required": true,
+        "c1_required": true,
+        "gost_r_50895_scope_guard_preserved": true,
+        "iso_14691_watchlist_preserved": true,
+        "equipment_authority_locks_preserved": true,
+        "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze"
       }
     }
   },
-  "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -199,6 +233,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/CRN-M-04_D1_PRACTICE_REASONING_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/CRN-M-04_D1_VERIFICATION_RUBRIC_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/CRN-M-04_D1_FINAL_ALIGNMENT_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -216,7 +251,8 @@
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
         "verification_rubric": "COMPLETE",
-        "final_alignment": "NEXT"
+        "final_alignment": "COMPLETE",
+        "source_freshness": "NEXT"
       }
     }
   },
@@ -336,5 +372,30 @@
     "challenge_required": true,
     "final_alignment": "NEXT",
     "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+  },
+  "crn_m04_d1_final_alignment": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "63baa98bcd5b8a92d63129e75b0c8421afc2c7dc",
+    "decision": "PASS_TRACEABILITY_COMPLETE_NO_BLOCKING_GAPS",
+    "lesson_sections_traced": 17,
+    "practice_cases_traced": 10,
+    "reasoning_cases_traced": 10,
+    "expected_dimensions_traced": 10,
+    "rubric_dimensions_traced": 10,
+    "blocking_failures_with_prior_origin": 10,
+    "severity_review_families_traced": 2,
+    "orphan_count": 0,
+    "content_corrections_required": false,
+    "source_freshness_ready": true,
+    "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/CRN-M-04_D1_FINAL_ALIGNMENT_v1.md",
+    "matrix": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/TRACEABILITY_MATRIX_v1.json",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/FINAL_ALIGNMENT_QA_v1.json",
+    "u1_required": true,
+    "c1_required": true,
+    "gost_r_50895_scope_guard_preserved": true,
+    "iso_14691_watchlist_preserved": true,
+    "equipment_authority_locks_preserved": true,
+    "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze"
   }
 }
