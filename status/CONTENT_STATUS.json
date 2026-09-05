@@ -1,13 +1,69 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-09-04",
+  "snapshot_date": "2026-09-05",
   "canonical_branch": "main",
   "active_topic": "CRN-M-04",
   "active_topic_name_ru": "Редукторы и муфты",
   "topic_path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04",
-  "topic_status": "PENDING_KICKOFF",
-  "depths": {},
-  "next": "CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract",
+  "topic_status": "ACTIVE",
+  "depths": {
+    "D1": {
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_CLAIM_LIMITS",
+        "verified_on": "2026-09-05",
+        "lesson_authoring_unlocked": true,
+        "source_records": 9,
+        "watchlist_count": 1,
+        "numeric_design_and_rating_unlocked": false,
+        "coupling_selection_alignment_acceptance_unlocked": false,
+        "lubricant_selection_unlocked": false,
+        "inspection_acceptance_unlocked": false,
+        "repair_return_to_service_unlocked": false,
+        "equipment_specific_claims_require_oem_passport_drawings_or_qualified_authority": true
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "PENDING",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "locks": {
+        "paid_source_reconstruction": true,
+        "gear_load_capacity_and_iso6336_coefficients": true,
+        "reducer_selection_and_service_factors": true,
+        "coupling_selection_and_rating": true,
+        "numeric_alignment_and_displacement_limits": true,
+        "backlash_wear_damage_acceptance": true,
+        "vibration_noise_temperature_acceptance": true,
+        "lubricant_selection_and_substitution": true,
+        "shaft_bearing_key_spline_fastener_design": true,
+        "root_cause_from_visible_condition": true,
+        "repair_adjustment_overhaul": true,
+        "return_to_service_or_operational_permission": true
+      },
+      "baseline_commit": "dbc27758e2f6fe1a696400d5a47f7d04cee90a55",
+      "structural_contract_source": "crn-m-03-v1"
+    }
+  },
+  "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -25,8 +81,31 @@
   "new_chat_entrypoint": [
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/FROZEN_v1/TOPIC_FREEZE_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-03/FROZEN_v1/PILOT_HANDOFF.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/KICKOFF_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/kickoff/v1/SOURCE_GATE_v1.md",
     "Continue from status.next"
-  ]
+  ],
+  "current": {
+    "depths": {
+      "D1": {
+        "status": "ACTIVE",
+        "kickoff": "COMPLETE",
+        "scope": "LOCKED",
+        "source_gate": "PASS_WITH_CLAIM_LIMITS",
+        "lesson": "NEXT"
+      }
+    }
+  },
+  "crn_m04_d1_kickoff": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "dbc27758e2f6fe1a696400d5a47f7d04cee90a55",
+    "source_records": 9,
+    "watchlist_count": 1,
+    "lesson_authoring_unlocked": true,
+    "numeric_design_unlocked": false,
+    "equipment_authority_locked": true,
+    "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries"
+  }
 }

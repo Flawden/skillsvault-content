@@ -1,0 +1,32 @@
+{
+  "stage": "CRN-M-04_D1_CONTENT_KICKOFF_v1",
+  "topic_id": "CRN-M-04",
+  "depth": "D1",
+  "version": "v1",
+  "date": "2026-09-05",
+  "result": "PASS_WITH_CLAIM_LIMITS",
+  "checks": {
+    "crn_m03_reused_as_structure_only": true,
+    "crn_m01_m02_m03_frozen_topics_immutable": true,
+    "d1_scope_has_explicit_in_and_out": true,
+    "reducer_coupling_brake_functions_separated": true,
+    "drive_train_power_torque_path_present": true,
+    "speed_torque_relationship_qualitative_only": true,
+    "gost_31592_2012_current_verified": true,
+    "gost_r_50895_2025_current_verified": true,
+    "gost_r_50895_96_replacement_recorded": true,
+    "iso_4306_1_2026_current_verified": true,
+    "iso_6336_1_2019_current_confirmed_2025": true,
+    "iso_6336_expert_design_boundary_recorded": true,
+    "iso_10825_1_2022_observation_not_verdict_guard": true,
+    "iso_12925_1_2024_lubricant_scope_guard": true,
+    "iso_14691_scope_limited_companion_guard": true,
+    "fnp_461_2026_revision_verified": true,
+    "oem_actual_drive_documentation_requirement_recorded": true,
+    "numeric_design_selection_alignment_acceptance_locked": true,
+    "maintenance_repair_return_to_service_locked": true,
+    "lesson_authoring_unlocked": true,
+    "frozen_index_must_remain_unchanged": true
+  },
+  "next": "CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries"
+}

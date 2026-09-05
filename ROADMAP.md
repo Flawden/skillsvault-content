@@ -1487,3 +1487,20 @@ Decision: `FULL TOPIC FROZEN`.
 - no D1–D4 frozen content was rewritten;
 - `CQ-B001` remains in progress and continues through CRN-M-04…CRN-M-06.
 Next: `CRN-M-04 / CONTENT KICKOFF / v1 — Редукторы и муфты; define D1 scope/source gate and reuse the CRN-M-03 topic contract`.
+
+## CRN-M-04 D1 Content Kickoff v1
+
+Status: `COMPLETE`.
+- topic: Редукторы и муфты;
+- structural contract source: `crn-m-03-v1` (structure only);
+- D1 scope: LOCKED;
+- source gate: PASS_WITH_CLAIM_LIMITS;
+- 9 source records; watchlist = 1;
+- current Russian anchors include ГОСТ 31592-2012 and ГОСТ Р 50895-2025;
+- ISO 6336-1:2019 remains an expert gear-rating boundary, not a beginner design shortcut;
+- ISO 10825-1:2022 preserves observation vs diagnosis/acceptance separation;
+- ISO 12925-1:2024 preserves lubricant-selection boundaries;
+- ISO 14691:2008 is scope-limited development companion only, not crane coupling authority;
+- numeric design/rating, coupling selection/alignment/acceptance, lubricant selection, repair and return-to-service remain locked;
+- lesson authoring: UNLOCKED.
+Next: `CRN-M-04 / D1 LESSON AUTHORING / v1 — build the beginner drive-train mental model for reducers and couplings under locked design, acceptance and OEM boundaries`.

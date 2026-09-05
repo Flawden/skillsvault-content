@@ -1,0 +1,125 @@
+{
+  "topic_id": "CRN-M-04",
+  "topic_name_ru": "Редукторы и муфты",
+  "depth": "D1",
+  "version": "v1",
+  "verified_on": "2026-09-05",
+  "decision": "PASS_WITH_CLAIM_LIMITS",
+  "sources": [
+    {
+      "id": "EXT-ISO-4306-1-2026",
+      "title": "ISO 4306-1:2026 — Cranes — Vocabulary — Part 1: General",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "stage": "60.60",
+      "role": "CRANE_TERMINOLOGY_COMPONENT_CONTEXT",
+      "public_url": "https://www.iso.org/standard/78820.html",
+      "full_text_available_in_repo": false
+    },
+    {
+      "id": "EXT-GOST-31592-2012",
+      "title": "ГОСТ 31592-2012 — Редукторы общемашиностроительного применения. Общие технические условия",
+      "authority": "ROSSTANDART",
+      "status": "CURRENT",
+      "role": "GENERAL_REDUCER_SCOPE_AND_DOCUMENTATION_BOUNDARY",
+      "public_url": "https://protect.gost.ru/gost/details/a7ff0356-3421-47a5-971a-2ad8703edad3",
+      "scope_warning": "General-purpose reducer standard; special-purpose crane applicability and actual values require exact equipment/standard documentation."
+    },
+    {
+      "id": "EXT-GOST-R-50895-2025",
+      "title": "ГОСТ Р 50895-2025 — Муфты зубчатые. Технические условия",
+      "authority": "ROSSTANDART",
+      "status": "CURRENT_EFFECTIVE_2026-01-15",
+      "role": "GEAR_COUPLING_SCOPE_AND_DISPLACEMENT_BOUNDARY",
+      "public_url": "https://protect.gost.ru/gost/details/a3f18bf8-3bfc-421f-aad6-bc14922903cb",
+      "replaces": "ГОСТ Р 50895-96",
+      "scope_warning": "Applies to gear couplings within its stated scope; do not transfer requirements or displacement limits to other coupling families."
+    },
+    {
+      "id": "EXT-ISO-6336-1-2019",
+      "title": "ISO 6336-1:2019 — Calculation of load capacity of spur and helical gears — Part 1",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "stage": "90.93",
+      "last_confirmed": "2025",
+      "role": "GEAR_LOAD_CAPACITY_DESIGN_PROOF_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/63819.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Formal experienced-gear-designer method; does not assure performance of the assembled drive system and is not a beginner design shortcut."
+    },
+    {
+      "id": "EXT-ISO-10825-1-2022",
+      "title": "ISO 10825-1:2022 — Gears — Wear and damage to gear teeth — Part 1: Nomenclature and characteristics",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "stage": "60.60",
+      "role": "GEAR_DAMAGE_NOMENCLATURE_OBSERVATION_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/78719.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Condition terminology does not itself provide complete cause, prevention, acceptance or serviceability decisions."
+    },
+    {
+      "id": "EXT-ISO-12925-1-2024",
+      "title": "ISO 12925-1:2024 — Lubricants ... Family C (gears) — Part 1: Specifications for lubricants for enclosed gear systems",
+      "authority": "ISO",
+      "status": "PUBLISHED_CURRENT",
+      "stage": "60.60",
+      "role": "ENCLOSED_GEAR_LUBRICANT_SPECIFICATION_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/87200.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Does not select the actual lubricant for a particular crane reducer without equipment/OEM requirements."
+    },
+    {
+      "id": "DEV-ISO-14691-2008",
+      "title": "ISO 14691:2008 — Flexible couplings for mechanical power transmission — General-purpose applications",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "stage": "90.93",
+      "last_confirmed": "2024",
+      "role": "SCOPE_LIMITED_COUPLING_MECHANISM_COMPANION",
+      "public_url": "https://www.iso.org/standard/45476.html",
+      "full_text_available_in_repo": false,
+      "scope_warning": "Petroleum/petrochemical/natural-gas industry scope. Development companion only; not crane-specific selection/alignment/acceptance authority."
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "ROSTECHNADZOR",
+      "status": "CURRENT_AS_AMENDED_2026-04-16",
+      "role": "RUSSIAN_REGULATORY_OPERATION_REPAIR_AUTHORITY_BOUNDARY",
+      "public_reference": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "amendments_effective": "2026-06-08",
+      "valid_through": "2032-09-01"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-CRANE-DRIVE",
+      "title": "Passport / OEM / drawings / operating documentation for the actual crane drive, reducer and coupling",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_EQUIPMENT_SPECIFIC_CLAIMS",
+      "role": "ACTUAL_DRIVE_CONFIGURATION_LIMITS_MAINTENANCE_AND_AUTHORITY",
+      "public": false
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "DEV-ISO-14691-2008",
+      "reason": "Current and authoritative inside its own petroleum-industry scope, but retained only as a mechanism/terminology companion; prefer a directly applicable crane/general-machinery source for any future normative coupling claim."
+    }
+  ],
+  "freshness_recheck_required_before_freeze": true,
+  "locked_claim_classes": [
+    "gear_load_capacity_and_iso6336_coefficients",
+    "reducer_selection_and_service_factors",
+    "coupling_selection_and_rating",
+    "numeric_alignment_and_displacement_limits",
+    "gear_backlash_wear_damage_acceptance_limits",
+    "vibration_noise_temperature_acceptance_limits",
+    "lubricant_grade_viscosity_substitution_and_interval",
+    "shaft_bearing_key_spline_fastener_design",
+    "root_cause_from_visible_condition",
+    "repair_adjustment_overhaul_instructions",
+    "equipment_specific_maintenance_or_replacement",
+    "return_to_service_or_operational_permission"
+  ],
+  "authoring_unlocked": true
+}
