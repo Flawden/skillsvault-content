@@ -1,5 +1,8 @@
 {
   "topic": "CRN-M-04",
   "depth": "D1",
-  "status": "PENDING"
+  "stage": "READER_EXPERIENCE",
+  "status": "NEXT",
+  "pass": "I",
+  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
 }

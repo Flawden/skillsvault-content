@@ -1,5 +1,25 @@
 {
   "topic": "CRN-M-04",
   "depth": "D1",
-  "status": "PENDING"
+  "stage": "RED_TEAM",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "7c6702ad8931a5a614fbd7f80a2dac8d50b608d5",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/red_team/pass_I/v1/CRN-M-04_D1_RED_TEAM_PASS_I_v1.md",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05",
+      "RT-06",
+      "RT-07",
+      "RT-08",
+      "RT-09",
+      "RT-10"
+    ]
+  },
+  "reader_experience": "NEXT",
+  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
 }

@@ -1535,3 +1535,21 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - numeric design/rating/alignment/lubrication/acceptance and equipment-authority locks remain closed;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 RED TEAM / PASS I / v1 — adversarial challenge of drive-path assumptions, ratio-to-torque shortcuts, reducer/coupling family overreach, alignment/lubrication source misuse, condition-to-diagnosis escalation and equipment-authority leakage before reader experience`.
+
+## CRN-M-04 D1 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 10/10 adversarial findings fixed across the 17-section beginner lesson;
+- visible drive path cannot become proven complete architecture;
+- ratio + motor nameplate cannot become actual transmitted torque or permissible rating;
+- coupling family/appearance cannot become exact identity or standard applicability;
+- flexible/compensating coupling cannot become misalignment permission or root-cause proof;
+- lubricant specification cannot become actual lubricant/substitution authority;
+- damage nomenclature cannot become cause/severity/acceptance;
+- absence of observed symptoms cannot become proof of health without observability coverage;
+- agreeing evidence lanes cannot silently become independent causal proof;
+- source title/category match cannot become exact applicability;
+- SkillsVault STOP/handoff/recommendation cannot become an equipment operation command;
+- numeric design/rating/alignment/lubrication/acceptance and equipment-authority locks remain closed;
+- CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice`.

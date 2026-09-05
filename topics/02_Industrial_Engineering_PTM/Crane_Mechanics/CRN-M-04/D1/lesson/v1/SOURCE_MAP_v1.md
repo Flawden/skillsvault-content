@@ -146,3 +146,16 @@ Not introduced in Lesson v1:
 - damage nomenclature ≠ acceptance/serviceability verdict;
 - source name/category match ≠ exact applicability;
 - SkillsVault STOP ≠ equipment-operation command.
+
+## Red-Team claim locks carried forward
+
+- visible/apparent drive path ≠ complete proven internal architecture;
+- ratio + motor nameplate ≠ actual transmitted torque / transient load / permissible rating;
+- visual similarity or family label ≠ exact coupling identity or standard applicability;
+- flexible/compensating behavior ≠ permission to accept unknown misalignment; coupling damage/heat/vibration ≠ misalignment root cause;
+- ISO 12925-1 lubricant specification boundary ≠ proof of installed lubricant, mixing/substitution compatibility or authority to override OEM documentation;
+- ISO 10825 damage nomenclature ≠ cause, severity, acceptance or remaining-life verdict;
+- no observed noise/leak/vibration/damage ≠ healthy condition without observability/operating-state coverage;
+- agreeing evidence lanes ≠ independent causal proof; common-mode assumptions remain possible;
+- source/category/title match ≠ exact applicability;
+- SkillsVault STOP / source-gap handoff / technical recommendation ≠ equipment operational permission or prohibition.
