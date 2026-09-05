@@ -17,11 +17,11 @@ Build a progressive mental model of crane drive reducers and couplings from begi
 
 ## Current state
 
-`D1 FINAL ALIGNMENT v1 = COMPLETE`.
+`D1 SOURCE FRESHNESS v1 = COMPLETE`.
 
 Design/rating, coupling selection, numeric alignment, lubricant selection, inspection acceptance, repair and return-to-service remain locked to exact sources/OEM/qualified authority.
 
-Next: `CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze`.
+Next: `CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history`.
 
 ## D1 — Practice v1
 
@@ -79,3 +79,16 @@ Status: `COMPLETE`.
 - numerical design/rating, alignment/lubrication acceptance, diagnosis/repair and equipment-operation authority remain locked;
 - CRN-M-01/02/03 frozen topics and FROZEN_INDEX remain immutable; no content correction is required before Source Freshness.
 Next: `CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze`.
+
+## D1 — Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE READY`.
+- source records: 9; watchlist: 1 (`ISO 14691:2008`);
+- ISO 4306-1:2026, ISO 6336-1:2019, ISO 10825-1:2022 and ISO 12925-1:2024 status rechecked;
+- ГОСТ 31592-2012 and ГОСТ Р 50895-2025 remain current within their own scopes;
+- ISO 14691 remains current but scope-limited to petroleum/petrochemical/natural-gas applications and is not promoted to crane authority;
+- ФНП ПС №461 tracked in revision 16.04.2026, effective 08.06.2026 and valid through 01.09.2032;
+- design/rating, numeric alignment, lubricant selection, condition acceptance/root-cause and operation/repair authority locks preserved;
+- content contract change required: NO; source gate correction required: NO;
+- CRN-M-01/02/03 frozen history and `FROZEN_INDEX` remain immutable.
+Next: `CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history`.

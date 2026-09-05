@@ -1,4 +1,17 @@
 # SkillsVault Content — ROADMAP
+## CRN-M-04 D1 Source Freshness v1
+
+Decision: `PASS WITH WATCHLIST — FREEZE READY`.
+- 9 governing source lanes rechecked on 2026-09-05; watchlist = 1;
+- ISO 4306-1:2026 current; ISO 6336-1:2019 confirmed current in 2025; ISO 10825-1:2022 and ISO 12925-1:2024 current;
+- ГОСТ 31592-2012 and ГОСТ Р 50895-2025 current with exact-scope guards preserved;
+- ISO 14691:2008 current/confirmed but retained only as petroleum-industry scope-limited companion;
+- ФНП ПС №461 current in revision 16.04.2026, effective 08.06.2026, valid through 01.09.2032;
+- no aligned D1 competence/content contract change or source-gate correction required;
+- numerical design/rating/alignment/lubrication acceptance, diagnosis/repair and equipment-operation authority remain locked;
+- CRN-M-01/02/03 frozen topics and `FROZEN_INDEX` remain unchanged.
+Next: `CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history`.
+
 ## CRN-M-04 D1 Final Alignment v1
 
 Decision: `PASS — TRACEABILITY COMPLETE / NO BLOCKING GAPS`.
