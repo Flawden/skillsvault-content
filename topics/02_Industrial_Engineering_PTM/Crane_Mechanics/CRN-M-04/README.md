@@ -17,11 +17,11 @@ Build a progressive mental model of crane drive reducers and couplings from begi
 
 ## Current state
 
-`D1 READER EXPERIENCE PASS I v1 = COMPLETE / PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED`.
+`D1 VERIFICATION RUBRIC v1 = COMPLETE``.
 
 Design/rating, coupling selection, numeric alignment, lubricant selection, inspection acceptance, repair and return-to-service remain locked to exact sources/OEM/qualified authority.
 
-Next: `CRN-M-04 / D1 PRACTICE / v1 — build beginner transfer cases for drive-train boundary, drive-path mapping, reducer/coupling family recognition, source-scope discipline, evidence-status separation and bounded STOP / equipment-authority handoff`.
+Next: `CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
 
 ## D1 — Practice v1
 
@@ -55,3 +55,15 @@ Status: `COMPLETE`.
 - numerical design/rating, alignment/lubrication acceptance, diagnosis and equipment authority remain locked.
 
 Next: `CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation`.
+
+## D1 — Verification Rubric v1
+
+Status: `COMPLETE`.
+- ER-D1-01…10 scored on a 0–4 scale; max 40; each dimension must reach >=3 for `D1 VERIFIED`;
+- `D1 VERIFIED` requires >=30/40, 0 BF, known case + unseen U1 + C1 + complete evidence package;
+- `D1 ROBUST / TRANSFER` requires >=36/40 plus ER-D1-07/09/10 = 4;
+- 10 dangerous status/authority jumps are non-compensable after downstream-use trigger;
+- 2 families remain severity-review unless they create an explicit BF;
+- correct bounded STOP is a passing outcome when blocked claim and discriminating evidence are explicit;
+- numerical design/rating, alignment/lubrication acceptance, diagnosis and equipment authority remain locked.
+Next: `CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.

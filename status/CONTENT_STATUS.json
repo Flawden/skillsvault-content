@@ -40,7 +40,7 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "PENDING",
+        "verification_rubric": "COMPLETE",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING",
@@ -74,7 +74,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
+        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
+        "verification_rubric": "COMPLETE"
       },
       "reader_experience": {
         "status": "COMPLETE",
@@ -105,7 +106,8 @@
         "source_map_unchanged": true,
         "equipment_authority_lock_preserved": true,
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
       },
       "practice_reasoning": {
         "status": "COMPLETE",
@@ -121,7 +123,8 @@
         "lesson_stack_unchanged": true,
         "expected_result": "COMPLETE",
         "equipment_authority_lock_preserved": true,
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
       },
       "expected_result": {
         "status": "COMPLETE",
@@ -138,15 +141,40 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
         "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
-        "verification_rubric": "NEXT",
+        "verification_rubric": "COMPLETE",
         "lesson_unchanged": true,
         "practice_unchanged": true,
         "practice_reasoning_unchanged": true,
-        "equipment_authority_lock_preserved": true
+        "equipment_authority_lock_preserved": true,
+        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "d1a7367cb715b2595b1ca4e13574b764cc7d2fbb",
+        "dimensions": 10,
+        "levels": 5,
+        "max_score": 40,
+        "blocking_failures": 10,
+        "severity_review_candidates": 2,
+        "verified_score_min": 30,
+        "robust_score_min": 36,
+        "known_case_required": true,
+        "unseen_transfer_required": true,
+        "challenge_required": true,
+        "blocking_failures_non_compensable": true,
+        "downstream_use_trigger": true,
+        "stop_or_evidence_request_can_be_success": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/CRN-M-04_D1_VERIFICATION_RUBRIC_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json",
+        "final_alignment": "NEXT",
+        "equipment_authority_lock_preserved": true,
+        "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
       }
     }
   },
-  "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation",
+  "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -170,6 +198,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice/v1/CRN-M-04_D1_PRACTICE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/CRN-M-04_D1_PRACTICE_REASONING_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/CRN-M-04_D1_VERIFICATION_RUBRIC_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -186,7 +215,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       }
     }
   },
@@ -291,5 +321,20 @@
     "severity_review_candidates": 2,
     "verification_rubric": "NEXT",
     "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
+  },
+  "crn_m04_d1_verification_rubric": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "d1a7367cb715b2595b1ca4e13574b764cc7d2fbb",
+    "dimensions": 10,
+    "max_score": 40,
+    "blocking_failures": 10,
+    "severity_review_candidates": 2,
+    "verified_score_min": 30,
+    "robust_score_min": 36,
+    "unseen_transfer_required": true,
+    "challenge_required": true,
+    "final_alignment": "NEXT",
+    "next": "CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness"
   }
 }

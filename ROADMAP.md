@@ -1,4 +1,18 @@
 # SkillsVault Content — ROADMAP
+## CRN-M-04 D1 Verification Rubric v1
+
+Status: `COMPLETE`.
+- 10 ER-D1 dimensions use a 0–4 scale; max 40; every dimension must reach >=3 for `D1 VERIFIED`;
+- `D1 VERIFIED` requires >=30/40, zero BF, known case + unseen U1 + C1 + complete evidence package;
+- `D1 ROBUST / TRANSFER` requires >=36/40 plus ER-D1-07/09/10 = 4;
+- 10 strong Expected-Result candidates become non-compensable BF with a downstream-use trigger;
+- family→exact identity/rating and unknown→convenient nominal assumption remain severity-review unless they create an explicit BF;
+- U1 combines current-configuration, ratio/torque, coupling/interchangeability, lubricant/condition/source-scope and equipment-authority traps;
+- C1 provides exact current identity/OEM evidence while leaving measured alignment, installed lubricant, condition acceptance and operation authority unresolved;
+- correct bounded STOP / REQUEST EVIDENCE is a successful D1 outcome when the blocked claim is explicit;
+- CRN-M-01/02/03 frozen topics and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D1 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance and guard contradictions before source freshness`.
+
 
 ## CRN-M-03 D2 Freeze v1
 
