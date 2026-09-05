@@ -44,3 +44,14 @@ Status: `COMPLETE`.
 - CRN-M-01/02/03 and FROZEN_INDEX remain unchanged.
 
 Next: `CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff`.
+
+## D1 — Expected Result v1
+
+Status: `COMPLETE`.
+- 10 observable beginner transfer dimensions and 8 minimum evidence outputs;
+- known Practice A–J performance is not sufficient; unseen U1 transfer is required;
+- 10 strong blocking-failure candidates + 2 severity-review candidates are handed to Verification Rubric;
+- Lesson, SOURCE_MAP, Practice and Practice Reasoning remain byte-identical;
+- numerical design/rating, alignment/lubrication acceptance, diagnosis and equipment authority remain locked.
+
+Next: `CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation`.

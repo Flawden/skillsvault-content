@@ -1588,3 +1588,12 @@ Status: `COMPLETE`.
 - Practice and Lesson stack remain read-only; equipment-operation authority remains locked;
 - CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff`.
+
+## CRN-M-04 D1 Expected Result v1
+
+Status: `COMPLETE`.
+- 10 observable dimensions; 8 evidence outputs; unseen transfer required;
+- Practice A–J is supporting evidence, not sufficient transfer proof;
+- 10 strong BF candidates + 2 severity-review candidates passed to Rubric;
+- upstream D1 learning stack and FROZEN_INDEX remain read-only.
+Next: `CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation`.

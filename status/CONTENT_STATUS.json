@@ -39,7 +39,7 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "PENDING",
+        "expected_result": "COMPLETE",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
@@ -73,8 +73,8 @@
         "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT",
-        "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff"
+        "expected_result": "COMPLETE",
+        "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
       },
       "reader_experience": {
         "status": "COMPLETE",
@@ -104,7 +104,8 @@
         "reader_experience_contract_preserved": true,
         "source_map_unchanged": true,
         "equipment_authority_lock_preserved": true,
-        "expected_result": "NEXT"
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT"
       },
       "practice_reasoning": {
         "status": "COMPLETE",
@@ -118,12 +119,34 @@
         "multiple_valid_paths_explicit": true,
         "practice_unchanged": true,
         "lesson_stack_unchanged": true,
-        "expected_result": "NEXT",
+        "expected_result": "COMPLETE",
+        "equipment_authority_lock_preserved": true,
+        "verification_rubric": "NEXT"
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "0581b356ed919d85541cd690673c1822a14cee1c",
+        "dimensions": 10,
+        "evidence_outputs": 8,
+        "practice_cases": 10,
+        "known_case_performance_not_sufficient": true,
+        "unseen_transfer_required": true,
+        "strong_blocking_failure_candidates": 10,
+        "severity_review_candidates": 2,
+        "stop_or_evidence_request_can_be_success": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "verification_rubric": "NEXT",
+        "lesson_unchanged": true,
+        "practice_unchanged": true,
+        "practice_reasoning_unchanged": true,
         "equipment_authority_lock_preserved": true
       }
     }
   },
-  "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff",
+  "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -146,6 +169,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/v1/CRN-M-04_D1_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice/v1/CRN-M-04_D1_PRACTICE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/CRN-M-04_D1_PRACTICE_REASONING_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -161,7 +185,8 @@
         "reader_experience": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT"
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT"
       }
     }
   },
@@ -186,7 +211,7 @@
     "technical_editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "technical_editorial_baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
     "red_team_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff",
+    "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "7c6702ad8931a5a614fbd7f80a2dac8d50b608d5",
     "reader_experience_pass_I": "COMPLETE",
@@ -194,7 +219,8 @@
     "reader_experience_baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
     "practice": "COMPLETE",
     "practice_reasoning": "COMPLETE",
-    "expected_result": "NEXT"
+    "expected_result": "COMPLETE",
+    "verification_rubric": "NEXT"
   },
   "crn_m04_d1_editorial": {
     "status": "COMPLETE",
@@ -237,8 +263,9 @@
     "cases": 10,
     "answer_key_embedded": false,
     "practice_reasoning": "COMPLETE",
-    "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff",
-    "expected_result": "NEXT"
+    "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation",
+    "expected_result": "COMPLETE",
+    "verification_rubric": "NEXT"
   },
   "crn_m04_d1_practice_reasoning": {
     "status": "COMPLETE",
@@ -248,7 +275,21 @@
     "blocking_failure_families": 12,
     "single_answer_key": false,
     "multiple_valid_paths_explicit": true,
-    "expected_result": "NEXT",
-    "next": "CRN-M-04 / D1 EXPECTED RESULT / v1 — define observable beginner transfer behaviors for drive-boundary mapping, drive-path/status separation, reducer/coupling recognition, source-role routing, evidence discipline and bounded STOP / authority handoff"
+    "expected_result": "COMPLETE",
+    "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation",
+    "verification_rubric": "NEXT"
+  },
+  "crn_m04_d1_expected_result": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "0581b356ed919d85541cd690673c1822a14cee1c",
+    "dimensions": 10,
+    "evidence_outputs": 8,
+    "practice_cases": 10,
+    "unseen_transfer_required": true,
+    "strong_blocking_failure_candidates": 10,
+    "severity_review_candidates": 2,
+    "verification_rubric": "NEXT",
+    "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
   }
 }

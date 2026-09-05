@@ -1,0 +1,43 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D1",
+  "stage": "EXPECTED_RESULT",
+  "version": "v1",
+  "status": "COMPLETE",
+  "date": "2026-09-05",
+  "baseline_commit": "0581b356ed919d85541cd690673c1822a14cee1c",
+  "dimensions": 10,
+  "evidence_outputs": 8,
+  "practice_cases": 10,
+  "known_case_performance_not_sufficient": true,
+  "unseen_transfer_required": true,
+  "strong_blocking_failure_candidates": 10,
+  "severity_review_candidates": 2,
+  "stop_or_evidence_request_can_be_success": true,
+  "artifacts": {
+    "expected_result": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
+    "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/EXPECTED_RESULT_QA_v1.json"
+  },
+  "guards": {
+    "gear_load_capacity_and_rating_locked": true,
+    "reducer_selection_and_service_factor_locked": true,
+    "coupling_selection_rating_interchangeability_locked": true,
+    "numeric_alignment_locked": true,
+    "lubricant_selection_substitution_locked": true,
+    "condition_acceptance_root_cause_locked": true,
+    "repair_return_to_service_locked": true,
+    "equipment_authority_locked": true,
+    "lesson_unchanged": true,
+    "source_map_unchanged": true,
+    "practice_unchanged": true,
+    "practice_reasoning_unchanged": true,
+    "crn_m01_m02_m03_immutable": true,
+    "frozen_index_unchanged": true
+  },
+  "verification_rubric": "NEXT",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation"
+}
