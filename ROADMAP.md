@@ -1716,3 +1716,13 @@ Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 - 16 primary sections and all 10 Red Team traps remain preserved;
 - Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions`.
+
+## CRN-M-04 D2 Practice v1
+
+Status: `COMPLETE`.
+- 10/10 transfer cases A-J; no worked answer key or canonical single reasoning path;
+- topology proof, same-shaft power/torque identity, ratio convention, efficiency direction, near-zero/transient guard and demand-capacity separation exercised;
+- mesh torque/diameter identity, tangential force, determinate/indeterminate reaction modelling and interface bookkeeping exercised;
+- rating, selection, bearing-life, alignment-acceptance and equipment-authority locks remain closed;
+- D2 Lesson / Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key`.

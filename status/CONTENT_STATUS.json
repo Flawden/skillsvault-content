@@ -278,8 +278,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT",
-        "practice_reasoning": "PENDING",
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -314,14 +314,22 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
+        "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
         "reader_experience_pass_I": "COMPLETE",
         "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "practice": "NEXT"
+        "practice": "COMPLETE"
+      },
+      "practice": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 10,
+        "answer_key_embedded": false,
+        "practice_reasoning": "NEXT",
+        "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key"
       }
     }
   },
-  "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
+  "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -342,9 +350,8 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/editorial/pass_I/v1/CRN-M-04_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/red_team/pass_I/v1/CRN-M-04_D2_RED_TEAM_PASS_I_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/reader_experience/pass_I/v1/CRN-M-04_D2_READER_EXPERIENCE_PASS_I_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/CRN-M-04_D2_PRACTICE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/PRACTICE_ALIGNMENT_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -361,7 +368,8 @@
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
-        "practice": "NEXT"
+        "practice": "COMPLETE",
+        "practice_reasoning": "NEXT"
       }
     }
   },
@@ -558,14 +566,17 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
+    "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
     "red_team_pass_I": "COMPLETE",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
     "reader_experience_pass_I": "COMPLETE",
     "reader_experience_decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
     "reader_experience_baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
-    "practice": "NEXT"
+    "practice": "COMPLETE",
+    "practice_baseline_commit": "ec17b3e39e7225a6037e217307a39a12b8718f64",
+    "practice_cases": 10,
+    "practice_reasoning": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -600,5 +611,26 @@
     "source_map_unchanged": true,
     "practice": "NEXT",
     "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions"
+  },
+  "crn_m04_d2_practice": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "ec17b3e39e7225a6037e217307a39a12b8718f64",
+    "cases": 10,
+    "case_ids": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J"
+    ],
+    "worked_answer_key_embedded": false,
+    "practice_reasoning": "NEXT",
+    "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key"
   }
 }

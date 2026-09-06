@@ -176,3 +176,14 @@ Status: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
 - Technical Editorial / Red Team derivation and authority guards remain preserved;
 - Source Map, D1 frozen tree and FROZEN_INDEX remain unchanged.
 Next: `CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions`.
+
+## D2 Practice v1
+
+Status: `COMPLETE`.
+- 10/10 transfer cases A-J exercise applied mechanics rather than formula recall;
+- topology/ratio convention, same-shaft P-T-omega identity, supplied-efficiency direction and near-zero/transient guards are exercised;
+- mesh torque identity, same-mesh diameter, determinate reactions and interface-side bookkeeping are exercised;
+- calculated demand remains separate from rated capacity and equipment authority;
+- no worked answer key or canonical single reasoning path is embedded;
+- Lesson / Source Map, D1 frozen tree and FROZEN_INDEX remain unchanged.
+Next: `CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key`.
