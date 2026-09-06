@@ -18,5 +18,6 @@
   "gear_rating_unlocked": false,
   "coupling_selection_unlocked": false,
   "acceptance_authority_unlocked": false,
-  "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks"
+  "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review",
+  "lesson_authoring": "COMPLETE"
 }

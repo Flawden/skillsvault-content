@@ -274,8 +274,8 @@
       "pipeline": {
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
-        "lesson": "PENDING",
-        "editorial": "PENDING",
+        "lesson": "COMPLETE",
+        "editorial": "NEXT",
         "red_team": "PENDING",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
@@ -305,10 +305,16 @@
       },
       "baseline_commit": "9fb625641f4e214a465ffa55759efd211af1d8d8",
       "prerequisite_tag": "crn-m-04-d1-v1",
-      "structural_contract_source": "CRN-M-04 D1 frozen + CRN-M-03 pipeline structure"
+      "structural_contract_source": "CRN-M-04 D1 frozen + CRN-M-03 pipeline structure",
+      "lesson": {
+        "status": "AUTHORING_COMPLETE",
+        "version": "v1",
+        "primary_sections": 16,
+        "technical_editorial_pass_I": "NEXT"
+      }
     }
   },
-  "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks",
+  "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -329,6 +335,8 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/KICKOFF_STATUS.json",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/AUTHORING_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
     "Treat CRN-M-04/D1/FROZEN_v1 and crn-m-04-d1-v1 as immutable prerequisite",
     "Continue from status.next"
   ],
@@ -343,7 +351,8 @@
         "kickoff": "COMPLETE",
         "scope": "LOCKED",
         "source_gate": "PASS_WITH_DERIVATION_GUARDS",
-        "lesson": "NEXT"
+        "lesson": "COMPLETE",
+        "editorial": "NEXT"
       }
     }
   },
@@ -532,5 +541,14 @@
     "gear_rating_unlocked": false,
     "equipment_authority_locked": true,
     "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks"
+  },
+  "crn_m04_d2_lesson": {
+    "status": "AUTHORING_COMPLETE",
+    "version": "v1",
+    "baseline_commit": "78bff4c704d3e394a6f8be9b2152843710e02a32",
+    "primary_sections": 16,
+    "source_gate": "PASS_WITH_DERIVATION_GUARDS",
+    "technical_editorial_pass_I": "NEXT",
+    "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review"
   }
 }

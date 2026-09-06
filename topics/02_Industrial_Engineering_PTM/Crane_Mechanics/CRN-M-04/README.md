@@ -114,3 +114,18 @@ D2 opens bounded applied mechanics for proven drive topology: speed ratios, `P�
 D1 remains frozen under `crn-m-04-d1-v1`. Gear load-capacity/rating, reducer/coupling selection, alignment/acceptance limits, bearing life/selection, lubricant selection, repair and operational authority remain locked.
 
 Next: `CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks`.
+
+## D2 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+- 16 primary applied-mechanics sections; Russian-first;
+- evidence/topology/boundary precede equations;
+- rpm↔rad/s, same-shaft `P–T–ω` and derived `9550` conversion are explicit;
+- simple/multistage ratios require proven topology and sign convention;
+- efficiency is used only when explicitly supplied and applicable;
+- `F_t=T/r=2T/d` remains a bounded moment relation, not gear rating;
+- external reaction statics require explicit FBD geometry and do not become bearing life/selection;
+- interface ledger and dimension/sign/energy cross-checks are mandatory;
+- calculated demand remains separate from rated capacity and equipment authority;
+- D1 frozen tree, `crn-m-04-d1-v1` and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review`.

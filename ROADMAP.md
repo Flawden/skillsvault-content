@@ -1668,3 +1668,15 @@ Status: `COMPLETE / PASS WITH DERIVATION GUARDS`.
 - reducer/coupling selection, alignment/acceptance, bearing life/selection, lubrication, repair and operation authority remain locked;
 - `status/FROZEN_INDEX.json` and the complete CRN-M-04 D1 tree remain unchanged.
 Next: `CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks`.
+
+## CRN-M-04 D2 Lesson Authoring v1
+
+Status: `AUTHORING COMPLETE`.
+- 16/16 applied-mechanics lesson sections authored;
+- input status + topology + boundary precede every derivation;
+- `ω=2πn/60`, `P=Tω`, derived `T≈9550·P_kW/n_rpm`, proven ratios and supplied-efficiency bookkeeping are bounded;
+- tangential force and external reaction calculations require explicit geometry/FBD;
+- calculated demand != rated capacity != permitted operation;
+- ISO 6336 rating, reducer/coupling selection, alignment acceptance, bearing life, lubrication, repair and operation authority remain locked;
+- D1 frozen tree and FROZEN_INDEX remain unchanged.
+Next: `CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review`.

@@ -1,0 +1,47 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-06",
+  "baseline_commit": "78bff4c704d3e394a6f8be9b2152843710e02a32",
+  "prerequisite_tag": "crn-m-04-d1-v1",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_DERIVATION_GUARDS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-04_D2_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "bounded_applied_mechanics_complete": true,
+    "ratio_and_direction_model_explicit": true,
+    "shaft_power_torque_identity_explicit": true,
+    "efficiency_model_guard_explicit": true,
+    "force_and_reaction_boundaries_explicit": true,
+    "component_interface_bookkeeping_explicit": true,
+    "demand_capacity_separation_explicit": true,
+    "d1_rating_acceptance_authority_locks_preserved": true
+  },
+  "technical_editorial_pass_I": {
+    "status": "NEXT",
+    "version": "v1"
+  },
+  "red_team_pass_I": {
+    "status": "PENDING"
+  },
+  "reader_experience_pass_I": {
+    "status": "PENDING"
+  },
+  "practice": "PENDING",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "PENDING",
+  "source_freshness": "PENDING",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review"
+}
