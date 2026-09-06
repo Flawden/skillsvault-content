@@ -1726,3 +1726,12 @@ Status: `COMPLETE`.
 - rating, selection, bearing-life, alignment-acceptance and equipment-authority locks remain closed;
 - D2 Lesson / Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key`.
+
+## CRN-M-04 D2 Practice Reasoning v1
+
+Status: `COMPLETE`.
+- 10/10 cases A-J; multiple valid reasoning paths, discriminating evidence and bounded STOP decisions;
+- numerical anchors are retained only inside declared D2 models and do not become design/rating verdicts;
+- 12 cross-case failure families prepared for Expected Result / Rubric downstream review;
+- Practice / Lesson / Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline`.

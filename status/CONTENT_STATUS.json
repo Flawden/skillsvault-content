@@ -279,7 +279,7 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT",
+        "practice_reasoning": "COMPLETE",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
@@ -314,22 +314,35 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
+        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
         "reader_experience_pass_I": "COMPLETE",
         "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "practice": "COMPLETE"
+        "practice": "COMPLETE",
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT"
       },
       "practice": {
         "status": "COMPLETE",
         "version": "v1",
         "cases": 10,
         "answer_key_embedded": false,
-        "practice_reasoning": "NEXT",
-        "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key"
+        "practice_reasoning": "COMPLETE",
+        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
+        "expected_result": "NEXT"
+      },
+      "practice_reasoning": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "cases": 10,
+        "multiple_valid_paths_explicit": true,
+        "single_answer_key": false,
+        "blocking_failure_families": 12,
+        "expected_result": "NEXT",
+        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline"
       }
     }
   },
-  "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
+  "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -351,7 +364,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/CRN-M-04_D2_PRACTICE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/PRACTICE_ALIGNMENT_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice_reasoning/v1/CRN-M-04_D2_PRACTICE_REASONING_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -369,7 +382,8 @@
         "red_team": "COMPLETE",
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
-        "practice_reasoning": "NEXT"
+        "practice_reasoning": "COMPLETE",
+        "expected_result": "NEXT"
       }
     }
   },
@@ -566,7 +580,7 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key",
+    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
     "red_team_pass_I": "COMPLETE",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
@@ -576,7 +590,9 @@
     "practice": "COMPLETE",
     "practice_baseline_commit": "ec17b3e39e7225a6037e217307a39a12b8718f64",
     "practice_cases": 10,
-    "practice_reasoning": "NEXT"
+    "practice_reasoning": "COMPLETE",
+    "practice_reasoning_baseline_commit": "c5d17e053de105d1a2fbef919828fb576aed6580",
+    "expected_result": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -630,7 +646,19 @@
       "J"
     ],
     "worked_answer_key_embedded": false,
-    "practice_reasoning": "NEXT",
-    "next": "CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key"
+    "practice_reasoning": "COMPLETE",
+    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
+    "expected_result": "NEXT"
+  },
+  "crn_m04_d2_practice_reasoning": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "c5d17e053de105d1a2fbef919828fb576aed6580",
+    "cases": 10,
+    "blocking_failure_families": 12,
+    "single_answer_key": false,
+    "multiple_valid_paths_explicit": true,
+    "expected_result": "NEXT",
+    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline"
   }
 }

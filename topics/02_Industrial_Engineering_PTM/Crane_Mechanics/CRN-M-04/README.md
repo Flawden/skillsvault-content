@@ -187,3 +187,13 @@ Status: `COMPLETE`.
 - no worked answer key or canonical single reasoning path is embedded;
 - Lesson / Source Map, D1 frozen tree and FROZEN_INDEX remain unchanged.
 Next: `CRN-M-04 / D2 PRACTICE REASONING / v1 — build non-exclusive applied-mechanics reasoning paths, discriminating identity/topology/model checks, bounded calculations and STOP decisions for Practice A–J without turning Practice into a single answer key`.
+
+## D2 Practice Reasoning v1
+
+Status: `COMPLETE`.
+- 10/10 Practice cases A-J receive non-exclusive applied-mechanics reasoning paths;
+- bounded calculations and explicit STOP branches preserve topology/identity/model gates;
+- 12 cross-case failure families are handed to Expected Result as candidates, not yet a scoring contract;
+- Practice, Lesson and Source Map remain byte-identical; D1 frozen tree and FROZEN_INDEX remain unchanged;
+- rating, selection, acceptance and equipment-operation authority remain locked.
+Next: `CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline`.

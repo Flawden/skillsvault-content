@@ -1,0 +1,20 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "stage": "PRACTICE_REASONING",
+  "version": "v1",
+  "status": "COMPLETE",
+  "baseline_commit": "c5d17e053de105d1a2fbef919828fb576aed6580",
+  "cases": 10,
+  "single_answer_key": false,
+  "multiple_valid_paths_explicit": true,
+  "blocking_failure_families": 12,
+  "expected_result": "NEXT",
+  "practice_unchanged": true,
+  "lesson_unchanged": true,
+  "source_map_unchanged": true,
+  "d1_frozen_tree_unchanged": true,
+  "frozen_index_unchanged": true,
+  "rating_selection_acceptance_authority_locked": true,
+  "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline"
+}
