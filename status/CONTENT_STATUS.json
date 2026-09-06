@@ -1,6 +1,6 @@
 {
   "project": "SkillsVault Content",
-  "snapshot_date": "2026-09-05",
+  "snapshot_date": "2026-09-06",
   "canonical_branch": "main",
   "active_topic": "CRN-M-04",
   "active_topic_name_ru": "Редукторы и муфты",
@@ -243,9 +243,72 @@
         "content_corrections_required": false,
         "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries"
       }
+    },
+    "D2": {
+      "status": "ACTIVE",
+      "version": "v1",
+      "kickoff": "COMPLETE",
+      "scope": {
+        "status": "LOCKED",
+        "version": "v1"
+      },
+      "source_gate": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "decision": "PASS_WITH_DERIVATION_GUARDS",
+        "verified_on": "2026-09-06",
+        "lesson_authoring_unlocked": true,
+        "source_records": 10,
+        "watchlist_count": 1,
+        "kinematic_ratio_calculation_unlocked": true,
+        "shaft_power_torque_calculation_unlocked": true,
+        "given_efficiency_bookkeeping_unlocked": true,
+        "explicit_statics_reactions_unlocked": true,
+        "component_interface_bookkeeping_unlocked": true,
+        "gear_rating_unlocked": false,
+        "coupling_selection_rating_unlocked": false,
+        "alignment_acceptance_unlocked": false,
+        "bearing_life_selection_unlocked": false,
+        "equipment_authority_unlocked": false
+      },
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "PENDING",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "locks": {
+        "paid_source_reconstruction": true,
+        "gear_load_capacity_and_iso6336_coefficients": true,
+        "reducer_selection_and_service_factors": true,
+        "coupling_selection_and_rating": true,
+        "numeric_alignment_and_displacement_limits": true,
+        "bearing_internal_load_life_preload_selection": true,
+        "shaft_key_spline_fastener_strength_design": true,
+        "planetary_load_sharing": true,
+        "unknown_efficiency_inference": true,
+        "backlash_wear_damage_acceptance": true,
+        "vibration_noise_temperature_acceptance": true,
+        "lubricant_selection_and_substitution": true,
+        "root_cause_from_visible_or_calculated_condition": true,
+        "repair_adjustment_overhaul": true,
+        "return_to_service_or_operational_permission": true
+      },
+      "baseline_commit": "9fb625641f4e214a465ffa55759efd211af1d8d8",
+      "prerequisite_tag": "crn-m-04-d1-v1",
+      "structural_contract_source": "CRN-M-04 D1 frozen + CRN-M-03 pipeline structure"
     }
   },
-  "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries",
+  "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -264,24 +327,23 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/kickoff/v1/SOURCE_GATE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/v1/CRN-M-04_D1_LESSON_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice/v1/CRN-M-04_D1_PRACTICE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/CRN-M-04_D1_PRACTICE_REASONING_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/expected_result/v1/CRN-M-04_D1_EXPECTED_RESULT_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/verification_rubric/v1/CRN-M-04_D1_VERIFICATION_RUBRIC_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/final_alignment/v1/CRN-M-04_D1_FINAL_ALIGNMENT_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/source_freshness/v1/CRN-M-04_D1_SOURCE_FRESHNESS_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/KICKOFF_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "Treat CRN-M-04/D1/FROZEN_v1 and crn-m-04-d1-v1 as immutable prerequisite",
     "Continue from status.next"
   ],
   "current": {
     "depths": {
       "D1": {
         "status": "FROZEN",
-        "version": "v1",
-        "tag": "crn-m-04-d1-v1",
-        "source_baseline_commit": "d88a16f5742b3c7ee7145b46b2d87a6df58b900f",
-        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/FROZEN_v1"
+        "tag": "crn-m-04-d1-v1"
+      },
+      "D2": {
+        "status": "ACTIVE",
+        "kickoff": "COMPLETE",
+        "scope": "LOCKED",
+        "source_gate": "PASS_WITH_DERIVATION_GUARDS",
+        "lesson": "NEXT"
       }
     }
   },
@@ -458,5 +520,17 @@
     "tag": "crn-m-04-d1-v1",
     "artifact_integrity": "PASS",
     "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries"
+  },
+  "crn_m04_d2_kickoff": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "9fb625641f4e214a465ffa55759efd211af1d8d8",
+    "prerequisite_tag": "crn-m-04-d1-v1",
+    "source_records": 10,
+    "watchlist_count": 1,
+    "applied_mechanics_unlocked": true,
+    "gear_rating_unlocked": false,
+    "equipment_authority_locked": true,
+    "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks"
   }
 }

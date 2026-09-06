@@ -1,0 +1,33 @@
+{
+  "stage": "CRN-M-04_D2_CONTENT_KICKOFF_v1",
+  "topic_id": "CRN-M-04",
+  "depth": "D2",
+  "version": "v1",
+  "date": "2026-09-06",
+  "result": "PASS_WITH_DERIVATION_GUARDS",
+  "checks": {
+    "d1_annotated_tag_is_exact_baseline": true,
+    "d1_frozen_tree_must_remain_immutable": true,
+    "frozen_index_must_remain_unchanged": true,
+    "d2_scope_has_explicit_in_and_out": true,
+    "value_status_observed_documented_assumed_calculated_rated_permitted_separated": true,
+    "p_equals_torque_times_omega_unlocked_with_same_shaft_guard": true,
+    "rpm_kw_torque_conversion_is_derivation_not_rating": true,
+    "simple_gear_ratio_requires_proven_topology": true,
+    "multistage_ratio_requires_proven_stage_chain": true,
+    "unknown_efficiency_inference_forbidden": true,
+    "torque_to_tangential_force_requires_given_radius_or_pitch_diameter": true,
+    "reaction_calculation_requires_explicit_free_body_geometry": true,
+    "bearing_life_and_selection_locked": true,
+    "iso_6336_rating_boundary_preserved": true,
+    "gost_r_50895_family_scope_preserved": true,
+    "iso_14691_watchlist_preserved": true,
+    "coupling_selection_alignment_acceptance_locked": true,
+    "lubricant_and_condition_acceptance_locked": true,
+    "repair_return_to_service_operation_authority_locked": true,
+    "d2_lesson_authoring_unlocked": true
+  },
+  "source_records": 10,
+  "watchlist": 1,
+  "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks"
+}

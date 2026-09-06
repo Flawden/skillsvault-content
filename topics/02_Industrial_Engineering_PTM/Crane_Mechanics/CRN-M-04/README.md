@@ -104,3 +104,13 @@ Status: `CONTENT_FROZEN`.
 - Source Freshness: PASS WITH WATCHLIST (1).
 
 Next: `CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries`.
+
+## D2 Content Kickoff v1
+
+Status: `COMPLETE / PASS_WITH_DERIVATION_GUARDS`.
+
+D2 opens bounded applied mechanics for proven drive topology: speed ratios, `P–T–ω` bookkeeping, supplied-efficiency propagation, tangential force from supplied lever/pitch radius, explicit free-body reaction calculations and component-interface bookkeeping.
+
+D1 remains frozen under `crn-m-04-d1-v1`. Gear load-capacity/rating, reducer/coupling selection, alignment/acceptance limits, bearing life/selection, lubricant selection, repair and operational authority remain locked.
+
+Next: `CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks`.

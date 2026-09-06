@@ -1655,3 +1655,16 @@ Status: `CONTENT FROZEN`. Tag contract: `crn-m-04-d1-v1`.
 - CRN-M-01/02/03 frozen history remains byte-immutable.
 
 Next: `CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries`.
+
+## CRN-M-04 D2 Content Kickoff v1
+
+Status: `COMPLETE / PASS WITH DERIVATION GUARDS`.
+- exact prerequisite: annotated `crn-m-04-d1-v1`; D1 remains immutable;
+- D2 applied-mechanics scope: LOCKED;
+- source gate: PASS_WITH_DERIVATION_GUARDS; source records = 10; watchlist = 1;
+- unlocked: proven-topology ratios, same-shaft `P–T–ω`, supplied-efficiency bookkeeping, tangential force from supplied radius/diameter, explicit statics reactions and component-interface ledger;
+- calculated demand is explicitly separated from rated/allowable capacity;
+- ISO 6336 gear rating remains locked;
+- reducer/coupling selection, alignment/acceptance, bearing life/selection, lubrication, repair and operation authority remain locked;
+- `status/FROZEN_INDEX.json` and the complete CRN-M-04 D1 tree remain unchanged.
+Next: `CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks`.

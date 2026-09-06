@@ -1,0 +1,22 @@
+{
+  "topic_id": "CRN-M-04",
+  "topic_name_ru": "Редукторы и муфты",
+  "depth": "D2",
+  "version": "v1",
+  "status": "COMPLETE",
+  "scope": "LOCKED",
+  "source_gate": "PASS_WITH_DERIVATION_GUARDS",
+  "source_records": 10,
+  "watchlist": 1,
+  "baseline_commit": "9fb625641f4e214a465ffa55759efd211af1d8d8",
+  "prerequisite_tag": "crn-m-04-d1-v1",
+  "d1_frozen_required": true,
+  "d1_tree_immutable": true,
+  "frozen_index_unchanged": true,
+  "applied_mechanics_unlocked": true,
+  "lesson_authoring_unlocked": true,
+  "gear_rating_unlocked": false,
+  "coupling_selection_unlocked": false,
+  "acceptance_authority_unlocked": false,
+  "next": "CRN-M-04 / D2 LESSON AUTHORING / v1 — build applied-mechanics reasoning for reducer/coupling kinematics, shaft power/torque, bounded reaction calculations and component interfaces without crossing D1 rating, acceptance or equipment-authority locks"
+}
