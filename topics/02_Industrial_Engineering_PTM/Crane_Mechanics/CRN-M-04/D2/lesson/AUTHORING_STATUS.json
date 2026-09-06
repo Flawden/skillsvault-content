@@ -41,15 +41,26 @@
     "findings": 10
   },
   "reader_experience_pass_I": {
-    "status": "NEXT",
-    "version": "v1"
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": [
+      "RX-D2-01",
+      "RX-D2-02",
+      "RX-D2-03",
+      "RX-D2-04",
+      "RX-D2-05",
+      "RX-D2-06",
+      "RX-D2-07"
+    ]
   },
-  "practice": "PENDING",
+  "practice": "NEXT",
   "practice_reasoning": "PENDING",
   "expected_result": "PENDING",
   "verification_rubric": "PENDING",
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
+  "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions"
 }

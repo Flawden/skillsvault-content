@@ -10,6 +10,7 @@
     "findings": 10,
     "corrections_applied": 10
   },
-  "reader_experience": "NEXT",
-  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
+  "reader_experience": "COMPLETE",
+  "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
+  "practice": "NEXT"
 }

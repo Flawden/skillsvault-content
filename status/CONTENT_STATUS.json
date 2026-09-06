@@ -277,14 +277,15 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT",
-        "practice": "PENDING",
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
-        "freeze": "PENDING"
+        "freeze": "PENDING",
+        "reader_experience": "COMPLETE"
       },
       "locks": {
         "paid_source_reconstruction": true,
@@ -313,13 +314,14 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
-        "reader_experience_pass_I": "NEXT",
-        "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED"
+        "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
+        "reader_experience_pass_I": "COMPLETE",
+        "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "practice": "NEXT"
       }
     }
   },
-  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
+  "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -342,6 +344,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/editorial/pass_I/v1/CRN-M-04_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/red_team/pass_I/v1/CRN-M-04_D2_RED_TEAM_PASS_I_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/reader_experience/pass_I/v1/CRN-M-04_D2_READER_EXPERIENCE_PASS_I_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -357,7 +360,8 @@
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
         "red_team": "COMPLETE",
-        "reader_experience_pass": "NEXT"
+        "reader_experience_pass": "COMPLETE",
+        "practice": "NEXT"
       }
     }
   },
@@ -554,11 +558,14 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
+    "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions",
     "red_team_pass_I": "COMPLETE",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
-    "reader_experience_pass_I": "NEXT"
+    "reader_experience_pass_I": "COMPLETE",
+    "reader_experience_decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "reader_experience_baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+    "practice": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -581,5 +588,17 @@
     "corrections_applied": 10,
     "reader_experience_pass_I": "NEXT",
     "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
+  },
+  "crn_m04_d2_reader_experience": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": 7,
+    "corrections_applied": 7,
+    "source_map_unchanged": true,
+    "practice": "NEXT",
+    "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions"
   }
 }

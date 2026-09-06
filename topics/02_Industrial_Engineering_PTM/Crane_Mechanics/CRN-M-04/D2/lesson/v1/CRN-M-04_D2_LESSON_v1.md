@@ -18,6 +18,29 @@ AUTHORITY   = what this result does NOT prove
 
 Если один из первых трёх слоёв не доказан, следующий вычислительный шаг останавливается. Если рассчитанное значение пытаются превратить в допустимость, рейтинг, ремонт или разрешение эксплуатации, срабатывает authority lock.
 
+## 60-second retrieval spine — маршрут D2 до любой формулы
+
+```text
+BOUNDARY / TOPOLOGY
+→ INPUT STATUS
+→ SAME OBJECT / SIDE / STATE
+→ MODEL + EQUATION
+→ CROSS-CHECK
+→ BOUNDED CONCLUSION OR STOP
+```
+
+Короткая версия, которую стоит уметь восстановить из памяти:
+
+```text
+MODEL: что именно я считаю?
+IDENTITY: к какому валу / mesh / стороне относятся числа?
+EQUATION: какая связь разрешена этой моделью?
+CHECK: единицы, знак, энергия, определимость?
+AUTHORITY: что рассчитанный результат НЕ доказывает?
+```
+
+Это не новая формула и не новый источник. Это reader-map существующих D2 guards. Если на любом шаге identity/model не доказаны — не «додумывай» следующий шаг, а переходи к `STOP UNSUPPORTED DERIVATION`.
+
 # 1. Расчёт начинается не с формулы, а с границы модели
 
 До чисел нарисуй минимальную схему: источник вращения → вал/муфта → редуктор/ступени → выход → внешняя нагрузка. Для каждого элемента запиши, входит ли он в расчёт или остаётся внешним.
@@ -52,6 +75,20 @@ calculated demand != rated capacity != permitted operation
 ```
 
 Даже безошибочный расчёт нагрузки не доказывает пригодность реального редуктора или муфты.
+
+## Карточка входных данных — пять полей перед подстановкой
+
+Для каждого числа запиши одну строку:
+
+```text
+OBJECT / SIDE  → где величина живёт
+STATE          → какой operating state
+VALUE + UNIT   → само число и единица
+STATUS         → documented / observed / assumed / calculated / rated / permitted
+SOURCE / BASIS → откуда оно взялось
+```
+
+Если два числа нельзя уверенно посадить на нужный `OBJECT / SIDE / STATE`, их нельзя объединять одной формулой только потому, что единицы подходят.
 
 # 3. Частота вращения и угловая скорость
 
@@ -94,6 +131,19 @@ are prerequisites for P = T·ω
 ```
 
 **Red-team trap — sign cancellation.** Численно положительное `P` не доказывает «прямой ход»: одновременно отрицательные `T` и `ω` в выбранной convention тоже дают положительное произведение. Смысл знака мощности читается только после фиксации оси, направления потока и того, какая сторона системы считается входом/выходом.
+
+## Карточка `P–T–ω` — четыре вопроса
+
+Перед `P = T·ω` спроси:
+
+```text
+SAME SHAFT / SECTION?
+→ SAME OPERATING STATE?
+→ SAME SIGN / POWER-FLOW CONVENTION?
+→ MECHANICAL POWER AT THIS BOUNDARY?
+```
+
+Четыре `YES` разрешают алгебру. Один `NO/UNKNOWN` означает, что сначала нужно восстановить identity/boundary, а не искать «похожую» мощность или скорость.
 
 # 5. Быстрая форма T ≈ 9550·P_kW/n_rpm
 
@@ -177,6 +227,15 @@ n_in = 1440 rpm
 4. что отношения определены в одной convention (`input/output` или наоборот).
 
 Неизвестная topology → `STOP UNSUPPORTED DERIVATION`.
+
+## Ratio / efficiency router — не смешивай два разных вопроса
+
+```text
+RATIO:      WHICH SIDES? → WHICH CONVENTION? → WHICH TOPOLOGY? → MAGNITUDE / DIRECTION
+EFFICIENCY: WHICH BOUNDARY? → WHICH FLOW DIRECTION? → WHICH REGIME? → SUPPLIED / APPLICABLE?
+```
+
+`i` отвечает на кинематический вопрос только после подписанных сторон и topology proof. `η` отвечает на power bookkeeping только после доказанной границы, направления и режима. Реалистичный вид числа не заменяет ни один из этих contracts.
 
 # 8. Идеальная модель и модель с КПД — это разные модели
 
@@ -280,6 +339,20 @@ F_t = 2*200/0.20 = 2000 N
 - tooth root/contact stress;
 - permissible gear load.
 
+## Force / reaction workflow — один маршрут вместо набора формул
+
+```text
+ISOLATE BODY
+→ IDENTIFY T_mesh (not net shaft torque by default)
+→ PROVE r / d FOR THE SAME MESH
+→ DERIVE F_t IF ALLOWED
+→ DRAW FBD
+→ COUNT UNKNOWNS vs INDEPENDENT EQUATIONS
+→ SOLVE ONLY IF THE MODEL IS DETERMINATE
+```
+
+Эта карточка связывает секции 11–13: сначала identity момента/плеча, потом внешняя сила, потом FBD и только затем реакции. Она не добавляет radial/axial gear components, bearing-life model или контактную интерпретацию отрицательной реакции.
+
 # 12. Free-body diagram: отдели объект от окружения
 
 Для реакции опор сначала изолируй один вал/элемент и нарисуй только внешние силы и моменты, которые входят в модель.
@@ -344,6 +417,18 @@ R_A = 2.0 kN
 Interface ledger не даёт «авторитет» компоненту. Он только не позволяет потерять, **какая величина откуда пришла и что она ещё не доказывает**.
 
 **Red-team trap — connectivity ≠ equality.** Механическая связность двух сторон не доказывает одинаковые `P`, `T`, `n` или фазу/знак через реальную муфту: равенство конкретной величины должно следовать из объявленной ideal/no-slip/loss model или из измерения/документации. Ledger хранит стороны раздельно до такого доказательства.
+
+## Карточка границы результата — три колонки
+
+Перед выводом разложи результат так:
+
+```text
+CALCULATED       = что реально вывела модель
+NOT ESTABLISHED  = rating / transient / acceptance / life / selection, если их модель не считала
+NEXT EVIDENCE    = какой exact source / parameter / topology нужен для следующего шага
+```
+
+Так interface ledger превращается не в «таблицу ради таблицы», а в явный handoff: рассчитанное остаётся demand-side результатом, пока отдельный применимый workflow не докажет capacity или authority.
 
 # 15. Четыре проверки перед тем, как доверять результату
 
@@ -462,3 +547,33 @@ evidence -> topology -> model -> calculation -> cross-check -> bounded conclusio
 ```
 
 и умеет остановиться до того, как calculated demand будет ошибочно превращён в rated capacity или equipment authority.
+
+## 60-second D2 reconstruction
+
+```text
+PROVE TOPOLOGY
+→ LABEL INPUT STATUS
+→ KEEP SHAFT / MESH / SIDE IDENTITY
+→ CALCULATE WITH ONE DECLARED MODEL
+→ CHECK UNITS / SIGN / ENERGY / DETERMINACY
+→ REPORT CALCULATED vs NOT ESTABLISHED
+→ STOP BEFORE RATING / ACCEPTANCE / EQUIPMENT AUTHORITY
+```
+
+## Retrieval checkpoint
+
+Попробуй ответить без прокрутки урока:
+
+1. Какие пять полей должны быть у численного входа до подстановки?
+2. Какие четыре `YES` нужны перед использованием `P = T·ω`?
+3. Почему число `i = 5` ещё не говорит само по себе, делить скорость на 5 или умножать?
+4. Какие четыре вопроса делают `η` применимым к выбранной power model?
+5. Почему net shaft torque нельзя автоматически подставить как `T_mesh`?
+6. Что проверить до решения support reactions, кроме `ΣF=0` и `ΣM=0`?
+7. Как разделить `CALCULATED`, `NOT ESTABLISHED` и `NEXT EVIDENCE`, чтобы demand не превратился в capacity/authority?
+
+Это **не формальная Practice** и не answer key. Это retrieval-check: если маршрут не восстанавливается, вернись к соответствующей карточке и только потом переходи к transfer cases.
+
+## Next
+
+`CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions`

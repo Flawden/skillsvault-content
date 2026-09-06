@@ -1705,3 +1705,14 @@ Decision: `PASS WITH CORRECTIONS APPLIED`.
 - calculated demand, rounding and catalog proximity never become capacity or equipment authority;
 - D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice`.
+
+## CRN-M-04 D2 Reader Experience Pass I v1
+
+Decision: `PASS WITH READER-EXPERIENCE CORRECTIONS APPLIED`.
+- 7/7 reader-experience findings fixed without changing source authority;
+- D2 retrieval spine: boundary/topology -> input status -> identity -> model/equation -> cross-check -> bounded conclusion/STOP;
+- compact cards added for inputs, same-shaft P-T-omega, ratio/efficiency and force/reaction workflow;
+- result handoff now separates CALCULATED / NOT ESTABLISHED / NEXT EVIDENCE;
+- 16 primary sections and all 10 Red Team traps remain preserved;
+- Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions`.
