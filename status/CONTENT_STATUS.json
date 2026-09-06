@@ -8,7 +8,7 @@
   "topic_status": "ACTIVE",
   "depths": {
     "D1": {
-      "status": "ACTIVE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -43,7 +43,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "PENDING",
+        "freeze": "COMPLETE",
         "reader_experience": "COMPLETE"
       },
       "locks": {
@@ -228,10 +228,24 @@
         "equipment_authority_locks_preserved": true,
         "freeze": "NEXT",
         "next": "CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history"
+      },
+      "freeze": {
+        "status": "CONTENT_FROZEN",
+        "version": "v1",
+        "freeze_date": "2026-09-05",
+        "source_baseline_commit": "d88a16f5742b3c7ee7145b46b2d87a6df58b900f",
+        "snapshot_members": 52,
+        "tag": "crn-m-04-d1-v1",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/FROZEN_v1",
+        "artifact_integrity": "PASS",
+        "source_freshness": "PASS_WITH_WATCHLIST",
+        "watchlist": 1,
+        "content_corrections_required": false,
+        "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries"
       }
     }
   },
-  "next": "CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history",
+  "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -263,21 +277,11 @@
   "current": {
     "depths": {
       "D1": {
-        "status": "ACTIVE",
-        "kickoff": "COMPLETE",
-        "scope": "LOCKED",
-        "source_gate": "PASS_WITH_CLAIM_LIMITS",
-        "lesson": "COMPLETE",
-        "editorial": "COMPLETE",
-        "red_team": "COMPLETE",
-        "reader_experience": "COMPLETE",
-        "practice": "COMPLETE",
-        "practice_reasoning": "COMPLETE",
-        "expected_result": "COMPLETE",
-        "verification_rubric": "COMPLETE",
-        "final_alignment": "COMPLETE",
-        "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "status": "FROZEN",
+        "version": "v1",
+        "tag": "crn-m-04-d1-v1",
+        "source_baseline_commit": "d88a16f5742b3c7ee7145b46b2d87a6df58b900f",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/FROZEN_v1"
       }
     }
   },
@@ -445,5 +449,14 @@
     "equipment_authority_locks_preserved": true,
     "freeze": "NEXT",
     "next": "CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history"
+  },
+  "crn_m04_d1_freeze": {
+    "status": "CONTENT_FROZEN",
+    "version": "v1",
+    "source_baseline_commit": "d88a16f5742b3c7ee7145b46b2d87a6df58b900f",
+    "snapshot_members": 52,
+    "tag": "crn-m-04-d1-v1",
+    "artifact_integrity": "PASS",
+    "next": "CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries"
   }
 }

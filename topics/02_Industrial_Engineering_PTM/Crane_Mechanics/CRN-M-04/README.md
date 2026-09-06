@@ -92,3 +92,15 @@ Decision: `PASS WITH WATCHLIST — FREEZE READY`.
 - content contract change required: NO; source gate correction required: NO;
 - CRN-M-01/02/03 frozen history and `FROZEN_INDEX` remain immutable.
 Next: `CRN-M-04 / D1 FREEZE / v1 — create immutable D1 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d1-v1, push commit and tag, and preserve CRN-M-01/02/03 frozen history`.
+
+## D1 — FROZEN v1
+
+Status: `CONTENT_FROZEN`.
+- source baseline: `d88a16f5742b3c7ee7145b46b2d87a6df58b900f`;
+- snapshot members: 52;
+- immutable members: 61;
+- tag: `crn-m-04-d1-v1`;
+- artifact integrity: PASS;
+- Source Freshness: PASS WITH WATCHLIST (1).
+
+Next: `CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries`.

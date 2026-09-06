@@ -1,0 +1,89 @@
+{
+  "artifact": "CRN-M-04_D1_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-05",
+  "baseline_commit": "7c6702ad8931a5a614fbd7f80a2dac8d50b608d5",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "primary_sections": 17,
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "findings": [
+    {
+      "id": "RT-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "visible drive path vs proven architecture"
+    },
+    {
+      "id": "RT-02",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "ratio/nameplate vs transmitted torque/rating"
+    },
+    {
+      "id": "RT-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "family/visual similarity vs exact coupling identity"
+    },
+    {
+      "id": "RT-04",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "flexibility vs misalignment permission/root-cause"
+    },
+    {
+      "id": "RT-05",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "lubricant specification vs actual prescription/substitution"
+    },
+    {
+      "id": "RT-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "damage nomenclature vs cause/severity/acceptance"
+    },
+    {
+      "id": "RT-07",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "negative symptom evidence/observability"
+    },
+    {
+      "id": "RT-08",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "common-mode agreement of evidence lanes"
+    },
+    {
+      "id": "RT-09",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "source title/category vs exact applicability"
+    },
+    {
+      "id": "RT-10",
+      "severity": "CRITICAL",
+      "status": "FIXED",
+      "topic": "STOP/handoff/recommendation vs equipment authority"
+    }
+  ],
+  "guards": {
+    "frozen_predecessors_modified": false,
+    "frozen_index_modified": false,
+    "kickoff_source_gate_modified": false,
+    "new_numeric_design_or_rating_values": false,
+    "new_alignment_limits": false,
+    "new_lubricant_prescription": false,
+    "new_acceptance_thresholds": false,
+    "root_cause_declared": false,
+    "remaining_life_declared": false,
+    "equipment_permission_declared": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true,
+    "reader_experience_completed": false
+  },
+  "next": "CRN-M-04 / D1 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening Technical-Editorial/Red-Team drive-path, source-scope, evidence, design/rating and equipment-authority guards before practice"
+}

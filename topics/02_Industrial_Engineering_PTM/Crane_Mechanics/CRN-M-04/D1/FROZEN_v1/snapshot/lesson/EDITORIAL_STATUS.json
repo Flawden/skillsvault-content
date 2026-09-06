@@ -1,0 +1,28 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D1",
+  "stage": "TECHNICAL_EDITORIAL",
+  "pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/lesson/editorial/pass_I/v1/CRN-M-04_D1_TECHNICAL_EDITORIAL_PASS_I_v1.md",
+    "corrections": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team": "COMPLETE",
+  "reader_experience_pass": "COMPLETE",
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze",
+  "practice": "NEXT",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
+}

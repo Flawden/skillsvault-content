@@ -1640,3 +1640,18 @@ Status: `COMPLETE`.
 - 10 strong BF candidates + 2 severity-review candidates passed to Rubric;
 - upstream D1 learning stack and FROZEN_INDEX remain read-only.
 Next: `CRN-M-04 / D1 VERIFICATION RUBRIC / v1 — score observable D1 behaviors on known and unseen drive cases, decide non-compensable failures, require transfer evidence and preserve bounded STOP / equipment-authority separation`.
+
+## CRN-M-04 D1 Freeze v1
+
+Status: `CONTENT FROZEN`. Tag contract: `crn-m-04-d1-v1`.
+
+- 52/52 accepted D1 source/status artifacts snapshotted byte-for-byte;
+- 61/61 immutable freeze-bundle files registered in `status/FROZEN_INDEX.json`;
+- Lesson 17/17, Practice/Reasoning 10/10 + 10/10, ER/Rubric 10/10 + 10/10;
+- BF provenance 10/10; severity-review provenance 2/2;
+- unseen U1 + C1 requirement preserved;
+- Source Freshness = PASS WITH WATCHLIST (1); content corrections = 0;
+- design/rating/alignment/lubrication/condition/repair/operation authority locks remain closed;
+- CRN-M-01/02/03 frozen history remains byte-immutable.
+
+Next: `CRN-M-04 / D2 CONTENT KICKOFF / v1 — define D2 applied-mechanics scope/source gate for reducer/coupling ratios, torque/power/reactions and component interfaces while preserving D1 frozen source/rating/acceptance/authority boundaries`.

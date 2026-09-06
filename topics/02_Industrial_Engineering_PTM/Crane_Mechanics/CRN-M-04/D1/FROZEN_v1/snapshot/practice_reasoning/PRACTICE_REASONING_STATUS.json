@@ -1,0 +1,23 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D1",
+  "stage": "PRACTICE_REASONING",
+  "version": "v1",
+  "date": "2026-09-05",
+  "status": "COMPLETE",
+  "baseline_commit": "53d3af1601efc1fe0f18e7445c035867beab8260",
+  "cases": 10,
+  "blocking_failure_families": 12,
+  "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/CRN-M-04_D1_PRACTICE_REASONING_v1.md",
+  "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D1/practice_reasoning/v1/PRACTICE_REASONING_QA_v1.json",
+  "single_answer_key": false,
+  "multiple_valid_paths_explicit": true,
+  "practice_unchanged": true,
+  "lesson_stack_unchanged": true,
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze"
+}

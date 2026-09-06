@@ -1,0 +1,84 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D1",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-05",
+  "baseline_commit": "233816b693eda3e8e21d761248252d8a23ee87b4",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CLAIM_LIMITS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-04_D1_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "scope_items_complete": true,
+    "beginner_mental_model_complete": true,
+    "drive_train_path_explicit": true,
+    "reducer_coupling_brake_boundary_explicit": true,
+    "reducer_coupling_family_recognition_complete": true,
+    "lubrication_alignment_condition_boundaries_explicit": true,
+    "numeric_design_and_acceptance_claim_locks_preserved": true,
+    "equipment_authority_boundary_preserved": true
+  },
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "499a3221ef07af26b8164fb84d24c22a1a6b0817",
+    "findings": [
+      "TE-01",
+      "TE-02",
+      "TE-03",
+      "TE-04",
+      "TE-05",
+      "TE-06",
+      "TE-07"
+    ]
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "7c6702ad8931a5a614fbd7f80a2dac8d50b608d5",
+    "findings": [
+      "RT-01",
+      "RT-02",
+      "RT-03",
+      "RT-04",
+      "RT-05",
+      "RT-06",
+      "RT-07",
+      "RT-08",
+      "RT-09",
+      "RT-10"
+    ]
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "version": "v1",
+    "baseline_commit": "78fbe6336777b9888481c61f353d0054065f0413",
+    "findings": [
+      "RX-01",
+      "RX-02",
+      "RX-03",
+      "RX-04",
+      "RX-05",
+      "RX-06",
+      "RX-07"
+    ]
+  },
+  "practice": "NEXT",
+  "practice_reasoning": "PENDING",
+  "expected_result": "COMPLETE",
+  "verification_rubric": "COMPLETE",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D1 SOURCE FRESHNESS / v1 — revalidate current source editions/status, the ISO 14691 watchlist, reducer/coupling scope and exact-applicability guards, and design/rating/alignment/lubrication/condition/operation-authority boundaries before D1 freeze"
+}
