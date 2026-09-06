@@ -25,5 +25,7 @@
   "frozen_index_unchanged": true,
   "rating_selection_acceptance_authority_locked": true,
   "verification_rubric": "NEXT",
-  "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks"
+  "next": "CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
 }

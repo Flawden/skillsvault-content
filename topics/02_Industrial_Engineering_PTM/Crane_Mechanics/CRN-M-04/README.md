@@ -221,3 +221,14 @@ Status: `COMPLETE`.
 - Expected Result, Practice Reasoning, D1 frozen tree and FROZEN_INDEX remain byte-identical.
 
 Next: `CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness`.
+
+## D2 — Final Alignment v1
+
+Status: `COMPLETE`.
+- trace: Lesson 16/16 → Practice 10/10 → Reasoning 10/10 → ER 13/13 → Rubric 13/13;
+- BF-D2-01…12 have exact R-F01…R-F12 provenance; SR-D2-01 has prior discriminating-evidence origin;
+- U1/C1 coverage is intentional; known Case J is not sufficient for ER-D2-13;
+- orphans=0, surprise BF=0, guard contradictions=0, content corrections required=NO;
+- predecessor content, D1 frozen tree and FROZEN_INDEX remain unchanged.
+
+Next: `CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze`.

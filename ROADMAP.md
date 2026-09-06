@@ -1755,3 +1755,12 @@ Status: `COMPLETE`.
 - correct bounded STOP is positive evidence when model closure is genuinely missing;
 - D2 predecessor artifacts, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
 Next: `CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness`.
+
+## CRN-M-04 D2 Final Alignment v1
+
+Status: `COMPLETE`.
+- Lesson 16/16, Practice 10/10, Reasoning 10/10, ER 13/13, Rubric 13/13 traced;
+- BF origin 12/12; severity-review origin 1/1; U1/C1 coverage PASS;
+- orphans=0; surprise BF=0; guard contradictions=0; content corrections required=NO;
+- all predecessor D2 content and all frozen history remain read-only.
+Next: `CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze`.
