@@ -280,7 +280,7 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "PENDING",
+        "expected_result": "COMPLETE",
         "verification_rubric": "PENDING",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
@@ -314,12 +314,13 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
+        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
         "reader_experience_pass_I": "COMPLETE",
         "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT"
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT"
       },
       "practice": {
         "status": "COMPLETE",
@@ -327,8 +328,9 @@
         "cases": 10,
         "answer_key_embedded": false,
         "practice_reasoning": "COMPLETE",
-        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
-        "expected_result": "NEXT"
+        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT"
       },
       "practice_reasoning": {
         "status": "COMPLETE",
@@ -337,12 +339,41 @@
         "multiple_valid_paths_explicit": true,
         "single_answer_key": false,
         "blocking_failure_families": 12,
-        "expected_result": "NEXT",
-        "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline"
+        "expected_result": "COMPLETE",
+        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+        "verification_rubric": "NEXT"
+      },
+      "expected_result": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "04028e5431e159ea5167d358a0c925113bfaae8a",
+        "dimensions": 13,
+        "evidence_outputs": 10,
+        "practice_cases": 10,
+        "known_case_performance_not_sufficient": true,
+        "unseen_transfer_required": true,
+        "unseen_case": "U1",
+        "evidence_challenge_required": true,
+        "evidence_challenge": "C1",
+        "candidate_blocking_failure_families": 12,
+        "severity_review_candidates": 1,
+        "rubric_classification_deferred": true,
+        "bounded_stop_can_be_success": true,
+        "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/CRN-M-04_D2_EXPECTED_RESULT_v1.md",
+        "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
+        "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
+        "verification_rubric": "NEXT",
+        "lesson_unchanged": true,
+        "source_map_unchanged": true,
+        "practice_unchanged": true,
+        "practice_reasoning_unchanged": true,
+        "d1_frozen_tree_unchanged": true,
+        "frozen_index_unchanged": true,
+        "rating_selection_acceptance_authority_locked": true
       }
     }
   },
-  "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
+  "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -365,6 +396,7 @@
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/CRN-M-04_D2_PRACTICE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice_reasoning/v1/CRN-M-04_D2_PRACTICE_REASONING_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/CRN-M-04_D2_EXPECTED_RESULT_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -383,7 +415,8 @@
         "reader_experience_pass": "COMPLETE",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
-        "expected_result": "NEXT"
+        "expected_result": "COMPLETE",
+        "verification_rubric": "NEXT"
       }
     }
   },
@@ -580,7 +613,7 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
+    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
     "red_team_pass_I": "COMPLETE",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
@@ -592,7 +625,8 @@
     "practice_cases": 10,
     "practice_reasoning": "COMPLETE",
     "practice_reasoning_baseline_commit": "c5d17e053de105d1a2fbef919828fb576aed6580",
-    "expected_result": "NEXT"
+    "expected_result": "COMPLETE",
+    "verification_rubric": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -647,8 +681,9 @@
     ],
     "worked_answer_key_embedded": false,
     "practice_reasoning": "COMPLETE",
-    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline",
-    "expected_result": "NEXT"
+    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+    "expected_result": "COMPLETE",
+    "verification_rubric": "NEXT"
   },
   "crn_m04_d2_practice_reasoning": {
     "status": "COMPLETE",
@@ -658,7 +693,25 @@
     "blocking_failure_families": 12,
     "single_answer_key": false,
     "multiple_valid_paths_explicit": true,
-    "expected_result": "NEXT",
-    "next": "CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline"
+    "expected_result": "COMPLETE",
+    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+    "verification_rubric": "NEXT"
+  },
+  "crn_m04_d2_expected_result": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "04028e5431e159ea5167d358a0c925113bfaae8a",
+    "dimensions": 13,
+    "evidence_outputs": 10,
+    "practice_cases": 10,
+    "unseen_transfer_required": true,
+    "unseen_case": "U1",
+    "evidence_challenge_required": true,
+    "evidence_challenge": "C1",
+    "candidate_blocking_failure_families": 12,
+    "severity_review_candidates": 1,
+    "rubric_classification_deferred": true,
+    "verification_rubric": "NEXT",
+    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks"
   }
 }

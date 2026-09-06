@@ -1735,3 +1735,13 @@ Status: `COMPLETE`.
 - 12 cross-case failure families prepared for Expected Result / Rubric downstream review;
 - Practice / Lesson / Source Map, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline`.
+
+## CRN-M-04 D2 Expected Result v1
+
+Status: `COMPLETE`.
+- 13 observable ER-D2 dimensions; 10 evidence outputs; unseen U1 + C1 required downstream;
+- known A–J is supporting evidence, not sufficient transfer proof;
+- 12 reasoning failure families preserved as candidate BF provenance; Rubric decides final non-compensable/severity policy;
+- correct bounded STOP / REQUEST DISCRIMINATING EVIDENCE can be a passing D2 outcome;
+- D2 lesson/practice stack, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
+Next: `CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks`.

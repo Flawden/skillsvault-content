@@ -197,3 +197,15 @@ Status: `COMPLETE`.
 - Practice, Lesson and Source Map remain byte-identical; D1 frozen tree and FROZEN_INDEX remain unchanged;
 - rating, selection, acceptance and equipment-operation authority remain locked.
 Next: `CRN-M-04 / D2 EXPECTED RESULT / v1 — define observable applied-mechanics transfer behaviors, evidence outputs, bounded calculation/STOP success conditions and candidate blocking failures for topology, identity, ratio/efficiency, mesh-force/reaction and demand-capacity discipline`.
+
+## D2 — Expected Result v1
+
+Status: `COMPLETE`.
+- 13 observable applied-mechanics transfer dimensions and 10 minimum evidence outputs;
+- known Practice A–J, including J, is not sufficient; unseen U1 + evidence challenge C1 are required downstream;
+- all 12 Practice-Reasoning failure families retain provenance as Rubric candidates; final BF classification is deferred;
+- bounded STOP is a successful outcome when the blocked claim and discriminating evidence are explicit;
+- Lesson, SOURCE_MAP, Practice, Practice Reasoning, D1 frozen tree and FROZEN_INDEX remain byte-identical;
+- gear rating, selection/service-factor, alignment/bearing-life acceptance and equipment authority remain locked.
+
+Next: `CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks`.
