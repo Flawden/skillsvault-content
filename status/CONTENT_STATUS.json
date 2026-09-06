@@ -245,7 +245,7 @@
       }
     },
     "D2": {
-      "status": "ACTIVE",
+      "status": "FROZEN",
       "version": "v1",
       "kickoff": "COMPLETE",
       "scope": {
@@ -284,7 +284,7 @@
         "verification_rubric": "COMPLETE",
         "final_alignment": "COMPLETE",
         "source_freshness": "COMPLETE",
-        "freeze": "PENDING",
+        "freeze": "COMPLETE",
         "reader_experience": "COMPLETE"
       },
       "locks": {
@@ -463,10 +463,25 @@
         "freeze_performed": false,
         "freeze": "NEXT",
         "next": "CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history"
+      },
+      "freeze": {
+        "status": "CONTENT_FROZEN",
+        "version": "v1",
+        "freeze_date": "2026-09-06",
+        "source_baseline_commit": "380e4831214b1a09d661ce4657fccde22248842e",
+        "snapshot_members": 52,
+        "tag": "crn-m-04-d2-v1",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/FROZEN_v1",
+        "artifact_integrity": "PASS",
+        "source_freshness": "PASS_WITH_WATCHLIST",
+        "watchlist": 1,
+        "content_corrections_required": false,
+        "prerequisite_tag": "crn-m-04-d1-v1",
+        "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries"
       }
     }
   },
-  "next": "CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history",
+  "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -497,21 +512,11 @@
         "status": "FROZEN"
       },
       "D2": {
-        "status": "ACTIVE",
-        "kickoff": "COMPLETE",
-        "scope": "LOCKED",
-        "source_gate": "PASS_WITH_DERIVATION_GUARDS",
-        "lesson": "COMPLETE",
-        "editorial": "COMPLETE",
-        "red_team": "COMPLETE",
-        "reader_experience_pass": "COMPLETE",
-        "practice": "COMPLETE",
-        "practice_reasoning": "COMPLETE",
-        "expected_result": "COMPLETE",
-        "verification_rubric": "COMPLETE",
-        "final_alignment": "COMPLETE",
-        "source_freshness": "COMPLETE",
-        "freeze": "NEXT"
+        "status": "FROZEN",
+        "version": "v1",
+        "tag": "crn-m-04-d2-v1",
+        "source_baseline_commit": "380e4831214b1a09d661ce4657fccde22248842e",
+        "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/FROZEN_v1"
       }
     }
   },
@@ -876,5 +881,15 @@
     "freeze_performed": false,
     "freeze": "NEXT",
     "next": "CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history"
+  },
+  "crn_m04_d2_freeze": {
+    "status": "CONTENT_FROZEN",
+    "version": "v1",
+    "source_baseline_commit": "380e4831214b1a09d661ce4657fccde22248842e",
+    "snapshot_members": 52,
+    "tag": "crn-m-04-d2-v1",
+    "artifact_integrity": "PASS",
+    "prerequisite_tag": "crn-m-04-d1-v1",
+    "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries"
   }
 }

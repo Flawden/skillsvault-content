@@ -1,0 +1,80 @@
+{
+  "artifact": "CRN-M-04_D2_READER_EXPERIENCE_PASS_I_v1",
+  "date": "2026-09-06",
+  "stage": "READER_EXPERIENCE",
+  "pass": "I",
+  "status": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+  "baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+  "findings": [
+    "RX-D2-01",
+    "RX-D2-02",
+    "RX-D2-03",
+    "RX-D2-04",
+    "RX-D2-05",
+    "RX-D2-06",
+    "RX-D2-07"
+  ],
+  "finding_records": [
+    {
+      "id": "RX-D2-01",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-02",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-03",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-05",
+      "severity": "HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-06",
+      "severity": "MEDIUM_HIGH",
+      "status": "FIXED"
+    },
+    {
+      "id": "RX-D2-07",
+      "severity": "MEDIUM",
+      "status": "FIXED"
+    }
+  ],
+  "reader_checks": {
+    "sixty_second_route_added": true,
+    "five_field_input_card_added": true,
+    "same_shaft_power_card_added": true,
+    "ratio_efficiency_router_added": true,
+    "force_reaction_workflow_added": true,
+    "result_boundary_three_column_card_added": true,
+    "retrieval_checkpoint_added": true,
+    "handoff_corrected_to_practice": true
+  },
+  "guard_preservation": {
+    "red_team_invariants_preserved": true,
+    "technical_editorial_invariants_preserved": true,
+    "source_map_unchanged": true,
+    "d1_frozen_tree_unchanged": true,
+    "frozen_index_unchanged": true,
+    "gear_rating_or_selection_claims_introduced": false,
+    "coupling_selection_or_alignment_acceptance_introduced": false,
+    "bearing_life_selection_introduced": false,
+    "unknown_efficiency_inference_introduced": false,
+    "transient_peak_inference_introduced": false,
+    "equipment_operation_authority_introduced": false,
+    "source_authority_changed": false
+  },
+  "primary_sections": 16,
+  "next": "CRN-M-04 / D2 PRACTICE / v1 — build applied-mechanics transfer cases for topology proof, same-shaft power/torque identity, ratio and efficiency discipline, mesh-force/reaction modelling, interface bookkeeping and bounded demand-vs-capacity conclusions"
+}

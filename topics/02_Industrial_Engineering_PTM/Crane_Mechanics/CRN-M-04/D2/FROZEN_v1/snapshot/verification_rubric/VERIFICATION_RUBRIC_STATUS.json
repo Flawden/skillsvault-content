@@ -1,0 +1,41 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "stage": "VERIFICATION_RUBRIC",
+  "version": "v1",
+  "status": "COMPLETE",
+  "date": "2026-09-06",
+  "baseline_commit": "c582aaeda83ac50908ac67da03d3fd0694006f5a",
+  "dimensions": 13,
+  "levels": 5,
+  "max_score": 52,
+  "blocking_failures": 12,
+  "severity_review_candidates": 1,
+  "verified_score_min": 39,
+  "robust_score_min": 47,
+  "known_case_required": true,
+  "unseen_transfer_required": true,
+  "challenge_required": true,
+  "blocking_failures_non_compensable_after_downstream_use": true,
+  "stop_or_evidence_request_can_be_success": true,
+  "guards": {
+    "gear_rating_locked": true,
+    "reducer_selection_service_factor_locked": true,
+    "coupling_selection_rating_locked": true,
+    "alignment_acceptance_locked": true,
+    "bearing_life_selection_locked": true,
+    "equipment_authority_locked": true,
+    "expected_result_unchanged": true,
+    "practice_reasoning_unchanged": true,
+    "d1_frozen_tree_unchanged": true,
+    "frozen_index_unchanged": true
+  },
+  "artifacts": {
+    "rubric": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/verification_rubric/v1/CRN-M-04_D2_VERIFICATION_RUBRIC_v1.md",
+    "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
+    "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/verification_rubric/v1/VERIFICATION_RUBRIC_QA_v1.json"
+  },
+  "final_alignment": "COMPLETE",
+  "next": "CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze",
+  "source_freshness": "NEXT"
+}

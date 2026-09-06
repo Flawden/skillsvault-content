@@ -245,3 +245,17 @@ Status: `COMPLETE / PASS_WITH_WATCHLIST`.
 - freeze/tag are not performed by this stage.
 
 Next: `CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history`.
+
+## D2 — FROZEN v1
+
+Status: `CONTENT_FROZEN`.
+- source baseline: `380e4831214b1a09d661ce4657fccde22248842e`;
+- snapshot members: 52;
+- immutable members: 61;
+- prerequisite tag: `crn-m-04-d1-v1`;
+- tag: `crn-m-04-d2-v1`;
+- artifact integrity: PASS;
+- Source Freshness: PASS WITH WATCHLIST (1);
+- D2 applied-mechanics and authority guards are immutable in v1.
+
+Next: `CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries`.

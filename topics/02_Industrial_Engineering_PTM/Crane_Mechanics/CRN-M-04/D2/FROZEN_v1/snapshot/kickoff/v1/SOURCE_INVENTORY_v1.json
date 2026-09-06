@@ -1,0 +1,131 @@
+{
+  "topic_id": "CRN-M-04",
+  "topic_name_ru": "Редукторы и муфты",
+  "depth": "D2",
+  "version": "v1",
+  "verified_on": "2026-09-06",
+  "decision": "PASS_WITH_DERIVATION_GUARDS",
+  "baseline_contract": {
+    "expected_commit": "9fb625641f4e214a465ffa55759efd211af1d8d8",
+    "required_annotated_tag": "crn-m-04-d1-v1",
+    "d1_tree_immutable": true,
+    "frozen_index_unchanged": true
+  },
+  "sources": [
+    {
+      "id": "INT-CRN-M04-D1-FROZEN",
+      "title": "CRN-M-04 D1 frozen bundle / crn-m-04-d1-v1",
+      "authority": "SKILLSVAULT_CANONICAL_FROZEN_PREREQUISITE",
+      "status": "IMMUTABLE",
+      "role": "D1_SCOPE_SOURCE_RATING_ACCEPTANCE_AUTHORITY_BOUNDARY"
+    },
+    {
+      "id": "EDU-OPENSTAX-ROTATIONAL-POWER",
+      "title": "OpenStax University Physics Vol. 1 §10.8 — Work and Power for Rotational Motion",
+      "authority": "OPEN_EDUCATIONAL_PHYSICS_REFERENCE",
+      "status": "STABLE_PUBLIC",
+      "role": "ROTATIONAL_POWER_TORQUE_ANGULAR_SPEED_FIRST_PRINCIPLES",
+      "public_url": "https://openstax.org/books/university-physics-volume-1/pages/10-8-work-and-power-for-rotational-motion",
+      "normative": false
+    },
+    {
+      "id": "EDU-OPENSTAX-STATIC-EQUILIBRIUM",
+      "title": "OpenStax University Physics Vol. 1 §12.1 — Conditions for Static Equilibrium",
+      "authority": "OPEN_EDUCATIONAL_PHYSICS_REFERENCE",
+      "status": "STABLE_PUBLIC",
+      "role": "FREE_BODY_FORCE_MOMENT_EQUILIBRIUM_FIRST_PRINCIPLES",
+      "public_url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "normative": false
+    },
+    {
+      "id": "DEV-KHK-GEAR-TECHNICAL-REFERENCE",
+      "title": "KHK Gear Technical Reference — Calculation of Gear Dimensions",
+      "authority": "MANUFACTURER_TECHNICAL_REFERENCE",
+      "status": "PUBLIC_DEVELOPMENT_COMPANION",
+      "role": "SIMPLE_GEAR_RATIO_GEOMETRY_TERMINOLOGY",
+      "public_url": "https://khkgears.net/gear-knowledge/gear-technical-reference/calculation-gear-dimensions/",
+      "normative": false,
+      "scope_warning": "Development companion only; not crane/OEM/rating/acceptance authority."
+    },
+    {
+      "id": "EXT-ISO-6336-1-2019",
+      "title": "ISO 6336-1:2019 — Calculation of load capacity of spur and helical gears — Part 1",
+      "authority": "ISO",
+      "status": "PUBLISHED_CONFIRMED_CURRENT",
+      "last_confirmed": "2025",
+      "role": "GEAR_LOAD_CAPACITY_HARD_BOUNDARY",
+      "public_url": "https://www.iso.org/standard/63819.html",
+      "unlocked_for_d2_equations": false
+    },
+    {
+      "id": "EXT-GOST-31592-2012",
+      "title": "ГОСТ 31592-2012 — Редукторы общемашиностроительного применения. Общие технические условия",
+      "authority": "ROSSTANDART",
+      "status": "INHERITED_CURRENT_FROM_D1_FREEZE",
+      "role": "REDUCER_SCOPE_AND_DOCUMENTATION_BOUNDARY"
+    },
+    {
+      "id": "EXT-GOST-R-50895-2025",
+      "title": "ГОСТ Р 50895-2025 — Муфты зубчатые. Технические условия",
+      "authority": "ROSSTANDART",
+      "status": "INHERITED_CURRENT_FROM_D1_FREEZE",
+      "role": "GEAR_COUPLING_FAMILY_SPECIFIC_BOUNDARY"
+    },
+    {
+      "id": "DEV-ISO-14691-2008",
+      "title": "ISO 14691:2008 — Flexible couplings for mechanical power transmission — General-purpose applications",
+      "authority": "ISO",
+      "status": "INHERITED_WATCHLIST_FROM_D1",
+      "role": "SCOPE_LIMITED_COUPLING_MECHANISM_COMPANION",
+      "scope_warning": "Petroleum/petrochemical/natural-gas industry scope; not crane selection/alignment/acceptance authority."
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "ROSTECHNADZOR",
+      "status": "INHERITED_CURRENT_FROM_D1_FREEZE",
+      "role": "OPERATION_REPAIR_AUTHORITY_BOUNDARY"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-CRANE-DRIVE",
+      "title": "Passport / OEM / drawings / operating documentation for the actual crane drive",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "status": "REQUIRED_FOR_REAL_EQUIPMENT_CLAIMS",
+      "role": "ACTUAL_TOPOLOGY_GEOMETRY_EFFICIENCY_RATING_TOLERANCE_AUTHORITY",
+      "public": false
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "DEV-ISO-14691-2008",
+      "reason": "Retained from D1 only as a scope-limited mechanism companion; never generic crane coupling authority."
+    }
+  ],
+  "unlocked_claim_classes": [
+    "unit_conversion_rpm_rad_s",
+    "shaft_power_torque_same_section",
+    "simple_ratio_given_topology",
+    "multistage_ratio_proven_topology",
+    "given_efficiency_power_propagation",
+    "torque_to_tangential_force_given_radius",
+    "external_reactions_explicit_statics_model",
+    "component_interface_bookkeeping"
+  ],
+  "locked_claim_classes": [
+    "gear_load_capacity_and_iso6336_coefficients",
+    "reducer_selection_and_service_factors",
+    "coupling_selection_and_rating",
+    "numeric_alignment_and_displacement_limits",
+    "bearing_internal_load_life_preload_selection",
+    "shaft_key_spline_fastener_strength_design",
+    "planetary_load_sharing",
+    "unknown_efficiency_inference",
+    "backlash_wear_damage_acceptance",
+    "vibration_noise_temperature_acceptance",
+    "lubricant_selection_and_substitution",
+    "root_cause_from_visible_or_calculated_condition",
+    "repair_adjustment_overhaul",
+    "return_to_service_or_operational_permission"
+  ],
+  "authoring_unlocked": true
+}

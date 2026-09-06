@@ -1,0 +1,141 @@
+{
+  "topic_id": "CRN-M-04",
+  "topic_name_ru": "Редукторы и муфты",
+  "depth": "D2",
+  "version": "v1",
+  "rechecked_on": "2026-09-06",
+  "decision": "PASS_WITH_WATCHLIST",
+  "source_records": 10,
+  "watchlist_count": 1,
+  "records": [
+    {
+      "id": "INT-CRN-M04-D1-FROZEN",
+      "title": "CRN-M-04 D1 frozen bundle / crn-m-04-d1-v1",
+      "authority": "SKILLSVAULT_CANONICAL_FROZEN_PREREQUISITE",
+      "freshness_status": "IMMUTABLE_VERIFIED",
+      "role": "D1_SCOPE_SOURCE_RATING_ACCEPTANCE_AUTHORITY_BOUNDARY",
+      "result": "PASS"
+    },
+    {
+      "id": "EDU-OPENSTAX-ROTATIONAL-POWER",
+      "title": "OpenStax University Physics Vol. 1 §10.8 — Work and Power for Rotational Motion",
+      "authority": "OPEN_EDUCATIONAL_PHYSICS_REFERENCE",
+      "freshness_status": "AVAILABLE_STABLE_PUBLIC",
+      "rechecked_on": "2026-09-06",
+      "public_url": "https://openstax.org/books/university-physics-volume-1/pages/10-8-work-and-power-for-rotational-motion",
+      "role": "P_T_OMEGA_FIRST_PRINCIPLES",
+      "normative": false,
+      "result": "PASS"
+    },
+    {
+      "id": "EDU-OPENSTAX-STATIC-EQUILIBRIUM",
+      "title": "OpenStax University Physics Vol. 1 §12.1 — Conditions for Static Equilibrium",
+      "authority": "OPEN_EDUCATIONAL_PHYSICS_REFERENCE",
+      "freshness_status": "AVAILABLE_STABLE_PUBLIC",
+      "rechecked_on": "2026-09-06",
+      "public_url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "role": "FREE_BODY_FORCE_MOMENT_EQUILIBRIUM_FIRST_PRINCIPLES",
+      "normative": false,
+      "result": "PASS"
+    },
+    {
+      "id": "DEV-KHK-GEAR-TECHNICAL-REFERENCE",
+      "title": "KHK Gear Technical Reference — Calculation of Gear Dimensions",
+      "authority": "MANUFACTURER_TECHNICAL_REFERENCE",
+      "freshness_status": "AVAILABLE_PUBLIC_DEVELOPMENT_COMPANION",
+      "rechecked_on": "2026-09-06",
+      "public_url": "https://khkgears.net/gear-knowledge/gear-technical-reference/calculation-gear-dimensions/",
+      "role": "SIMPLE_GEAR_RATIO_GEOMETRY_TERMINOLOGY",
+      "normative": false,
+      "scope_warning": "Development companion only; not crane/OEM/rating/acceptance authority.",
+      "result": "PASS"
+    },
+    {
+      "id": "EXT-ISO-6336-1-2019",
+      "title": "ISO 6336-1:2019 — Calculation of load capacity of spur and helical gears — Part 1",
+      "authority": "ISO",
+      "freshness_status": "PUBLISHED_CONFIRMED_CURRENT",
+      "edition": 3,
+      "publication": "2019-11",
+      "last_confirmed": "2025-04-22",
+      "public_url": "https://www.iso.org/standard/63819.html",
+      "role": "GEAR_LOAD_CAPACITY_HARD_BOUNDARY",
+      "unlocked_for_d2_equations": false,
+      "result": "PASS"
+    },
+    {
+      "id": "EXT-GOST-31592-2012",
+      "title": "ГОСТ 31592-2012 — Редукторы общемашиностроительного применения. Общие технические условия",
+      "authority": "ROSSTANDART",
+      "freshness_status": "ACTIVE",
+      "effective_from": "2014-01-01",
+      "public_url": "https://protect.gost.ru/gost/details/a7ff0356-3421-47a5-971a-2ad8703edad3",
+      "role": "REDUCER_SCOPE_AND_DOCUMENTATION_BOUNDARY",
+      "result": "PASS"
+    },
+    {
+      "id": "EXT-GOST-R-50895-2025",
+      "title": "ГОСТ Р 50895-2025 — Муфты зубчатые. Технические условия",
+      "authority": "ROSSTANDART",
+      "freshness_status": "ACTIVE",
+      "effective_from": "2026-01-15",
+      "public_url": "https://protect.gost.ru/gost/details/a3f18bf8-3bfc-421f-aad6-bc14922903cb",
+      "role": "GEAR_COUPLING_FAMILY_SPECIFIC_BOUNDARY",
+      "result": "PASS"
+    },
+    {
+      "id": "DEV-ISO-14691-2008",
+      "title": "ISO 14691:2008 — Petroleum, petrochemical and natural gas industries — Flexible couplings for mechanical power transmission — General-purpose applications",
+      "authority": "ISO",
+      "freshness_status": "PUBLISHED_CONFIRMED_CURRENT_WATCHLIST",
+      "edition": 2,
+      "publication": "2008-12",
+      "last_confirmed": "2024-04-04",
+      "public_url": "https://www.iso.org/standard/45476.html",
+      "role": "SCOPE_LIMITED_COUPLING_MECHANISM_COMPANION",
+      "scope_warning": "Petroleum/petrochemical/natural-gas industry scope; not generic crane selection/alignment/acceptance authority.",
+      "result": "PASS_WITH_WATCHLIST"
+    },
+    {
+      "id": "EXT-RU-FNP-461",
+      "title": "ФНП ПС №461 — Правила безопасности ОПО, на которых используются подъемные сооружения",
+      "authority": "ROSTECHNADZOR",
+      "freshness_status": "CURRENT_REVISION",
+      "revision": "2026-04-16",
+      "valid_until": "2032-09-01",
+      "public_url": "https://www.consultant.ru/document/cons_doc_LAW_373321/",
+      "role": "OPERATION_REPAIR_AUTHORITY_BOUNDARY",
+      "result": "PASS"
+    },
+    {
+      "id": "OEM-PASSPORT-ACTUAL-CRANE-DRIVE",
+      "title": "Passport / OEM / drawings / operating documentation for the actual crane drive",
+      "authority": "OEM_OR_EQUIPMENT_DOCUMENTATION",
+      "freshness_status": "REQUIRED_FOR_REAL_EQUIPMENT_CLAIMS",
+      "public": false,
+      "role": "ACTUAL_TOPOLOGY_GEOMETRY_EFFICIENCY_RATING_TOLERANCE_AUTHORITY",
+      "freshness_rule": "Must be verified against the exact installed equipment/revision at point of real-equipment use.",
+      "result": "CONDITIONAL_REQUIREMENT_UNCHANGED"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "DEV-ISO-14691-2008",
+      "reason": "Current/confirmed standard, but petroleum/petrochemical/natural-gas scope remains incompatible with generic crane coupling authority."
+    }
+  ],
+  "derivation_guard_results": {
+    "p_t_omega_same_shaft_state": "PASS",
+    "ratio_requires_topology_convention": "PASS",
+    "efficiency_requires_direction_regime_path": "PASS",
+    "mesh_torque_requires_identity": "PASS",
+    "mesh_force_requires_same_gear_geometry": "PASS",
+    "reactions_require_explicit_fbd_and_determinacy": "PASS",
+    "coupling_connectivity_not_numeric_equality": "PASS",
+    "calculated_demand_not_rated_capacity": "PASS",
+    "skillsvault_stop_not_operation_command": "PASS"
+  },
+  "content_contract_change_required": false,
+  "source_gate_correction_required": false,
+  "freeze_ready": true
+}

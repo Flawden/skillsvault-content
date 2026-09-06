@@ -1,0 +1,408 @@
+{
+  "artifact": "CRN-M-04_D2_TRACEABILITY_MATRIX_v1",
+  "date": "2026-09-06",
+  "baseline_commit": "e3c2dca95d6465584cd7a782b98fb11eb29a77ed",
+  "counts": {
+    "lesson_sections": 16,
+    "practice_cases": 10,
+    "reasoning_cases": 10,
+    "expected_dimensions": 13,
+    "rubric_dimensions": 13,
+    "blocking_failures": 12,
+    "severity_review_families": 1
+  },
+  "lesson": [
+    {
+      "section": 1,
+      "role": "Model boundary before formula",
+      "er": "ER-D2-01,02,12",
+      "evidence": "A–J; U1/C1",
+      "guard": "boundary/topology before equations"
+    },
+    {
+      "section": 2,
+      "role": "Input status before arithmetic",
+      "er": "ER-D2-02,03,04,05,06,10,11,12",
+      "evidence": "A,D,H,I,J; U1/C1",
+      "guard": "object/side/state/domain identity"
+    },
+    {
+      "section": 3,
+      "role": "rpm ↔ angular speed with units/state",
+      "er": "ER-D2-03",
+      "evidence": "A,C,J; U1",
+      "guard": "unit/state discipline"
+    },
+    {
+      "section": 4,
+      "role": "P=Tω on same mechanical shaft/state",
+      "er": "ER-D2-03",
+      "evidence": "A,C,H,J; U1",
+      "guard": "BF-D2-01 boundary"
+    },
+    {
+      "section": 5,
+      "role": "9550 form plus low-speed/transient guard",
+      "er": "ER-D2-03,06",
+      "evidence": "A,D,J; U1/C1",
+      "guard": "BF-D2-04"
+    },
+    {
+      "section": 6,
+      "role": "Simple gear ratio with explicit convention",
+      "er": "ER-D2-04",
+      "evidence": "B,C,J; U1",
+      "guard": "BF-D2-02"
+    },
+    {
+      "section": 7,
+      "role": "Multistage ratio only after topology proof",
+      "er": "ER-D2-01,04",
+      "evidence": "C,J; U1/C1",
+      "guard": "BF-D2-02"
+    },
+    {
+      "section": 8,
+      "role": "Ideal versus supplied-efficiency model",
+      "er": "ER-D2-05",
+      "evidence": "C,J; U1/C1",
+      "guard": "BF-D2-03"
+    },
+    {
+      "section": 9,
+      "role": "Ratio does not create power / energy sanity",
+      "er": "ER-D2-03,04,05,11",
+      "evidence": "C,J; U1",
+      "guard": "energy cross-check"
+    },
+    {
+      "section": 10,
+      "role": "Calculated demand ≠ rated capacity",
+      "er": "ER-D2-11,12",
+      "evidence": "I,J; U1/C1",
+      "guard": "BF-D2-10/11/12"
+    },
+    {
+      "section": 11,
+      "role": "Torque → tangential force only with same-mesh lever",
+      "er": "ER-D2-07,08",
+      "evidence": "E,J; U1",
+      "guard": "BF-D2-05/06"
+    },
+    {
+      "section": 12,
+      "role": "FBD and isolated-body modelling",
+      "er": "ER-D2-07,08,09",
+      "evidence": "E,F,G,J; U1",
+      "guard": "BF-D2-07/08"
+    },
+    {
+      "section": 13,
+      "role": "Bounded external reactions / determinacy",
+      "er": "ER-D2-09,12",
+      "evidence": "F,G,J; U1/C1",
+      "guard": "BF-D2-07/08"
+    },
+    {
+      "section": 14,
+      "role": "Interface ledger across components/coupling",
+      "er": "ER-D2-02,10",
+      "evidence": "H,J; U1/C1",
+      "guard": "BF-D2-09"
+    },
+    {
+      "section": 15,
+      "role": "Unit/identity/sign/energy cross-checks",
+      "er": "ER-D2-02…12",
+      "evidence": "A–J; U1/C1",
+      "guard": "model-closure guard"
+    },
+    {
+      "section": 16,
+      "role": "Integrated bounded example + STOP protocol",
+      "er": "ER-D2-01…13",
+      "evidence": "A–J pattern; U1+C1 closure",
+      "guard": "BF-D2-01…12; SR-D2-01"
+    }
+  ],
+  "practice": [
+    {
+      "case": "A",
+      "role": "same-shaft P–T–ω identity",
+      "er": "ER-D2-02,03,12",
+      "reasoning_failures": "R-F01"
+    },
+    {
+      "case": "B",
+      "role": "ratio convention + topology",
+      "er": "ER-D2-01,04,12",
+      "reasoning_failures": "R-F02"
+    },
+    {
+      "case": "C",
+      "role": "multistage ratio + forward η",
+      "er": "ER-D2-01,03,04,05,12",
+      "reasoning_failures": "R-F02/R-F03"
+    },
+    {
+      "case": "D",
+      "role": "near-zero/transient STOP",
+      "er": "ER-D2-02,03,06,12",
+      "reasoning_failures": "R-F04"
+    },
+    {
+      "case": "E",
+      "role": "net shaft vs mesh torque / same-mesh geometry",
+      "er": "ER-D2-07,08,12",
+      "reasoning_failures": "R-F05/R-F06"
+    },
+    {
+      "case": "F",
+      "role": "determinate external statics",
+      "er": "ER-D2-09,12",
+      "reasoning_failures": "R-F07/R-F08 guard"
+    },
+    {
+      "case": "G",
+      "role": "three-support indeterminate STOP",
+      "er": "ER-D2-09,12",
+      "reasoning_failures": "R-F07/R-F08"
+    },
+    {
+      "case": "H",
+      "role": "coupling side bookkeeping + transfer model",
+      "er": "ER-D2-02,03,05,10,12",
+      "reasoning_failures": "R-F03/R-F09"
+    },
+    {
+      "case": "I",
+      "role": "demand vs catalog capacity/authority",
+      "er": "ER-D2-11,12",
+      "reasoning_failures": "R-F10/R-F11/R-F12"
+    },
+    {
+      "case": "J",
+      "role": "integrated known D2 packet",
+      "er": "ER-D2-01…12; ER-D2-13 pattern only",
+      "reasoning_failures": "R-F01…R-F12"
+    }
+  ],
+  "expected": [
+    {
+      "id": "ER-D2-01",
+      "competence": "Boundary/topology before equations",
+      "lesson_origin": "§§1,7,16",
+      "known_evidence": "A,B,C,E,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-02",
+      "competence": "Input-status + object/side/state/domain identity",
+      "lesson_origin": "§§1–2,14–16",
+      "known_evidence": "A,D,H,I,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-03",
+      "competence": "Same-shaft/state P–T–ω",
+      "lesson_origin": "§§2–5,9,15–16",
+      "known_evidence": "A,C,H,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-04",
+      "competence": "Ratio topology/convention/direction",
+      "lesson_origin": "§§2,6–7,9,15–16",
+      "known_evidence": "B,C,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-05",
+      "competence": "η direction/regime/path applicability",
+      "lesson_origin": "§§2,8–9,15–16",
+      "known_evidence": "C,H,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-06",
+      "competence": "Steady vs transient / near-zero validity",
+      "lesson_origin": "§§2,5,15–16",
+      "known_evidence": "D,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-07",
+      "competence": "Shaft torque balance → mesh torque",
+      "lesson_origin": "§§11–12,15–16",
+      "known_evidence": "E,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-08",
+      "competence": "Same-mesh geometry → F_t",
+      "lesson_origin": "§§11–12,15–16",
+      "known_evidence": "E,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-09",
+      "competence": "FBD/determinacy/bounded reactions",
+      "lesson_origin": "§§12–13,15–16",
+      "known_evidence": "F,G,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-10",
+      "competence": "Interface bookkeeping without equality leap",
+      "lesson_origin": "§§2,14–16",
+      "known_evidence": "H,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-11",
+      "competence": "Demand/capacity/rating/authority separation",
+      "lesson_origin": "§§2,9–10,15–16",
+      "known_evidence": "I,J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-12",
+      "competence": "Cross-check + bounded STOP + discriminating evidence",
+      "lesson_origin": "§§1–2,10,13,15–16",
+      "known_evidence": "A–J",
+      "verification_closure": "U1+C1"
+    },
+    {
+      "id": "ER-D2-13",
+      "competence": "Unseen transfer + C1 model update",
+      "lesson_origin": "§16 integrated pattern",
+      "known_evidence": "J known pattern only",
+      "verification_closure": "mandatory U1+C1"
+    }
+  ],
+  "blocking_failures": [
+    {
+      "bf": "BF-D2-01",
+      "reasoning_origin": "R-F01",
+      "failure": "mixed shaft/state/domain",
+      "lesson_origin": "§§2,4,15–16",
+      "practice_exposure": "A,H,J",
+      "er_origin": "ER-D2-02/03"
+    },
+    {
+      "bf": "BF-D2-02",
+      "reasoning_origin": "R-F02",
+      "failure": "ratio without topology/convention",
+      "lesson_origin": "§§6–7,15–16",
+      "practice_exposure": "B,C,J",
+      "er_origin": "ER-D2-04"
+    },
+    {
+      "bf": "BF-D2-03",
+      "reasoning_origin": "R-F03",
+      "failure": "η applicability leak",
+      "lesson_origin": "§§8–9,15–16",
+      "practice_exposure": "C,H,J",
+      "er_origin": "ER-D2-05"
+    },
+    {
+      "bf": "BF-D2-04",
+      "reasoning_origin": "R-F04",
+      "failure": "steady/near-zero → transient peak",
+      "lesson_origin": "§§5,15–16",
+      "practice_exposure": "D,J",
+      "er_origin": "ER-D2-06"
+    },
+    {
+      "bf": "BF-D2-05",
+      "reasoning_origin": "R-F05",
+      "failure": "net shaft torque → mesh torque",
+      "lesson_origin": "§§11–12,16",
+      "practice_exposure": "E,J",
+      "er_origin": "ER-D2-07"
+    },
+    {
+      "bf": "BF-D2-06",
+      "reasoning_origin": "R-F06",
+      "failure": "cross-mesh geometry",
+      "lesson_origin": "§§11–12,16",
+      "practice_exposure": "E,J",
+      "er_origin": "ER-D2-08"
+    },
+    {
+      "bf": "BF-D2-07",
+      "reasoning_origin": "R-F07",
+      "failure": "unique reactions without determinacy",
+      "lesson_origin": "§§12–13,15–16",
+      "practice_exposure": "F,G,J",
+      "er_origin": "ER-D2-09"
+    },
+    {
+      "bf": "BF-D2-08",
+      "reasoning_origin": "R-F08",
+      "failure": "reaction sign/load → diagnosis/acceptance",
+      "lesson_origin": "§§12–13,15–16",
+      "practice_exposure": "F,G,J",
+      "er_origin": "ER-D2-09/11"
+    },
+    {
+      "bf": "BF-D2-09",
+      "reasoning_origin": "R-F09",
+      "failure": "coupling connectivity → numerical equality",
+      "lesson_origin": "§§14–16",
+      "practice_exposure": "H,J",
+      "er_origin": "ER-D2-10"
+    },
+    {
+      "bf": "BF-D2-10",
+      "reasoning_origin": "R-F10",
+      "failure": "demand → unverified capacity/suitability",
+      "lesson_origin": "§§10,15–16",
+      "practice_exposure": "I,J",
+      "er_origin": "ER-D2-11"
+    },
+    {
+      "bf": "BF-D2-11",
+      "reasoning_origin": "R-F11",
+      "failure": "invented safety/rating method",
+      "lesson_origin": "§§10,15–16",
+      "practice_exposure": "I,J",
+      "er_origin": "ER-D2-11"
+    },
+    {
+      "bf": "BF-D2-12",
+      "reasoning_origin": "R-F12",
+      "failure": "bounded result/STOP → selection/operation authority",
+      "lesson_origin": "§§1,10,15–16",
+      "practice_exposure": "I,J; A–J authority handoff",
+      "er_origin": "ER-D2-11/12"
+    }
+  ],
+  "severity_review": [
+    {
+      "id": "SR-D2-01",
+      "origin": [
+        "Lesson §16",
+        "Practice calculation packet",
+        "Practice Reasoning A–J Discriminating evidence",
+        "ER-D2-12"
+      ],
+      "automatic_bf": false
+    }
+  ],
+  "transfer": {
+    "known_case_j_sufficient": false,
+    "u1_required": true,
+    "c1_required": true,
+    "u1_role": "unseen multi-trap applied-mechanics transfer",
+    "c1_role": "selective evidence-status/model update"
+  },
+  "results": {
+    "orphans": 0,
+    "surprise_blocking_failures": 0,
+    "guard_contradictions": 0,
+    "language_accessibility_gaps": 0,
+    "content_corrections_required": false,
+    "source_freshness_ready": true
+  }
+}

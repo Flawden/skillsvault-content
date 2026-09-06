@@ -1,0 +1,21 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "stage": "READER_EXPERIENCE",
+  "status": "COMPLETE",
+  "pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "report": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/reader_experience/pass_I/v1/CRN-M-04_D2_READER_EXPERIENCE_PASS_I_v1.md",
+    "findings_fixed": 7,
+    "corrected_artifacts": [
+      "lesson/v1/CRN-M-04_D2_LESSON_v1.md"
+    ]
+  },
+  "practice": "NEXT",
+  "next": "CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT"
+}

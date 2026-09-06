@@ -1,0 +1,66 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "lesson_status": "AUTHORING_COMPLETE",
+  "version": "v1",
+  "date": "2026-09-06",
+  "baseline_commit": "78bff4c704d3e394a6f8be9b2152843710e02a32",
+  "prerequisite_tag": "crn-m-04-d1-v1",
+  "source_gate": {
+    "status": "COMPLETE",
+    "decision": "PASS_WITH_DERIVATION_GUARDS",
+    "version": "v1"
+  },
+  "artifacts": {
+    "lesson": "lesson/v1/CRN-M-04_D2_LESSON_v1.md",
+    "source_map": "lesson/v1/SOURCE_MAP_v1.md",
+    "qa": "lesson/v1/AUTHORING_QA_v1.json"
+  },
+  "coverage": {
+    "bounded_applied_mechanics_complete": true,
+    "ratio_and_direction_model_explicit": true,
+    "shaft_power_torque_identity_explicit": true,
+    "efficiency_model_guard_explicit": true,
+    "force_and_reaction_boundaries_explicit": true,
+    "component_interface_bookkeeping_explicit": true,
+    "demand_capacity_separation_explicit": true,
+    "d1_rating_acceptance_authority_locks_preserved": true
+  },
+  "technical_editorial_pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "3653950efec958cb7a00da6e31f971a791877c3d",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10
+  },
+  "red_team_pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10
+  },
+  "reader_experience_pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6be8434a38be3ab21c7b45f536f7a06b91f314e4",
+    "decision": "PASS_WITH_READER_EXPERIENCE_CORRECTIONS_APPLIED",
+    "findings": [
+      "RX-D2-01",
+      "RX-D2-02",
+      "RX-D2-03",
+      "RX-D2-04",
+      "RX-D2-05",
+      "RX-D2-06",
+      "RX-D2-07"
+    ]
+  },
+  "practice": "NEXT",
+  "practice_reasoning": "PENDING",
+  "expected_result": "PENDING",
+  "verification_rubric": "PENDING",
+  "final_alignment": "COMPLETE",
+  "source_freshness": "NEXT",
+  "freeze": "PENDING",
+  "next": "CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze"
+}

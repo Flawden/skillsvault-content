@@ -1774,3 +1774,19 @@ Status: `COMPLETE / PASS_WITH_WATCHLIST`.
 - exact OEM/passport documentation remains required for real-equipment claims;
 - predecessor D2 artifacts, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
 Next: `CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history`.
+
+## CRN-M-04 D2 Freeze v1
+
+Decision: `CONTENT FROZEN`.
+- freshness-cleared baseline: `380e4831214b1a09d661ce4657fccde22248842e`;
+- immutable snapshot members: 52/52 byte-identical;
+- freeze bundle: 61 files;
+- Lesson 16/16, Practice/Reasoning 10/10 + 10/10, ER/Rubric 13/13 + 13/13;
+- BF provenance 12/12; SR-D2-01 remains severity-review;
+- U1 + C1 transfer/update contract preserved;
+- source freshness: PASS WITH WATCHLIST; ISO 14691 remains non-blocking and scope-limited;
+- rating/selection/alignment/bearing-life/diagnosis/repair/equipment-operation authority locks remain closed;
+- CRN-M-04 D1 and CRN-M-01/02/03 frozen history remain immutable;
+- tag contract: `crn-m-04-d2-v1`.
+
+Next: `CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries`.

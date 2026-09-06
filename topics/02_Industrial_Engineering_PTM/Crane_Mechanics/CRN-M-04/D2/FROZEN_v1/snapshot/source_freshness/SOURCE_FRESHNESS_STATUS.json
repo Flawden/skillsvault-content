@@ -1,0 +1,22 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D2",
+  "stage": "SOURCE_FRESHNESS",
+  "version": "v1",
+  "status": "COMPLETE",
+  "date": "2026-09-06",
+  "baseline_commit": "69100c49ec381c4ee9e52eb2dce56685a70529c3",
+  "decision": "PASS_WITH_WATCHLIST",
+  "source_records": 10,
+  "watchlist": 1,
+  "content_contract_change_required": false,
+  "source_gate_correction_required": false,
+  "freeze_ready": true,
+  "predecessor_content_unchanged": true,
+  "d1_frozen_tree_unchanged": true,
+  "frozen_index_unchanged": true,
+  "tag_created": false,
+  "freeze_performed": false,
+  "freeze": "NEXT",
+  "next": "CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history"
+}

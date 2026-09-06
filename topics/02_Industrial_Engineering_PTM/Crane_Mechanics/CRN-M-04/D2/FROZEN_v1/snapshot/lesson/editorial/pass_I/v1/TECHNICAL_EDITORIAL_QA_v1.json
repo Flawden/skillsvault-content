@@ -1,0 +1,91 @@
+{
+  "artifact": "CRN-M-04_D2_TECHNICAL_EDITORIAL_PASS_I_v1",
+  "date": "2026-09-06",
+  "baseline_commit": "3653950efec958cb7a00da6e31f971a791877c3d",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "findings": [
+    {
+      "id": "TE-D2-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "P-T-omega same-state relation needed one sign and power-flow convention"
+    },
+    {
+      "id": "TE-D2-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "9550 conversion needed nonzero-speed and steady/transient scope guard"
+    },
+    {
+      "id": "TE-D2-03",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "ratio magnitude could leak rotation sign across different topology"
+    },
+    {
+      "id": "TE-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "efficiency needed direction, regime and boundary identity"
+    },
+    {
+      "id": "TE-D2-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "steady calculated demand could be mistaken for transient or peak demand"
+    },
+    {
+      "id": "TE-D2-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "tangential force required same isolated gear and mesh torque identity"
+    },
+    {
+      "id": "TE-D2-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "quasi-static wording could hide non-negligible inertia"
+    },
+    {
+      "id": "TE-D2-08",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "planar support reactions could be over-read as full 3D or bearing-internal reactions"
+    },
+    {
+      "id": "TE-D2-09",
+      "severity": "MEDIUM_HIGH",
+      "status": "FIXED",
+      "topic": "interface ledger could imply unsupported equality across coupling boundary"
+    },
+    {
+      "id": "TE-D2-10",
+      "severity": "MEDIUM",
+      "status": "FIXED",
+      "topic": "passive energy cross-check needed absolute-power and identity guards"
+    }
+  ],
+  "guards": {
+    "crn_m01_m02_m03_frozen_modified": false,
+    "d1_frozen_tree_modified": false,
+    "frozen_index_modified": false,
+    "gear_rating_or_iso6336_workflow_added": false,
+    "reducer_selection_or_service_factor_added": false,
+    "coupling_selection_or_alignment_acceptance_added": false,
+    "bearing_life_selection_added": false,
+    "unknown_efficiency_inferred": false,
+    "transient_peak_torque_inferred_from_steady_power_speed": false,
+    "net_shaft_torque_silently_assigned_to_single_mesh": false,
+    "dynamic_state_solved_with_equilibrium_without_assumption": false,
+    "repair_or_operation_permission_unlocked": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+}
