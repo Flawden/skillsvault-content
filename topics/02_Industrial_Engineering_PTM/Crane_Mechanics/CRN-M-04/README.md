@@ -232,3 +232,16 @@ Status: `COMPLETE`.
 - predecessor content, D1 frozen tree and FROZEN_INDEX remain unchanged.
 
 Next: `CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze`.
+
+## D2 — Source Freshness v1
+
+Status: `COMPLETE / PASS_WITH_WATCHLIST`.
+- 10 source records revalidated on 2026-09-06; watchlist = 1 (ISO 14691 scope-limited companion);
+- OpenStax rotational-power/statics and KHK development references remain available;
+- ISO 6336-1:2019 remains current/confirmed and a hard rating boundary;
+- ГОСТ 31592-2012 and ГОСТ Р 50895-2025 remain active; ФНП №461 remains current through 2032-09-01;
+- no content-contract or source-gate correction is required;
+- predecessor D2 content, D1 frozen tree and FROZEN_INDEX remain byte-identical;
+- freeze/tag are not performed by this stage.
+
+Next: `CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history`.

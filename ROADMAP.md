@@ -1764,3 +1764,13 @@ Status: `COMPLETE`.
 - orphans=0; surprise BF=0; guard contradictions=0; content corrections required=NO;
 - all predecessor D2 content and all frozen history remain read-only.
 Next: `CRN-M-04 / D2 SOURCE FRESHNESS / v1 — revalidate current source editions/status and D2 derivation guards for P–T–ω, ratio/efficiency, mesh-force/reaction modelling, coupling/interface scope, ISO 6336 rating boundary, ISO 14691 watchlist and equipment-authority locks before D2 freeze`.
+
+## CRN-M-04 D2 Source Freshness v1
+
+Status: `COMPLETE / PASS_WITH_WATCHLIST`.
+- source records 10; watchlist 1; derivation guards revalidated;
+- content-contract change = NO; source-gate correction = NO; freeze-ready = YES;
+- ISO 6336 remains rating boundary; ISO 14691 remains scope-limited watchlist companion;
+- exact OEM/passport documentation remains required for real-equipment claims;
+- predecessor D2 artifacts, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
+Next: `CRN-M-04 / D2 FREEZE / v1 — create immutable D2 snapshot from the exact source-freshness commit, update FROZEN_INDEX, verify snapshot/source identity, create annotated tag crn-m-04-d2-v1, push commit and tag, and preserve CRN-M-04 D1 plus CRN-M-01/02/03 frozen history`.
