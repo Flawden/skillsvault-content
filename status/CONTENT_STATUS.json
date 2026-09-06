@@ -275,8 +275,8 @@
         "scope": "COMPLETE",
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
-        "editorial": "NEXT",
-        "red_team": "PENDING",
+        "editorial": "COMPLETE",
+        "red_team": "NEXT",
         "reader_experience_pass": "PENDING",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
@@ -310,11 +310,14 @@
         "status": "AUTHORING_COMPLETE",
         "version": "v1",
         "primary_sections": 16,
-        "technical_editorial_pass_I": "NEXT"
+        "technical_editorial_pass_I": "COMPLETE",
+        "red_team_pass_I": "NEXT",
+        "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
+        "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
       }
     }
   },
-  "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review",
+  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -333,28 +336,18 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/KICKOFF_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/AUTHORING_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/EDITORIAL_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/editorial/pass_I/v1/CRN-M-04_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
     "Treat CRN-M-04/D1/FROZEN_v1 and crn-m-04-d1-v1 as immutable prerequisite",
     "Continue from status.next"
   ],
   "current": {
-    "depths": {
-      "D1": {
-        "status": "FROZEN",
-        "tag": "crn-m-04-d1-v1"
-      },
-      "D2": {
-        "status": "ACTIVE",
-        "kickoff": "COMPLETE",
-        "scope": "LOCKED",
-        "source_gate": "PASS_WITH_DERIVATION_GUARDS",
-        "lesson": "COMPLETE",
-        "editorial": "NEXT"
-      }
-    }
+    "depths": [
+      "D2"
+    ],
+    "phase": "TECHNICAL_EDITORIAL_PASS_I_COMPLETE",
+    "topic": "CRN-M-04"
   },
   "crn_m04_d1_kickoff": {
     "status": "COMPLETE",
@@ -548,7 +541,18 @@
     "baseline_commit": "78bff4c704d3e394a6f8be9b2152843710e02a32",
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
-    "technical_editorial_pass_I": "NEXT",
-    "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review"
+    "technical_editorial_pass_I": "COMPLETE",
+    "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+  },
+  "crn_m04_d2_editorial": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "3653950efec958cb7a00da6e31f971a791877c3d",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10,
+    "corrections_applied": 10,
+    "red_team_pass_I": "NEXT",
+    "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
   }
 }

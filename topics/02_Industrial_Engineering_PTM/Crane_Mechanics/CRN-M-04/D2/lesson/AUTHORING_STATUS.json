@@ -27,11 +27,15 @@
     "d1_rating_acceptance_authority_locks_preserved": true
   },
   "technical_editorial_pass_I": {
-    "status": "NEXT",
-    "version": "v1"
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "3653950efec958cb7a00da6e31f971a791877c3d",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10
   },
   "red_team_pass_I": {
-    "status": "PENDING"
+    "status": "NEXT",
+    "version": "v1"
   },
   "reader_experience_pass_I": {
     "status": "PENDING"
@@ -43,5 +47,5 @@
   "final_alignment": "PENDING",
   "source_freshness": "PENDING",
   "freeze": "PENDING",
-  "next": "CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review"
+  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
 }

@@ -1680,3 +1680,14 @@ Status: `AUTHORING COMPLETE`.
 - ISO 6336 rating, reducer/coupling selection, alignment acceptance, bearing life, lubrication, repair and operation authority remain locked;
 - D1 frozen tree and FROZEN_INDEX remain unchanged.
 Next: `CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review`.
+
+## CRN-M-04 D2 Technical Editorial Pass I v1
+
+Status: `PASS WITH CORRECTIONS APPLIED`.
+- 10 technical corrections applied to the 16-section applied-mechanics lesson;
+- shaft/state/sign identity, efficiency direction and topology-sign guards tightened;
+- steady/quasi-steady demand separated from transient/peak demand;
+- mesh-force identity and equilibrium/reaction assumptions made explicit;
+- demand remains separate from rated capacity and permitted operation;
+- D1 frozen prerequisite, CRN-M-01/02/03 and FROZEN_INDEX remain unchanged.
+Next: `CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience`.

@@ -111,3 +111,20 @@ Required for real equipment claims involving:
 | `ΣF = 0`, `ΣM = 0` | explicit external statics model | bearing life/selection |
 
 **SOURCE MAP RESULT = PASS / DERIVATION GUARDS PRESERVED.**
+
+
+## Technical Editorial Pass I — added derivation guards
+
+The editorial pass preserves the same source roles and adds no new normative authority.
+
+- `P = T·ω` requires the same shaft/object state **and** one declared sign/power-flow convention; mixed shaft states or mixed sign conventions are invalid.
+- `T ≈ 9550·P_kW/n_rpm` requires mechanical shaft power, `n != 0`, and a stated steady/quasi-steady state; it does not reconstruct start/brake/shock/transient peak torque.
+- simple ratio magnitude does not transfer rotation sign across internal meshes, idlers, common shafts, planetary branches or other topology changes without a separate direction proof.
+- efficiency is directional/regime/boundary-specific; unknown reverse efficiency and incompatible stage efficiencies are not inferred.
+- `F_t = T_mesh/r = 2T_mesh/d` requires torque and radius/diameter from the same isolated gear/mesh side; net shaft torque is not silently assigned to one mesh.
+- `ΣF = 0`, `ΣM = 0` are equilibrium conditions; “quasi-static” use requires an explicit negligible-inertia assumption, otherwise dynamics remain outside the bounded statics model.
+- a planar support-reaction result is not the full 3D bearing reaction and is never bearing internal load/life/selection.
+- interface continuity does not by itself prove equal `P`, `T` or `n` across a coupling; transfer equality requires the stated topology and ideal/loss model.
+- steady/quasi-steady calculated demand remains distinct from transient/peak demand, rated capacity and permitted operation.
+
+**EDITORIAL GUARD RESULT = PASS / SAME SOURCE SCOPE PRESERVED.**

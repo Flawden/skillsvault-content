@@ -1,6 +1,15 @@
 {
   "topic": "CRN-M-04",
   "depth": "D2",
-  "status": "PENDING",
-  "next_pass": "TECHNICAL_EDITORIAL_PASS_I"
+  "status": "COMPLETE",
+  "pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "3653950efec958cb7a00da6e31f971a791877c3d",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "red_team": "NEXT",
+  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
 }

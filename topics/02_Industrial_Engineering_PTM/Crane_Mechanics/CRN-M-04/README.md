@@ -129,3 +129,19 @@ Status: `AUTHORING COMPLETE`.
 - calculated demand remains separate from rated capacity and equipment authority;
 - D1 frozen tree, `crn-m-04-d1-v1` and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 TECHNICAL EDITORIAL PASS I / v1 — adversarial technical review of the 16-section applied-mechanics lesson for topology, shaft identity, units, efficiency, ratio/sign, force/reaction boundaries, interface bookkeeping and demand-vs-capacity separation before red-team review`.
+
+## D2 Technical Editorial Pass I v1
+
+Status: `PASS WITH CORRECTIONS APPLIED`.
+- 10/10 technical findings fixed;
+- same-shaft/state plus sign/power-flow convention now guard `P=Tω`;
+- `9550` shortcut is nonzero-speed and steady/quasi-steady only;
+- ratio sign remains topology-specific;
+- efficiency is bound to flow direction/regime/boundary;
+- steady demand does not become transient/peak demand;
+- `F_t` requires same isolated gear/mesh identity;
+- equilibrium reactions require negligible-inertia assumption and retain planar/component scope;
+- interface continuity does not prove equality across a coupling;
+- gear rating, component selection, alignment/bearing acceptance and equipment authority remain locked;
+- D1 frozen tree and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience`.
