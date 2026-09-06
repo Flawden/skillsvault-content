@@ -281,7 +281,7 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "PENDING",
+        "verification_rubric": "COMPLETE",
         "final_alignment": "PENDING",
         "source_freshness": "PENDING",
         "freeze": "PENDING",
@@ -314,13 +314,14 @@
         "technical_editorial_pass_I": "COMPLETE",
         "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+        "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
         "reader_experience_pass_I": "COMPLETE",
         "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       },
       "practice": {
         "status": "COMPLETE",
@@ -328,9 +329,10 @@
         "cases": 10,
         "answer_key_embedded": false,
         "practice_reasoning": "COMPLETE",
-        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+        "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       },
       "practice_reasoning": {
         "status": "COMPLETE",
@@ -340,8 +342,9 @@
         "single_answer_key": false,
         "blocking_failure_families": 12,
         "expected_result": "COMPLETE",
-        "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
-        "verification_rubric": "NEXT"
+        "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       },
       "expected_result": {
         "status": "COMPLETE",
@@ -362,10 +365,44 @@
         "artifact": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/CRN-M-04_D2_EXPECTED_RESULT_v1.md",
         "alignment": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/EXPECTED_RESULT_ALIGNMENT_v1.md",
         "qa": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/EXPECTED_RESULT_QA_v1.json",
-        "verification_rubric": "NEXT",
+        "verification_rubric": "COMPLETE",
         "lesson_unchanged": true,
         "source_map_unchanged": true,
         "practice_unchanged": true,
+        "practice_reasoning_unchanged": true,
+        "d1_frozen_tree_unchanged": true,
+        "frozen_index_unchanged": true,
+        "rating_selection_acceptance_authority_locked": true,
+        "final_alignment": "NEXT",
+        "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness"
+      },
+      "verification_rubric": {
+        "status": "COMPLETE",
+        "version": "v1",
+        "baseline_commit": "c582aaeda83ac50908ac67da03d3fd0694006f5a",
+        "dimensions": 13,
+        "levels": 5,
+        "max_score": 52,
+        "blocking_failures": 12,
+        "severity_review_candidates": 1,
+        "verified_score_min": 39,
+        "robust_score_min": 47,
+        "known_case_required": true,
+        "unseen_u1_required": true,
+        "challenge_c1_required": true,
+        "blocking_failures_non_compensable_after_downstream_use": true,
+        "self_correction_before_downstream_use_not_automatic_bf": true,
+        "stop_or_evidence_request_can_be_success": true,
+        "robust_level4_dimensions": [
+          "ER-D2-02",
+          "ER-D2-07",
+          "ER-D2-09",
+          "ER-D2-11",
+          "ER-D2-12",
+          "ER-D2-13"
+        ],
+        "final_alignment": "NEXT",
+        "expected_result_unchanged": true,
         "practice_reasoning_unchanged": true,
         "d1_frozen_tree_unchanged": true,
         "frozen_index_unchanged": true,
@@ -373,7 +410,7 @@
       }
     }
   },
-  "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+  "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -392,11 +429,9 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice/v1/CRN-M-04_D2_PRACTICE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/practice_reasoning/v1/CRN-M-04_D2_PRACTICE_REASONING_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/expected_result/v1/CRN-M-04_D2_EXPECTED_RESULT_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/verification_rubric/v1/CRN-M-04_D2_VERIFICATION_RUBRIC_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/verification_rubric/v1/VERIFICATION_ALIGNMENT_v1.md",
     "Continue from status.next"
   ],
   "current": {
@@ -416,7 +451,8 @@
         "practice": "COMPLETE",
         "practice_reasoning": "COMPLETE",
         "expected_result": "COMPLETE",
-        "verification_rubric": "NEXT"
+        "verification_rubric": "COMPLETE",
+        "final_alignment": "NEXT"
       }
     }
   },
@@ -613,7 +649,7 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+    "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
     "red_team_pass_I": "COMPLETE",
     "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
     "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
@@ -626,7 +662,8 @@
     "practice_reasoning": "COMPLETE",
     "practice_reasoning_baseline_commit": "c5d17e053de105d1a2fbef919828fb576aed6580",
     "expected_result": "COMPLETE",
-    "verification_rubric": "NEXT"
+    "verification_rubric": "COMPLETE",
+    "final_alignment": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -681,9 +718,10 @@
     ],
     "worked_answer_key_embedded": false,
     "practice_reasoning": "COMPLETE",
-    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
+    "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
     "expected_result": "COMPLETE",
-    "verification_rubric": "NEXT"
+    "verification_rubric": "COMPLETE",
+    "final_alignment": "NEXT"
   },
   "crn_m04_d2_practice_reasoning": {
     "status": "COMPLETE",
@@ -694,8 +732,9 @@
     "single_answer_key": false,
     "multiple_valid_paths_explicit": true,
     "expected_result": "COMPLETE",
-    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks",
-    "verification_rubric": "NEXT"
+    "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
+    "verification_rubric": "COMPLETE",
+    "final_alignment": "NEXT"
   },
   "crn_m04_d2_expected_result": {
     "status": "COMPLETE",
@@ -711,7 +750,24 @@
     "candidate_blocking_failure_families": 12,
     "severity_review_candidates": 1,
     "rubric_classification_deferred": true,
-    "verification_rubric": "NEXT",
-    "next": "CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks"
+    "verification_rubric": "COMPLETE",
+    "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness",
+    "final_alignment": "NEXT"
+  },
+  "crn_m04_d2_verification_rubric": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "c582aaeda83ac50908ac67da03d3fd0694006f5a",
+    "dimensions": 13,
+    "max_score": 52,
+    "blocking_failures": 12,
+    "severity_review_candidates": 1,
+    "verified_score_min": 39,
+    "robust_score_min": 47,
+    "unseen_u1_required": true,
+    "challenge_c1_required": true,
+    "blocking_failures_non_compensable_after_downstream_use": true,
+    "final_alignment": "NEXT",
+    "next": "CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness"
   }
 }

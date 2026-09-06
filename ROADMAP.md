@@ -1745,3 +1745,13 @@ Status: `COMPLETE`.
 - correct bounded STOP / REQUEST DISCRIMINATING EVIDENCE can be a passing D2 outcome;
 - D2 lesson/practice stack, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
 Next: `CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks`.
+
+## CRN-M-04 D2 Verification Rubric v1
+
+Status: `COMPLETE`.
+- 13 ER dimensions × 0–4 = 52 max; VERIFIED >=39, ROBUST >=47;
+- BF-D2-01…12 are non-compensable after downstream-use trigger; SR-D2-01 remains severity-reviewed;
+- known Practice + unseen U1 + C1 evidence-status update required;
+- correct bounded STOP is positive evidence when model closure is genuinely missing;
+- D2 predecessor artifacts, D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain read-only.
+Next: `CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness`.

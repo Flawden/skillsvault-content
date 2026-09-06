@@ -209,3 +209,15 @@ Status: `COMPLETE`.
 - gear rating, selection/service-factor, alignment/bearing-life acceptance and equipment authority remain locked.
 
 Next: `CRN-M-04 / D2 VERIFICATION RUBRIC / v1 — score observable applied-mechanics transfer behaviors on known and unseen cases, classify candidate failure families, require U1 + C1 evidence and preserve bounded calculation/STOP plus rating, selection, acceptance and equipment-authority locks`.
+
+## D2 — Verification Rubric v1
+
+Status: `COMPLETE`.
+- 13 dimensions on a 0–4 scale; max 52; VERIFIED >=39, ROBUST >=47;
+- all ER-D2-01…13 must be >=3 for VERIFIED; known + U1 + C1 are mandatory;
+- all 12 Practice-Reasoning candidate families become non-compensable only after explicit downstream-use trigger;
+- SR-D2-01 (non-discriminating evidence request) remains severity-reviewed;
+- correct bounded STOP can pass; rating/selection/acceptance/equipment authority remain locked;
+- Expected Result, Practice Reasoning, D1 frozen tree and FROZEN_INDEX remain byte-identical.
+
+Next: `CRN-M-04 / D2 FINAL ALIGNMENT / v1 — trace Lesson, Practice, Reasoning, Expected Result and Verification Rubric end-to-end; close orphan competencies, blocking-failure provenance, U1/C1 coverage and guard contradictions before source freshness`.
