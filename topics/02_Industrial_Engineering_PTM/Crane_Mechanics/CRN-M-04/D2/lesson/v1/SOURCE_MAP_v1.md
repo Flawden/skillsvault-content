@@ -128,3 +128,20 @@ The editorial pass preserves the same source roles and adds no new normative aut
 - steady/quasi-steady calculated demand remains distinct from transient/peak demand, rated capacity and permitted operation.
 
 **EDITORIAL GUARD RESULT = PASS / SAME SOURCE SCOPE PRESERVED.**
+
+## Red Team Pass I — adversarial derivation guards
+
+Red Team adds no new normative authority. It attacks ways a learner could still obtain a plausible number while violating identity or model contracts.
+
+- positive `P=Tω` does not by itself establish forward power flow; axis/sign convention and boundary identity remain mandatory;
+- a formally nonzero but near-zero/poorly resolved speed does not make `P/n` a trustworthy torque estimate;
+- ratio values require an explicit numerator/denominator convention; reciprocal interpretation is not inferred;
+- an efficiency value is not portable across flow direction, regime or boundary merely because it lies in a plausible numeric range;
+- arbitrary reserve/service multipliers do not turn steady demand into transient demand or rated capacity;
+- same shaft does not make net shaft torque equal to one selected `T_mesh`;
+- equilibrium equations do not guarantee a unique reaction solution for a statically indeterminate model;
+- a negative calculated reaction is a sign-convention result until a contact/support model proves a physical separation or other event;
+- component connectivity does not prove equal `P`, `T` or `n` across a real coupling without the declared transfer model;
+- rounding, margin or “nearest larger catalog value” does not promote calculated demand to capacity, selection, acceptance or equipment authority.
+
+**RED TEAM GUARD RESULT = PASS WITH CORRECTIONS APPLIED / DERIVATION AND AUTHORITY LOCKS PRESERVED.**

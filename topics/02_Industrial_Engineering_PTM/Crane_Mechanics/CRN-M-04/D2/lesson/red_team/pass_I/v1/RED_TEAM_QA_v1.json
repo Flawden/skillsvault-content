@@ -1,0 +1,93 @@
+{
+  "artifact": "CRN-M-04_D2_RED_TEAM_PASS_I_v1",
+  "date": "2026-09-06",
+  "baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
+  "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+  "scope": {
+    "lesson_versions": 1,
+    "source_map_versions": 1,
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "findings": [
+    {
+      "id": "RT-D2-01",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "positive P=Tω could be misread as proof of forward power flow"
+    },
+    {
+      "id": "RT-D2-02",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "near-zero or poorly resolved speed could produce an unstable P/n torque claim"
+    },
+    {
+      "id": "RT-D2-03",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "ratio value could be silently inverted by an unstated input/output convention"
+    },
+    {
+      "id": "RT-D2-04",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "plausible efficiency could be borrowed across flow direction, regime or boundary"
+    },
+    {
+      "id": "RT-D2-05",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "arbitrary reserve or service multiplier could be invented to mimic transient demand or rating"
+    },
+    {
+      "id": "RT-D2-06",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "same-shaft identity could still be promoted to single-mesh torque identity"
+    },
+    {
+      "id": "RT-D2-07",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "equilibrium equations could be treated as a unique solution for a statically indeterminate support model"
+    },
+    {
+      "id": "RT-D2-08",
+      "severity": "MEDIUM_HIGH",
+      "status": "FIXED",
+      "topic": "negative reaction sign could be over-interpreted as contact loss or equipment fault"
+    },
+    {
+      "id": "RT-D2-09",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "mechanical connectivity could be promoted to equal P/T/n across a real coupling"
+    },
+    {
+      "id": "RT-D2-10",
+      "severity": "HIGH",
+      "status": "FIXED",
+      "topic": "rounding or margin could leak calculated demand into rated capacity, selection or operation authority"
+    }
+  ],
+  "guards": {
+    "crn_m01_m02_m03_frozen_modified": false,
+    "d1_frozen_tree_modified": false,
+    "frozen_index_modified": false,
+    "gear_rating_or_iso6336_workflow_added": false,
+    "reducer_selection_or_service_factor_invented": false,
+    "coupling_selection_or_alignment_acceptance_added": false,
+    "bearing_life_selection_added": false,
+    "unknown_or_reverse_efficiency_inferred": false,
+    "transient_peak_torque_inferred_from_steady_power_speed": false,
+    "net_shaft_torque_silently_assigned_to_single_mesh": false,
+    "statically_indeterminate_reactions_solved_without_extra_relations": false,
+    "negative_reaction_promoted_to_fault_without_contact_model": false,
+    "connectivity_promoted_to_cross_coupling_equality": false,
+    "calculated_demand_promoted_to_capacity_or_operation_authority": false,
+    "claim_lock_preserved": true,
+    "source_map_updated": true
+  },
+  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
+}

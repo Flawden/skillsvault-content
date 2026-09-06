@@ -276,8 +276,8 @@
         "source_gate": "COMPLETE",
         "lesson": "COMPLETE",
         "editorial": "COMPLETE",
-        "red_team": "NEXT",
-        "reader_experience_pass": "PENDING",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT",
         "practice": "PENDING",
         "practice_reasoning": "PENDING",
         "expected_result": "PENDING",
@@ -311,13 +311,15 @@
         "version": "v1",
         "primary_sections": 16,
         "technical_editorial_pass_I": "COMPLETE",
-        "red_team_pass_I": "NEXT",
+        "red_team_pass_I": "COMPLETE",
         "editorial_decision": "PASS_WITH_CORRECTIONS_APPLIED",
-        "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+        "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
+        "reader_experience_pass_I": "NEXT",
+        "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED"
       }
     }
   },
-  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience",
+  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -336,18 +338,28 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/AUTHORING_STATUS.json",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/EDITORIAL_STATUS.json",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/CRN-M-04_D2_LESSON_v1.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/editorial/pass_I/v1/CRN-M-04_D2_TECHNICAL_EDITORIAL_PASS_I_v1.md",
-    "Treat CRN-M-04/D1/FROZEN_v1 and crn-m-04-d1-v1 as immutable prerequisite",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/red_team/pass_I/v1/CRN-M-04_D2_RED_TEAM_PASS_I_v1.md",
     "Continue from status.next"
   ],
   "current": {
-    "depths": [
-      "D2"
-    ],
-    "phase": "TECHNICAL_EDITORIAL_PASS_I_COMPLETE",
-    "topic": "CRN-M-04"
+    "depths": {
+      "D1": {
+        "status": "FROZEN"
+      },
+      "D2": {
+        "status": "ACTIVE",
+        "kickoff": "COMPLETE",
+        "scope": "LOCKED",
+        "source_gate": "PASS_WITH_DERIVATION_GUARDS",
+        "lesson": "COMPLETE",
+        "editorial": "COMPLETE",
+        "red_team": "COMPLETE",
+        "reader_experience_pass": "NEXT"
+      }
+    }
   },
   "crn_m04_d1_kickoff": {
     "status": "COMPLETE",
@@ -542,7 +554,11 @@
     "primary_sections": 16,
     "source_gate": "PASS_WITH_DERIVATION_GUARDS",
     "technical_editorial_pass_I": "COMPLETE",
-    "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+    "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
+    "red_team_pass_I": "COMPLETE",
+    "red_team_decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "red_team_baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
+    "reader_experience_pass_I": "NEXT"
   },
   "crn_m04_d2_editorial": {
     "status": "COMPLETE",
@@ -554,5 +570,16 @@
     "corrections_applied": 10,
     "red_team_pass_I": "NEXT",
     "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+  },
+  "crn_m04_d2_red_team": {
+    "status": "COMPLETE",
+    "pass": "I",
+    "version": "v1",
+    "baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10,
+    "corrections_applied": 10,
+    "reader_experience_pass_I": "NEXT",
+    "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
   }
 }

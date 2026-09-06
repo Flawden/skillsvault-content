@@ -10,6 +10,7 @@
     "findings": 10,
     "corrections_applied": 10
   },
-  "red_team": "NEXT",
-  "next": "CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience"
+  "red_team": "COMPLETE",
+  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice",
+  "reader_experience_pass": "NEXT"
 }

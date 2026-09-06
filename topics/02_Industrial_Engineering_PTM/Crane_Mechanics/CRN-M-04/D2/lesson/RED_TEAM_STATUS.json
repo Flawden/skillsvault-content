@@ -1,5 +1,15 @@
 {
   "topic": "CRN-M-04",
   "depth": "D2",
-  "status": "PENDING"
+  "status": "COMPLETE",
+  "pass_I": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "6ab0042fd3fc9941772b9e75a5c89df34f0ea6dc",
+    "decision": "PASS_WITH_CORRECTIONS_APPLIED",
+    "findings": 10,
+    "corrections_applied": 10
+  },
+  "reader_experience": "NEXT",
+  "next": "CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice"
 }

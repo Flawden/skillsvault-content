@@ -145,3 +145,20 @@ Status: `PASS WITH CORRECTIONS APPLIED`.
 - gear rating, component selection, alignment/bearing acceptance and equipment authority remain locked;
 - D1 frozen tree and FROZEN_INDEX remain immutable.
 Next: `CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience`.
+
+## D2 Red Team Pass I v1
+
+Status: `PASS WITH CORRECTIONS APPLIED`.
+- 10/10 adversarial findings fixed across the 16-section applied-mechanics lesson;
+- positive power sign cannot become proof of flow direction without one convention;
+- near-zero speed cannot become a trustworthy P/n torque claim by algebra alone;
+- ratio numerator/denominator convention is explicit; reciprocal interpretation is blocked;
+- efficiency cannot migrate across flow direction/regime/boundary;
+- arbitrary reserve/service factors cannot manufacture transient demand or rating;
+- same shaft cannot become single-mesh torque identity;
+- equilibrium does not guarantee unique reactions for statically indeterminate models;
+- negative reaction sign cannot become a fault/contact-loss verdict;
+- connectivity across a coupling cannot become equality of P/T/n without a transfer model;
+- rounding/margin/catalog proximity cannot become capacity, selection, acceptance or operation authority;
+- D1 frozen tree and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice`.

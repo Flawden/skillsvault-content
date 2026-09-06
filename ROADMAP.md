@@ -1691,3 +1691,17 @@ Status: `PASS WITH CORRECTIONS APPLIED`.
 - demand remains separate from rated capacity and permitted operation;
 - D1 frozen prerequisite, CRN-M-01/02/03 and FROZEN_INDEX remain unchanged.
 Next: `CRN-M-04 / D2 RED TEAM / PASS I / v1 — adversarial challenge of shaft/power identity, ratio/sign topology, efficiency direction, steady-vs-transient demand, mesh-force identity, equilibrium/reaction assumptions, interface bookkeeping and demand-to-capacity or equipment-authority leakage before reader experience`.
+
+## CRN-M-04 D2 Red Team Pass I v1
+
+Decision: `PASS WITH CORRECTIONS APPLIED`.
+- 10/10 adversarial derivation/authority traps fixed;
+- shaft/state/sign/power-flow identity remains mandatory;
+- ratio reciprocal, near-zero speed and borrowed-efficiency traps are blocked;
+- steady demand cannot become transient demand through invented reserve/service multipliers;
+- same-shaft/net torque cannot become single-mesh torque without a torque balance;
+- equilibrium requires determinacy; negative reaction sign is not a fault verdict;
+- component connectivity does not prove cross-coupling equality;
+- calculated demand, rounding and catalog proximity never become capacity or equipment authority;
+- D1 frozen tree, CRN-M-01/02/03 and FROZEN_INDEX remain immutable.
+Next: `CRN-M-04 / D2 READER EXPERIENCE PASS / PASS I / v1 — improve narrative flow, retrieval cues and cognitive load without weakening D2 topology/identity/derivation, steady-vs-transient, force/reaction, demand-capacity and equipment-authority guards before practice`.
