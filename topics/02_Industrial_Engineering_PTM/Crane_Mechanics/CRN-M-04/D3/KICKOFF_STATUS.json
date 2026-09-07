@@ -1,0 +1,17 @@
+{
+  "topic": "CRN-M-04",
+  "depth": "D3",
+  "stage": "CONTENT_KICKOFF",
+  "version": "v1",
+  "status": "COMPLETE",
+  "date": "2026-09-06",
+  "baseline_commit": "5fbdd05d891f2e8709bb8b1bcb508c70a5cec660",
+  "decision": "PASS_WITH_DIAGNOSTIC_GUARDS_AND_WATCHLIST",
+  "source_records": 12,
+  "watchlist": 3,
+  "scope": "LOCKED",
+  "lesson_authoring": "NEXT",
+  "d1_d2_frozen_unchanged": true,
+  "frozen_index_unchanged": true,
+  "next": "CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority"
+}

@@ -1790,3 +1790,14 @@ Decision: `CONTENT FROZEN`.
 - tag contract: `crn-m-04-d2-v1`.
 
 Next: `CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries`.
+
+## CRN-M-04 D3 Content Kickoff v1
+
+Status: `COMPLETE`.
+- scope: causal-diagnostic reasoning only;
+- source gate: PASS WITH DIAGNOSTIC GUARDS AND WATCHLIST;
+- source records 12; watchlist 3;
+- frozen D1/D2 and FROZEN_INDEX remain read-only;
+- Lesson Authoring is unlocked; repair/operation authority is not.
+
+Next: `CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority`.

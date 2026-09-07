@@ -479,9 +479,38 @@
         "prerequisite_tag": "crn-m-04-d1-v1",
         "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries"
       }
+    },
+    "D3": {
+      "status": "ACTIVE",
+      "kickoff": "COMPLETE",
+      "scope": "LOCKED",
+      "source_gate": "PASS_WITH_DIAGNOSTIC_GUARDS_AND_WATCHLIST",
+      "source_records": 12,
+      "watchlist": 3,
+      "pipeline": {
+        "scope": "COMPLETE",
+        "source_gate": "COMPLETE",
+        "lesson": "PENDING",
+        "editorial": "PENDING",
+        "red_team": "PENDING",
+        "reader_experience_pass": "PENDING",
+        "practice": "PENDING",
+        "practice_reasoning": "PENDING",
+        "expected_result": "PENDING",
+        "verification_rubric": "PENDING",
+        "final_alignment": "PENDING",
+        "source_freshness": "PENDING",
+        "freeze": "PENDING"
+      },
+      "lesson": {
+        "status": "PENDING",
+        "authoring": "NEXT",
+        "next": "CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority"
+      },
+      "next": "CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority"
     }
   },
-  "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries",
+  "next": "CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority",
   "reader_experience_pass": {
     "required": true,
     "position": "AFTER_RED_TEAM_BEFORE_PRACTICE"
@@ -500,10 +529,9 @@
     "Read status/CONTENT_STATUS.json",
     "Read ROADMAP.md",
     "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/README.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/kickoff/v1/SOURCE_GATE_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/lesson/v1/SOURCE_MAP_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/final_alignment/v1/CRN-M-04_D2_FINAL_ALIGNMENT_v1.md",
-    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/source_freshness/v1/CRN-M-04_D2_SOURCE_FRESHNESS_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D3/kickoff/v1/D3_SCOPE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D3/kickoff/v1/SOURCE_GATE_v1.md",
+    "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D3/kickoff/v1/SOURCE_INVENTORY_v1.json",
     "Continue from status.next"
   ],
   "current": {
@@ -517,6 +545,13 @@
         "tag": "crn-m-04-d2-v1",
         "source_baseline_commit": "380e4831214b1a09d661ce4657fccde22248842e",
         "path": "topics/02_Industrial_Engineering_PTM/Crane_Mechanics/CRN-M-04/D2/FROZEN_v1"
+      },
+      "D3": {
+        "status": "ACTIVE",
+        "kickoff": "COMPLETE",
+        "scope": "LOCKED",
+        "source_gate": "PASS_WITH_DIAGNOSTIC_GUARDS_AND_WATCHLIST",
+        "lesson": "NEXT"
       }
     }
   },
@@ -891,5 +926,17 @@
     "artifact_integrity": "PASS",
     "prerequisite_tag": "crn-m-04-d1-v1",
     "next": "CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries"
+  },
+  "crn_m04_d3_kickoff": {
+    "status": "COMPLETE",
+    "version": "v1",
+    "baseline_commit": "5fbdd05d891f2e8709bb8b1bcb508c70a5cec660",
+    "decision": "PASS_WITH_DIAGNOSTIC_GUARDS_AND_WATCHLIST",
+    "source_records": 12,
+    "watchlist": 3,
+    "d1_d2_frozen_unchanged": true,
+    "frozen_index_unchanged": true,
+    "lesson_authoring": "NEXT",
+    "next": "CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority"
   }
 }

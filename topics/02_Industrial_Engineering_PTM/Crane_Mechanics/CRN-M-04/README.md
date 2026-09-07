@@ -259,3 +259,13 @@ Status: `CONTENT_FROZEN`.
 - D2 applied-mechanics and authority guards are immutable in v1.
 
 Next: `CRN-M-04 / D3 CONTENT KICKOFF / v1 — define causal-diagnostic mechanics and evidence scope/source gate for reducer/coupling state reconstruction, hypothesis update and discriminating evidence while preserving D1/D2 frozen mechanics, rating, selection, acceptance, repair and equipment-operation authority boundaries`.
+
+## D3 — Content Kickoff v1
+
+Status: `COMPLETE / PASS_WITH_DIAGNOSTIC_GUARDS_AND_WATCHLIST`.
+- D1/D2 frozen prerequisites remain immutable;
+- D3 unlocks state/history reconstruction, evidence validity, competing hypotheses, predicted observations, discriminating evidence and qualitative hypothesis update;
+- 12 source records; watchlist 3;
+- single-symptom root-cause certainty, generic acceptance thresholds, rating/selection/alignment/bearing-life, repair and equipment-operation authority remain locked.
+
+Next: `CRN-M-04 / D3 LESSON AUTHORING / v1 — build causal-diagnostic reasoning for reducer/coupling state/history reconstruction, competing hypotheses, predicted observations, discriminating evidence and hypothesis update without converting evidence into unsupported fault certainty, repair or equipment-operation authority`.
